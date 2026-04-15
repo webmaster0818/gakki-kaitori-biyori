@@ -32,11 +32,14 @@ const services = [
 
 const instrumentCategories = [
   { name: "ギター", icon: "🎸", href: "/articles/guitar-kaitori/", desc: "エレキ・アコギ・クラシック" },
+  { name: "ベース", icon: "🎸", href: "/articles/bass-kaitori/", desc: "エレキベース・ウッドベース" },
   { name: "ピアノ", icon: "🎹", href: "/articles/piano-kaitori/", desc: "グランド・アップライト" },
   { name: "電子ピアノ", icon: "🎹", href: "/articles/denshi-piano-kaitori/", desc: "YAMAHA・Roland・KAWAI" },
-  { name: "ベース", icon: "🎸", href: "/articles/guitar-kaitori/", desc: "エレキベース・ウッドベース" },
-  { name: "管楽器", icon: "🎺", href: "/articles/kaitori-houhou-hikaku/", desc: "サックス・トランペット等" },
-  { name: "ドラム", icon: "🥁", href: "/articles/kaitori-houhou-hikaku/", desc: "電子ドラム・アコースティック" },
+  { name: "管楽器", icon: "🎺", href: "/articles/saxophone-kaitori/", desc: "サックス・トランペット等" },
+  { name: "弦楽器", icon: "🎻", href: "/articles/violin-kaitori/", desc: "バイオリン・チェロ等" },
+  { name: "ドラム", icon: "🥁", href: "/articles/drum-kaitori/", desc: "電子ドラム・アコースティック" },
+  { name: "キーボード", icon: "🎹", href: "/articles/keyboard-kaitori/", desc: "シンセサイザー・ステージピアノ" },
+  { name: "相場一覧", icon: "📊", href: "/articles/souba-ichiran/", desc: "全楽器の買取相場まとめ" },
 ];
 
 const faqs = [

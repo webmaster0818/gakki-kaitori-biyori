@@ -357,9 +357,17 @@ export default function DenshiPianoKaitoriPage() {
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ピアノ買取</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ピアノ買取おすすめ3社比較</h3>
             </Link>
+            <Link href="/articles/keyboard-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">キーボード買取</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">キーボード・シンセ買取おすすめ</h3>
+            </Link>
             <Link href="/articles/kaitori-houhou-hikaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">買取方法</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">買取方法比較ガイド</h3>
+            </Link>
+            <Link href="/articles/souba-ichiran/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">相場一覧</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器買取相場一覧まとめ</h3>
             </Link>
           </div>
         </aside>
