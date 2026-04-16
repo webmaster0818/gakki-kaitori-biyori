@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツ",
-    datePublished: "2026-04-13",
-    dateModified: "2026-04-13",
+    datePublished: "2026-04-16",
+    dateModified: "2026-04-16",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -103,7 +103,7 @@ export default function SaxophoneKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             サックスや管楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、サックス・管楽器買取の人気3サービスを徹底比較し、アルトサックス・テナーサックス・ソプラノサックス・バリトンサックスの買取相場に加え、トランペット・トロンボーン・フルート・クラリネットなど管楽器全般の相場、ブランド別の相場目安、メンテナンス状態が査定に与える影響、そして高く売るためのコツを詳しく解説します。管楽器は状態が査定額を大きく左右するため、適切な準備が重要です。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月13日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

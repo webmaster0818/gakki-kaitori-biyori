@@ -39,6 +39,12 @@ const instrumentCategories = [
   { name: "弦楽器", icon: "🎻", href: "/articles/violin-kaitori/", desc: "バイオリン・チェロ等" },
   { name: "ドラム", icon: "🥁", href: "/articles/drum-kaitori/", desc: "電子ドラム・アコースティック" },
   { name: "キーボード", icon: "🎹", href: "/articles/keyboard-kaitori/", desc: "シンセサイザー・ステージピアノ" },
+  { name: "Gibson", icon: "🎸", href: "/articles/gibson-kaitori/", desc: "Les Paul・SG・ES-335" },
+  { name: "Fender", icon: "🎸", href: "/articles/fender-kaitori/", desc: "ストラト・テレキャス" },
+  { name: "YAMAHA", icon: "🎵", href: "/articles/yamaha-kaitori/", desc: "ピアノ・ギター・管楽器" },
+  { name: "東京エリア", icon: "🗼", href: "/articles/tokyo-gakki-kaitori/", desc: "東京の楽器買取おすすめ" },
+  { name: "大阪エリア", icon: "🏯", href: "/articles/osaka-gakki-kaitori/", desc: "大阪の楽器買取おすすめ" },
+  { name: "壊れた楽器", icon: "🔧", href: "/articles/kowareta-gakki-kaitori/", desc: "ジャンク品・古い楽器" },
   { name: "相場一覧", icon: "📊", href: "/articles/souba-ichiran/", desc: "全楽器の買取相場まとめ" },
 ];
 

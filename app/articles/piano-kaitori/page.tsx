@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】ピアノ買取おすすめ3社比較｜グランド・アップライト相場",
-    datePublished: "2026-04-13",
-    dateModified: "2026-04-13",
+    datePublished: "2026-04-16",
+    dateModified: "2026-04-16",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -102,7 +102,7 @@ export default function PianoKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ピアノを売りたいけど、大きくて運べない、相場がわからない、どこに頼めばいいかわからない。そんな悩みを解決します。本記事では、ピアノ買取の人気3サービスを比較し、グランドピアノ・アップライトピアノ・電子ピアノそれぞれの買取相場から高く売るコツまで解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月13日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

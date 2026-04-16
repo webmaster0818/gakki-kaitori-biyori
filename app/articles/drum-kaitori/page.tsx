@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】ドラム買取おすすめ3社比較｜相場・高く売るコツ",
-    datePublished: "2026-04-13",
-    dateModified: "2026-04-13",
+    datePublished: "2026-04-16",
+    dateModified: "2026-04-16",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -102,7 +102,7 @@ export default function DrumKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ドラムセットや電子ドラムを売りたいけど、大きくて持ち運びが大変、どこに売ればいいかわからないという方へ。本記事では、ドラム買取の人気3サービスを徹底比較し、アコースティックドラム・電子ドラム・シンバル単品の買取相場、Pearl・TAMA・DW・Roland・YAMAHAなどブランド別の相場目安、パーツ単品での売却可否、そして出張買取がおすすめな理由を詳しく解説します。ドラムは楽器の中でも特に大型で重いため、売却方法の選び方が重要です。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月13日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

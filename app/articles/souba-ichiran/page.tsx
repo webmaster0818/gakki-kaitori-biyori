@@ -70,8 +70,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】楽器買取相場一覧｜全カテゴリの相場まとめ",
-    datePublished: "2026-04-13",
-    dateModified: "2026-04-13",
+    datePublished: "2026-04-16",
+    dateModified: "2026-04-16",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -100,7 +100,7 @@ export default function SoubaIchiranPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             楽器を売りたいけど、自分の楽器がいくらで売れるのかわからない方へ。本記事では、ギター・ベース・ピアノ・電子ピアノ・管楽器（サックス・トランペット等）・弦楽器（バイオリン・チェロ等）・ドラム・キーボード/シンセサイザーの全カテゴリについて、代表的なブランド・モデルの買取価格レンジを一覧でまとめました。相場を左右する5つの要因も解説しているので、売却前の参考にしてください。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月13日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
