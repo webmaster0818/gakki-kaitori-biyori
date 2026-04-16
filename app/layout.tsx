@@ -20,7 +20,7 @@ const zenMaruGothic = Zen_Maru_Gothic({
 });
 
 const SITE_NAME = "楽器買取びより";
-const SITE_URL = "https://gakki-kaitori-biyori.com";
+const SITE_URL = "https://gakkikaitori-biyori.com";
 const SITE_DESCRIPTION =
   "楽器買取びよりは、ギター・ピアノ・管楽器などの楽器買取を徹底比較するガイドサイトです。ヒカカク！・ティファナ・ウリエルなど人気買取サービスを比較し、あなたの楽器を最高値で売る方法が見つかります。";
 

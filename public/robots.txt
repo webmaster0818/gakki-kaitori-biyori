@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gakki-kaitori-biyori.com/sitemap.xml
+Sitemap: https://gakkikaitori-biyori.com/sitemap.xml
