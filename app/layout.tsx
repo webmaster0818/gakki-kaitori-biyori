@@ -257,8 +257,11 @@ function Footer() {
             <p className="font-bold text-sm mb-3">サイト情報</p>
             <ul className="space-y-2 text-sm text-white/70">
               <li>
-                <Link href="/about/" className="hover:text-white transition-colors">
-                  運営者情報
+                <Link
+                  href="/terms-of-service/"
+                  className="hover:text-white transition-colors"
+                >
+                  利用規約
                 </Link>
               </li>
               <li>
@@ -271,10 +274,10 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  href="/terms-of-service/"
+                  href="/content-policy/"
                   className="hover:text-white transition-colors"
                 >
-                  利用規約
+                  記事制作ポリシー
                 </Link>
               </li>
             </ul>
