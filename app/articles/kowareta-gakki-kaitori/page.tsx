@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】壊れた楽器・古い楽器の買取｜ジャンク品でも売れる？",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -102,7 +102,7 @@ export default function KowaretaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             「壊れているから売れないだろう」と諦めていませんか？実は、ネック折れ・音が出ない・キズだらけの楽器でも買い取ってもらえるケースは多いのです。本記事では、壊れた楽器・古い楽器・ジャンク品が売れる理由、楽器別の買取相場、おすすめ業者3社を徹底解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -114,6 +114,7 @@ export default function KowaretaGakkiKaitoriPage() {
             <li><a href="#comparison" className="hover:underline">おすすめ買取業者3社比較</a></li>
             <li><a href="#tips" className="hover:underline">壊れた楽器を少しでも高く売るコツ</a></li>
             <li><a href="#ng" className="hover:underline">買取不可になるケース</a></li>
+            <li><a href="#flow" className="hover:underline">壊れた楽器の買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -289,6 +290,30 @@ export default function KowaretaGakkiKaitoriPage() {
           </ul>
 
           <p>ただし、これらの基準は業者によって異なるため、<strong>諦める前にまずは査定に出してみること</strong>をおすすめします。ヒカカク！なら無料で複数業者に一括査定依頼ができます。</p>
+
+          {/* 買取の流れ */}
+          <h2 id="flow">壊れた楽器の買取の流れ</h2>
+
+          <p>壊れた楽器やジャンク品でも、通常の楽器と同じ流れで買取に出せます。特別な手続きは不要です。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">破損状態を正直に伝えて査定申し込み</h3><p className="text-sm text-warm-gray">「ネックが折れている」「音が出ない」「鍵盤が動かない」など、破損状態を具体的に伝えましょう。写真を添えるとより正確な仮査定額が出ます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">複数社の見積もりを比較</h3><p className="text-sm text-warm-gray">ジャンク品は業者によって評価が大きく異なります。ヒカカク！で一括査定し、壊れた楽器の買取に強い業者を見つけましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物確認で修理可能かどうかを判断。パーツ取りとしての価値もあるため、壊れていても0円にはならないことが多いです。</p></div>
+            </div>
+          </div>
+
+          <p>壊れた楽器を<strong>捨てる前に必ず査定に出しましょう</strong>。処分費用がかかる大型楽器（ピアノ、ドラムセットなど）の場合、買い取ってもらえるだけでも大きなメリットです。</p>
+
+          <CtaBox />
 
           <h2 id="faq">壊れた楽器の買取に関するよくある質問</h2>
 

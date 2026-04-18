@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】ドラム買取おすすめ3社比較｜相場・高く売るコツ",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -102,7 +102,7 @@ export default function DrumKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ドラムセットや電子ドラムを売りたいけど、大きくて持ち運びが大変、どこに売ればいいかわからないという方へ。本記事では、ドラム買取の人気3サービスを徹底比較し、アコースティックドラム・電子ドラム・シンバル単品の買取相場、Pearl・TAMA・DW・Roland・YAMAHAなどブランド別の相場目安、パーツ単品での売却可否、そして出張買取がおすすめな理由を詳しく解説します。ドラムは楽器の中でも特に大型で重いため、売却方法の選び方が重要です。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -114,6 +114,7 @@ export default function DrumKaitoriPage() {
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#brand-price" className="hover:underline">ブランド別買取相場</a></li>
             <li><a href="#delivery" className="hover:underline">出張買取がおすすめな理由</a></li>
+            <li><a href="#flow" className="hover:underline">ドラム買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -351,6 +352,32 @@ export default function DrumKaitoriPage() {
           <h3>理由4: 複数のパーツ・機材をまとめて売却できる</h3>
 
           <p>ドラムセット本体に加えて、予備のスネア、シンバル、スタンド、ドラムスローン（椅子）、スティックケースなど、関連機材をまとめて売ることができます。バンドの解散や機材の入れ替えで大量に処分したい場合に最適です。</p>
+
+          <CtaBox />
+
+          {/* 買取の流れ */}
+          <h2 id="flow">ドラム買取の流れ ── 大型楽器をスムーズに売却</h2>
+
+          <p>ドラムセットは分解・運搬が必要な大型楽器です。買取の流れを把握しておくとスムーズに進められます。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">査定申し込み</h3><p className="text-sm text-warm-gray">ドラムセットの構成（シェルのサイズ・枚数、シンバルの種類・枚数）、ブランド名、状態を伝えます。写真を撮って送ると正確な見積もりが出ます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">出張日時の調整</h3><p className="text-sm text-warm-gray">ドラムは出張買取が基本。ウリエルなら最短即日で対応可能です。搬出経路（玄関の広さ、階段の有無）を事前に伝えましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">訪問査定・分解・搬出</h3><p className="text-sm text-warm-gray">査定士が訪問して実物を確認。買取成立後、スタッフがドラムを分解・梱包して搬出します。分解作業はすべて業者が対応します。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">その場で現金支払い</h3><p className="text-sm text-warm-gray">出張買取ならその場で現金化が可能。引っ越し前や練習スタジオの解約前など、急ぎの場合にも対応できます。</p></div>
+            </div>
+          </div>
 
           <CtaBox />
 

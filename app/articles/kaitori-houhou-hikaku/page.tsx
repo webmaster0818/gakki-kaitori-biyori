@@ -61,8 +61,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年版】楽器の買取方法4つを徹底比較",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -91,7 +91,7 @@ export default function KaitoriHouhouHikakuPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             楽器を売りたいけど、どの方法で売ればいいかわからない方へ。一括査定・出張買取・店頭買取・宅配買取の4つの方法を、メリット・デメリットを含めて徹底比較。楽器の種類や状況別のおすすめ方法と、3社の対応表もまとめました。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -381,12 +381,28 @@ export default function KaitoriHouhouHikakuPage() {
           <h2 className="font-display text-lg font-bold mb-4">関連記事</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">売却ガイド</span>
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
             </Link>
             <Link href="/articles/guitar-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ギター買取</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ギター買取おすすめ3社比較</h3>
+            </Link>
+            <Link href="/articles/piano-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ピアノ買取</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ピアノ買取おすすめ3社比較</h3>
+            </Link>
+            <Link href="/articles/souba-ichiran/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">相場一覧</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器買取相場一覧まとめ</h3>
+            </Link>
+            <Link href="/articles/tokyo-gakki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">東京</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">東京の楽器買取おすすめ</h3>
+            </Link>
+            <Link href="/articles/osaka-gakki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">大阪</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">大阪の楽器買取おすすめ</h3>
             </Link>
           </div>
         </aside>

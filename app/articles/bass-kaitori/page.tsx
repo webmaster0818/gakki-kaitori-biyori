@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -103,7 +103,7 @@ export default function BassKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             エレキベースやアコースティックベースを売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、ベース買取の人気3サービスを徹底比較し、エレキベース・アコースティックベース・アップライトベースの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。ベースはギターと比べて中古市場の流通量が少ないため、業者選びが買取価格を大きく左右します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         {/* Table of Contents */}
@@ -113,6 +113,7 @@ export default function BassKaitoriPage() {
             <li><a href="#market-price" className="hover:underline">ベース買取相場（種類別）</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#brand-price" className="hover:underline">ブランド別買取相場</a></li>
+            <li><a href="#flow" className="hover:underline">ベース買取の流れ</a></li>
             <li><a href="#tips" className="hover:underline">ベースを高く売る3つのコツ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
@@ -318,6 +319,32 @@ export default function BassKaitoriPage() {
 
           <CtaBox />
 
+          {/* 買取の流れ */}
+          <h2 id="flow">ベース買取の流れ ── 申し込みから入金まで</h2>
+
+          <p>ベースを売るのが初めての方でも安心。買取の一般的な流れを4ステップで解説します。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">Web・電話で査定申し込み</h3><p className="text-sm text-warm-gray">ブランド名・モデル名・年式・状態を伝えます。ヒカカク！なら一括査定フォームから複数社に同時に依頼可能です。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">仮査定（概算見積もり）</h3><p className="text-sm text-warm-gray">写真や情報をもとに概算額が提示されます。複数社の見積もりを比較して、最も高い業者を選びましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定（実物確認）</h3><p className="text-sm text-warm-gray">出張・宅配・店頭のいずれかで実物を査定。ネックの反り、フレットの状態、電装系の動作を確認し、正式な買取額が決まります。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・現金受け取り</h3><p className="text-sm text-warm-gray">金額に納得したら買取成立。出張・店頭ならその場で現金、宅配なら1〜3営業日で銀行振込されます。</p></div>
+            </div>
+          </div>
+
+          <CtaBox />
+
           {/* Section 4: 高く売るコツ */}
           <h2 id="tips">ベースを高く売るための3つのコツ</h2>
 
@@ -440,17 +467,25 @@ export default function BassKaitoriPage() {
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ギター買取</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ギター買取おすすめ3社比較</h3>
             </Link>
+            <Link href="/articles/fender-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">Fender買取</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">Fender買取相場・おすすめ業者</h3>
+            </Link>
+            <Link href="/articles/gibson-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">Gibson買取</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">Gibson買取相場・おすすめ業者</h3>
+            </Link>
             <Link href="/articles/souba-ichiran/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">相場一覧</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器買取相場一覧まとめ</h3>
             </Link>
             <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">売却ガイド</span>
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
             </Link>
-            <Link href="/articles/keyboard-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">キーボード買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">キーボード・シンセサイザー買取おすすめ</h3>
+            <Link href="/articles/kowareta-gakki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">壊れた楽器</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">壊れた楽器・ジャンク品の買取</h3>
             </Link>
           </div>
         </aside>

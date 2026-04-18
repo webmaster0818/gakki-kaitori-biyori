@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場ガイド",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -103,7 +103,7 @@ export default function KeyboardKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             キーボードやシンセサイザーを売りたいけど、適正価格がわからない方へ。本記事では、キーボード・シンセサイザー買取の人気3サービスを徹底比較し、ステージピアノ・ワークステーション・アナログシンセの買取相場、デジタルピアノとの違い、KORG・Roland・YAMAHA・Nord・Moogなどブランド別の相場目安、そしてビンテージシンセの驚くべき価値について詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -114,6 +114,7 @@ export default function KeyboardKaitoriPage() {
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#brand-price" className="hover:underline">ブランド別買取相場</a></li>
             <li><a href="#vintage" className="hover:underline">ビンテージシンセの価値</a></li>
+            <li><a href="#flow" className="hover:underline">キーボード買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -365,6 +366,32 @@ export default function KeyboardKaitoriPage() {
             <li>オリジナルのパーツが残っているか（改造品は減額の可能性）</li>
             <li>ビンテージに詳しい専門業者に査定を依頼すること（一般的な買取業者では適正な評価ができない場合がある）</li>
           </ul>
+
+          <CtaBox />
+
+          {/* 買取の流れ */}
+          <h2 id="flow">キーボード・シンセサイザー買取の流れ</h2>
+
+          <p>キーボードやシンセサイザーの買取は、サイズや重量によって最適な方法が異なります。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">型番・状態の確認</h3><p className="text-sm text-warm-gray">本体背面のラベルで型番を確認。鍵盤数、音源方式（アナログ/デジタル/VA）、付属品（電源アダプター、ペダル、スタンド）の有無も重要です。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で相場を把握</h3><p className="text-sm text-warm-gray">ヒカカク！で複数業者に一括査定。ビンテージシンセは専門店と総合買取店で査定額が大きく異なるため、必ず比較しましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">買取方法の選択</h3><p className="text-sm text-warm-gray">61鍵以下のコンパクトモデルなら宅配買取も可能。88鍵やワークステーションなど大型モデルは出張買取（ウリエル）がおすすめです。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">実物確認後、正式な買取額を提示。納得できれば成立、その場で現金または後日振込で支払われます。</p></div>
+            </div>
+          </div>
 
           <CtaBox />
 

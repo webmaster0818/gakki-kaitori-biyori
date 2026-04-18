@@ -73,8 +73,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -104,7 +104,7 @@ export default function GibsonKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             Gibson(ギブソン)のギターを売りたいとお考えの方へ。本記事では、Les Paul・SG・ES-335などGibsonの人気モデル別の買取相場を詳しく解説し、おすすめの買取業者3社を比較。ヴィンテージGibsonの査定ポイントや、少しでも高く売るためのコツまで網羅しています。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         {/* Table of Contents */}
@@ -116,6 +116,7 @@ export default function GibsonKaitoriPage() {
             <li><a href="#comparison" className="hover:underline">おすすめ買取業者3社比較</a></li>
             <li><a href="#tips" className="hover:underline">Gibsonを高く売る5つのコツ</a></li>
             <li><a href="#serial" className="hover:underline">シリアルナンバーの読み方</a></li>
+            <li><a href="#flow" className="hover:underline">Gibson買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -312,6 +313,32 @@ export default function GibsonKaitoriPage() {
           <p>2014年以降は新しい体系に変更されています。先頭の数字が製造年を直接示すようになり、より分かりやすくなっています。正確な情報はGibson公式サイトで確認できます。</p>
 
           <p>シリアルナンバーの読み方がわからない場合は、買取査定時に業者に確認してもらえるので心配はいりません。ただし、<strong>事前に製造年を把握しておくことで、適正な査定額かどうかを判断しやすくなります</strong>。</p>
+
+          {/* 買取の流れ */}
+          <h2 id="flow">Gibson買取の流れ</h2>
+
+          <p>大切なGibsonギターを適正価格で売るための流れを確認しましょう。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">シリアルナンバー・モデル名を確認</h3><p className="text-sm text-warm-gray">ヘッド裏のシリアルナンバーで製造年を特定。Les Paul Standard、Custom、Studio等のグレード確認も重要です。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で複数社比較</h3><p className="text-sm text-warm-gray">Gibsonは業者によって得意不得意が大きく、同じモデルでも数万円の差が出ます。ヒカカク！で必ず複数社の見積もりを取りましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定（実物確認）</h3><p className="text-sm text-warm-gray">ネックの反り、フレットの減り、塗装のクラック、ピックアップの動作など、Gibsonならではのチェックポイントを査定士が確認します。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">金額に同意すれば即日現金化。純正ハードケース・保証書・COA（Certificate of Authenticity）があれば査定額アップが期待できます。</p></div>
+            </div>
+          </div>
+
+          <CtaBox />
 
           {/* Section 6: FAQ */}
           <h2 id="faq">Gibson買取に関するよくある質問</h2>

@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -102,7 +102,7 @@ export default function YamahaKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             YAMAHA(ヤマハ)の楽器を売りたい方へ。本記事では、ピアノ・ギター・管楽器・電子ピアノ・ドラムなどYAMAHA製品の買取相場をジャンル別・シリーズ別に徹底解説。おすすめ買取業者3社の比較や、高く売るためのコツまで網羅しています。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -114,6 +114,7 @@ export default function YamahaKaitoriPage() {
             <li><a href="#other" className="hover:underline">電子ピアノ・ドラム・キーボードの相場</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ買取業者3社比較</a></li>
             <li><a href="#tips" className="hover:underline">YAMAHA楽器を高く売るコツ</a></li>
+            <li><a href="#flow" className="hover:underline">YAMAHA楽器買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -346,6 +347,32 @@ export default function YamahaKaitoriPage() {
 
           <h3>コツ4: 複数社に査定を依頼する</h3>
           <p>ヒカカク！で一括査定し、<strong>最低3社の見積もりを比較</strong>することで最高値を見つけられます。特にピアノは業者間で10万円以上の差がつくことがあります。</p>
+
+          <CtaBox />
+
+          {/* 買取の流れ */}
+          <h2 id="flow">YAMAHA楽器買取の流れ</h2>
+
+          <p>YAMAHA楽器はジャンルが幅広いため、楽器の種類に合った買取方法を選ぶことがポイントです。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">型番の確認</h3><p className="text-sm text-warm-gray">YAMAHA製品は型番で正確な相場がわかります。ピアノなら内部のフレーム、ギターなら内部のラベル、管楽器ならベル部分で型番を確認しましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で複数社比較</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定。YAMAHA楽器は総合買取店でも扱っているため、楽器専門店と総合店の両方から見積もりを取るのが効果的です。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">楽器に合った買取方法を選択</h3><p className="text-sm text-warm-gray">ピアノ・ドラム → 出張買取（ウリエル）。ギター・管楽器 → 宅配買取も可。複数のYAMAHA楽器をまとめて売る場合は出張買取がお得です。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">実物確認後、正式な買取額を提示。YAMAHA楽器は中古需要が安定しているため、適正な査定額が出やすい傾向があります。</p></div>
+            </div>
+          </div>
 
           <CtaBox />
 

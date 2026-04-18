@@ -73,8 +73,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -103,7 +103,7 @@ export default function FenderKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             Fender(フェンダー)のギター・ベースを売りたい方へ。本記事では、Stratocaster・Telecaster・Jazz Bassなどモデル別の買取相場をUSA製・メキシコ製・日本製に分けて解説。Custom Shop製品の査定ポイントや、高く売るためのコツまで網羅しています。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -113,6 +113,7 @@ export default function FenderKaitoriPage() {
             <li><a href="#country" className="hover:underline">USA・メキシコ・日本製の違いと見分け方</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ買取業者3社比較</a></li>
             <li><a href="#tips" className="hover:underline">Fenderを高く売る5つのコツ</a></li>
+            <li><a href="#flow" className="hover:underline">Fender買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -286,6 +287,32 @@ export default function FenderKaitoriPage() {
 
           <h3>コツ5: 改造パーツは純正に戻す</h3>
           <p>ピックアップやペグを交換している場合は純正パーツに戻しましょう。<strong>Fenderはオリジナルの状態が最も高く評価</strong>されます。純正パーツがない場合は、交換パーツの情報を伝えましょう。</p>
+
+          <CtaBox />
+
+          {/* 買取の流れ */}
+          <h2 id="flow">Fender買取の流れ</h2>
+
+          <p>Fenderギターを高く売るための査定から入金までの流れです。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">製造国・シリアルの確認</h3><p className="text-sm text-warm-gray">ヘッドのロゴとシリアルナンバーで製造国（USA/Mexico/Japan）と年代を確認。これが査定額の基準になります。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で相場を把握</h3><p className="text-sm text-warm-gray">ヒカカク！で複数社に一括査定。USA製とMexico製で査定額が2〜3倍違うこともあるため、正確な情報を伝えましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定で最終額決定</h3><p className="text-sm text-warm-gray">フレットの状態、ネックの反り、ボディの傷、電装系の動作を確認。Custom Shop製はCOA（認定証）が査定に大きく影響します。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・即日現金化</h3><p className="text-sm text-warm-gray">出張・店頭ならその場で現金、宅配なら振込。キャンセル料・査定料は無料なので安心です。</p></div>
+            </div>
+          </div>
 
           <CtaBox />
 

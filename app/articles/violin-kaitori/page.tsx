@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -103,7 +103,7 @@ export default function ViolinKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             バイオリンやチェロなどの弦楽器を売りたいけど、適正価格がわからない方へ。本記事では、バイオリン・弦楽器買取の人気3サービスを徹底比較し、初心者用からプロ用・オールド楽器までの買取相場、ビオラ・チェロ・コントラバスの相場、ブランド別の価格目安、そして鑑定書の有無による価格差について詳しく解説します。バイオリンは楽器の中でも特に価格帯が幅広く、適正な査定を受けるためには専門知識を持つ業者選びが極めて重要です。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -114,6 +114,7 @@ export default function ViolinKaitoriPage() {
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#brand-price" className="hover:underline">ブランド別買取相場</a></li>
             <li><a href="#certificate" className="hover:underline">鑑定書の有無による価格差</a></li>
+            <li><a href="#flow" className="hover:underline">バイオリン買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -379,6 +380,32 @@ export default function ViolinKaitoriPage() {
           </div>
 
           <p>鑑定書は、信頼できる鑑定機関や著名な弦楽器ディーラーが発行したものが有効です。購入時に付属していた鑑定書は、必ず保管しておきましょう。<strong>鑑定書を紛失した場合でも、購入時の領収書やお店の記録が残っていれば、査定の参考になります。</strong></p>
+
+          <CtaBox />
+
+          {/* 買取の流れ */}
+          <h2 id="flow">バイオリン・弦楽器 買取の流れ</h2>
+
+          <p>バイオリンなどの弦楽器は繊細な楽器のため、適切な方法で査定に出すことが重要です。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">楽器の情報を整理</h3><p className="text-sm text-warm-gray">メーカー名（ラベルで確認）、購入先、購入年、鑑定書の有無を整理します。鑑定書があれば査定額が大幅にアップします。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">複数社に査定依頼</h3><p className="text-sm text-warm-gray">弦楽器は業者の専門知識によって査定額が大きく変わります。ヒカカク！で一括査定して、弦楽器に詳しい業者を見つけましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定（実物確認）</h3><p className="text-sm text-warm-gray">出張買取で自宅に来てもらうか、宅配でケースごと送付。表板・裏板の状態、ネックの歪み、弓の毛の状態などを確認します。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">金額に納得したら買取成立。出張ならその場で現金化。弓やケースも合わせて査定してもらうと総額アップが期待できます。</p></div>
+            </div>
+          </div>
 
           <CtaBox />
 

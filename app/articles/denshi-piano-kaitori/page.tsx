@@ -63,8 +63,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -93,7 +93,7 @@ export default function DenshiPianoKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             使わなくなった電子ピアノ、そのまま眠らせていませんか？電子ピアノは技術の進化が早く、年数が経つほど価値が下がります。本記事では、YAMAHA・Roland・KAWAIの3大メーカー別に買取相場を解説し、年式による価格差や高く売るためのポイントをお伝えします。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -103,6 +103,7 @@ export default function DenshiPianoKaitoriPage() {
             <li><a href="#roland" className="hover:underline">Roland電子ピアノの買取相場</a></li>
             <li><a href="#kawai" className="hover:underline">KAWAI電子ピアノの買取相場</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較</a></li>
+            <li><a href="#flow" className="hover:underline">電子ピアノ買取の流れ</a></li>
             <li><a href="#age" className="hover:underline">年式による価格差</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
@@ -281,6 +282,32 @@ export default function DenshiPianoKaitoriPage() {
 
           <p>電子ピアノの買取で最も重要なのは<strong>スピード</strong>です。電子ピアノは年々新モデルが出るため、売ると決めたら早めに行動しましょう。まずはヒカカク！で複数社の査定を取り、最も条件の良い業者を選ぶのがおすすめです。</p>
 
+          {/* 買取の流れ */}
+          <h2 id="flow">電子ピアノ買取の流れ</h2>
+
+          <p>電子ピアノは大型家具に近いサイズのため、買取方法を事前に確認しておきましょう。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">型番を確認して査定申し込み</h3><p className="text-sm text-warm-gray">背面や底面のラベルに記載されている型番（例: CLP-745、HP704など）を確認。型番と製造年がわかれば、より正確な仮査定額が出ます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">仮査定額の確認</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定すれば、複数業者から概算額が届きます。電子ピアノは業者間の差が大きいため、必ず比較しましょう。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">出張買取で搬出</h3><p className="text-sm text-warm-gray">電子ピアノは重量があるため出張買取がおすすめ。ウリエルなら自宅で査定から搬出まで一括対応してくれます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">その場で現金または後日振込。キャンセルも無料なので、金額に納得できなければ断ってOKです。</p></div>
+            </div>
+          </div>
+
+          <CtaBox />
+
           <h2 id="age">年式による価格差 ── 電子ピアノは「鮮度」が命</h2>
 
           <p>電子ピアノの買取価格は、年式によって大きく変動します。これはアコースティックピアノとの最大の違いです。アコースティックピアノは50年前のモデルでも価値がありますが、電子ピアノは技術の進化により旧モデルの価値が急速に下がります。</p>
@@ -357,9 +384,17 @@ export default function DenshiPianoKaitoriPage() {
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ピアノ買取</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ピアノ買取おすすめ3社比較</h3>
             </Link>
+            <Link href="/articles/yamaha-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">YAMAHA買取</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">YAMAHA楽器の買取相場まとめ</h3>
+            </Link>
             <Link href="/articles/keyboard-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">キーボード買取</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">キーボード・シンセ買取おすすめ</h3>
+            </Link>
+            <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
             </Link>
             <Link href="/articles/kaitori-houhou-hikaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">買取方法</span>

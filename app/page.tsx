@@ -61,11 +61,38 @@ const faqs = [
     question: "大型楽器（ピアノやドラムセット）はどう売ればいいですか？",
     answer: "大型楽器は出張買取がおすすめです。ウリエルなどの出張買取サービスなら、自宅まで来てくれるので運搬の手間がかかりません。ピアノの場合は専門の運搬業者を手配してくれるサービスもあります。",
   },
+  {
+    question: "楽器買取に費用はかかりますか？",
+    answer: "当サイトで紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料・キャンセル料が無料です。買取が成立しなかった場合も一切費用はかかりません。",
+  },
+  {
+    question: "楽器を高く売るにはどうすればいいですか？",
+    answer: "楽器を高く売るための最も効果的な方法は、複数の買取業者に相見積もりを取ることです。同じ楽器でも業者によって数万円の差が出ることがあります。その他、付属品を揃える、クリーニングする、売却時期を見極めるなどのコツがあります。",
+  },
 ];
+
+function FaqSchema() {
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+  return (
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
+  );
+}
 
 export default function Home() {
   return (
     <>
+      <FaqSchema />
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-cream via-background to-background">
         <div className="max-w-5xl mx-auto px-4 py-14 md:py-24">

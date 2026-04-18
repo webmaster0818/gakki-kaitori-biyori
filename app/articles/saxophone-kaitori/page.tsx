@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツ",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -103,7 +103,7 @@ export default function SaxophoneKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             サックスや管楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、サックス・管楽器買取の人気3サービスを徹底比較し、アルトサックス・テナーサックス・ソプラノサックス・バリトンサックスの買取相場に加え、トランペット・トロンボーン・フルート・クラリネットなど管楽器全般の相場、ブランド別の相場目安、メンテナンス状態が査定に与える影響、そして高く売るためのコツを詳しく解説します。管楽器は状態が査定額を大きく左右するため、適切な準備が重要です。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -113,6 +113,7 @@ export default function SaxophoneKaitoriPage() {
             <li><a href="#wind-price" className="hover:underline">管楽器全般の買取相場</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#brand-price" className="hover:underline">ブランド別買取相場</a></li>
+            <li><a href="#flow" className="hover:underline">サックス買取の流れ</a></li>
             <li><a href="#tips" className="hover:underline">高く売るコツ（メンテナンス状態が重要）</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
@@ -378,6 +379,32 @@ export default function SaxophoneKaitoriPage() {
             <li><strong>JTR-700（トランペット）</strong>: 1万〜3万円</li>
             <li><strong>JFL-700（フルート）</strong>: 5,000〜2万円</li>
           </ul>
+
+          <CtaBox />
+
+          {/* 買取の流れ */}
+          <h2 id="flow">サックス・管楽器 買取の流れ</h2>
+
+          <p>サックスや管楽器は精密機器のため、適切な方法で査定に出すことが重要です。一般的な買取の流れを確認しましょう。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">メーカー・型番・シリアルを確認</h3><p className="text-sm text-warm-gray">ベルやネック裏に刻印されているメーカー名・モデル名・シリアルナンバーを確認。セルマーの場合、シリアルで製造年がわかり査定に大きく影響します。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で複数社比較</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定すれば、管楽器に強い業者から複数の見積もりが届きます。業者によって数万円の差が出ることもあります。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定（実物確認）</h3><p className="text-sm text-warm-gray">宅配の場合はケースごと梱包して発送。出張買取ならウリエルが自宅まで来てくれます。キーの動作、パッドの状態、管体の凹みなどを確認します。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">査定額に同意すれば買取成立。出張・店頭ならその場で現金、宅配なら振込で支払われます。キャンセルも完全無料です。</p></div>
+            </div>
+          </div>
 
           <CtaBox />
 

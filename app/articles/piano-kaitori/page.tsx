@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】ピアノ買取おすすめ3社比較｜グランド・アップライト相場",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -102,7 +102,7 @@ export default function PianoKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ピアノを売りたいけど、大きくて運べない、相場がわからない、どこに頼めばいいかわからない。そんな悩みを解決します。本記事では、ピアノ買取の人気3サービスを比較し、グランドピアノ・アップライトピアノ・電子ピアノそれぞれの買取相場から高く売るコツまで解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -110,6 +110,7 @@ export default function PianoKaitoriPage() {
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
             <li><a href="#market-price" className="hover:underline">ピアノ買取相場</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較</a></li>
+            <li><a href="#flow" className="hover:underline">ピアノ買取の流れ</a></li>
             <li><a href="#types" className="hover:underline">アップライト・グランド・電子ピアノの違い</a></li>
             <li><a href="#tips" className="hover:underline">ピアノを高く売るコツ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
@@ -250,6 +251,34 @@ export default function PianoKaitoriPage() {
 
           <CtaBox />
 
+          {/* 買取の流れ */}
+          <h2 id="flow">ピアノ買取の流れ ── 査定申し込みから搬出まで</h2>
+
+          <p>ピアノは大型楽器のため、買取の流れは他の楽器と異なる部分があります。特に搬出の準備が重要です。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">Web・電話で査定申し込み</h3><p className="text-sm text-warm-gray">ブランド名・型番・製造年（ピアノ内部のフレームに記載）・外観の状態を伝えます。設置場所（階数・エレベーターの有無）も重要な情報です。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">仮査定（概算見積もり）</h3><p className="text-sm text-warm-gray">型番と状態から概算の買取額が提示されます。搬出に特殊作業（クレーン等）が必要な場合は、搬出費の見積もりも含まれます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">訪問・本査定</h3><p className="text-sm text-warm-gray">査定士が自宅を訪問し、実物を確認。鍵盤の動作、ペダル、外装の状態をチェックして正式な買取額を提示します。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・搬出</h3><p className="text-sm text-warm-gray">金額に同意したら買取成立。専門の運搬スタッフがピアノを搬出します。現金またはお振込みで支払いが完了します。</p></div>
+            </div>
+          </div>
+
+          <p><strong>搬出費用が無料の業者を選ぶのがポイント</strong>です。2階以上でエレベーターがない場合、クレーン搬出が必要になることがありますが、対応可能な業者を選べば追加費用を抑えられます。</p>
+
+          <CtaBox />
+
           <h2 id="types">アップライト・グランド・電子ピアノの違いと買取のポイント</h2>
 
           <p>ピアノには大きく分けて3つのタイプがあり、それぞれ買取の際に注意すべきポイントが異なります。</p>
@@ -368,15 +397,23 @@ export default function PianoKaitoriPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link href="/articles/denshi-piano-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">電子ピアノ</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">電子ピアノ買取ガイド</h3>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">電子ピアノ買取相場ガイド</h3>
+            </Link>
+            <Link href="/articles/yamaha-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">YAMAHA買取</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">YAMAHA楽器の買取相場まとめ</h3>
+            </Link>
+            <Link href="/articles/kaitori-houhou-hikaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">買取方法</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">出張・宅配・店頭 買取方法比較</h3>
+            </Link>
+            <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
             </Link>
             <Link href="/articles/keyboard-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">キーボード買取</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">キーボード・シンセ買取おすすめ</h3>
-            </Link>
-            <Link href="/articles/guitar-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ギター買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ギター買取おすすめ3社比較</h3>
             </Link>
             <Link href="/articles/souba-ichiran/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">相場一覧</span>

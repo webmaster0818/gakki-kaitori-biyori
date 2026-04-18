@@ -61,8 +61,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -91,7 +91,7 @@ export default function TakakuUruKotsuPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             「もっと高く売れたのに...」と後悔しないために。同じ楽器でも、売り方ひとつで買取額が数万円変わることがあります。この記事では、ギター・ピアノ・管楽器など、すべての楽器に使える「高く売るための5つの実践的なコツ」を詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -103,6 +103,7 @@ export default function TakakuUruKotsuPage() {
             <li><a href="#tip4" className="hover:underline">コツ4: 売却のタイミングを見極める</a></li>
             <li><a href="#tip5" className="hover:underline">コツ5: 最適な買取方法を選ぶ</a></li>
             <li><a href="#services" className="hover:underline">3社の使い分けガイド</a></li>
+            <li><a href="#by-instrument" className="hover:underline">楽器別ワンポイント</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -310,6 +311,31 @@ export default function TakakuUruKotsuPage() {
           <p>「引っ越し前に楽器を全部処分したい」「趣味をやめたので機材一式を売りたい」といったケースでも、一度の出張ですべて完了します。</p>
 
           <CtaBox />
+
+          {/* 楽器別ワンポイント */}
+          <h2 id="by-instrument">楽器別 高く売るためのワンポイントアドバイス</h2>
+
+          <p>楽器のジャンルによって、特に気をつけるべきポイントが異なります。あなたの楽器に該当する項目をチェックしましょう。</p>
+
+          <div className="table-wrapper mb-6">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left font-medium">楽器</th>
+                  <th className="px-4 py-3 text-left font-medium">高く売るポイント</th>
+                  <th className="px-4 py-3 text-left font-medium">詳細記事</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">ギター</td><td className="px-4 py-3 text-warm-gray">弦交換・フレットボード清掃。改造パーツは純正に戻す</td><td className="px-4 py-3"><Link href="/articles/guitar-kaitori/" className="text-accent hover:underline">ギター買取ガイド</Link></td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">ピアノ</td><td className="px-4 py-3 text-warm-gray">調律記録があれば提示。搬出環境を事前に確認</td><td className="px-4 py-3"><Link href="/articles/piano-kaitori/" className="text-accent hover:underline">ピアノ買取ガイド</Link></td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">管楽器</td><td className="px-4 py-3 text-warm-gray">オーバーホール歴があれば伝える。マウスピースも一緒に</td><td className="px-4 py-3"><Link href="/articles/saxophone-kaitori/" className="text-accent hover:underline">管楽器買取ガイド</Link></td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">バイオリン</td><td className="px-4 py-3 text-warm-gray">鑑定書があれば必ず添付。弓も一緒に査定に出す</td><td className="px-4 py-3"><Link href="/articles/violin-kaitori/" className="text-accent hover:underline">弦楽器買取ガイド</Link></td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">ドラム</td><td className="px-4 py-3 text-warm-gray">スタンド・ペダル・シンバルもセットで。出張買取推奨</td><td className="px-4 py-3"><Link href="/articles/drum-kaitori/" className="text-accent hover:underline">ドラム買取ガイド</Link></td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">電子ピアノ</td><td className="px-4 py-3 text-warm-gray">早めに売る（年式が新しいほど高い）。椅子・ペダル付き</td><td className="px-4 py-3"><Link href="/articles/denshi-piano-kaitori/" className="text-accent hover:underline">電子ピアノ買取ガイド</Link></td></tr>
+              </tbody>
+            </table>
+          </div>
 
           <h2 id="faq">よくある質問</h2>
 

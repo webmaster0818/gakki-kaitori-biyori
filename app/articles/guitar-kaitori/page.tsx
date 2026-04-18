@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツ",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -103,7 +103,7 @@ export default function GuitarKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ギターを売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、ギター買取の人気3サービスを徹底比較し、エレキギター・アコースティックギターの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         {/* Table of Contents */}
@@ -112,6 +112,8 @@ export default function GuitarKaitoriPage() {
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
             <li><a href="#market-price" className="hover:underline">ギター買取相場（エレキ・アコギ別）</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
+            <li><a href="#flow" className="hover:underline">ギター買取の流れ</a></li>
+            <li><a href="#choose" className="hover:underline">業者選びの3つのポイント</a></li>
             <li><a href="#tips" className="hover:underline">ギターを高く売る5つのコツ</a></li>
             <li><a href="#brand-price" className="hover:underline">ブランド別買取相場</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
@@ -225,6 +227,48 @@ export default function GuitarKaitoriPage() {
           <p>ウリエルは出張買取を専門とするサービスで、自宅にいながらギターの査定から買取まで完結します。エレキギター1本はもちろん、アンプやエフェクターなど複数の機材をまとめて売りたい場合にも便利です。</p>
 
           <p>査定士が自宅に来てくれるため、<strong>大型のアコースティックギターや複数本のギターを梱包・発送する手間が省けます</strong>。買取が成立すればその場で現金支払いも可能です。「引っ越し前に機材を一気に処分したい」というケースにも最適です。</p>
+
+          <CtaBox />
+
+          {/* Section: 買取の流れ */}
+          <h2 id="flow">ギター買取の流れ ── 申し込みから入金まで</h2>
+
+          <p>初めてギターを売る方のために、買取の一般的な流れを解説します。どの業者でもおおむね以下のステップで進みます。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">Web・電話で申し込み</h3><p className="text-sm text-warm-gray">ヒカカク！なら一括査定フォームに楽器情報を入力するだけ。ティファナ・ウリエルは電話またはWebフォームから申し込めます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">仮査定（概算見積もり）</h3><p className="text-sm text-warm-gray">ブランド・モデル名・状態をもとに概算の買取額が提示されます。写真を送るとより正確な金額が出ます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定（実物確認）</h3><p className="text-sm text-warm-gray">出張買取なら自宅で、宅配買取なら楽器を発送して、店頭買取なら持ち込みで実物を査定。正式な買取額が決まります。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・現金受け取り</h3><p className="text-sm text-warm-gray">金額に納得したら買取成立。出張・店頭ならその場で現金、宅配なら1〜3営業日で銀行振込されます。</p></div>
+            </div>
+          </div>
+
+          <p>どの業者も<strong>査定・見積もりは完全無料</strong>です。金額に納得できなければキャンセルも無料なので、まずは気軽に申し込んでみましょう。</p>
+
+          {/* Section: 業者選びのポイント */}
+          <h2 id="choose">ギター買取業者選びの3つのポイント</h2>
+
+          <p>数ある買取業者の中から最適な1社を見つけるために、チェックすべきポイントを3つご紹介します。</p>
+
+          <h3>ポイント1: 楽器専門の査定士がいるか</h3>
+          <p>総合リサイクルショップよりも、楽器専門の査定士がいる業者の方が適正価格で買い取ってくれる傾向があります。ギターのコンディション（ネックの反り、フレットの減り、トラスロッドの余裕）を正しく評価できる知識があるかどうかが重要です。</p>
+
+          <h3>ポイント2: 複数の買取方法に対応しているか</h3>
+          <p>出張・宅配・店頭など、複数の買取方法を用意している業者は柔軟性が高く便利です。エレキギター1本なら宅配でも良いですが、アンプやエフェクターもまとめて売るなら出張買取がおすすめです。</p>
+
+          <h3>ポイント3: キャンセル料・送料が無料か</h3>
+          <p>査定後にキャンセルした場合の返送料や、宅配買取の送料が無料かどうかを確認しましょう。本記事で紹介している3社はすべて<strong>査定料・出張料・送料・キャンセル料が無料</strong>です。</p>
 
           <CtaBox />
 
@@ -440,6 +484,14 @@ export default function GuitarKaitoriPage() {
             <Link href="/articles/bass-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ベース買取</span>
               <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ベース買取おすすめ3社比較</h3>
+            </Link>
+            <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
+            </Link>
+            <Link href="/articles/yamaha-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
+              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">YAMAHA買取</span>
+              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">YAMAHA楽器の買取相場まとめ</h3>
             </Link>
             <Link href="/articles/kowareta-gakki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
               <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">壊れた楽器</span>

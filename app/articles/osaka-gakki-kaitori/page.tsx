@@ -72,8 +72,8 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "【2026年最新】楽器買取 大阪おすすめ3選｜出張・店頭・宅配を比較",
-    datePublished: "2026-04-16",
-    dateModified: "2026-04-16",
+    datePublished: "2026-04-18",
+    dateModified: "2026-04-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -102,7 +102,7 @@ export default function OsakaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             大阪で楽器を売りたいけど、どの業者がいいかわからない方へ。本記事では、大阪エリア対応の楽器買取おすすめ3社を徹底比較。梅田・心斎橋・難波・日本橋エリア別の買取事情や、大阪で楽器を高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月16日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -112,6 +112,7 @@ export default function OsakaGakkiKaitoriPage() {
             <li><a href="#method" className="hover:underline">出張・店頭・宅配 どれがおすすめ？</a></li>
             <li><a href="#area" className="hover:underline">大阪エリア別の楽器買取事情</a></li>
             <li><a href="#tips" className="hover:underline">大阪で楽器を高く売るコツ</a></li>
+            <li><a href="#flow" className="hover:underline">大阪での買取の流れ</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -214,6 +215,28 @@ export default function OsakaGakkiKaitoriPage() {
             <li><strong>ボーナス時期</strong>: 中古楽器の購入者が増える</li>
             <li><strong>引っ越しシーズン</strong>: まとめ売りで交渉有利</li>
           </ul>
+
+          <CtaBox />
+
+          {/* 買取の流れ */}
+          <h2 id="flow">大阪での楽器買取の流れ</h2>
+
+          <p>大阪で楽器を売る場合の一般的な流れをご紹介します。梅田・難波エリアなら店頭買取も選択肢に入ります。</p>
+
+          <div className="space-y-4 my-6">
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で大阪対応業者を比較</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定すれば、大阪に出張対応する業者や、宅配買取に対応する全国業者から見積もりが届きます。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">梅田・難波周辺なら店頭持ち込み（ティファナ）が手軽。大型楽器や住宅街なら出張買取（ウリエル）がおすすめです。</p></div>
+            </div>
+            <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
+              <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物を確認して正式な買取額を提示。大阪市内なら即日対応可能な業者が多いです。その場で現金支払いも可能です。</p></div>
+            </div>
+          </div>
 
           <CtaBox />
 
