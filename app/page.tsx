@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const services = [
@@ -31,21 +32,21 @@ const services = [
 ];
 
 const instrumentCategories = [
-  { name: "ギター", icon: "🎸", href: "/articles/guitar-kaitori/", desc: "エレキ・アコギ・クラシック" },
-  { name: "ベース", icon: "🎸", href: "/articles/bass-kaitori/", desc: "エレキベース・ウッドベース" },
-  { name: "ピアノ", icon: "🎹", href: "/articles/piano-kaitori/", desc: "グランド・アップライト" },
-  { name: "電子ピアノ", icon: "🎹", href: "/articles/denshi-piano-kaitori/", desc: "YAMAHA・Roland・KAWAI" },
-  { name: "管楽器", icon: "🎺", href: "/articles/saxophone-kaitori/", desc: "サックス・トランペット等" },
-  { name: "弦楽器", icon: "🎻", href: "/articles/violin-kaitori/", desc: "バイオリン・チェロ等" },
-  { name: "ドラム", icon: "🥁", href: "/articles/drum-kaitori/", desc: "電子ドラム・アコースティック" },
-  { name: "キーボード", icon: "🎹", href: "/articles/keyboard-kaitori/", desc: "シンセサイザー・ステージピアノ" },
-  { name: "Gibson", icon: "🎸", href: "/articles/gibson-kaitori/", desc: "Les Paul・SG・ES-335" },
-  { name: "Fender", icon: "🎸", href: "/articles/fender-kaitori/", desc: "ストラト・テレキャス" },
-  { name: "YAMAHA", icon: "🎵", href: "/articles/yamaha-kaitori/", desc: "ピアノ・ギター・管楽器" },
-  { name: "東京エリア", icon: "🗼", href: "/articles/tokyo-gakki-kaitori/", desc: "東京の楽器買取おすすめ" },
-  { name: "大阪エリア", icon: "🏯", href: "/articles/osaka-gakki-kaitori/", desc: "大阪の楽器買取おすすめ" },
-  { name: "壊れた楽器", icon: "🔧", href: "/articles/kowareta-gakki-kaitori/", desc: "ジャンク品・古い楽器" },
-  { name: "相場一覧", icon: "📊", href: "/articles/souba-ichiran/", desc: "全楽器の買取相場まとめ" },
+  { name: "ギター", image: "/images/icon-guitar.png", href: "/articles/guitar-kaitori/", desc: "エレキ・アコギ・クラシック" },
+  { name: "ベース", image: "/images/icon-guitar.png", href: "/articles/bass-kaitori/", desc: "エレキベース・ウッドベース" },
+  { name: "ピアノ", image: "/images/icon-piano.png", href: "/articles/piano-kaitori/", desc: "グランド・アップライト" },
+  { name: "電子ピアノ", image: "/images/icon-electronic.png", href: "/articles/denshi-piano-kaitori/", desc: "YAMAHA・Roland・KAWAI" },
+  { name: "管楽器", image: "/images/icon-brass.png", href: "/articles/saxophone-kaitori/", desc: "サックス・トランペット等" },
+  { name: "弦楽器", image: "/images/icon-strings.png", href: "/articles/violin-kaitori/", desc: "バイオリン・チェロ等" },
+  { name: "ドラム", image: "/images/icon-drums.png", href: "/articles/drum-kaitori/", desc: "電子ドラム・アコースティック" },
+  { name: "キーボード", image: "/images/icon-keyboard.png", href: "/articles/keyboard-kaitori/", desc: "シンセサイザー・ステージピアノ" },
+  { name: "Gibson", image: "/images/icon-guitar.png", href: "/articles/gibson-kaitori/", desc: "Les Paul・SG・ES-335" },
+  { name: "Fender", image: "/images/icon-guitar.png", href: "/articles/fender-kaitori/", desc: "ストラト・テレキャス" },
+  { name: "YAMAHA", image: "/images/icon-piano.png", href: "/articles/yamaha-kaitori/", desc: "ピアノ・ギター・管楽器" },
+  { name: "東京エリア", image: "/images/icon-compare.png", href: "/articles/tokyo-gakki-kaitori/", desc: "東京の楽器買取おすすめ" },
+  { name: "大阪エリア", image: "/images/icon-compare.png", href: "/articles/osaka-gakki-kaitori/", desc: "大阪の楽器買取おすすめ" },
+  { name: "壊れた楽器", image: "/images/icon-howto.png", href: "/articles/kowareta-gakki-kaitori/", desc: "ジャンク品・古い楽器" },
+  { name: "相場一覧", image: "/images/icon-price.png", href: "/articles/souba-ichiran/", desc: "全楽器の買取相場まとめ" },
 ];
 
 const faqs = [
@@ -94,36 +95,44 @@ export default function Home() {
     <>
       <FaqSchema />
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-cream via-background to-background">
-        <div className="max-w-5xl mx-auto px-4 py-14 md:py-24">
+      <section className="relative overflow-hidden min-h-[480px] md:min-h-[540px] flex items-center">
+        <Image
+          src="/images/hero-gakki.png"
+          alt="楽器買取のプロが丁寧にギターを査定している様子"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 max-w-5xl mx-auto px-4 py-16 md:py-24 w-full">
           <div className="text-center max-w-3xl mx-auto">
-            <p className="text-gold-dark font-medium text-sm mb-3 tracking-wider">
+            <p className="text-amber-200 font-medium text-sm mb-3 tracking-wider">
               楽器買取おすすめ比較ガイド 2026年最新版
             </p>
-            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
-              あなたの楽器を、
+            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
+              大切な楽器を、
               <br />
-              <span className="text-accent">最高価格</span>で売るなら。
+              <span className="text-amber-300">最高価格</span>で。
             </h1>
-            <p className="text-warm-gray text-base md:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-              ギター・ピアノ・管楽器など、楽器買取の人気3サービスを徹底比較。
-              一括査定・出張買取・宅配買取、あなたに最適な売却方法が見つかります。
+            <p className="text-white/85 text-base md:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+              あなたの楽器を丁寧に査定。プロの目で適正価格をお約束します。
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
                 href="https://hikakaku.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className="inline-flex items-center gap-2 bg-gold text-white font-medium px-7 py-3.5 rounded-full hover:bg-gold-dark transition-colors shadow-md hover:shadow-lg"
+                className="inline-flex items-center gap-2 bg-amber-500 text-white font-medium px-7 py-3.5 rounded-full hover:bg-amber-600 transition-colors shadow-md hover:shadow-lg"
               >
-                一括査定で最高値を調べる
+                無料査定を依頼する
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
               <Link
                 href="/articles/guitar-kaitori/"
-                className="inline-flex items-center gap-2 bg-accent text-white font-medium px-7 py-3.5 rounded-full hover:bg-accent-dark transition-colors shadow-md hover:shadow-lg"
+                className="inline-flex items-center gap-2 bg-white/20 backdrop-blur text-white font-medium px-7 py-3.5 rounded-full hover:bg-white/30 transition-colors shadow-md border border-white/30"
               >
                 ギター買取おすすめを見る
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -133,8 +142,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-48 h-48 bg-accent/5 rounded-full blur-3xl translate-y-1/3 -translate-x-1/4 pointer-events-none" />
       </section>
 
       {/* Trust Badges */}
@@ -214,7 +221,15 @@ export default function Home() {
                 href={cat.href}
                 className="bg-white rounded-xl border border-warm-border p-5 text-center hover:border-gold/40 hover:shadow-md transition-all group"
               >
-                <span className="text-3xl mb-2 block">{cat.icon}</span>
+                <div className="w-14 h-14 mx-auto mb-2 relative">
+                  <Image
+                    src={cat.image}
+                    alt={cat.name}
+                    fill
+                    className="object-contain"
+                    sizes="56px"
+                  />
+                </div>
                 <h3 className="font-bold text-sm mb-1 group-hover:text-accent transition-colors">
                   {cat.name}
                 </h3>

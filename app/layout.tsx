@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_JP, Zen_Maru_Gothic } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
@@ -99,11 +100,15 @@ function Header() {
       <nav className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link
           href="/"
-          className="font-display text-xl font-bold text-accent-dark tracking-tight"
+          className="font-display text-xl font-bold text-accent-dark tracking-tight flex items-center gap-2"
         >
-          <span className="text-2xl mr-1" role="img" aria-label="楽器">
-            🎸
-          </span>
+          <Image
+            src="/images/icon-guitar.png"
+            alt="楽器"
+            width={32}
+            height={32}
+            className="inline-block"
+          />
           {SITE_NAME}
         </Link>
         {/* Desktop nav */}
@@ -215,7 +220,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <p className="font-display text-lg font-bold mb-2">
-              🎸 {SITE_NAME}
+              {SITE_NAME}
             </p>
             <p className="text-sm text-white/70 leading-relaxed">
               楽器買取サービスを徹底比較。
