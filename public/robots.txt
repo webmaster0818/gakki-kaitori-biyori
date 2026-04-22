@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /_next/
+Disallow: /api/
 
 Sitemap: https://gakkikaitori-biyori.com/sitemap.xml
