@@ -321,6 +321,9 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-sans">
         <>
           <Header />
+          <div className="bg-gray-50 border-b border-gray-200 py-1">
+            <p className="max-w-5xl mx-auto px-4 text-[10px] text-gray-400">PRを含みます</p>
+          </div>
           <main className="flex-1">{children}</main>
           <Footer />
         </>
