@@ -45,6 +45,11 @@ const instrumentCategories = [
   { name: "YAMAHA", image: "/images/icon-piano.png", href: "/articles/yamaha-kaitori/", desc: "ピアノ・ギター・管楽器" },
   { name: "東京エリア", image: "/images/icon-compare.png", href: "/articles/tokyo-gakki-kaitori/", desc: "東京の楽器買取おすすめ" },
   { name: "大阪エリア", image: "/images/icon-compare.png", href: "/articles/osaka-gakki-kaitori/", desc: "大阪の楽器買取おすすめ" },
+  { name: "名古屋エリア", image: "/images/icon-compare.png", href: "/articles/nagoya-gakki-kaitori/", desc: "名古屋の楽器買取おすすめ" },
+  { name: "福岡エリア", image: "/images/icon-compare.png", href: "/articles/fukuoka-gakki-kaitori/", desc: "福岡の楽器買取おすすめ" },
+  { name: "横浜エリア", image: "/images/icon-compare.png", href: "/articles/yokohama-gakki-kaitori/", desc: "横浜の楽器買取おすすめ" },
+  { name: "札幌エリア", image: "/images/icon-compare.png", href: "/articles/sapporo-gakki-kaitori/", desc: "札幌の楽器買取おすすめ" },
+  { name: "仙台エリア", image: "/images/icon-compare.png", href: "/articles/sendai-gakki-kaitori/", desc: "仙台の楽器買取おすすめ" },
   { name: "壊れた楽器", image: "/images/icon-howto.png", href: "/articles/kowareta-gakki-kaitori/", desc: "ジャンク品・古い楽器" },
   { name: "相場一覧", image: "/images/icon-price.png", href: "/articles/souba-ichiran/", desc: "全楽器の買取相場まとめ" },
 ];
