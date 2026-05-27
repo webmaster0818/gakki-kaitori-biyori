@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】高額査定がつく楽器ランキングTOP10｜100万円超えのお宝も",
@@ -52,12 +53,10 @@ export default function Page() {
             </div>
           </div>
 
-          <h2>関連記事</h2>
-          <ul>
-            <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
-            <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
-            <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
-          </ul>
+          <RelatedArticles
+            currentSlug="kougaku-satei-ranking"
+            relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "takaku-uru-kotsu", "souba-ichiran", "satei-yomikata", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori"]}
+          />
         </div>
       </article>
     </>

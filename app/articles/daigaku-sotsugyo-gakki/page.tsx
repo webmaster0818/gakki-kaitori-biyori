@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】大学卒業時の楽器処分ガイド｜就職前に整理・買取して新生活を",
@@ -95,12 +96,10 @@ export default function Page() {
 
           <CtaBox />
 
-          <h2>関連記事</h2>
-          <ul>
-            <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
-            <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
-            <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
-          </ul>
+          <RelatedArticles
+            currentSlug="daigaku-sotsugyo-gakki"
+            relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "shumi-yameta-gakki", "renshu-shinai-gakki", "band-kaisan-kizai", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
+          />
         </div>
       </article>
     </>

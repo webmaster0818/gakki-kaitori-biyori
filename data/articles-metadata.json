@@ -1,0 +1,978 @@
+[
+  {
+    "slug": "audio-interface-kaitori",
+    "title": "オーディオインターフェース買取ガイド",
+    "shortTitle": "オーディオインターフェース買取ガイド",
+    "badge": "オーディオIF",
+    "description": "RME・Apogee・Universal Audio のDAW機材相場。",
+    "category": "instrument"
+  },
+  {
+    "slug": "bach-kaitori",
+    "title": "Bach(バック)買取相場",
+    "shortTitle": "Bach(バック)買取相場",
+    "badge": "Bach買取",
+    "description": "Strad モデルのトランペット買取相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "band-kaisan-kizai",
+    "title": "バンド解散時の機材売却",
+    "shortTitle": "バンド解散時の機材売却",
+    "badge": "バンド解散",
+    "description": "解散後の機材分配と売却の進め方。",
+    "category": "howto"
+  },
+  {
+    "slug": "bass-kaitori",
+    "title": "ベース買取相場ガイド",
+    "shortTitle": "ベース買取相場ガイド",
+    "badge": "ベース買取",
+    "description": "Fender・MUSIC MAN など人気ブランドの査定額を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "bosendorfer-kaitori",
+    "title": "ベーゼンドルファー買取ガイド",
+    "shortTitle": "ベーゼンドルファー買取ガイド",
+    "badge": "Bosendorfer",
+    "description": "ウィーン製名門ピアノの買取相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "boss-kaitori",
+    "title": "BOSS買取相場ガイド",
+    "shortTitle": "BOSS買取相場ガイド",
+    "badge": "BOSS買取",
+    "description": "コンパクトエフェクター・マルチの相場一覧。",
+    "category": "brand"
+  },
+  {
+    "slug": "buffet-kaitori",
+    "title": "Buffet Crampon 買取相場",
+    "shortTitle": "Buffet Crampon 買取相場",
+    "badge": "Buffet買取",
+    "description": "R13・Tosca などのクラリネット買取目安。",
+    "category": "brand"
+  },
+  {
+    "slug": "casio-kaitori",
+    "title": "CASIO電子楽器買取ガイド",
+    "shortTitle": "CASIO電子楽器買取ガイド",
+    "badge": "CASIO買取",
+    "description": "Privia・CDPシリーズの中古買取相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "cello-kaitori",
+    "title": "チェロ買取相場ガイド",
+    "shortTitle": "チェロ買取相場ガイド",
+    "badge": "チェロ買取",
+    "description": "Suzuki・Eastman など主要モデルの相場一覧。",
+    "category": "instrument"
+  },
+  {
+    "slug": "chiba-gakki-kaitori",
+    "title": "楽器買取 千葉おすすめ3選",
+    "shortTitle": "楽器買取 千葉おすすめ3選",
+    "badge": "千葉",
+    "description": "千葉県全域の出張買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "clarinet-kaitori",
+    "title": "クラリネット買取相場ガイド",
+    "shortTitle": "クラリネット買取相場ガイド",
+    "badge": "クラリネット買取",
+    "description": "Buffet Crampon・YAMAHA の査定相場を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "contrabass-kaitori",
+    "title": "コントラバス買取ガイド",
+    "shortTitle": "コントラバス買取ガイド",
+    "badge": "コントラバス買取",
+    "description": "ジャズ向け・オーケストラ向け別の買取目安。",
+    "category": "instrument"
+  },
+  {
+    "slug": "daigaku-sotsugyo-gakki",
+    "title": "大学卒業時の楽器売却",
+    "shortTitle": "大学卒業時の楽器売却",
+    "badge": "大学卒業",
+    "description": "サークル引退時の楽器売却タイミング。",
+    "category": "howto"
+  },
+  {
+    "slug": "denshi-piano-kaitori",
+    "title": "電子ピアノ買取相場ガイド",
+    "shortTitle": "電子ピアノ買取相場ガイド",
+    "badge": "電子ピアノ",
+    "description": "YAMAHA・Roland・KAWAI のモデル別買取相場まとめ。",
+    "category": "instrument"
+  },
+  {
+    "slug": "dj-kizai-kaitori",
+    "title": "DJ機材買取相場ガイド",
+    "shortTitle": "DJ機材買取相場ガイド",
+    "badge": "DJ機材買取",
+    "description": "Pioneer DJ・Native Instruments の買取目安。",
+    "category": "instrument"
+  },
+  {
+    "slug": "drum-kaitori",
+    "title": "ドラム買取おすすめ3社比較",
+    "shortTitle": "ドラム買取おすすめ3社比較",
+    "badge": "ドラム買取",
+    "description": "Pearl・YAMAHA・Ludwig のセット買取相場。",
+    "category": "instrument"
+  },
+  {
+    "slug": "effector-kaitori",
+    "title": "エフェクター買取相場ガイド",
+    "shortTitle": "エフェクター買取相場ガイド",
+    "badge": "エフェクター",
+    "description": "BOSS・Strymon・Eventide のペダル買取相場。",
+    "category": "instrument"
+  },
+  {
+    "slug": "fender-kaitori",
+    "title": "Fender(フェンダー)買取相場",
+    "shortTitle": "Fender(フェンダー)買取相場",
+    "badge": "Fender買取",
+    "description": "Strat・Tele・ジャズベの査定額目安。",
+    "category": "brand"
+  },
+  {
+    "slug": "flute-kaitori",
+    "title": "フルート買取相場ガイド",
+    "shortTitle": "フルート買取相場ガイド",
+    "badge": "フルート買取",
+    "description": "Sankyo・Muramatsu の中古買取相場まとめ。",
+    "category": "instrument"
+  },
+  {
+    "slug": "fukuoka-gakki-kaitori",
+    "title": "楽器買取 福岡おすすめ3選",
+    "shortTitle": "楽器買取 福岡おすすめ3選",
+    "badge": "福岡",
+    "description": "福岡・九州北部の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "fukushima-gakki-kaitori",
+    "title": "楽器買取 福島おすすめ3選",
+    "shortTitle": "楽器買取 福島おすすめ3選",
+    "badge": "福島",
+    "description": "福島県内の出張・店頭買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "gakki-danshari",
+    "title": "楽器の断捨離ガイド",
+    "shortTitle": "楽器の断捨離ガイド",
+    "badge": "断捨離",
+    "description": "使わなくなった楽器の整理と売却術。",
+    "category": "howto"
+  },
+  {
+    "slug": "gakki-kaitori-sagi",
+    "title": "楽器買取詐欺の見分け方",
+    "shortTitle": "楽器買取詐欺の見分け方",
+    "badge": "詐欺対策",
+    "description": "悪質業者を見抜く7つのチェックポイント。",
+    "category": "howto"
+  },
+  {
+    "slug": "gakki-kaitori-vs-kojin-baibai",
+    "title": "業者買取 vs 個人売買 比較",
+    "shortTitle": "業者買取 vs 個人売買 比較",
+    "badge": "業者 vs 個人",
+    "description": "メルカリ・ヤフオクと業者買取の違いを解説。",
+    "category": "howto"
+  },
+  {
+    "slug": "gakki-shobun-houhou",
+    "title": "楽器の処分方法まとめ",
+    "shortTitle": "楽器の処分方法まとめ",
+    "badge": "処分方法",
+    "description": "粗大ごみ・寄付・買取の選び方を比較。",
+    "category": "howto"
+  },
+  {
+    "slug": "gibson-kaitori",
+    "title": "Gibson(ギブソン)買取相場",
+    "shortTitle": "Gibson(ギブソン)買取相場",
+    "badge": "Gibson買取",
+    "description": "Les Paul・SG・ES-335 の人気モデル相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "gifu-gakki-kaitori",
+    "title": "楽器買取 岐阜おすすめ3選",
+    "shortTitle": "楽器買取 岐阜おすすめ3選",
+    "badge": "岐阜",
+    "description": "岐阜県の楽器買取業者を徹底比較。",
+    "category": "region"
+  },
+  {
+    "slug": "grand-piano-kaitori",
+    "title": "グランドピアノ買取相場ガイド",
+    "shortTitle": "グランドピアノ買取相場ガイド",
+    "badge": "グランドピアノ",
+    "description": "サイズ別買取相場と高額査定のコツを徹底解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "guitar-amp-kaitori",
+    "title": "ギターアンプ買取相場ガイド",
+    "shortTitle": "ギターアンプ買取相場ガイド",
+    "badge": "ギターアンプ",
+    "description": "Marshall・Fender・VOX の真空管アンプ相場。",
+    "category": "instrument"
+  },
+  {
+    "slug": "guitar-kaitori",
+    "title": "ギター買取おすすめ3社比較",
+    "shortTitle": "ギター買取おすすめ3社比較",
+    "badge": "ギター買取",
+    "description": "エレキ・アコギの相場と人気業者を徹底比較。",
+    "category": "instrument"
+  },
+  {
+    "slug": "hachioji-gakki-kaitori",
+    "title": "楽器買取 八王子おすすめ3選",
+    "shortTitle": "楽器買取 八王子おすすめ3選",
+    "badge": "八王子",
+    "description": "多摩・八王子の出張買取の選び方。",
+    "category": "region"
+  },
+  {
+    "slug": "hamamatsu-gakki-kaitori",
+    "title": "楽器買取 浜松おすすめ3選",
+    "shortTitle": "楽器買取 浜松おすすめ3選",
+    "badge": "浜松",
+    "description": "楽器の街・浜松の買取業者をまとめて比較。",
+    "category": "region"
+  },
+  {
+    "slug": "harp-kaitori",
+    "title": "ハープ買取相場ガイド",
+    "shortTitle": "ハープ買取相場ガイド",
+    "badge": "ハープ買取",
+    "description": "アイリッシュ・ペダルハープの相場を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "hikkoshi-gakki-shobun",
+    "title": "引っ越し時の楽器処分",
+    "shortTitle": "引っ越し時の楽器処分",
+    "badge": "引っ越し",
+    "description": "引っ越し前に楽器を売る・処分する手順。",
+    "category": "howto"
+  },
+  {
+    "slug": "hiroshima-gakki-kaitori",
+    "title": "楽器買取 広島おすすめ3選",
+    "shortTitle": "楽器買取 広島おすすめ3選",
+    "badge": "広島",
+    "description": "広島・中国地方の楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "hitsuyou-shorui",
+    "title": "買取に必要な書類まとめ",
+    "shortTitle": "買取に必要な書類まとめ",
+    "badge": "必要書類",
+    "description": "本人確認・領収書など必要な書類リスト。",
+    "category": "howto"
+  },
+  {
+    "slug": "ibanez-kaitori",
+    "title": "Ibanez(アイバニーズ)買取ガイド",
+    "shortTitle": "Ibanez(アイバニーズ)買取ガイド",
+    "badge": "Ibanez買取",
+    "description": "RG・Prestige・Steve Vai モデルの相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "ihin-gakki-kaitori",
+    "title": "遺品の楽器買取ガイド",
+    "shortTitle": "遺品の楽器買取ガイド",
+    "badge": "遺品楽器",
+    "description": "遺品整理に伴う楽器買取の進め方を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "ikebukuro-gakki-kaitori",
+    "title": "楽器買取 池袋おすすめ3選",
+    "shortTitle": "楽器買取 池袋おすすめ3選",
+    "badge": "池袋",
+    "description": "池袋エリアの買取業者を徹底ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "kabi-gakki-kaitori",
+    "title": "カビ・劣化楽器の買取ガイド",
+    "shortTitle": "カビ・劣化楽器の買取ガイド",
+    "badge": "カビ・劣化",
+    "description": "カビた楽器でも買取可能か、相場と対処法。",
+    "category": "instrument"
+  },
+  {
+    "slug": "kagoshima-gakki-kaitori",
+    "title": "楽器買取 鹿児島おすすめ3選",
+    "shortTitle": "楽器買取 鹿児島おすすめ3選",
+    "badge": "鹿児島",
+    "description": "鹿児島・九州南部の楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "kaitori-houhou-hikaku",
+    "title": "出張・宅配・店頭 買取方法比較",
+    "shortTitle": "出張・宅配・店頭 買取方法比較",
+    "badge": "買取方法",
+    "description": "3つの買取方法のメリットデメリットを比較。",
+    "category": "howto"
+  },
+  {
+    "slug": "kaitori-houshiki-tetteihikaku",
+    "title": "買取方式 徹底比較ガイド",
+    "shortTitle": "買取方式 徹底比較ガイド",
+    "badge": "方式比較",
+    "description": "業者選びで失敗しないための基礎知識。",
+    "category": "howto"
+  },
+  {
+    "slug": "kaitori-nagare",
+    "title": "楽器買取の流れガイド",
+    "shortTitle": "楽器買取の流れガイド",
+    "badge": "買取の流れ",
+    "description": "問い合わせから入金まで全ステップを解説。",
+    "category": "howto"
+  },
+  {
+    "slug": "kanazawa-gakki-kaitori",
+    "title": "楽器買取 金沢おすすめ3選",
+    "shortTitle": "楽器買取 金沢おすすめ3選",
+    "badge": "金沢",
+    "description": "金沢・北陸エリアの楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "kashiwa-gakki-kaitori",
+    "title": "楽器買取 柏おすすめ3選",
+    "shortTitle": "楽器買取 柏おすすめ3選",
+    "badge": "柏",
+    "description": "柏・千葉北西部の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kawaguchi-gakki-kaitori",
+    "title": "楽器買取 川口おすすめ3選",
+    "shortTitle": "楽器買取 川口おすすめ3選",
+    "badge": "川口",
+    "description": "川口・埼玉南部の出張買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kawai-kaitori",
+    "title": "KAWAI(カワイ)買取相場ガイド",
+    "shortTitle": "KAWAI(カワイ)買取相場ガイド",
+    "badge": "KAWAI買取",
+    "description": "アップライト・グランド・電子ピアノの査定額。",
+    "category": "brand"
+  },
+  {
+    "slug": "kawasaki-gakki-kaitori",
+    "title": "楽器買取 川崎おすすめ3選",
+    "shortTitle": "楽器買取 川崎おすすめ3選",
+    "badge": "川崎",
+    "description": "川崎・神奈川東部の買取相場を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "keyboard-kaitori",
+    "title": "キーボード買取相場ガイド",
+    "shortTitle": "キーボード買取相場ガイド",
+    "badge": "キーボード買取",
+    "description": "YAMAHA・Roland・KORG のステージピアノ相場。",
+    "category": "instrument"
+  },
+  {
+    "slug": "kitakyushu-gakki-kaitori",
+    "title": "楽器買取 北九州おすすめ3選",
+    "shortTitle": "楽器買取 北九州おすすめ3選",
+    "badge": "北九州",
+    "description": "北九州・福岡県北部の楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "kobe-gakki-kaitori",
+    "title": "楽器買取 神戸おすすめ3選",
+    "shortTitle": "楽器買取 神戸おすすめ3選",
+    "badge": "神戸",
+    "description": "神戸市全域の出張・店頭買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kobe-sannomiya-gakki-kaitori",
+    "title": "楽器買取 神戸三宮おすすめ3選",
+    "shortTitle": "楽器買取 神戸三宮おすすめ3選",
+    "badge": "三宮",
+    "description": "三宮エリアの楽器買取業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kochi-gakki-kaitori",
+    "title": "楽器買取 高知おすすめ3選",
+    "shortTitle": "楽器買取 高知おすすめ3選",
+    "badge": "高知",
+    "description": "高知県内の楽器買取業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kodomo-piano-yameta",
+    "title": "子供がピアノをやめた時",
+    "shortTitle": "子供がピアノをやめた時",
+    "badge": "子供ピアノ",
+    "description": "使わなくなった子供のピアノの売り方。",
+    "category": "howto"
+  },
+  {
+    "slug": "korg-kaitori",
+    "title": "KORG買取相場ガイド",
+    "shortTitle": "KORG買取相場ガイド",
+    "badge": "KORG買取",
+    "description": "シンセ・キーボードの主要モデル相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "koto-kaitori",
+    "title": "琴(箏)買取相場ガイド",
+    "shortTitle": "琴(箏)買取相場ガイド",
+    "badge": "琴買取",
+    "description": "13絃・17絃の琴の買取相場と注意点。",
+    "category": "instrument"
+  },
+  {
+    "slug": "kougaku-satei-ranking",
+    "title": "高額査定ランキング",
+    "shortTitle": "高額査定ランキング",
+    "badge": "高額査定",
+    "description": "高額査定が出やすい楽器ジャンルのランキング。",
+    "category": "howto"
+  },
+  {
+    "slug": "kowareta-gakki-kaitori",
+    "title": "壊れた楽器の買取ガイド",
+    "shortTitle": "壊れた楽器の買取ガイド",
+    "badge": "壊れた楽器",
+    "description": "ジャンク楽器・部品取り買取の相場を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "kumamoto-gakki-kaitori",
+    "title": "楽器買取 熊本おすすめ3選",
+    "shortTitle": "楽器買取 熊本おすすめ3選",
+    "badge": "熊本",
+    "description": "熊本・九州中部の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kyoto-gakki-kaitori",
+    "title": "楽器買取 京都おすすめ3選",
+    "shortTitle": "楽器買取 京都おすすめ3選",
+    "badge": "京都",
+    "description": "京都市内の出張・店頭買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kyoto-shijo-gakki-kaitori",
+    "title": "楽器買取 京都四条おすすめ3選",
+    "shortTitle": "楽器買取 京都四条おすすめ3選",
+    "badge": "京都四条",
+    "description": "京都四条・河原町エリアの買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "ludwig-kaitori",
+    "title": "Ludwig(ラディック)買取相場",
+    "shortTitle": "Ludwig(ラディック)買取相場",
+    "badge": "Ludwig買取",
+    "description": "Black Beauty 等のヴィンテージドラム相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "machida-gakki-kaitori",
+    "title": "楽器買取 町田おすすめ3選",
+    "shortTitle": "楽器買取 町田おすすめ3選",
+    "badge": "町田",
+    "description": "町田・神奈川北部の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "marshall-kaitori",
+    "title": "Marshall買取相場ガイド",
+    "shortTitle": "Marshall買取相場ガイド",
+    "badge": "Marshall",
+    "description": "JCM・Plexi の真空管アンプ買取の目安。",
+    "category": "brand"
+  },
+  {
+    "slug": "martin-kaitori",
+    "title": "Martin(マーチン)買取相場",
+    "shortTitle": "Martin(マーチン)買取相場",
+    "badge": "Martin買取",
+    "description": "D-28・OM・000 のアコギ買取の目安。",
+    "category": "brand"
+  },
+  {
+    "slug": "matome-uri-kaitori",
+    "title": "楽器まとめ売り買取ガイド",
+    "shortTitle": "楽器まとめ売り買取ガイド",
+    "badge": "まとめ売り",
+    "description": "複数楽器を一括売却するメリットを解説。",
+    "category": "howto"
+  },
+  {
+    "slug": "matsudo-gakki-kaitori",
+    "title": "楽器買取 松戸おすすめ3選",
+    "shortTitle": "楽器買取 松戸おすすめ3選",
+    "badge": "松戸",
+    "description": "松戸・千葉県西部の楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "matsuyama-gakki-kaitori",
+    "title": "楽器買取 松山おすすめ3選",
+    "shortTitle": "楽器買取 松山おすすめ3選",
+    "badge": "松山",
+    "description": "松山・愛媛県の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "mercari-vs-gyosha",
+    "title": "メルカリ vs 業者買取",
+    "shortTitle": "メルカリ vs 業者買取",
+    "badge": "メルカリ比較",
+    "description": "手数料・手間・スピードを徹底比較。",
+    "category": "howto"
+  },
+  {
+    "slug": "mibunsho-hitsuyou",
+    "title": "買取時の身分証ガイド",
+    "shortTitle": "買取時の身分証ガイド",
+    "badge": "身分証",
+    "description": "古物営業法で必要となる身分証の種類。",
+    "category": "howto"
+  },
+  {
+    "slug": "microphone-kaitori",
+    "title": "マイク買取相場ガイド",
+    "shortTitle": "マイク買取相場ガイド",
+    "badge": "マイク買取",
+    "description": "Shure・SENNHEISER・NEUMANN の人気モデル相場。",
+    "category": "instrument"
+  },
+  {
+    "slug": "midi-keyboard-kaitori",
+    "title": "MIDIキーボード買取ガイド",
+    "shortTitle": "MIDIキーボード買取ガイド",
+    "badge": "MIDIキーボード",
+    "description": "AKAI・Native Instruments の中古相場を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "miseinen-baikyaku",
+    "title": "未成年の楽器売却ガイド",
+    "shortTitle": "未成年の楽器売却ガイド",
+    "badge": "未成年",
+    "description": "未成年でも楽器を売る方法と注意点。",
+    "category": "howto"
+  },
+  {
+    "slug": "morioka-gakki-kaitori",
+    "title": "楽器買取 盛岡おすすめ3選",
+    "shortTitle": "楽器買取 盛岡おすすめ3選",
+    "badge": "盛岡",
+    "description": "盛岡・岩手県の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "nagoya-gakki-kaitori",
+    "title": "楽器買取 名古屋おすすめ3選",
+    "shortTitle": "楽器買取 名古屋おすすめ3選",
+    "badge": "名古屋",
+    "description": "名古屋市内の出張・店頭買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "naha-gakki-kaitori",
+    "title": "楽器買取 那覇おすすめ3選",
+    "shortTitle": "楽器買取 那覇おすすめ3選",
+    "badge": "那覇",
+    "description": "沖縄・那覇の楽器買取業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "namba-gakki-kaitori",
+    "title": "楽器買取 難波おすすめ3選",
+    "shortTitle": "楽器買取 難波おすすめ3選",
+    "badge": "難波",
+    "description": "難波・心斎橋エリアの楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "oboe-kaitori",
+    "title": "オーボエ買取相場ガイド",
+    "shortTitle": "オーボエ買取相場ガイド",
+    "badge": "オーボエ買取",
+    "description": "ロレー・マリゴ・YAMAHA の買取相場目安。",
+    "category": "instrument"
+  },
+  {
+    "slug": "ochanomizu-gakki-kaitori",
+    "title": "楽器買取 御茶ノ水おすすめ3選",
+    "shortTitle": "楽器買取 御茶ノ水おすすめ3選",
+    "badge": "御茶ノ水",
+    "description": "楽器街の御茶ノ水で最高値を狙う。",
+    "category": "region"
+  },
+  {
+    "slug": "omiya-gakki-kaitori",
+    "title": "楽器買取 大宮おすすめ3選",
+    "shortTitle": "楽器買取 大宮おすすめ3選",
+    "badge": "大宮",
+    "description": "大宮・さいたま市の楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "osaka-gakki-kaitori",
+    "title": "楽器買取 大阪おすすめ3選",
+    "shortTitle": "楽器買取 大阪おすすめ3選",
+    "badge": "大阪",
+    "description": "大阪府全域の出張・店頭買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "oya-gakki-seiri",
+    "title": "実家の楽器整理ガイド",
+    "shortTitle": "実家の楽器整理ガイド",
+    "badge": "実家整理",
+    "description": "実家にある楽器を整理して売る進め方。",
+    "category": "howto"
+  },
+  {
+    "slug": "pearl-kaitori",
+    "title": "Pearl(パール)買取相場",
+    "shortTitle": "Pearl(パール)買取相場",
+    "badge": "Pearl買取",
+    "description": "Master・Reference のドラムセット買取相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "piano-kaitori",
+    "title": "ピアノ買取おすすめ3社比較",
+    "shortTitle": "ピアノ買取おすすめ3社比較",
+    "badge": "ピアノ買取",
+    "description": "グランド・アップライト・電子の相場とおすすめ業者を比較。",
+    "category": "instrument"
+  },
+  {
+    "slug": "renshu-shinai-gakki",
+    "title": "練習しない楽器の処分",
+    "shortTitle": "練習しない楽器の処分",
+    "badge": "練習しない",
+    "description": "眠っている楽器の活用と売却術。",
+    "category": "howto"
+  },
+  {
+    "slug": "roland-kaitori",
+    "title": "Roland買取相場ガイド",
+    "shortTitle": "Roland買取相場ガイド",
+    "badge": "Roland買取",
+    "description": "電子ピアノ・シンセ・電子ドラムの査定額。",
+    "category": "brand"
+  },
+  {
+    "slug": "sapporo-gakki-kaitori",
+    "title": "楽器買取 札幌おすすめ3選",
+    "shortTitle": "楽器買取 札幌おすすめ3選",
+    "badge": "札幌",
+    "description": "札幌・北海道の楽器買取業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "satei-yomikata",
+    "title": "査定書の読み方ガイド",
+    "shortTitle": "査定書の読み方ガイド",
+    "badge": "査定書",
+    "description": "査定額の根拠と内訳をチェックするポイント。",
+    "category": "howto"
+  },
+  {
+    "slug": "saxophone-kaitori",
+    "title": "サックス買取おすすめ3社比較",
+    "shortTitle": "サックス買取おすすめ3社比較",
+    "badge": "サックス買取",
+    "description": "Selmer・YAMAHA・Yanagisawa の査定額目安。",
+    "category": "instrument"
+  },
+  {
+    "slug": "selmer-kaitori",
+    "title": "Selmer(セルマー)買取相場",
+    "shortTitle": "Selmer(セルマー)買取相場",
+    "badge": "Selmer買取",
+    "description": "Mark VI・Series II/III の高額査定ポイント。",
+    "category": "brand"
+  },
+  {
+    "slug": "sendai-gakki-kaitori",
+    "title": "楽器買取 仙台おすすめ3選",
+    "shortTitle": "楽器買取 仙台おすすめ3選",
+    "badge": "仙台",
+    "description": "仙台・宮城県の楽器買取業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "senmonten-vs-recycle",
+    "title": "専門店 vs リサイクル比較",
+    "shortTitle": "専門店 vs リサイクル比較",
+    "badge": "専門店比較",
+    "description": "楽器専門店と総合リサイクルの違いを解説。",
+    "category": "howto"
+  },
+  {
+    "slug": "sennheiser-kaitori",
+    "title": "ゼンハイザー買取相場",
+    "shortTitle": "ゼンハイザー買取相場",
+    "badge": "SENNHEISER",
+    "description": "MD/MK・HD の中古買取相場の目安。",
+    "category": "brand"
+  },
+  {
+    "slug": "shakuhachi-kaitori",
+    "title": "尺八買取相場ガイド",
+    "shortTitle": "尺八買取相場ガイド",
+    "badge": "尺八買取",
+    "description": "1尺8寸・地無し管の中古買取の目安。",
+    "category": "instrument"
+  },
+  {
+    "slug": "shamisen-kaitori",
+    "title": "三味線買取相場ガイド",
+    "shortTitle": "三味線買取相場ガイド",
+    "badge": "三味線買取",
+    "description": "津軽・地唄・長唄の種類別買取相場を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "shibuya-gakki-kaitori",
+    "title": "楽器買取 渋谷おすすめ3選",
+    "shortTitle": "楽器買取 渋谷おすすめ3選",
+    "badge": "渋谷",
+    "description": "渋谷エリアの出張・店頭買取を徹底比較。",
+    "category": "region"
+  },
+  {
+    "slug": "shinjuku-gakki-kaitori",
+    "title": "楽器買取 新宿おすすめ3選",
+    "shortTitle": "楽器買取 新宿おすすめ3選",
+    "badge": "新宿",
+    "description": "新宿の楽器買取業者と相場を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "shizuoka-gakki-kaitori",
+    "title": "楽器買取 静岡おすすめ3選",
+    "shortTitle": "楽器買取 静岡おすすめ3選",
+    "badge": "静岡",
+    "description": "静岡県内の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "shumi-yameta-gakki",
+    "title": "趣味をやめた楽器の売却",
+    "shortTitle": "趣味をやめた楽器の売却",
+    "badge": "趣味終了",
+    "description": "弾かなくなった楽器を売るベストタイミング。",
+    "category": "howto"
+  },
+  {
+    "slug": "shure-kaitori",
+    "title": "Shure(シュア)買取相場",
+    "shortTitle": "Shure(シュア)買取相場",
+    "badge": "Shure買取",
+    "description": "SM58・KSM・PSM の中古買取相場目安。",
+    "category": "brand"
+  },
+  {
+    "slug": "sonor-kaitori",
+    "title": "Sonor(ソナー)買取相場",
+    "shortTitle": "Sonor(ソナー)買取相場",
+    "badge": "Sonor買取",
+    "description": "SQ2・Phonic のドラムセット買取相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "souba-ichiran",
+    "title": "楽器買取相場一覧まとめ",
+    "shortTitle": "楽器買取相場一覧まとめ",
+    "badge": "相場一覧",
+    "description": "全カテゴリの相場を一覧で比較できる。",
+    "category": "howto"
+  },
+  {
+    "slug": "souko-seiri-gakki",
+    "title": "倉庫・物置の楽器整理",
+    "shortTitle": "倉庫・物置の楽器整理",
+    "badge": "倉庫整理",
+    "description": "長期保管した楽器のチェックと売却術。",
+    "category": "howto"
+  },
+  {
+    "slug": "steinway-kaitori",
+    "title": "スタインウェイ買取相場",
+    "shortTitle": "スタインウェイ買取相場",
+    "badge": "Steinway買取",
+    "description": "Model B・D の高額査定ポイントを解説。",
+    "category": "brand"
+  },
+  {
+    "slug": "synthesizer-kaitori",
+    "title": "シンセサイザー買取相場ガイド",
+    "shortTitle": "シンセサイザー買取相場ガイド",
+    "badge": "シンセ買取",
+    "description": "Moog・Sequential・Roland のヴィンテージ相場も。",
+    "category": "instrument"
+  },
+  {
+    "slug": "tachikawa-gakki-kaitori",
+    "title": "楽器買取 立川おすすめ3選",
+    "shortTitle": "楽器買取 立川おすすめ3選",
+    "badge": "立川",
+    "description": "立川・多摩エリアの買取業者まとめ。",
+    "category": "region"
+  },
+  {
+    "slug": "takaku-uru-kotsu",
+    "title": "楽器を高く売る5つのコツ",
+    "shortTitle": "楽器を高く売る5つのコツ",
+    "badge": "高く売るコツ",
+    "description": "相見積もり・付属品など売却前の必須準備。",
+    "category": "howto"
+  },
+  {
+    "slug": "takamatsu-gakki-kaitori",
+    "title": "楽器買取 高松おすすめ3選",
+    "shortTitle": "楽器買取 高松おすすめ3選",
+    "badge": "高松",
+    "description": "高松・四国の楽器買取ガイド。",
+    "category": "region"
+  },
+  {
+    "slug": "tama-kaitori",
+    "title": "楽器買取 多摩エリアおすすめ",
+    "shortTitle": "楽器買取 多摩エリアおすすめ",
+    "badge": "多摩",
+    "description": "多摩地域全体の買取業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "tokyo-gakki-kaitori",
+    "title": "楽器買取 東京おすすめ3選",
+    "shortTitle": "楽器買取 東京おすすめ3選",
+    "badge": "東京",
+    "description": "東京エリアの出張・店頭買取業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "toyama-gakki-kaitori",
+    "title": "楽器買取 富山おすすめ3選",
+    "shortTitle": "楽器買取 富山おすすめ3選",
+    "badge": "富山",
+    "description": "富山県・北陸の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "trombone-kaitori",
+    "title": "トロンボーン買取相場ガイド",
+    "shortTitle": "トロンボーン買取相場ガイド",
+    "badge": "トロンボーン買取",
+    "description": "YAMAHA・Bach・King など型番別の目安。",
+    "category": "instrument"
+  },
+  {
+    "slug": "trumpet-kaitori",
+    "title": "トランペット買取相場ガイド",
+    "shortTitle": "トランペット買取相場ガイド",
+    "badge": "トランペット買取",
+    "description": "Bach・YAMAHA・Schilke の人気モデル相場。",
+    "category": "instrument"
+  },
+  {
+    "slug": "umeda-gakki-kaitori",
+    "title": "楽器買取 梅田おすすめ3選",
+    "shortTitle": "楽器買取 梅田おすすめ3選",
+    "badge": "梅田",
+    "description": "梅田・大阪市北部の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "violin-kaitori",
+    "title": "バイオリン買取相場ガイド",
+    "shortTitle": "バイオリン買取相場ガイド",
+    "badge": "バイオリン買取",
+    "description": "Suzuki・ヨーロッパ製まで査定額の目安を紹介。",
+    "category": "instrument"
+  },
+  {
+    "slug": "vox-kaitori",
+    "title": "VOX買取相場ガイド",
+    "shortTitle": "VOX買取相場ガイド",
+    "badge": "VOX買取",
+    "description": "AC30 などの真空管アンプ買取相場。",
+    "category": "brand"
+  },
+  {
+    "slug": "wadaiko-kaitori",
+    "title": "和太鼓買取相場ガイド",
+    "shortTitle": "和太鼓買取相場ガイド",
+    "badge": "和太鼓買取",
+    "description": "長胴太鼓・桶胴太鼓の中古買取の目安を解説。",
+    "category": "instrument"
+  },
+  {
+    "slug": "yamagata-gakki-kaitori",
+    "title": "楽器買取 山形おすすめ3選",
+    "shortTitle": "楽器買取 山形おすすめ3選",
+    "badge": "山形",
+    "description": "山形県全域の楽器買取を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "yamaha-kaitori",
+    "title": "YAMAHA楽器の買取相場まとめ",
+    "shortTitle": "YAMAHA楽器の買取相場まとめ",
+    "badge": "YAMAHA買取",
+    "description": "ピアノ・ギター・管楽器までブランド横断で解説。",
+    "category": "brand"
+  },
+  {
+    "slug": "yanagisawa-kaitori",
+    "title": "ヤナギサワ買取相場ガイド",
+    "shortTitle": "ヤナギサワ買取相場ガイド",
+    "badge": "Yanagisawa",
+    "description": "ソプラノ・アルト・テナーの査定額目安。",
+    "category": "brand"
+  },
+  {
+    "slug": "yokohama-gakki-kaitori",
+    "title": "楽器買取 横浜おすすめ3選",
+    "shortTitle": "楽器買取 横浜おすすめ3選",
+    "badge": "横浜",
+    "description": "横浜エリアの出張・店頭買取を比較。",
+    "category": "region"
+  }
+]

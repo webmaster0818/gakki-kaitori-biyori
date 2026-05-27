@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法",
@@ -144,15 +145,10 @@ export default function Page() {
           <CtaBox />
         </div>
 
-        <aside className="mt-12 pt-8 border-t border-warm-border">
-          <h2 className="font-display text-lg font-bold mb-4">関連記事</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3></Link>
-            <Link href="/articles/kaitori-houhou-hikaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">買取方法比較</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">買取方法の比較ガイド</h3></Link>
-            <Link href="/articles/souba-ichiran/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">相場一覧</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">全楽器の買取相場まとめ</h3></Link>
-            <Link href="/articles/kowareta-gakki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">壊れた楽器</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">壊れた楽器の買取</h3></Link>
-          </div>
-        </aside>
+        <RelatedArticles
+          currentSlug="ihin-gakki-kaitori"
+          relatedSlugs={["kowareta-gakki-kaitori", "kabi-gakki-kaitori", "piano-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "guitar-kaitori", "saxophone-kaitori", "drum-kaitori"]}
+        />
       </article>
     </>
   );

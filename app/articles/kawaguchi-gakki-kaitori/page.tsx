@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】楽器買取 川口おすすめ3選｜出張・店頭・宅配を比較",
@@ -109,12 +110,10 @@ export default function Page() {
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">川口から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">対応可能です。ピアノ・ドラムセットなど大型楽器は出張買取一択。川口エリアは主要業者の対応圏内なので、複数業者で相見積もりを取って最高値を選びましょう。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">川口で当日中に現金化できますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">店頭買取なら当日可、出張買取なら最短即日対応の業者あり。急ぎの場合は事前に「即日対応可能か」を確認してから申し込むのがおすすめです。</p></details>
 
-        <h2>関連記事</h2>
-        <ul>
-          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
-          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
-          <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
-        </ul>
+        <RelatedArticles
+          currentSlug="kawaguchi-gakki-kaitori"
+          relatedSlugs={["omiya-gakki-kaitori", "tokyo-gakki-kaitori", "ikebukuro-gakki-kaitori", "kashiwa-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+        />
         </div>
       </article>
     </>

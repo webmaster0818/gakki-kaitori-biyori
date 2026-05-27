@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】MIDIキーボード買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
@@ -130,12 +131,10 @@ export default function Page() {
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">MIDIキーボードの付属品がない場合、買取できますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">本体のみでも買取は可能ですが、ケース・保証書・取扱説明書・購入時の領収書などが揃っていると査定額が10〜30%アップします。可能な限り付属品を揃えて出しましょう。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">MIDIキーボードが壊れていても買取できますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">破損の程度によります。動作する状態であれば買取可能、明らかな故障があっても部品取り目的で買取できる業者もあります。まずは無料査定で確認しましょう。</p></details>
 
-        <h2>関連記事</h2>
-        <ul>
-          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
-          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
-          <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
-        </ul>
+        <RelatedArticles
+          currentSlug="midi-keyboard-kaitori"
+          relatedSlugs={["keyboard-kaitori", "synthesizer-kaitori", "audio-interface-kaitori", "korg-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori"]}
+        />
         </div>
       </article>
     </>

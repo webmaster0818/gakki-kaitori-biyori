@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
@@ -257,27 +258,10 @@ export default function PearlKaitoriPage() {
           <CtaBox />
         </div>
 
-        <aside className="mt-12 pt-8 border-t border-warm-border">
-          <h2 className="font-display text-lg font-bold mb-4">関連記事</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link href="/articles/drum-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ドラム買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ドラム買取おすすめ3社比較</h3>
-            </Link>
-            <Link href="/articles/roland-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">Roland買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">Roland買取相場まとめ</h3>
-            </Link>
-            <Link href="/articles/matome-uri-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">まとめ売り</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器まとめ売りのコツ</h3>
-            </Link>
-            <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
-            </Link>
-          </div>
-        </aside>
+        <RelatedArticles
+          currentSlug="pearl-kaitori"
+          relatedSlugs={["drum-kaitori", "ludwig-kaitori", "sonor-kaitori", "yamaha-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori"]}
+        />
       </article>
     </>
   );

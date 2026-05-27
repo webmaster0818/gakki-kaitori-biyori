@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
@@ -120,15 +121,10 @@ export default function Page() {
           <CtaBox />
         </div>
 
-        <aside className="mt-12 pt-8 border-t border-warm-border">
-          <h2 className="font-display text-lg font-bold mb-4">関連記事</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link href="/articles/guitar-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ギター買取</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ギター買取</h3></Link>
-            <Link href="/articles/fender-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">Fender買取</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">Fender買取</h3></Link>
-            <Link href="/articles/gibson-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">Gibson買取</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">Gibson買取</h3></Link>
-            <Link href="/articles/bass-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group"><span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ベース買取</span><h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ベース買取</h3></Link>
-          </div>
-        </aside>
+        <RelatedArticles
+          currentSlug="ibanez-kaitori"
+          relatedSlugs={["guitar-kaitori", "bass-kaitori", "fender-kaitori", "gibson-kaitori", "marshall-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori"]}
+        />
       </article>
     </>
   );

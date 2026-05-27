@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】楽器買取相場一覧｜ギター・ピアノ・管楽器・ドラムの相場まとめ",
@@ -519,19 +520,10 @@ export default function SoubaIchiranPage() {
           <CtaBox />
         </div>
 
-        <aside className="mt-12 pt-8 border-t border-warm-border">
-          <h2 className="font-display text-lg font-bold mb-4">関連記事</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">売却ガイド</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
-            </Link>
-            <Link href="/articles/kaitori-houhou-hikaku/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">買取方法</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">買取方法を比較（出張/宅配/店頭）</h3>
-            </Link>
-          </div>
-        </aside>
+        <RelatedArticles
+          currentSlug="souba-ichiran"
+          relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "takaku-uru-kotsu", "kougaku-satei-ranking", "satei-yomikata", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori"]}
+        />
       </article>
     </>
   );

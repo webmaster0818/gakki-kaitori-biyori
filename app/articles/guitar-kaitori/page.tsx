@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツ",
@@ -471,35 +472,10 @@ export default function GuitarKaitoriPage() {
         </div>
 
         {/* Related Articles */}
-        <aside className="mt-12 pt-8 border-t border-warm-border">
-          <h2 className="font-display text-lg font-bold mb-4">関連記事</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link href="/articles/gibson-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">Gibson買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">Gibson買取相場・おすすめ業者</h3>
-            </Link>
-            <Link href="/articles/fender-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">Fender買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">Fender買取相場・おすすめ業者</h3>
-            </Link>
-            <Link href="/articles/bass-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">ベース買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">ベース買取おすすめ3社比較</h3>
-            </Link>
-            <Link href="/articles/takaku-uru-kotsu/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">高く売るコツ</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">楽器を高く売る5つのコツ</h3>
-            </Link>
-            <Link href="/articles/yamaha-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">YAMAHA買取</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">YAMAHA楽器の買取相場まとめ</h3>
-            </Link>
-            <Link href="/articles/kowareta-gakki-kaitori/" className="block bg-white border border-warm-border rounded-xl p-4 hover:border-gold/40 hover:shadow-md transition-all group">
-              <span className="bg-gold/10 text-gold-dark text-xs font-bold px-2 py-0.5 rounded-full">壊れた楽器</span>
-              <h3 className="font-bold text-sm mt-2 group-hover:text-accent transition-colors">壊れた楽器・ジャンク品の買取</h3>
-            </Link>
-          </div>
-        </aside>
+        <RelatedArticles
+          currentSlug="guitar-kaitori"
+          relatedSlugs={["bass-kaitori", "guitar-amp-kaitori", "effector-kaitori", "yamaha-kaitori", "fender-kaitori", "gibson-kaitori", "martin-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+        />
       </article>
     </>
   );
