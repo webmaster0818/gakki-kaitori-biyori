@@ -37,7 +37,8 @@ function FaqSchema() {
       { "@type": "Question", name: "Ibanezのベースも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、IbanezのSR・BTBなどのベースシリーズも買取対象です。Prestige（日本製）は3万〜10万円程度の査定が期待できます。" } }
   ]};
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
-  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} /></>);
+  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/ibanez-kaitori/\"}]}" }} /></>);
 }
 
 export default function Page() {

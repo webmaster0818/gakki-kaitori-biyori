@@ -37,7 +37,8 @@ function FaqSchema() {
       { "@type": "Question", name: "Selmerのクラリネットも買取できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、Selmerのクラリネット（Recital、Privilege、Signatureなど）も買取可能です。買取相場は3万〜15万円程度です。" } }
   ]};
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
-  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} /></>);
+  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/selmer-kaitori/\"}]}" }} /></>);
 }
 
 export default function Page() {

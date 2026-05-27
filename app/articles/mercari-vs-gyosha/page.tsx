@@ -37,7 +37,8 @@ function FaqSchema() {
       { "@type": "Question", name: "すぐに現金が必要な場合はどうすべきですか？", acceptedAnswer: { "@type": "Answer", text: "買取業者の利用がおすすめです。出張買取なら最短即日で現金化でき、宅配買取でも1〜3営業日で振込されます。メルカリは売れるまでの日数が読めません。" } }
   ]};
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
-  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} /></>);
+  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？\", \"item\": \"https://gakkikaitori-biyori.com/articles/mercari-vs-gyosha/\"}]}" }} /></>);
 }
 
 export default function Page() {

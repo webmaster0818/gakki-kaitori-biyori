@@ -37,7 +37,8 @@ function FaqSchema() {
       { "@type": "Question", name: "まとめ売りの際に必要なものはありますか？", acceptedAnswer: { "@type": "Answer", text: "身分証明書（免許証やマイナンバーカード等）が必要です。各楽器の付属品（ケース、保証書等）があれば査定額がアップします。" } }
   ]};
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
-  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} /></>);
+  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/matome-uri-kaitori/\"}]}" }} /></>);
 }
 
 export default function Page() {
