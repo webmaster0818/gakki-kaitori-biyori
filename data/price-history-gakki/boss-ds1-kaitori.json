@@ -1,0 +1,23 @@
+{
+  "slug": "boss-ds1-kaitori",
+  "label": "BOSS DS-1",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "BOSS DS-1 エフェクター",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "median_jpy": 6500,
+      "sample_n": 234,
+      "raw_n": 256
+    }
+  ],
+  "latest": {
+    "date": "2026-06-02",
+    "median_jpy": 6500,
+    "sample_n": 234,
+    "raw_n": 256,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

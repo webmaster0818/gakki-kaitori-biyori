@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   title: "【2026年最新】ギブソン レスポール カスタムの買取相場｜高く売るコツ・おすすめ業者",
@@ -53,6 +54,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">ギブソン レスポール カスタムは「Black Beauty」の愛称で知られる上位モデルで、多層バインディングと豪華な装飾、エボニー指板を備えた高級機です。中古市場でも別格の人気を誇り、買取でも高値が付きやすいモデルです。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="gibson-lespaul-custom-kaitori" modelName="Gibson Les Paul Custom" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   title: "【2026年最新】パール マスターズの買取相場｜高く売るコツ・おすすめ業者",
@@ -53,6 +54,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">パール マスターズ（Pearl Masters）は、パールのプロ・上級者向けドラムセットの代表ラインです。メイプル等のシェルによる豊かな鳴りで、レコーディングからライブまで幅広く使われ、中古買取でも安定した需要があります。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="pearl-masters-kaitori" modelName="Pearl Masters" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

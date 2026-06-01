@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
@@ -54,6 +55,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">セルマー マークVI（Mark VI）は、1954年から製造されたヴィンテージサックスの最高峰として世界中のプレイヤーに憧れられる名器です。製造番号により評価が大きく変わり、中古買取でも非常に高額な査定が期待できます。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="selmer-markvi-kaitori" modelName="Selmer Mark VI" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

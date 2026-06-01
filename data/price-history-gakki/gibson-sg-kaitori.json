@@ -1,0 +1,23 @@
+{
+  "slug": "gibson-sg-kaitori",
+  "label": "Gibson SG",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Gibson SG Standard USA",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "median_jpy": 142000,
+      "sample_n": 50,
+      "raw_n": 52
+    }
+  ],
+  "latest": {
+    "date": "2026-06-02",
+    "median_jpy": 142000,
+    "sample_n": 50,
+    "raw_n": 52,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

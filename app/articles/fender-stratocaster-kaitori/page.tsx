@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   title: "【2026年最新】フェンダー ストラトキャスターの買取相場｜高く売るコツ・おすすめ業者",
@@ -53,6 +54,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">フェンダー ストラトキャスターは、3基のシングルコイルとトレモロユニットを備えたエレキギターの世界標準とも言える名器です。USA・メキシコ・日本製などラインが多彩で、中古買取でも極めて需要が高いモデルです。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="fender-stratocaster-kaitori" modelName="Fender Stratocaster" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

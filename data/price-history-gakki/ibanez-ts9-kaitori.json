@@ -1,0 +1,23 @@
+{
+  "slug": "ibanez-ts9-kaitori",
+  "label": "Ibanez TS9 Tube Screamer",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Ibanez TS9 Tube Screamer エフェクター",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "median_jpy": 8995,
+      "sample_n": 108,
+      "raw_n": 124
+    }
+  ],
+  "latest": {
+    "date": "2026-06-02",
+    "median_jpy": 8995,
+    "sample_n": 108,
+    "raw_n": 124,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

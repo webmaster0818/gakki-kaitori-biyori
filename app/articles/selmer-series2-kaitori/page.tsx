@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   title: "【2026年最新】セルマー シリーズIIの買取相場｜高く売るコツ・おすすめ業者",
@@ -53,6 +54,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">セルマー シリーズII（Series II／Super Action 80 Series II）は、現代のプロ・上級者向けスタンダードとして広く使われるサックスです。中古市場でも安定した需要があり、状態の良い個体は高値で取引されます。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="selmer-series2-kaitori" modelName="Selmer Series II" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

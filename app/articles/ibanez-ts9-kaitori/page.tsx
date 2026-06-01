@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   title: "【2026年最新】Ibanez TS9の買取相場｜高く売るコツ・おすすめ業者",
@@ -53,6 +54,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">Ibanez TS9（Tube Screamer）は、チューブスクリーマー系オーバードライブの定番として世界中で愛されるペダルです。ミドルが持ち上がる独特のトーンで人気が高く、特に旧仕様や日本製個体は中古市場で高値になることがあります。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="ibanez-ts9-kaitori" modelName="Ibanez TS9 Tube Screamer" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

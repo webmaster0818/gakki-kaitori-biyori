@@ -1,0 +1,23 @@
+{
+  "slug": "marshall-jcm800-kaitori",
+  "label": "Marshall JCM800",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Marshall JCM800 ギターアンプ",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "median_jpy": 122100,
+      "sample_n": 72,
+      "raw_n": 74
+    }
+  ],
+  "latest": {
+    "date": "2026-06-02",
+    "median_jpy": 122100,
+    "sample_n": 72,
+    "raw_n": 74,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

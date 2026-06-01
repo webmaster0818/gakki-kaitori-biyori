@@ -1,0 +1,23 @@
+{
+  "slug": "yamaha-u1-kaitori",
+  "label": "YAMAHA U1",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "ヤマハ U1 アップライトピアノ",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "median_jpy": 20296,
+      "sample_n": 26,
+      "raw_n": 26
+    }
+  ],
+  "latest": {
+    "date": "2026-06-02",
+    "median_jpy": 20296,
+    "sample_n": 26,
+    "raw_n": 26,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

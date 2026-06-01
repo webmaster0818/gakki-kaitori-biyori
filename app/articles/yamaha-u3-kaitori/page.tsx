@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
@@ -54,6 +55,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">ヤマハ U3は高さ131cmの大型アップライトピアノで、豊かな音量と響きから一般家庭・音楽教室・学校で長く愛されてきた定番モデルです。中古市場でも流通量・需要ともに多く、アップライトの代表的な買取対象です。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="yamaha-u3-kaitori" modelName="YAMAHA U3" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

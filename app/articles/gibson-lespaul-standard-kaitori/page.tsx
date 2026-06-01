@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
@@ -54,6 +55,9 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">ギブソン レスポール スタンダードは、メイプルトップ＋マホガニーバックにハムバッカーを2基搭載した、エレキギターを代表する不朽の名機です。中古市場でも常に高い需要があり、買取でも安定して高額査定が期待できます。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
         </header>
+
+        <ModelSpotPriceCard slug="gibson-lespaul-standard-kaitori" modelName="Gibson Les Paul Standard" />
+
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>

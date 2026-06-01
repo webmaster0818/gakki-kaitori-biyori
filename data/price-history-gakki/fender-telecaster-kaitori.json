@@ -1,0 +1,23 @@
+{
+  "slug": "fender-telecaster-kaitori",
+  "label": "Fender Telecaster",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Fender USA Telecaster",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "median_jpy": 138300,
+      "sample_n": 288,
+      "raw_n": 298
+    }
+  ],
+  "latest": {
+    "date": "2026-06-02",
+    "median_jpy": 138300,
+    "sample_n": 288,
+    "raw_n": 298,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

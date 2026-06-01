@@ -1,0 +1,23 @@
+{
+  "slug": "selmer-markvi-kaitori",
+  "label": "Selmer Mark VI",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Selmer Mark VI サックス",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "median_jpy": 642400,
+      "sample_n": 144,
+      "raw_n": 150
+    }
+  ],
+  "latest": {
+    "date": "2026-06-02",
+    "median_jpy": 642400,
+    "sample_n": 144,
+    "raw_n": 150,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}
