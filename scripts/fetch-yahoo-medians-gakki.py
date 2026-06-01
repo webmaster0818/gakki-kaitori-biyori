@@ -166,6 +166,38 @@ def write_history(slug: str, label: str, result: dict) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+# ピアノ系: Yahoo Auctions に部品・付属品が大量出品される一方、本体出品が極少のため
+# 中央値が実勢を反映しない。常に insufficient 扱いとし、無料査定誘導に統一する。
+ALWAYS_INSUFFICIENT_SLUGS = {
+    "yamaha-u1-kaitori",
+    "yamaha-u3-kaitori",
+    "yamaha-yus5-kaitori",
+    "kawai-k300-kaitori",
+    "steinway-b211-kaitori",
+}
+
+# モデル種別ごとの最低想定中古中央値 (これ未満なら異常値として insufficient マーク)
+# Yahoo Auctions の検索結果に類似品 (Epiphone 等) や部品が混入した場合の自動除外用
+MIN_PLAUSIBLE_MEDIAN = {
+    "yamaha-yas62-kaitori": 50_000,
+    "gibson-lespaul-standard-kaitori": 80_000,
+    "gibson-lespaul-custom-kaitori": 150_000,
+    "gibson-sg-kaitori": 50_000,
+    "fender-stratocaster-kaitori": 50_000,
+    "fender-telecaster-kaitori": 50_000,
+    "fender-jazzbass-kaitori": 50_000,
+    "fender-twinreverb-kaitori": 40_000,
+    "marshall-jcm800-kaitori": 50_000,
+    "pearl-masters-kaitori": 15_000,
+    "selmer-markvi-kaitori": 200_000,
+    "selmer-series2-kaitori": 100_000,
+    "bach-stradivarius-kaitori": 50_000,
+    # エフェクター類は数千円が実勢なので閾値ゆるめ
+    "ibanez-ts9-kaitori": 3_000,
+    "boss-ds1-kaitori": 2_000,
+}
+
+
 def main():
     print(f"🔍 Yahoo median fetch (楽器 {TODAY}) — {len(MODEL_QUERIES)} models")
     results = {}
@@ -173,9 +205,24 @@ def main():
         print(f"  [{i}/{len(MODEL_QUERIES)}] {slug} '{query}'...", end=" ", flush=True)
         r = median_for_query(query)
         r["label"] = label
+
+        # 1. 常に insufficient なモデル (ピアノ系)
+        if slug in ALWAYS_INSUFFICIENT_SLUGS:
+            r["insufficient"] = True
+            r["note"] = "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
+
+        # 2. 中央値が想定最低を下回る場合は異常値として insufficient マーク
+        median = r.get("median")
+        floor = MIN_PLAUSIBLE_MEDIAN.get(slug)
+        if median and floor and median < floor:
+            r["insufficient"] = True
+            r["note"] = f"算出された中央値が想定下限（¥{floor:,}）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
+
         results[slug] = r
         if r.get("median") and not r.get("insufficient"):
             print(f"median=¥{r['median']:,} n={r['filtered_n']}")
+        elif r.get("insufficient"):
+            print(f"INSUFFICIENT (forced) n={r.get('filtered_n', 0)}")
         else:
             print(f"INSUFFICIENT n={r.get('filtered_n', 0)}")
         write_history(slug, label, r)
