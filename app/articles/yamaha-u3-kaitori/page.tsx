@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
   title: "【2026年最新】ヤマハ U3の買取相場｜高く売るコツ・おすすめ業者",
@@ -212,6 +213,8 @@ export default function Page() {
           </div>
         </div>
         </div>
+          <DealerComparisonTable heading="YAMAHA U3 の買取で見積もりを取るべき主要7社" intro="中古アップライトピアノ（YAMAHA U3）は人気が高く、業者により査定額に差が出やすいモデルです。複数社の公式公開情報を比較しました。" />
+
 
         <RelatedArticles currentSlug="yamaha-u3-kaitori" relatedSlugs={["piano-kaitori", "yamaha-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
       </article>

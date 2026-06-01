@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
   title: "【2026年最新】ギブソン レスポール スタンダードの買取相場｜高く売るコツ・おすすめ業者",
@@ -212,6 +213,8 @@ export default function Page() {
           </div>
         </div>
         </div>
+          <DealerComparisonTable heading="Gibson Les Paul Standard の買取で見積もりを取るべき主要7社" intro="Les Paul Standard はモデル年式や仕様で査定額が大きく変わります。複数社で査定を取りやすい主要業者を公式情報で比較しました。" />
+
 
         <RelatedArticles currentSlug="gibson-lespaul-standard-kaitori" relatedSlugs={["guitar-kaitori", "gibson-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
       </article>

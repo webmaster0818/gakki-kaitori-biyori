@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
   title: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点",
@@ -134,6 +135,8 @@ export default function Page() {
           </ul>
           <CtaBox />
         </div>
+          <DealerComparisonTable heading="信頼できる楽器買取業者の見分け方（公式情報のある主要7社）" intro="詐欺被害を避けるには、公式サイトで店舗情報・運営会社・査定の透明性を確認することが重要です。下表は実在が公式に確認できる主要7社です。" />
+
 
         <RelatedArticles
           currentSlug="gakki-kaitori-sagi"

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
   title: "【2026年版】楽器の買取方法4つを徹底比較｜一括査定・出張・店頭・宅配",
@@ -378,6 +379,8 @@ export default function KaitoriHouhouHikakuPage() {
 
           <CtaBox />
         </div>
+          <DealerComparisonTable heading="店頭・出張・宅配に対応する楽器買取業者 主要7社" intro="買取方法（店頭・出張・宅配）の対応状況と査定スピードを公式公開情報で比較しました。" />
+
 
         <RelatedArticles
           currentSlug="kaitori-houhou-hikaku"

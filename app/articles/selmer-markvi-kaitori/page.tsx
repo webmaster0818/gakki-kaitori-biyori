@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
   title: "【2026年最新】セルマー マークVIの買取相場｜高く売るコツ・おすすめ業者",
@@ -212,6 +213,8 @@ export default function Page() {
           </div>
         </div>
         </div>
+          <DealerComparisonTable heading="Selmer Mark VI の買取で見積もりを取るべき主要7社" intro="Selmer Mark VI は管楽器の中でも高額帯。シリアル年式・コンディションで査定額が大きく変動するため、複数社の見積もり比較が必須です。" />
+
 
         <RelatedArticles currentSlug="selmer-markvi-kaitori" relatedSlugs={["saxophone-kaitori", "selmer-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
       </article>

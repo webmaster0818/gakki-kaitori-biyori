@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
   title: "【2026年最新】高額査定がつく楽器ランキングTOP10｜100万円超えのお宝も",
@@ -52,6 +53,8 @@ export default function Page() {
               <a href="https://tifana.net" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-warm-gray text-white font-medium px-6 py-3 rounded-full hover:bg-foreground transition-colors text-sm shadow-md">近くの店舗を探す</a>
             </div>
           </div>
+          <DealerComparisonTable heading="楽器を高額査定する主要7社（公式公開情報の比較）" intro="高額査定を狙うなら、複数社の見積もりを取るのが基本です。下表は各社公式サイトに記載されている店舗数・対応エリア・査定スピードの公開情報をまとめたもの（2026年6月時点）。" />
+
 
           <RelatedArticles
             currentSlug="kougaku-satei-ranking"
