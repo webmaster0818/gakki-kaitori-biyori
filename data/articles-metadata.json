@@ -974,5 +974,421 @@
     "badge": "横浜",
     "description": "横浜エリアの出張・店頭買取を比較。",
     "category": "region"
+  },
+  {
+    "slug": "acoustic-guitar-kaitori",
+    "title": "アコギ買取ガイド",
+    "shortTitle": "アコギ買取ガイド",
+    "badge": "アコギ買取",
+    "category": "instrument",
+    "description": "アコースティックギター（アコギ）買取の相場とおすすめ業者3社を比較。Martin・Taylor・Gibson・YAMAHA・Takamine"
+  },
+  {
+    "slug": "classic-guitar-kaitori",
+    "title": "クラシックギター買取ガイド",
+    "shortTitle": "クラシックギター買取ガイド",
+    "badge": "クラシックギター買取",
+    "category": "instrument",
+    "description": "クラシックギター（ガットギター）買取の相場とおすすめ業者3社を比較。河野・桜井・Ramirez・YAMAHA GCなど製作家・ブランド別の価"
+  },
+  {
+    "slug": "ukulele-kaitori",
+    "title": "ウクレレ買取ガイド",
+    "shortTitle": "ウクレレ買取ガイド",
+    "badge": "ウクレレ買取",
+    "category": "instrument",
+    "description": "ウクレレ買取の相場とおすすめ業者3社を比較。KAMAKA・Martin・KoAloha・tkitki・Faminoなどブランドやコアウッドの"
+  },
+  {
+    "slug": "mandolin-kaitori",
+    "title": "マンドリン買取ガイド",
+    "shortTitle": "マンドリン買取ガイド",
+    "badge": "マンドリン買取",
+    "category": "instrument",
+    "description": "マンドリン買取の相場とおすすめ業者3社を比較。Gibson・YAMAHA・鈴木・KalamazooなどブランドやフラットマンドリンとA/Fス"
+  },
+  {
+    "slug": "banjo-kaitori",
+    "title": "バンジョー買取ガイド",
+    "shortTitle": "バンジョー買取ガイド",
+    "badge": "バンジョー買取",
+    "category": "instrument",
+    "description": "バンジョー買取の相場とおすすめ業者3社を比較。Gibson・Deering・GoldTone などブランド別の価値、5弦/4弦の違い、状態に"
+  },
+  {
+    "slug": "accordion-kaitori",
+    "title": "アコーディオン買取ガイド",
+    "shortTitle": "アコーディオン買取ガイド",
+    "badge": "アコーディオン買取",
+    "category": "instrument",
+    "description": "アコーディオン買取の相場とおすすめ業者3社を比較。TOMBO・YAMAHA・Hohner・Excelsior などメーカー別の価値、鍵盤式/"
+  },
+  {
+    "slug": "harmonica-kaitori",
+    "title": "ハーモニカ買取ガイド",
+    "shortTitle": "ハーモニカ買取ガイド",
+    "badge": "ハーモニカ買取",
+    "category": "instrument",
+    "description": "ハーモニカ買取の相場とおすすめ業者3社を比較。Hohner・TOMBO・SUZUKI などメーカー別、ブルースハープ/クロマチック/複音の違"
+  },
+  {
+    "slug": "electone-kaitori",
+    "title": "エレクトーン買取ガイド",
+    "shortTitle": "エレクトーン買取ガイド",
+    "badge": "エレクトーン買取",
+    "category": "instrument",
+    "description": "エレクトーン（YAMAHA STAGEA等）買取の相場とおすすめ業者3社を比較。ELS-02/ELC機種別の価値、設置・搬出の注意点、状態に"
+  },
+  {
+    "slug": "viola-kaitori",
+    "title": "ビオラ買取ガイド",
+    "shortTitle": "ビオラ買取ガイド",
+    "badge": "ビオラ買取",
+    "category": "instrument",
+    "description": "ビオラ買取の相場とおすすめ業者3社を比較。入門〜プロ用・オールドの価値、製作者・鑑定書による査定差、弓の評価まで解説。"
+  },
+  {
+    "slug": "euphonium-kaitori",
+    "title": "ユーフォニアム買取ガイド",
+    "shortTitle": "ユーフォニアム買取ガイド",
+    "badge": "ユーフォニアム買取",
+    "category": "instrument",
+    "description": "ユーフォニアム買取の相場とおすすめ業者3社を比較。YAMAHA・Besson・Willson などメーカー別、コンペンセイティングの有無によ"
+  },
+  {
+    "slug": "horn-kaitori",
+    "title": "ホルン買取ガイド",
+    "shortTitle": "ホルン買取ガイド",
+    "badge": "ホルン買取",
+    "category": "instrument",
+    "description": "ホルン（フレンチホルン）買取の相場とおすすめ業者3社を比較。YAMAHA・Alexander・Paxman・Holton などメーカー別の価"
+  },
+  {
+    "slug": "turntable-kaitori",
+    "title": "ターンテーブル買取ガイド",
+    "shortTitle": "ターンテーブル買取ガイド",
+    "badge": "ターンテーブル買取",
+    "category": "instrument",
+    "description": "ターンテーブル買取の相場とおすすめ業者3社を比較。Technics SL-1200シリーズ・Pioneer DJ・rekordbox対応機な"
+  },
+  {
+    "slug": "mixer-kaitori",
+    "title": "ミキサー買取ガイド",
+    "shortTitle": "ミキサー買取ガイド",
+    "badge": "ミキサー買取",
+    "category": "instrument",
+    "description": "音響ミキサー買取の相場とおすすめ業者3社を比較。YAMAHA・Mackie・Allen&Heath・Pioneer DJなどメーカー別、アナ"
+  },
+  {
+    "slug": "esp-kaitori",
+    "title": "ESP買取ガイド",
+    "shortTitle": "ESP買取ガイド",
+    "badge": "ESP買取",
+    "category": "brand",
+    "description": "ESP（イーエスピー）買取の相場とおすすめ業者3社を比較。ESP・E-II・LTD・EDWARDS・GrassRootsのラインによる価値の"
+  },
+  {
+    "slug": "prs-kaitori",
+    "title": "PRS買取ガイド",
+    "shortTitle": "PRS買取ガイド",
+    "badge": "PRS買取",
+    "category": "brand",
+    "description": "PRS（Paul Reed Smith）買取の相場とおすすめ業者3社を比較。Core・S2・SE のラインによる価値、Custom 24・M"
+  },
+  {
+    "slug": "gretsch-kaitori",
+    "title": "グレッチ買取ガイド",
+    "shortTitle": "グレッチ買取ガイド",
+    "badge": "グレッチ買取",
+    "category": "brand",
+    "description": "グレッチ（Gretsch）買取の相場とおすすめ業者3社を比較。Professional(USA)・Players・Electromatic・"
+  },
+  {
+    "slug": "rickenbacker-kaitori",
+    "title": "リッケンバッカー買取ガイド",
+    "shortTitle": "リッケンバッカー買取ガイド",
+    "badge": "リッケンバッカー買取",
+    "category": "brand",
+    "description": "リッケンバッカー（Rickenbacker）買取の相場とおすすめ業者3社を比較。330・360・4001/4003など人気モデルの価値、年式"
+  },
+  {
+    "slug": "taylor-kaitori",
+    "title": "テイラー買取ガイド",
+    "shortTitle": "テイラー買取ガイド",
+    "badge": "テイラー買取",
+    "category": "brand",
+    "description": "テイラー（Taylor）ギター買取の相場とおすすめ業者3社を比較。800/900/Koa・GS Mini・Academy などシリーズ別の価"
+  },
+  {
+    "slug": "takamine-kaitori",
+    "title": "タカミネ買取ガイド",
+    "shortTitle": "タカミネ買取ガイド",
+    "badge": "タカミネ買取",
+    "category": "brand",
+    "description": "タカミネ（Takamine）ギター買取の相場とおすすめ業者3社を比較。プロシリーズ・SANTA FE・限定品の価値、エレアコとしての需要、状"
+  },
+  {
+    "slug": "epiphone-kaitori",
+    "title": "エピフォン買取ガイド",
+    "shortTitle": "エピフォン買取ガイド",
+    "badge": "エピフォン買取",
+    "category": "brand",
+    "description": "エピフォン（Epiphone）買取の相場とおすすめ業者3社を比較。Les Paul・Casino・Sheraton・日本製Elitistなど"
+  },
+  {
+    "slug": "squier-kaitori",
+    "title": "スクワイヤー買取ガイド",
+    "shortTitle": "スクワイヤー買取ガイド",
+    "badge": "スクワイヤー買取",
+    "category": "brand",
+    "description": "スクワイヤー（Squier）買取の相場とおすすめ業者3社を比較。Classic Vibe・Contemporary・日本製JV/SQなど、シ"
+  },
+  {
+    "slug": "musicman-kaitori",
+    "title": "ミュージックマン買取ガイド",
+    "shortTitle": "ミュージックマン買取ガイド",
+    "badge": "ミュージックマン買取",
+    "category": "brand",
+    "description": "ミュージックマン（Music Man）買取の相場とおすすめ業者3社を比較。StingRay・Sterling のベース、Axis・JP のギ"
+  },
+  {
+    "slug": "nord-kaitori",
+    "title": "Nord買取ガイド",
+    "shortTitle": "Nord買取ガイド",
+    "badge": "Nord買取",
+    "category": "brand",
+    "description": "Nord（Clavia）買取の相場とおすすめ業者3社を比較。Nord Stage・Electro・Lead・Piano などシリーズ別の価値"
+  },
+  {
+    "slug": "moog-kaitori",
+    "title": "Moog買取ガイド",
+    "shortTitle": "Moog買取ガイド",
+    "badge": "Moog買取",
+    "category": "brand",
+    "description": "Moog（モーグ）買取の相場とおすすめ業者3社を比較。Minimoog・Subsequent・Mother-32・Matriarch・Voy"
+  },
+  {
+    "slug": "pioneer-dj-kaitori",
+    "title": "Pioneer DJ買取ガイド",
+    "shortTitle": "Pioneer DJ買取ガイド",
+    "badge": "Pioneer DJ買取",
+    "category": "brand",
+    "description": "Pioneer DJ買取の相場とおすすめ業者3社を比較。CDJ-3000/2000NXS2・DJM-900NXS2・DDJコントローラーなど"
+  },
+  {
+    "slug": "technics-kaitori",
+    "title": "テクニクス買取ガイド",
+    "shortTitle": "テクニクス買取ガイド",
+    "badge": "テクニクス買取",
+    "category": "brand",
+    "description": "テクニクス（Technics）買取の相場とおすすめ業者3社を比較。SL-1200シリーズのターンテーブル、オーディオ機器の価値、年式・復刻機"
+  },
+  {
+    "slug": "zildjian-kaitori",
+    "title": "ジルジャン買取ガイド",
+    "shortTitle": "ジルジャン買取ガイド",
+    "badge": "ジルジャン買取",
+    "category": "brand",
+    "description": "ジルジャン（Zildjian）シンバル買取の相場とおすすめ業者3社を比較。A/K/A Custom/K Customなどシリーズ別の価値、サ"
+  },
+  {
+    "slug": "dw-kaitori",
+    "title": "DW買取ガイド",
+    "shortTitle": "DW買取ガイド",
+    "badge": "DW買取",
+    "category": "brand",
+    "description": "DW（Drum Workshop）買取の相場とおすすめ業者3社を比較。Collector's・Performance・Design シリーズ"
+  },
+  {
+    "slug": "conn-kaitori",
+    "title": "コーン買取ガイド",
+    "shortTitle": "コーン買取ガイド",
+    "badge": "コーン買取",
+    "category": "brand",
+    "description": "コーン（C.G. Conn）買取の相場とおすすめ業者3社を比較。サックス（6M/10M等）・トランペット・トロンボーンのヴィンテージ価値、状"
+  },
+  {
+    "slug": "roland-td-kaitori",
+    "title": "Roland電子ドラム買取ガイド",
+    "shortTitle": "Roland電子ドラム買取ガイド",
+    "badge": "Roland電子ドラム買取",
+    "category": "brand",
+    "description": "Roland電子ドラム（V-Drums）買取の相場とおすすめ業者3社を比較。TD-17・TD-27・TD-50などモジュール別の価値、パッド"
+  },
+  {
+    "slug": "gakki-sokujitsu-kaitori",
+    "title": "即日買取ガイド",
+    "shortTitle": "即日買取ガイド",
+    "badge": "即日買取",
+    "category": "howto",
+    "description": "楽器を即日で売って現金化する方法を解説。店頭買取の流れ、当日査定のコツ、持ち物、即日対応の業者の選び方、出張買取で当日現金化するポイントまで"
+  },
+  {
+    "slug": "gakki-takuhai-kaitori",
+    "title": "宅配買取ガイド",
+    "shortTitle": "宅配買取ガイド",
+    "badge": "宅配買取",
+    "category": "howto",
+    "description": "楽器の宅配買取の手順と安全性を解説。梱包のコツ、配送補償、本人確認、キャンセル時の返送条件、宅配買取に向く楽器・向かない楽器まで完全ガイド。"
+  },
+  {
+    "slug": "gakki-shucchou-kaitori",
+    "title": "出張買取ガイド",
+    "shortTitle": "出張買取ガイド",
+    "badge": "出張買取",
+    "category": "howto",
+    "description": "楽器の出張買取の流れと注意点を解説。ピアノ・ドラム・アンプなど大型楽器の搬出、当日の査定、まとめ売りのメリット、クーリングオフまで完全ガイド"
+  },
+  {
+    "slug": "vintage-gakki-kaitori",
+    "title": "ヴィンテージ楽器買取ガイド",
+    "shortTitle": "ヴィンテージ楽器買取ガイド",
+    "badge": "ヴィンテージ楽器買取",
+    "category": "howto",
+    "description": "ヴィンテージ楽器（ギター・管楽器等）を高く売る方法を解説。年代・オリジナル度・専門業者の選び方、価値を見極めるポイント、安易な売却で損しない"
+  },
+  {
+    "slug": "gakki-fuzokuhin-kaitori",
+    "title": "付属品の重要性ガイド",
+    "shortTitle": "付属品の重要性ガイド",
+    "badge": "付属品の重要性",
+    "category": "howto",
+    "description": "楽器買取で付属品が査定額に与える影響を解説。純正ケース・保証書・取扱説明書・純正パーツの有無による価格差、付属品がない場合の対処法を解説。"
+  },
+  {
+    "slug": "jackson-kaitori",
+    "title": "Jackson買取ガイド",
+    "shortTitle": "Jackson買取ガイド",
+    "badge": "Jackson買取",
+    "category": "brand",
+    "description": "Jackson（ジャクソン）ギター買取の相場とおすすめ業者3社を比較。USA Custom Shop・Pro・JS のラインによる価値、So"
+  },
+  {
+    "slug": "schecter-kaitori",
+    "title": "SCHECTER買取ガイド",
+    "shortTitle": "SCHECTER買取ガイド",
+    "badge": "SCHECTER買取",
+    "category": "brand",
+    "description": "SCHECTER（シェクター）ギター買取の相場とおすすめ業者3社を比較。USA・Diamond Series・AD・日本製の価値、人気モデル"
+  },
+  {
+    "slug": "orange-kaitori",
+    "title": "Orangeアンプ買取ガイド",
+    "shortTitle": "Orangeアンプ買取ガイド",
+    "badge": "Orangeアンプ買取",
+    "category": "brand",
+    "description": "Orange（オレンジ）アンプ買取の相場とおすすめ業者3社を比較。Rockerverb・OR・Crush などシリーズ別の価値、真空管/トラ"
+  },
+  {
+    "slug": "mesaboogie-kaitori",
+    "title": "Mesa/Boogie買取ガイド",
+    "shortTitle": "Mesa/Boogie買取ガイド",
+    "badge": "Mesa/Boogie買取",
+    "category": "brand",
+    "description": "Mesa/Boogie（メサブギー）アンプ買取の相場とおすすめ業者3社を比較。Dual/Triple Rectifier・Mark シリーズ"
+  },
+  {
+    "slug": "sequential-kaitori",
+    "title": "Sequential買取ガイド",
+    "shortTitle": "Sequential買取ガイド",
+    "badge": "Sequential買取",
+    "category": "brand",
+    "description": "Sequential（Dave Smith Instruments）買取の相場とおすすめ業者3社を比較。Prophet-5/6・Rev2・O"
+  },
+  {
+    "slug": "sabian-kaitori",
+    "title": "SABIAN買取ガイド",
+    "shortTitle": "SABIAN買取ガイド",
+    "badge": "SABIAN買取",
+    "category": "brand",
+    "description": "SABIAN（セイビアン）シンバル買取の相場とおすすめ業者3社を比較。AAX・HHX・AA などシリーズ別の価値、サイズ・セット売りの査定差"
+  },
+  {
+    "slug": "mapex-kaitori",
+    "title": "Mapex買取ガイド",
+    "shortTitle": "Mapex買取ガイド",
+    "badge": "Mapex買取",
+    "category": "brand",
+    "description": "Mapex（メイペックス）ドラム買取の相場とおすすめ業者3社を比較。Saturn・Armory・Mars などシリーズ別の価値、セット構成に"
+  },
+  {
+    "slug": "jupiter-kaitori",
+    "title": "Jupiter買取ガイド",
+    "shortTitle": "Jupiter買取ガイド",
+    "badge": "Jupiter買取",
+    "category": "brand",
+    "description": "Jupiter（ジュピター）管楽器買取の相場とおすすめ業者3社を比較。トランペット・サックス・フルートなど学生〜中級機の価値、状態の査定差を"
+  },
+  {
+    "slug": "suzuki-violin-kaitori",
+    "title": "スズキバイオリン買取ガイド",
+    "shortTitle": "スズキバイオリン買取ガイド",
+    "badge": "スズキバイオリン買取",
+    "category": "brand",
+    "description": "鈴木バイオリン（Suzuki）買取の相場とおすすめ業者3社を比較。No.200〜540等の量産モデル、特製品の価値、教室需要による査定の安定"
+  },
+  {
+    "slug": "native-instruments-kaitori",
+    "title": "Native Instruments買取ガイド",
+    "shortTitle": "Native Instruments買取ガイド",
+    "badge": "Native Instruments買取",
+    "category": "brand",
+    "description": "Native Instruments（NI）買取の相場とおすすめ業者3社を比較。Maschine・Komplete Kontrol・Trak"
+  },
+  {
+    "slug": "tuba-kaitori",
+    "title": "チューバ買取ガイド",
+    "shortTitle": "チューバ買取ガイド",
+    "badge": "チューバ買取",
+    "category": "instrument",
+    "description": "チューバ買取の相場とおすすめ業者3社を比較。YAMAHA・Miraphone・B&S・Bessonなどメーカー別、B♭/C/F管の違い、大型"
+  },
+  {
+    "slug": "recorder-kaitori",
+    "title": "リコーダー買取ガイド",
+    "shortTitle": "リコーダー買取ガイド",
+    "badge": "リコーダー買取",
+    "category": "instrument",
+    "description": "リコーダー買取の相場とおすすめ業者3社を比較。木製リコーダー（Moeck・Mollenhauer・YAMAHA）の価値、プラ製との違い、まと"
+  },
+  {
+    "slug": "cajon-kaitori",
+    "title": "カホン買取ガイド",
+    "shortTitle": "カホン買取ガイド",
+    "badge": "カホン買取",
+    "category": "instrument",
+    "description": "カホン買取の相場とおすすめ業者3社を比較。Schlagwerk・Meinl・LP・Pepote などブランド別の価値、状態による査定差を解説"
+  },
+  {
+    "slug": "cornet-kaitori",
+    "title": "コルネット買取ガイド",
+    "shortTitle": "コルネット買取ガイド",
+    "badge": "コルネット買取",
+    "category": "instrument",
+    "description": "コルネット買取の相場とおすすめ業者3社を比較。YAMAHA・Bach・Besson などメーカー別の価値、トランペットとの違い、状態による査"
+  },
+  {
+    "slug": "kalimba-kaitori",
+    "title": "カリンバ買取ガイド",
+    "shortTitle": "カリンバ買取ガイド",
+    "badge": "カリンバ買取",
+    "category": "instrument",
+    "description": "カリンバ買取の相場とおすすめ業者3社を比較。GECKO・Hugh Tracey・KIMI などブランド別の価値、キー数や材による査定差を解説"
+  },
+  {
+    "slug": "gakki-hozon-houhou",
+    "title": "楽器の保管方法ガイド",
+    "shortTitle": "楽器の保管方法ガイド",
+    "badge": "楽器の保管方法",
+    "category": "howto",
+    "description": "楽器を高く売るための保管方法を解説。湿度・温度管理、ケース保管、弦やリードの扱い、木製楽器の割れ防止など、査定額を下げないための日常のコツを"
+  },
+  {
+    "slug": "gakki-kaitori-jiki",
+    "title": "売る時期の見極めガイド",
+    "shortTitle": "売る時期の見極めガイド",
+    "badge": "売る時期の見極め",
+    "category": "howto",
+    "description": "楽器を高く売れる時期・タイミングを解説。新生活・卒業シーズンの需要、新モデル発売前、状態が良いうちに売る重要性、相場変動の見方を解説。"
   }
 ]
