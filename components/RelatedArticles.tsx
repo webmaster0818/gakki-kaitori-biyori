@@ -1,5 +1,6 @@
 import Link from "next/link";
 import articlesMetadata from "@/data/articles-metadata.json";
+import PriceDisclaimer from "@/components/PriceDisclaimer";
 
 type ArticleCategory = "instrument" | "brand" | "region" | "howto";
 
@@ -44,7 +45,8 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
     seen.add(slug);
     items.push(meta);
   }
-  if (items.length === 0) return null;
+  // 関連記事が無くても価格注記は必ず表示する
+  if (items.length === 0) return <PriceDisclaimer />;
 
   const grouped: Record<ArticleCategory, ArticleMeta[]> = {
     instrument: [],
@@ -57,6 +59,8 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
   }
 
   return (
+    <>
+    <PriceDisclaimer />
     <aside className="mt-12 pt-8 border-t border-warm-border">
       <h2 className="font-display text-lg font-bold mb-6">関連記事</h2>
       <div className="space-y-8">
@@ -92,5 +96,6 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
         })}
       </div>
     </aside>
+    </>
   );
 }
