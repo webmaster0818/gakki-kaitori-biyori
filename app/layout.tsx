@@ -316,6 +316,10 @@ export default function RootLayout({
         />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
+        {/* JS有効時のみ <html> に js クラスを付与（描画前に実行・初期非表示のチラつき防止） */}
+        <script
+          dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }}
+        />
         <JsonLd />
       </head>
       <body className="min-h-full flex flex-col font-sans">
