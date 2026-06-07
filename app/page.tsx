@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import GakkiScrollReveal from "@/components/GakkiScrollReveal";
 
 const services = [
   {
@@ -117,7 +118,7 @@ function FaqSchema() {
 
 export default function Home() {
   return (
-    <>
+    <div className="gakki-reveal-home">
       <FaqSchema />
       {/* Hero Section */}
       <section className="relative overflow-hidden min-h-[480px] md:min-h-[540px] flex items-center">
@@ -365,6 +366,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+      <GakkiScrollReveal />
+    </div>
   );
 }
