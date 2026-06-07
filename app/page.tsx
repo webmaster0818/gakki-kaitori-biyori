@@ -6,6 +6,7 @@ const services = [
   {
     name: "ヒカカク！",
     url: "https://hikakaku.com",
+    image: "/images/services/hikakaku.webp",
     tagline: "一括査定で最高値を比較",
     description: "複数の買取業者に一括で査定依頼。最高値の業者が見つかる比較サイト。楽器以外にも対応し、相場がひと目でわかります。",
     features: ["一括査定で複数業者比較", "最高値が簡単にわかる", "無料で利用可能"],
@@ -15,6 +16,7 @@ const services = [
   {
     name: "ティファナ",
     url: "https://tifana.net",
+    image: "/images/services/tifana.webp",
     tagline: "出張・店頭・宅配の3方式対応",
     description: "年間4万件の買取実績。出張・店頭・宅配の3つの方法から選べる総合買取サービス。楽器の状態問わず査定可能。",
     features: ["3つの買取方法から選べる", "年間4万件の実績", "状態問わず査定OK"],
@@ -24,6 +26,7 @@ const services = [
   {
     name: "ウリエル",
     url: "https://uriel-cuore.co.jp",
+    image: "/images/services/uriel.webp",
     tagline: "出張買取で自宅完結",
     description: "出張買取専門のサービス。自宅にいながら査定から買取まで完結。大型楽器や重い楽器の売却に最適です。",
     features: ["自宅で査定・買取完結", "大型楽器の運搬不要", "即日現金化も可能"],
@@ -205,6 +208,11 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {services.map((s) => (
             <div key={s.name} className={`${s.color} border rounded-2xl p-6 flex flex-col`}>
+              <a href={s.url} target="_blank" rel="noopener noreferrer nofollow" className="block -mx-6 -mt-6 mb-4">
+                {/* 公式サイトのキャプチャ画像 */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={s.image} alt={`${s.name} 公式サイト`} className="w-full h-auto rounded-t-2xl border-b border-warm-border" />
+              </a>
               <h3 className="font-bold text-lg mb-1">{s.name}</h3>
               <p className="text-gold-dark text-sm font-medium mb-3">{s.tagline}</p>
               <p className="text-warm-gray text-sm leading-relaxed mb-4 flex-1">{s.description}</p>
