@@ -9,8 +9,12 @@ import { useEffect } from 'react'
  */
 export default function GakkiScrollReveal() {
   useEffect(() => {
+    // .article-body は中身を内包する1つの大きな箱なので、それ自体ではなく
+    // 「本文の各ブロック」＋「article直下のヘッダー/目次/カード/関連」を個別に対象にする
     const els = Array.from(
-      document.querySelectorAll('.gakki-reveal article > *'),
+      document.querySelectorAll(
+        '.gakki-reveal article > *:not(.article-body), .gakki-reveal .article-body > *',
+      ),
     ) as HTMLElement[]
     if (els.length === 0) return
 

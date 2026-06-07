@@ -143,19 +143,23 @@ details[open] summary .faq-arrow {
   color: var(--warm-gray);
 }
 
-/* 記事本文：スクロールで各ブロックがふわっと出現（JS有効時のみ初期非表示にしチラつき防止） */
-html.js .gakki-reveal article > * {
+/* 記事本文：スクロールで各ブロックがふわっと出現（JS有効時のみ初期非表示にしチラつき防止）
+   .article-body は中身を包む箱なので、その「子要素」を個別に対象にする（箱自体は対象外） */
+html.js .gakki-reveal article > *:not(.article-body),
+html.js .gakki-reveal .article-body > * {
   opacity: 0;
   transform: translateY(22px);
   transition: opacity 0.7s ease, transform 0.7s ease;
   will-change: opacity, transform;
 }
-html.js .gakki-reveal article > *.visible {
+html.js .gakki-reveal article > *:not(.article-body).visible,
+html.js .gakki-reveal .article-body > *.visible {
   opacity: 1;
   transform: translateY(0);
 }
 @media (prefers-reduced-motion: reduce) {
-  html.js .gakki-reveal article > * {
+  html.js .gakki-reveal article > *:not(.article-body),
+  html.js .gakki-reveal .article-body > * {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
