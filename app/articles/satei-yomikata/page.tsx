@@ -44,6 +44,17 @@ export default function Page() {
         <div className="article-body">
         <div className="table-wrapper"><table><thead><tr><th>減額理由</th><th>減額率</th><th>対策</th></tr></thead><tbody><tr><td>経年劣化</td><td>10〜30%</td><td>防げないが、清掃で印象UP</td></tr><tr><td>付属品欠品</td><td>5〜20%</td><td>ケース・保証書を揃える</td></tr><tr><td>塗装の傷・色あせ</td><td>5〜15%</td><td>事前の軽い清掃</td></tr><tr><td>金属パーツの錆</td><td>10〜30%</td><td>軽い磨き（深い磨きは逆効果）</td></tr><tr><td>弦・パッドの劣化</td><td>5〜10%</td><td>交換は業者に任せる</td></tr><tr><td>シリアル不鮮明</td><td>10〜30%</td><td>対応不可（ヴィンテージは特に）</td></tr><tr><td>改造・カスタム</td><td>0〜30%</td><td>オリジナル状態が高評価</td></tr></tbody></table></div>
 
+          <p className="leading-relaxed mt-6 mb-4">査定書を受け取ったら、まず<strong>「①査定額の総額」「②減額項目とその理由」「③査定の有効期限」</strong>の3点を確認しましょう。上表のように、減額は「経年劣化・付属品欠品・傷・錆・改造」など項目ごとに積み上げられます。理由が明記されていれば、納得して売るか、別業者と比較するかを判断できます。</p>
+
+          <h2 id="check" className="font-display text-xl font-bold text-foreground mt-8 mb-3">適正な査定か見極めるには</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li><strong>減額理由が具体的か</strong>：「状態が悪いので」だけでなく、どの部分がどう影響したかを説明できる業者は信頼できます。</li>
+            <li><strong>複数社で比較</strong>：同じ楽器でも査定書の総額・減額幅に差が出ます。1社で即決せず相見積りを。</li>
+            <li><strong>有効期限を確認</strong>：相場は変動するため、査定額には期限が付くのが一般的です。</li>
+          </ul>
+          <p className="leading-relaxed mb-4">減額を抑えるコツは <Link href="/articles/takaku-uru-kotsu" className="text-accent underline">高く売るコツ</Link>、相場の見方は <Link href="/articles/souba-ichiran" className="text-accent underline">相場一覧</Link> も参考にしてください。</p>
+          <p className="text-xs text-warm-gray mb-2">※ 減額率は一般的な目安です。実際の評価は楽器・状態・業者により異なります。</p>
+
           <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
             <p className="font-bold text-base mb-4 text-center text-accent-dark">まずは無料査定で買取価格をチェック</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">

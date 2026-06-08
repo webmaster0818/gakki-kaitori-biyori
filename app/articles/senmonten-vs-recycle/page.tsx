@@ -44,6 +44,12 @@ export default function Page() {
         <div className="article-body">
         <div className="table-wrapper"><table><thead><tr><th>項目</th><th>楽器買取専門店</th><th>リサイクルショップ</th></tr></thead><tbody><tr><td>査定知識</td><td>高い（楽器ごとの相場把握）</td><td>低い（家具・家電と一緒の扱い）</td></tr><tr><td>査定額</td><td>市場相場の70〜90%</td><td>市場相場の10〜40%</td></tr><tr><td>対応範囲</td><td>ヴィンテージ・希少品もOK</td><td>メジャーブランドのみ</td></tr><tr><td>真贋判定</td><td>可能</td><td>不可</td></tr><tr><td>手間</td><td>事前予約・査定</td><td>持ち込み即査定</td></tr></tbody></table></div>
 
+          <p className="leading-relaxed mt-6 mb-4"><strong>結論：楽器を高く・正しく売るなら「楽器買取専門店」が基本</strong>です。専門店は楽器ごとの相場やヴィンテージの価値を把握しており、市場相場に近い査定が期待できます。一方リサイクルショップは家具・家電と同じ枠で扱うため、メジャー機種以外は安値・買取不可になりがちです。</p>
+
+          <h2 id="recycle-ok" className="font-display text-xl font-bold text-foreground mt-8 mb-3">リサイクルショップでも良いケース</h2>
+          <p className="leading-relaxed mb-4">「とにかく早く手放したい」「メーカー不明の入門機で値段が付けば十分」という場合は、持ち込み即査定のリサイクルショップでも構いません。ただし<strong>少しでも価値がありそうな楽器は、先に専門店の無料査定</strong>で当たりをつけるのがおすすめです（<Link href="/articles/takaku-uru-kotsu" className="text-accent underline">高く売るコツ</Link>・<Link href="/articles/satei-yomikata" className="text-accent underline">査定書の読み方</Link>）。</p>
+          <p className="text-xs text-warm-gray mb-2">※ 査定額の割合は一般的な傾向の目安です。実際の評価は店舗・楽器の状態により異なります。</p>
+
           <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
             <p className="font-bold text-base mb-4 text-center text-accent-dark">まずは無料査定で買取価格をチェック</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">

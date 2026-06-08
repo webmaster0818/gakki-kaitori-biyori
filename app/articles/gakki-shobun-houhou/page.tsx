@@ -44,6 +44,21 @@ export default function Page() {
         <div className="article-body">
         <div className="table-wrapper"><table><thead><tr><th>方法</th><th>費用</th><th>手間</th><th>所要時間</th></tr></thead><tbody><tr><td>楽器買取専門店</td><td>プラス</td><td>★★</td><td>最短即日</td></tr><tr><td>リサイクルショップ</td><td>プラス（少）</td><td>★</td><td>即日</td></tr><tr><td>メルカリ・ヤフオク</td><td>プラス・大</td><td>★★★</td><td>1週間〜数ヶ月</td></tr><tr><td>ジモティー</td><td>プラス・中</td><td>★★★</td><td>数日〜1ヶ月</td></tr><tr><td>知人譲渡</td><td>送料程度</td><td>★★★</td><td>数日</td></tr><tr><td>音楽教室寄付</td><td>送料程度</td><td>★★</td><td>1〜2週間</td></tr><tr><td>NPO寄付</td><td>送料程度</td><td>★★</td><td>2〜4週間</td></tr><tr><td>粗大ゴミ</td><td>500〜2,000円</td><td>★★</td><td>1〜2週間</td></tr><tr><td>不用品回収</td><td>3,000〜20,000円</td><td>★</td><td>即日〜数日</td></tr><tr><td>廃品回収車</td><td>高額請求リスク</td><td>★</td><td>即日</td></tr></tbody></table></div>
 
+          <p className="leading-relaxed mt-6 mb-4"><strong>結論：まずは「売れるか」を確認してから処分方法を決める</strong>のが正解です。動作する楽器・有名メーカー品は、捨てる前に買取専門店の無料査定に出せば、お金になるうえ処分の手間も省けます。値段が付かない・壊れている場合に、寄付や粗大ゴミなどを検討しましょう。</p>
+
+          <h2 id="select" className="font-display text-xl font-bold text-foreground mt-8 mb-3">状況別のおすすめ</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li><strong>価値がありそう／動作する</strong>：楽器買取専門店（プラスになり手間も少ない）。</li>
+            <li><strong>急いで手放したい・大量</strong>：出張買取、または不用品回収。</li>
+            <li><strong>値が付かない・思い出の品を活かしたい</strong>：音楽教室・NPOへの寄付や知人譲渡。</li>
+            <li><strong>完全に壊れている</strong>：自治体の粗大ゴミ（最も安価）。</li>
+          </ul>
+          <div className="bg-cream border border-warm-border rounded-xl p-4 my-5">
+            <p className="text-sm leading-relaxed"><strong>注意：</strong>「無料回収」をうたう<strong>廃品回収車・無許可業者</strong>は、後から高額請求されるトラブルが報告されています。一般廃棄物収集の許可がある業者か、自治体の案内で確認しましょう。</p>
+          </div>
+          <p className="leading-relaxed mb-4">処分か売却かで迷う場合は <Link href="/articles/gakki-danshari" className="text-accent underline">楽器の断捨離ガイド</Link> も参考に。</p>
+          <p className="text-xs text-warm-gray mb-2">※ 費用・所要時間は一般的な目安です。地域・業者により異なります。</p>
+
           <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
             <p className="font-bold text-base mb-4 text-center text-accent-dark">まずは無料査定で買取価格をチェック</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">

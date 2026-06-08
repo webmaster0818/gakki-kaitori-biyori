@@ -44,6 +44,27 @@ export default function Page() {
         <div className="article-body">
         <div className="table-wrapper"><table><thead><tr><th>業者タイプ</th><th>未成年対応</th></tr></thead><tbody><tr><td>大手楽器買取専門店</td><td>親同伴 or 親同意書必須</td></tr><tr><td>リサイクルショップ</td><td>親同伴必須（一人では不可な店も）</td></tr><tr><td>メルカリ等個人売買</td><td>18歳以上のみ利用可（メルカリ規約）</td></tr><tr><td>ヤフオク</td><td>18歳以上のみ利用可</td></tr></tbody></table></div>
 
+          <p className="leading-relaxed mt-6 mb-5"><strong>未成年（18歳未満）が楽器を売る場合、原則として親権者の同意が必要</strong>です。上表のとおり、買取専門店は同意書または同伴を求め、メルカリ・ヤフオク等の個人売買は規約上18歳以上しか利用できません。一人だけで売却を完結するのは難しいと考えておきましょう。</p>
+
+          <h2 id="why" className="font-display text-xl font-bold text-foreground mt-8 mb-3">なぜ親の同意が必要なのか</h2>
+          <p className="leading-relaxed mb-4">民法では、未成年が親権者の同意なく行った契約は<strong>あとから取り消せる</strong>とされています（未成年者取消権）。そのため買取業者は、トラブル回避のために未成年単独との取引を断る・同意を求めるのが一般的です。なお2022年の成年年齢引き下げで<strong>18歳・19歳は成人</strong>となり、単独で売却できます（高校生でも18歳ならOK。学生証等で年齢確認を求められることがあります）。</p>
+
+          <h2 id="need" className="font-display text-xl font-bold text-foreground mt-8 mb-3">未成年が売るときに必要なもの</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li>親権者の同意書（業者所定の様式がある場合あり）</li>
+            <li>親権者の本人確認書類</li>
+            <li>本人（未成年）の本人確認書類（学生証・保険証など）</li>
+            <li>親権者が同伴できると最もスムーズ</li>
+          </ul>
+
+          <h2 id="caution" className="font-display text-xl font-bold text-foreground mt-8 mb-3">トラブルを避けるために</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li>「親に内緒で」はおすすめしません。後で取消・返品トラブルになりやすいです。</li>
+            <li>高額な楽器ほど、同意・同伴を求められます。</li>
+            <li>必要書類は <Link href="/articles/hitsuyou-shorui" className="text-accent underline">必要な書類リスト</Link>・<Link href="/articles/mibunsho-hitsuyou" className="text-accent underline">身分証ガイド</Link> も参照。</li>
+          </ul>
+          <p className="text-xs text-warm-gray mb-2">※ 未成年の受付可否・必要書類は業者により異なります。詳細は各業者へご確認ください。</p>
+
           <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
             <p className="font-bold text-base mb-4 text-center text-accent-dark">まずは無料査定で買取価格をチェック</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">

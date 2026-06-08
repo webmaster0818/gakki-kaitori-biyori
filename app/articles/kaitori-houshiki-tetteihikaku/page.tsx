@@ -45,6 +45,17 @@ export default function Page() {
         <div className="table-wrapper"><table><thead><tr><th>方式</th><th>概要</th><th>対応楽器</th><th>所要時間</th></tr></thead><tbody><tr><td>出張買取</td><td>自宅まで査定士が訪問</td><td>大型・複数台にも対応</td><td>予約〜引き取り3〜7日</td></tr><tr><td>店頭買取</td><td>自分で持ち込んで査定</td><td>小〜中型楽器</td><td>持ち込み当日</td></tr><tr><td>宅配買取</td><td>発送して査定・入金</td><td>小型楽器中心</td><td>発送〜入金で7〜10日</td></tr></tbody></table></div>
         <div className="table-wrapper"><table><thead><tr><th>楽器</th><th>推奨方式</th></tr></thead><tbody><tr><td>グランドピアノ・アップライトピアノ</td><td>出張買取（必須）</td></tr><tr><td>ドラムセット・アンプ・スピーカー</td><td>出張買取</td></tr><tr><td>ギター・ベース・電子ピアノ</td><td>出張買取 or 店頭買取</td></tr><tr><td>管楽器（フルート・トランペット）</td><td>店頭買取 or 宅配買取</td></tr><tr><td>小型エフェクター・マイク</td><td>宅配買取</td></tr><tr><td>複数楽器を一気に売る</td><td>出張買取</td></tr></tbody></table></div>
 
+          <p className="leading-relaxed mt-6 mb-4"><strong>結論：大型は「出張」、小型は「宅配」、すぐ現金化なら「店頭」</strong>が基本の選び方です。楽器の大きさ・量・急ぎ度で決めると失敗しません。</p>
+
+          <h2 id="merit" className="font-display text-xl font-bold text-foreground mt-8 mb-3">3方式のメリット・デメリット</h2>
+          <ul className="list-disc pl-5 space-y-2 mb-4 leading-relaxed">
+            <li><strong>出張買取</strong>：自宅で完結し大型・複数台もOK。最短即日・その場で現金も。一方、訪問日時の調整が必要。ピアノ・ドラム・アンプ向き。</li>
+            <li><strong>店頭買取</strong>：その場で査定・現金化できスピード最速。ただし自分で運ぶ必要があり、大型には不向き。持ち運べるギター・管楽器向き。</li>
+            <li><strong>宅配買取</strong>：全国どこからでも自分のペースで売れる。反面、発送の手間と到着〜入金までの日数がかかる。小型エフェクター・マイク向き。</li>
+          </ul>
+          <p className="leading-relaxed mb-4">具体的な手順は <Link href="/articles/kaitori-nagare" className="text-accent underline">楽器買取の流れ（6ステップ）</Link>、専門店とリサイクル店の違いは <Link href="/articles/senmonten-vs-recycle" className="text-accent underline">専門店 vs リサイクル比較</Link> を参照してください。</p>
+          <p className="text-xs text-warm-gray mb-2">※ 所要時間は一般的な目安です。対応可否・日数は各業者により異なります。</p>
+
           <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
             <p className="font-bold text-base mb-4 text-center text-accent-dark">まずは無料査定で買取価格をチェック</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
