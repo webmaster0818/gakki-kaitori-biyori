@@ -13,6 +13,7 @@ function Breadcrumb() {
       <ol className="flex flex-wrap items-center text-xs text-warm-gray">
         <li className="flex items-center"><Link href="/" className="hover:text-accent transition-colors">ホーム</Link></li>
         <li className="flex items-center"><span className="breadcrumb-sep" /><Link href="/articles/" className="hover:text-accent transition-colors">記事一覧</Link></li>
+        <li className="flex items-center"><span className="breadcrumb-sep" /><Link href="/articles/#brand" className="hover:text-accent transition-colors">ブランド</Link></li>
         <li className="flex items-center"><span className="breadcrumb-sep" /><span className="text-foreground font-medium">ジルジャン買取</span></li>
       </ol>
     </nav>

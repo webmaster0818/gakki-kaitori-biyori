@@ -3,7 +3,7 @@ import articlesMetadata from "@/data/articles-metadata.json";
 import PriceDisclaimer from "@/components/PriceDisclaimer";
 import RecommendedServices from "@/components/RecommendedServices";
 
-type ArticleCategory = "instrument" | "brand" | "region" | "howto";
+type ArticleCategory = "instrument" | "brand" | "model" | "region" | "howto";
 
 type ArticleMeta = {
   slug: string;
@@ -27,10 +27,11 @@ const metadataMap: Record<string, ArticleMeta> = (() => {
   return map;
 })();
 
-const GROUP_ORDER: ArticleCategory[] = ["instrument", "brand", "region", "howto"];
+const GROUP_ORDER: ArticleCategory[] = ["instrument", "brand", "model", "region", "howto"];
 const GROUP_LABEL: Record<ArticleCategory, string> = {
   instrument: "楽器カテゴリ",
   brand: "ブランド別",
+  model: "人気モデル別",
   region: "地域別",
   howto: "高く売るためのガイド",
 };
@@ -58,6 +59,7 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
   const grouped: Record<ArticleCategory, ArticleMeta[]> = {
     instrument: [],
     brand: [],
+    model: [],
     region: [],
     howto: [],
   };

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "楽器買取に関する記事一覧。ピアノ・ギター・管楽器など楽器別、YAMAHA・Gibson・Fenderなどブランド別、地域別の買取おすすめ、相場・高く売るコツまで網羅。あなたの楽器の売却に役立つ情報が見つかります。",
 };
 
-type ArticleCategory = "instrument" | "brand" | "region" | "howto";
+type ArticleCategory = "instrument" | "brand" | "model" | "region" | "howto";
 type ArticleMeta = {
   slug: string;
   title: string;
@@ -20,10 +20,11 @@ type ArticleMeta = {
   category: ArticleCategory;
 };
 
-const GROUP_ORDER: ArticleCategory[] = ["instrument", "brand", "region", "howto"];
+const GROUP_ORDER: ArticleCategory[] = ["instrument", "brand", "model", "region", "howto"];
 const GROUP_LABEL: Record<ArticleCategory, string> = {
   instrument: "楽器の種類別ガイド",
   brand: "ブランド別ガイド",
+  model: "人気モデル別ガイド",
   region: "地域別の楽器買取ガイド",
   howto: "売り方・高く売るための知識",
 };
@@ -42,7 +43,7 @@ function BreadcrumbSchema() {
 
 export default function ArticlesIndexPage() {
   const all = articlesMetadata as ArticleMeta[];
-  const grouped: Record<ArticleCategory, ArticleMeta[]> = { instrument: [], brand: [], region: [], howto: [] };
+  const grouped: Record<ArticleCategory, ArticleMeta[]> = { instrument: [], brand: [], model: [], region: [], howto: [] };
   for (const m of all) grouped[m.category]?.push(m);
 
   return (
@@ -66,7 +67,7 @@ export default function ArticlesIndexPage() {
             const list = grouped[category];
             if (!list || list.length === 0) return null;
             return (
-              <section key={category}>
+              <section key={category} id={category} className="scroll-mt-24">
                 <h2 className="font-display text-lg font-bold text-accent-dark mb-4 pb-2 border-b border-warm-border">
                   {GROUP_LABEL[category]}（{list.length}）
                 </h2>

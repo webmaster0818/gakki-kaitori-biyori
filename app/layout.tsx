@@ -112,42 +112,38 @@ function Header() {
           {SITE_NAME}
         </Link>
         {/* Desktop nav */}
-        <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-foreground/80">
+        <ul className="hidden md:flex items-center gap-5 text-sm font-medium text-foreground/80">
           <li>
-            <Link href="/" className="hover:text-accent transition-colors">
-              ホーム
+            <Link href="/articles/#instrument" className="hover:text-accent transition-colors">
+              楽器の種類
+            </Link>
+          </li>
+          <li>
+            <Link href="/articles/#brand" className="hover:text-accent transition-colors">
+              ブランド
+            </Link>
+          </li>
+          <li>
+            <Link href="/articles/#model" className="hover:text-accent transition-colors">
+              モデル
+            </Link>
+          </li>
+          <li>
+            <Link href="/articles/#region" className="hover:text-accent transition-colors">
+              地域
+            </Link>
+          </li>
+          <li>
+            <Link href="/articles/#howto" className="hover:text-accent transition-colors">
+              売り方
             </Link>
           </li>
           <li>
             <Link
-              href="/articles/guitar-kaitori/"
-              className="hover:text-accent transition-colors"
+              href="/articles/"
+              className="text-accent-dark font-semibold hover:text-accent transition-colors"
             >
-              ギター買取
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/articles/piano-kaitori/"
-              className="hover:text-accent transition-colors"
-            >
-              ピアノ買取
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/articles/takaku-uru-kotsu/"
-              className="hover:text-accent transition-colors"
-            >
-              高く売るコツ
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/articles/kaitori-houhou-hikaku/"
-              className="hover:text-accent transition-colors"
-            >
-              買取方法比較
+              記事一覧
             </Link>
           </li>
         </ul>
@@ -169,42 +165,34 @@ function Header() {
               />
             </svg>
           </summary>
-          <div className="absolute right-0 mt-2 w-52 bg-white border border-warm-border rounded-lg shadow-lg py-2 z-50">
-            <Link
-              href="/"
-              className="block px-4 py-2 text-sm hover:bg-cream transition-colors"
-            >
+          <div className="absolute right-0 mt-2 w-60 bg-white border border-warm-border rounded-lg shadow-lg py-2 z-50">
+            <Link href="/" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
               ホーム
             </Link>
-            <Link
-              href="/articles/guitar-kaitori/"
-              className="block px-4 py-2 text-sm hover:bg-cream transition-colors"
-            >
-              ギター買取
+            <p className="px-4 pt-2 pb-1 text-[11px] font-bold text-warm-gray uppercase tracking-wide">
+              カテゴリから探す
+            </p>
+            <Link href="/articles/#instrument" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
+              楽器の種類から探す
             </Link>
-            <Link
-              href="/articles/piano-kaitori/"
-              className="block px-4 py-2 text-sm hover:bg-cream transition-colors"
-            >
-              ピアノ買取
+            <Link href="/articles/#brand" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
+              ブランドから探す
             </Link>
-            <Link
-              href="/articles/denshi-piano-kaitori/"
-              className="block px-4 py-2 text-sm hover:bg-cream transition-colors"
-            >
-              電子ピアノ買取
+            <Link href="/articles/#model" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
+              人気モデルから探す
             </Link>
-            <Link
-              href="/articles/takaku-uru-kotsu/"
-              className="block px-4 py-2 text-sm hover:bg-cream transition-colors"
-            >
-              高く売るコツ
+            <Link href="/articles/#region" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
+              地域から探す
             </Link>
+            <Link href="/articles/#howto" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
+              売り方・高く売るコツ
+            </Link>
+            <div className="my-1 border-t border-warm-border" />
             <Link
-              href="/articles/kaitori-houhou-hikaku/"
-              className="block px-4 py-2 text-sm hover:bg-cream transition-colors"
+              href="/articles/"
+              className="block px-4 py-2 text-sm font-semibold text-accent-dark hover:bg-cream transition-colors"
             >
-              買取方法比較
+              記事一覧をすべて見る
             </Link>
           </div>
         </details>
@@ -217,7 +205,7 @@ function Footer() {
   return (
     <footer className="bg-accent-dark text-white/90 mt-auto">
       <div className="max-w-5xl mx-auto px-4 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <p className="font-display text-lg font-bold mb-2">
               {SITE_NAME}
@@ -229,7 +217,42 @@ function Footer() {
             </p>
           </div>
           <div>
-            <p className="font-bold text-sm mb-3">カテゴリ</p>
+            <p className="font-bold text-sm mb-3">カテゴリから探す</p>
+            <ul className="space-y-2 text-sm text-white/70">
+              <li>
+                <Link href="/articles/#instrument" className="hover:text-white transition-colors">
+                  楽器の種類から探す
+                </Link>
+              </li>
+              <li>
+                <Link href="/articles/#brand" className="hover:text-white transition-colors">
+                  ブランドから探す
+                </Link>
+              </li>
+              <li>
+                <Link href="/articles/#model" className="hover:text-white transition-colors">
+                  人気モデルから探す
+                </Link>
+              </li>
+              <li>
+                <Link href="/articles/#region" className="hover:text-white transition-colors">
+                  地域から探す
+                </Link>
+              </li>
+              <li>
+                <Link href="/articles/#howto" className="hover:text-white transition-colors">
+                  売り方・高く売るコツ
+                </Link>
+              </li>
+              <li>
+                <Link href="/articles/" className="font-semibold text-white hover:text-white/80 transition-colors">
+                  記事一覧をすべて見る
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-bold text-sm mb-3">人気ガイド</p>
             <ul className="space-y-2 text-sm text-white/70">
               <li>
                 <Link href="/articles/guitar-kaitori/" className="hover:text-white transition-colors">
