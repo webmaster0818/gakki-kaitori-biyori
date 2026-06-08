@@ -43,6 +43,41 @@ export default function Page() {
 
         <div className="article-body">
 
+          <p className="leading-relaxed mb-5">
+            楽器買取で<strong>必ず必要なのは「本人確認書類」</strong>です。これは古物営業法で定められた義務で、どの業者でも提示を求められます。加えて、<strong>状況に応じて</strong>振込先情報・付属書類・委任状などが必要になります。スムーズに売るために、申込前に揃えておきましょう。
+          </p>
+
+          <h2 id="must" className="font-display text-xl font-bold text-foreground mt-8 mb-3">必ず必要なもの</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li><strong>本人確認書類</strong>（いずれか1点）：運転免許証／マイナンバーカード／パスポート／在留カード など。顔写真付きが基本です。</li>
+            <li><strong>振込先口座の情報</strong>：宅配買取や後日振込の場合に必要（店頭・出張の現金払いでは不要なことも）。</li>
+          </ul>
+
+          <h2 id="case" className="font-display text-xl font-bold text-foreground mt-8 mb-3">状況に応じて必要なもの</h2>
+          <div className="overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead><tr className="bg-cream">
+                <th className="border border-warm-border p-2 text-left">状況</th>
+                <th className="border border-warm-border p-2 text-left">追加で必要なもの</th>
+              </tr></thead>
+              <tbody>
+                <tr><td className="border border-warm-border p-2 font-medium">本人以外が売る（代理）</td><td className="border border-warm-border p-2">委任状＋代理人の本人確認書類（業者により対応可否が異なる）</td></tr>
+                <tr><td className="border border-warm-border p-2 font-medium">未成年が売る</td><td className="border border-warm-border p-2">親権者の同意書＋親権者の本人確認（未成年不可の業者も多い）</td></tr>
+                <tr><td className="border border-warm-border p-2 font-medium">高価な楽器・付属品がある</td><td className="border border-warm-border p-2">保証書・購入明細・付属パーツ（評価アップにつながる任意書類）</td></tr>
+                <tr><td className="border border-warm-border p-2 font-medium">宅配買取</td><td className="border border-warm-border p-2">本人確認書類のコピー同梱、または画像アップロード</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="leading-relaxed mb-4">身分証がなぜ必要かの法的背景は <Link href="/articles/mibunsho-hitsuyou/" className="text-accent underline">楽器買取に身分証は必要？古物営業法の解説</Link>、未成年の売却は <Link href="/articles/miseinen-baikyaku/" className="text-accent underline">未成年の楽器買取</Link> もご確認ください。</p>
+
+          <h2 id="check" className="font-display text-xl font-bold text-foreground mt-8 mb-3">申込前チェックリスト</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li>☐ 顔写真付きの本人確認書類を1点用意した</li>
+            <li>☐ （宅配・振込の場合）振込先口座をメモした</li>
+            <li>☐ 保証書・付属品をまとめた</li>
+            <li>☐ （代理・未成年の場合）追加書類の要否を業者に確認した</li>
+          </ul>
+          <p className="text-xs text-warm-gray mb-2">※ 必要書類は業者や買取方式により異なります。最終的な必要書類は各業者の案内をご確認ください。</p>
 
           <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
             <p className="font-bold text-base mb-4 text-center text-accent-dark">まずは無料査定で買取価格をチェック</p>

@@ -43,6 +43,32 @@ export default function Page() {
 
         <div className="article-body">
 
+          <p className="leading-relaxed mb-5">
+            結論から言うと、<strong>楽器買取に身分証（本人確認書類）は必ず必要です</strong>。これは業者側の都合ではなく、<strong>古物営業法</strong>という法律で定められた義務だからです。なぜ必要なのか、どの証明書が使えるのか、未成年や代理のケースまで解説します。
+          </p>
+
+          <h2 id="why" className="font-display text-xl font-bold text-foreground mt-8 mb-3">なぜ身分証が必要なのか（古物営業法）</h2>
+          <p className="leading-relaxed mb-4">
+            中古品（古物）を買い取る業者は、都道府県公安委員会の<strong>古物商許可</strong>を受けて営業しています。古物営業法では、<strong>盗品の売買やマネーロンダリングを防ぐ</strong>ため、一定額以上の買取時に<strong>相手方の本人確認（氏名・住所・年齢・職業の確認）</strong>が義務づけられています。だからこそ、まっとうな業者ほど身分証の提示を必ず求めます。
+          </p>
+          <div className="bg-cream border border-warm-border rounded-xl p-4 my-5">
+            <p className="text-sm leading-relaxed"><strong>逆に注意：</strong>身分証の提示を一切求めない業者は、古物営業法を守っていない可能性があります。トラブル回避のためにも避けるのが無難です（<Link href="/articles/gakki-kaitori-sagi" className="text-accent underline">買取トラブル・詐欺の回避策</Link>）。</p>
+          </div>
+
+          <h2 id="ids" className="font-display text-xl font-bold text-foreground mt-8 mb-3">使える本人確認書類</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li><strong>顔写真付き（1点でOKが基本）</strong>：運転免許証／マイナンバーカード／パスポート／在留カード など</li>
+            <li><strong>顔写真なし</strong>：健康保険証・住民票など。1点では不可で、複数点の組み合わせを求められることがあります（業者の規定による）。</li>
+          </ul>
+          <p className="leading-relaxed mb-4">記載の<strong>住所が現住所と一致</strong>している必要があります。引っ越し直後などで不一致の場合は、補助書類を求められることがあります。</p>
+
+          <h2 id="case" className="font-display text-xl font-bold text-foreground mt-8 mb-3">未成年・代理のケース</h2>
+          <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
+            <li><strong>未成年</strong>：親権者の同意書＋親権者の本人確認が必要。そもそも未成年からの買取を受け付けない業者も多いです（<Link href="/articles/miseinen-baikyaku" className="text-accent underline">未成年の楽器買取</Link>）。</li>
+            <li><strong>代理での売却</strong>：委任状＋代理人の本人確認書類が必要。対応可否は業者により異なります。</li>
+          </ul>
+          <p className="leading-relaxed mb-4">実際に何を用意すればよいかは <Link href="/articles/hitsuyou-shorui" className="text-accent underline">楽器買取に必要な書類リスト</Link> にまとめています。</p>
+          <p className="text-xs text-warm-gray mb-2">※ 本記事は古物営業法の一般的な解説です。具体的な確認方法・受付可否は各業者の規定により異なります。</p>
 
           <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
             <p className="font-bold text-base mb-4 text-center text-accent-dark">まずは無料査定で買取価格をチェック</p>
