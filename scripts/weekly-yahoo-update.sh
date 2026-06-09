@@ -93,6 +93,10 @@ npx next build 2>&1 | tail -5
 set +o pipefail
 find out -name "__next*.txt" -type f -delete
 
+# Scaled Content リント（warnモード）
+LINT="$HOME/.openclaw/workspace/scaled-content-lint.py"
+[ -f "$LINT" ] && /opt/homebrew/bin/python3 "$LINT" gakki "$SRC/out" --glob "articles/*/index.html" --min-unique 80 --dup 0.6 --top 8 2>&1 | sed -n '1,3p' || true
+
 echo "[$(date '+%H:%M:%S')] 📤 [3/4] deploy リポジトリへ rsync & push"
 rsync -a --delete --exclude=".git" --exclude="CNAME" --exclude="_not-found" "$SRC/out/" "$DEPLOY/"
 cd "$DEPLOY"
