@@ -1550,5 +1550,213 @@
     "badge": "ヤマハ YUS5",
     "category": "model",
     "description": "ヤマハ YUS5の買取相場の目安と高く売るコツ、おすすめ買取業者3社を解説します。"
+  },
+  {
+    "slug": "fender-jazzmaster-kaitori",
+    "title": "フェンダー ジャズマスター買取ガイド",
+    "shortTitle": "フェンダー ジャズマスター買取ガイド",
+    "badge": "フェンダー ジャズマスター買取",
+    "category": "model",
+    "description": "Fender Jazzmasterの買取相場を年代・製造国（USA/Japan/Mexico）別に解説。オフセットボディの名機の価値要因、ヴ"
+  },
+  {
+    "slug": "fender-jaguar-kaitori",
+    "title": "フェンダー ジャガー買取ガイド",
+    "shortTitle": "フェンダー ジャガー買取ガイド",
+    "badge": "フェンダー ジャガー買取",
+    "category": "model",
+    "description": "Fender Jaguarの買取相場を製造国・年代別に解説。ショートスケール×オフセットの名機の価値要因、ヴィンテージとリイシューの違い、状"
+  },
+  {
+    "slug": "gibson-es335-kaitori",
+    "title": "ギブソン ES-335買取ガイド",
+    "shortTitle": "ギブソン ES-335買取ガイド",
+    "badge": "ギブソン ES-335買取",
+    "category": "model",
+    "description": "Gibson ES-335の買取相場を年代別に解説。センターブロック入りセミアコの名機の価値要因、ヴィンテージ（ドットネック/ブロックインレ"
+  },
+  {
+    "slug": "gibson-flying-v-kaitori",
+    "title": "ギブソン フライングV買取ガイド",
+    "shortTitle": "ギブソン フライングV買取ガイド",
+    "badge": "ギブソン フライングV買取",
+    "category": "model",
+    "description": "Gibson Flying Vの買取相場を年代・仕様別に解説。V字シェイプの名機の価値要因、1958年オリジナルや67年以降の評価、状態の査"
+  },
+  {
+    "slug": "gibson-lespaul-junior-kaitori",
+    "title": "ギブソン レスポール ジュニア買取ガイド",
+    "shortTitle": "ギブソン レスポール ジュニア買取ガイド",
+    "badge": "ギブソン レスポール ジュニア買取",
+    "category": "model",
+    "description": "Gibson Les Paul Juniorの買取相場を年代・仕様別に解説。P-90×1基のシンプルな名機の価値要因、ダブルカッタウェイ／シ"
+  },
+  {
+    "slug": "prs-custom24-kaitori",
+    "title": "PRS カスタム24買取ガイド",
+    "shortTitle": "PRS カスタム24買取ガイド",
+    "badge": "PRS カスタム24買取",
+    "category": "model",
+    "description": "PRS Custom 24の買取相場をグレード別（Core/S2/SE）に解説。ポール・リード・スミスの代表機の価値要因、フレイムメイプルト"
+  },
+  {
+    "slug": "gretsch-6120-kaitori",
+    "title": "グレッチ 6120買取ガイド",
+    "shortTitle": "グレッチ 6120買取ガイド",
+    "badge": "グレッチ 6120買取",
+    "category": "model",
+    "description": "Gretsch 6120の買取相場を年代・仕様別に解説。チェット・アトキンス由来の名機の価値要因、USA／日本製の違い、状態の査定差とおすす"
+  },
+  {
+    "slug": "rickenbacker-330-kaitori",
+    "title": "リッケンバッカー 330買取ガイド",
+    "shortTitle": "リッケンバッカー 330買取ガイド",
+    "badge": "リッケンバッカー 330買取",
+    "category": "model",
+    "description": "Rickenbacker 330の買取相場を解説。ジャングリーなサウンドで知られるセミアコの価値要因、Fireglo/Jetglo等カラーの"
+  },
+  {
+    "slug": "ibanez-rg-kaitori",
+    "title": "アイバニーズ RG買取ガイド",
+    "shortTitle": "アイバニーズ RG買取ガイド",
+    "badge": "アイバニーズ RG買取",
+    "category": "model",
+    "description": "Ibanez RGシリーズの買取相場を製造国・シリーズ別（Prestige/Premium/Standard）に解説。ハイスピード系の定番機"
+  },
+  {
+    "slug": "martin-d28-kaitori",
+    "title": "マーチン D-28買取ガイド",
+    "shortTitle": "マーチン D-28買取ガイド",
+    "badge": "マーチン D-28買取",
+    "category": "model",
+    "description": "Martin D-28の買取相場を年代別に解説。ドレッドノートの代表機の価値要因、ヴィンテージ（プレウォー/ブレイスング）の評価、状態の査定"
+  },
+  {
+    "slug": "taylor-814ce-kaitori",
+    "title": "テイラー 814ce買取ガイド",
+    "shortTitle": "テイラー 814ce買取ガイド",
+    "badge": "テイラー 814ce買取",
+    "category": "model",
+    "description": "Taylor 814ceの買取相場を年代・仕様別に解説。800シリーズの中核モデルの価値要因、V-Class／エレアコ仕様の評価、状態の査定"
+  },
+  {
+    "slug": "gibson-j45-kaitori",
+    "title": "ギブソン J-45買取ガイド",
+    "shortTitle": "ギブソン J-45買取ガイド",
+    "badge": "ギブソン J-45買取",
+    "category": "model",
+    "description": "Gibson J-45の買取相場を年代別に解説。「ワークホース」と呼ばれる名アコギの価値要因、ヴィンテージの評価、状態の査定差とおすすめ買取"
+  },
+  {
+    "slug": "fender-precisionbass-kaitori",
+    "title": "フェンダー プレシジョンベース買取ガイド",
+    "shortTitle": "フェンダー プレシジョンベース買取ガイド",
+    "badge": "フェンダー プレシジョンベース買取",
+    "category": "model",
+    "description": "Fender Precision Bass（プレベ）の買取相場を製造国・年代別に解説。エレキベースの元祖の価値要因、ヴィンテージの評価、状態"
+  },
+  {
+    "slug": "musicman-stingray-kaitori",
+    "title": "ミュージックマン スティングレイ買取ガイド",
+    "shortTitle": "ミュージックマン スティングレイ買取ガイド",
+    "badge": "ミュージックマン スティングレイ買取",
+    "category": "model",
+    "description": "Music Man StingRayの買取相場を年代・仕様別に解説。アクティブサウンドの名ベースの価値要因、3バンドEQやH/HH仕様の評価"
+  },
+  {
+    "slug": "vox-ac30-kaitori",
+    "title": "VOX AC30買取ガイド",
+    "shortTitle": "VOX AC30買取ガイド",
+    "badge": "VOX AC30買取",
+    "category": "model",
+    "description": "VOX AC30の買取相場を年代・仕様別に解説。ブリティッシュトーンの名機の価値要因、ヴィンテージ（Top Boost等）の評価、状態の査定"
+  },
+  {
+    "slug": "fender-deluxe-reverb-kaitori",
+    "title": "フェンダー デラックスリバーブ買取ガイド",
+    "shortTitle": "フェンダー デラックスリバーブ買取ガイド",
+    "badge": "フェンダー デラックスリバーブ買取",
+    "category": "model",
+    "description": "Fender Deluxe Reverbの買取相場を年代別に解説。ブラックフェイス／シルバーフェイスの名機の価値要因、リイシューとヴィンテー"
+  },
+  {
+    "slug": "roland-jc120-kaitori",
+    "title": "ローランド JC-120買取ガイド",
+    "shortTitle": "ローランド JC-120買取ガイド",
+    "badge": "ローランド JC-120買取",
+    "category": "model",
+    "description": "Roland JC-120（ジャズコーラス）の買取相場を解説。クリーン＆コーラスの定番アンプの価値要因、年代の評価、状態の査定差とおすすめ買"
+  },
+  {
+    "slug": "ibanez-ts808-kaitori",
+    "title": "アイバニーズ TS808買取ガイド",
+    "shortTitle": "アイバニーズ TS808買取ガイド",
+    "badge": "アイバニーズ TS808買取",
+    "category": "model",
+    "description": "Ibanez TS808（Tube Screamer）の買取相場を年代・仕様別に解説。名オーバードライブの価値要因、ヴィンテージ（旧ロゴ/J"
+  },
+  {
+    "slug": "klon-centaur-kaitori",
+    "title": "クロン ケンタウルス買取ガイド",
+    "shortTitle": "クロン ケンタウルス買取ガイド",
+    "badge": "クロン ケンタウルス買取",
+    "category": "model",
+    "description": "Klon Centaurの買取相場を解説。伝説的なオーバードライブの価値要因、金/銀パネルやロングテール等の個体差、状態の査定差とおすすめ買"
+  },
+  {
+    "slug": "yamaha-c3-kaitori",
+    "title": "ヤマハ C3買取ガイド",
+    "shortTitle": "ヤマハ C3買取ガイド",
+    "badge": "ヤマハ C3買取",
+    "category": "model",
+    "description": "YAMAHA C3グランドピアノの買取相場を年式別に解説。定番グランドの価値要因、製造番号による年代判定、状態や設置環境の査定差とおすすめ買"
+  },
+  {
+    "slug": "kawai-rx2-kaitori",
+    "title": "カワイ RX-2買取ガイド",
+    "shortTitle": "カワイ RX-2買取ガイド",
+    "badge": "カワイ RX-2買取",
+    "category": "model",
+    "description": "KAWAI RX-2グランドピアノの買取相場を年式別に解説。RXシリーズ中核モデルの価値要因、製造番号による年代判定、状態や設置環境の査定差"
+  },
+  {
+    "slug": "yamaha-yas875-kaitori",
+    "title": "ヤマハ YAS-875買取ガイド",
+    "shortTitle": "ヤマハ YAS-875買取ガイド",
+    "badge": "ヤマハ YAS-875買取",
+    "category": "model",
+    "description": "YAMAHA YAS-875（Custom）の買取相場を解説。プロ向けアルトサックスの価値要因、無印/EX等の仕様差、状態の査定差とおすすめ"
+  },
+  {
+    "slug": "yanagisawa-awo10-kaitori",
+    "title": "ヤナギサワ AWO10買取ガイド",
+    "shortTitle": "ヤナギサワ AWO10買取ガイド",
+    "badge": "ヤナギサワ AWO10買取",
+    "category": "model",
+    "description": "Yanagisawa AWO10の買取相場を解説。国産プロサックスの代表ブランドの価値要因、ブロンズ／素材違いの評価、状態の査定差とおすすめ"
+  },
+  {
+    "slug": "korg-minilogue-kaitori",
+    "title": "コルグ ミニローグ買取ガイド",
+    "shortTitle": "コルグ ミニローグ買取ガイド",
+    "badge": "コルグ ミニローグ買取",
+    "category": "model",
+    "description": "KORG minilogueの買取相場を解説。人気のアナログポリシンセの価値要因、無印/xd等の仕様差、状態の査定差とおすすめ買取3社を比較"
+  },
+  {
+    "slug": "nord-stage3-kaitori",
+    "title": "ノード ステージ3買取ガイド",
+    "shortTitle": "ノード ステージ3買取ガイド",
+    "badge": "ノード ステージ3買取",
+    "category": "model",
+    "description": "Nord Stage 3の買取相場を解説。プロ定番のステージキーボードの価値要因、鍵盤数（88/76/Compact）の違い、状態の査定差と"
+  },
+  {
+    "slug": "tama-starclassic-kaitori",
+    "title": "TAMA スタークラシック買取ガイド",
+    "shortTitle": "TAMA スタークラシック買取ガイド",
+    "badge": "TAMA スタークラシック買取",
+    "category": "model",
+    "description": "TAMA Starclassicの買取相場を解説。上位ドラムシリーズの価値要因、メイプル／バーチ等シェル材の違い、状態・構成の査定差とおすす"
   }
 ]
