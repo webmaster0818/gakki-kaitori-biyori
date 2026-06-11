@@ -4,12 +4,12 @@ import RelatedArticles from "@/components/RelatedArticles";
 import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
-  title: "【2026年最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
+  title: "【2026年6月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
   description: "ヤマハ YAS-62の買取相場を年式・状態別に解説。ヤマハ YAS-62の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。",
   keywords: "ヤマハ YAS-62,YAS-62 買取,ヤマハ アルトサックス 買取,YAS62 相場",
   alternates: { canonical: "/articles/yamaha-yas62-kaitori/" },
   openGraph: {
-    title: "【2026年最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
+    title: "【2026年6月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
     description: "ヤマハ YAS-62の買取相場・特徴・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/yamaha-yas62-kaitori/",
     type: "article",
@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヤマハ YAS-62の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ヤマハ YAS-62は、プロフェッショナルモデルへの入口として長年支持されてきたアルトサックスの定番です。確かな品質と扱いやすさで吹奏楽からプロまで幅広く使われ、中古買取でも安定した需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月11日</p>
         </header>
 
         <ModelSpotPriceCard slug="yamaha-yas62-kaitori" modelName="YAMAHA YAS-62" />

@@ -160,10 +160,10 @@ export default function Home() {
                 </svg>
               </a>
               <Link
-                href="/articles/guitar-kaitori/"
+                href="/articles/gakki-kaitori-osusume/"
                 className="inline-flex items-center gap-2 bg-white/20 backdrop-blur text-white font-medium px-7 py-3.5 rounded-full hover:bg-white/30 transition-colors shadow-md border border-white/30"
               >
-                ギター買取おすすめを見る
+                おすすめ買取業者の比較を見る
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>

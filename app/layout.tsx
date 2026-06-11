@@ -114,6 +114,11 @@ function Header() {
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-5 text-sm font-medium text-foreground/80">
           <li>
+            <Link href="/articles/gakki-kaitori-osusume/" className="hover:text-accent transition-colors">
+              おすすめ業者
+            </Link>
+          </li>
+          <li>
             <Link href="/articles/#instrument" className="hover:text-accent transition-colors">
               楽器の種類
             </Link>
@@ -169,6 +174,9 @@ function Header() {
             <Link href="/" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
               ホーム
             </Link>
+            <Link href="/articles/gakki-kaitori-osusume/" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
+              おすすめ買取業者比較
+            </Link>
             <p className="px-4 pt-2 pb-1 text-[11px] font-bold text-warm-gray uppercase tracking-wide">
               カテゴリから探す
             </p>
@@ -219,6 +227,11 @@ function Footer() {
           <div>
             <p className="font-bold text-sm mb-3">カテゴリから探す</p>
             <ul className="space-y-2 text-sm text-white/70">
+              <li>
+                <Link href="/articles/gakki-kaitori-osusume/" className="hover:text-white transition-colors">
+                  おすすめ買取業者比較
+                </Link>
+              </li>
               <li>
                 <Link href="/articles/#instrument" className="hover:text-white transition-colors">
                   楽器の種類から探す
