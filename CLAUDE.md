@@ -26,3 +26,9 @@ GSC実数診断:
 3. **準勝ち筋9ページのタイトル鮮度**: martin/ibanez/marshall/sonor/yamaha-yas62/fukuoka/yokohama/sendai/nagoya を【2026年最新】→【2026年6月最新】＋更新日/dateModified更新
 4. sitemap 227URL再送信＋Indexing API 10件送信（全成功）。本番反映curl確認済
 - ⚠️RelatedArticlesのpropsは `currentSlug`＋`relatedSlugs`（currentではない。型エラーで発覚）
+
+### 2026-06-12 Phase 1実行（地域カテゴリ優先増設）
+- 第1陣+20: 岡山/新潟/宇都宮/高崎/水戸/長野/松本/福井/大津/奈良/和歌山/姫路/西宮/堺/東大阪/豊橋/四日市/久留米/長崎/大分（scripts/gen-phase1-areas-batch1.py、generate-phase5-areasのbuild_page()をimportlib再利用）
+- 第2陣+20: 船橋/市川/川越/所沢/越谷/尼崎/豊中/枚方/吹田/岡崎/一宮/春日井/郡山/いわき/青森/秋田/旭川/函館/宮崎/佐賀（batch2）
+- region 43→83。**残り27で110目標**（次候補: 相模原/横須賀/藤沢/八尾/徳島/下関/鳥取/松江/釧路/帯広/高知※既存/山口/米子/長岡/富士/沼津/川西/明石/加古川/倉敷/福山※注: fukuyama無いか要確認）
+- 各バッチでsitemap再生成＋Indexing API 20件送信（クォータ全体~200/日と他サイト分に注意）
