@@ -119,6 +119,11 @@ function Header() {
             </Link>
           </li>
           <li>
+            <Link href="/souba-ranking/" className="hover:text-accent transition-colors">
+              相場ランキング
+            </Link>
+          </li>
+          <li>
             <Link href="/articles/#instrument" className="hover:text-accent transition-colors">
               楽器の種類
             </Link>
@@ -176,6 +181,9 @@ function Header() {
             </Link>
             <Link href="/articles/gakki-kaitori-osusume/" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
               おすすめ買取業者比較
+            </Link>
+            <Link href="/souba-ranking/" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
+              楽器買取相場ランキング
             </Link>
             <p className="px-4 pt-2 pb-1 text-[11px] font-bold text-warm-gray uppercase tracking-wide">
               カテゴリから探す

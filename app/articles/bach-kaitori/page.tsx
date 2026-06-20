@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
-  title: "【2026年最新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ",
+  title: "【2026年6月最新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
-  openGraph: { title: "【2026年最新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
+  openGraph: { title: "【2026年6月最新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
 };
 
 function Schema() {
@@ -97,6 +98,8 @@ export default function Page() {
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">Bachの付属品がないと買取できませんか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">本体のみでも買取可能ですが、純正ケース・取扱説明書・保証書などが揃うと査定額が10〜30%アップします。可能な限り付属品を揃えましょう。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">Bachを高く売るタイミングは？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">新生活前（1〜3月）、文化祭シーズン（9〜10月）が中古需要のピーク。また、新機種発表前は旧モデル価格が下がる前に売却するのがおすすめです。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">故障しているBachでも買取してもらえますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">状態によります。動作する状態なら買取可能、明らかな故障でも修理工房を持つ買取業者なら部品取り目的で買取してくれることがあります。</p></details>
+
+        <BrandSpotPrices brand="bach" />
 
         <RelatedArticles
           currentSlug="bach-kaitori"

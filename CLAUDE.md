@@ -32,3 +32,12 @@ GSC実数診断:
 - 第2陣+20: 船橋/市川/川越/所沢/越谷/尼崎/豊中/枚方/吹田/岡崎/一宮/春日井/郡山/いわき/青森/秋田/旭川/函館/宮崎/佐賀（batch2）
 - region 43→83。**残り27で110目標**（次候補: 相模原/横須賀/藤沢/八尾/徳島/下関/鳥取/松江/釧路/帯広/高知※既存/山口/米子/長岡/富士/沼津/川西/明石/加古川/倉敷/福山※注: fukuyama無いか要確認）
 - 各バッチでsitemap再生成＋Indexing API 20件送信（クォータ全体~200/日と他サイト分に注意）
+
+### 2026-06-18 Phase 1完了（第3陣 +27都市、region 110達成）
+MediaXAI「phase1で全部終わった？」→正直に「第2陣83止まり・27未着手」を報告し即完了。`scripts/gen-phase1-areas-batch3.py`(batch2複製、generate-phase5-areas.build_page再利用)で +27=相模原/横須賀/藤沢/八尾/寝屋川/高槻/徳島/下関/山口/鳥取/米子/松江/釧路/帯広/長岡/富士/沼津/川西/明石/加古川/倉敷/福山/甲府/津/鈴鹿/弘前/佐世保。**region 83→110達成**(metadata計288: brand50/instrument49/region110/model46/howto33)。sitemap 294URL・Indexing API 27/27成功。ビルドNODE_OPTIONS=8192・方式Bデプロイ(.txt削除・818ファイル)。次=Phase2(週次ヤフオクデータの相場ランキング/指数化=peatbid移植で被リンク)提案済。
+
+### 2026-06-18 Phase 2完了（楽器買取相場ランキング新設＝一次データ被リンク資産）
+MediaXAI「進めてください」。peatbid souba-ranking移植。`scripts/generate-souba-ranking-gakki.py`＝`data/price-history-gakki/*.json`(20モデル週次history[])から中央値・週次変化率(change_1w/2w)・流通量(sample_n)を算出→`data/souba-ranking-gakki.json`。`app/souba-ranking/page.tsx`＝値上がり/値下がりTOP8・高額相場TOP12・流通量TOP10＋各モデルの/articles/{slug}/へ内部リンク＋BreadcrumbList schema＋「出典明記で引用歓迎」＋メソドロジー注記(中央値=中古実勢/買取は50-70%目安/保証しない)。デザイン=gakkiトークン(accent/gold/cream/foreground/warm-gray)。**週次cron weekly-yahoo-update.shにデータ再生成＋sitemap再生成を組込み(fetch直後)→毎週自動更新**。ヘッダーnav(PC/モバイル)に「相場ランキング」追加。sitemap 295URL(STATIC_PAGESに/souba-ranking/追加)・Indexing API送信・本番curl確認。ビルドNODE_OPTIONS=8192・方式Bデプロイ(819ファイル)。
+
+### 2026-06-18 勝ち筋ブランド押し上げ（MediaXAI「勝ち筋ブランド押し上げを進めて」）
+GSC28日=クリック28・表示2,209(+51%)・164頁表示。勝ち筋ブランド/モデルがpos5-12で0-1クリック。ブランドページに一次相場データが無いのが弱点→`components/BrandSpotPrices.tsx`新設(souba-ranking-gakki.json参照→該当ブランドのモデル相場表＋各モデル/相場ランキングへ内部リンク、週次再ビルドで自動更新)。11ブランド(fender/gibson/yamaha/ibanez/marshall/boss/selmer/kawai/steinway/bach/pearl)の`<RelatedArticles`直前に注入(import追加・冪等パッチ)。勝ち筋18頁にIndexing API 18/18。方式Bデプロイ・本番curl確認。20データモデルは既に全てModelSpotPriceCard表示済を確認。次=被リンク営業(相場データ引用打診)。

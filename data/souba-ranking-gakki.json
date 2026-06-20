@@ -1,0 +1,186 @@
+{
+  "updated": "2026-06-15",
+  "count": 20,
+  "models": [
+    {
+      "slug": "bach-stradivarius-kaitori",
+      "name": "Bach Stradivarius",
+      "category": "管楽器",
+      "median": 161282,
+      "sample_n": 286,
+      "change_1w": 0.2,
+      "change_2w": -2.2
+    },
+    {
+      "slug": "boss-ds1-kaitori",
+      "name": "BOSS DS-1",
+      "category": "エフェクター",
+      "median": 6500,
+      "sample_n": 236,
+      "change_1w": 0.0,
+      "change_2w": 0.0
+    },
+    {
+      "slug": "fender-jazzbass-kaitori",
+      "name": "Fender Jazz Bass",
+      "category": "ベース",
+      "median": 137079,
+      "sample_n": 236,
+      "change_1w": -2.6,
+      "change_2w": -1.1
+    },
+    {
+      "slug": "fender-stratocaster-kaitori",
+      "name": "Fender Stratocaster",
+      "category": "エレキギター",
+      "median": 143155,
+      "sample_n": 272,
+      "change_1w": 1.6,
+      "change_2w": 2.7
+    },
+    {
+      "slug": "fender-telecaster-kaitori",
+      "name": "Fender Telecaster",
+      "category": "エレキギター",
+      "median": 126408,
+      "sample_n": 288,
+      "change_1w": -8.6,
+      "change_2w": -8.6
+    },
+    {
+      "slug": "fender-twinreverb-kaitori",
+      "name": "Fender Twin Reverb",
+      "category": "アンプ",
+      "median": 90200,
+      "sample_n": 226,
+      "change_1w": 0.0,
+      "change_2w": 0.0
+    },
+    {
+      "slug": "gibson-lespaul-custom-kaitori",
+      "name": "Gibson Les Paul Custom",
+      "category": "エレキギター",
+      "median": 385000,
+      "sample_n": 38,
+      "change_1w": 0.0,
+      "change_2w": 0.7
+    },
+    {
+      "slug": "gibson-lespaul-standard-kaitori",
+      "name": "Gibson Les Paul Standard",
+      "category": "エレキギター",
+      "median": 220207,
+      "sample_n": 100,
+      "change_1w": 0.0,
+      "change_2w": 0.0
+    },
+    {
+      "slug": "gibson-sg-kaitori",
+      "name": "Gibson SG",
+      "category": "エレキギター",
+      "median": 143500,
+      "sample_n": 48,
+      "change_1w": 0.0,
+      "change_2w": 1.1
+    },
+    {
+      "slug": "ibanez-ts9-kaitori",
+      "name": "Ibanez TS9 Tube Screamer",
+      "category": "エフェクター",
+      "median": 8855,
+      "sample_n": 114,
+      "change_1w": -0.8,
+      "change_2w": -1.6
+    },
+    {
+      "slug": "kawai-k300-kaitori",
+      "name": "KAWAI K-300",
+      "category": "ピアノ",
+      "median": 8320,
+      "sample_n": 228,
+      "change_1w": null,
+      "change_2w": null
+    },
+    {
+      "slug": "marshall-jcm800-kaitori",
+      "name": "Marshall JCM800",
+      "category": "アンプ",
+      "median": 122100,
+      "sample_n": 72,
+      "change_1w": 0.0,
+      "change_2w": 0.0
+    },
+    {
+      "slug": "pearl-masters-kaitori",
+      "name": "Pearl Masters",
+      "category": "楽器",
+      "median": 17446,
+      "sample_n": 16,
+      "change_1w": 0.0,
+      "change_2w": -41.3
+    },
+    {
+      "slug": "selmer-markvi-kaitori",
+      "name": "Selmer Mark VI",
+      "category": "楽器",
+      "median": 626850,
+      "sample_n": 140,
+      "change_1w": -2.1,
+      "change_2w": -2.4
+    },
+    {
+      "slug": "selmer-series2-kaitori",
+      "name": "Selmer Series II",
+      "category": "楽器",
+      "median": 363000,
+      "sample_n": 78,
+      "change_1w": 0.0,
+      "change_2w": 0.8
+    },
+    {
+      "slug": "steinway-b211-kaitori",
+      "name": "Steinway B-211",
+      "category": "ピアノ",
+      "median": 3443,
+      "sample_n": 238,
+      "change_1w": null,
+      "change_2w": null
+    },
+    {
+      "slug": "yamaha-u1-kaitori",
+      "name": "YAMAHA U1",
+      "category": "ピアノ",
+      "median": 20296,
+      "sample_n": 26,
+      "change_1w": null,
+      "change_2w": null
+    },
+    {
+      "slug": "yamaha-u3-kaitori",
+      "name": "YAMAHA U3",
+      "category": "ピアノ",
+      "median": 38666,
+      "sample_n": 16,
+      "change_1w": null,
+      "change_2w": null
+    },
+    {
+      "slug": "yamaha-yas62-kaitori",
+      "name": "YAMAHA YAS-62",
+      "category": "管楽器",
+      "median": 212668,
+      "sample_n": 278,
+      "change_1w": 0.2,
+      "change_2w": -0.3
+    },
+    {
+      "slug": "yamaha-yus5-kaitori",
+      "name": "YAMAHA YUS5",
+      "category": "ピアノ",
+      "median": 8500,
+      "sample_n": 230,
+      "change_1w": null,
+      "change_2w": null
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   title: "【2026年6月最新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
@@ -120,6 +121,8 @@ export default function Page() {
           </ul>
           <CtaBox />
         </div>
+
+        <BrandSpotPrices brand="ibanez" />
 
         <RelatedArticles
           currentSlug="ibanez-kaitori"

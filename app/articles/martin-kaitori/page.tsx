@@ -3,12 +3,12 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "【2026年6月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ",
+  title: "Martin買取はどこがいい？D-28等の相場とおすすめ3社【2026年6月】",
   description:
-    "Martin（マーティン）のアコースティックギターを売るならどこがいい？D-28・D-45・000-28などモデル別の買取相場とおすすめ3社を徹底比較。ヴィンテージMartin・限定モデルの高額買取情報も。",
+    "Martin（マーティン）のアコギを売るならどこがいい？D-28・D-45・000-28などモデル別の買取相場の目安と、Martin買取に強いおすすめ3社を比較。ヴィンテージ・限定モデルの高額買取のコツも解説。無料査定だけの利用もOK。",
   openGraph: {
-    title: "【2026年6月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ",
-    description: "Martinアコギの買取相場とおすすめ3社を徹底比較。モデル別相場から高く売るコツまで。",
+    title: "Martin買取はどこがいい？D-28等の相場とおすすめ3社【2026年6月】",
+    description: "Martinアコギの買取相場の目安とおすすめ3社を比較。モデル別相場から高く売るコツまで。",
   },
 };
 
@@ -38,7 +38,7 @@ function FaqSchema() {
     { "@type": "Question", name: "ヴィンテージMartinの価値はどうやって判断しますか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージMartinの価値は、年式（シリアルナンバーで特定）、使用木材（特にハカランダの有無）、オリジナルパーツの残存率、ネック状態、リペア歴で判断されます。1969年以前のハカランダモデルは特に高額です。" } },
     { "@type": "Question", name: "Martin以外のアコギブランドとの買取価格の違いは？", acceptedAnswer: { "@type": "Answer", text: "Martinはアコースティックギターのトップブランドであり、同クラスのTaylorやGibsonアコギと比較しても、中古市場での人気が高く安定した買取価格がつきます。特にD-28とD-45はアコギの定番として不動の地位を確立しています。" } },
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年6月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年6月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-06-20", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月最新】Martin買取おすすめ3社比較｜アコギの王様の相場と高く売るコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/martin-kaitori/\"}]}" }} /></>);
 }
