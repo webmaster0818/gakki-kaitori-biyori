@@ -39,5 +39,16 @@ MediaXAI「phase1で全部終わった？」→正直に「第2陣83止まり・
 ### 2026-06-18 Phase 2完了（楽器買取相場ランキング新設＝一次データ被リンク資産）
 MediaXAI「進めてください」。peatbid souba-ranking移植。`scripts/generate-souba-ranking-gakki.py`＝`data/price-history-gakki/*.json`(20モデル週次history[])から中央値・週次変化率(change_1w/2w)・流通量(sample_n)を算出→`data/souba-ranking-gakki.json`。`app/souba-ranking/page.tsx`＝値上がり/値下がりTOP8・高額相場TOP12・流通量TOP10＋各モデルの/articles/{slug}/へ内部リンク＋BreadcrumbList schema＋「出典明記で引用歓迎」＋メソドロジー注記(中央値=中古実勢/買取は50-70%目安/保証しない)。デザイン=gakkiトークン(accent/gold/cream/foreground/warm-gray)。**週次cron weekly-yahoo-update.shにデータ再生成＋sitemap再生成を組込み(fetch直後)→毎週自動更新**。ヘッダーnav(PC/モバイル)に「相場ランキング」追加。sitemap 295URL(STATIC_PAGESに/souba-ranking/追加)・Indexing API送信・本番curl確認。ビルドNODE_OPTIONS=8192・方式Bデプロイ(819ファイル)。
 
+### 2026-06-20 戦略再策定（フルフュージョン）＋P1着手（CTR最適化）
+MediaXAI「今後の戦略をフルフュージョンで」→`fusion --full`(claude+codex+gemini-2.5-pro, judge=claude)で実行(3者応答確認)。最新GSC28日(5/22-6/18)=クリック30・表示2,372・CTR1.26%・20.1位。**結論=ボトルネックはCTR(pos7-13に表示滞留しSERPで選ばれていない)**。Claude独自指摘=「小サンプル(12imp等)の0clkは統計正常→追うな。表示が積み上がるクラスタだけ。CTR単独でなく順位×差別化の掛け算。差別化武器=週次一次相場データ。計測実装が基盤」。プラン全文=`gakkikaitori-30day-plan.md`。
+**P1実行(MediaXAI「p1進めて」)**: 留保どおり現行title/meta実ファイル確認後にリライト。
+- **機会6ページのtitle/meta意図最適化**: shinjuku/fukuoka/yokohama/nagoya/sendai/martin。旧「【年月】楽器買取 {都市}おすすめ3選｜…」→新「{都市}の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年6月】」。検索意図語「どこがいい？」(GSCで楽器買取どこがいい/売るなら等がpos8-10・0clk)を前方に。descも意図+相場目安+無料査定OKに刷新。
+  - ⚠️**事実確認の結果**: 地域ページの相場は静的目安(週次でない)・martinは11ブランド(BrandSpotPrices)に**含まれない**→「週次相場」は名乗らず「相場(目安)」に留めた(架空回避)。週次を名乗れるのはBrandSpotPrices注入済の11ブランドのみ。
+- **martin**: dateModified 2026-04-26→2026-06-20。
+- **ブランド9頁の月鮮度**: fender/gibson/yamaha/boss/selmer/kawai/steinway/bach/pearl の「【2026年最新】」→「【2026年6月最新】」(ibanez/marshallは既に6月)。
+- ビルドEXIT0・方式Bデプロイ(819ファイル・.txt削除)・source+deploy両push・**本番curl全6+fender確認OK**・Indexing API 15/15(URL_UPDATED)送信。
+- **未了=査定クリック計測**: 当サイトにGA4等の解析が一切無く、CV(アフィリ送客クリック)計測には測定ID/解析基盤の選定が必要→MediaXAIに方針確認中(title/meta効果自体はGSCのCTRで計測可)。
+- 次候補=P2(新宿クラスタ統合・意思決定LP)／計測方針決定後に実装。
+
 ### 2026-06-18 勝ち筋ブランド押し上げ（MediaXAI「勝ち筋ブランド押し上げを進めて」）
 GSC28日=クリック28・表示2,209(+51%)・164頁表示。勝ち筋ブランド/モデルがpos5-12で0-1クリック。ブランドページに一次相場データが無いのが弱点→`components/BrandSpotPrices.tsx`新設(souba-ranking-gakki.json参照→該当ブランドのモデル相場表＋各モデル/相場ランキングへ内部リンク、週次再ビルドで自動更新)。11ブランド(fender/gibson/yamaha/ibanez/marshall/boss/selmer/kawai/steinway/bach/pearl)の`<RelatedArticles`直前に注入(import追加・冪等パッチ)。勝ち筋18頁にIndexing API 18/18。方式Bデプロイ・本番curl確認。20データモデルは既に全てModelSpotPriceCard表示済を確認。次=被リンク営業(相場データ引用打診)。
