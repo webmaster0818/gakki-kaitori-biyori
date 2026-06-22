@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
-  title: "【2026年6月最新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器",
+  title: "【2026年6月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器",
   description:
     "YAMAHA(ヤマハ)楽器の買取相場を徹底解説。ピアノ・ギター・管楽器・電子ピアノなど楽器別の買取価格目安、人気シリーズ別の相場、高く売るコツまで。おすすめ買取業者3社比較で最高値がわかります。",
   openGraph: {
-    title: "【2026年6月最新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選",
+    title: "【2026年6月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選",
     description: "ヤマハ楽器の買取相場をピアノ・ギター・管楽器別に解説。人気シリーズの相場と高く売るコツ。",
   },
 };
@@ -73,9 +73,9 @@ function FaqSchema() {
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【2026年6月最新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選",
+    headline: "【2026年6月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選",
     datePublished: "2026-04-18",
-    dateModified: "2026-04-18",
+    dateModified: "2026-06-22",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -83,7 +83,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月最新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器\", \"item\": \"https://gakkikaitori-biyori.com/articles/yamaha-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器\", \"item\": \"https://gakkikaitori-biyori.com/articles/yamaha-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -100,7 +100,7 @@ export default function YamahaKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年6月最新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器
+            【2026年6月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             YAMAHA(ヤマハ)の楽器を売りたい方へ。本記事では、ピアノ・ギター・管楽器・電子ピアノ・ドラムなどYAMAHA製品の買取相場をジャンル別・シリーズ別に徹底解説。おすすめ買取業者3社の比較や、高く売るためのコツまで網羅しています。

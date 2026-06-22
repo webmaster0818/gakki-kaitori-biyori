@@ -4,10 +4,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
-  title: "【2026年6月最新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場",
+  title: "【2026年6月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場",
   description: "KAWAI（カワイ）のピアノ・電子ピアノを売るならどこがいい？グランドピアノ・アップライトピアノ・電子ピアノの買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
   openGraph: {
-    title: "【2026年6月最新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場",
+    title: "【2026年6月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場",
     description: "KAWAI製ピアノの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
   },
 };
@@ -38,9 +38,9 @@ function FaqSchema() {
       { "@type": "Question", name: "大型のKAWAIピアノを出張買取できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルの出張買取ならグランドピアノやアップライトピアノも自宅で査定・買取が完結します。査定料・出張料は無料です。" } },
       { "@type": "Question", name: "古いKAWAIピアノでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古いモデルでも買取可能です。KAWAIの旧モデル（BL・US・BSシリーズ等）は今でも需要があります。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年6月最新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年6月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場", datePublished: "2026-04-26", dateModified: "2026-06-22", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月最新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/kawai-kaitori/\"}]}" }} /></>);
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/kawai-kaitori/\"}]}" }} /></>);
 }
 
 export default function Page() {
@@ -54,7 +54,7 @@ export default function Page() {
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">KAWAI買取</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年6月最新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年6月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場</h1>
           <p className="text-warm-gray text-sm leading-relaxed">KAWAI（カワイ/河合楽器）のピアノ・電子ピアノを売りたい方へ。本記事では、KAWAI製品の買取に強い3社を徹底比較し、グランドピアノ・アップライトピアノ・電子ピアノのシリーズ別買取相場、高く売るコツまで詳しく解説します。KAWAIは1927年創業の日本を代表するピアノメーカーで、YAMAHAと並ぶ国産ピアノの二大ブランドです。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月26日</p>
         </header>
