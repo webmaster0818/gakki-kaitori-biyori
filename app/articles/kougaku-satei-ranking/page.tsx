@@ -76,6 +76,7 @@ export default function Page() {
               <a href="https://uriel-cuore.co.jp" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
               <a href="https://tifana.net" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-warm-gray text-white font-medium px-6 py-3 rounded-full hover:bg-foreground transition-colors text-sm shadow-md">近くの店舗を探す</a>
             </div>
+        <p className="text-center mt-4 text-sm"><a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark font-medium underline">楽器買取おすすめ業者の比較を見る →</a></p>
           </div>
           <DealerComparisonTable heading="楽器を高額査定する主要7社（公式公開情報の比較）" intro="高額査定を狙うなら、複数社の見積もりを取るのが基本です。下表は各社公式サイトに記載されている店舗数・対応エリア・査定スピードの公開情報をまとめたもの（2026年6月時点）。" />
 
