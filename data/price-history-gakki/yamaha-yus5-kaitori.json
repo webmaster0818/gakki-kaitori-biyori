@@ -13,10 +13,10 @@
     }
   ],
   "latest": {
-    "date": "2026-06-22",
-    "median_jpy": 6750,
+    "date": "2026-06-29",
+    "median_jpy": 7350,
     "sample_n": 228,
-    "raw_n": 254,
+    "raw_n": 252,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。"
