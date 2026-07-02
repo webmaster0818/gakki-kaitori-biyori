@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/omiya-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 大宮おすすめ3選｜出張・店頭・宅配を比較",
   description:
     "大宮で楽器を売るならどこがいい？大宮対応の楽器買取おすすめ3社を徹底比較。大宮・浦和・川口など埼玉エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説。",

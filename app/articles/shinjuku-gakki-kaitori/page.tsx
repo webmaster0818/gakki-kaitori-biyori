@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shinjuku-gakki-kaitori/' },
   title: "新宿の楽器買取｜持ち込み・専門店・宅配の選び方と相場・おすすめ業者【2026年6月】",
   description:
     "新宿で楽器を売るならどこがいい？出張・店頭・宅配の特徴と買取相場の目安、新宿・高田馬場・中野エリアの事情、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",

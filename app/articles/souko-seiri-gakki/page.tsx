@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/souko-seiri-gakki/' },
   title: "【2026年最新】倉庫整理で出てきた楽器の対処法｜価値・買取・処分の手順",
   description: "実家の倉庫・トランクルーム・物置から出てきた楽器の対処法を解説。価値の見極め方、買取依頼の手順、メンテ前にやるべきこと、壊れた楽器の処分先まで。",
   openGraph: {

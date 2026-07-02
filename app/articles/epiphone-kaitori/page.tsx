@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/epiphone-kaitori/' },
   title: "【2026年最新】エピフォン（Epiphone）買取おすすめ3社比較｜相場と価値",
   description: "エピフォン（Epiphone）買取の相場とおすすめ業者3社を比較。Les Paul・Casino・Sheraton・日本製Elitistなど、ラインや製造国による価値の違いを解説。",
 };

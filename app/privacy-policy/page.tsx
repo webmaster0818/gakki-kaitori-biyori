@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/privacy-policy/' },
   title: "プライバシーポリシー",
   description: "楽器買取びよりのプライバシーポリシーです。個人情報の取り扱いについてご案内します。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-precisionbass-kaitori/' },
   title: "【2026年最新】フェンダー プレシジョンベース買取相場｜製造国・年代別の価値と査定ポイント",
   description: "Fender Precision Bass（プレベ）の買取相場を製造国・年代別に解説。エレキベースの元祖の価値要因、ヴィンテージの評価、状態の査定差とおすすめ買取3社を比較。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/chiba-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 千葉おすすめ3選｜出張・店頭・宅配を比較",
   description:
     "千葉で楽器を売るならどこがいい？千葉対応の楽器買取おすすめ3社を徹底比較。千葉・船橋・柏エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説。",

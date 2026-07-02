@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/' },
   title: "【2026年最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
   description:
     "電子ピアノの買取相場をYAMAHA・Roland・KAWAI別に徹底解説。Clavinova・HP・CNシリーズの年式別相場目安、高く売るコツ、おすすめ買取業者3社の比較まで。使わなくなった電子ピアノを最高値で売る方法がわかります。",

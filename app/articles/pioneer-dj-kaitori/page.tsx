@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/pioneer-dj-kaitori/' },
   title: "【2026年最新】Pioneer DJ買取おすすめ3社比較｜CDJ・DJMの相場と価値",
   description: "Pioneer DJ買取の相場とおすすめ業者3社を比較。CDJ-3000/2000NXS2・DJM-900NXS2・DDJコントローラーなど機種別の価値、世代による査定差を解説。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/acoustic-guitar-kaitori/' },
   title: "【2026年最新】アコースティックギター買取おすすめ3社比較｜相場・ブランド別の価値",
   description: "アコースティックギター（アコギ）買取の相場とおすすめ業者3社を比較。Martin・Taylor・Gibson・YAMAHA・Takamineなどブランド別の価値、状態による査定差、高く売るコツを解説。",
 };

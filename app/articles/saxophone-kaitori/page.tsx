@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/saxophone-kaitori/' },
   title: "【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツ",
   description:
     "サックス・管楽器買取のおすすめ業者3社を徹底比較。アルト・テナー・ソプラノサックスの買取相場、トランペット・トロンボーン・フルート・クラリネットの相場、Selmer・YAMAHA・Yanagisawaなどブランド別の相場目安まで解説。",

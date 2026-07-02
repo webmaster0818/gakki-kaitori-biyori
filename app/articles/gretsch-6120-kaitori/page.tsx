@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gretsch-6120-kaitori/' },
   title: "【2026年最新】グレッチ 6120買取相場｜年代・仕様別の価値とフルアコの査定ポイント",
   description: "Gretsch 6120の買取相場を年代・仕様別に解説。チェット・アトキンス由来の名機の価値要因、USA／日本製の違い、状態の査定差とおすすめ買取3社を比較。",
 };

@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bach-kaitori/' },
   title: "【2026年6月 週次相場更新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
   openGraph: { title: "【2026年6月 週次相場更新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },

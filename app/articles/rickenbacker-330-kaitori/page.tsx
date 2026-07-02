@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/rickenbacker-330-kaitori/' },
   title: "【2026年最新】リッケンバッカー 330買取相場｜年代・カラー別の価値と査定ポイント",
   description: "Rickenbacker 330の買取相場を解説。ジャングリーなサウンドで知られるセミアコの価値要因、Fireglo/Jetglo等カラーの評価、状態の査定差とおすすめ買取3社を比較。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-sokujitsu-kaitori/' },
   title: "【2026年最新】楽器を即日買取・現金化する方法｜当日売る手順と注意点",
   description: "楽器を即日で売って現金化する方法を解説。店頭買取の流れ、当日査定のコツ、持ち物、即日対応の業者の選び方、出張買取で当日現金化するポイントまで。",
 };

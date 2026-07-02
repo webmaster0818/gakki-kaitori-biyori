@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/terms-of-service/' },
   title: "利用規約",
   description: "楽器買取びよりの利用規約です。当サイトのご利用にあたっての注意事項をご案内します。",
 };

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagahama-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 長浜市おすすめ3選｜出張・店頭・宅配を比較",
   description: "長浜市（滋賀県長浜市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、彦根・米原・高島エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 長浜市おすすめ3選｜出張・店頭・宅配を比較", description: "長浜市（滋賀県長浜市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、彦根・米原・高島エリアの状況も解説。" },

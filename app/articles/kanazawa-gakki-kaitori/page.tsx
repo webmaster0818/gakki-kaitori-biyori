@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kanazawa-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 金沢おすすめ3選｜出張・店頭・宅配を比較",
   description: "金沢（石川県金沢市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、野々市・白山・小松エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 金沢おすすめ3選｜出張・店頭・宅配を比較", description: "金沢（石川県金沢市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、野々市・白山・小松エリアの状況も解説。" },

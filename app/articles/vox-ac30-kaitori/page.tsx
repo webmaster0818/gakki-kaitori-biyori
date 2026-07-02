@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/vox-ac30-kaitori/' },
   title: "【2026年最新】VOX AC30買取相場｜年代・仕様別の価値と真空管アンプの査定ポイント",
   description: "VOX AC30の買取相場を年代・仕様別に解説。ブリティッシュトーンの名機の価値要因、ヴィンテージ（Top Boost等）の評価、状態の査定差とおすすめ買取3社を比較。",
 };

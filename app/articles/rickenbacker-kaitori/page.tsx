@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/rickenbacker-kaitori/' },
   title: "【2026年最新】リッケンバッカー買取おすすめ3社比較｜相場と価値",
   description: "リッケンバッカー（Rickenbacker）買取の相場とおすすめ業者3社を比較。330・360・4001/4003など人気モデルの価値、年式やカラーによる査定差を解説。",
 };

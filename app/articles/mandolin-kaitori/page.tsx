@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mandolin-kaitori/' },
   title: "【2026年最新】マンドリン買取おすすめ3社比較｜相場とブランド別の価値",
   description: "マンドリン買取の相場とおすすめ業者3社を比較。Gibson・YAMAHA・鈴木・KalamazooなどブランドやフラットマンドリンとA/Fスタイルによる価値の違いを解説。",
 };

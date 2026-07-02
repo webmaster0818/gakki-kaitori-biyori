@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fujieda-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 藤枝市おすすめ3選｜出張・店頭・宅配を比較",
   description: "藤枝市（静岡県藤枝市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、焼津・島田・静岡エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 藤枝市おすすめ3選｜出張・店頭・宅配を比較", description: "藤枝市（静岡県藤枝市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、焼津・島田・静岡エリアの状況も解説。" },

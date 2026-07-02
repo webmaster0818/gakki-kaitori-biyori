@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-jc120-kaitori/' },
   title: "【2026年最新】ローランド JC-120買取相場｜年代別の価値とジャズコーラスの査定ポイント",
   description: "Roland JC-120（ジャズコーラス）の買取相場を解説。クリーン＆コーラスの定番アンプの価値要因、年代の評価、状態の査定差とおすすめ買取3社を比較。",
 };

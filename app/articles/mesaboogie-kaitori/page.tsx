@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mesaboogie-kaitori/' },
   title: "【2026年最新】Mesa/Boogieアンプ買取おすすめ3社比較｜相場と価値",
   description: "Mesa/Boogie（メサブギー）アンプ買取の相場とおすすめ業者3社を比較。Dual/Triple Rectifier・Mark シリーズの価値、真空管アンプとしての需要、状態の査定差を解説。",
 };

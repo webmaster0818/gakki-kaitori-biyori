@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/vintage-gakki-kaitori/' },
   title: "【2026年最新】ヴィンテージ楽器の買取で損しない方法｜価値を見極めるポイント",
   description: "ヴィンテージ楽器（ギター・管楽器等）を高く売る方法を解説。年代・オリジナル度・専門業者の選び方、価値を見極めるポイント、安易な売却で損しないための注意点を解説。",
 };

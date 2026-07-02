@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/classic-guitar-kaitori/' },
   title: "【2026年最新】クラシックギター買取おすすめ3社比較｜製作家別の相場と価値",
   description: "クラシックギター（ガットギター）買取の相場とおすすめ業者3社を比較。河野・桜井・Ramirez・YAMAHA GCなど製作家・ブランド別の価値、状態による査定差を解説。",
 };

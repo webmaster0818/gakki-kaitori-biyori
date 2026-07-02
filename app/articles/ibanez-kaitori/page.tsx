@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-kaitori/' },
   title: "【2026年6月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
   description: "Ibanez（アイバニーズ）のギターを売るならどこがいい？RG・JEM・S・Prestigeなどシリーズ別の買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
   openGraph: {

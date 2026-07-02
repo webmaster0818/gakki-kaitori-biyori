@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/suzuki-violin-kaitori/' },
   title: "【2026年最新】鈴木バイオリン買取おすすめ3社比較｜相場と価値",
   description: "鈴木バイオリン（Suzuki）買取の相場とおすすめ業者3社を比較。No.200〜540等の量産モデル、特製品の価値、教室需要による査定の安定性を解説。",
 };

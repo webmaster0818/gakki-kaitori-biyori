@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/zildjian-kaitori/' },
   title: "【2026年最新】ジルジャン（Zildjian）買取おすすめ3社比較｜シンバルの相場",
   description: "ジルジャン（Zildjian）シンバル買取の相場とおすすめ業者3社を比較。A/K/A Custom/K Customなどシリーズ別の価値、サイズ・セット売りの査定差を解説。",
 };

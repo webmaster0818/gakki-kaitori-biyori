@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/viola-kaitori/' },
   title: "【2026年最新】ビオラ買取おすすめ3社比較｜相場と鑑定書の重要性",
   description: "ビオラ買取の相場とおすすめ業者3社を比較。入門〜プロ用・オールドの価値、製作者・鑑定書による査定差、弓の評価まで解説。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/umeda-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 梅田おすすめ3選｜出張・店頭・宅配を比較",
   description: "梅田（大阪府大阪市北区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、中津・天満・福島エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 梅田おすすめ3選｜出張・店頭・宅配を比較", description: "梅田（大阪府大阪市北区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、中津・天満・福島エリアの状況も解説。" },

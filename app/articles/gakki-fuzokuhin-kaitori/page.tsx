@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-fuzokuhin-kaitori/' },
   title: "【2026年最新】楽器の付属品で査定額はどう変わる？｜ケース・保証書・純正パーツ",
   description: "楽器買取で付属品が査定額に与える影響を解説。純正ケース・保証書・取扱説明書・純正パーツの有無による価格差、付属品がない場合の対処法を解説。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kowareta-gakki-kaitori/' },
   title: "【2026年最新】壊れた楽器・古い楽器の買取｜ジャンク品でも売れる？相場と業者3選",
   description:
     "壊れた楽器・古い楽器・ジャンク品は買取できる？ネック折れ・音が出ない・キズありの楽器でも売れる理由と買取相場を解説。ジャンク楽器の買取に対応したおすすめ業者3社を比較。",

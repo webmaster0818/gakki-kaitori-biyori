@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/guitar-kaitori/' },
   title: "【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツ",
   description:
     "ギター買取のおすすめ業者3社を徹底比較。エレキギター・アコースティックギターの買取相場、Gibson・Fender・YAMAHAなどブランド別の相場目安、高く売るコツまで解説。無料査定で最高値がわかります。",

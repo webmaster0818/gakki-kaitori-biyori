@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mibunsho-hitsuyou/' },
   title: "【2026年最新】楽器買取に身分証は必要？古物営業法と本人確認の理由",
   description: "楽器買取で身分証提示が必要な理由を解説。古物営業法の概要、認められる身分証の種類、提示しないとどうなるか、本人確認のプロセスまで。",
   openGraph: {

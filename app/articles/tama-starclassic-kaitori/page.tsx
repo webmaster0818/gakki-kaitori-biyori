@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/tama-starclassic-kaitori/' },
   title: "【2026年最新】TAMA スタークラシック買取相場｜ドラムセットの価値と査定ポイント",
   description: "TAMA Starclassicの買取相場を解説。上位ドラムシリーズの価値要因、メイプル／バーチ等シェル材の違い、状態・構成の査定差とおすすめ買取3社を比較。",
 };

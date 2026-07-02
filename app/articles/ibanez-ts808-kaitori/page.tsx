@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-ts808-kaitori/' },
   title: "【2026年最新】アイバニーズ TS808買取相場｜年代・仕様別の価値とオーバードライブの査定ポイント",
   description: "Ibanez TS808（Tube Screamer）の買取相場を年代・仕様別に解説。名オーバードライブの価値要因、ヴィンテージ（旧ロゴ/JRC4558D）の評価、状態の査定差とおすすめ買取3社を比較。",
 };

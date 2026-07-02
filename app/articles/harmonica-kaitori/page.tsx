@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/harmonica-kaitori/' },
   title: "【2026年最新】ハーモニカ買取おすすめ3社比較｜相場とメーカー別の価値",
   description: "ハーモニカ買取の相場とおすすめ業者3社を比較。Hohner・TOMBO・SUZUKI などメーカー別、ブルースハープ/クロマチック/複音の違い、まとめ売りのコツを解説。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/musicman-kaitori/' },
   title: "【2026年最新】ミュージックマン（Music Man）買取おすすめ3社比較｜相場と価値",
   description: "ミュージックマン（Music Man）買取の相場とおすすめ業者3社を比較。StingRay・Sterling のベース、Axis・JP のギター、Sterling by Music Manとの違いを解説。",
 };

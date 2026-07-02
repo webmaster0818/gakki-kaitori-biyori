@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shibuya-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 渋谷おすすめ3選｜出張・店頭・宅配を比較",
   description:
     "渋谷で楽器を売るならどこがいい？渋谷対応の楽器買取おすすめ3社を徹底比較。渋谷・原宿・恵比寿エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説。",

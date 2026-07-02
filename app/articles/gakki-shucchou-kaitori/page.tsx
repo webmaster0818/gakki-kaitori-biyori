@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-shucchou-kaitori/' },
   title: "【2026年最新】楽器の出張買取の流れと注意点｜大型楽器・まとめ売りに最適",
   description: "楽器の出張買取の流れと注意点を解説。ピアノ・ドラム・アンプなど大型楽器の搬出、当日の査定、まとめ売りのメリット、クーリングオフまで完全ガイド。",
 };

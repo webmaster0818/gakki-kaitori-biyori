@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/schecter-kaitori/' },
   title: "【2026年最新】SCHECTER買取おすすめ3社比較｜相場と価値",
   description: "SCHECTER（シェクター）ギター買取の相場とおすすめ業者3社を比較。USA・Diamond Series・AD・日本製の価値、人気モデルの評価、状態の査定差を解説。",
 };

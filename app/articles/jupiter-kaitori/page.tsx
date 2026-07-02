@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/jupiter-kaitori/' },
   title: "【2026年最新】Jupiter管楽器買取おすすめ3社比較｜相場と価値",
   description: "Jupiter（ジュピター）管楽器買取の相場とおすすめ業者3社を比較。トランペット・サックス・フルートなど学生〜中級機の価値、状態の査定差を解説。",
 };

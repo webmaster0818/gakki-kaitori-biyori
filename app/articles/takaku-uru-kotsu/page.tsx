@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/takaku-uru-kotsu/' },
   title: "【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣",
   description:
     "楽器を少しでも高く売るための5つの実践的なコツを解説。相見積もり・付属品・クリーニング・売却タイミング・買取方法の選び方まで。ギター・ピアノ・管楽器すべてに使えるノウハウです。",

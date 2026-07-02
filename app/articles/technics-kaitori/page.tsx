@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/technics-kaitori/' },
   title: "【2026年最新】テクニクス（Technics）買取おすすめ3社比較｜SL-1200の相場",
   description: "テクニクス（Technics）買取の相場とおすすめ業者3社を比較。SL-1200シリーズのターンテーブル、オーディオ機器の価値、年式・復刻機による査定差を解説。",
 };

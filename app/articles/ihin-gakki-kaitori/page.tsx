@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ihin-gakki-kaitori/' },
   title: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法",
   description: "故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説。",
   openGraph: {

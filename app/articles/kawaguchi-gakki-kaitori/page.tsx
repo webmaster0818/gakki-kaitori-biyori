@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawaguchi-gakki-kaitori/' },
   title: "川口の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年6月】",
   description: "川口（埼玉県川口市）で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方と相場の目安、おすすめ3社を比較。蕨・戸田・赤羽エリアも解説。無料査定だけの利用もOK。",
   openGraph: { title: "川口の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年6月】", description: "川口で楽器を売るならどこ？近くの楽器買取店への持ち込み・出張・宅配の選び方と相場の目安、おすすめ3社を比較。蕨・戸田・赤羽も解説。" },

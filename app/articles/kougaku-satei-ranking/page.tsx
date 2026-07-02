@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kougaku-satei-ranking/' },
   title: "【2026年最新】高額査定がつく楽器ランキングTOP10｜100万円超えのお宝も",
   description: "高額買取が期待できる楽器ランキング。100万円以上の査定がつくヴィンテージギター・ピアノ・バイオリン・管楽器の代表モデルを紹介。",
   openGraph: {

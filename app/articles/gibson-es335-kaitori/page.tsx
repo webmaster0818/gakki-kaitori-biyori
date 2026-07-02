@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-es335-kaitori/' },
   title: "【2026年最新】ギブソン ES-335買取相場｜年代別の価値とセミアコの査定ポイント",
   description: "Gibson ES-335の買取相場を年代別に解説。センターブロック入りセミアコの名機の価値要因、ヴィンテージ（ドットネック/ブロックインレイ）の評価、状態の査定差とおすすめ買取3社を比較。",
 };

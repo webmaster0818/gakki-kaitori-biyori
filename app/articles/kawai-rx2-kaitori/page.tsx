@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawai-rx2-kaitori/' },
   title: "【2026年最新】カワイ RX-2買取相場｜年式別の価値とグランドピアノの査定ポイント",
   description: "KAWAI RX-2グランドピアノの買取相場を年式別に解説。RXシリーズ中核モデルの価値要因、製造番号による年代判定、状態や設置環境の査定差とおすすめ買取3社を比較。",
 };

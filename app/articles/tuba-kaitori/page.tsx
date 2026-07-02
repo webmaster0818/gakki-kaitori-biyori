@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/tuba-kaitori/' },
   title: "【2026年最新】チューバ買取おすすめ3社比較｜相場とメーカー別の価値",
   description: "チューバ買取の相場とおすすめ業者3社を比較。YAMAHA・Miraphone・B&S・Bessonなどメーカー別、B♭/C/F管の違い、大型ゆえの搬出注意点を解説。",
 };

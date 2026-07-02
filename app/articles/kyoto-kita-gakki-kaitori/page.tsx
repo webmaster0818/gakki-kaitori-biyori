@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kyoto-kita-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 京都市北区おすすめ3選｜出張・店頭・宅配を比較",
   description: "京都市北区（京都府京都市北区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、上京・左京・右京エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 京都市北区おすすめ3選｜出張・店頭・宅配を比較", description: "京都市北区（京都府京都市北区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、上京・左京・右京エリアの状況も解説。" },

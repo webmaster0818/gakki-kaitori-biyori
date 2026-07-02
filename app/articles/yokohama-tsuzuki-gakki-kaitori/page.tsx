@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yokohama-tsuzuki-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 横浜市都筑区おすすめ3選｜出張・店頭・宅配を比較",
   description: "横浜市都筑区（神奈川県横浜市都筑区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、港北・青葉・緑・川崎エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 横浜市都筑区おすすめ3選｜出張・店頭・宅配を比較", description: "横浜市都筑区（神奈川県横浜市都筑区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、港北・青葉・緑・川崎エリアの状況も解説。" },

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
   description:
     "神戸で楽器を売るならどこがいい？神戸対応の楽器買取おすすめ3社を徹底比較。三宮・元町・ハーバーランドなどエリア別の買取事情、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説。",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/martin-d28-kaitori/' },
   title: "【2026年最新】マーチン D-28買取相場｜年代別の価値とドレッドノートの査定ポイント",
   description: "Martin D-28の買取相場を年代別に解説。ドレッドノートの代表機の価値要因、ヴィンテージ（プレウォー/ブレイスング）の評価、状態の査定差とおすすめ買取3社を比較。",
 };

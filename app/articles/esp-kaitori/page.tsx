@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/esp-kaitori/' },
   title: "【2026年最新】ESP買取おすすめ3社比較｜エレキギター・ベースの相場と価値",
   description: "ESP（イーエスピー）買取の相場とおすすめ業者3社を比較。ESP・E-II・LTD・EDWARDS・GrassRootsのラインによる価値の違い、カスタムオーダー品の評価を解説。",
 };

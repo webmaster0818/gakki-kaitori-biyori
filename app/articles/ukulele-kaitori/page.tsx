@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ukulele-kaitori/' },
   title: "【2026年最新】ウクレレ買取おすすめ3社比較｜ブランド別の相場と価値",
   description: "ウクレレ買取の相場とおすすめ業者3社を比較。KAMAKA・Martin・KoAloha・tkitki・FaminoなどブランドやコアウッドのグレードによるValue、状態の査定差を解説。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/orange-kaitori/' },
   title: "【2026年最新】Orange（オレンジ）アンプ買取おすすめ3社比較｜相場と価値",
   description: "Orange（オレンジ）アンプ買取の相場とおすすめ業者3社を比較。Rockerverb・OR・Crush などシリーズ別の価値、真空管/トランジスタの違い、状態の査定差を解説。",
 };

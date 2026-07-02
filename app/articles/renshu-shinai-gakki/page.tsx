@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/renshu-shinai-gakki/' },
   title: "【2026年最新】練習しない楽器はいつ売る？タイミング・判断基準と高値で売るコツ",
   description: "「いつか弾く」と思って手放せない楽器、本当に売り時はいつ？判断基準、売却のベストタイミング、価値が下がる前に売る理由、相場の動きまで詳しく解説。",
   openGraph: {

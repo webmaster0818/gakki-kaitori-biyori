@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-td-kaitori/' },
   title: "【2026年最新】Roland電子ドラム（V-Drums）買取おすすめ3社比較｜TDの相場",
   description: "Roland電子ドラム（V-Drums）買取の相場とおすすめ業者3社を比較。TD-17・TD-27・TD-50などモジュール別の価値、パッド構成や世代による査定差を解説。",
 };

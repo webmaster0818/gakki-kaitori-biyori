@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kaitori-houhou-hikaku/' },
   title: "【2026年版】楽器の買取方法4つを徹底比較｜一括査定・出張・店頭・宅配",
   description:
     "楽器の買取方法4つ（一括査定・出張買取・店頭買取・宅配買取）を徹底比較。それぞれのメリット・デメリット、楽器別のおすすめ方法、3社の対応表まで解説します。",

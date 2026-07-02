@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/satei-yomikata/' },
   title: "【2026年最新】楽器査定書の読み方ガイド｜減額理由・項目・チェックポイント",
   description: "楽器の査定書の読み方を解説。査定額の内訳、減額理由の項目、納得できない場合の対応方法、複数業者の査定書比較のコツまで。",
   openGraph: {

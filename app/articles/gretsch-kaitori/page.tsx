@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gretsch-kaitori/' },
   title: "【2026年最新】グレッチ買取おすすめ3社比較｜Gretschギターの相場と価値",
   description: "グレッチ（Gretsch）買取の相場とおすすめ業者3社を比較。Professional(USA)・Players・Electromatic・Streamlinerのラインによる価値、ホロウボディの評価を解説。",
 };

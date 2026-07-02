@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bass-kaitori/' },
   title: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
   description:
     "ベース買取のおすすめ業者3社を徹底比較。エレキベース・アコースティックベース・アップライトベースの買取相場、Fender・Gibson・Musicman・Rickenbacker・YAMAHAなどブランド別の相場目安、高く売るコツまで解説。",

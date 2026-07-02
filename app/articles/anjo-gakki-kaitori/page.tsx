@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/anjo-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 安城市おすすめ3選｜出張・店頭・宅配を比較",
   description: "安城市（愛知県安城市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、刈谷・岡崎・西尾エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 安城市おすすめ3選｜出張・店頭・宅配を比較", description: "安城市（愛知県安城市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、刈谷・岡崎・西尾エリアの状況も解説。" },

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/moog-kaitori/' },
   title: "【2026年最新】Moog（モーグ）買取おすすめ3社比較｜アナログシンセの相場",
   description: "Moog（モーグ）買取の相場とおすすめ業者3社を比較。Minimoog・Subsequent・Mother-32・Matriarch・Voyager などモデル別の価値、ヴィンテージ機の評価を解説。",
 };

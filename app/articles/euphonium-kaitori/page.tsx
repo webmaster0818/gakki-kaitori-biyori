@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/euphonium-kaitori/' },
   title: "【2026年最新】ユーフォニアム買取おすすめ3社比較｜相場とメーカー別の価値",
   description: "ユーフォニアム買取の相場とおすすめ業者3社を比較。YAMAHA・Besson・Willson などメーカー別、コンペンセイティングの有無による価値、状態の査定差を解説。",
 };

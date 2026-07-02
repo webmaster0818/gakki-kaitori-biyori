@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yamaha-kaitori/' },
   title: "【2026年6月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器",
   description:
     "YAMAHA(ヤマハ)楽器の買取相場を徹底解説。ピアノ・ギター・管楽器・電子ピアノなど楽器別の買取価格目安、人気シリーズ別の相場、高く売るコツまで。おすすめ買取業者3社比較で最高値がわかります。",

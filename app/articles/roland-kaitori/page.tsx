@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-kaitori/' },
   title: "【2026年最新】Roland買取おすすめ3社比較｜電子ピアノ・シンセ・電子ドラムの相場",
   description:
     "Roland（ローランド）の楽器を売るならどこがいい？電子ピアノ・シンセサイザー・電子ドラム・ギターアンプのRoland製品買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",

@@ -1,5 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata = {
+  alternates: { canonical: "https://gakkikaitori-biyori.com/" },
+};
 import GakkiScrollReveal from "@/components/GakkiScrollReveal";
 
 const services = [
@@ -307,6 +311,29 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </Link>
+        </div>
+      </section>
+
+      {/* 注目ガイド（GSC機会ページへの内部リンク集中） */}
+      <section className="max-w-5xl mx-auto px-4 py-14">
+        <h2 className="font-display text-xl md:text-2xl font-bold mb-6 text-center">今週の注目買取ガイド</h2>
+        <div className="flex flex-wrap justify-center gap-2">
+          {[
+            { name: "福岡の楽器買取", href: "/articles/fukuoka-gakki-kaitori/" },
+            { name: "新宿の楽器買取", href: "/articles/shinjuku-gakki-kaitori/" },
+            { name: "Ibanez買取", href: "/articles/ibanez-kaitori/" },
+            { name: "Martin買取", href: "/articles/martin-kaitori/" },
+            { name: "Pearlドラム買取", href: "/articles/pearl-kaitori/" },
+            { name: "KAWAI RX-2買取", href: "/articles/kawai-rx2-kaitori/" },
+            { name: "リッケンバッカー330買取", href: "/articles/rickenbacker-330-kaitori/" },
+            { name: "川口の楽器買取", href: "/articles/kawaguchi-gakki-kaitori/" },
+            { name: "メルカリと買取業者の比較", href: "/articles/mercari-vs-gyosha/" },
+            { name: "相場ランキング(毎週更新)", href: "/souba-ranking/" },
+          ].map((g) => (
+            <Link key={g.href} href={g.href} className="text-sm text-accent-dark border border-warm-border bg-white px-4 py-2 rounded-full hover:border-accent-dark transition">
+              {g.name}
+            </Link>
+          ))}
         </div>
       </section>
 

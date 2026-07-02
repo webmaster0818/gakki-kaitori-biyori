@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ochanomizu-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 御茶ノ水おすすめ3選｜出張・店頭・宅配を比較",
   description:
     "御茶ノ水で楽器を売るならどこがいい？御茶ノ水対応の楽器買取おすすめ3社を徹底比較。御茶ノ水楽器街の買取事情、出張・宅配買取との比較、高く売るコツまで解説。日本最大の楽器街で最高値を実現する方法。",

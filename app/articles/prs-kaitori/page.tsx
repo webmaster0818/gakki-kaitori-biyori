@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/prs-kaitori/' },
   title: "【2026年最新】PRS買取おすすめ3社比較｜Paul Reed Smithの相場と価値",
   description: "PRS（Paul Reed Smith）買取の相場とおすすめ業者3社を比較。Core・S2・SE のラインによる価値、Custom 24・McCartyなどモデル別、限定品の評価を解説。",
 };

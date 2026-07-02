@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/recorder-kaitori/' },
   title: "【2026年最新】リコーダー買取おすすめ3社比較｜木製リコーダーの相場",
   description: "リコーダー買取の相場とおすすめ業者3社を比較。木製リコーダー（Moeck・Mollenhauer・YAMAHA）の価値、プラ製との違い、まとめ売りのコツを解説。",
 };

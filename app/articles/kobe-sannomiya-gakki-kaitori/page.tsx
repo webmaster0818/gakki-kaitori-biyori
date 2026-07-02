@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-sannomiya-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 神戸三宮おすすめ3選｜出張・店頭・宅配を比較",
   description: "神戸三宮（兵庫県神戸市中央区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、元町・新神戸・北野エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 神戸三宮おすすめ3選｜出張・店頭・宅配を比較", description: "神戸三宮（兵庫県神戸市中央区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、元町・新神戸・北野エリアの状況も解説。" },

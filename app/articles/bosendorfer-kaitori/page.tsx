@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bosendorfer-kaitori/' },
   title: "【2026年最新】Bösendorfer買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Bösendorfer（ベーゼンドルファー）のグランドピアノ、アップライトピアノ買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
   openGraph: { title: "【2026年最新】Bösendorfer買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Bösendorfer（ベーゼンドルファー）のグランドピアノ、アップライトピアノ買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },

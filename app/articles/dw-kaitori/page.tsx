@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/dw-kaitori/' },
   title: "【2026年最新】DW（ドラムワークショップ）買取おすすめ3社比較｜相場と価値",
   description: "DW（Drum Workshop）買取の相場とおすすめ業者3社を比較。Collector's・Performance・Design シリーズの価値、ペダル（5000/9000）の評価、状態の査定差を解説。",
 };

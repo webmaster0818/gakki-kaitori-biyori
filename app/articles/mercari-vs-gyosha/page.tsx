@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mercari-vs-gyosha/' },
   title: "【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？",
   description: "楽器を売るならメルカリ（フリマアプリ）と買取業者どちらがお得？手数料・送料・トラブルリスク・売却スピードなど7項目で徹底比較。楽器の種類別おすすめ売却方法も解説。",
   openGraph: {

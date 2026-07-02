@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/takamine-kaitori/' },
   title: "【2026年最新】タカミネ（Takamine）買取おすすめ3社比較｜相場と価値",
   description: "タカミネ（Takamine）ギター買取の相場とおすすめ業者3社を比較。プロシリーズ・SANTA FE・限定品の価値、エレアコとしての需要、状態の査定差を解説。",
 };

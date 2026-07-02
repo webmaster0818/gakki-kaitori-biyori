@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shakuhachi-kaitori/' },
   title: "【2026年最新】尺八買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
   description: "尺八（Shakuhachi）の買取相場、メーカー別の査定額目安、状態別の評価、高く売る5つのコツ、おすすめ買取業者3社を徹底解説。和楽器の買取で損しないための完全ガイド。",
   openGraph: {

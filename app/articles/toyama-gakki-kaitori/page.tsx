@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/toyama-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 富山おすすめ3選｜出張・店頭・宅配を比較",
   description: "富山（富山県富山市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、高岡・砺波・射水エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 富山おすすめ3選｜出張・店頭・宅配を比較", description: "富山（富山県富山市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、高岡・砺波・射水エリアの状況も解説。" },

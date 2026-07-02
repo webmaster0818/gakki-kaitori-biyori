@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-j45-kaitori/' },
   title: "【2026年最新】ギブソン J-45買取相場｜年代別の価値とラウンドショルダーの査定ポイント",
   description: "Gibson J-45の買取相場を年代別に解説。「ワークホース」と呼ばれる名アコギの価値要因、ヴィンテージの評価、状態の査定差とおすすめ買取3社を比較。",
 };

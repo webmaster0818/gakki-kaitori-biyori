@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/piano-kaitori/' },
   title: "【2026年最新】ピアノ買取おすすめ3社比較｜グランド・アップライト相場",
   description:
     "ピアノ買取のおすすめ業者3社を徹底比較。グランドピアノ・アップライトピアノ・電子ピアノの買取相場、YAMAHA・KAWAI・Steinwayなどブランド別の相場目安、高く売るコツまで解説します。",

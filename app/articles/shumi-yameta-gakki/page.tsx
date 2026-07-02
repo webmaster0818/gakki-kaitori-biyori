@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shumi-yameta-gakki/' },
   title: "【2026年最新】趣味をやめた楽器の処分方法｜売却・譲渡・記念品保管の選択肢",
   description: "趣味をやめた・続かなかった楽器の処分方法を解説。売却で残金化、知人への譲渡、記念品として保管、寄付の4つの選択肢のメリット・デメリットを比較。",
   openGraph: {

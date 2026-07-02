@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/osaka-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 大阪おすすめ3選｜出張・店頭・宅配を比較",
   description:
     "大阪で楽器を売るならどこがいい？大阪対応の楽器買取おすすめ3社を徹底比較。出張買取・店頭買取・宅配買取の違い、梅田・心斎橋・難波エリア別の買取事情、高く売るコツまで解説。",

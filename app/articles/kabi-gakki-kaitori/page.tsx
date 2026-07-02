@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kabi-gakki-kaitori/' },
   title: "【2026年最新】カビが生えた楽器の買取は可能？査定額・対処法・買取業者を解説",
   description: "カビが生えてしまった楽器でも買取は可能？査定額への影響、自分でできるカビ除去方法、カビ対応の買取業者の選び方を解説。湿気対策で価値を守るコツも。",
   openGraph: {

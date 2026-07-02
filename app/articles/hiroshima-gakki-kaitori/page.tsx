@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/hiroshima-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 広島おすすめ3選｜出張・店頭・宅配を比較",
   description:
     "広島で楽器を売るならどこがいい？広島対応の楽器買取おすすめ3社を徹底比較。広島市・呉・福山エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説。",

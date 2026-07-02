@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/taylor-814ce-kaitori/' },
   title: "【2026年最新】テイラー 814ce買取相場｜年代・仕様別の価値と査定ポイント",
   description: "Taylor 814ceの買取相場を年代・仕様別に解説。800シリーズの中核モデルの価値要因、V-Class／エレアコ仕様の評価、状態の査定差とおすすめ買取3社を比較。",
 };

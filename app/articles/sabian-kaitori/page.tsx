@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/sabian-kaitori/' },
   title: "【2026年最新】SABIAN買取おすすめ3社比較｜シンバルの相場と価値",
   description: "SABIAN（セイビアン）シンバル買取の相場とおすすめ業者3社を比較。AAX・HHX・AA などシリーズ別の価値、サイズ・セット売りの査定差を解説。",
 };

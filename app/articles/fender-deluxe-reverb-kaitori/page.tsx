@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-deluxe-reverb-kaitori/' },
   title: "【2026年最新】フェンダー デラックスリバーブ買取相場｜年代別の価値と真空管アンプの査定ポイント",
   description: "Fender Deluxe Reverbの買取相場を年代別に解説。ブラックフェイス／シルバーフェイスの名機の価値要因、リイシューとヴィンテージの違い、状態の査定差とおすすめ買取3社を比較。",
 };

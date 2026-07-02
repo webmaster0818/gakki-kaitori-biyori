@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kaitori-houshiki-tetteihikaku/' },
   title: "【2026年最新】出張買取・店頭買取・宅配買取の徹底比較｜楽器別おすすめ方法",
   description: "楽器の買取方法3種（出張・店頭・宅配）を徹底比較。メリット・デメリット、楽器別おすすめ、所要時間・査定額への影響まで解説。",
   openGraph: {

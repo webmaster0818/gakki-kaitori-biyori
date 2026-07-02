@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/isesaki-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 伊勢崎市おすすめ3選｜出張・店頭・宅配を比較",
   description: "伊勢崎市（群馬県伊勢崎市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、前橋・高崎・太田エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 伊勢崎市おすすめ3選｜出張・店頭・宅配を比較", description: "伊勢崎市（群馬県伊勢崎市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、前橋・高崎・太田エリアの状況も解説。" },

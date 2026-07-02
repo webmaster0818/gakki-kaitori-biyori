@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/band-kaisan-kizai/' },
   title: "【2026年最新】バンド解散後の機材整理術｜アンプ・エフェクター・ドラムまで一括処分",
   description: "バンドが解散した後の機材整理・買取方法を解説。アンプ、エフェクター、ドラム、ベースなど多種多様な機材を一括で売る手順とおすすめ業者、メンバー間の精算方法まで。",
   openGraph: {

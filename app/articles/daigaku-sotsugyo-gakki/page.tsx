@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/daigaku-sotsugyo-gakki/' },
   title: "【2026年最新】大学卒業時の楽器処分ガイド｜就職前に整理・買取して新生活を",
   description: "大学卒業を機に、サークルや個人で使った楽器を処分したい方へ。卒業前に整理すべき理由、買取相場、就職先への引っ越しと連動した処分手順を解説。",
   openGraph: {

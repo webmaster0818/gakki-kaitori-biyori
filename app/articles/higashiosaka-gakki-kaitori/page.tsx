@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/higashiosaka-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 東大阪おすすめ3選｜出張・店頭・宅配を比較",
   description: "東大阪（大阪府東大阪市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、八尾・大東・布施エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 東大阪おすすめ3選｜出張・店頭・宅配を比較", description: "東大阪（大阪府東大阪市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、八尾・大東・布施エリアの状況も解説。" },

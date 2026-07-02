@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/accordion-kaitori/' },
   title: "【2026年最新】アコーディオン買取おすすめ3社比較｜相場とメーカー別の価値",
   description: "アコーディオン買取の相場とおすすめ業者3社を比較。TOMBO・YAMAHA・Hohner・Excelsior などメーカー別の価値、鍵盤式/ボタン式の違い、状態の査定差を解説。",
 };

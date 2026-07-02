@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/sapporo-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
   description:
     "札幌で楽器を売るならどこがいい？札幌対応の楽器買取おすすめ3社を徹底比較。札幌駅・大通エリアのミツノ楽器・島村楽器など専門店情報、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説。",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-hozon-houhou/' },
   title: "【2026年最新】楽器を高く売るための保管方法｜湿度・温度・劣化対策",
   description: "楽器を高く売るための保管方法を解説。湿度・温度管理、ケース保管、弦やリードの扱い、木製楽器の割れ防止など、査定額を下げないための日常のコツを解説。",
 };

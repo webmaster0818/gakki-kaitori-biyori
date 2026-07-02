@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-danshari/' },
   title: "【2026年最新】楽器の断捨離・整理術｜売る・譲る・捨ての判断基準と実践ステップ",
   description: "楽器の断捨離に悩む方へ。売る・譲る・捨ての判断基準、ミニマリスト視点での楽器整理、買取で得られる金額の目安、断捨離後に後悔しないコツまで完全解説。",
   openGraph: {

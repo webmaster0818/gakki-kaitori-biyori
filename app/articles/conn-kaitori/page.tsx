@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/conn-kaitori/' },
   title: "【2026年最新】コーン（C.G.Conn）買取おすすめ3社比較｜管楽器の相場と価値",
   description: "コーン（C.G. Conn）買取の相場とおすすめ業者3社を比較。サックス（6M/10M等）・トランペット・トロンボーンのヴィンテージ価値、状態の査定差を解説。",
 };

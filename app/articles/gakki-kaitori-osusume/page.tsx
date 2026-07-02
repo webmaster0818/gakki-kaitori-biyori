@@ -1,13 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import soubaData from "@/data/souba-ranking-gakki.json";
+
+const soubaTop = [...soubaData.models]
+  .filter((m) => m.median != null)
+  .sort((a, b) => (b.median ?? 0) - (a.median ?? 0))
+  .slice(0, 5);
 
 export const metadata: Metadata = {
-  title: "【2026年6月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方",
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-osusume/' },
+  title: "【2026年7月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方",
   description:
     "楽器買取はどこがおすすめ？一括査定のヒカカク！・出張買取のウリエル・店頭買取のティファナの3社を買取方式・手数料・得意分野で徹底比較。ギター・管楽器・ピアノ・ドラムなど楽器別の売り方と、査定額を上げる準備のコツも解説します。",
   openGraph: {
-    title: "【2026年6月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方",
+    title: "【2026年7月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方",
     description: "楽器買取のおすすめ3社を買取方式・手数料・得意分野で徹底比較。楽器別の売り方ガイドつき。",
   },
 };
@@ -42,7 +49,7 @@ function FaqSchema() {
     { "@type": "Question", name: "出張買取と店頭買取はどちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "買取方式そのものよりも「楽器の専門性がある業者かどうか」が査定額を左右します。どの方式でも、楽器専門の査定士がいる業者を選び、可能であれば複数社を比較するのが高価買取への近道です。" } },
     { "@type": "Question", name: "楽器の買取相場はどこで確認できますか？", acceptedAnswer: { "@type": "Answer", text: "当サイトではギター・管楽器・ピアノ・ドラムなど楽器種別ごと、Fender・Gibson・YAMAHAなどブランドごとに買取のポイントと相場の目安を解説しています。ただし実際の買取額は型番・年式・状態で大きく変動するため、正確な金額は無料査定での確認をおすすめします。" } },
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年6月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方", datePublished: "2026-06-11", dateModified: "2026-06-11", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年7月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方", datePublished: "2026-06-11", dateModified: "2026-07-02", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -84,11 +91,11 @@ export default function GakkiKaitoriOsusumePage() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">業者比較</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年6月最新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年7月最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年6月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年7月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方</h1>
           <p className="text-warm-gray text-sm leading-relaxed">「楽器を売りたいけど、どこに頼めばいいかわからない」という方へ。本記事では、楽器買取で実績のある3つのサービス（ヒカカク！・ウリエル・ティファナ）を買取方式・手数料・得意分野で比較し、あなたの状況に合った業者の選び方を解説します。あわせて、ギター・管楽器・ピアノなど楽器種別ごとの売り方ガイド、査定額を上げる準備のコツもまとめました。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月11日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月2日</p>
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">
@@ -115,6 +122,24 @@ export default function GakkiKaitoriOsusumePage() {
             </table>
           </div>
           <p className="text-xs text-warm-gray">※各社のサービス内容は公開情報に基づきます。対応エリア・対象楽器の詳細は各公式サイトでご確認ください。</p>
+
+          <h2 id="souba-pickup">今週の高額買取相場ピックアップ（ヤフオク実取引データ）</h2>
+          <p>当サイトが毎週更新している中古市場の実取引データ（{soubaData.updated}時点・{soubaData.count}モデル調査）から、中古相場の高いモデルを抜粋します。買取額は一般に中古実勢の50〜70%が目安です（金額は保証されません。正確な額は無料査定でご確認ください）。</p>
+          <div className="table-wrapper mb-6">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">モデル</th><th className="px-4 py-3 text-left font-medium">カテゴリ</th><th className="px-4 py-3 text-left font-medium">中古実勢中央値</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                {soubaTop.map((m, i) => (
+                  <tr key={m.slug} className={i % 2 === 0 ? "bg-white" : "bg-cream/50"}>
+                    <td className="px-4 py-3"><Link href={`/articles/${m.slug}/`} className="text-accent-dark underline">{m.name}</Link></td>
+                    <td className="px-4 py-3">{m.category}</td>
+                    <td className="px-4 py-3 font-medium">{m.median.toLocaleString()}円</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm"><Link href="/souba-ranking/" className="text-accent-dark underline">→ 全{soubaData.count}モデルの相場ランキング（毎週更新）を見る</Link></p>
 
           <h2 id="how-to-choose">失敗しない楽器買取業者の選び方5つの基準</h2>
           <h3>基準1: 楽器専門の査定士がいるか</h3>

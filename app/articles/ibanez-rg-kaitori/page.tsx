@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-rg-kaitori/' },
   title: "【2026年最新】アイバニーズ RG買取相場｜製造国・シリーズ別の価値と査定ポイント",
   description: "Ibanez RGシリーズの買取相場を製造国・シリーズ別（Prestige/Premium/Standard）に解説。ハイスピード系の定番機の価値要因、トレモロ仕様、状態の査定差とおすすめ買取3社を比較。",
 };

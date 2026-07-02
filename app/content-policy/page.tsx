@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/content-policy/' },
   title: "記事制作ポリシー",
   description: "楽器買取びよりの記事制作ポリシーです。記事の制作方針や品質管理についてご案内します。",
 };

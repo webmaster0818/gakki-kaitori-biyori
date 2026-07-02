@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/prs-custom24-kaitori/' },
   title: "【2026年最新】PRS カスタム24買取相場｜製造国・グレード別の価値と査定ポイント",
   description: "PRS Custom 24の買取相場をグレード別（Core/S2/SE）に解説。ポール・リード・スミスの代表機の価値要因、フレイムメイプルトップの評価、状態の査定差とおすすめ買取3社を比較。",
 };

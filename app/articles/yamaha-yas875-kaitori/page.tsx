@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yamaha-yas875-kaitori/' },
   title: "【2026年最新】ヤマハ YAS-875買取相場｜カスタムアルトサックスの価値と査定ポイント",
   description: "YAMAHA YAS-875（Custom）の買取相場を解説。プロ向けアルトサックスの価値要因、無印/EX等の仕様差、状態の査定差とおすすめ買取3社を比較。",
 };

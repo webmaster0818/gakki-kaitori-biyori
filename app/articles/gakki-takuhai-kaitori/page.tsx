@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-takuhai-kaitori/' },
   title: "【2026年最新】楽器の宅配買取は安全？｜手順・梱包・補償の注意点",
   description: "楽器の宅配買取の手順と安全性を解説。梱包のコツ、配送補償、本人確認、キャンセル時の返送条件、宅配買取に向く楽器・向かない楽器まで完全ガイド。",
 };

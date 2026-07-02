@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/osaka-hirano-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 大阪市平野区おすすめ3選｜出張・店頭・宅配を比較",
   description: "大阪市平野区（大阪府大阪市平野区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、東住吉・生野・八尾・松原エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 大阪市平野区おすすめ3選｜出張・店頭・宅配を比較", description: "大阪市平野区（大阪府大阪市平野区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、東住吉・生野・八尾・松原エリアの状況も解説。" },

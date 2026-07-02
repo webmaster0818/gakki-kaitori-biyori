@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kalimba-kaitori/' },
   title: "【2026年最新】カリンバ買取おすすめ3社比較｜相場とブランド別の価値",
   description: "カリンバ買取の相場とおすすめ業者3社を比較。GECKO・Hugh Tracey・KIMI などブランド別の価値、キー数や材による査定差を解説。",
 };

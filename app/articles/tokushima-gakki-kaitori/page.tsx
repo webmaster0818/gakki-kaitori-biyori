@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/tokushima-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 徳島おすすめ3選｜出張・店頭・宅配を比較",
   description: "徳島（徳島県徳島市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、鳴門・小松島・阿南エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 徳島おすすめ3選｜出張・店頭・宅配を比較", description: "徳島（徳島県徳島市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、鳴門・小松島・阿南エリアの状況も解説。" },

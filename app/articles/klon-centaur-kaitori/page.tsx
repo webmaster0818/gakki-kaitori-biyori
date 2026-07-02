@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/klon-centaur-kaitori/' },
   title: "【2026年最新】クロン ケンタウルス買取相場｜希少オーバードライブの価値と査定ポイント",
   description: "Klon Centaurの買取相場を解説。伝説的なオーバードライブの価値要因、金/銀パネルやロングテール等の個体差、状態の査定差とおすすめ買取3社を比較。",
 };

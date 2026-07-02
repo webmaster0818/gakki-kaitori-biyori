@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mixer-kaitori/' },
   title: "【2026年最新】ミキサー買取おすすめ3社比較｜PA・DJミキサーの相場",
   description: "音響ミキサー買取の相場とおすすめ業者3社を比較。YAMAHA・Mackie・Allen&Heath・Pioneer DJなどメーカー別、アナログ/デジタル卓の価値、状態の査定差を解説。",
 };

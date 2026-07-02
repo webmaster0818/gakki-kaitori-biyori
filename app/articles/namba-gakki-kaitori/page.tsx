@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/namba-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 難波おすすめ3選｜出張・店頭・宅配を比較",
   description: "難波（大阪府大阪市中央区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、心斎橋・日本橋・天王寺エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 難波おすすめ3選｜出張・店頭・宅配を比較", description: "難波（大阪府大阪市中央区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、心斎橋・日本橋・天王寺エリアの状況も解説。" },

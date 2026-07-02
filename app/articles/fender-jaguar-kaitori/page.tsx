@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-jaguar-kaitori/' },
   title: "【2026年最新】フェンダー ジャガー買取相場｜製造国・年代別の価値と査定ポイント",
   description: "Fender Jaguarの買取相場を製造国・年代別に解説。ショートスケール×オフセットの名機の価値要因、ヴィンテージとリイシューの違い、状態の査定差とおすすめ買取3社を比較。",
 };

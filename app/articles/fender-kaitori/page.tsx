@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-kaitori/' },
   title: "【2026年6月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
   description:
     "Fender(フェンダー)の買取相場を徹底解説。Stratocaster・Telecaster・Jazz Bassなどモデル別の買取価格、USA製・メキシコ製・日本製の違い、Custom Shop製品の査定ポイントまで。おすすめ買取業者3社比較。",

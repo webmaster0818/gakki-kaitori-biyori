@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/korg-minilogue-kaitori/' },
   title: "【2026年最新】コルグ ミニローグ買取相場｜アナログシンセの価値と査定ポイント",
   description: "KORG minilogueの買取相場を解説。人気のアナログポリシンセの価値要因、無印/xd等の仕様差、状態の査定差とおすすめ買取3社を比較。",
 };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yanagisawa-awo10-kaitori/' },
   title: "【2026年最新】ヤナギサワ AWO10買取相場｜アルトサックスの価値と査定ポイント",
   description: "Yanagisawa AWO10の買取相場を解説。国産プロサックスの代表ブランドの価値要因、ブロンズ／素材違いの評価、状態の査定差とおすすめ買取3社を比較。",
 };

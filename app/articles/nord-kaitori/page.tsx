@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nord-kaitori/' },
   title: "【2026年最新】Nord（ノード）買取おすすめ3社比較｜シンセ・ステージピアノの相場",
   description: "Nord（Clavia）買取の相場とおすすめ業者3社を比較。Nord Stage・Electro・Lead・Piano などシリーズ別の価値、世代による査定差を解説。",
 };

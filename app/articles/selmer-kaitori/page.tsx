@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/selmer-kaitori/' },
   title: "【2026年6月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場",
   description: "Selmer（セルマー）のサックスを売るならどこがいい？Series III・Reference・Super Action 80 IIなどモデル別の買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
   openGraph: {

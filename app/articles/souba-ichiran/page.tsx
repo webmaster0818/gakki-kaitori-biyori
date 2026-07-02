@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/souba-ichiran/' },
   title: "【2026年最新】楽器買取相場一覧｜ギター・ピアノ・管楽器・ドラムの相場まとめ",
   description:
     "楽器の買取相場を楽器カテゴリ別に完全網羅。ギター・ベース・ピアノ・電子ピアノ・管楽器・弦楽器・ドラム・キーボードの代表的なブランド・モデルと買取価格レンジを一覧で解説。相場を左右する5つの要因も紹介。",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-lespaul-junior-kaitori/' },
   title: "【2026年最新】ギブソン レスポール ジュニア買取相場｜年代・仕様別の価値と査定ポイント",
   description: "Gibson Les Paul Juniorの買取相場を年代・仕様別に解説。P-90×1基のシンプルな名機の価値要因、ダブルカッタウェイ／シングルカッタウェイの違い、状態の査定差とおすすめ買取3社を比較。",
 };

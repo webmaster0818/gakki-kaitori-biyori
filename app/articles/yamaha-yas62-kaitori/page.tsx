@@ -4,12 +4,12 @@ import RelatedArticles from "@/components/RelatedArticles";
 import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
-  title: "【2026年6月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
+  title: "【2026年7月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
   description: "ヤマハ YAS-62の買取相場を年式・状態別に解説。ヤマハ YAS-62の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。",
   keywords: "ヤマハ YAS-62,YAS-62 買取,ヤマハ アルトサックス 買取,YAS62 相場",
   alternates: { canonical: "/articles/yamaha-yas62-kaitori/" },
   openGraph: {
-    title: "【2026年6月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
+    title: "【2026年7月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
     description: "ヤマハ YAS-62の買取相場・特徴・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/yamaha-yas62-kaitori/",
     type: "article",

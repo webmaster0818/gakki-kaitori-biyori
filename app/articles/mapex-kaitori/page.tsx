@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mapex-kaitori/' },
   title: "【2026年最新】Mapexドラム買取おすすめ3社比較｜相場と価値",
   description: "Mapex（メイペックス）ドラム買取の相場とおすすめ業者3社を比較。Saturn・Armory・Mars などシリーズ別の価値、セット構成による査定差を解説。",
 };

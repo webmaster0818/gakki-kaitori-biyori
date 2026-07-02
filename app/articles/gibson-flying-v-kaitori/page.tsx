@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-flying-v-kaitori/' },
   title: "【2026年最新】ギブソン フライングV買取相場｜年代・仕様別の価値と査定ポイント",
   description: "Gibson Flying Vの買取相場を年代・仕様別に解説。V字シェイプの名機の価値要因、1958年オリジナルや67年以降の評価、状態の査定差とおすすめ買取3社を比較。",
 };

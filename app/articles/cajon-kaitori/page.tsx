@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/cajon-kaitori/' },
   title: "【2026年最新】カホン買取おすすめ3社比較｜相場とブランド別の価値",
   description: "カホン買取の相場とおすすめ業者3社を比較。Schlagwerk・Meinl・LP・Pepote などブランド別の価値、状態による査定差を解説。",
 };

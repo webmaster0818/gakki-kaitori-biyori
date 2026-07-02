@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/turntable-kaitori/' },
   title: "【2026年最新】ターンテーブル買取おすすめ3社比較｜Technics SL-1200の相場",
   description: "ターンテーブル買取の相場とおすすめ業者3社を比較。Technics SL-1200シリーズ・Pioneer DJ・rekordbox対応機など、DJ機材としての価値と状態の査定差を解説。",
 };

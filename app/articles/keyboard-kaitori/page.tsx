@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/keyboard-kaitori/' },
   title: "【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場ガイド",
   description:
     "キーボード・シンセサイザー買取のおすすめ業者3社を徹底比較。ステージピアノ・ワークステーション・アナログシンセの買取相場、KORG・Roland・YAMAHA・Nord・Moogなどブランド別の相場目安、ビンテージシンセの価値まで解説。",

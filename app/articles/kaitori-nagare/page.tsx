@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import DealerComparisonTable from "@/components/DealerComparisonTable";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kaitori-nagare/' },
   title: "【2026年最新】楽器買取の流れ完全ガイド｜申込〜入金まで6ステップ",
   description: "楽器買取の流れを6ステップで解説。申込・査定・引き取り・入金までの所要時間、各ステップでの注意点、業者別の違いまで完全マニュアル。",
   openGraph: {

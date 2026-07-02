@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-suma-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 神戸市須磨区おすすめ3選｜出張・店頭・宅配を比較",
   description: "神戸市須磨区（兵庫県神戸市須磨区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、長田・垂水・北エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 神戸市須磨区おすすめ3選｜出張・店頭・宅配を比較", description: "神戸市須磨区（兵庫県神戸市須磨区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、長田・垂水・北エリアの状況も解説。" },

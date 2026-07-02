@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagoya-gakki-kaitori/' },
   title: "名古屋の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年6月】",
   description:
     "名古屋で楽器を売るならどこがいい？大須・栄・名駅エリアの特徴、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",
@@ -73,7 +74,7 @@ function FaqSchema() {
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【2026年6月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に比較",
+    headline: "【2026年7月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に比較",
     datePublished: "2026-04-26",
     dateModified: "2026-04-26",
     author: { "@type": "Organization", name: "楽器買取びより" },
@@ -83,7 +84,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/nagoya-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年7月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/nagoya-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -100,7 +101,7 @@ export default function NagoyaGakkiKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年6月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に徹底比較
+            【2026年7月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に徹底比較
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             名古屋で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、名古屋エリア対応の楽器買取おすすめ3社を徹底比較。大須・栄・名駅の各エリア特徴から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、名古屋ならではの高く売るためのコツまで詳しく解説します。

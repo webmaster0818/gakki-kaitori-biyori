@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/banjo-kaitori/' },
   title: "【2026年最新】バンジョー買取おすすめ3社比較｜相場とブランド別の価値",
   description: "バンジョー買取の相場とおすすめ業者3社を比較。Gibson・Deering・GoldTone などブランド別の価値、5弦/4弦の違い、状態による査定差を解説。",
 };

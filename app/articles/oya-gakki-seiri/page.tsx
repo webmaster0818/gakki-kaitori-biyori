@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/oya-gakki-seiri/' },
   title: "【2026年最新】親の家の楽器整理マニュアル｜遺品・実家じまいで失敗しないコツ",
   description: "親の家に残された楽器の整理に困っている方へ。遺品整理、実家じまいでの楽器処分・買取の手順、価値ある楽器の見分け方、相続税との関係まで網羅解説。",
   openGraph: {

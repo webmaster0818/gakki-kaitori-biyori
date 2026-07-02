@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/taylor-kaitori/' },
   title: "【2026年最新】テイラー（Taylor）買取おすすめ3社比較｜アコギの相場と価値",
   description: "テイラー（Taylor）ギター買取の相場とおすすめ業者3社を比較。800/900/Koa・GS Mini・Academy などシリーズ別の価値、状態による査定差を解説。",
 };

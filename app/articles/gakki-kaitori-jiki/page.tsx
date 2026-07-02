@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-jiki/' },
   title: "【2026年最新】楽器を売るベストな時期は？｜高く売れるタイミングの見極め方",
   description: "楽器を高く売れる時期・タイミングを解説。新生活・卒業シーズンの需要、新モデル発売前、状態が良いうちに売る重要性、相場変動の見方を解説。",
 };

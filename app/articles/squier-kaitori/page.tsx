@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/squier-kaitori/' },
   title: "【2026年最新】スクワイヤー（Squier）買取おすすめ3社比較｜相場と価値",
   description: "スクワイヤー（Squier）買取の相場とおすすめ業者3社を比較。Classic Vibe・Contemporary・日本製JV/SQなど、シリーズや年代による価値の違いを解説。",
 };

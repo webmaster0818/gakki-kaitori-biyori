@@ -4,6 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawai-kaitori/' },
   title: "【2026年6月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場",
   description: "KAWAI（カワイ）のピアノ・電子ピアノを売るならどこがいい？グランドピアノ・アップライトピアノ・電子ピアノの買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
   openGraph: {

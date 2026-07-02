@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/sequential-kaitori/' },
   title: "【2026年最新】Sequential/DSI買取おすすめ3社比較｜Prophetの相場",
   description: "Sequential（Dave Smith Instruments）買取の相場とおすすめ業者3社を比較。Prophet-5/6・Rev2・OB-6 などモデル別の価値、アナログシンセとしての需要を解説。",
 };

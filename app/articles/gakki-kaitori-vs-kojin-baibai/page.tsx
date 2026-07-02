@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-vs-kojin-baibai/' },
   title: "【2026年最新】楽器買取 vs 個人売買どちらが得？メリット・デメリット完全比較",
   description: "楽器を売る時、業者買取と個人売買（メルカリ・ヤフオク・ジモティー）どちらがお得？手数料・手間・スピード・リスクを徹底比較。状況別の最適な選び方も解説。",
   openGraph: {

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/miseinen-baikyaku/' },
   title: "【2026年最新】未成年でも楽器を売れる？親の同意・手続き・注意点まとめ",
   description: "18歳未満の未成年が楽器を売却する方法と注意点を解説。親権者の同意の必要性、必要書類、業者の対応状況、トラブル回避のコツまで。",
   openGraph: {

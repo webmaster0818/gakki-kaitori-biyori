@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/cornet-kaitori/' },
   title: "【2026年最新】コルネット買取おすすめ3社比較｜相場とメーカー別の価値",
   description: "コルネット買取の相場とおすすめ業者3社を比較。YAMAHA・Bach・Besson などメーカー別の価値、トランペットとの違い、状態による査定差を解説。",
 };

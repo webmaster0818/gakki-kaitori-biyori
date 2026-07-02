@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yamaha-c3-kaitori/' },
   title: "【2026年最新】ヤマハ C3買取相場｜製造番号・年式別の価値とグランドピアノの査定ポイント",
   description: "YAMAHA C3グランドピアノの買取相場を年式別に解説。定番グランドの価値要因、製造番号による年代判定、状態や設置環境の査定差とおすすめ買取3社を比較。",
 };

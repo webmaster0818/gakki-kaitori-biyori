@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kodomo-piano-yameta/' },
   title: "【2026年最新】子供がピアノを辞めた時の処分方法5選｜後悔しないチェックリスト付き",
   description: "子供がピアノを辞めた・続かなかった時の処分方法を解説。ピアノ買取、引き取り、譲渡、粗大ゴミの比較と、売る前に確認すべき7つのチェックリスト。ヤマハ・カワイの買取相場も。",
   openGraph: {

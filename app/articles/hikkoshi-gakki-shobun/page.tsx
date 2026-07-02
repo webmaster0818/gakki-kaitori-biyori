@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/hikkoshi-gakki-shobun/' },
   title: "【2026年最新】引っ越しで楽器を処分する方法5選｜捨てるより買取がお得",
   description: "引っ越しで楽器を処分したい方へ。粗大ゴミ・買取・寄付・譲渡・不用品回収の5つの処分方法を比較。引っ越し業者の運搬料金との比較、買取で手元にお金を残すコツも解説。",
   openGraph: {

@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nord-stage3-kaitori/' },
   title: "【2026年最新】ノード ステージ3買取相場｜ステージピアノ／シンセの価値と査定ポイント",
   description: "Nord Stage 3の買取相場を解説。プロ定番のステージキーボードの価値要因、鍵盤数（88/76/Compact）の違い、状態の査定差とおすすめ買取3社を比較。",
 };

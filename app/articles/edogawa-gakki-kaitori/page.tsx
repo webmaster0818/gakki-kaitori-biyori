@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/edogawa-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 江戸川区おすすめ3選｜出張・店頭・宅配を比較",
   description: "江戸川区（東京都江戸川区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、江東・葛飾・市川・浦安エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 江戸川区おすすめ3選｜出張・店頭・宅配を比較", description: "江戸川区（東京都江戸川区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、江東・葛飾・市川・浦安エリアの状況も解説。" },

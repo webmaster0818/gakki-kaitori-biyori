@@ -3,6 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/drum-kaitori/' },
   title: "【2026年最新】ドラム買取おすすめ3社比較｜相場・高く売るコツ",
   description:
     "ドラム買取のおすすめ業者3社を徹底比較。アコースティックドラム・電子ドラム・シンバル単品の買取相場、Pearl・TAMA・DW・Roland・YAMAHAなどブランド別の相場目安、出張買取がおすすめな理由まで解説。",

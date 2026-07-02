@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagoya-meito-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 名古屋市名東区おすすめ3選｜出張・店頭・宅配を比較",
   description: "名古屋市名東区（愛知県名古屋市名東区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、千種・守山・天白・長久手エリアの状況も解説。",
   openGraph: { title: "【2026年最新】楽器買取 名古屋市名東区おすすめ3選｜出張・店頭・宅配を比較", description: "名古屋市名東区（愛知県名古屋市名東区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、千種・守山・天白・長久手エリアの状況も解説。" },
