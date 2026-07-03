@@ -149,7 +149,7 @@ export default function KawaiRx2KaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="kawai-rx2-kaitori" relatedSlugs={["kawai-k300-kaitori", "piano-kaitori", "yamaha-c3-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
+        <RelatedArticles currentSlug="kawai-rx2-kaitori" relatedSlugs={["kawai-piano-kaitori", "grand-piano-kaitori", "kawai-k300-kaitori", "piano-kaitori", "yamaha-c3-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
       </article>
     </>
   );

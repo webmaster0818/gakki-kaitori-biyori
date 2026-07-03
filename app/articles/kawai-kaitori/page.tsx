@@ -97,6 +97,12 @@ export default function Page() {
 
           <CtaBox />
 
+          <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
+            <p className="font-bold text-sm mb-1">カワイのピアノを売るなら専用ガイドへ</p>
+            <p className="text-sm text-warm-gray mb-2">RX・GXグランド、Kシリーズアップライト、CA・CN・CL電子ピアノのシリーズ別査定ポイントを専用ページで詳しく解説しています。</p>
+            <Link href="/articles/kawai-piano-kaitori/" className="text-accent font-medium text-sm hover:underline">カワイピアノの買取相場ガイドを見る →</Link>
+          </div>
+
           <h2 id="tips">KAWAIピアノを高く売る5つのコツ</h2>
           <h3>コツ1: 複数業者に査定を依頼する</h3>
           <p>ヒカカク！で一括査定を行い、ピアノ専門の業者を含む複数社の査定額を比較しましょう。</p>
@@ -131,7 +137,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="kawai-kaitori"
-          relatedSlugs={["piano-kaitori", "grand-piano-kaitori", "denshi-piano-kaitori", "yamaha-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["kawai-piano-kaitori", "piano-kaitori", "grand-piano-kaitori", "denshi-piano-kaitori", "yamaha-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

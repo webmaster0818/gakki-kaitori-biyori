@@ -1,6 +1,6 @@
 {
   "updated": "2026-06-29",
-  "count": 20,
+  "count": 15,
   "models": [
     {
       "slug": "bach-stradivarius-kaitori",
@@ -93,15 +93,6 @@
       "change_2w": 1.6
     },
     {
-      "slug": "kawai-k300-kaitori",
-      "name": "KAWAI K-300",
-      "category": "ピアノ",
-      "median": 8320,
-      "sample_n": 228,
-      "change_1w": null,
-      "change_2w": null
-    },
-    {
       "slug": "marshall-jcm800-kaitori",
       "name": "Marshall JCM800",
       "category": "アンプ",
@@ -138,33 +129,6 @@
       "change_2w": 1.5
     },
     {
-      "slug": "steinway-b211-kaitori",
-      "name": "Steinway B-211",
-      "category": "ピアノ",
-      "median": 3443,
-      "sample_n": 238,
-      "change_1w": null,
-      "change_2w": null
-    },
-    {
-      "slug": "yamaha-u1-kaitori",
-      "name": "YAMAHA U1",
-      "category": "ピアノ",
-      "median": 20296,
-      "sample_n": 26,
-      "change_1w": null,
-      "change_2w": null
-    },
-    {
-      "slug": "yamaha-u3-kaitori",
-      "name": "YAMAHA U3",
-      "category": "ピアノ",
-      "median": 38666,
-      "sample_n": 16,
-      "change_1w": null,
-      "change_2w": null
-    },
-    {
       "slug": "yamaha-yas62-kaitori",
       "name": "YAMAHA YAS-62",
       "category": "管楽器",
@@ -172,15 +136,6 @@
       "sample_n": 286,
       "change_1w": -0.6,
       "change_2w": 0.0
-    },
-    {
-      "slug": "yamaha-yus5-kaitori",
-      "name": "YAMAHA YUS5",
-      "category": "ピアノ",
-      "median": 8500,
-      "sample_n": 230,
-      "change_1w": null,
-      "change_2w": null
     }
   ]
 }

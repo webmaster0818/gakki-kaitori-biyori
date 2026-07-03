@@ -4,10 +4,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/grand-piano-kaitori/' },
-  title: "【2026年最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
+  title: "【2026年7月最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
   description: "グランドピアノ（Grand Piano）の買取相場、メーカー別の査定額目安、状態別の評価、高く売る5つのコツ、おすすめ買取業者3社を徹底解説。ピアノの買取で損しないための完全ガイド。",
   openGraph: {
-    title: "【2026年最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
+    title: "【2026年7月最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
     description: "グランドピアノ（Grand Piano）の買取相場、メーカー別の査定額目安、状態別の評価、高く売る5つのコツ、おすすめ買取業者3社を徹底解説。ピアノの買取で損しないための完全ガイド。",
   },
 };
@@ -41,7 +41,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"\u30b0\u30e9\u30f3\u30c9\u30d4\u30a2\u30ce\u306f\u53e4\u304f\u3066\u3082\u8cb7\u53d6\u3057\u3066\u3082\u3089\u3048\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3001\u30b0\u30e9\u30f3\u30c9\u30d4\u30a2\u30ce\u306f\u4e2d\u53e4\u5e02\u5834\u3067\u3082\u9700\u8981\u304c\u3042\u308b\u305f\u3081\u3001\u30e1\u30fc\u30ab\u30fc\u30fb\u72b6\u614b\u30fb\u5e74\u5f0f\u306b\u3088\u3063\u3066\u306f10\u5e74\u4ee5\u4e0a\u524d\u306e\u30e2\u30c7\u30eb\u3067\u3082\u8cb7\u53d6\u53ef\u80fd\u3067\u3059\u3002\u7279\u306b\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u3068\u3057\u3066\u8a55\u4fa1\u3055\u308c\u308b\u500b\u4f53\u306f\u3001\u65b0\u54c1\u3088\u308a\u3082\u9ad8\u5024\u306b\u306a\u308b\u30b1\u30fc\u30b9\u304c\u3042\u308a\u307e\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u30b0\u30e9\u30f3\u30c9\u30d4\u30a2\u30ce\u3092\u9ad8\u304f\u58f2\u308b\u30bf\u30a4\u30df\u30f3\u30b0\u306f\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u65b0\u751f\u6d3b\u524d\uff081\u301c3\u6708\uff09\u3001\u6587\u5316\u796d\u30b7\u30fc\u30ba\u30f3\uff089\u301c10\u6708\uff09\u306f\u4e2d\u53e4\u9700\u8981\u304c\u9ad8\u307e\u308b\u6642\u671f\u3067\u3059\u3002\u307e\u305f\u3001\u30e1\u30fc\u30ab\u30fc\u304c\u65b0\u6a5f\u7a2e\u3092\u767a\u8868\u3059\u308b\u76f4\u524d\u306f\u65e7\u30e2\u30c7\u30eb\u306e\u76f8\u5834\u304c\u843d\u3061\u7740\u304f\u305f\u3081\u3001\u65e9\u3081\u306e\u58f2\u5374\u304c\u304a\u3059\u3059\u3081\u3067\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u30b0\u30e9\u30f3\u30c9\u30d4\u30a2\u30ce\u306e\u4ed8\u5c5e\u54c1\u304c\u306a\u3044\u5834\u5408\u3001\u8cb7\u53d6\u3067\u304d\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u672c\u4f53\u306e\u307f\u3067\u3082\u8cb7\u53d6\u306f\u53ef\u80fd\u3067\u3059\u304c\u3001\u30b1\u30fc\u30b9\u30fb\u4fdd\u8a3c\u66f8\u30fb\u53d6\u6271\u8aac\u660e\u66f8\u30fb\u8cfc\u5165\u6642\u306e\u9818\u53ce\u66f8\u306a\u3069\u304c\u63c3\u3063\u3066\u3044\u308b\u3068\u67fb\u5b9a\u984d\u304c10\u301c30%\u30a2\u30c3\u30d7\u3057\u307e\u3059\u3002\u53ef\u80fd\u306a\u9650\u308a\u4ed8\u5c5e\u54c1\u3092\u63c3\u3048\u3066\u51fa\u3057\u307e\u3057\u3087\u3046\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u30b0\u30e9\u30f3\u30c9\u30d4\u30a2\u30ce\u304c\u58ca\u308c\u3066\u3044\u3066\u3082\u8cb7\u53d6\u3067\u304d\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u7834\u640d\u306e\u7a0b\u5ea6\u306b\u3088\u308a\u307e\u3059\u3002\u52d5\u4f5c\u3059\u308b\u72b6\u614b\u3067\u3042\u308c\u3070\u8cb7\u53d6\u53ef\u80fd\u3001\u660e\u3089\u304b\u306a\u6545\u969c\u304c\u3042\u3063\u3066\u3082\u90e8\u54c1\u53d6\u308a\u76ee\u7684\u3067\u8cb7\u53d6\u3067\u304d\u308b\u696d\u8005\u3082\u3042\u308a\u307e\u3059\u3002\u307e\u305a\u306f\u7121\u6599\u67fb\u5b9a\u3067\u78ba\u8a8d\u3057\u307e\u3057\u3087\u3046\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u30102026\u5e74\u6700\u65b0\u3011\u30b0\u30e9\u30f3\u30c9\u30d4\u30a2\u30ce\u8cb7\u53d6\u76f8\u5834\u30ac\u30a4\u30c9\uff5c\u30e1\u30fc\u30ab\u30fc\u5225\u67fb\u5b9a\u984d\u30fb\u9ad8\u304f\u58f2\u308b\u30b3\u30c4\u30fb\u304a\u3059\u3059\u3081\u696d\u80053\u9078\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-05-17\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u30102026\u5e747\u6708\u6700\u65b0\u3011\u30b0\u30e9\u30f3\u30c9\u30d4\u30a2\u30ce\u8cb7\u53d6\u76f8\u5834\u30ac\u30a4\u30c9\uff5c\u30e1\u30fc\u30ab\u30fc\u5225\u67fb\u5b9a\u984d\u30fb\u9ad8\u304f\u58f2\u308b\u30b3\u30c4\u30fb\u304a\u3059\u3059\u3081\u696d\u80053\u9078\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"グランドピアノの買取相場と高く売る完全ガイド\", \"item\": \"https://gakkikaitori-biyori.com/articles/grand-piano-kaitori/\"}]}" }} />
     </>
   );
@@ -56,11 +56,11 @@ export default function Page() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">ピアノ</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年7月更新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">グランドピアノの買取相場と高く売る完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">グランドピアノ（Grand Piano）はホール用大型からリビング向けまでサイズ別。ヤマハ・カワイ・スタインウェイが三大ブランド。本記事では、メーカー別の買取相場、状態別の査定額、高く売る5つのコツ、おすすめ買取業者3社を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月4日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -138,6 +138,16 @@ export default function Page() {
 
         <CtaBox />
 
+        <h2 id="by-series">ブランド・モデル別のグランドピアノ買取ガイド</h2>
+        <p>お持ちのグランドピアノのブランド・モデルが決まっている場合は、専用ガイドで査定ポイントを詳しく解説しています。</p>
+        <div className="flex flex-wrap gap-2 my-4">
+          <Link href="/articles/kawai-piano-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">カワイピアノ買取</Link>
+          <Link href="/articles/kawai-rx2-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">カワイ RX-2</Link>
+          <Link href="/articles/yamaha-c3-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">ヤマハ C3</Link>
+          <Link href="/articles/steinway-b211-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">スタインウェイ B-211</Link>
+          <Link href="/articles/steinway-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">スタインウェイ買取</Link>
+        </div>
+
         <h2 id="faq">7. よくある質問</h2>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">グランドピアノは古くても買取してもらえますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">はい、グランドピアノは中古市場でも需要があるため、メーカー・状態・年式によっては10年以上前のモデルでも買取可能です。特にヴィンテージとして評価される個体は、新品よりも高値になるケースがあります。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">グランドピアノを高く売るタイミングは？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">新生活前（1〜3月）、文化祭シーズン（9〜10月）は中古需要が高まる時期です。また、メーカーが新機種を発表する直前は旧モデルの相場が落ち着くため、早めの売却がおすすめです。</p></details>
@@ -146,7 +156,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="grand-piano-kaitori"
-          relatedSlugs={["piano-kaitori", "denshi-piano-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "guitar-kaitori"]}
+          relatedSlugs={["kawai-piano-kaitori", "kawai-rx2-kaitori", "yamaha-c3-kaitori", "steinway-b211-kaitori", "piano-kaitori", "denshi-piano-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "guitar-kaitori"]}
         />
         </div>
       </article>

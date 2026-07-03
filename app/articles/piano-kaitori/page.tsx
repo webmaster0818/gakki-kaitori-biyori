@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】ピアノ買取おすすめ3社比較｜グランド・アップライト相場",
     datePublished: "2026-04-18",
-    dateModified: "2026-04-18",
+    dateModified: "2026-07-04",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -106,7 +106,7 @@ export default function PianoKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ピアノを売りたいけど、大きくて運べない、相場がわからない、どこに頼めばいいかわからない。そんな悩みを解決します。本記事では、ピアノ買取の人気3サービスを比較し、グランドピアノ・アップライトピアノ・電子ピアノそれぞれの買取相場から高く売るコツまで解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月4日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -361,6 +361,17 @@ export default function PianoKaitoriPage() {
 
           <CtaBox />
 
+          <h2 id="by-type">種類・ブランド別のピアノ買取ガイド</h2>
+          <p>ピアノの種類（グランド・電子）やブランド・モデルが決まっている場合は、専用ガイドで査定ポイントを詳しく解説しています。</p>
+          <div className="flex flex-wrap gap-2 my-4">
+            <Link href="/articles/grand-piano-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">グランドピアノ買取</Link>
+            <Link href="/articles/denshi-piano-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">電子ピアノ買取</Link>
+            <Link href="/articles/roland-denshi-piano-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">ローランド電子ピアノ買取</Link>
+            <Link href="/articles/kawai-piano-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">カワイピアノ買取</Link>
+            <Link href="/articles/kawai-rx2-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">カワイ RX-2</Link>
+            <Link href="/articles/yamaha-c3-kaitori/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">ヤマハ C3</Link>
+          </div>
+
           <h2 id="faq">ピアノ買取に関するよくある質問</h2>
 
           <div className="space-y-4 mt-6">
@@ -398,7 +409,7 @@ export default function PianoKaitoriPage() {
 
         <RelatedArticles
           currentSlug="piano-kaitori"
-          relatedSlugs={["grand-piano-kaitori", "denshi-piano-kaitori", "keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["roland-denshi-piano-kaitori", "kawai-piano-kaitori", "grand-piano-kaitori", "denshi-piano-kaitori", "keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

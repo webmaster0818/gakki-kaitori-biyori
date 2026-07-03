@@ -160,6 +160,12 @@ export default function RolandKaitoriPage() {
 
           <p>電子ピアノは年式が新しいほど買取価格が高くなる傾向があります。発売から5年以上経過したモデルは、音源技術の進歩もあり、買取価格が大きく下がることがあります。<strong>使わなくなったら早めに売却するのが高額買取のコツです。</strong></p>
 
+          <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
+            <p className="font-bold text-sm mb-1">ローランドの電子ピアノを売るなら専用ガイドへ</p>
+            <p className="text-sm text-warm-gray mb-2">LX・HP・RP・FPシリーズ別の査定ポイントと出張買取の流れを専用ページで詳しく解説しています。</p>
+            <Link href="/articles/roland-denshi-piano-kaitori/" className="text-accent font-medium text-sm hover:underline">ローランド電子ピアノの買取ガイドを見る →</Link>
+          </div>
+
           <h2 id="synth">Rolandシンセサイザーの買取相場</h2>
 
           <p>Rolandのシンセサイザーは、現行モデルからヴィンテージまで幅広い価格帯で取引されています。</p>
@@ -337,7 +343,7 @@ export default function RolandKaitoriPage() {
 
         <RelatedArticles
           currentSlug="roland-kaitori"
-          relatedSlugs={["denshi-piano-kaitori", "synthesizer-kaitori", "keyboard-kaitori", "drum-kaitori", "korg-kaitori", "yamaha-kaitori", "casio-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["roland-denshi-piano-kaitori", "denshi-piano-kaitori", "synthesizer-kaitori", "keyboard-kaitori", "drum-kaitori", "korg-kaitori", "yamaha-kaitori", "casio-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

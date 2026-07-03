@@ -35,6 +35,10 @@ for p in sorted(glob.glob(os.path.join(HIST_DIR, "*.json"))):
     h = [x for x in d.get("history", []) if isinstance(x.get("median_jpy"), int) and x["median_jpy"] > 0]
     if not slug or not h:
         continue
+    # 実勢を反映しないデータは除外（例: アコースティックピアノ＝ヤフオク流通が小物/部品中心で
+    # 中央値がジャンク化。fetch側の insufficient 判定を尊重）
+    if d.get("latest", {}).get("insufficient"):
+        continue
     median = h[-1]["median_jpy"]
     sample_n = h[-1].get("sample_n", 0)
     change_1w = change_2w = None

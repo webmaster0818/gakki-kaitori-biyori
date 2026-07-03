@@ -218,7 +218,7 @@ export default function Page() {
         </div>
         </div>
 
-        <RelatedArticles currentSlug="kawai-k300-kaitori" relatedSlugs={["piano-kaitori", "kawai-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
+        <RelatedArticles currentSlug="kawai-k300-kaitori" relatedSlugs={["kawai-piano-kaitori", "piano-kaitori", "kawai-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
       </article>
     </>
   );

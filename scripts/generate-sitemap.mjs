@@ -8,7 +8,8 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 const BASE = "https://gakkikaitori-biyori.com";
 const OUT = path.join(ROOT, "public", "sitemap.xml");
-const TODAY = new Date().toISOString().slice(0, 10);
+// ローカル（JST）基準の日付。toISOString()はUTCのため深夜〜朝は前日になる
+const TODAY = new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
 
 // Tier 1: 高優先度
 const TIER1_HUB = ["guitar-kaitori", "piano-kaitori", "drum-kaitori", "tokyo-gakki-kaitori"];

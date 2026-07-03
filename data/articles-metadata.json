@@ -4246,5 +4246,21 @@
     "badge": "愛知×ギター",
     "description": "愛知のギター買取おすすめ3社と主要モデルの週次実勢相場、高く売るコツを解説。",
     "category": "region"
+  },
+  {
+    "slug": "kawai-piano-kaitori",
+    "title": "カワイピアノ買取ガイド",
+    "shortTitle": "カワイピアノ買取",
+    "badge": "KAWAI×ピアノ",
+    "description": "カワイのグランド・アップライト・電子ピアノのシリーズ別査定ポイントとおすすめ買取3社を解説。",
+    "category": "brand"
+  },
+  {
+    "slug": "roland-denshi-piano-kaitori",
+    "title": "ローランド電子ピアノ買取ガイド",
+    "shortTitle": "ローランド電子ピアノ買取",
+    "badge": "Roland×電子ピアノ",
+    "description": "ローランドLX・HP・RP・FPシリーズの査定ポイントと高く売るコツ、おすすめ買取3社を解説。",
+    "category": "brand"
   }
 ]

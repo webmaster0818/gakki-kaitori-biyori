@@ -80,3 +80,11 @@ GSC診断(28d 6/3-7/1): クリック41(前月15→2.7倍)・表示2,698(2.2倍)�
 - ③osusumeに一次相場注入: `data/souba-ranking-gakki.json`をimport→比較表直下に「今週の高額買取相場ピックアップ」(median上位5+各モデル記事リンク+/souba-ranking/導線+50-70%目安・保証しない注記)。**週次cron再ビルドで自動更新**。dateModified/バッジ/更新日を7/2に整合
 - ④CF Web Analytics: cf-pages-tokenにRUM権限なし(Authentication error)→**MediaXAIにダッシュボードでのサイト追加+トークン共有を依頼中**(Discord報告済)
 - 方式Bデプロイ(.txt削除)・両push・本番確認(souba枠/注目ガイド/canonical)・**Indexing API 18/18**。効果1-2週GSC。次=P1(ギター買取×12都市)承認待ち
+
+### 2026-07-04 P1第1弾: ギター買取×12都市（MediaXAI「p1進めて」）✅本番反映済み
+- `scripts/gen-guitar-city.py`(冪等)で `guitar-kaitori-{nagoya,fukuoka,kobe,kyoto,sendai,chiba,osaka,hiroshima,tokyo,yokohama,sapporo,aichi}` 12ページ生成（GSC実クエリ都市のみ）
+- **新規`components/GuitarSpotPrices.tsx`**=souba-ranking-gakki.jsonからギター系5モデル+機材4種の週次中央値表（週次cron再ビルドで自動更新）。Martinはデータ無→表に載せずアコギガイドへリンク（捏造回避）
+- 意図分離: 汎用11ページ→専用へコールアウト＋relatedSlugs先頭、専用→汎用へ戻り導線、guitar-kaitori総合に都市チップ12。愛知は汎用無し→nagoya経由＋aichi⇄nagoya相互
+- 都市事情は事実のみ（出張対応/宅配全国共通/楽器店街の一般事実）・「相場は全国共通」明記
+- sitemap 526→538・metadata 519→531(region)・build EXIT0・方式B両push・本番Stratocaster実数描画確認・Indexing 12/12・sitemap再送信
+- 次=P1第2弾（ピアノ買取×主要都市・同ジェネレータ複製）＋ベース/アコギ/エレキヘッド強化。効果測定2-4週GSC

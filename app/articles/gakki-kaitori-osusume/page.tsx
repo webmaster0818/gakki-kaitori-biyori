@@ -164,6 +164,8 @@ export default function GakkiKaitoriOsusumePage() {
           </div>
           <p><Link href="/articles/#instrument" className="text-accent underline hover:text-accent-dark">すべての楽器種別ガイドを見る →</Link></p>
 
+          <p>ピアノは種類・ブランド別の専用ガイドも用意しています: <Link href="/articles/grand-piano-kaitori/">グランドピアノ</Link>・<Link href="/articles/denshi-piano-kaitori/">電子ピアノ</Link>・<Link href="/articles/roland-denshi-piano-kaitori/">ローランド電子ピアノ</Link>・<Link href="/articles/kawai-piano-kaitori/">カワイピアノ</Link></p>
+
           <h2 id="by-region">地域別 楽器買取ガイド</h2>
           <p>お住まいの地域の買取事情（持ち込みできる店舗の傾向・出張対応など）は地域別ガイドで解説しています。</p>
           <div className="flex flex-wrap gap-2 my-4">

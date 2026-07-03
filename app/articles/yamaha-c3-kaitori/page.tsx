@@ -149,7 +149,7 @@ export default function YamahaC3KaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="yamaha-c3-kaitori" relatedSlugs={["yamaha-u1-kaitori", "yamaha-u3-kaitori", "piano-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
+        <RelatedArticles currentSlug="yamaha-c3-kaitori" relatedSlugs={["grand-piano-kaitori", "yamaha-u1-kaitori", "yamaha-u3-kaitori", "piano-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
       </article>
     </>
   );
