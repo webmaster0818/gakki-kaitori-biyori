@@ -401,6 +401,23 @@ export default function GuitarKaitoriPage() {
           <CtaBox />
 
           {/* Section 5: FAQ */}
+          <h2>都市別のギター買取ガイド</h2>
+          <p>お住まいの都市でのギターの売り方（出張・店頭・宅配）とおすすめ3社は、都市別の専用ガイドで解説しています。主要モデルの週次相場表つきです。</p>
+          <div className="flex flex-wrap gap-2 my-4">
+            <Link href="/articles/guitar-kaitori-nagoya/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">名古屋</Link>
+            <Link href="/articles/guitar-kaitori-fukuoka/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">福岡</Link>
+            <Link href="/articles/guitar-kaitori-kobe/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">神戸</Link>
+            <Link href="/articles/guitar-kaitori-kyoto/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">京都</Link>
+            <Link href="/articles/guitar-kaitori-sendai/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">仙台</Link>
+            <Link href="/articles/guitar-kaitori-chiba/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">千葉</Link>
+            <Link href="/articles/guitar-kaitori-osaka/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">大阪</Link>
+            <Link href="/articles/guitar-kaitori-hiroshima/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">広島</Link>
+            <Link href="/articles/guitar-kaitori-tokyo/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">東京</Link>
+            <Link href="/articles/guitar-kaitori-yokohama/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">横浜</Link>
+            <Link href="/articles/guitar-kaitori-sapporo/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">札幌</Link>
+            <Link href="/articles/guitar-kaitori-aichi/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">愛知</Link>
+          </div>
+
           <h2 id="faq">ギター買取に関するよくある質問</h2>
 
           <div className="space-y-4 mt-6">

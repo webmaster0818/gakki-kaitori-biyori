@@ -276,6 +276,12 @@ export default function SendaiGakkiKaitoriPage() {
 
           <CtaBox />
 
+          <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
+            <p className="font-bold text-sm mb-1">ギターを売るなら専用ガイドへ</p>
+            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>
+            <Link href="/articles/guitar-kaitori-sendai/" className="text-accent font-medium text-sm hover:underline">仙台のギター買取おすすめ3社と相場を見る →</Link>
+          </div>
+
           <h2 id="faq">仙台の楽器買取に関するよくある質問</h2>
 
           <div className="space-y-4 mt-6">
@@ -343,7 +349,7 @@ export default function SendaiGakkiKaitoriPage() {
 
         <RelatedArticles
           currentSlug="sendai-gakki-kaitori"
-          relatedSlugs={["morioka-gakki-kaitori", "yamagata-gakki-kaitori", "fukushima-gakki-kaitori", "tokyo-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["guitar-kaitori-sendai", "morioka-gakki-kaitori", "yamagata-gakki-kaitori", "fukushima-gakki-kaitori", "tokyo-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

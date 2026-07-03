@@ -272,6 +272,12 @@ export default function NagoyaGakkiKaitoriPage() {
 
           <CtaBox />
 
+          <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
+            <p className="font-bold text-sm mb-1">ギターを売るなら専用ガイドへ</p>
+            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>
+            <Link href="/articles/guitar-kaitori-nagoya/" className="text-accent font-medium text-sm hover:underline">名古屋のギター買取おすすめ3社と相場を見る →</Link>
+          </div>
+
           <h2 id="faq">名古屋の楽器買取に関するよくある質問</h2>
 
           <div className="space-y-4 mt-6">
@@ -339,7 +345,7 @@ export default function NagoyaGakkiKaitoriPage() {
 
         <RelatedArticles
           currentSlug="nagoya-gakki-kaitori"
-          relatedSlugs={["gifu-gakki-kaitori", "hamamatsu-gakki-kaitori", "shizuoka-gakki-kaitori", "osaka-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["guitar-kaitori-aichi", "guitar-kaitori-nagoya", "gifu-gakki-kaitori", "hamamatsu-gakki-kaitori", "shizuoka-gakki-kaitori", "osaka-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

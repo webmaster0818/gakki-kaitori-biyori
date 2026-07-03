@@ -73,3 +73,10 @@ GSC診断(28d 6/3-7/1): クリック41(前月15→2.7倍)・表示2,698(2.2倍)�
 - 技術: **canonical全ページ欠落(pilatesと同根)**・308リダイレクトはあり。計測ゼロ(GA4なし、送客クリック測定不能=6/20から未決)
 
 **戦略4本柱(Discord報告済)**: P0=canonical一括+機会16ページへ内部リンク集中+osusumeに一次相場注入+無料計測導入(CF Web Analytics提案) / P1=ギター買取×12都市→ピアノ買取×都市レイヤー新設(BrandSpotPrices流用・実クエリある都市のみ・最大上振れ) / P2=週次相場データの被リンク営業(本丸・費用ゼロ) / P3=面拡大凍結→新規167ページの評価測定2-4週。KPI=8月末150クリック/10月末500。
+
+### 2026-07-02 P0実行（MediaXAI「p0進めて」）
+- ①canonical: `scripts/add-canonical-202607.py`(pilates版流用)で503ページ＋homepage(サーバーC・直接metadata追加)=out 526/528にcanonical。layoutにmetadataBase既存
+- ②内部リンク: app/page.tsxのFAQ手前に「今週の注目買取ガイド」チップ枠(機会ページ10リンク=fukuoka/shinjuku/ibanez/martin/pearl/kawai-rx2/rickenbacker-330/kawaguchi/mercari-vs-gyosha/souba-ranking)。【2026年6月最新】→7月バンプ8ページ
+- ③osusumeに一次相場注入: `data/souba-ranking-gakki.json`をimport→比較表直下に「今週の高額買取相場ピックアップ」(median上位5+各モデル記事リンク+/souba-ranking/導線+50-70%目安・保証しない注記)。**週次cron再ビルドで自動更新**。dateModified/バッジ/更新日を7/2に整合
+- ④CF Web Analytics: cf-pages-tokenにRUM権限なし(Authentication error)→**MediaXAIにダッシュボードでのサイト追加+トークン共有を依頼中**(Discord報告済)
+- 方式Bデプロイ(.txt削除)・両push・本番確認(souba枠/注目ガイド/canonical)・**Indexing API 18/18**。効果1-2週GSC。次=P1(ギター買取×12都市)承認待ち
