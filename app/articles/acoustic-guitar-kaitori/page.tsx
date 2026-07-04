@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ModelHubChips from "@/components/ModelHubChips";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -110,6 +111,7 @@ export default function AcousticGuitarKaitoriPage() {
 
           <CtaBox />
 
+        <ModelHubChips heading={"アコースティックギターの人気ブランド・モデル別 買取相場ページ"} intro={"Martin・Taylorなどブランド/モデルが決まっている方は、専用ページで相場と高く売るコツを確認できます。"} items={[{ slug: "martin-d28-kaitori", label: "Martin D-28" }, { slug: "martin-kaitori", label: "Martin（マーチン）" }, { slug: "taylor-814ce-kaitori", label: "Taylor 814ce" }, { slug: "taylor-kaitori", label: "Taylor（テイラー）" }, { slug: "takamine-kaitori", label: "Takamine（タカミネ）" }, { slug: "gibson-j45-kaitori", label: "Gibson J-45" }]} />
           <h2 id="faq">アコギ買取に関するよくある質問</h2>
           <div className="space-y-4 mt-6">
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">

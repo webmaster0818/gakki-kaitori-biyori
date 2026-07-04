@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ModelHubChips from "@/components/ModelHubChips";
+import GuitarSpotPrices from "@/components/GuitarSpotPrices";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -418,6 +420,8 @@ export default function GuitarKaitoriPage() {
             <Link href="/articles/guitar-kaitori-aichi/" className="bg-cream border border-warm-border rounded-full px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors">愛知</Link>
           </div>
 
+        <GuitarSpotPrices />
+        <ModelHubChips heading={"エレキギターの人気モデル別 買取相場ページ"} intro={"モデルが決まっている方は、各モデルの買取相場・高く売るコツをまとめた専用ページもご覧ください。"} items={[{ slug: "fender-stratocaster-kaitori", label: "Fender ストラトキャスター" }, { slug: "fender-telecaster-kaitori", label: "Fender テレキャスター" }, { slug: "gibson-lespaul-standard-kaitori", label: "Gibson レスポール スタンダード" }, { slug: "gibson-lespaul-custom-kaitori", label: "Gibson レスポール カスタム" }, { slug: "gibson-sg-kaitori", label: "Gibson SG" }, { slug: "gibson-es335-kaitori", label: "Gibson ES-335" }, { slug: "ibanez-rg-kaitori", label: "Ibanez RG" }, { slug: "jackson-kaitori", label: "Jackson" }]} />
           <h2 id="faq">ギター買取に関するよくある質問</h2>
 
           <div className="space-y-4 mt-6">

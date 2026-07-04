@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ModelHubChips from "@/components/ModelHubChips";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -391,6 +392,7 @@ export default function BassKaitoriPage() {
           <CtaBox />
 
           {/* Section 5: FAQ */}
+        <ModelHubChips heading={"ベースの人気モデル別 買取相場ページ"} intro={"モデルが決まっている方は、各モデルの買取相場・高く売るコツをまとめた専用ページもご覧ください。"} items={[{ slug: "fender-jazzbass-kaitori", label: "Fender ジャズベース" }, { slug: "fender-precisionbass-kaitori", label: "Fender プレシジョンベース" }, { slug: "musicman-stingray-kaitori", label: "Musicman StingRay" }, { slug: "rickenbacker-330-kaitori", label: "Rickenbacker 330" }, { slug: "rickenbacker-kaitori", label: "Rickenbacker" }, { slug: "contrabass-kaitori", label: "コントラバス" }]} />
           <h2 id="faq">ベース買取に関するよくある質問</h2>
 
           <div className="space-y-4 mt-6">
