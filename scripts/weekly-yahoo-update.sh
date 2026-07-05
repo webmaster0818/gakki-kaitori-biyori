@@ -88,6 +88,7 @@ set +o pipefail
 
 echo "[$(date '+%H:%M:%S')] 📊 相場ランキング再生成（souba-ranking-gakki.json）"
 /opt/homebrew/bin/python3 scripts/generate-souba-ranking-gakki.py 2>&1 | tail -2
+/opt/homebrew/bin/python3 scripts/gen-gakki-widget.py 2>&1 | tail -1
 echo "[$(date '+%H:%M:%S')] 🗺️  sitemap再生成"
 node scripts/generate-sitemap.mjs 2>&1 | tail -1
 

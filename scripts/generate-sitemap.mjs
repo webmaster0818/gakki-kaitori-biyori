@@ -30,6 +30,7 @@ function changefreqFor(priority) {
 }
 
 const STATIC_PAGES = [
+  { path: "/widget/", priority: "0.5", changefreq: "weekly" },
   { path: "/", priority: "1.0", changefreq: "weekly" },
   { path: "/articles/", priority: "0.9", changefreq: "weekly" },
   { path: "/souba-ranking/", priority: "0.8", changefreq: "weekly" },
