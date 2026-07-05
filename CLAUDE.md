@@ -88,3 +88,11 @@ GSC診断(28d 6/3-7/1): クリック41(前月15→2.7倍)・表示2,698(2.2倍)�
 - 都市事情は事実のみ（出張対応/宅配全国共通/楽器店街の一般事実）・「相場は全国共通」明記
 - sitemap 526→538・metadata 519→531(region)・build EXIT0・方式B両push・本番Stratocaster実数描画確認・Indexing 12/12・sitemap再送信
 - 次=P1第2弾（ピアノ買取×主要都市・同ジェネレータ複製）＋ベース/アコギ/エレキヘッド強化。効果測定2-4週GSC
+
+### 2026-07-04 P1第2弾: ピアノ種別/ブランド（MediaXAI「第二弾行こう」）✅本番反映済み
+- **軸修正**: ピアノ×都市は実クエリほぼ無し(GSC90日実測・1imp散発のみ)→「実クエリなき都市は作らない」原則で都市展開中止、**種別/ブランド軸**に変更してMediaXAI報告済み
+- `scripts/gen-piano-pages.py`(冪等)。新設2=kawai-piano-kaitori/roland-denshi-piano-kaitori。grand-piano/denshi-pianoは**既存本格ページあり→新設せず鮮度+ハブ化強化**(重複回避)。内部リンク=モデル4ページ⇄ハブ相互・piano-kaitoriにチップ6・osusumeから導線
+- **ピアノに相場金額は不掲載**: yahoo-mediansで全ピアノinsufficient:true(ヤフオク流通=小物/部品でジャンク中央値。Steinway¥3,443等)→「型番・製造番号を控えて無料査定へ」に統一
+- 🚨**generate-souba-ranking-gakki.pyにinsufficient除外を実装**(ジャンク中央値がsouba-ranking/kawai/steinwayブランドページに本番表示されていた既存バグを根治。20→15モデル・週次cronで維持)。ModelSpotPriceCardは元からinsufficient対応済
+- generate-sitemap.mjsのUTC日付バグをJST化。sitemap 538→540・build EXIT0・方式B両push・本番確認(ジャンク値消滅)・Indexing 5/5
+- 次候補=ベース/アコギ/エレキヘッド強化 or P2被リンク営業
