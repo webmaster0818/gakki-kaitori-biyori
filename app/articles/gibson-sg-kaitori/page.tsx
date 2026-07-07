@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ギブソン SGの買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ギブソン SGはダブルカッタウェイの薄型マホガニーボディに、軽量さと鋭いアタックが魅力のエレキギターです。SG Standardをはじめ多くのバリエーションがあり、中古市場でも根強い人気を持ちます。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <ModelSpotPriceCard slug="gibson-sg-kaitori" modelName="Gibson SG" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">現行USA製 SG Standard</td><td className="px-4 py-3 text-gold-dark font-bold">9万〜18万円前後</td><td className="px-4 py-3 text-warm-gray">年式・カラー・状態で変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">SG Special／Tribute等</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円前後</td><td className="px-4 py-3 text-warm-gray">仕様により幅がある</td></tr><tr className="bg-white"><td className="px-4 py-3">ヴィンテージ／上位モデル</td><td className="px-4 py-3 text-gold-dark font-bold">数十万円〜</td><td className="px-4 py-3 text-warm-gray">年代・希少性で大きく変動</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年5月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">ギブソン SGの買取価格を今すぐ無料でチェック</p>

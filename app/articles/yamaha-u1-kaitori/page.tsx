@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヤマハ U1の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ヤマハ U1は高さ121cmのスタンダードなアップライトピアノで、ヤマハのアップライトの中で最も流通している定番モデルです。家庭用として扱いやすいサイズと安定した品質で、中古買取でも需要が高い1台です。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <ModelSpotPriceCard slug="yamaha-u1-kaitori" modelName="YAMAHA U1" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">製造後10年以内（U1A／U10Aなど）</td><td className="px-4 py-3 text-gold-dark font-bold">7万〜18万円前後</td><td className="px-4 py-3 text-warm-gray">現行世代に近く高値傾向</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">1980〜90年代（U1H／U1Mなど）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜10万円前後</td><td className="px-4 py-3 text-warm-gray">最も流通する世代</td></tr><tr className="bg-white"><td className="px-4 py-3">1970年代以前の旧モデル</td><td className="px-4 py-3 text-gold-dark font-bold">1.5万〜5万円前後</td><td className="px-4 py-3 text-warm-gray">状態と外装で変動</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年5月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">ヤマハ U1の買取価格を今すぐ無料でチェック</p>

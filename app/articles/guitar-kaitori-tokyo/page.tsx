@@ -69,7 +69,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             東京（東京都）でギターの買取を検討している方へ。本記事では、東京で利用できるギター買取おすすめ3社の比較、Gibson・Fenderなど主要モデルの週次実勢相場（ヤフオク!落札データを毎週独自集計）、店頭・出張・宅配それぞれの売り方、高く売るコツまで解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月4日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

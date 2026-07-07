@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>R-13 クラリネット</td><td>180,000〜350,000円</td></tr><tr><td>Tosca / Festival クラリネット</td><td>300,000〜600,000円</td></tr><tr><td>E-11 / E-12F（ABS樹脂）</td><td>30,000〜80,000円</td></tr><tr><td>Tradition クラリネット</td><td>200,000〜400,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年5月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

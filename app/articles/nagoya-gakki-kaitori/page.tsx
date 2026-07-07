@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagoya-gakki-kaitori/' },
-  title: "名古屋の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年6月】",
+  title: "名古屋の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年7月】",
   description:
     "名古屋で楽器を売るならどこがいい？大須・栄・名駅エリアの特徴、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",
   openGraph: {
-    title: "名古屋の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年6月】",
+    title: "名古屋の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年7月】",
     description: "名古屋で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説。",
   },
 };
@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年7月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-04-26",
+    dateModified: "2026-07-07",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -106,7 +106,7 @@ export default function NagoyaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             名古屋で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、名古屋エリア対応の楽器買取おすすめ3社を徹底比較。大須・栄・名駅の各エリア特徴から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、名古屋ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月11日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

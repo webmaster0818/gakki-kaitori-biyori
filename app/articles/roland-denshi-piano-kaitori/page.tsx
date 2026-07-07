@@ -68,7 +68,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ローランド（Roland）の電子ピアノの買取を検討している方へ。本記事では、LX・HP・RP・FPシリーズ別の査定ポイント、査定額をほぼ決める型番・製造年の確認方法、据置型ならではの分解搬出と出張買取の流れ、おすすめ買取3社を解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月4日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

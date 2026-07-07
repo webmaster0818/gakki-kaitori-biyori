@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 東京おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-18",
-    dateModified: "2026-04-18",
+    dateModified: "2026-07-07",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -106,7 +106,7 @@ export default function TokyoGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             東京で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、東京エリア対応の楽器買取おすすめ3社を徹底比較。出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、東京の楽器買取事情、高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

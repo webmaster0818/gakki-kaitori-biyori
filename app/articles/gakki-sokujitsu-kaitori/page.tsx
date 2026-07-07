@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "大型楽器も即日売れますか？", acceptedAnswer: { "@type": "Answer", text: "出張買取で当日対応の業者なら可能です。事前に搬出経路を伝えましょう。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を即日買取・現金化する方法｜当日売る手順と注意点", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を即日買取・現金化する方法｜当日売る手順と注意点", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function GakkiSokujitsuKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器を即日買取・現金化する方法｜当日売る手順と注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">「今日中に楽器を現金化したい」という方へ。店頭買取・出張買取で即日現金化する方法、当日の流れ、必要な持ち物、スムーズに進めるコツを解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shinjuku-gakki-kaitori/' },
-  title: "新宿の楽器買取｜持ち込み・専門店・宅配の選び方と相場・おすすめ業者【2026年6月】",
+  title: "新宿の楽器買取｜持ち込み・専門店・宅配の選び方と相場・おすすめ業者【2026年7月】",
   description:
     "新宿で楽器を売るならどこがいい？出張・店頭・宅配の特徴と買取相場の目安、新宿・高田馬場・中野エリアの事情、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",
   openGraph: {
-    title: "新宿の楽器買取｜持ち込み・専門店・宅配の選び方と相場・おすすめ業者【2026年6月】",
+    title: "新宿の楽器買取｜持ち込み・専門店・宅配の選び方と相場・おすすめ業者【2026年7月】",
     description: "新宿で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説。",
   },
 };
@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 新宿おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-04-26",
+    dateModified: "2026-07-07",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -106,7 +106,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             新宿で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、新宿エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、新宿・高田馬場・中野など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月26日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

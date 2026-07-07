@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "トレモロやブリッジの不調があっても買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所で、軽度なら大きな減額にはなりにくいです。状態を正直に伝えましょう。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社（ヒカカク！・ティファナ・ウリエル）は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フェンダー ジャズマスター買取相場｜年代・製造国別の価値と高く売るコツ", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フェンダー ジャズマスター買取相場｜年代・製造国別の価値と高く売るコツ", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -68,7 +68,7 @@ export default function FenderJazzmasterKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】フェンダー ジャズマスター買取相場｜年代・製造国別の価値と高く売るコツ</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Fender Jazzmaster（ジャズマスター）を売りたい方へ。1958年登場のオフセットボディで、オルタナ／インディー系で再評価された名機です。本記事ではUSA・日本製・メキシコ製といった製造国別の価値、ヴィンテージ個体の評価、フローティングトレモロやバーサクシステムなど固有パーツの状態が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

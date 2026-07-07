@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヤマハ YUS5の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ヤマハ YUS5は高さ131cmのアップライト上位ラインYUSシリーズの最上位モデルです。グランドピアノに迫る表現力を狙って設計され、中古市場でも高い人気と買取価格を保っています。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <ModelSpotPriceCard slug="yamaha-yus5-kaitori" modelName="YAMAHA YUS5" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">製造後5年以内（美品）</td><td className="px-4 py-3 text-gold-dark font-bold">20万〜45万円前後</td><td className="px-4 py-3 text-warm-gray">現行上位機。高額買取が期待できる</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">製造後6〜15年</td><td className="px-4 py-3 text-gold-dark font-bold">12万〜30万円前後</td><td className="px-4 py-3 text-warm-gray">状態良好なら高値を維持</td></tr><tr className="bg-white"><td className="px-4 py-3">旧YUS世代（YUSなど）</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜20万円前後</td><td className="px-4 py-3 text-warm-gray">世代・状態により変動</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年5月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">ヤマハ YUS5の買取価格を今すぐ無料でチェック</p>

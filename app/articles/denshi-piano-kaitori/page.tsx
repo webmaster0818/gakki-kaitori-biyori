@@ -67,7 +67,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年7月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
     datePublished: "2026-04-18",
-    dateModified: "2026-07-04",
+    dateModified: "2026-07-07",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -97,7 +97,7 @@ export default function DenshiPianoKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             使わなくなった電子ピアノ、そのまま眠らせていませんか？電子ピアノは技術の進化が早く、年数が経つほど価値が下がります。本記事では、YAMAHA・Roland・KAWAIの3大メーカー別に買取相場を解説し、年式による価格差や高く売るためのポイントをお伝えします。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月4日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

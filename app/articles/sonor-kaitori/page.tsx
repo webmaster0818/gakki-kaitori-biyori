@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>SQ2 / SQ1（フラッグシップ）</td><td>300,000〜800,000円</td></tr><tr><td>AQ2 / AQ1</td><td>100,000〜300,000円</td></tr><tr><td>Force シリーズ</td><td>60,000〜180,000円</td></tr><tr><td>Vintage（HLD590等）</td><td>150,000〜500,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年5月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

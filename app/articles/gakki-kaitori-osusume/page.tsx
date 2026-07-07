@@ -49,7 +49,7 @@ function FaqSchema() {
     { "@type": "Question", name: "出張買取と店頭買取はどちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "買取方式そのものよりも「楽器の専門性がある業者かどうか」が査定額を左右します。どの方式でも、楽器専門の査定士がいる業者を選び、可能であれば複数社を比較するのが高価買取への近道です。" } },
     { "@type": "Question", name: "楽器の買取相場はどこで確認できますか？", acceptedAnswer: { "@type": "Answer", text: "当サイトではギター・管楽器・ピアノ・ドラムなど楽器種別ごと、Fender・Gibson・YAMAHAなどブランドごとに買取のポイントと相場の目安を解説しています。ただし実際の買取額は型番・年式・状態で大きく変動するため、正確な金額は無料査定での確認をおすすめします。" } },
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年7月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方", datePublished: "2026-06-11", dateModified: "2026-07-02", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年7月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方", datePublished: "2026-06-11", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -95,7 +95,7 @@ export default function GakkiKaitoriOsusumePage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年7月最新】楽器買取おすすめ業者3社を徹底比較｜失敗しない選び方</h1>
           <p className="text-warm-gray text-sm leading-relaxed">「楽器を売りたいけど、どこに頼めばいいかわからない」という方へ。本記事では、楽器買取で実績のある3つのサービス（ヒカカク！・ウリエル・ティファナ）を買取方式・手数料・得意分野で比較し、あなたの状況に合った業者の選び方を解説します。あわせて、ギター・管楽器・ピアノなど楽器種別ごとの売り方ガイド、査定額を上げる準備のコツもまとめました。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月2日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">

@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>Black Beauty（スネア）</td><td>100,000〜300,000円</td></tr><tr><td>Supraphonic LM400 ヴィンテージ</td><td>60,000〜200,000円</td></tr><tr><td>Classic Maple / Birch</td><td>150,000〜400,000円</td></tr><tr><td>Acrolite / Atlas</td><td>40,000〜100,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年5月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

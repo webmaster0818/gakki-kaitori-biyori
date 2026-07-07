@@ -5,11 +5,11 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/pearl-kaitori/' },
-  title: "【2026年6月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
+  title: "【2026年7月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
   description:
     "Pearl（パール）のドラムを売るならどこがいい？Pearl製ドラムセット・スネアドラム・シンバルスタンドの買取相場とおすすめ3社を徹底比較。Masterworks・Reference・Exportなどシリーズ別の相場、高く売るコツまで解説。",
   openGraph: {
-    title: "【2026年6月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
+    title: "【2026年7月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
     description: "Pearl製ドラムの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
   },
 };
@@ -66,9 +66,9 @@ function FaqSchema() {
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【2026年6月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
+    headline: "【2026年7月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
     datePublished: "2026-04-26",
-    dateModified: "2026-06-22",
+    dateModified: "2026-07-07",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -76,7 +76,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場と高く売るコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/pearl-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年7月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場と高く売るコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/pearl-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -93,12 +93,12 @@ export default function PearlKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年6月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場と高く売るコツ
+            【2026年7月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場と高く売るコツ
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             Pearl（パール）のドラムを売りたい方へ。本記事では、Pearl製ドラムセット・スネアドラム・ハードウェアの買取に強い3社を徹底比較し、シリーズ別の買取相場や高く売るコツを詳しく解説します。Pearlは1946年創業の日本を代表するドラムメーカーで、中古市場でも安定した人気があります。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月26日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

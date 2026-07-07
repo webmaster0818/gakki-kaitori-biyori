@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "フルアコのボディ割れは減額になりますか？", acceptedAnswer: { "@type": "Answer", text: "割れ・剥がれは減額要因です。ただし人気機種のため、状態を正直に伝えれば値はつきます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】グレッチ 6120買取相場｜年代・仕様別の価値とフルアコの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】グレッチ 6120買取相場｜年代・仕様別の価値とフルアコの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -68,7 +68,7 @@ export default function Gretsch6120KaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】グレッチ 6120買取相場｜年代・仕様別の価値とフルアコの査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Gretsch 6120（6120）を売りたい方へ。Chet Atkinsモデルに端を発するオレンジのフルアコで、ロカビリーやカントリー、ロックで愛される名機です。本記事ではUSA製と日本製（FUJIGEN期）の違い、ヴィンテージの評価、Filter'Tronピックアップやビグスビーの状態が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

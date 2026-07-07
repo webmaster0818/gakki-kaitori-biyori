@@ -68,7 +68,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             カワイ（KAWAI）のピアノの買取を検討している方へ。本記事では、グランドピアノ（RX・GX・Shigeru Kawai）・アップライトピアノ（Kシリーズ・BL/KUシリーズ）・電子ピアノ（CA・CN・CL・ES）のシリーズ別査定ポイント、査定の鍵になるモデル名と製造番号の確認方法、重量物のピアノで主流となる出張買取の流れ、おすすめ買取3社を解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月4日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

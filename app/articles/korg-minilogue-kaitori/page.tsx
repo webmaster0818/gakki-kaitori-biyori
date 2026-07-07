@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "無印とxdで評価は違いますか？", acceptedAnswer: { "@type": "Answer", text: "xdはエフェクト等を強化した上位機で、一般に評価が高くなります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】コルグ ミニローグ買取相場｜アナログシンセの価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】コルグ ミニローグ買取相場｜アナログシンセの価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -68,7 +68,7 @@ export default function KorgMinilogueKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】コルグ ミニローグ買取相場｜アナログシンセの価値と査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">KORG minilogue（コルグ ミニローグ）を売りたい方へ。手頃な価格と本格的なアナログサウンドで人気のポリフォニックシンセです。本記事では無印／minilogue xd等の仕様差、状態（鍵盤・ツマミ・端子）が査定に与える影響、高く売るコツを解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "改造した楽器でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "可能ですが、外した純正パーツがあれば一緒に出すと有利です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の付属品で査定額はどう変わる？｜ケース・保証書・純正パーツ", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の付属品で査定額はどう変わる？｜ケース・保証書・純正パーツ", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function GakkiFuzokuhinKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器の付属品で査定額はどう変わる？｜ケース・保証書・純正パーツ</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器を売る前に知っておきたい付属品の重要性を解説。純正ケース・保証書・取扱説明書・純正パーツの有無で査定額がどう変わるか、付属品がなくても高く売る方法を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

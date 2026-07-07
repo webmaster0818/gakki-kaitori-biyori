@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>Star Custom（最高峰）</td><td>300,000〜800,000円</td></tr><tr><td>Starclassic シリーズ</td><td>150,000〜400,000円</td></tr><tr><td>Superstar / Imperialstar</td><td>50,000〜150,000円</td></tr><tr><td>Iron Cobra（ペダル）</td><td>10,000〜40,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年5月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "古いウクレレでも価値がありますか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージMartinなど、古くても希少価値の高い個体があります。状態とブランドで判断されます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ウクレレ買取おすすめ3社比較｜ブランド別の相場と価値", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ウクレレ買取おすすめ3社比較｜ブランド別の相場と価値", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function UkuleleKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】ウクレレ買取おすすめ3社比較｜ブランド別の相場と価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ウクレレを売りたい方へ。KAMAKA・Martin・KoAloha などハワイ製高級ブランドから国産・量産品まで、ブランド別の価値、コアウッドのグレード、状態による査定差、高く売るコツを解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

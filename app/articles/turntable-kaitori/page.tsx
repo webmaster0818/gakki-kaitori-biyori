@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "カートリッジは査定対象ですか？", acceptedAnswer: { "@type": "Answer", text: "はい。SHURE等の人気カートリッジは別途評価されます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ターンテーブル買取おすすめ3社比較｜Technics SL-1200の相場", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ターンテーブル買取おすすめ3社比較｜Technics SL-1200の相場", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function TurntableKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】ターンテーブル買取おすすめ3社比較｜Technics SL-1200の相場</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ターンテーブルを売りたい方へ。Technics SL-1200シリーズを中心に、Pioneer DJ・Vestaxなどメーカー別の価値、DJ用途での需要、状態による査定差を解説します。SL-1200は中古市場で非常に人気の高い定番機です。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

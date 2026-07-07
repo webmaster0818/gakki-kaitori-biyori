@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">バック ストラディバリの買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">バック（Bach）ストラディバリ（Stradivarius）は、プロ用トランペットの世界的スタンダードとして君臨する名器です。180ML37をはじめ多彩な仕様があり、中古買取でも高い人気と安定した需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年5月28日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <ModelSpotPriceCard slug="bach-stradivarius-kaitori" modelName="Bach Stradivarius" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">180ML37（定番）・美品</td><td className="px-4 py-3 text-gold-dark font-bold">12万〜25万円前後</td><td className="px-4 py-3 text-warm-gray">仕様・年式・状態で変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">180ML72／LR等 仕様違い</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜25万円前後</td><td className="px-4 py-3 text-warm-gray">ベル・ボアの仕様で変動</td></tr><tr className="bg-white"><td className="px-4 py-3">旧ヴィンテージ（Mt Vernon等）</td><td className="px-4 py-3 text-gold-dark font-bold">数十万円〜</td><td className="px-4 py-3 text-warm-gray">希少年代は高額</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年5月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">バック ストラディバリの買取価格を今すぐ無料でチェック</p>

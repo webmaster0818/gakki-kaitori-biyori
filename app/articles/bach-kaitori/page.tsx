@@ -5,9 +5,9 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bach-kaitori/' },
-  title: "【2026年6月 週次相場更新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ",
+  title: "【2026年7月 週次相場更新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
-  openGraph: { title: "【2026年6月 週次相場更新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
+  openGraph: { title: "【2026年7月 週次相場更新】Bach買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Bach（バック）のトランペット、トロンボーン、フリューゲルホルン買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
 };
 
 function Schema() {
@@ -53,7 +53,7 @@ export default function Page() {
             <tbody><tr><td>Stradivarius トランペット 180ML/72/37</td><td>200,000〜500,000円</td></tr><tr><td>Stradivarius トロンボーン 42B/36B</td><td>150,000〜400,000円</td></tr><tr><td>Mercedes II トロンボーン</td><td>70,000〜150,000円</td></tr><tr><td>TR-200 / TR-300（スチューデント）</td><td>30,000〜80,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年5月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

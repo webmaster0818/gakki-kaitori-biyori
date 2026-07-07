@@ -30,7 +30,7 @@ function FaqSchema() {
       { "@type": "Question", name: "どのブランドが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "Martin・Taylor・Gibson・Collings などの海外高級ブランド、国産ではYAMAHA上位機種・Takamine・Headway などが安定した需要があります。" } },
       { "@type": "Question", name: "買取に費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "本記事掲載の3社（ヒカカク！・ティファナ・ウリエル）は査定料・出張料・送料・キャンセル料すべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】アコースティックギター買取おすすめ3社比較｜相場・ブランド別の価値", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】アコースティックギター買取おすすめ3社比較｜相場・ブランド別の価値", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -70,7 +70,7 @@ export default function AcousticGuitarKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】アコースティックギター買取おすすめ3社比較｜相場・ブランド別の価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">アコースティックギター（アコギ）を売りたい方へ。本記事ではアコギ買取の相場感、Martin・Taylor・Gibson・YAMAHA・Takamineといったブランド別の価値の違い、状態やトップ材による査定差、そして高く売るための業者選びを解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

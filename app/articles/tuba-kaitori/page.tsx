@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "ロータリー式は高いですか？", acceptedAnswer: { "@type": "Answer", text: "プロ用ロータリー機は高評価です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】チューバ買取おすすめ3社比較｜相場とメーカー別の価値", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】チューバ買取おすすめ3社比較｜相場とメーカー別の価値", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function TubaKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】チューバ買取おすすめ3社比較｜相場とメーカー別の価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">チューバを売りたい方へ。YAMAHA・Miraphone・B&S などメーカー別の価値、B♭/C/E♭/F管の違い、大型楽器ゆえの搬出・出張買取の活用、状態による査定差を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

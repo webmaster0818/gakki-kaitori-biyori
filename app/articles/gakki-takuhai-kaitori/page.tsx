@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "大型楽器も宅配できますか？", acceptedAnswer: { "@type": "Answer", text: "ピアノ・大型アンプ等は宅配に不向きで、出張買取が適しています。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の宅配買取は安全？｜手順・梱包・補償の注意点", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の宅配買取は安全？｜手順・梱包・補償の注意点", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function GakkiTakuhaiKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器の宅配買取は安全？｜手順・梱包・補償の注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器の宅配買取を検討している方へ。申込みから入金までの手順、梱包のコツ、配送補償・キャンセル条件など安全に利用するための確認点、宅配に向く楽器・向かない楽器を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

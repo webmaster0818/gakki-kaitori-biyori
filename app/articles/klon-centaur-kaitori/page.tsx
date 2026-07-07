@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "クローン（コピー品）でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "各社クローンは別評価です。オリジナルのKlon Centaurであるかが価格を大きく左右します。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】クロン ケンタウルス買取相場｜希少オーバードライブの価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-06-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】クロン ケンタウルス買取相場｜希少オーバードライブの価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -68,7 +68,7 @@ export default function KlonCentaurKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】クロン ケンタウルス買取相場｜希少オーバードライブの価値と査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Klon Centaur（クロン ケンタウルス）を売りたい方へ。生産終了後にプレミア化した伝説的オーバードライブで、中古市場では非常に高額で取引されます。本記事では金／銀パネルやロングテール等の個体差、状態が査定に与える影響、高く売るコツを解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <div className="article-body">

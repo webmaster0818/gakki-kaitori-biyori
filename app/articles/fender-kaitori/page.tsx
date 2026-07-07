@@ -5,11 +5,11 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-kaitori/' },
-  title: "【2026年6月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
+  title: "【2026年7月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
   description:
     "Fender(フェンダー)の買取相場を徹底解説。Stratocaster・Telecaster・Jazz Bassなどモデル別の買取価格、USA製・メキシコ製・日本製の違い、Custom Shop製品の査定ポイントまで。おすすめ買取業者3社比較。",
   openGraph: {
-    title: "【2026年6月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
+    title: "【2026年7月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
     description: "Fenderギターの買取相場をモデル・製造国別に徹底解説。ストラト・テレキャスの相場目安と高く売るコツ。",
   },
 };
@@ -76,9 +76,9 @@ function FaqSchema() {
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【2026年6月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
+    headline: "【2026年7月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
     datePublished: "2026-04-18",
-    dateModified: "2026-06-22",
+    dateModified: "2026-07-07",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年6月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/fender-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年7月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/fender-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -103,12 +103,12 @@ export default function FenderKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年6月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを徹底解説
+            【2026年7月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを徹底解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             Fender(フェンダー)のギター・ベースを売りたい方へ。本記事では、Stratocaster・Telecaster・Jazz Bassなどモデル別の買取相場をUSA製・メキシコ製・日本製に分けて解説。Custom Shop製品の査定ポイントや、高く売るためのコツまで網羅しています。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年4月18日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -124,7 +124,7 @@ export default function FenderKaitoriPage() {
         </nav>
 
         <div className="article-body">
-          <h2 id="market-price">Fenderモデル別・製造国別 買取相場【2026年6月 週次相場更新】</h2>
+          <h2 id="market-price">Fenderモデル別・製造国別 買取相場【2026年7月 週次相場更新】</h2>
 
           <p>Fender(フェンダー)は世界で最も売れているギターブランドの一つです。買取価格は<strong>製造国（USA・メキシコ・日本）とモデルラインによって明確にランク分け</strong>されます。</p>
 
