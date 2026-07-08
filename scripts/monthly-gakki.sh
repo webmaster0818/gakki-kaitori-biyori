@@ -18,8 +18,19 @@ NODE_OPTIONS="--max-old-space-size=8192" npm run build >/tmp/gakki-build.log 2>&
 if ! grep -q "Compiled successfully" /tmp/gakki-build.log || grep -q "Failed to type check" /tmp/gakki-build.log; then
   echo "build FAILED"; tail -15 /tmp/gakki-build.log; notify "🚨[gakki鮮度] 月次ビルド失敗（$STAMP）。push中止。"; exit 1
 fi
-# 4) push(git連携→CF自動ビルド)。差分なければskip
-git add -A && git commit -q -m "月次鮮度: 表示月タグ/相場を当月化（$STAMP）" 2>/dev/null && git push -q origin HEAD:main 2>/dev/null && PUSHED=1 || PUSHED=0
+# 4) 方式Bデプロイ（CFはdeployリポを見ている。source pushだけでは本番反映しない）
+#    sitemap再生成→out/へcp→rsync out→deployリポ→.txt削除(CF 20k対策)→source+deploy両push
+node scripts/generate-sitemap.mjs >/dev/null 2>&1; cp public/sitemap.xml out/sitemap.xml 2>/dev/null
+DEPLOY="/Users/takashi.hasegawa/projects/gakki-kaitori-biyori-deploy"
+git add -A && git commit -q -m "月次鮮度: 表示月タグ/相場を当月化（$STAMP）" 2>/dev/null && git push -q origin HEAD:main 2>/dev/null
+if [ -d "$DEPLOY/.git" ]; then
+  rsync -a --delete --exclude='.git' out/ "$DEPLOY/"
+  ( cd "$DEPLOY" && find . -path ./.git -prune -o -type f -name "*.txt" ! -name "robots.txt" -delete
+    git add -A && git commit -q -m "月次鮮度 deploy（$STAMP）" 2>/dev/null && git push -q origin HEAD:main 2>/dev/null && echo "deploy pushed" )
+  PUSHED=1
+else
+  echo "⚠️deployリポ無し"; notify "🚨[gakki鮮度] deployリポ($DEPLOY)が見つかりません（$STAMP）"; PUSHED=0
+fi
 # 5) Indexing(striking上位)
 if [ "$PUSHED" = "1" ]; then
 "$GSC_PY" - <<'PYEOF' 2>/dev/null
