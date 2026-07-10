@@ -89,6 +89,22 @@ export default function Page() {
           <p className="text-sm leading-relaxed">楽器の買取価格は業者・時期・状態で数万円単位の差が出ます。楽器の買取屋さんを検討する場合も、<strong>一括査定や他の専門店の見積もりと比べてから決める</strong>のが確実です。当サイトの<a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark underline font-medium">楽器買取おすすめ業者比較</a>や<a href="/articles/mercari-vs-gyosha/" className="text-accent-dark underline font-medium">フリマ vs 買取業者の比較</a>もあわせてご覧ください。</p>
         </div>
 
+        <h2 className="text-xl font-bold mt-8 mb-3">店舗一覧（店頭買取・持ち込み対応）</h2>
+        <p className="text-sm mb-3">楽器の買取屋さんは全国に店舗を展開しており、<strong>全店舗で店頭買取（持ち込み）に対応</strong>しています（来店前の電話予約でよりスムーズに対応可能と公式に案内されています）。以下は公式店舗ページで確認できる店舗の一覧です（2026年7月10日時点・当サイト確認）。住所詳細・営業時間・電話番号は<a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">公式の店舗一覧ページ</a>でご確認ください。</p>
+        <div className="overflow-x-auto mb-3">
+          <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+            <thead className="bg-cream"><tr><th className="px-3 py-2 text-left border-b border-warm-border">地方</th><th className="px-3 py-2 text-left border-b border-warm-border">店舗（所在地）</th></tr></thead>
+            <tbody>
+              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東北・関東</td><td className="px-3 py-2 border-b border-warm-border">宮城岩沼店（宮城県岩沼市）／宇都宮店（栃木県宇都宮市）／群馬桐生店（群馬県桐生市）／大宮店（さいたま市大宮区）／柏店（千葉県柏市）／上野店（東京都台東区）／池袋店（東京都豊島区）／横浜店（横浜市中区）／厚木店（神奈川県厚木市）</td></tr>
+              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">北陸・甲信越</td><td className="px-3 py-2 border-b border-warm-border">新潟店（新潟市西区）／金沢店（石川県金沢市）／石川小松店（石川県小松市）／福井花堂中店（福井県福井市）／甲府千塚店（山梨県甲府市）／長野松本店（長野県松本市）</td></tr>
+              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東海</td><td className="px-3 py-2 border-b border-warm-border">富士津田店（静岡県富士市）／豊川店（愛知県豊川市）／名古屋守山店（名古屋市守山区）／名古屋栄店（名古屋市中区）</td></tr>
+              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">関西</td><td className="px-3 py-2 border-b border-warm-border">大阪門真店（大阪府門真市）／大阪心斎橋店（大阪市中央区）／奈良神殿店（奈良県奈良市）</td></tr>
+              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">中国・四国・九州</td><td className="px-3 py-2 border-b border-warm-border">広島店（広島市安佐北区）／高松店（香川県高松市）／福岡店（福岡県柳川市）／鹿児島店（鹿児島県鹿児島市）</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-warm-gray mb-6">※店舗の開店・閉店・移転があるため、来店前に必ず公式サイトで最新の店舗情報をご確認ください。近くに店舗がない場合も、出張買取・宅配買取が利用できます。</p>
+
         <h2 className="text-xl font-bold mt-8 mb-3">よくある質問</h2>
         <div className="space-y-3">
           {FAQ.map((f) => (<div key={f.q} className="border border-warm-border rounded-lg p-4"><p className="font-bold text-sm mb-1">Q. {f.q}</p><p className="text-sm text-warm-gray leading-relaxed">A. {f.a}</p></div>))}

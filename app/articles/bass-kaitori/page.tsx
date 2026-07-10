@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ModelHubChips from "@/components/ModelHubChips";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bass-kaitori/' },
-  title: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
+  title: "ベース買取はどこがいい？おすすめ3社と実勢相場・高く売るコツ【2026年7月】",
   description:
     "ベース買取のおすすめ業者3社を徹底比較。エレキベース・アコースティックベース・アップライトベースの買取相場、Fender・Gibson・Musicman・Rickenbacker・YAMAHAなどブランド別の相場目安、高く売るコツまで解説。",
   openGraph: {
@@ -466,6 +467,8 @@ export default function BassKaitoriPage() {
         </div>
 
         {/* Related Articles */}
+        <ModelSpotPriceCard slug="fender-jazzbass-kaitori" />
+
         <RelatedArticles
           currentSlug="bass-kaitori"
           relatedSlugs={["guitar-kaitori", "guitar-amp-kaitori", "fender-kaitori", "ibanez-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "saxophone-kaitori"]}
