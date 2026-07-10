@@ -96,3 +96,9 @@ GSC診断(28d 6/3-7/1): クリック41(前月15→2.7倍)・表示2,698(2.2倍)�
 - 🚨**generate-souba-ranking-gakki.pyにinsufficient除外を実装**(ジャンク中央値がsouba-ranking/kawai/steinwayブランドページに本番表示されていた既存バグを根治。20→15モデル・週次cronで維持)。ModelSpotPriceCardは元からinsufficient対応済
 - generate-sitemap.mjsのUTC日付バグをJST化。sitemap 538→540・build EXIT0・方式B両push・本番確認(ジャンク値消滅)・Indexing 5/5
 - 次候補=ベース/アコギ/エレキヘッド強化 or P2被リンク営業
+
+### 2026-07-10 受け皿横展開（MediaXAI「受け皿横展開進めたい」）✅本番反映済み
+GSC実需で選定: ①「楽器の買取屋さん 店舗」37imp/9.4位=hyoban記事(7/8新設・1P目)に店舗情報が無く0クリック＋店舗別クエリ(名古屋守山/大阪堺/横浜/池袋等)発芽 ②ベース買取ヘッド計80imp(ベース45/51位・エレキベース25/45位)。ウリエル/ティファナ指名は表示ゼロ=第2指名受け皿は見送り(正直判断)。
+- **①hyoban記事に店舗一覧セクション**: 公式店舗ページ(gakkikaitori.co.jp/kaitori/shop/)をWebFetchで直接確認→**全国26店舗**を地方別表で追加(店頭買取/持ち込み全店対応・電話予約推奨の公式案内・出典リンク・確認日・開閉店注意の正直注記)。⚠️GSCクエリの「大阪堺店」「札幌」は公式一覧に無い→記載しない(正直)。電話番号は転載せず「公式で確認」誘導
+- **②bass-kaitori強化**: title「どこがいい？」型即答化＋`ModelSpotPriceCard slug="fender-jazzbass-kaitori"`注入(ヤフオク242件・中央値138,614円・週次cron自動更新)。⚠️**ModelSpotPriceCardはdefault export**(named importでビルド失敗)
+- 方式Bデプロイ・両push・本番確認・Indexing 2/2。次の横展開判断はギター×12都市(7/4)の評価(現状仙台28位で発芽)を見てから
