@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagoya-midori-gakki-kaitori/' },
-  title: "【2026年最新】楽器買取 名古屋市緑区おすすめ3選｜出張・店頭・宅配を比較",
-  description: "名古屋市緑区（愛知県名古屋市緑区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、天白・南・豊明・大府エリアの状況も解説。",
-  openGraph: { title: "【2026年最新】楽器買取 名古屋市緑区おすすめ3選｜出張・店頭・宅配を比較", description: "名古屋市緑区（愛知県名古屋市緑区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、天白・南・豊明・大府エリアの状況も解説。" },
+  title: "名古屋市緑区の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】",
+  description: "名古屋市緑区で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。市内店舗への持ち込みルートも解説。無料査定だけの利用もOK。",
+  openGraph: { title: "名古屋市緑区の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】", description: "名古屋市緑区で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。市内店舗への持ち込みルートも解説。無料査定だけの利用もOK。" },
 };
 
 function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u3067\u51fa\u5f35\u8cb7\u53d6\u306f\u5bfe\u5fdc\u3057\u3066\u3044\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3001\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\uff08\u611b\u77e5\u770c\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\uff09\u306f\u5168\u56fd\u5bfe\u5fdc\u306e\u4e3b\u8981\u8cb7\u53d6\u696d\u8005\uff08\u30d2\u30ab\u30ab\u30af\uff01\u30fb\u30a6\u30ea\u30a8\u30eb\u30fb\u30c6\u30a3\u30d5\u30a1\u30ca\u7b49\uff09\u304c\u3059\u3079\u3066\u5bfe\u5fdc\u30a8\u30ea\u30a2\u306b\u3057\u3066\u3044\u307e\u3059\u3002\u51fa\u5f35\u6599\u30fb\u67fb\u5b9a\u6599\u306f\u7121\u6599\u306e\u696d\u8005\u304c\u307b\u3068\u3093\u3069\u3067\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u3067\u5730\u57df\u5bc6\u7740\u306e\u697d\u5668\u8cb7\u53d6\u5e97\u306f\u3042\u308a\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u306b\u306f\u5730\u5143\u306e\u697d\u5668\u5e97\u3082\u6570\u5e97\u3042\u308a\u307e\u3059\u304c\u3001\u8cb7\u53d6\u76f8\u5834\u30fb\u5bfe\u5fdc\u30b9\u30d4\u30fc\u30c9\u30fb\u53d6\u308a\u6271\u3044\u30b8\u30e3\u30f3\u30eb\u306e\u5e45\u3067\u306f\u3001\u5168\u56fd\u30c1\u30a7\u30fc\u30f3\u3084\u4e00\u62ec\u67fb\u5b9a\u30b5\u30fc\u30d3\u30b9\u306e\u65b9\u304c\u6709\u5229\u306a\u30b1\u30fc\u30b9\u304c\u591a\u3044\u3067\u3059\u3002\u8907\u6570\u696d\u8005\u3092\u6bd4\u8f03\u3059\u308b\u306e\u304c\u304a\u3059\u3059\u3081\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u304b\u3089\u5927\u578b\u697d\u5668\uff08\u30d4\u30a2\u30ce\u30fb\u30c9\u30e9\u30e0\uff09\u306e\u51fa\u5f35\u8cb7\u53d6\u306f\u53ef\u80fd\u3067\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5bfe\u5fdc\u53ef\u80fd\u3067\u3059\u3002\u30d4\u30a2\u30ce\u30fb\u30c9\u30e9\u30e0\u30bb\u30c3\u30c8\u306a\u3069\u5927\u578b\u697d\u5668\u306f\u51fa\u5f35\u8cb7\u53d6\u4e00\u629e\u3002\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u30a8\u30ea\u30a2\u306f\u4e3b\u8981\u696d\u8005\u306e\u5bfe\u5fdc\u570f\u5185\u306a\u306e\u3067\u3001\u8907\u6570\u696d\u8005\u3067\u76f8\u898b\u7a4d\u3082\u308a\u3092\u53d6\u3063\u3066\u6700\u9ad8\u5024\u3092\u9078\u3073\u307e\u3057\u3087\u3046\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u3067\u5f53\u65e5\u4e2d\u306b\u73fe\u91d1\u5316\u3067\u304d\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e97\u982d\u8cb7\u53d6\u306a\u3089\u5f53\u65e5\u53ef\u3001\u51fa\u5f35\u8cb7\u53d6\u306a\u3089\u6700\u77ed\u5373\u65e5\u5bfe\u5fdc\u306e\u696d\u8005\u3042\u308a\u3002\u6025\u304e\u306e\u5834\u5408\u306f\u4e8b\u524d\u306b\u300c\u5373\u65e5\u5bfe\u5fdc\u53ef\u80fd\u304b\u300d\u3092\u78ba\u8a8d\u3057\u3066\u304b\u3089\u7533\u3057\u8fbc\u3080\u306e\u304c\u304a\u3059\u3059\u3081\u3067\u3059\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u306e\u697d\u5668\u8cb7\u53d6\u304a\u3059\u3059\u30813\u793e\uff5c\u5730\u57df\u5bc6\u7740 vs \u5168\u56fd\u5bfe\u5fdc\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-05-17\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\u306e\u697d\u5668\u8cb7\u53d6\u304a\u3059\u3059\u30813\u793e\uff5c\u5730\u57df\u5bc6\u7740 vs \u5168\u56fd\u5bfe\u5fdc\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-07-12\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"areaServed\": {\"@type\": \"City\", \"name\": \"\u540d\u53e4\u5c4b\u5e02\u7dd1\u533a\"}, \"serviceType\": \"\u697d\u5668\u8cb7\u53d6\", \"provider\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
     </>
   );
@@ -34,7 +34,7 @@ export default function Page() {
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">愛知・地域</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">名古屋市緑区の楽器買取おすすめ3社｜地域密着 vs 全国対応</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">名古屋市緑区の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社</h1>
           <p className="text-warm-gray text-sm leading-relaxed">名古屋市緑区（愛知県名古屋市緑区）で楽器の買取を検討している方へ。本記事では、名古屋市緑区エリアで利用できる買取方法・おすすめ業者3社・買取相場の地域差・近隣エリア（天白・南・豊明・大府）の状況まで解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
         </header>
@@ -92,10 +92,19 @@ export default function Page() {
         <p className="text-center mt-4 text-sm"><a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark font-medium underline">楽器買取おすすめ業者の比較を見る →</a></p>
         </div>
 
-        <h2>4. 名古屋市緑区近隣エリアの状況</h2>
+                <h2 id="chikaku">4. 名古屋市緑区で「近くの楽器買取店」に持ち込み・店頭で売るには？</h2>
+        <p>「近くの楽器買取店に持ち込んで、その場で現金化したい」という方も多いはず。緑区内には楽器専門の大手買取店の店頭はありませんが、名古屋市内では楽器専門買取大手「楽器の買取屋さん」が<strong>名古屋栄店（中区）と名古屋守山店（守山区）</strong>の2店舗で店頭買取に対応しています（<a href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent-dark underline">店舗詳細・評判はこちら</a>）。緑区からは栄方面への持ち込みか、大型楽器なら<strong>自宅で完結する出張買取</strong>が現実的です。</p>
+        <ul>
+          <li><strong>近くの店に持ち込み（店頭買取）</strong>：ギター・エフェクター・管楽器など自分で運べる楽器向き。その場で査定し即日現金化できるのが利点です。</li>
+          <li><strong>出張買取</strong>：ピアノ・ドラム・アンプなど大型楽器や、複数まとめ売り向き。自宅まで来てくれて搬出も任せられます。</li>
+          <li><strong>宅配買取</strong>：急がない・近くに店がない場合向き。梱包して送るだけで完結します。</li>
+        </ul>
+        <p><strong>持ち込む前に「一括査定」で底値を知っておくのがコツ</strong>です。近くの1店だけで決めてしまうと、相場より安く手放してしまうこともあります。<a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="text-accent-dark underline">ヒカカク！の一括査定</a>で名古屋市緑区対応の複数業者の見積もりを比較し、その金額を基準に近くの店と交渉すれば、納得して売りやすくなります。</p>
+
+        <h2>5. 名古屋市緑区近隣エリアの状況</h2>
         <p>名古屋市緑区の周辺（天白・南・豊明・大府）でも、ほぼ同じ買取サービスが利用できます。複数の都市にまたがって楽器がある場合（例: ご実家と現在の住居が別エリア）も、各業者で対応可能。出張買取なら、エリアをまたいで査定してもらえます。</p>
 
-        <h2>5. 名古屋市緑区で楽器を高く売るコツ</h2>
+        <h2>6. 名古屋市緑区で楽器を高く売るコツ</h2>
         <ol>
           <li><strong>複数業者で相見積もり</strong>: ヒカカク！の一括査定で複数業者の見積もりを比較</li>
           <li><strong>付属品を揃える</strong>: ケース・保証書・取扱説明書で査定額アップ</li>
@@ -104,7 +113,7 @@ export default function Page() {
           <li><strong>専門業者を選ぶ</strong>: 楽器に強い業者で正しい査定を受ける</li>
         </ol>
 
-        <h2>6. よくある質問</h2>
+        <h2>7. よくある質問</h2>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市緑区で出張買取は対応していますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">はい、名古屋市緑区（愛知県名古屋市緑区）は全国対応の主要買取業者（ヒカカク！・ウリエル・ティファナ等）がすべて対応エリアにしています。出張料・査定料は無料の業者がほとんどです。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市緑区で地域密着の楽器買取店はありますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">名古屋市緑区には地元の楽器店も数店ありますが、買取相場・対応スピード・取り扱いジャンルの幅では、全国チェーンや一括査定サービスの方が有利なケースが多いです。複数業者を比較するのがおすすめ。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市緑区から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">対応可能です。ピアノ・ドラムセットなど大型楽器は出張買取一択。名古屋市緑区エリアは主要業者の対応圏内なので、複数業者で相見積もりを取って最高値を選びましょう。</p></details>
