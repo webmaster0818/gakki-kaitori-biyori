@@ -1,0 +1,23 @@
+{
+  "slug": "rickenbacker-4003-kaitori",
+  "label": "Rickenbacker 4003",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Rickenbacker 4003 ベース",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 210650,
+      "sample_n": 52,
+      "raw_n": 52
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 210650,
+    "sample_n": 52,
+    "raw_n": 52,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

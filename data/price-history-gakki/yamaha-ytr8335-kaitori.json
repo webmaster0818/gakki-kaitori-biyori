@@ -1,0 +1,23 @@
+{
+  "slug": "yamaha-ytr8335-kaitori",
+  "label": "YAMAHA YTR-8335",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "ヤマハ YTR-8335 トランペット",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 170500,
+      "sample_n": 292,
+      "raw_n": 300
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 170500,
+    "sample_n": 292,
+    "raw_n": 300,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

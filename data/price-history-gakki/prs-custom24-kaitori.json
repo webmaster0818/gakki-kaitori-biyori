@@ -1,0 +1,23 @@
+{
+  "slug": "prs-custom24-kaitori",
+  "label": "PRS Custom 24",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "PRS Custom 24 ギター",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 69300,
+      "sample_n": 250,
+      "raw_n": 262
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 69300,
+    "sample_n": 250,
+    "raw_n": 262,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

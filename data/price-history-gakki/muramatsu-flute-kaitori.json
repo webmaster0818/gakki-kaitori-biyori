@@ -1,0 +1,23 @@
+{
+  "slug": "muramatsu-flute-kaitori",
+  "label": "Muramatsu Flute",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "ムラマツ フルート",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 36200,
+      "sample_n": 256,
+      "raw_n": 298
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 36200,
+    "sample_n": 256,
+    "raw_n": 298,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

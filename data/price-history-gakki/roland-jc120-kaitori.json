@@ -1,0 +1,23 @@
+{
+  "slug": "roland-jc120-kaitori",
+  "label": "Roland JC-120",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Roland JC-120 ジャズコーラス アンプ",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 29900,
+      "sample_n": 68,
+      "raw_n": 70
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 29900,
+    "sample_n": 68,
+    "raw_n": 70,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

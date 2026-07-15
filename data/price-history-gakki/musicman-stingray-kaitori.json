@@ -1,0 +1,23 @@
+{
+  "slug": "musicman-stingray-kaitori",
+  "label": "Music Man StingRay",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Music Man StingRay ベース",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 133100,
+      "sample_n": 230,
+      "raw_n": 238
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 133100,
+    "sample_n": 230,
+    "raw_n": 238,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

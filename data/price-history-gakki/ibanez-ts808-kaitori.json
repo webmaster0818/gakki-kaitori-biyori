@@ -1,0 +1,23 @@
+{
+  "slug": "ibanez-ts808-kaitori",
+  "label": "Ibanez TS808",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Ibanez TS808 Tube Screamer エフェクター",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 13200,
+      "sample_n": 38,
+      "raw_n": 44
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 13200,
+    "sample_n": 38,
+    "raw_n": 44,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

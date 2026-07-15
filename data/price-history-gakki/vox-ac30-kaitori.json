@@ -1,0 +1,23 @@
+{
+  "slug": "vox-ac30-kaitori",
+  "label": "VOX AC30",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "VOX AC30 ギターアンプ",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 3500,
+      "sample_n": 190,
+      "raw_n": 228
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 3500,
+    "sample_n": 190,
+    "raw_n": 228,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

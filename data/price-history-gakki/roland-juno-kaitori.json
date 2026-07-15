@@ -1,0 +1,23 @@
+{
+  "slug": "roland-juno-kaitori",
+  "label": "Roland Juno",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Roland Juno シンセサイザー",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 50600,
+      "sample_n": 288,
+      "raw_n": 298
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 50600,
+    "sample_n": 288,
+    "raw_n": 298,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "nord-stage-kaitori",
+  "label": "Nord Stage",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Nord Stage キーボード",
+  "history": [],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 238700,
+    "sample_n": 6,
+    "raw_n": 6,
+    "insufficient": true
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "dw-collectors-kaitori",
+  "label": "DW Collector's",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "DW Collector's ドラムセット",
+  "history": [],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 1000000,
+    "sample_n": 2,
+    "raw_n": 2,
+    "insufficient": true
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

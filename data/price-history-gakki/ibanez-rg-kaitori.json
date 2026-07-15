@@ -1,0 +1,23 @@
+{
+  "slug": "ibanez-rg-kaitori",
+  "label": "Ibanez RG",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Ibanez RG プレステージ ギター",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 109066,
+      "sample_n": 20,
+      "raw_n": 22
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 109066,
+    "sample_n": 20,
+    "raw_n": 22,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

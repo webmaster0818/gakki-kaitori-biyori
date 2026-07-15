@@ -1,0 +1,23 @@
+{
+  "slug": "ibanez-jem-kaitori",
+  "label": "Ibanez JEM",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Ibanez JEM ギター",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 138600,
+      "sample_n": 18,
+      "raw_n": 18
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 138600,
+    "sample_n": 18,
+    "raw_n": 18,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

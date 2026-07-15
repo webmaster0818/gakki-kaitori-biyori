@@ -1,0 +1,23 @@
+{
+  "slug": "gretsch-6120-kaitori",
+  "label": "Gretsch 6120",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Gretsch 6120 ギター",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 150000,
+      "sample_n": 74,
+      "raw_n": 78
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 150000,
+    "sample_n": 74,
+    "raw_n": 78,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "tama-starclassic-kaitori",
+  "label": "TAMA Starclassic",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "TAMA Starclassic ドラムセット",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 176550,
+      "sample_n": 12,
+      "raw_n": 14
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 176550,
+    "sample_n": 12,
+    "raw_n": 14,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "gibson-j45-kaitori",
+  "label": "Gibson J-45",
+  "source": "yahoo_auctions_closed_search_180d",
+  "methodology": "median of individual lot final-prices, IQR outlier removal",
+  "query_used": "Gibson J-45 アコースティックギター",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "median_jpy": 195400,
+      "sample_n": 252,
+      "raw_n": 266
+    }
+  ],
+  "latest": {
+    "date": "2026-07-16",
+    "median_jpy": 195400,
+    "sample_n": 252,
+    "raw_n": 266,
+    "insufficient": false
+  },
+  "note": "週次自動更新で履歴を蓄積中。"
+}
