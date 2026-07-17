@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import { SellTimingSignal } from "@/components/SellTimingSignal";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-jiki/' },
@@ -29,7 +30,7 @@ function FaqSchema() {
       { "@type": "Question", name: "相場はどう調べますか？", acceptedAnswer: { "@type": "Answer", text: "ヒカカク！等の一括査定で現在の相場感を把握できます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を売るベストな時期は？｜高く売れるタイミングの見極め方", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を売るベストな時期は？｜高く売れるタイミングの見極め方", datePublished: "2026-06-05", dateModified: "2026-07-17", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,10 +70,15 @@ export default function GakkiKaitoriJikiPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器を売るベストな時期は？｜高く売れるタイミングの見極め方</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器をいつ売るべきか迷っている方へ。新生活・吹奏楽シーズンの需要、新モデル発売前のタイミング、状態が良いうちに売る重要性、相場の見方を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月17日</p>
         </header>
 
         <div className="article-body">
+
+          <SellTimingSignal />
+
+          <h2 id="market">相場データから見る「今の売り時」</h2>
+          <p>売り時の判断でまず見るべきは、中古市場全体の相場水準と、自分の楽器モデルの値動きです。上の「中古楽器買取相場指数」は当サイトがヤフオク!の落札データから毎週集計している独自指標で、市場が上向きか下向きかの目安になります。市場全体が横ばい・下落局面では、値下がりが続くモデルほど早めの査定が有利になりやすく、逆に値上がり中のモデルは急がず複数社を比較する余裕があります。個別モデルの前週比は<Link href="/souba-ranking/" className="text-accent hover:text-accent-dark underline">楽器買取相場ランキング</Link>で確認できます。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
           <p>売る時期の見極めを売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
