@@ -124,6 +124,11 @@ function Header() {
             </Link>
           </li>
           <li>
+            <Link href="/souba-index/" className="hover:text-accent transition-colors">
+              相場指数
+            </Link>
+          </li>
+          <li>
             <Link href="/articles/#instrument" className="hover:text-accent transition-colors">
               楽器の種類
             </Link>

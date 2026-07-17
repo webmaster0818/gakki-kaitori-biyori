@@ -34,6 +34,7 @@ const STATIC_PAGES = [
   { path: "/", priority: "1.0", changefreq: "weekly" },
   { path: "/articles/", priority: "0.9", changefreq: "weekly" },
   { path: "/souba-ranking/", priority: "0.8", changefreq: "weekly" },
+  { path: "/souba-index/", priority: "0.8", changefreq: "weekly" },
   { path: "/author/", priority: "0.5", changefreq: "monthly" },
   { path: "/privacy-policy/", priority: "0.3", changefreq: "yearly" },
   { path: "/terms-of-service/", priority: "0.3", changefreq: "yearly" },

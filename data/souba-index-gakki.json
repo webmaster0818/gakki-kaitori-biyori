@@ -1,0 +1,118 @@
+{
+ "generated_note": "基準週(最初の共通週)の各モデル中央値を100とした等ウェイト指数。全週sample_n>=20のモデルのみ採用。カテゴリ別は構成3銘柄以上のみ。",
+ "base_date": "2026-06-02",
+ "latest_date": "2026-07-16",
+ "constituents": {
+  "total": 14,
+  "by_category": {
+   "管楽器": 2,
+   "エフェクター": 2,
+   "ベース": 1,
+   "エレキギター": 5,
+   "アンプ": 2,
+   "楽器": 2
+  }
+ },
+ "slugs": [
+  "bach-stradivarius-kaitori",
+  "boss-ds1-kaitori",
+  "fender-jazzbass-kaitori",
+  "fender-stratocaster-kaitori",
+  "fender-telecaster-kaitori",
+  "fender-twinreverb-kaitori",
+  "gibson-lespaul-custom-kaitori",
+  "gibson-lespaul-standard-kaitori",
+  "gibson-sg-kaitori",
+  "ibanez-ts9-kaitori",
+  "marshall-jcm800-kaitori",
+  "selmer-markvi-kaitori",
+  "selmer-series2-kaitori",
+  "yamaha-yas62-kaitori"
+ ],
+ "labels": {
+  "bach-stradivarius-kaitori": "Bach Stradivarius",
+  "boss-ds1-kaitori": "BOSS DS-1",
+  "fender-jazzbass-kaitori": "Fender Jazz Bass",
+  "fender-stratocaster-kaitori": "Fender Stratocaster",
+  "fender-telecaster-kaitori": "Fender Telecaster",
+  "fender-twinreverb-kaitori": "Fender Twin Reverb",
+  "gibson-lespaul-custom-kaitori": "Gibson Les Paul Custom",
+  "gibson-lespaul-standard-kaitori": "Gibson Les Paul Standard",
+  "gibson-sg-kaitori": "Gibson SG",
+  "ibanez-ts9-kaitori": "Ibanez TS9 Tube Screamer",
+  "marshall-jcm800-kaitori": "Marshall JCM800",
+  "selmer-markvi-kaitori": "Selmer Mark VI",
+  "selmer-series2-kaitori": "Selmer Series II",
+  "yamaha-yas62-kaitori": "YAMAHA YAS-62"
+ },
+ "composite": [
+  {
+   "date": "2026-06-02",
+   "index": 100.0
+  },
+  {
+   "date": "2026-06-08",
+   "index": 100.08
+  },
+  {
+   "date": "2026-06-15",
+   "index": 99.22
+  },
+  {
+   "date": "2026-06-22",
+   "index": 99.25
+  },
+  {
+   "date": "2026-06-29",
+   "index": 98.74
+  },
+  {
+   "date": "2026-07-06",
+   "index": 98.72
+  },
+  {
+   "date": "2026-07-13",
+   "index": 99.13
+  },
+  {
+   "date": "2026-07-16",
+   "index": 99.2
+  }
+ ],
+ "categories": {
+  "エレキギター": [
+   {
+    "date": "2026-06-02",
+    "index": 100.0
+   },
+   {
+    "date": "2026-06-08",
+    "index": 100.57
+   },
+   {
+    "date": "2026-06-15",
+    "index": 99.17
+   },
+   {
+    "date": "2026-06-22",
+    "index": 98.07
+   },
+   {
+    "date": "2026-06-29",
+    "index": 98.19
+   },
+   {
+    "date": "2026-07-06",
+    "index": 98.19
+   },
+   {
+    "date": "2026-07-13",
+    "index": 98.3
+   },
+   {
+    "date": "2026-07-16",
+    "index": 97.46
+   }
+  ]
+ }
+}
