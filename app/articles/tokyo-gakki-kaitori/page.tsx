@@ -4,12 +4,12 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/tokyo-gakki-kaitori/' },
-  title: "【2026年最新】楽器買取 東京おすすめ3選｜出張・店頭・宅配を比較",
+  title: "東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】",
   description:
-    "東京で楽器を売るならどこがいい？東京対応の楽器買取おすすめ3社を徹底比較。出張買取・店頭買取・宅配買取の違い、東京エリア別の対応状況、高く売るコツまで解説。ギター・ピアノ・管楽器すべて対応。",
+    "東京で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。御茶ノ水・渋谷・新宿・池袋の楽器店街や区別の受け皿も解説。無料査定だけの利用もOK。",
   openGraph: {
-    title: "【2026年最新】楽器買取 東京おすすめ3選｜出張・店頭・宅配を比較",
-    description: "東京で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを徹底解説。",
+    title: "東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】",
+    description: "東京で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。御茶ノ水・渋谷・新宿・池袋の楽器店街や区別の受け皿も解説。無料査定だけの利用もOK。",
   },
 };
 
@@ -84,7 +84,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 東京おすすめ3選｜出張・店頭・宅配を徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/tokyo-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】\", \"item\": \"https://gakkikaitori-biyori.com/articles/tokyo-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -101,7 +101,7 @@ export default function TokyoGakkiKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】楽器買取 東京おすすめ3選｜出張・店頭・宅配を徹底比較
+            東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             東京で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、東京エリア対応の楽器買取おすすめ3社を徹底比較。出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、東京の楽器買取事情、高く売るためのコツまで詳しく解説します。
@@ -201,6 +201,15 @@ export default function TokyoGakkiKaitoriPage() {
 
           <h3>23区外（多摩地域）</h3>
           <p>八王子・町田・立川などの多摩地域は、店頭買取の選択肢が限られるため、<strong>出張買取（ウリエル）か宅配買取がおすすめ</strong>です。ヒカカク！の一括査定ならオンラインで完結するため、多摩地域でも問題なく利用できます。</p>
+
+          <h3 id="chikaku">「近くの楽器買取店」に持ち込み・店頭で売るには？（区別ガイド）</h3>
+          <p>「自分の街の近くで売りたい」という方は、区・エリア別のガイドが便利です。当サイトでは主要エリアごとに、近くの楽器買取店への持ち込み・店頭買取のポイントをまとめています。</p>
+          <ul>
+            <li><a href="/articles/shinjuku-gakki-kaitori/" className="text-accent-dark underline">新宿の楽器買取</a>（近くの店・持ち込み・専門店）</li>
+            <li><a href="/articles/shibuya-gakki-kaitori/" className="text-accent-dark underline">渋谷の楽器買取</a>（道玄坂・宇田川町の楽器店街）</li>
+            <li><a href="/articles/ikebukuro-gakki-kaitori/" className="text-accent-dark underline">池袋の楽器買取</a>（電子楽器・DJ機器に強い）</li>
+          </ul>
+          <p>近くに専門店がない場合や、ピアノ・ドラムなど大型楽器は、<strong>出張買取・宅配買取</strong>が現実的です。持ち込む前に<a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="text-accent-dark underline">ヒカカク！の一括査定</a>で東京対応の複数業者の底値を把握しておくと、近くの店とも交渉しやすくなります。</p>
 
           <CtaBox />
 
