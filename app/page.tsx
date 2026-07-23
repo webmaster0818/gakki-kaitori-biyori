@@ -327,6 +327,8 @@ export default function Home() {
             { name: "KAWAI RX-2買取", href: "/articles/kawai-rx2-kaitori/" },
             { name: "リッケンバッカー330買取", href: "/articles/rickenbacker-330-kaitori/" },
             { name: "川口の楽器買取", href: "/articles/kawaguchi-gakki-kaitori/" },
+            { name: "藤枝市の楽器買取", href: "/articles/fujieda-gakki-kaitori/" },
+            { name: "岡崎市の楽器買取", href: "/articles/okazaki-gakki-kaitori/" },
             { name: "メルカリと買取業者の比較", href: "/articles/mercari-vs-gyosha/" },
             { name: "相場ランキング(毎週更新)", href: "/souba-ranking/" },
           ].map((g) => (
