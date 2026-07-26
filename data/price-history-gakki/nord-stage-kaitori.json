@@ -4,13 +4,20 @@
   "source": "yahoo_auctions_closed_search_180d",
   "methodology": "median of individual lot final-prices, IQR outlier removal",
   "query_used": "Nord Stage キーボード",
-  "history": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "median_jpy": 175040,
+      "sample_n": 8,
+      "raw_n": 10
+    }
+  ],
   "latest": {
-    "date": "2026-07-20",
-    "median_jpy": 238700,
-    "sample_n": 6,
-    "raw_n": 6,
-    "insufficient": true
+    "date": "2026-07-27",
+    "median_jpy": 175040,
+    "sample_n": 8,
+    "raw_n": 10,
+    "insufficient": false
   },
   "note": "週次自動更新で履歴を蓄積中。"
 }
