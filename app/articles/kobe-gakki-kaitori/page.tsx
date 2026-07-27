@@ -4,7 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/' },
-  title: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
+  title: "神戸の楽器買取はどこがいい？三宮の専門店・近くの店・出張の選び方とおすすめ業者【2026年7月】",
   description:
     "神戸で楽器を売るならどこがいい？神戸対応の楽器買取おすすめ3社を徹底比較。三宮・元町・ハーバーランドなどエリア別の買取事情、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説。",
   openGraph: {
@@ -118,6 +118,7 @@ export default function KobeGakkiKaitoriPage() {
             <li><a href="#popular-instruments" className="hover:underline">神戸で人気の楽器と買取相場</a></li>
             <li><a href="#flow" className="hover:underline">買取の流れ</a></li>
             <li><a href="#tips" className="hover:underline">神戸で楽器を高く売るコツ</a></li>
+            <li><a href="#local-shops" className="hover:underline">神戸の主要買取店ガイド</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -312,6 +313,26 @@ export default function KobeGakkiKaitoriPage() {
             <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>
             <Link href="/articles/guitar-kaitori-kobe/" className="text-accent font-medium text-sm hover:underline">神戸のギター買取おすすめ3社と相場を見る →</Link>
           </div>
+
+          <h2 id="local-shops">神戸の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
+          <p>神戸で楽器を売れる主な買取店を、2026年7月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <h3>Qsic（キューシック）神戸本店 ── 三宮町さんプラザ3F（三宮・元町から徒歩圏）</h3>
+          <p>買取方式：店頭/出張/宅配。神戸の中古楽器専門店。弦楽器中心(Gibson/Fender/Martin、ヴィンテージも)。試奏動画配信（<a href="https://www.qsic.jp/?mode=f9" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>島村楽器 三宮オーパ店 ── 三宮オーパ5F・7F（三宮駅）</h3>
+          <p>買取方式：店頭/出張(ピアノ・電子ピアノ・防音室)/Web査定。1点から受付。持込で査定5%UP・下取10%UPの案内。※周辺小物・和楽器は対象外（<a href="https://www.shimamura.co.jp/shop/koube/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>島村楽器 イオンモール神戸北店 ── 北区・イオンモール神戸北</h3>
+          <p>買取方式：店頭(下取/買取/中古販売)。郊外モール内店舗（<a href="https://www.shimamura.co.jp/shop/kobe-k/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>ハードオフ（市内複数：玉津店=西区/鈴蘭台店=北区/星陵台店=垂水区/灘店=灘区） ── 西区・北区・垂水区・灘区ほか</h3>
+          <p>買取方式：店頭/出張。ギター類(Fender/Gibson/Martin/ESP、故障・部品欠品も可)・エフェクター等。灘店は2025/12新規（<a href="https://www.hardoff.co.jp/shop/detail/?p=201165" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>セカンドストリート（神戸西店/伊川谷店=西区、神戸垂水店=垂水区ほか） ── 西区・垂水区ほか市内複数</h3>
+          <p>買取方式：店頭(予約不要・その場現金)。総合リユース店。店舗により楽器買取不可の場合あり（<a href="https://www.2ndstreet.jp/sell/category/instruments" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p className="text-sm text-warm-gray">※イシバシ楽器神戸三宮店は2019年8月閉店済で市内店舗なし(最寄り=大阪梅田/心斎橋)。JEUGIA・三木楽器も神戸市内店舗は確認できず(大阪/京都拠点)。神戸で売るなら上記チェーンか大阪持込。</p>
+
+          <CtaBox />
+
+          <h3>神戸での「店頭・出張・宅配」の選び方</h3>
+          <p>弦楽器で相場重視=三宮の専門Qsic(店頭/出張/宅配)+島村三宮オーパで相見積もり。ピアノ・電子ピアノ・防音室など大型=島村三宮オーパの出張が対応明記。まとめ売り・型番不問・故障品も=ハードオフ各店(店頭+出張)。近所で手早く現金化=西区/垂水区のセカスト/ハードオフ店頭(予約不要)。</p>
+
 
           <h2 id="faq">神戸の楽器買取に関するよくある質問</h2>
 

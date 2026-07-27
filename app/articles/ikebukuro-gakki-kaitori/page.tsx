@@ -117,6 +117,7 @@ export default function Page() {
             <li><a href="#area-guide" className="hover:underline">店舗持ち込みで売るには</a></li>
             <li><a href="#popular-instruments" className="hover:underline">池袋で人気の楽器と買取相場</a></li>
             <li><a href="#tips" className="hover:underline">池袋で楽器を高く売るコツ</a></li>
+            <li><a href="#local-shops" className="hover:underline">池袋の主要買取店ガイド</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -227,6 +228,28 @@ export default function Page() {
           <p>地元の楽器店だけでなく、ヒカカク！のような全国サービスも活用しましょう。<strong>地元店の買取価格が全国相場より低いケースは少なくありません。</strong></p>
 
           <CtaBox />
+
+          <h2 id="local-shops">池袋の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
+          <p>池袋で楽器を売れる主な買取店を、2026年7月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <h3>イシバシ楽器 池袋店 ── 東池袋・P'Parco 7F（池袋駅徒歩1分）</h3>
+          <p>買取方式：店頭/出張/宅配。中古楽器の販売・買取に注力。Fender/Gibson/PRS/Martin等の輸入ブランドに強い。11:00〜21:00（<a href="https://www.ishibashi.co.jp/kaitori/tentou/ikebukuro.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>島村楽器 ミュージックサロン池袋 ── 西池袋・有楽町線1b出口直結(JR徒歩約5分)</h3>
+          <p>買取方式：店頭/宅配。買取価格検索で型番から目安→持込で正式査定・口座振込（<a href="https://www.shimamura.co.jp/shop/ms-ikebukuro/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>クロサワ楽器 池袋店 ── 南池袋・池袋駅東口近く</h3>
+          <p>買取方式：店頭/出張/宅配。アコギ・ウクレレ・クラシックギター中心(アコースティック館)。査定料無料（<a href="https://www.kurosawagakki.com/sh_ike/ag_cg/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>中古楽器堂 池袋本店 ── 西池袋・1b出口約1分</h3>
+          <p>買取方式：店頭/出張/宅配。楽器買取専門店。自社リペアで傷・故障ありも査定対象。出張は毎日9:00〜20:30（<a href="https://gakkidou.co.jp/shop/tokyo/ikebukuro/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>楽器の買取屋さん 池袋店 ── 西池袋・池袋駅3出口徒歩約1分</h3>
+          <p>買取方式：店頭/出張(最短30分)/宅配。自社リペア対応。その場で現金の即日買取・相見積もりOK。汚れ・故障品も可（<a href="https://gakkikaitori.co.jp/kaitori/shop/ikebukuro/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>セカンドストリート 池袋P'パルコ店 ── 東池袋・P'PARCO B1</h3>
+          <p>買取方式：店頭。リユース店。大型ピアノ・業務用は買取不可。楽器知識のあるスタッフ不在の場合あり（<a href="https://www.2ndstreet.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p className="text-sm text-warm-gray">※ハードオフは豊島区・池袋に常設店舗なし(西武池袋本店の期間限定催事＋23区対象の首都圏出張買取センターが公式確認範囲)。セカストは楽器買取の可否・査定レベルが店舗差あり要確認。</p>
+
+          <CtaBox />
+
+          <h3>池袋での「店頭・出張・宅配」の選び方</h3>
+          <p>池袋は徒歩1〜5分圏に専門店が集中。状態の良い定番機材(エレキ=イシバシ/アコギ=クロサワ/幅広く=中古楽器堂)は複数店へ店頭持込で相見積もりが取りやすい。大量・大型(ドラム/アンプ/電子ピアノ)や運搬困難は買取屋さん池袋店(最短30分出張)や中古楽器堂の出張。遠方・来店不可は各店の宅配。汚れ・故障品は自社リペアの中古楽器堂・買取屋さんが査定対象にしやすい。大型ピアノはセカスト不可に注意。</p>
+
 
           <h2 id="faq">池袋の楽器買取に関するよくある質問</h2>
 

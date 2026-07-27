@@ -118,6 +118,7 @@ export default function Page() {
             <li><a href="#area-guide" className="hover:underline">新宿エリア別ガイド</a></li>
             <li><a href="#popular-instruments" className="hover:underline">新宿で人気の楽器と買取相場</a></li>
             <li><a href="#tips" className="hover:underline">新宿で楽器を高く売るコツ</a></li>
+            <li><a href="#local-shops" className="hover:underline">新宿の主要買取店ガイド</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
@@ -237,6 +238,30 @@ export default function Page() {
           <p>地元の楽器店だけでなく、ヒカカク！のような全国サービスも活用しましょう。<strong>地元店の買取価格が全国相場より低いケースは少なくありません。</strong></p>
 
           <CtaBox />
+
+          <h2 id="local-shops">新宿の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
+          <p>新宿で楽器を売れる主な買取店を、2026年7月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <h3>イシバシ楽器 新宿店 ── 新宿三丁目駅C4出口すぐ（JR新宿駅徒歩5分）</h3>
+          <p>買取方式：店頭/出張/宅配。1981年開業の総合楽器店。1階に買取カウンター、PRS/Fender公認。店頭は予約なしも可、12:00〜20:00（<a href="https://www.ishibashi.co.jp/kaitori/tentou/shinjuku.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>クロサワ楽器 日本総本店（KAIKURO） ── JR新大久保駅徒歩1分・百人町</h3>
+          <p>買取方式：店頭/宅配。フロア別ジャンル特化で各階にリペアマン常駐。事前査定無料でメール回答、11:00〜20:00年中無休（<a href="https://www.kurosawagakki.com/kaikuro/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>島村楽器 新宿PePe店 ── 西武新宿駅直結（PePe 6F）</h3>
+          <p>買取方式：店頭/下取り。地域最大級の品揃え。買取・下取り・中古販売、11:00〜21:30（<a href="https://www.shimamura.co.jp/shop/shinjuku/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>ハードオフ 新宿マルイ メン店 ── 新宿三丁目駅至近</h3>
+          <p>買取方式：店頭/出張。中古楽器全般。首都圏出張買取センターが23区対応（<a href="https://www.hardoff.co.jp/shop/detail/?p=101139" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>セカンドストリート 新宿店 ── 新宿三丁目駅至近</h3>
+          <p>買取方式：店頭/宅配。総合リユース店。楽器は一部買取不可の品目あり、11:00〜21:00（<a href="https://www.2ndstreet.jp/sell/category/instruments" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>中古楽器堂 新宿本店 ── 新宿駅徒歩約3分・西新宿</h3>
+          <p>買取方式：店頭/出張/宅配。楽器買取専門店。弦楽器〜PA/録音機器まで幅広い。出張見積無料、電話24時間（<a href="https://gakkidou.co.jp/shop/tokyo/shinjuku/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>楽器の買取屋さん ── 新宿区内に店舗なし（東京全域へ出張）</h3>
+          <p>買取方式：出張/宅配。出張・宅配専業。最短30分査定・その場で現金、見積無料（<a href="https://gakkikaitori.co.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p className="text-sm text-warm-gray">※新宿区は楽器店集積地で店頭買取に強い実店舗が複数。クロサワは行政上新宿区だが大久保エリア。セカストは総合店で一部楽器買取不可。買取屋さんは区内店舗なしの出張宅配専業。</p>
+
+          <CtaBox />
+
+          <h3>新宿での「店頭・出張・宅配」の選び方</h3>
+          <p>店頭=新宿駅〜三丁目に専門店(イシバシ/中古楽器堂)+総合店(ハードオフ/セカスト)が徒歩圏に密集し相見積もりしやすい。持ち運べる機材は専門店へ持込が査定に強い。出張=ドラム/アンプ/大型・点数多い場合はハードオフ首都圏出張/中古楽器堂/イシバシ/買取屋さん(いずれも無料)。宅配=時間が取れない・希少機種はイシバシ/クロサワ/中古楽器堂の宅配。</p>
+
 
           <h2 id="faq">新宿の楽器買取に関するよくある質問</h2>
 
