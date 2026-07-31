@@ -4,7 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/' },
-  title: "横浜の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年7月】",
+  title: "横浜の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ業者【2026年7月】",
   description:
     "横浜で楽器を売るならどこがいい？横浜駅周辺の専門店事情、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",
   openGraph: {
@@ -346,6 +346,17 @@ export default function YokohamaGakkiKaitoriPage() {
           <CtaBox />
         </div>
 
+        {/* brand-consolidate-202607: 指名クエリ「楽器の買取屋さん」の評価を専用ページへ集約 */}
+        <div className="my-8 rounded-lg border border-amber-200 bg-amber-50 p-5">
+          <p className="mb-2 text-sm font-bold text-gray-900">「楽器の買取屋さん」について詳しく知りたい方へ</p>
+          <p className="text-sm leading-relaxed text-gray-700">
+            出張買取で全国対応している「楽器の買取屋さん」の運営会社・買取方法・手数料・実際の評判は、
+            <Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="font-medium text-amber-700 underline hover:text-amber-900">
+              楽器の買取屋さんの評判・口コミを検証した記事
+            </Link>
+            で出典付きに整理しています。
+          </p>
+        </div>
         <RelatedArticles
           currentSlug="yokohama-gakki-kaitori"
           relatedSlugs={["guitar-kaitori-yokohama", "kawasaki-gakki-kaitori", "machida-gakki-kaitori", "tokyo-gakki-kaitori", "chiba-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}

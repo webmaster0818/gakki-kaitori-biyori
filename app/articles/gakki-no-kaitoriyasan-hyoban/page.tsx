@@ -4,10 +4,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan-hyoban/' },
-  title: "楽器の買取屋さんの評判・口コミは？運営会社・買取方法・料金を検証【2026年7月】",
+  title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年7月】",
   description: "「楽器の買取屋さん」の評判・口コミ・運営会社・買取方法・料金を公開情報で検証。査定料/出張料/キャンセル料0円・全国出張対応の実態、良い評判と気になる声の傾向、他社との比較まで中立的に整理します。",
   openGraph: {
-    title: "楽器の買取屋さんの評判・口コミは？運営会社・買取方法・料金を検証【2026年7月】",
+    title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年7月】",
     description: "「楽器の買取屋さん」の運営会社・買取方法・料金・評判の傾向を公開情報で中立的に検証。",
   },
 };
@@ -41,7 +41,7 @@ const FAQ = [
 
 export default function Page() {
   const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
-  const articleLd = { "@context": "https://schema.org", "@type": "Article", headline: "楽器の買取屋さんの評判・口コミは？運営会社・買取方法・料金を検証【2026年7月】", datePublished: "2026-07-08", dateModified: "2026-07-08", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleLd = { "@context": "https://schema.org", "@type": "Article", headline: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年7月】", datePublished: "2026-07-08", dateModified: "2026-07-08", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumbLd = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" }, { "@type": "ListItem", position: 2, name: "楽器の買取屋さんの評判", item: "https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan-hyoban/" }] };
   return (
     <>
@@ -56,6 +56,18 @@ export default function Page() {
         <div className="bg-cream border border-warm-border rounded-2xl p-5 mb-8">
           <p className="font-bold mb-2 text-accent-dark">まず結論</p>
           <p className="text-sm leading-relaxed">「楽器の買取屋さん」は<strong>UNI SOUND株式会社</strong>が運営する楽器買取専門店で、<strong>古物商許可あり・出張/宅配/店頭に対応・査定料/出張料/キャンセル料0円</strong>を掲げています。出張は最短30分・その場で現金化とスピードが強み。一方で「和楽器・一部電子ピアノは対象外だった」「返信が遅い」といった声もあります。<strong>金額は業者で差が出るため、1社に絞らず複数社の査定を比較</strong>するのが失敗しないコツです。</p>
+        </div>
+
+        {/* conclusion-202607: 指名検索者の疑問に冒頭で即答 */}
+        <div className="my-6 rounded-2xl border border-warm-border bg-cream p-6">
+          <p className="mb-3 text-xs font-bold uppercase tracking-widest text-warm-gray">まず結論</p>
+          <ul className="space-y-2 text-sm leading-relaxed">
+            <li>・<strong>運営会社</strong>：UNI SOUND株式会社（古物商許可：神奈川県公安委員会 第451310006356号）。実在する許可事業者です。</li>
+            <li>・<strong>手数料</strong>：公式で査定料・出張料・キャンセル料が0円と案内されています（宅配時の送料・入金日数は公式に明記がないため要確認）。</li>
+            <li>・<strong>買取方法</strong>：出張・宅配・店頭の3方式。店頭は全店舗で持ち込み対応（予約推奨）。</li>
+            <li>・<strong>「怪しい」と感じたら</strong>：古物商許可番号が公開されている点は確認材料になります。ただし提示額の妥当性は1社では判断できないため、<strong>複数社の査定額を比べるのが確実</strong>です。</li>
+          </ul>
+          <p className="mt-3 text-xs text-warm-gray">※本ページは公式サイトおよび公開されている利用者の声をもとに、当編集部が中立の立場で整理したものです（2026年7月時点）。</p>
         </div>
 
         <h2 className="text-xl font-bold mt-8 mb-3">運営会社・基本情報</h2>
@@ -104,6 +116,20 @@ export default function Page() {
           </table>
         </div>
         <p className="text-xs text-warm-gray mb-6">※店舗の開店・閉店・移転があるため、来店前に必ず公式サイトで最新の店舗情報をご確認ください。近くに店舗がない場合も、出張買取・宅配買取が利用できます。</p>
+
+        <div className="my-6 rounded-lg border border-warm-border bg-white p-5">
+          <p className="mb-2 text-sm font-bold">お住まいの地域で他社とも比べる</p>
+          <p className="mb-3 text-sm leading-relaxed text-warm-gray">楽器の買取屋さんを含め、その地域で選べる買取店をまとめて比較できます。</p>
+          <div className="flex flex-wrap gap-2">
+            <Link href="/articles/fukuoka-gakki-kaitori/" className="rounded-full border border-warm-border px-3 py-1.5 text-xs hover:border-accent">福岡・博多</Link>
+            <Link href="/articles/nagoya-gakki-kaitori/" className="rounded-full border border-warm-border px-3 py-1.5 text-xs hover:border-accent">名古屋</Link>
+            <Link href="/articles/yokohama-gakki-kaitori/" className="rounded-full border border-warm-border px-3 py-1.5 text-xs hover:border-accent">横浜</Link>
+            <Link href="/articles/shinjuku-gakki-kaitori/" className="rounded-full border border-warm-border px-3 py-1.5 text-xs hover:border-accent">新宿</Link>
+            <Link href="/articles/kobe-gakki-kaitori/" className="rounded-full border border-warm-border px-3 py-1.5 text-xs hover:border-accent">神戸</Link>
+            <Link href="/articles/sendai-gakki-kaitori/" className="rounded-full border border-warm-border px-3 py-1.5 text-xs hover:border-accent">仙台</Link>
+            <Link href="/articles/shibuya-gakki-kaitori/" className="rounded-full border border-warm-border px-3 py-1.5 text-xs hover:border-accent">渋谷</Link>
+          </div>
+        </div>
 
         <h2 className="text-xl font-bold mt-8 mb-3">よくある質問</h2>
         <div className="space-y-3">

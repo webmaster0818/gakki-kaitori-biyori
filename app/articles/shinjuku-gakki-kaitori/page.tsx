@@ -318,6 +318,17 @@ export default function Page() {
           <CtaBox />
         </div>
 
+        {/* brand-consolidate-202607: 指名クエリ「楽器の買取屋さん」の評価を専用ページへ集約 */}
+        <div className="my-8 rounded-lg border border-amber-200 bg-amber-50 p-5">
+          <p className="mb-2 text-sm font-bold text-gray-900">「楽器の買取屋さん」について詳しく知りたい方へ</p>
+          <p className="text-sm leading-relaxed text-gray-700">
+            出張買取で全国対応している「楽器の買取屋さん」の運営会社・買取方法・手数料・実際の評判は、
+            <Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="font-medium text-amber-700 underline hover:text-amber-900">
+              楽器の買取屋さんの評判・口コミを検証した記事
+            </Link>
+            で出典付きに整理しています。
+          </p>
+        </div>
         <RelatedArticles
           currentSlug="shinjuku-gakki-kaitori"
           relatedSlugs={["tokyo-gakki-kaitori", "shibuya-gakki-kaitori", "ochanomizu-gakki-kaitori", "ikebukuro-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
