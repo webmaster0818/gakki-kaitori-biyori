@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">BOSS DS-1の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">BOSS DS-1（Distortion）は、1978年発売の超ロングセラー・ディストーションペダルです。シンプルで使いやすく世界中で定番化しており、特に初期の銀ネジ・日本製個体は中古市場でプレミアが付くことがあります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="boss-ds1-kaitori" modelName="BOSS DS-1" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">現行品（中古・良好）</td><td className="px-4 py-3 text-gold-dark font-bold">3,000〜6,000円前後</td><td className="px-4 py-3 text-warm-gray">状態により変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">旧ロット（日本製・台湾製）</td><td className="px-4 py-3 text-gold-dark font-bold">5,000〜1.5万円前後</td><td className="px-4 py-3 text-warm-gray">ロット・状態で変動</td></tr><tr className="bg-white"><td className="px-4 py-3">初期 銀ネジ（MIJ・希少ロット）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜数万円</td><td className="px-4 py-3 text-warm-gray">コレクター需要で高額化</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">BOSS DS-1の買取価格を今すぐ無料でチェック</p>

@@ -4,10 +4,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan-hyoban/' },
-  title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年7月】",
+  title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年8月】",
   description: "「楽器の買取屋さん」の評判・口コミ・運営会社・買取方法・料金を公開情報で検証。査定料/出張料/キャンセル料0円・全国出張対応の実態、良い評判と気になる声の傾向、他社との比較まで中立的に整理します。",
   openGraph: {
-    title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年7月】",
+    title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年8月】",
     description: "「楽器の買取屋さん」の運営会社・買取方法・料金・評判の傾向を公開情報で中立的に検証。",
   },
 };
@@ -41,7 +41,7 @@ const FAQ = [
 
 export default function Page() {
   const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
-  const articleLd = { "@context": "https://schema.org", "@type": "Article", headline: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年7月】", datePublished: "2026-07-08", dateModified: "2026-07-08", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleLd = { "@context": "https://schema.org", "@type": "Article", headline: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年8月】", datePublished: "2026-07-08", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumbLd = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" }, { "@type": "ListItem", position: 2, name: "楽器の買取屋さんの評判", item: "https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan-hyoban/" }] };
   return (
     <>
@@ -50,8 +50,8 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
       <Breadcrumb />
       <article className="max-w-4xl mx-auto px-4 pb-16">
-        <h1 className="text-2xl md:text-3xl font-bold mt-4 mb-3">楽器の買取屋さんの評判・口コミは？運営会社・買取方法・料金を検証【2026年7月】</h1>
-        <p className="text-xs text-warm-gray mb-6">最終更新: 2026年7月8日／編集部調べ（各社公式・公開情報より）</p>
+        <h1 className="text-2xl md:text-3xl font-bold mt-4 mb-3">楽器の買取屋さんの評判・口コミは？運営会社・買取方法・料金を検証【2026年8月】</h1>
+        <p className="text-xs text-warm-gray mb-6">最終更新: 2026年8月1日／編集部調べ（各社公式・公開情報より）</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-5 mb-8">
           <p className="font-bold mb-2 text-accent-dark">まず結論</p>
@@ -67,7 +67,7 @@ export default function Page() {
             <li>・<strong>買取方法</strong>：出張・宅配・店頭の3方式。店頭は全店舗で持ち込み対応（予約推奨）。</li>
             <li>・<strong>「怪しい」と感じたら</strong>：古物商許可番号が公開されている点は確認材料になります。ただし提示額の妥当性は1社では判断できないため、<strong>複数社の査定額を比べるのが確実</strong>です。</li>
           </ul>
-          <p className="mt-3 text-xs text-warm-gray">※本ページは公式サイトおよび公開されている利用者の声をもとに、当編集部が中立の立場で整理したものです（2026年7月時点）。</p>
+          <p className="mt-3 text-xs text-warm-gray">※本ページは公式サイトおよび公開されている利用者の声をもとに、当編集部が中立の立場で整理したものです（2026年8月時点）。</p>
         </div>
 
         <h2 className="text-xl font-bold mt-8 mb-3">運営会社・基本情報</h2>
@@ -79,12 +79,12 @@ export default function Page() {
           <tr className="border-b border-warm-border"><th className="bg-cream text-left px-4 py-2 font-medium">対応地域</th><td className="px-4 py-2">公式は「全国出張買取対応」。ただし地域・点数により出張非対応の場合あり（要確認）</td></tr>
           <tr><th className="bg-cream text-left px-4 py-2 font-medium">手数料</th><td className="px-4 py-2">査定料・出張料・キャンセル料0円（公式）。宅配の送料負担・入金日数は公式に明記が乏しく要確認</td></tr>
         </tbody></table></div>
-        <p className="text-xs text-warm-gray mt-2">※上記は各社公式・公開情報をもとに編集部が整理した2026年7月時点の内容です。最新の条件・対応可否は必ず公式サイトでご確認ください。</p>
+        <p className="text-xs text-warm-gray mt-2">※上記は各社公式・公開情報をもとに編集部が整理した2026年8月時点の内容です。最新の条件・対応可否は必ず公式サイトでご確認ください。</p>
 
         <CtaBox />
 
         <h2 className="text-xl font-bold mt-8 mb-3">評判・口コミの傾向（出典付き）</h2>
-        <p className="text-sm text-warm-gray mb-3">出典：比較・買取系メディア（excite買取・買取探偵EX・みん評 等／調査時点2026年7月）。以下は口コミ本文の転載ではなく、内容の傾向を要約したものです。中立的な一次口コミ（Googleマップ等）の網羅的確認は限定的な点にご留意ください。</p>
+        <p className="text-sm text-warm-gray mb-3">出典：比較・買取系メディア（excite買取・買取探偵EX・みん評 等／調査時点2026年8月）。以下は口コミ本文の転載ではなく、内容の傾向を要約したものです。中立的な一次口コミ（Googleマップ等）の網羅的確認は限定的な点にご留意ください。</p>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="border border-warm-border rounded-lg p-4"><p className="font-bold text-sm mb-2 text-accent-dark">好意的な声に多い内容</p><ul className="text-sm space-y-1 list-disc pl-5"><li>出張が早く来て、その場で現金化できた</li><li>電話・スタッフの対応が丁寧だった</li><li>他店より査定額が高かった</li><li>壊れた楽器でも対応してくれた</li></ul></div>
           <div className="border border-warm-border rounded-lg p-4"><p className="font-bold text-sm mb-2">気になる声に多い内容</p><ul className="text-sm space-y-1 list-disc pl-5"><li>和楽器（琴・三味線）・エレクトーン・一部電子ピアノは買取を断られた</li><li>返信が遅い／連絡が来ないことがあった</li><li>スタッフの知識にばらつきを感じた</li><li>査定担当のタバコ臭が気になった</li></ul></div>

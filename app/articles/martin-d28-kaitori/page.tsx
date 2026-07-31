@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "ネックリセット歴があると不利ですか？", acceptedAnswer: { "@type": "Answer", text: "適切な修理であれば致命的ではありませんが、オリジナル状態が最も高評価です。修理歴は申告しましょう。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】マーチン D-28買取相場｜年代別の価値とドレッドノートの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】マーチン D-28買取相場｜年代別の価値とドレッドノートの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -68,7 +68,7 @@ export default function MartinD28KaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】マーチン D-28買取相場｜年代別の価値とドレッドノートの査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Martin D-28（マーチンD-28）を売りたい方へ。ローズウッド×スプルースのドレッドノートで、アコギの王道とも言える名機です。本記事では年代別の価値、プレウォー（戦前）個体やブレイシングの違い、トップの状態やクラックが査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">

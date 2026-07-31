@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "古いRXでも値段がつきますか？", acceptedAnswer: { "@type": "Answer", text: "はい。状態次第で買取され、海外需要もあります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】カワイ RX-2買取相場｜年式別の価値とグランドピアノの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】カワイ RX-2買取相場｜年式別の価値とグランドピアノの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -68,7 +68,7 @@ export default function KawaiRx2KaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】カワイ RX-2買取相場｜年式別の価値とグランドピアノの査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">KAWAI RX-2（カワイRX-2）を売りたい方へ。奥行き178cm前後のグランドピアノで、ヤマハC3と並ぶ家庭・教室向けの定番です。本記事では製造番号による年式判定、年代別の価値、外装・内部の状態や搬出環境が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">

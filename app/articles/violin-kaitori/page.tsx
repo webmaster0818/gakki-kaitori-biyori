@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性",
     datePublished: "2026-04-18",
-    dateModified: "2026-07-07",
+    dateModified: "2026-08-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -107,7 +107,7 @@ export default function ViolinKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             バイオリンやチェロなどの弦楽器を売りたいけど、適正価格がわからない方へ。本記事では、バイオリン・弦楽器買取の人気3サービスを徹底比較し、初心者用からプロ用・オールド楽器までの買取相場、ビオラ・チェロ・コントラバスの相場、ブランド別の価格目安、そして鑑定書の有無による価格差について詳しく解説します。バイオリンは楽器の中でも特に価格帯が幅広く、適正な査定を受けるためには専門知識を持つ業者選びが極めて重要です。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

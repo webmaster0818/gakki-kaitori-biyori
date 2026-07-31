@@ -4,12 +4,12 @@ import RelatedArticles from "@/components/RelatedArticles";
 import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
-  title: "【2026年7月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
+  title: "【2026年8月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
   description: "ヤマハ YAS-62の買取相場を年式・状態別に解説。ヤマハ YAS-62の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。",
   keywords: "ヤマハ YAS-62,YAS-62 買取,ヤマハ アルトサックス 買取,YAS62 相場",
   alternates: { canonical: "/articles/yamaha-yas62-kaitori/" },
   openGraph: {
-    title: "【2026年7月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
+    title: "【2026年8月最新】ヤマハ YAS-62の買取相場｜高く売るコツ・おすすめ業者",
     description: "ヤマハ YAS-62の買取相場・特徴・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/yamaha-yas62-kaitori/",
     type: "article",
@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヤマハ YAS-62の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ヤマハ YAS-62は、プロフェッショナルモデルへの入口として長年支持されてきたアルトサックスの定番です。確かな品質と扱いやすさで吹奏楽からプロまで幅広く使われ、中古買取でも安定した需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="yamaha-yas62-kaitori" modelName="YAMAHA YAS-62" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">現行世代（第3世代など）・美品</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜18万円前後</td><td className="px-4 py-3 text-warm-gray">年式・状態で変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">旧世代（初代・第2世代）</td><td className="px-4 py-3 text-gold-dark font-bold">4万〜10万円前後</td><td className="px-4 py-3 text-warm-gray">世代・状態により幅がある</td></tr><tr className="bg-white"><td className="px-4 py-3">Purple Logo等 旧ヴィンテージ</td><td className="px-4 py-3 text-gold-dark font-bold">加点傾向</td><td className="px-4 py-3 text-warm-gray">コレクター需要がある場合も</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">ヤマハ YAS-62の買取価格を今すぐ無料でチェック</p>

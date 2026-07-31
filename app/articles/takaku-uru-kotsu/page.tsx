@@ -65,7 +65,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣",
     datePublished: "2026-04-18",
-    dateModified: "2026-07-07",
+    dateModified: "2026-08-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -95,7 +95,7 @@ export default function TakakuUruKotsuPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             「もっと高く売れたのに...」と後悔しないために。同じ楽器でも、売り方ひとつで買取額が数万円変わることがあります。この記事では、ギター・ピアノ・管楽器など、すべての楽器に使える「高く売るための5つの実践的なコツ」を詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

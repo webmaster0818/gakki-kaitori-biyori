@@ -5,10 +5,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/guitar-kaitori-aichi/' },
-  title: "愛知のギター買取おすすめ3社を比較【2026年7月】高く売るコツと相場",
+  title: "愛知のギター買取おすすめ3社を比較【2026年8月】高く売るコツと相場",
   description: "愛知でギターを売るならどこがいい？エレキ・アコギ対応のおすすめ買取3社を比較。Gibson・Fenderなど主要モデルの週次実勢相場、名古屋市・大須の持ち込み事情、高く売るコツまで解説。無料査定だけの利用もOK。",
   openGraph: {
-    title: "愛知のギター買取おすすめ3社を比較【2026年7月】高く売るコツと相場",
+    title: "愛知のギター買取おすすめ3社を比較【2026年8月】高く売るコツと相場",
     description: "愛知でギターを売るなら。おすすめ3社の比較と主要モデルの週次相場、高く売るコツを解説。",
   },
 };
@@ -17,7 +17,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"愛知でギターの出張買取は対応していますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい。ウリエル・ティファナなど全国対応の主要業者が愛知県内を出張買取の対応エリアとしています（対応日程はエリアにより異なるため申込時に確認を）。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。\"}}, {\"@type\": \"Question\", \"name\": \"弦が切れている・ネックが反っているギターでも愛知で売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"多くの業者で査定対象になります。状態に応じた減額はありますが、Gibson・Fenderなど人気ブランドはジャンク扱いでも値が付くことがあります。修理費が買取額の上昇分を上回ることが多いため、修理せずそのまま無料査定に出すのがおすすめです。\"}}, {\"@type\": \"Question\", \"name\": \"愛知のギター買取相場はどこで確認できますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"本ページの週次相場表（ヤフオク!落札データの中央値を当サイトが毎週集計）が目安になります。中古ギターの相場は全国のオンライン市場で決まるため、愛知だけ特別に高い・安いということは基本的にありません。買取店の提示額は中央値の概ね50〜70%が目安です。\"}}, {\"@type\": \"Question\", \"name\": \"ギター1本だけでも買取してもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"1本から買取可能です。店頭持ち込みならその場で現金化でき、宅配買取なら送料無料の梱包キットを用意している業者もあります。複数本や機材一式なら出張買取でまとめ売りすると交渉しやすくなります。\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"愛知のギター買取おすすめ3社を比較【2026年7月】高く売るコツと相場\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"愛知のギター買取おすすめ3社を比較【2026年8月】高く売るコツと相場\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"ギター買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"ギター買取 愛知\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori-aichi/\"}]}" }} />
     </>
   );
@@ -61,15 +61,15 @@ export default function Page() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">愛知×ギター</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年7月最新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年8月最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            愛知のギター買取おすすめ3社を比較【2026年7月】高く売るコツと相場
+            愛知のギター買取おすすめ3社を比較【2026年8月】高く売るコツと相場
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             愛知（愛知県）でギターの買取を検討している方へ。本記事では、愛知で利用できるギター買取おすすめ3社の比較、Gibson・Fenderなど主要モデルの週次実勢相場（ヤフオク!落札データを毎週独自集計）、店頭・出張・宅配それぞれの売り方、高く売るコツまで解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

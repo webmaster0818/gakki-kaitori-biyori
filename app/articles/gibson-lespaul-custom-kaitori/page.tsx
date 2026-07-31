@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ギブソン レスポール カスタムの買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ギブソン レスポール カスタムは「Black Beauty」の愛称で知られる上位モデルで、多層バインディングと豪華な装飾、エボニー指板を備えた高級機です。中古市場でも別格の人気を誇り、買取でも高値が付きやすいモデルです。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="gibson-lespaul-custom-kaitori" modelName="Gibson Les Paul Custom" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">現行USA製 Custom（エボニー等）</td><td className="px-4 py-3 text-gold-dark font-bold">20万〜40万円前後</td><td className="px-4 py-3 text-warm-gray">仕様・カラー・状態で変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">2000〜2010年代 USA製／Custom Shop</td><td className="px-4 py-3 text-gold-dark font-bold">15万〜40万円前後</td><td className="px-4 py-3 text-warm-gray">Custom Shop製は高値傾向</td></tr><tr className="bg-white"><td className="px-4 py-3">ヴィンテージ／希少仕様</td><td className="px-4 py-3 text-gold-dark font-bold">数十万〜数百万円</td><td className="px-4 py-3 text-warm-gray">年代・希少性で大きく変動</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">ギブソン レスポール カスタムの買取価格を今すぐ無料でチェック</p>

@@ -4,7 +4,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawasaki-gakki-kaitori/' },
-  title: "川崎の楽器買取はどこがいい？川崎駅・武蔵小杉の店頭と出張・宅配の選び方【2026年7月】",
+  title: "川崎の楽器買取はどこがいい？川崎駅・武蔵小杉の店頭と出張・宅配の選び方【2026年8月】",
   description:
     "川崎で楽器を売るならどこがいい？川崎対応の楽器買取おすすめ3社を徹底比較。川崎・武蔵小杉・溝の口エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説。",
   openGraph: {
@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 川崎おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-07-07",
+    dateModified: "2026-08-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -106,7 +106,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             川崎で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、川崎エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、川崎・武蔵小杉・溝の口など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -227,7 +227,7 @@ export default function Page() {
           <CtaBox />
 
           <h2 id="local-shops">川崎の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
-          <p>川崎で楽器を売れる主な買取店を、2026年7月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <p>川崎で楽器を売れる主な買取店を、2026年8月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
           <h3>島村楽器 川崎ルフロン店 ── 川崎駅直結・川崎ルフロン7F</h3>
           <p>買取方式：店頭。楽器専門店の店頭買取。査定無料（<a href="https://www.shimamura.co.jp/shop/kawasaki/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 ラゾーナ川崎店 ── 幸区・ラゾーナ川崎プラザ4F</h3>

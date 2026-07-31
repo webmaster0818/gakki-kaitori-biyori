@@ -53,7 +53,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">セルマー マークVIの買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">セルマー マークVI（Mark VI）は、1954年から製造されたヴィンテージサックスの最高峰として世界中のプレイヤーに憧れられる名器です。製造番号により評価が大きく変わり、中古買取でも非常に高額な査定が期待できます。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="selmer-markvi-kaitori" modelName="Selmer Mark VI" />
@@ -80,7 +80,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">アルト 人気シリアル帯・美品</td><td className="px-4 py-3 text-gold-dark font-bold">数十万〜100万円超</td><td className="px-4 py-3 text-warm-gray">シリアル・状態で大きく変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">テナー 人気シリアル帯・美品</td><td className="px-4 py-3 text-gold-dark font-bold">数十万〜数百万円</td><td className="px-4 py-3 text-warm-gray">テナーは特に高評価</td></tr><tr className="bg-white"><td className="px-4 py-3">オリジナルラッカー残存・未改造個体</td><td className="px-4 py-3 text-gold-dark font-bold">高額傾向</td><td className="px-4 py-3 text-warm-gray">オリジナル度が重要</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">セルマー マークVIの買取価格を今すぐ無料でチェック</p>

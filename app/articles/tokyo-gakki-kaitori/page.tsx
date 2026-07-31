@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/tokyo-gakki-kaitori/' },
-  title: "東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】",
+  title: "東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年8月】",
   description:
     "東京で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。御茶ノ水・渋谷・新宿・池袋の楽器店街や区別の受け皿も解説。無料査定だけの利用もOK。",
   openGraph: {
-    title: "東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】",
+    title: "東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年8月】",
     description: "東京で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。御茶ノ水・渋谷・新宿・池袋の楽器店街や区別の受け皿も解説。無料査定だけの利用もOK。",
   },
 };
@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 東京おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-18",
-    dateModified: "2026-07-07",
+    dateModified: "2026-08-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -84,7 +84,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】\", \"item\": \"https://gakkikaitori-biyori.com/articles/tokyo-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年8月】\", \"item\": \"https://gakkikaitori-biyori.com/articles/tokyo-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -101,12 +101,12 @@ export default function TokyoGakkiKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年7月】
+            東京の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年8月】
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             東京で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、東京エリア対応の楽器買取おすすめ3社を徹底比較。出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、東京の楽器買取事情、高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

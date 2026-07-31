@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "リゾネーターなしでも買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。オープンバック型も需要があります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】バンジョー買取おすすめ3社比較｜相場とブランド別の価値", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】バンジョー買取おすすめ3社比較｜相場とブランド別の価値", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function BanjoKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】バンジョー買取おすすめ3社比較｜相場とブランド別の価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">バンジョーを売りたい方へ。Gibson・Deering・Gold Tone などブランド別の価値、5弦/テナーの違い、リゾネーターの有無、状態による査定差を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">

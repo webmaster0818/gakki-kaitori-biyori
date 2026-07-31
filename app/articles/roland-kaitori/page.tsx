@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】Roland買取おすすめ3社比較｜電子ピアノ・シンセ・電子ドラムの相場",
     datePublished: "2026-04-26",
-    dateModified: "2026-07-07",
+    dateModified: "2026-08-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -106,7 +106,7 @@ export default function RolandKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             Roland（ローランド）の電子ピアノ、シンセサイザー、電子ドラム、ギターアンプを売りたい方へ。本記事では、Roland製品の買取に強い3社を徹底比較し、製品カテゴリ別の買取相場、高く売るコツまで詳しく解説します。1972年創業の老舗電子楽器メーカーRolandは、中古市場でも安定した需要があります。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

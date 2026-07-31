@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">マーシャル JCM800の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">マーシャル JCM800は、1980年代を象徴する真空管ギターアンプで、ロックの定番サウンドを作り上げた名機です。中古市場でもヴィンテージ的価値があり、買取でも高い人気と安定した需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="marshall-jcm800-kaitori" modelName="Marshall JCM800" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">2203／2204 ヘッド（実機・良好）</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜25万円前後</td><td className="px-4 py-3 text-warm-gray">年式・状態で変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">コンボ（4010等）</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜20万円前後</td><td className="px-4 py-3 text-warm-gray">状態・オリジナル度で変動</td></tr><tr className="bg-white"><td className="px-4 py-3">初期ロット・希少仕様</td><td className="px-4 py-3 text-gold-dark font-bold">高額傾向</td><td className="px-4 py-3 text-warm-gray">コレクター需要がある場合も</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年7月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">マーシャル JCM800の買取価格を今すぐ無料でチェック</p>

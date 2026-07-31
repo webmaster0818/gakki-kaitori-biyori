@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>MD441 / MD421</td><td>30,000〜120,000円</td></tr><tr><td>e935 / e945 / e835</td><td>10,000〜40,000円</td></tr><tr><td>HD600 / HD650 / HD800S（ヘッドホン）</td><td>20,000〜250,000円</td></tr><tr><td>EW Digital ワイヤレス</td><td>100,000〜400,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

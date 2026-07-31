@@ -5,9 +5,9 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/boss-kaitori/' },
-  title: "【2026年7月 週次相場更新】BOSS買取相場ガイド｜全モデル査定額・高く売るコツ",
+  title: "【2026年8月 週次相場更新】BOSS買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "BOSS（ボス）のコンパクトエフェクター、マルチエフェクター買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
-  openGraph: { title: "【2026年7月 週次相場更新】BOSS買取相場ガイド｜全モデル査定額・高く売るコツ", description: "BOSS（ボス）のコンパクトエフェクター、マルチエフェクター買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
+  openGraph: { title: "【2026年8月 週次相場更新】BOSS買取相場ガイド｜全モデル査定額・高く売るコツ", description: "BOSS（ボス）のコンパクトエフェクター、マルチエフェクター買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
 };
 
 function Schema() {
@@ -53,7 +53,7 @@ export default function Page() {
             <tbody><tr><td>DD-3 / DD-5 ヴィンテージ</td><td>10,000〜50,000円</td></tr><tr><td>RV-1 / DM-2 ヴィンテージ</td><td>30,000〜150,000円</td></tr><tr><td>GT-1000 / GT-1000CORE</td><td>50,000〜120,000円</td></tr><tr><td>Katana アンプシリーズ</td><td>20,000〜80,000円</td></tr><tr><td>一般コンパクト（OD-3/DS-1等）</td><td>3,000〜15,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "弓だけでも対象ですか？", acceptedAnswer: { "@type": "Answer", text: "セットの方が有利ですが弓も査定されます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】鈴木バイオリン買取おすすめ3社比較｜相場と価値", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】鈴木バイオリン買取おすすめ3社比較｜相場と価値", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function SuzukiViolinKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】鈴木バイオリン買取おすすめ3社比較｜相場と価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">鈴木バイオリン（Suzuki Violin）を売りたい方へ。No.200〜540 などの量産モデルから特製品まで、教室需要による査定の安定性、状態による査定差を解説します。国産バイオリンの定番で分数サイズも需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">

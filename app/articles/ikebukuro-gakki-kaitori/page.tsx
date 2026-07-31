@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ikebukuro-gakki-kaitori/' },
-  title: "池袋の楽器買取はどこがいい？店舗持ち込み・出張・宅配の選び方とおすすめ3社【2026年7月】",
+  title: "池袋の楽器買取はどこがいい？店舗持ち込み・出張・宅配の選び方とおすすめ3社【2026年8月】",
   description:
     "池袋で楽器を売るならどこがいい？池袋の楽器買取店舗への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。楽器の買取屋さん池袋店（豊島区）の情報も。無料査定だけの利用もOK。",
   openGraph: {
-    title: "池袋の楽器買取はどこがいい？店舗持ち込み・出張・宅配の選び方とおすすめ3社【2026年7月】",
+    title: "池袋の楽器買取はどこがいい？店舗持ち込み・出張・宅配の選び方とおすすめ3社【2026年8月】",
     description: "池袋で楽器を売るならどこがいい？池袋の楽器買取店舗への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。楽器の買取屋さん池袋店（豊島区）の情報も。無料査定だけの利用もOK。",
   },
 };
@@ -76,7 +76,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 池袋おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-07-07",
+    dateModified: "2026-08-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -106,7 +106,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             池袋で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、池袋エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、池袋・板橋・練馬など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -230,7 +230,7 @@ export default function Page() {
           <CtaBox />
 
           <h2 id="local-shops">池袋の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
-          <p>池袋で楽器を売れる主な買取店を、2026年7月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <p>池袋で楽器を売れる主な買取店を、2026年8月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
           <h3>イシバシ楽器 池袋店 ── 東池袋・P'Parco 7F（池袋駅徒歩1分）</h3>
           <p>買取方式：店頭/出張/宅配。中古楽器の販売・買取に注力。Fender/Gibson/PRS/Martin等の輸入ブランドに強い。11:00〜21:00（<a href="https://www.ishibashi.co.jp/kaitori/tentou/ikebukuro.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 ミュージックサロン池袋 ── 西池袋・有楽町線1b出口直結(JR徒歩約5分)</h3>

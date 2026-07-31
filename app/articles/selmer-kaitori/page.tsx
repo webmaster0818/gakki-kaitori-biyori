@@ -5,10 +5,10 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/selmer-kaitori/' },
-  title: "【2026年7月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場",
+  title: "【2026年8月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場",
   description: "Selmer（セルマー）のサックスを売るならどこがいい？Series III・Reference・Super Action 80 IIなどモデル別の買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
   openGraph: {
-    title: "【2026年7月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場",
+    title: "【2026年8月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場",
     description: "Selmerサックスの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
   },
 };
@@ -40,9 +40,9 @@ function FaqSchema() {
       { "@type": "Question", name: "タンポが劣化していても買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、タンポの劣化は査定で減額対象になりますが、Selmerクラスのサックスはタンポ交換前提で査定されるため、十分な買取価格がつきます。" } },
       { "@type": "Question", name: "Selmerのクラリネットも買取できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、Selmerのクラリネット（Recital、Privilege、Signatureなど）も買取可能です。買取相場は3万〜15万円程度です。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年7月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場", datePublished: "2026-04-26", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年8月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場", datePublished: "2026-04-26", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年7月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/selmer-kaitori/\"}]}" }} /></>);
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年8月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/selmer-kaitori/\"}]}" }} /></>);
 }
 
 export default function Page() {
@@ -56,9 +56,9 @@ export default function Page() {
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">Selmer買取</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年7月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年8月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Selmer（セルマー/セルマーパリ）のサックスを売りたい方へ。本記事では、Selmer製サックスの買取に強い3社を徹底比較し、Series III・Reference・Super Action 80 IIなどモデル別の買取相場、ヴィンテージSelmerの価値、高く売るコツまで詳しく解説します。Selmerは1885年創業のフランスの管楽器メーカーで、サックスの世界で「最高峰」の地位を確立しています。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">

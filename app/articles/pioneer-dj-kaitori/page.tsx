@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "古いCDJでも売れますか？", acceptedAnswer: { "@type": "Answer", text: "CDJ-2000無印/nexusなども需要があります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】Pioneer DJ買取おすすめ3社比較｜CDJ・DJMの相場と価値", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】Pioneer DJ買取おすすめ3社比較｜CDJ・DJMの相場と価値", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function PioneerDjKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】Pioneer DJ買取おすすめ3社比較｜CDJ・DJMの相場と価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Pioneer DJの機材を売りたい方へ。CDJ-3000・CDJ-2000NXS2 などのプレーヤー、DJM-900NXS2 などのミキサー、DDJシリーズのコントローラーまで、機種・世代別の価値、状態による査定差を解説します。クラブ標準機として中古需要が非常に高いです。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">

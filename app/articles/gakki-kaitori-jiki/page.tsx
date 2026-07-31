@@ -30,7 +30,7 @@ function FaqSchema() {
       { "@type": "Question", name: "相場はどう調べますか？", acceptedAnswer: { "@type": "Answer", text: "ヒカカク！等の一括査定で現在の相場感を把握できます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を売るベストな時期は？｜高く売れるタイミングの見極め方", datePublished: "2026-06-05", dateModified: "2026-07-17", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を売るベストな時期は？｜高く売れるタイミングの見極め方", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -70,7 +70,7 @@ export default function GakkiKaitoriJikiPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器を売るベストな時期は？｜高く売れるタイミングの見極め方</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器をいつ売るべきか迷っている方へ。新生活・吹奏楽シーズンの需要、新モデル発売前のタイミング、状態が良いうちに売る重要性、相場の見方を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月17日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">

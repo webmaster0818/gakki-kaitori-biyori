@@ -79,7 +79,7 @@ export default function Page() {
         <div className="article-body">
         <h2 id="summary">1. DJ機材の特徴と市場概況</h2>
         <p>DJ機材はDJ機材はターンテーブル・CDJ・DJコントローラー・ミキサーが主流。Pioneer DJ・Technicsが二大ブランド。DJ/DTMカテゴリの中でも特に中古市場での需要が安定している楽器の一つです。</p>
-        <p>2026年7月現在、DJ機材の買取相場は、入門モデルで5,000円〜、中級モデルで約80,000円前後、プロ仕様の上位モデルは250,000円までと幅広い価格帯になります。</p>
+        <p>2026年8月現在、DJ機材の買取相場は、入門モデルで5,000円〜、中級モデルで約80,000円前後、プロ仕様の上位モデルは250,000円までと幅広い価格帯になります。</p>
         <p>買取額を最大化するには、<strong>メーカー・モデル・状態・付属品</strong>の4要素が鍵となります。本記事では、それぞれの観点からDJ機材の買取相場を整理します。</p>
 
         <h2 id="brand-souba">2. メーカー別の買取相場</h2>
@@ -90,7 +90,7 @@ export default function Page() {
             <tbody><tr><td>Pioneer DJ CDJ-3000</td><td>180,000〜250,000円</td></tr><tr><td>Pioneer DJ DJM-A9</td><td>150,000〜250,000円</td></tr><tr><td>Technics SL-1200MK7</td><td>80,000〜120,000円</td></tr><tr><td>Pioneer DJ DDJ-FLX10/FLX6</td><td>50,000〜180,000円</td></tr><tr><td>Numark / Reloop コントローラー</td><td>10,000〜80,000円</td></tr><tr><td>Native Instruments TRAKTOR</td><td>20,000〜100,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年7月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2 id="state-price">3. 状態別の査定額目安</h2>
         <p>同じモデルでも、状態によって査定額は大きく変わります。DJ機材の状態別査定の目安は以下の通りです。</p>

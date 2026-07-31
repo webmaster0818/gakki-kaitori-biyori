@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "量産品でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。YAMAHA・Aria・小平などの量産品は教室需要があり、状態が良ければ一定の価格がつきます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】クラシックギター買取おすすめ3社比較｜製作家別の相場と価値", datePublished: "2026-06-05", dateModified: "2026-07-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】クラシックギター買取おすすめ3社比較｜製作家別の相場と価値", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -69,7 +69,7 @@ export default function ClassicGuitarKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】クラシックギター買取おすすめ3社比較｜製作家別の相場と価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">クラシックギター（ガットギター）を売りたい方へ。本記事では製作家・ブランド別の価値、量産品と手工品の査定差、状態による評価、高く売るコツを解説します。手工クラシックギターは製作家の評価が価格を大きく左右します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年7月7日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
         </header>
 
         <div className="article-body">
