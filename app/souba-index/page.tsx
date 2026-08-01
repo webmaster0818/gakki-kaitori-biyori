@@ -46,7 +46,7 @@ export default function SoubaIndexPage() {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: "中古楽器買取相場指数",
-    description: `人気楽器${total.total}モデルのYahoo!オークション実勢中央値を合成した週次インデックス（基準週=100）`,
+    description: `中古楽器の買取相場を示す独自の週次インデックスです。人気楽器${total.total}モデルについてYahoo!オークションの落札実勢（過去180日の中央値）を毎週集計し、基準週を100として等ウェイトで合成しています。ギター・ベース・鍵盤・管楽器などカテゴリ別の指数も公開しています。`,
     url: "https://gakkikaitori-biyori.com/souba-index/",
     license: "出典明記で引用可",
     creator: { "@type": "Organization", name: "楽器買取日和" },
