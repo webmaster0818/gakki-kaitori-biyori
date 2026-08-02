@@ -1,133 +1,292 @@
 {
  "generated_note": "基準週(最初の共通週)の各モデル中央値を100とした等ウェイト指数。全週sample_n>=20のモデルのみ採用。カテゴリ別は構成3銘柄以上のみ。",
- "base_date": "2026-06-02",
- "latest_date": "2026-07-27",
+ "base_date": "2026-07-16",
+ "latest_date": "2026-08-03",
  "constituents": {
-  "total": 14,
+  "total": 46,
   "by_category": {
-   "管楽器": 2,
-   "エフェクター": 2,
-   "ベース": 1,
-   "エレキギター": 5,
-   "アンプ": 2,
-   "楽器": 2
+   "管楽器": 4,
+   "エフェクター": 4,
+   "楽器": 12,
+   "アンプ": 4,
+   "エレキギター": 12,
+   "ベース": 3,
+   "アコギ": 4,
+   "シンセ/キーボード": 2,
+   "ドラム": 1
   }
  },
  "slugs": [
+  "bach-42-trombone-kaitori",
   "bach-stradivarius-kaitori",
+  "boss-bd2-kaitori",
   "boss-ds1-kaitori",
+  "buffet-r13-kaitori",
+  "ehx-bigmuff-kaitori",
+  "esp-horizon-kaitori",
+  "fender-deluxereverb-kaitori",
+  "fender-jaguar-kaitori",
   "fender-jazzbass-kaitori",
+  "fender-jazzmaster-kaitori",
+  "fender-mustang-kaitori",
+  "fender-precisionbass-kaitori",
   "fender-stratocaster-kaitori",
   "fender-telecaster-kaitori",
   "fender-twinreverb-kaitori",
+  "gibson-es335-kaitori",
+  "gibson-flyingv-kaitori",
+  "gibson-j45-kaitori",
   "gibson-lespaul-custom-kaitori",
   "gibson-lespaul-standard-kaitori",
   "gibson-sg-kaitori",
+  "gretsch-6120-kaitori",
+  "ibanez-rg-kaitori",
+  "ibanez-ts808-kaitori",
   "ibanez-ts9-kaitori",
+  "korg-minilogue-kaitori",
+  "ludwig-supraphonic-kaitori",
   "marshall-jcm800-kaitori",
+  "martin-000-kaitori",
+  "martin-d28-kaitori",
+  "martin-d45-kaitori",
+  "muramatsu-flute-kaitori",
+  "musicman-stingray-kaitori",
+  "prs-custom24-kaitori",
+  "prs-se-kaitori",
+  "rickenbacker-330-kaitori",
+  "rickenbacker-4003-kaitori",
+  "roland-jc120-kaitori",
+  "roland-juno-kaitori",
   "selmer-markvi-kaitori",
   "selmer-series2-kaitori",
-  "yamaha-yas62-kaitori"
+  "vox-ac30-kaitori",
+  "warwick-thumb-kaitori",
+  "yamaha-yas62-kaitori",
+  "yamaha-ytr8335-kaitori"
  ],
  "labels": {
+  "bach-42-trombone-kaitori": "Bach 42 Trombone",
   "bach-stradivarius-kaitori": "Bach Stradivarius",
+  "boss-bd2-kaitori": "BOSS BD-2",
   "boss-ds1-kaitori": "BOSS DS-1",
+  "buffet-r13-kaitori": "Buffet Crampon R13",
+  "ehx-bigmuff-kaitori": "Electro-Harmonix Big Muff",
+  "esp-horizon-kaitori": "ESP Horizon",
+  "fender-deluxereverb-kaitori": "Fender Deluxe Reverb",
+  "fender-jaguar-kaitori": "Fender Jaguar",
   "fender-jazzbass-kaitori": "Fender Jazz Bass",
+  "fender-jazzmaster-kaitori": "Fender Jazzmaster",
+  "fender-mustang-kaitori": "Fender Mustang",
+  "fender-precisionbass-kaitori": "Fender Precision Bass",
   "fender-stratocaster-kaitori": "Fender Stratocaster",
   "fender-telecaster-kaitori": "Fender Telecaster",
   "fender-twinreverb-kaitori": "Fender Twin Reverb",
+  "gibson-es335-kaitori": "Gibson ES-335",
+  "gibson-flyingv-kaitori": "Gibson Flying V",
+  "gibson-j45-kaitori": "Gibson J-45",
   "gibson-lespaul-custom-kaitori": "Gibson Les Paul Custom",
   "gibson-lespaul-standard-kaitori": "Gibson Les Paul Standard",
   "gibson-sg-kaitori": "Gibson SG",
+  "gretsch-6120-kaitori": "Gretsch 6120",
+  "ibanez-rg-kaitori": "Ibanez RG",
+  "ibanez-ts808-kaitori": "Ibanez TS808",
   "ibanez-ts9-kaitori": "Ibanez TS9 Tube Screamer",
+  "korg-minilogue-kaitori": "KORG minilogue",
+  "ludwig-supraphonic-kaitori": "Ludwig Supraphonic",
   "marshall-jcm800-kaitori": "Marshall JCM800",
+  "martin-000-kaitori": "Martin 000-28",
+  "martin-d28-kaitori": "Martin D-28",
+  "martin-d45-kaitori": "Martin D-45",
+  "muramatsu-flute-kaitori": "Muramatsu Flute",
+  "musicman-stingray-kaitori": "Music Man StingRay",
+  "prs-custom24-kaitori": "PRS Custom 24",
+  "prs-se-kaitori": "PRS SE",
+  "rickenbacker-330-kaitori": "Rickenbacker 330",
+  "rickenbacker-4003-kaitori": "Rickenbacker 4003",
+  "roland-jc120-kaitori": "Roland JC-120",
+  "roland-juno-kaitori": "Roland Juno",
   "selmer-markvi-kaitori": "Selmer Mark VI",
   "selmer-series2-kaitori": "Selmer Series II",
-  "yamaha-yas62-kaitori": "YAMAHA YAS-62"
+  "vox-ac30-kaitori": "VOX AC30",
+  "warwick-thumb-kaitori": "Warwick Thumb",
+  "yamaha-yas62-kaitori": "YAMAHA YAS-62",
+  "yamaha-ytr8335-kaitori": "YAMAHA YTR-8335"
  },
  "composite": [
   {
-   "date": "2026-06-02",
+   "date": "2026-07-16",
    "index": 100.0
   },
   {
-   "date": "2026-06-08",
-   "index": 100.08
-  },
-  {
-   "date": "2026-06-15",
-   "index": 99.22
-  },
-  {
-   "date": "2026-06-22",
-   "index": 99.25
-  },
-  {
-   "date": "2026-06-29",
-   "index": 98.74
-  },
-  {
-   "date": "2026-07-06",
-   "index": 98.72
-  },
-  {
-   "date": "2026-07-13",
-   "index": 99.13
-  },
-  {
-   "date": "2026-07-16",
-   "index": 99.2
-  },
-  {
    "date": "2026-07-20",
-   "index": 98.34
+   "index": 99.7
   },
   {
    "date": "2026-07-27",
-   "index": 98.72
+   "index": 99.95
+  },
+  {
+   "date": "2026-08-01",
+   "index": 99.39
+  },
+  {
+   "date": "2026-08-03",
+   "index": 98.36
   }
  ],
  "categories": {
-  "エレキギター": [
+  "管楽器": [
    {
-    "date": "2026-06-02",
+    "date": "2026-07-16",
     "index": 100.0
    },
    {
-    "date": "2026-06-08",
-    "index": 100.57
-   },
-   {
-    "date": "2026-06-15",
-    "index": 99.17
-   },
-   {
-    "date": "2026-06-22",
-    "index": 98.07
-   },
-   {
-    "date": "2026-06-29",
-    "index": 98.19
-   },
-   {
-    "date": "2026-07-06",
-    "index": 98.19
-   },
-   {
-    "date": "2026-07-13",
-    "index": 98.3
-   },
-   {
-    "date": "2026-07-16",
-    "index": 97.46
-   },
-   {
     "date": "2026-07-20",
-    "index": 97.33
+    "index": 96.98
    },
    {
     "date": "2026-07-27",
-    "index": 98.29
+    "index": 96.57
+   },
+   {
+    "date": "2026-08-01",
+    "index": 95.94
+   },
+   {
+    "date": "2026-08-03",
+    "index": 90.86
+   }
+  ],
+  "エフェクター": [
+   {
+    "date": "2026-07-16",
+    "index": 100.0
+   },
+   {
+    "date": "2026-07-20",
+    "index": 99.42
+   },
+   {
+    "date": "2026-07-27",
+    "index": 99.58
+   },
+   {
+    "date": "2026-08-01",
+    "index": 99.36
+   },
+   {
+    "date": "2026-08-03",
+    "index": 100.53
+   }
+  ],
+  "楽器": [
+   {
+    "date": "2026-07-16",
+    "index": 100.0
+   },
+   {
+    "date": "2026-07-20",
+    "index": 99.8
+   },
+   {
+    "date": "2026-07-27",
+    "index": 100.03
+   },
+   {
+    "date": "2026-08-01",
+    "index": 98.58
+   },
+   {
+    "date": "2026-08-03",
+    "index": 97.61
+   }
+  ],
+  "アンプ": [
+   {
+    "date": "2026-07-16",
+    "index": 100.0
+   },
+   {
+    "date": "2026-07-20",
+    "index": 99.82
+   },
+   {
+    "date": "2026-07-27",
+    "index": 99.91
+   },
+   {
+    "date": "2026-08-01",
+    "index": 98.47
+   },
+   {
+    "date": "2026-08-03",
+    "index": 98.55
+   }
+  ],
+  "エレキギター": [
+   {
+    "date": "2026-07-16",
+    "index": 100.0
+   },
+   {
+    "date": "2026-07-20",
+    "index": 100.1
+   },
+   {
+    "date": "2026-07-27",
+    "index": 100.1
+   },
+   {
+    "date": "2026-08-01",
+    "index": 100.1
+   },
+   {
+    "date": "2026-08-03",
+    "index": 98.28
+   }
+  ],
+  "ベース": [
+   {
+    "date": "2026-07-16",
+    "index": 100.0
+   },
+   {
+    "date": "2026-07-20",
+    "index": 100.59
+   },
+   {
+    "date": "2026-07-27",
+    "index": 100.86
+   },
+   {
+    "date": "2026-08-01",
+    "index": 98.76
+   },
+   {
+    "date": "2026-08-03",
+    "index": 99.13
+   }
+  ],
+  "アコギ": [
+   {
+    "date": "2026-07-16",
+    "index": 100.0
+   },
+   {
+    "date": "2026-07-20",
+    "index": 100.12
+   },
+   {
+    "date": "2026-07-27",
+    "index": 100.56
+   },
+   {
+    "date": "2026-08-01",
+    "index": 100.89
+   },
+   {
+    "date": "2026-08-03",
+    "index": 100.93
    }
   ]
  }
