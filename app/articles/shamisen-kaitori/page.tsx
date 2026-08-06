@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import UrielVisitBanner from "@/components/UrielVisitBanner";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shamisen-kaitori/' },
@@ -29,7 +30,9 @@ function CtaBox() {
       <p className="font-bold text-base mb-4 text-center text-accent-dark">三味線の買取価格を無料で確認</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
-        <a href="https://uriel-cuore.co.jp" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
+        <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
+        {/* felmatインプレッション計測 */}
+        <img src="https://t.felmat.net/fmimp/A11184N.11542509.O138027B" width={1} height={1} alt="" style={{ border: "none" }} />
         <a href="https://tifana.net" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-warm-gray text-white font-medium px-6 py-3 rounded-full hover:bg-foreground transition-colors text-sm shadow-md">近くの店舗を探す</a>
       </div>
         <p className="text-center mt-4 text-sm"><a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark font-medium underline">楽器買取おすすめ業者の比較を見る →</a></p>
@@ -81,6 +84,9 @@ export default function Page() {
         <p>三味線は津軽・地唄・長唄など種類により買取相場が異なる。胴の皮材（紅木・花梨等）で査定額が大きく変動。和楽器カテゴリの中でも特に中古市場での需要が安定している楽器の一つです。</p>
         <p>2026年8月現在、三味線の買取相場は、入門モデルで5,000円〜、中級モデルで約80,000円前後、プロ仕様の上位モデルは500,000円までと幅広い価格帯になります。</p>
         <p>買取額を最大化するには、<strong>メーカー・モデル・状態・付属品</strong>の4要素が鍵となります。本記事では、それぞれの観点から三味線の買取相場を整理します。</p>
+
+        <UrielVisitBanner />
+
 
         <h2 id="brand-souba">2. メーカー別の買取相場</h2>
         <p>三味線は、メーカー・モデルによって買取相場が大きく異なります。代表的なブランドの相場目安は以下の通りです。</p>

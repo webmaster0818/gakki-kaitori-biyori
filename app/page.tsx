@@ -29,7 +29,7 @@ const services = [
   },
   {
     name: "ウリエル",
-    url: "https://uriel-cuore.co.jp",
+    url: "https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B",
     image: "/images/services/uriel.webp",
     tagline: "出張買取で自宅完結",
     description: "出張買取専門のサービス。自宅にいながら査定から買取まで完結。大型楽器や重い楽器の売却に最適です。",
@@ -163,6 +163,8 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
+        {/* felmatインプレッション計測 */}
+        <img src="https://t.felmat.net/fmimp/A11184N.11542509.O138027B" width={1} height={1} alt="" style={{ border: "none" }} />
               <Link
                 href="/articles/gakki-kaitori-osusume/"
                 className="inline-flex items-center gap-2 bg-white/20 backdrop-blur text-white font-medium px-7 py-3.5 rounded-full hover:bg-white/30 transition-colors shadow-md border border-white/30"
@@ -390,7 +392,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://uriel-cuore.co.jp"
+              href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B"
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-2 bg-accent text-white font-medium px-7 py-3.5 rounded-full hover:bg-accent-dark transition-colors shadow-md hover:shadow-lg"

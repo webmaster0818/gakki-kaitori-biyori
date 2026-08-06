@@ -1,3 +1,4 @@
+import { URIEL } from "@/data/affiliate";
 /**
  * おすすめ買取サービス3社のカード（公式サイトのキャプチャ画像付き）。
  * 全記事の末尾に表示（RelatedArticles 経由）。画像は各社公式サイトのスクリーンショット。
@@ -21,7 +22,7 @@ const SERVICES = [
   },
   {
     name: "ウリエル",
-    url: "https://uriel-cuore.co.jp",
+    url: "https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B",
     image: "/images/services/uriel.webp",
     tagline: "出張買取で自宅完結",
     desc: "出張買取専門。自宅にいながら査定から買取まで完結。大型・重量楽器の売却に最適です。",
@@ -81,6 +82,9 @@ export default function RecommendedServices({
           </div>
         ))}
       </div>
+    {/* felmatのインプレッション計測（テキストリンクとセットで必要） */}
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src={URIEL.imp} width={1} height={1} alt="" style={{ border: "none" }} />
     </section>
   );
 }

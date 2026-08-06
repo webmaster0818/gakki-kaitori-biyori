@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import UrielVisitBanner from "@/components/UrielVisitBanner";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-denshi-piano-kaitori/' },
@@ -27,10 +28,12 @@ function CtaBox() {
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
       <p className="font-bold text-base mb-4 text-center text-accent-dark">ローランド電子ピアノの買取価格を無料で確認</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-        <a href="https://uriel-cuore.co.jp" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">
+        <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">
           出張買取を申し込む
           <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
         </a>
+        {/* felmatインプレッション計測 */}
+        <img src="https://t.felmat.net/fmimp/A11184N.11542509.O138027B" width={1} height={1} alt="" style={{ border: "none" }} />
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
           <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
@@ -119,6 +122,9 @@ export default function Page() {
           <p>ティファナは<strong>年間4万件の買取実績</strong>があり、電子ピアノ以外のアイテムもまとめて売れるのが強みです。ポータブルモデルなら宅配買取も利用できます。</p>
 
           <CtaBox />
+
+          <UrielVisitBanner />
+
 
           <h2 id="series">シリーズ別の査定ポイント（LX・HP・RP・FP）</h2>
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import UrielVisitBanner from "@/components/UrielVisitBanner";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/koto-gakki-kaitori/' },
@@ -44,6 +45,9 @@ export default function Page() {
         <p>江東区（東京都江東区）は東京地方の主要都市の一つで、音楽教育・演奏文化が根付いているエリアです。楽器を売却・処分する需要も継続的にあり、複数の買取業者が対応エリアとしています。</p>
         <p>地域密着型の小規模楽器店もありますが、買取相場・対応スピード・買取ジャンルの幅では、全国対応の大手業者や一括査定サービスの方が優位なケースが多いです。</p>
 
+        <UrielVisitBanner />
+
+
         <h2>2. 江東区で利用できる買取方法3つ</h2>
 
         <h3>方法1: 出張買取（自宅まで査定）</h3>
@@ -86,7 +90,9 @@ export default function Page() {
           <p className="font-bold text-base mb-4 text-center text-accent-dark">江東区の楽器買取価格を無料で確認</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
-            <a href="https://uriel-cuore.co.jp" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
+            <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
+        {/* felmatインプレッション計測 */}
+        <img src="https://t.felmat.net/fmimp/A11184N.11542509.O138027B" width={1} height={1} alt="" style={{ border: "none" }} />
             <a href="https://tifana.net" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-warm-gray text-white font-medium px-6 py-3 rounded-full hover:bg-foreground transition-colors text-sm shadow-md">近くの店舗を探す</a>
           </div>
         <p className="text-center mt-4 text-sm"><a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark font-medium underline">楽器買取おすすめ業者の比較を見る →</a></p>
