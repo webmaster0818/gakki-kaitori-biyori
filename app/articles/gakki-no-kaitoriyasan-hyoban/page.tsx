@@ -103,6 +103,27 @@ export default function Page() {
           <p className="text-sm leading-relaxed">楽器の買取価格は業者・時期・状態で数万円単位の差が出ます。楽器の買取屋さんを検討する場合も、<strong>一括査定や他の専門店の見積もりと比べてから決める</strong>のが確実です。当サイトの<a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark underline font-medium">楽器買取おすすめ業者比較</a>や<a href="/articles/mercari-vs-gyosha/" className="text-accent-dark underline font-medium">フリマ vs 買取業者の比較</a>もあわせてご覧ください。</p>
         </div>
 
+        <h2 className="text-xl font-bold mt-8 mb-3">他の選び方と、どう使い分けるか</h2>
+        <p className="text-sm mb-3">「楽器の買取屋さんにするか、他にするか」を決めるための整理です。<strong>どれが優れているという話ではなく、状況で向き不向きが分かれます。</strong>下記は各社公式で確認できる範囲の事実のみを記載しています（2026年8月時点）。</p>
+        <div className="overflow-x-auto my-4">
+          <table className="w-full text-sm border border-warm-border">
+            <thead className="bg-cream">
+              <tr>
+                <th className="px-3 py-2 text-left border-b border-warm-border">選択肢</th>
+                <th className="px-3 py-2 text-left border-b border-warm-border">買取方法</th>
+                <th className="px-3 py-2 text-left border-b border-warm-border">向いている場面</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">楽器の買取屋さん</td><td className="px-3 py-2">出張・宅配・店頭（全国27店舗）</td><td className="px-3 py-2">大型・多点数を自宅で片づけたい。近くに店舗がある</td></tr>
+              <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">一括査定（ヒカカク！）</td><td className="px-3 py-2">複数社へまとめて査定依頼</td><td className="px-3 py-2"><strong>金額が相場か確かめたい</strong>。1社の提示が妥当か判断できない</td></tr>
+              <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">出張専門（ウリエル）</td><td className="px-3 py-2">出張</td><td className="px-3 py-2">ドラム・アンプなど運べない機材がある</td></tr>
+              <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">総合買取（ティファナ）</td><td className="px-3 py-2">出張・店頭・宅配</td><td className="px-3 py-2">楽器以外もまとめて処分したい</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm mb-6"><strong>迷ったときの目安は1つです。</strong>楽器の買取価格は業者・時期・状態で数万円単位の差が出ます。<strong>「この金額が妥当か分からない」なら、先に一括査定で相場を掴んでから個社に依頼する</strong>ほうが失敗しません。逆に<strong>金額より早さ・手間のなさを優先するなら、出張の強い業者に直接依頼する</strong>ほうが早く終わります。詳しい比較は<a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark underline">楽器買取おすすめ業者の比較</a>にまとめています。</p>
+
         <h2 className="text-xl font-bold mt-8 mb-3">店舗一覧（店頭買取・持ち込み対応）</h2>
         <p className="text-sm mb-3">楽器の買取屋さんは全国に店舗を展開しており、<strong>全店舗で店頭買取（持ち込み）に対応</strong>しています（来店前の電話予約でよりスムーズに対応可能と公式に案内されています）。以下は公式店舗ページで確認できる店舗の一覧です（2026年8月16日時点・当サイト確認／公式掲載27店舗）。住所詳細・営業時間・電話番号は<a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">公式の店舗一覧ページ</a>でご確認ください。</p>
         <div className="overflow-x-auto mb-3">
