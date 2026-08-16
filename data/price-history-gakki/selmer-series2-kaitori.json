@@ -82,13 +82,19 @@
       "median_jpy": 360888,
       "sample_n": 90,
       "raw_n": 106
+    },
+    {
+      "date": "2026-08-17",
+      "median_jpy": 360444,
+      "sample_n": 96,
+      "raw_n": 110
     }
   ],
   "latest": {
-    "date": "2026-08-10",
-    "median_jpy": 360888,
-    "sample_n": 90,
-    "raw_n": 106,
+    "date": "2026-08-17",
+    "median_jpy": 360444,
+    "sample_n": 96,
+    "raw_n": 110,
     "insufficient": false
   },
   "note": "週次自動更新で履歴を蓄積中。"

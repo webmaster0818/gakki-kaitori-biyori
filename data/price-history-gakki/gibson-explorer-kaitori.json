@@ -40,10 +40,16 @@
       "median_jpy": 148150,
       "sample_n": 12,
       "raw_n": 20
+    },
+    {
+      "date": "2026-08-17",
+      "median_jpy": 148150,
+      "sample_n": 12,
+      "raw_n": 20
     }
   ],
   "latest": {
-    "date": "2026-08-10",
+    "date": "2026-08-17",
     "median_jpy": 148150,
     "sample_n": 12,
     "raw_n": 20,

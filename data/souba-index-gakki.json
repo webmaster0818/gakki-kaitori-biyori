@@ -1,15 +1,15 @@
 {
  "generated_note": "基準週(最初の共通週)の各モデル中央値を100とした等ウェイト指数。全週sample_n>=20のモデルのみ採用。カテゴリ別は構成3銘柄以上のみ。",
  "base_date": "2026-07-16",
- "latest_date": "2026-08-10",
+ "latest_date": "2026-08-17",
  "constituents": {
-  "total": 46,
+  "total": 45,
   "by_category": {
    "管楽器": 4,
    "エフェクター": 4,
    "楽器": 12,
    "アンプ": 4,
-   "エレキギター": 12,
+   "エレキギター": 11,
    "ベース": 3,
    "アコギ": 4,
    "シンセ/キーボード": 2,
@@ -40,7 +40,6 @@
   "gibson-lespaul-standard-kaitori",
   "gibson-sg-kaitori",
   "gretsch-6120-kaitori",
-  "ibanez-rg-kaitori",
   "ibanez-ts808-kaitori",
   "ibanez-ts9-kaitori",
   "korg-minilogue-kaitori",
@@ -88,7 +87,6 @@
   "gibson-lespaul-standard-kaitori": "Gibson Les Paul Standard",
   "gibson-sg-kaitori": "Gibson SG",
   "gretsch-6120-kaitori": "Gretsch 6120",
-  "ibanez-rg-kaitori": "Ibanez RG",
   "ibanez-ts808-kaitori": "Ibanez TS808",
   "ibanez-ts9-kaitori": "Ibanez TS9 Tube Screamer",
   "korg-minilogue-kaitori": "KORG minilogue",
@@ -119,7 +117,7 @@
   },
   {
    "date": "2026-07-20",
-   "index": 99.7
+   "index": 99.69
   },
   {
    "date": "2026-07-27",
@@ -127,15 +125,19 @@
   },
   {
    "date": "2026-08-01",
-   "index": 99.39
+   "index": 99.38
   },
   {
    "date": "2026-08-03",
-   "index": 98.36
+   "index": 98.32
   },
   {
    "date": "2026-08-10",
-   "index": 99.64
+   "index": 99.63
+  },
+  {
+   "date": "2026-08-17",
+   "index": 99.16
   }
  ],
  "categories": {
@@ -163,6 +165,10 @@
    {
     "date": "2026-08-10",
     "index": 101.06
+   },
+   {
+    "date": "2026-08-17",
+    "index": 97.86
    }
   ],
   "エフェクター": [
@@ -189,6 +195,10 @@
    {
     "date": "2026-08-10",
     "index": 99.34
+   },
+   {
+    "date": "2026-08-17",
+    "index": 100.66
    }
   ],
   "楽器": [
@@ -215,6 +225,10 @@
    {
     "date": "2026-08-10",
     "index": 98.23
+   },
+   {
+    "date": "2026-08-17",
+    "index": 96.76
    }
   ],
   "アンプ": [
@@ -241,6 +255,10 @@
    {
     "date": "2026-08-10",
     "index": 98.1
+   },
+   {
+    "date": "2026-08-17",
+    "index": 98.27
    }
   ],
   "エレキギター": [
@@ -250,23 +268,27 @@
    },
    {
     "date": "2026-07-20",
-    "index": 100.1
+    "index": 100.11
    },
    {
     "date": "2026-07-27",
-    "index": 100.1
+    "index": 100.11
    },
    {
     "date": "2026-08-01",
-    "index": 100.1
+    "index": 100.11
    },
    {
     "date": "2026-08-03",
-    "index": 98.28
+    "index": 98.12
    },
    {
     "date": "2026-08-10",
-    "index": 99.03
+    "index": 98.95
+   },
+   {
+    "date": "2026-08-17",
+    "index": 99.18
    }
   ],
   "ベース": [
@@ -293,6 +315,10 @@
    {
     "date": "2026-08-10",
     "index": 99.81
+   },
+   {
+    "date": "2026-08-17",
+    "index": 99.64
    }
   ],
   "アコギ": [
@@ -319,6 +345,10 @@
    {
     "date": "2026-08-10",
     "index": 101.23
+   },
+   {
+    "date": "2026-08-17",
+    "index": 102.3
    }
   ]
  }
