@@ -249,11 +249,13 @@ export default function Page() {
           <p>買取方式：店頭(完全予約制)/出張(毎日9:00〜20:30)/宅配。楽器買取専門店。弦楽器〜PA/録音機器まで。出張対応時間が長い（<a href="https://gakkidou.co.jp/shop/tokyo/dogenzaka/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>クロサワ楽器 G-CLUB SHIBUYA（KAIKURO） ── 道玄坂・渋谷駅</h3>
           <p>買取方式：店頭/出張/宅配。KAIKUROブランドでギター・ベースに強い(Gibson/Fender/Taylor等)（<a href="https://www.kurosawagakki.com/sh_gcshibuya/kaitori2021/index.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>イケシブリユース（池部楽器店） ── 桜丘町・渋谷駅徒歩圏</h3>
+          <p>買取方式：店頭(中古販売＆総合買取受付窓口)。〒150-0031 東京都渋谷区桜丘町24-2 第3富士商事ビル5〜6F。イケベ楽器店の買取総合受付店で、楽器の種類・ジャンルを問わず持ち込み相談に対応（<a href="https://www.ikebe-gakki.com/Page/shoplist.aspx" target="_blank" rel="nofollow noopener" className="underline">公式店舗一覧</a>／<a href="https://www.ikebe-gakki.com/Page/reuse_purchase_method.aspx" target="_blank" rel="nofollow noopener" className="underline">買取方法</a>）</p>
           <h3>セカンドストリート 渋谷神南店 ── 神南(渋谷/原宿圏)</h3>
           <p>買取方式：店頭。総合リユース店。楽器買取の可否は店舗により異なる(要確認)（<a href="https://www.2ndstreet.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>楽器の買取屋さん ── 渋谷区に常設店舗なし(全国出張)</h3>
           <p>買取方式：出張/宅配。出張買取が主力。最短30分査定（<a href="https://gakkikaitori.co.jp/area/tokyo/shibuya/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
-          <p className="text-sm text-warm-gray">※ハードオフは渋谷区内に常設の楽器買取店なし(高座渋谷店は神奈川県大和市で別物)。島村楽器も渋谷区内店舗なし(最寄り新宿PePe等)。渋谷で確実に売れる実店舗はイシバシ/中古楽器堂/クロサワG-CLUBの3社で道玄坂・宇田川町に集中。</p>
+          <p className="text-sm text-warm-gray">※ハードオフは渋谷区内に常設の楽器買取店なし(高座渋谷店は神奈川県大和市で別物)。島村楽器も渋谷区内店舗なし(最寄り新宿PePe等)。渋谷で確実に売れる実店舗はイシバシ/中古楽器堂/クロサワG-CLUB/イケシブリユースの4社で、道玄坂・宇田川町・桜丘町に集中。</p>
 
           <CtaBox />
 
