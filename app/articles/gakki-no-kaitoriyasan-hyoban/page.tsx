@@ -4,10 +4,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan-hyoban/' },
-  title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年8月】",
-  description: "「楽器の買取屋さん」の評判・口コミ・運営会社・買取方法・料金を公開情報で検証。査定料/出張料/キャンセル料0円・全国出張対応の実態、良い評判と気になる声の傾向、他社との比較まで中立的に整理します。",
+  title: "楽器の買取屋さんとは？店舗一覧・評判・運営会社と手数料を検証【2026年8月】",
+  description: "「楽器の買取屋さん」はどんな買取業者？店舗一覧・運営会社・買取方法・料金・評判を公開情報で検証。査定料/出張料/キャンセル料0円・全国出張対応の実態、良い評判と気になる声の傾向、他社との比較まで中立的に整理します。",
   openGraph: {
-    title: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年8月】",
+    title: "楽器の買取屋さんとは？店舗一覧・評判・運営会社と手数料を検証【2026年8月】",
     description: "「楽器の買取屋さん」の運営会社・買取方法・料金・評判の傾向を公開情報で中立的に検証。",
   },
 };
@@ -43,7 +43,7 @@ const FAQ = [
 
 export default function Page() {
   const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
-  const articleLd = { "@context": "https://schema.org", "@type": "Article", headline: "楽器の買取屋さんの評判は怪しい？運営会社・店舗一覧・手数料を検証【2026年8月】", datePublished: "2026-07-08", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleLd = { "@context": "https://schema.org", "@type": "Article", headline: "楽器の買取屋さんとは？店舗一覧・評判・運営会社と手数料を検証【2026年8月】", datePublished: "2026-07-08", dateModified: "2026-08-16", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumbLd = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" }, { "@type": "ListItem", position: 2, name: "楽器の買取屋さんの評判", item: "https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan-hyoban/" }] };
   return (
     <>
@@ -52,8 +52,8 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
       <Breadcrumb />
       <article className="max-w-4xl mx-auto px-4 pb-16">
-        <h1 className="text-2xl md:text-3xl font-bold mt-4 mb-3">楽器の買取屋さんの評判・口コミは？運営会社・買取方法・料金を検証【2026年8月】</h1>
-        <p className="text-xs text-warm-gray mb-6">最終更新: 2026年8月1日／編集部調べ（各社公式・公開情報より）</p>
+        <h1 className="text-2xl md:text-3xl font-bold mt-4 mb-3">楽器の買取屋さんとは？店舗一覧・評判・運営会社と手数料を検証【2026年8月】</h1>
+        <p className="text-xs text-warm-gray mb-6">最終更新: 2026年8月16日／編集部調べ（各社公式・公開情報より）</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-5 mb-8">
           <p className="font-bold mb-2 text-accent-dark">まず結論</p>
@@ -104,12 +104,12 @@ export default function Page() {
         </div>
 
         <h2 className="text-xl font-bold mt-8 mb-3">店舗一覧（店頭買取・持ち込み対応）</h2>
-        <p className="text-sm mb-3">楽器の買取屋さんは全国に店舗を展開しており、<strong>全店舗で店頭買取（持ち込み）に対応</strong>しています（来店前の電話予約でよりスムーズに対応可能と公式に案内されています）。以下は公式店舗ページで確認できる店舗の一覧です（2026年7月10日時点・当サイト確認）。住所詳細・営業時間・電話番号は<a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">公式の店舗一覧ページ</a>でご確認ください。</p>
+        <p className="text-sm mb-3">楽器の買取屋さんは全国に店舗を展開しており、<strong>全店舗で店頭買取（持ち込み）に対応</strong>しています（来店前の電話予約でよりスムーズに対応可能と公式に案内されています）。以下は公式店舗ページで確認できる店舗の一覧です（2026年8月16日時点・当サイト確認／公式掲載27店舗）。住所詳細・営業時間・電話番号は<a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">公式の店舗一覧ページ</a>でご確認ください。</p>
         <div className="overflow-x-auto mb-3">
           <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
             <thead className="bg-cream"><tr><th className="px-3 py-2 text-left border-b border-warm-border">地方</th><th className="px-3 py-2 text-left border-b border-warm-border">店舗（所在地）</th></tr></thead>
             <tbody>
-              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東北・関東</td><td className="px-3 py-2 border-b border-warm-border">宮城岩沼店（宮城県岩沼市）／宇都宮店（栃木県宇都宮市）／群馬桐生店（群馬県桐生市）／大宮店（さいたま市大宮区）／柏店（千葉県柏市）／上野店（東京都台東区）／池袋店（東京都豊島区）／横浜店（横浜市中区）／厚木店（神奈川県厚木市）</td></tr>
+              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東北・関東</td><td className="px-3 py-2 border-b border-warm-border">宮城岩沼店（宮城県岩沼市）／宇都宮店（栃木県宇都宮市）／群馬桐生店（群馬県桐生市）／大宮店（さいたま市大宮区）／柏店（千葉県柏市）／上野店（東京都台東区）／池袋店（東京都豊島区）／板橋店（東京都板橋区）／横浜店（横浜市中区）／厚木店（神奈川県厚木市）</td></tr>
               <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">北陸・甲信越</td><td className="px-3 py-2 border-b border-warm-border">新潟店（新潟市西区）／金沢店（石川県金沢市）／石川小松店（石川県小松市）／福井花堂中店（福井県福井市）／甲府千塚店（山梨県甲府市）／長野松本店（長野県松本市）</td></tr>
               <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東海</td><td className="px-3 py-2 border-b border-warm-border">富士津田店（静岡県富士市）／豊川店（愛知県豊川市）／名古屋守山店（名古屋市守山区）／名古屋栄店（名古屋市中区）</td></tr>
               <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">関西</td><td className="px-3 py-2 border-b border-warm-border">大阪門真店（大阪府門真市）／大阪心斎橋店（大阪市中央区）／奈良神殿店（奈良県奈良市）</td></tr>

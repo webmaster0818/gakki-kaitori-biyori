@@ -19,6 +19,29 @@ type Props = {
   relatedSlugs: string[];
 };
 
+/**
+ * 業者そのものを調べたい人の受け皿への導線。全記事の末尾に出す。
+ *
+ * ⚠️ なぜ全記事に置くか:
+ *   指名クエリ「楽器の買取屋さん」(251表示/28日) に対して、専用の検証ページではなく
+ *   名古屋・横浜・福岡などのエリア記事10本が7〜10位に分散して出ており、クリックは0だった。
+ *   専用ページは自分の主題語ですら74位で、内部リンクが23ファイルしか無かったことが主因。
+ *   1箇所の変更で全記事から参照させ、どのページが主題を持つのかを明確にする。
+ */
+function BuyerReviewLink({ currentSlug }: { currentSlug: string }) {
+  const slug = "gakki-no-kaitoriyasan-hyoban";
+  if (currentSlug === slug) return null;
+  return (
+    <p className="mt-8 text-sm text-warm-gray">
+      業者そのものを調べている方は{" "}
+      <Link href={`/articles/${slug}/`} className="text-accent-dark font-medium underline">
+        楽器の買取屋さんの店舗一覧・運営会社・評判の検証
+      </Link>{" "}
+      もあわせてご覧ください。
+    </p>
+  );
+}
+
 const metadataMap: Record<string, ArticleMeta> = (() => {
   const map: Record<string, ArticleMeta> = {};
   for (const m of articlesMetadata as ArticleMeta[]) {
@@ -53,6 +76,7 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
       <>
         <RecommendedServices />
         <PriceDisclaimer />
+        <BuyerReviewLink currentSlug={currentSlug} />
       </>
     );
 
@@ -71,6 +95,7 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
     <>
     <RecommendedServices />
     <PriceDisclaimer />
+    <BuyerReviewLink currentSlug={currentSlug} />
     <aside className="mt-12 pt-8 border-t border-warm-border">
       <h2 className="font-display text-lg font-bold mb-6">関連記事</h2>
       <div className="space-y-8">
