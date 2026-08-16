@@ -117,6 +117,7 @@ export default function Page() {
           <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
           <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
           <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
+          <li><Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent hover:underline">楽器の買取屋さんの店舗一覧・運営会社・評判の検証</Link></li>
         </ul>
         </div>
       </article>
