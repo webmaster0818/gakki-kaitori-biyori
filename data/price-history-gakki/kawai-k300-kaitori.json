@@ -13,9 +13,9 @@
     }
   ],
   "latest": {
-    "date": "2026-08-17",
+    "date": "2026-08-24",
     "median_jpy": 7700,
-    "sample_n": 226,
+    "sample_n": 230,
     "raw_n": 248,
     "insufficient": true
   },
