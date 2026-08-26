@@ -41,6 +41,17 @@ export default function Page() {
         </header>
 
         <div className="article-body">
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/tama-starclassic-kaitori/" className="text-accent-dark underline">TAMA スタークラシック買取相場</a></li>
+              <li><a href="/articles/tama-tokyo-gakki-kaitori/" className="text-accent-dark underline">楽器買取 多摩市おすすめ3選</a></li>
+            </ul>
+          </div>
+
         <h2>1. TAMAのブランド概要</h2>
         <p>TAMA（タマ）は、ドラムカテゴリで長年にわたり愛されてきたメーカーです。ドラムセット、シンバルスタンド、ハードウェアを製造し、プロからアマチュアまで幅広い層に支持されています。</p>
         <p>中古市場でのTAMAは、入門モデルから最上位プロモデルまで価格帯が広く、ヴィンテージ価値のあるモデルは新品以上の値段がつくことも珍しくありません。</p>

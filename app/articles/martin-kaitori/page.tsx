@@ -77,6 +77,18 @@ export default function MartinKaitoriPage() {
         </nav>
 
         <div className="article-body">
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/martin-000-kaitori/" className="text-accent-dark underline">マーティン 000-28の買取相場</a></li>
+              <li><a href="/articles/martin-d28-kaitori/" className="text-accent-dark underline">マーチン D-28買取相場</a></li>
+              <li><a href="/articles/martin-d45-kaitori/" className="text-accent-dark underline">マーティン D-45の買取相場</a></li>
+            </ul>
+          </div>
+
           <h2 id="about">Martinブランドの特徴 ── アコースティックギターの原点</h2>
           <p>C.F. Martin & Company（マーティン）は1833年にドイツ移民のクリスチャン・フレデリック・マーティンがアメリカ・ペンシルベニア州で創業したアコースティックギターメーカーです。<strong>ドレッドノートボディの発明者</strong>として知られ、アコースティックギターの歴史そのものを作ってきたブランドです。</p>
           <p>Martinの特徴は、スプルーストップ＋ローズウッド（またはマホガニー）サイド＆バックの伝統的な構造と、長年の経験に裏打ちされた<strong>「鳴り」の良さ</strong>です。新品の時点から豊かな音量と深みのある音色を持ち、弾き込むほどに音が育っていくのがMartinギターの魅力です。</p>

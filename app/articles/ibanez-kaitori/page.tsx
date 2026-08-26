@@ -65,6 +65,19 @@ export default function Page() {
 
         <div className="article-body">
 
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/ibanez-jem-kaitori/" className="text-accent-dark underline">アイバニーズ JEMの買取相場</a></li>
+              <li><a href="/articles/ibanez-rg-kaitori/" className="text-accent-dark underline">アイバニーズ RG買取相場</a></li>
+              <li><a href="/articles/ibanez-ts808-kaitori/" className="text-accent-dark underline">アイバニーズ TS808買取相場</a></li>
+              <li><a href="/articles/ibanez-ts9-kaitori/" className="text-accent-dark underline">Ibanez TS9の買取相場</a></li>
+            </ul>
+          </div>
+
+
           <h2 id="about">Ibanezブランドの特徴 ── テクニカルギタリストの味方</h2>
           <p>Ibanez（アイバニーズ）は名古屋の星野楽器製作所が展開するギターブランドです。1957年にスタートし、Steve Vai、Joe Satriani、John Petrucci（過去）など、世界的なテクニカルギタリストのシグネチャーモデルを多数リリースしてきました。</p>
           <p>Ibanezの特徴は<strong>薄いネックプロファイル（Wizard/Super Wizard）、フラットな指板、Edge/Lo-Proなどの高精度トレモロ</strong>です。速弾きやテクニカルプレイに最適化された設計で、メタルやフュージョン系のギタリストに特に人気があります。</p>

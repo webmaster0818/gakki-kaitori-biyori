@@ -151,7 +151,7 @@ export default function RolandJc120KaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="roland-jc120-kaitori" relatedSlugs={["amp-kaitori", "guitar-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]} />
+        <RelatedArticles currentSlug="roland-jc120-kaitori" relatedSlugs={["guitar-amp-kaitori", "guitar-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]} />
       </article>
     </>
   );

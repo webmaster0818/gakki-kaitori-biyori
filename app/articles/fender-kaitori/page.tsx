@@ -126,6 +126,25 @@ export default function FenderKaitoriPage() {
         </nav>
 
         <div className="article-body">
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/fender-deluxe-reverb-kaitori/" className="text-accent-dark underline">フェンダー デラックスリバーブ買取相場</a></li>
+              <li><a href="/articles/fender-deluxereverb-kaitori/" className="text-accent-dark underline">フェンダー デラックスリバーブの買取相場</a></li>
+              <li><a href="/articles/fender-jaguar-kaitori/" className="text-accent-dark underline">フェンダー ジャガー買取相場</a></li>
+              <li><a href="/articles/fender-jazzbass-kaitori/" className="text-accent-dark underline">フェンダー ジャズベースの買取相場</a></li>
+              <li><a href="/articles/fender-jazzmaster-kaitori/" className="text-accent-dark underline">フェンダー ジャズマスター買取相場</a></li>
+              <li><a href="/articles/fender-mustang-kaitori/" className="text-accent-dark underline">フェンダー ムスタングの買取相場</a></li>
+              <li><a href="/articles/fender-precisionbass-kaitori/" className="text-accent-dark underline">フェンダー プレシジョンベース買取相場</a></li>
+              <li><a href="/articles/fender-stratocaster-kaitori/" className="text-accent-dark underline">フェンダー ストラトキャスターの買取相場</a></li>
+              <li><a href="/articles/fender-telecaster-kaitori/" className="text-accent-dark underline">フェンダー テレキャスターの買取相場</a></li>
+              <li><a href="/articles/fender-twinreverb-kaitori/" className="text-accent-dark underline">フェンダー ツインリバーブの買取相場</a></li>
+            </ul>
+          </div>
+
           <h2 id="market-price">Fenderモデル別・製造国別 買取相場【2026年8月 週次相場更新】</h2>
 
           <p>Fender(フェンダー)は世界で最も売れているギターブランドの一つです。買取価格は<strong>製造国（USA・メキシコ・日本）とモデルラインによって明確にランク分け</strong>されます。</p>

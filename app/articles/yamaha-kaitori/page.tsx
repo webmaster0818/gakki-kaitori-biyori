@@ -127,6 +127,22 @@ export default function YamahaKaitoriPage() {
         </nav>
 
         <div className="article-body">
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/yamaha-c3-kaitori/" className="text-accent-dark underline">ヤマハ C3買取相場</a></li>
+              <li><a href="/articles/yamaha-u1-kaitori/" className="text-accent-dark underline">ヤマハ U1の買取相場</a></li>
+              <li><a href="/articles/yamaha-u3-kaitori/" className="text-accent-dark underline">ヤマハ U3の買取相場</a></li>
+              <li><a href="/articles/yamaha-yas62-kaitori/" className="text-accent-dark underline">ヤマハ YAS-62の買取相場</a></li>
+              <li><a href="/articles/yamaha-yas875-kaitori/" className="text-accent-dark underline">ヤマハ YAS-875買取相場</a></li>
+              <li><a href="/articles/yamaha-ytr8335-kaitori/" className="text-accent-dark underline">ヤマハ YTR-8335の買取相場</a></li>
+              <li><a href="/articles/yamaha-yus5-kaitori/" className="text-accent-dark underline">ヤマハ YUS5の買取相場</a></li>
+            </ul>
+          </div>
+
           <h2 id="piano">YAMAHAピアノの買取相場</h2>
 
           <p>YAMAHA(ヤマハ)は日本最大の楽器メーカーであり、特にピアノは国内シェアNo.1を誇ります。中古市場でも「YAMAHAのピアノ」は安定した需要があり、<strong>型番によっては購入価格の30〜50%で買取されるケースもあります</strong>。</p>

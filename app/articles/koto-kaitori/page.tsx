@@ -80,6 +80,16 @@ export default function Page() {
         </nav>
 
         <div className="article-body">
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/koto-gakki-kaitori/" className="text-accent-dark underline">楽器買取 江東区おすすめ3選</a></li>
+            </ul>
+          </div>
+
         <h2 id="summary">1. 琴（こと）の特徴と市場概況</h2>
         <p>琴（こと）は13弦・17弦・20弦などがあり、桐材の樹齢と作り手の銘で価格が決まる。胴に「綾杉彫り」がある個体は高評価。和楽器カテゴリの中でも特に中古市場での需要が安定している楽器の一つです。</p>
         <p>2026年8月現在、琴（こと）の買取相場は、入門モデルで5,000円〜、中級モデルで約100,000円前後、プロ仕様の上位モデルは1,500,000円までと幅広い価格帯になります。</p>

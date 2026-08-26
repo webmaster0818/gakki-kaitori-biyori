@@ -65,6 +65,17 @@ export default function Page() {
 
         <div className="article-body">
 
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/selmer-markvi-kaitori/" className="text-accent-dark underline">セルマー マークVIの買取相場</a></li>
+              <li><a href="/articles/selmer-series2-kaitori/" className="text-accent-dark underline">セルマー シリーズIIの買取相場</a></li>
+            </ul>
+          </div>
+
+
           <h2 id="about">Selmerブランドの特徴 ── サックスの最高峰</h2>
           <p>Henri Selmer Paris（アンリ・セルマー・パリ）は1885年にフランス・パリで創業した管楽器メーカーです。サックス、クラリネット、マウスピースなどを製造しており、特にサックスは<strong>プロ奏者の使用率が世界で最も高いブランド</strong>として知られています。</p>
           <p>Charlie Parker、John Coltrane、Michael Breckerなど、ジャズ史に名を残す巨匠たちがSelmerのサックスを愛用してきました。その伝統と品質は中古市場でも非常に高い評価を受けており、Selmerサックスは<strong>管楽器の中で最も安定した買取価格</strong>がつくブランドです。</p>

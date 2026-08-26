@@ -151,7 +151,7 @@ export default function FenderDeluxeReverbKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="fender-deluxe-reverb-kaitori" relatedSlugs={["fender-twinreverb-kaitori", "amp-kaitori", "fender-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
+        <RelatedArticles currentSlug="fender-deluxe-reverb-kaitori" relatedSlugs={["fender-twinreverb-kaitori", "guitar-amp-kaitori", "fender-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
       </article>
     </>
   );

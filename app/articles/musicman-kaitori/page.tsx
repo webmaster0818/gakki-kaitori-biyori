@@ -76,6 +76,16 @@ export default function MusicmanKaitoriPage() {
 
         <div className="article-body">
 
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/musicman-stingray-kaitori/" className="text-accent-dark underline">ミュージックマン スティングレイ買取相場</a></li>
+            </ul>
+          </div>
+
+
           <h2 id="souba">買取相場の目安</h2>
           <p>ミュージックマンの買取相場は、ブランド・モデル・状態によって大きく変わります。あくまで目安として、Sterling by Music Manで2万〜6万円、USA StingRay/JP等は8万〜25万円以上が目安とされています。正確な査定額は楽器の状態や付属品、時期によって変動するため、無料査定で確認するのが確実です。</p>
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>

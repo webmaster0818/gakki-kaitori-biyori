@@ -130,6 +130,16 @@ export default function GuitarKaitoriPage() {
 
         <div className="article-body">
           {/* Section 1: 買取相場 */}
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/guitar-amp-kaitori/" className="text-accent-dark underline">ギターアンプ買取相場ガイド</a></li>
+            </ul>
+          </div>
+
           <h2 id="market-price">ギター買取相場（エレキギター・アコースティックギター別）</h2>
 
           <p>ギターの買取価格は、メーカー・モデル・年式・状態によって大きく変わります。ここでは、2026年現在の一般的な買取相場をエレキギターとアコースティックギターに分けてご紹介します。</p>

@@ -151,7 +151,7 @@ export default function VoxAc30KaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="vox-ac30-kaitori" relatedSlugs={["marshall-jcm800-kaitori", "amp-kaitori", "guitar-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
+        <RelatedArticles currentSlug="vox-ac30-kaitori" relatedSlugs={["marshall-jcm800-kaitori", "guitar-amp-kaitori", "guitar-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
       </article>
     </>
   );

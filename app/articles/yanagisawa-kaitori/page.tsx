@@ -41,6 +41,16 @@ export default function Page() {
         </header>
 
         <div className="article-body">
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/yanagisawa-awo10-kaitori/" className="text-accent-dark underline">ヤナギサワ AWO10買取相場</a></li>
+            </ul>
+          </div>
+
         <h2>1. Yanagisawaのブランド概要</h2>
         <p>Yanagisawa（ヤナギサワ）は、管楽器カテゴリで長年にわたり愛されてきたメーカーです。サックス（ソプラノ・アルト・テナー・バリトン）を製造し、プロからアマチュアまで幅広い層に支持されています。</p>
         <p>中古市場でのYanagisawaは、入門モデルから最上位プロモデルまで価格帯が広く、ヴィンテージ価値のあるモデルは新品以上の値段がつくことも珍しくありません。</p>

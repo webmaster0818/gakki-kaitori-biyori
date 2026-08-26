@@ -130,6 +130,25 @@ export default function GibsonKaitoriPage() {
 
         <div className="article-body">
           {/* Section 1: モデル別買取相場 */}
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/gibson-es335-kaitori/" className="text-accent-dark underline">ギブソン ES-335買取相場</a></li>
+              <li><a href="/articles/gibson-explorer-kaitori/" className="text-accent-dark underline">ギブソン エクスプローラーの買取相場</a></li>
+              <li><a href="/articles/gibson-firebird-kaitori/" className="text-accent-dark underline">ギブソン ファイアーバードの買取相場</a></li>
+              <li><a href="/articles/gibson-flying-v-kaitori/" className="text-accent-dark underline">ギブソン フライングV買取相場</a></li>
+              <li><a href="/articles/gibson-flyingv-kaitori/" className="text-accent-dark underline">ギブソン フライングVの買取相場</a></li>
+              <li><a href="/articles/gibson-j45-kaitori/" className="text-accent-dark underline">ギブソン J-45買取相場</a></li>
+              <li><a href="/articles/gibson-lespaul-custom-kaitori/" className="text-accent-dark underline">ギブソン レスポール カスタムの買取相場</a></li>
+              <li><a href="/articles/gibson-lespaul-junior-kaitori/" className="text-accent-dark underline">ギブソン レスポール ジュニア買取相場</a></li>
+              <li><a href="/articles/gibson-lespaul-standard-kaitori/" className="text-accent-dark underline">ギブソン レスポール スタンダードの買取相場</a></li>
+              <li><a href="/articles/gibson-sg-kaitori/" className="text-accent-dark underline">ギブソン SGの買取相場</a></li>
+            </ul>
+          </div>
+
           <h2 id="market-price">Gibsonモデル別 買取相場一覧【2026年8月 週次相場更新】</h2>
 
           <p>Gibson(ギブソン)はアメリカを代表するギターブランドで、中古市場でも高い人気を誇ります。ここでは、2026年現在のGibsonの主要モデル別買取相場をエレキギターとアコースティックギターに分けてご紹介します。</p>

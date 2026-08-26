@@ -65,6 +65,18 @@ export default function Page() {
 
         <div className="article-body">
 
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/kawai-k300-kaitori/" className="text-accent-dark underline">カワイ K-300の買取相場</a></li>
+              <li><a href="/articles/kawai-piano-kaitori/" className="text-accent-dark underline">カワイピアノの買取相場ガイドグランド・アップライト・電子ピアノ別の査定ポイント</a></li>
+              <li><a href="/articles/kawai-rx2-kaitori/" className="text-accent-dark underline">カワイ RX-2買取相場</a></li>
+            </ul>
+          </div>
+
+
           <h2 id="about">KAWAIブランドの特徴 ── 国産ピアノの名門</h2>
           <p>河合楽器製作所（KAWAI）は1927年に河合小市が静岡県浜松市で創業したピアノメーカーです。グランドピアノ「Shigeru Kawai」は<strong>世界のコンサートホールで採用される</strong>トップクラスの楽器であり、電子ピアノのCAシリーズは木製鍵盤による本格的なタッチ感で高い評価を受けています。</p>
           <p>KAWAIの特徴は<strong>ABS樹脂製アクション部品やカーボンファイバー入りハンマー</strong>など、独自の素材技術です。木材の経年変化の影響を受けにくい設計で、中古品でも安定した品質を保っています。</p>

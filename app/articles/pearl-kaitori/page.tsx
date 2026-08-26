@@ -117,6 +117,16 @@ export default function PearlKaitoriPage() {
         </nav>
 
         <div className="article-body">
+
+          {/* 2026-08-26 型番クエリの受け皿。ハブに着地していた型番検索を、型番ページへ振り分ける */}
+          <div className="bg-warm-bg border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold mb-2">型番・モデルが決まっている方へ</p>
+            <p className="text-sm text-warm-gray mb-3">お手持ちのモデルが分かっている場合は、下記の型番別ページのほうが相場を細かく確認できます。</p>
+            <ul className="space-y-1 text-sm list-disc pl-5">
+              <li><a href="/articles/pearl-masters-kaitori/" className="text-accent-dark underline">パール マスターズの買取相場</a></li>
+            </ul>
+          </div>
+
           <h2 id="about">Pearlブランドの特徴と中古市場での評価</h2>
 
           <p>Pearl（パール楽器製造株式会社）は1946年に東京で創業した日本のドラムメーカーです。アコースティックドラム、スネアドラム、ハードウェア、パーカッション、マーチングドラムなどを製造しており、世界中のプロドラマーから支持されています。</p>
