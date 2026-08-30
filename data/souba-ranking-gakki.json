@@ -1,78 +1,78 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-31",
   "count": 55,
   "models": [
     {
       "slug": "bach-42-trombone-kaitori",
       "name": "Bach 42 Trombone",
       "category": "管楽器",
-      "median": 159500,
-      "sample_n": 202,
-      "change_1w": -0.3,
-      "change_2w": -0.3
+      "median": 157302,
+      "sample_n": 198,
+      "change_1w": -1.4,
+      "change_2w": -1.7
     },
     {
       "slug": "bach-stradivarius-kaitori",
       "name": "Bach Stradivarius",
       "category": "管楽器",
-      "median": 169000,
-      "sample_n": 274,
-      "change_1w": 1.1,
-      "change_2w": 1.7
+      "median": 170170,
+      "sample_n": 276,
+      "change_1w": 0.7,
+      "change_2w": 1.8
     },
     {
       "slug": "boss-bd2-kaitori",
       "name": "BOSS BD-2",
       "category": "エフェクター",
-      "median": 8600,
-      "sample_n": 244,
-      "change_1w": 0.0,
-      "change_2w": 0.6
+      "median": 8745,
+      "sample_n": 246,
+      "change_1w": 1.7,
+      "change_2w": 1.7
     },
     {
       "slug": "boss-ds1-kaitori",
       "name": "BOSS DS-1",
       "category": "エフェクター",
-      "median": 6309,
-      "sample_n": 250,
-      "change_1w": 0.1,
-      "change_2w": 5.1
+      "median": 6025,
+      "sample_n": 256,
+      "change_1w": -4.5,
+      "change_2w": -4.4
     },
     {
       "slug": "buffet-r13-kaitori",
       "name": "Buffet Crampon R13",
       "category": "楽器",
-      "median": 110660,
-      "sample_n": 250,
-      "change_1w": -0.4,
-      "change_2w": -2.2
+      "median": 110880,
+      "sample_n": 252,
+      "change_1w": 0.2,
+      "change_2w": -0.2
     },
     {
       "slug": "ehx-bigmuff-kaitori",
       "name": "Electro-Harmonix Big Muff",
       "category": "楽器",
-      "median": 9940,
+      "median": 10200,
       "sample_n": 188,
-      "change_1w": 0.0,
-      "change_2w": -0.5
+      "change_1w": 2.6,
+      "change_2w": 2.6
     },
     {
       "slug": "esp-horizon-kaitori",
       "name": "ESP Horizon",
       "category": "楽器",
-      "median": 112200,
-      "sample_n": 48,
-      "change_1w": -26.1,
-      "change_2w": -31.4
+      "median": 151800,
+      "sample_n": 50,
+      "change_1w": 35.3,
+      "change_2w": 0.0
     },
     {
       "slug": "fender-deluxereverb-kaitori",
       "name": "Fender Deluxe Reverb",
       "category": "アンプ",
-      "median": 111353,
-      "sample_n": 80,
-      "change_1w": 0.7,
-      "change_2w": 0.7
+      "median": 110000,
+      "sample_n": 86,
+      "change_1w": -1.2,
+      "change_2w": -0.5
     },
     {
       "slug": "fender-jaguar-kaitori",
@@ -80,71 +80,71 @@
       "category": "エレキギター",
       "median": 169500,
       "sample_n": 32,
-      "change_1w": -9.8,
+      "change_1w": 0.0,
       "change_2w": -9.8
     },
     {
       "slug": "fender-jazzbass-kaitori",
       "name": "Fender Jazz Bass",
       "category": "ベース",
-      "median": 140000,
-      "sample_n": 284,
-      "change_1w": 0.0,
-      "change_2w": 1.6
+      "median": 140814,
+      "sample_n": 286,
+      "change_1w": 0.6,
+      "change_2w": 0.6
     },
     {
       "slug": "fender-jazzmaster-kaitori",
       "name": "Fender Jazzmaster",
       "category": "エレキギター",
-      "median": 148755,
+      "median": 154500,
       "sample_n": 48,
-      "change_1w": -0.2,
-      "change_2w": 1.3
+      "change_1w": 3.9,
+      "change_2w": 3.7
     },
     {
       "slug": "fender-mustang-kaitori",
       "name": "Fender Mustang",
       "category": "楽器",
-      "median": 154063,
-      "sample_n": 32,
-      "change_1w": 3.3,
-      "change_2w": -1.4
+      "median": 142015,
+      "sample_n": 30,
+      "change_1w": -7.8,
+      "change_2w": -4.8
     },
     {
       "slug": "fender-precisionbass-kaitori",
       "name": "Fender Precision Bass",
       "category": "ベース",
-      "median": 160305,
-      "sample_n": 180,
-      "change_1w": 1.2,
-      "change_2w": 0.0
+      "median": 174900,
+      "sample_n": 172,
+      "change_1w": 9.1,
+      "change_2w": 10.4
     },
     {
       "slug": "fender-stratocaster-kaitori",
       "name": "Fender Stratocaster",
       "category": "エレキギター",
-      "median": 137500,
-      "sample_n": 290,
-      "change_1w": -0.0,
-      "change_2w": 2.2
+      "median": 139260,
+      "sample_n": 294,
+      "change_1w": 1.3,
+      "change_2w": 1.3
     },
     {
       "slug": "fender-telecaster-kaitori",
       "name": "Fender Telecaster",
       "category": "エレキギター",
-      "median": 135425,
-      "sample_n": 292,
-      "change_1w": 0.3,
-      "change_2w": 6.1
+      "median": 135000,
+      "sample_n": 290,
+      "change_1w": -0.3,
+      "change_2w": 0.0
     },
     {
       "slug": "fender-twinreverb-kaitori",
       "name": "Fender Twin Reverb",
       "category": "アンプ",
-      "median": 89980,
-      "sample_n": 222,
-      "change_1w": -0.2,
-      "change_2w": -0.2
+      "median": 90750,
+      "sample_n": 218,
+      "change_1w": 0.9,
+      "change_2w": 0.6
     },
     {
       "slug": "gibson-es335-kaitori",
@@ -168,28 +168,28 @@
       "slug": "gibson-firebird-kaitori",
       "name": "Gibson Firebird",
       "category": "楽器",
-      "median": 271222,
+      "median": 297222,
       "sample_n": 16,
-      "change_1w": 0.0,
-      "change_2w": 0.0
+      "change_1w": 9.6,
+      "change_2w": 9.6
     },
     {
       "slug": "gibson-flyingv-kaitori",
       "name": "Gibson Flying V",
       "category": "楽器",
-      "median": 148500,
-      "sample_n": 46,
-      "change_1w": -1.2,
-      "change_2w": -6.9
+      "median": 146050,
+      "sample_n": 44,
+      "change_1w": -1.6,
+      "change_2w": -2.8
     },
     {
       "slug": "gibson-j45-kaitori",
       "name": "Gibson J-45",
       "category": "アコギ",
-      "median": 198000,
-      "sample_n": 260,
-      "change_1w": -0.1,
-      "change_2w": 1.3
+      "median": 198275,
+      "sample_n": 272,
+      "change_1w": 0.1,
+      "change_2w": 0.0
     },
     {
       "slug": "gibson-lespaul-custom-kaitori",
@@ -198,25 +198,25 @@
       "median": 368810,
       "sample_n": 32,
       "change_1w": 0.0,
-      "change_2w": -0.3
+      "change_2w": 0.0
     },
     {
       "slug": "gibson-lespaul-standard-kaitori",
       "name": "Gibson Les Paul Standard",
       "category": "エレキギター",
-      "median": 217000,
-      "sample_n": 98,
-      "change_1w": -0.4,
-      "change_2w": -0.2
+      "median": 212600,
+      "sample_n": 92,
+      "change_1w": -2.0,
+      "change_2w": -2.4
     },
     {
       "slug": "gibson-sg-kaitori",
       "name": "Gibson SG",
       "category": "エレキギター",
-      "median": 141050,
+      "median": 137200,
       "sample_n": 44,
-      "change_1w": 0.7,
-      "change_2w": -1.7
+      "change_1w": -2.7,
+      "change_2w": -2.1
     },
     {
       "slug": "gretsch-6120-kaitori",
@@ -224,17 +224,17 @@
       "category": "楽器",
       "median": 148500,
       "sample_n": 62,
-      "change_1w": -0.3,
-      "change_2w": -0.7
+      "change_1w": 0.0,
+      "change_2w": -0.3
     },
     {
       "slug": "ibanez-jem-kaitori",
       "name": "Ibanez JEM",
       "category": "楽器",
-      "median": 241015,
+      "median": 266200,
       "sample_n": 10,
-      "change_1w": 0.0,
-      "change_2w": 0.0
+      "change_1w": 10.4,
+      "change_2w": 10.4
     },
     {
       "slug": "ibanez-rg-kaitori",
@@ -243,79 +243,79 @@
       "median": 110094,
       "sample_n": 16,
       "change_1w": 0.0,
-      "change_2w": 0.9
+      "change_2w": 0.0
     },
     {
       "slug": "ibanez-ts808-kaitori",
       "name": "Ibanez TS808",
       "category": "エフェクター",
-      "median": 14000,
-      "sample_n": 34,
-      "change_1w": 3.7,
-      "change_2w": 1.8
+      "median": 13500,
+      "sample_n": 46,
+      "change_1w": -3.6,
+      "change_2w": 0.0
     },
     {
       "slug": "ibanez-ts9-kaitori",
       "name": "Ibanez TS9 Tube Screamer",
       "category": "エフェクター",
-      "median": 8895,
-      "sample_n": 108,
+      "median": 8800,
+      "sample_n": 114,
       "change_1w": -1.1,
-      "change_2w": 0.8
+      "change_2w": -2.2
     },
     {
       "slug": "korg-minilogue-kaitori",
       "name": "KORG minilogue",
       "category": "シンセ/キーボード",
-      "median": 44075,
-      "sample_n": 44,
-      "change_1w": -3.5,
-      "change_2w": -3.5
+      "median": 42000,
+      "sample_n": 48,
+      "change_1w": -4.7,
+      "change_2w": -8.0
     },
     {
       "slug": "ludwig-supraphonic-kaitori",
       "name": "Ludwig Supraphonic",
       "category": "ドラム",
-      "median": 62500,
-      "sample_n": 32,
-      "change_1w": -5.3,
-      "change_2w": -5.3
+      "median": 59000,
+      "sample_n": 30,
+      "change_1w": -5.6,
+      "change_2w": -10.6
     },
     {
       "slug": "marshall-jcm800-kaitori",
       "name": "Marshall JCM800",
       "category": "アンプ",
       "median": 124300,
-      "sample_n": 60,
-      "change_1w": -1.1,
-      "change_2w": 0.0
+      "sample_n": 62,
+      "change_1w": 0.0,
+      "change_2w": -1.1
     },
     {
       "slug": "martin-000-kaitori",
       "name": "Martin 000-28",
       "category": "アコギ",
-      "median": 284150,
-      "sample_n": 100,
-      "change_1w": -1.9,
-      "change_2w": -2.5
+      "median": 289300,
+      "sample_n": 90,
+      "change_1w": 1.8,
+      "change_2w": -0.1
     },
     {
       "slug": "martin-d28-kaitori",
       "name": "Martin D-28",
       "category": "アコギ",
-      "median": 227700,
+      "median": 224950,
       "sample_n": 182,
-      "change_1w": -0.1,
-      "change_2w": -0.4
+      "change_1w": -1.2,
+      "change_2w": -1.3
     },
     {
       "slug": "martin-d45-kaitori",
       "name": "Martin D-45",
       "category": "アコギ",
-      "median": 720417,
-      "sample_n": 44,
-      "change_1w": 0.0,
-      "change_2w": 3.8
+      "median": 694100,
+      "sample_n": 42,
+      "change_1w": -3.7,
+      "change_2w": -3.7
     },
     {
       "slug": "moog-subsequent37-kaitori",
@@ -324,41 +324,41 @@
       "median": 255500,
       "sample_n": 8,
       "change_1w": 0.0,
-      "change_2w": 7.5
+      "change_2w": 0.0
     },
     {
       "slug": "muramatsu-flute-kaitori",
       "name": "Muramatsu Flute",
       "category": "管楽器",
-      "median": 33416,
+      "median": 34455,
       "sample_n": 264,
-      "change_1w": 2.8,
-      "change_2w": -10.2
+      "change_1w": 3.1,
+      "change_2w": 6.0
     },
     {
       "slug": "musicman-stingray-kaitori",
       "name": "Music Man StingRay",
       "category": "ベース",
-      "median": 133100,
+      "median": 132005,
       "sample_n": 214,
-      "change_1w": -1.5,
-      "change_2w": -2.4
+      "change_1w": -0.8,
+      "change_2w": -2.3
     },
     {
       "slug": "nord-stage-kaitori",
       "name": "Nord Stage",
       "category": "シンセ/キーボード",
-      "median": 190080,
-      "sample_n": 14,
-      "change_1w": 8.6,
-      "change_2w": 8.6
+      "median": 214390,
+      "sample_n": 16,
+      "change_1w": 12.8,
+      "change_2w": 22.5
     },
     {
       "slug": "pearl-masters-kaitori",
       "name": "Pearl Masters",
       "category": "楽器",
       "median": 63165,
-      "sample_n": 24,
+      "sample_n": 28,
       "change_1w": 0.0,
       "change_2w": 0.0
     },
@@ -366,10 +366,10 @@
       "slug": "prs-custom24-kaitori",
       "name": "PRS Custom 24",
       "category": "エレキギター",
-      "median": 65780,
-      "sample_n": 218,
-      "change_1w": 3.5,
-      "change_2w": 4.9
+      "median": 65539,
+      "sample_n": 224,
+      "change_1w": -0.4,
+      "change_2w": 3.1
     },
     {
       "slug": "prs-se-kaitori",
@@ -377,62 +377,62 @@
       "category": "エレキギター",
       "median": 55000,
       "sample_n": 282,
-      "change_1w": 1.0,
-      "change_2w": 3.1
+      "change_1w": 0.0,
+      "change_2w": 1.0
     },
     {
       "slug": "rickenbacker-330-kaitori",
       "name": "Rickenbacker 330",
       "category": "エレキギター",
       "median": 140800,
-      "sample_n": 46,
-      "change_1w": -9.2,
-      "change_2w": -15.2
+      "sample_n": 50,
+      "change_1w": 0.0,
+      "change_2w": -9.2
     },
     {
       "slug": "rickenbacker-4003-kaitori",
       "name": "Rickenbacker 4003",
       "category": "エレキギター",
-      "median": 211650,
-      "sample_n": 60,
-      "change_1w": -3.5,
-      "change_2w": -4.9
+      "median": 212300,
+      "sample_n": 58,
+      "change_1w": 0.3,
+      "change_2w": -3.2
     },
     {
       "slug": "roland-jc120-kaitori",
       "name": "Roland JC-120",
       "category": "楽器",
       "median": 26225,
-      "sample_n": 60,
-      "change_1w": -2.7,
-      "change_2w": -7.0
+      "sample_n": 64,
+      "change_1w": 0.0,
+      "change_2w": -2.7
     },
     {
       "slug": "roland-juno-kaitori",
       "name": "Roland Juno",
       "category": "シンセ/キーボード",
-      "median": 51524,
-      "sample_n": 284,
-      "change_1w": -1.8,
-      "change_2w": -4.8
+      "median": 50300,
+      "sample_n": 280,
+      "change_1w": -2.4,
+      "change_2w": -4.1
     },
     {
       "slug": "selmer-markvi-kaitori",
       "name": "Selmer Mark VI",
       "category": "楽器",
-      "median": 609400,
+      "median": 611000,
       "sample_n": 162,
-      "change_1w": 0.1,
-      "change_2w": 0.2
+      "change_1w": 0.3,
+      "change_2w": 0.4
     },
     {
       "slug": "selmer-series2-kaitori",
       "name": "Selmer Series II",
       "category": "楽器",
-      "median": 360444,
-      "sample_n": 92,
-      "change_1w": 0.0,
-      "change_2w": -0.1
+      "median": 360888,
+      "sample_n": 94,
+      "change_1w": 0.1,
+      "change_2w": 0.1
     },
     {
       "slug": "tama-starclassic-kaitori",
@@ -441,7 +441,7 @@
       "median": 154610,
       "sample_n": 12,
       "change_1w": 0.0,
-      "change_2w": 7.3
+      "change_2w": 0.0
     },
     {
       "slug": "taylor-814ce-kaitori",
@@ -456,19 +456,19 @@
       "slug": "vox-ac30-kaitori",
       "name": "VOX AC30",
       "category": "アンプ",
-      "median": 3400,
+      "median": 3474,
       "sample_n": 194,
-      "change_1w": -2.5,
-      "change_2w": -2.9
+      "change_1w": 2.2,
+      "change_2w": -0.3
     },
     {
       "slug": "warwick-thumb-kaitori",
       "name": "Warwick Thumb",
       "category": "楽器",
-      "median": 159511,
-      "sample_n": 38,
-      "change_1w": -4.6,
-      "change_2w": 0.0
+      "median": 153305,
+      "sample_n": 36,
+      "change_1w": -3.9,
+      "change_2w": -8.3
     },
     {
       "slug": "yamaha-c3-kaitori",
@@ -483,10 +483,10 @@
       "slug": "yamaha-yas62-kaitori",
       "name": "YAMAHA YAS-62",
       "category": "管楽器",
-      "median": 212668,
-      "sample_n": 274,
-      "change_1w": 0.5,
-      "change_2w": 0.1
+      "median": 217250,
+      "sample_n": 276,
+      "change_1w": 2.2,
+      "change_2w": 2.7
     },
     {
       "slug": "yamaha-ytr8335-kaitori",
@@ -494,8 +494,8 @@
       "category": "楽器",
       "median": 168000,
       "sample_n": 286,
-      "change_1w": 0.4,
-      "change_2w": 0.2
+      "change_1w": 0.0,
+      "change_2w": 0.4
     }
   ]
 }
