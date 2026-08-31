@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "海外モデルでも買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。仕様により評価されます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】タカミネ（Takamine）買取おすすめ3社比較｜相場と価値", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】タカミネ（Takamine）買取おすすめ3社比較｜相場と価値", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,7 +71,7 @@ export default function TakamineKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】タカミネ（Takamine）買取おすすめ3社比較｜相場と価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">タカミネ（Takamine）のアコースティック/エレアコを売りたい方へ。Pro Series・SANTA FE・限定モデルの価値、CTシステム等のピックアップ評価、状態による査定差を解説します。国産エレアコの定番として安定需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "クーリングオフはできますか？", acceptedAnswer: { "@type": "Answer", text: "出張買取は特定商取引法によりクーリングオフ（8日間）が適用されます。" } },
       { "@type": "Question", name: "注意点はありますか？", acceptedAnswer: { "@type": "Answer", text: "アポなし訪問で強引に買い取る「押し買い」に注意。信頼できる業者は事前予約が基本です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の出張買取の流れと注意点｜大型楽器・まとめ売りに最適", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の出張買取の流れと注意点｜大型楽器・まとめ売りに最適", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,7 +71,7 @@ export default function GakkiShucchouKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器の出張買取の流れと注意点｜大型楽器・まとめ売りに最適</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器の出張買取を検討している方へ。申込みから当日査定・搬出・現金化までの流れ、大型楽器やまとめ売りでのメリット、クーリングオフ制度、注意点を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

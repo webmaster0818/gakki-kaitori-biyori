@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shinjuku-gakki-kaitori/' },
-  title: "新宿の楽器買取はどこがいい？近くの店・持ち込み・専門店の選び方とおすすめ業者【2026年8月】",
+  title: "新宿の楽器買取はどこがいい？近くの店・持ち込み・専門店の選び方とおすすめ業者【2026年9月】",
   description:
     "新宿で楽器を売るならどこがいい？出張・店頭・宅配の特徴と買取相場の目安、新宿・高田馬場・中野エリアの事情、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",
   openGraph: {
-    title: "新宿の楽器買取はどこがいい？近くの店・持ち込み・専門店の選び方とおすすめ業者【2026年8月】",
+    title: "新宿の楽器買取はどこがいい？近くの店・持ち込み・専門店の選び方とおすすめ業者【2026年9月】",
     description: "新宿で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説。",
   },
 };
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 新宿おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             新宿で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、新宿エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、新宿・高田馬場・中野など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -242,7 +242,7 @@ export default function Page() {
           <CtaBox />
 
           <h2 id="local-shops">新宿の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
-          <p>新宿で楽器を売れる主な買取店を、2026年8月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <p>新宿で楽器を売れる主な買取店を、2026年9月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
           <h3>イシバシ楽器 新宿店 ── 新宿三丁目駅C4出口すぐ（JR新宿駅徒歩5分）</h3>
           <p>買取方式：店頭/出張/宅配。1981年開業の総合楽器店。1階に買取カウンター、PRS/Fender公認。店頭は予約なしも可、12:00〜20:00（<a href="https://www.ishibashi.co.jp/kaitori/tentou/shinjuku.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>クロサワ楽器 日本総本店（KAIKURO） ── JR新大久保駅徒歩1分・百人町</h3>

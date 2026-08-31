@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shibuya-gakki-kaitori/' },
-  title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年8月】",
+  title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年9月】",
   description:
     "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。原宿・恵比寿エリアも解説。無料査定だけの利用もOK。",
   openGraph: {
-    title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年8月】",
+    title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年9月】",
     description: "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。原宿・恵比寿エリアも解説。無料査定だけの利用もOK。",
   },
 };
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 渋谷おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             渋谷で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、渋谷エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、渋谷・原宿・恵比寿など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -242,7 +242,7 @@ export default function Page() {
           <CtaBox />
 
           <h2 id="local-shops">渋谷の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
-          <p>渋谷で楽器を売れる主な買取店を、2026年8月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <p>渋谷で楽器を売れる主な買取店を、2026年9月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
           <h3>イシバシ楽器 渋谷店 ── 宇田川町・渋谷BEAM 2F（渋谷駅徒歩5分）</h3>
           <p>買取方式：店頭/出張/宅配(EXPRESS買取・LINE査定)。渋谷区内に実店舗を持つ大手。ギター〜管楽器・DJ/PA・ドラムまで幅広い（<a href="https://www.ishibashi.co.jp/kaitori/tentou/shibuya.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>中古楽器堂 渋谷店 ── 道玄坂・渋谷駅ハチ公改札徒歩約5分</h3>

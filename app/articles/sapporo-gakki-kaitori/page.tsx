@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function SapporoGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             札幌で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、札幌エリア対応の楽器買取おすすめ3社を徹底比較。札幌駅周辺・大通エリアの専門店情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、北海道ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

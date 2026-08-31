@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>280VC / 290 Imperial</td><td>5,000,000〜12,000,000円</td></tr><tr><td>214VC / 200</td><td>3,000,000〜7,000,000円</td></tr><tr><td>170 / 185</td><td>1,800,000〜4,000,000円</td></tr><tr><td>130CL アップライト</td><td>1,500,000〜3,000,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

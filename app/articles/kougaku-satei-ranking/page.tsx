@@ -81,7 +81,7 @@ export default function Page() {
             </div>
         <p className="text-center mt-4 text-sm"><a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark font-medium underline">楽器買取おすすめ業者の比較を見る →</a></p>
           </div>
-          <DealerComparisonTable heading="楽器を高額査定する主要7社（公式公開情報の比較）" intro="高額査定を狙うなら、複数社の見積もりを取るのが基本です。下表は各社公式サイトに記載されている店舗数・対応エリア・査定スピードの公開情報をまとめたもの（2026年8月時点）。" />
+          <DealerComparisonTable heading="楽器を高額査定する主要7社（公式公開情報の比較）" intro="高額査定を狙うなら、複数社の見積もりを取るのが基本です。下表は各社公式サイトに記載されている店舗数・対応エリア・査定スピードの公開情報をまとめたもの（2026年9月時点）。" />
 
 
           <RelatedArticles

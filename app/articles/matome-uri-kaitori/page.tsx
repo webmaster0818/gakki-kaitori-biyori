@@ -41,7 +41,7 @@ function FaqSchema() {
       { "@type": "Question", name: "エフェクターやアクセサリーもまとめて売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ギター・ベースだけでなく、エフェクター・アンプ・ケーブル・スタンドなどのアクセサリー類も一緒に売却可能です。" } },
       { "@type": "Question", name: "まとめ売りの際に必要なものはありますか？", acceptedAnswer: { "@type": "Answer", text: "身分証明書（免許証やマイナンバーカード等）が必要です。各楽器の付属品（ケース、保証書等）があれば査定額がアップします。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/matome-uri-kaitori/\"}]}" }} /></>);
 }
@@ -59,7 +59,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器を複数まとめて売りたい方へ。まとめ売り対応の買取業者3社を徹底比較。バンド機材一式・楽器コレクションの一括買取で高く売るコツ、セット売りのメリット・デメリットまで解説。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

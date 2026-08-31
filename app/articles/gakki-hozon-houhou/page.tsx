@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "カビが生えたら売れませんか？", acceptedAnswer: { "@type": "Answer", text: "軽度なら買取可能ですが減額されます。早めの売却がおすすめです。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を高く売るための保管方法｜湿度・温度・劣化対策", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器を高く売るための保管方法｜湿度・温度・劣化対策", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,7 +71,7 @@ export default function GakkiHozonHouhouPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器を高く売るための保管方法｜湿度・温度・劣化対策</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器を将来高く売りたい方へ。湿度・温度の管理、ケース保管、弦・リード・タンポの扱い、木製楽器の割れ・金属パーツの錆び対策など、状態を保ち査定額を下げないための保管方法を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

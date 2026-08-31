@@ -41,7 +41,7 @@ function FaqSchema() {
       { "@type": "Question", name: "故人の楽器を出張買取してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルの出張買取なら故人の自宅に査定士が訪問し、ピアノなど大型楽器も含めて一括で査定・買取が可能です。" } },
       { "@type": "Question", name: "遺品の楽器を売る際に必要な書類はありますか？", acceptedAnswer: { "@type": "Answer", text: "売却者の本人確認書類（免許証等）が必要です。故人名義の楽器でも問題なく売却できますが、心配な場合は事前に業者に相談しましょう。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法", datePublished: "2026-04-26", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法", datePublished: "2026-04-26", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法\", \"item\": \"https://gakkikaitori-biyori.com/articles/ihin-gakki-kaitori/\"}]}" }} /></>);
 }
@@ -59,7 +59,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法</h1>
           <p className="text-warm-gray text-sm leading-relaxed">故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

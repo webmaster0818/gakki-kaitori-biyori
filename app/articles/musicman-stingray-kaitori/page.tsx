@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "HH（2ハム）仕様は高いですか？", acceptedAnswer: { "@type": "Answer", text: "仕様による需要差はありますが、状態と年式の影響の方が大きいです。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ミュージックマン スティングレイ買取相場｜年代・仕様別の価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ミュージックマン スティングレイ買取相場｜年代・仕様別の価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -70,7 +70,7 @@ export default function MusicmanStingrayKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】ミュージックマン スティングレイ買取相場｜年代・仕様別の価値と査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Music Man StingRay（スティングレイ）を売りたい方へ。パワフルなアクティブサウンドと独特のミュート感で、ファンク／ロックを中心に定番のエレキベースです。本記事では年代・仕様（2バンド/3バンドEQ、H/HH）別の価値、プリアンプの状態が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

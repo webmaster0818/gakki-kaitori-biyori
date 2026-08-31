@@ -5,9 +5,9 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/marshall-kaitori/' },
-  title: "【2026年8月 週次相場更新】Marshall買取相場ガイド｜全モデル査定額・高く売るコツ",
+  title: "【2026年9月 週次相場更新】Marshall買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Marshall（マーシャル）の真空管アンプ、ソリッドステートアンプ、キャビネット買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
-  openGraph: { title: "【2026年8月 週次相場更新】Marshall買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Marshall（マーシャル）の真空管アンプ、ソリッドステートアンプ、キャビネット買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
+  openGraph: { title: "【2026年9月 週次相場更新】Marshall買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Marshall（マーシャル）の真空管アンプ、ソリッドステートアンプ、キャビネット買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
 };
 
 function Schema() {
@@ -63,7 +63,7 @@ export default function Page() {
             <tbody><tr><td>JTM45 / Plexi ヴィンテージ</td><td>300,000〜1,500,000円</td></tr><tr><td>JCM800 / JCM900</td><td>80,000〜250,000円</td></tr><tr><td>Silver Jubilee 2555</td><td>150,000〜400,000円</td></tr><tr><td>DSL / MG / Code シリーズ</td><td>20,000〜80,000円</td></tr><tr><td>Origin / Studio シリーズ</td><td>30,000〜120,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

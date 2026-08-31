@@ -62,7 +62,7 @@ export default function Page() {
             <tbody><tr><td>Wavestate / Wavestate Native</td><td>60,000〜120,000円</td></tr><tr><td>Minilogue XD / Prologue</td><td>40,000〜120,000円</td></tr><tr><td>Kross / Krome / Kronos</td><td>30,000〜180,000円</td></tr><tr><td>Volca シリーズ</td><td>10,000〜30,000円</td></tr><tr><td>MicroKEY / nanoKEY</td><td>5,000〜15,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

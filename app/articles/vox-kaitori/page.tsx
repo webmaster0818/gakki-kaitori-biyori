@@ -62,7 +62,7 @@ export default function Page() {
             <tbody><tr><td>AC30 ヴィンテージ（1960年代）</td><td>300,000〜800,000円</td></tr><tr><td>AC30CC / AC30C2 / AC15</td><td>60,000〜180,000円</td></tr><tr><td>Night Train / Pathfinder</td><td>15,000〜40,000円</td></tr><tr><td>Hand-Wired シリーズ</td><td>100,000〜250,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

@@ -81,7 +81,7 @@ export default function Page() {
         <div className="article-body">
         <h2 id="summary">1. MIDIキーボードの特徴と市場概況</h2>
         <p>MIDIキーボードはDTM・宅録の必需品。鍵盤数（25/49/61/88）と機能（プログラマブル・アフタータッチ）で価格決定。DJ/DTMカテゴリの中でも特に中古市場での需要が安定している楽器の一つです。</p>
-        <p>2026年8月現在、MIDIキーボードの買取相場は、入門モデルで3,000円〜、中級モデルで約30,000円前後、プロ仕様の上位モデルは120,000円までと幅広い価格帯になります。</p>
+        <p>2026年9月現在、MIDIキーボードの買取相場は、入門モデルで3,000円〜、中級モデルで約30,000円前後、プロ仕様の上位モデルは120,000円までと幅広い価格帯になります。</p>
         <p>買取額を最大化するには、<strong>メーカー・モデル・状態・付属品</strong>の4要素が鍵となります。本記事では、それぞれの観点からMIDIキーボードの買取相場を整理します。</p>
 
         <h2 id="brand-souba">2. メーカー別の買取相場</h2>
@@ -92,7 +92,7 @@ export default function Page() {
             <tbody><tr><td>Native Instruments Komplete Kontrol S88</td><td>60,000〜120,000円</td></tr><tr><td>Akai MPK Series</td><td>20,000〜80,000円</td></tr><tr><td>Roland A-Pro / FA Series</td><td>30,000〜100,000円</td></tr><tr><td>Arturia KeyLab</td><td>30,000〜120,000円</td></tr><tr><td>Korg MicroKey/nanoKey</td><td>5,000〜20,000円</td></tr><tr><td>M-Audio Oxygen</td><td>10,000〜40,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2 id="state-price">3. 状態別の査定額目安</h2>
         <p>同じモデルでも、状態によって査定額は大きく変わります。MIDIキーボードの状態別査定の目安は以下の通りです。</p>

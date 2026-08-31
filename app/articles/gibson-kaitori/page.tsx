@@ -5,11 +5,11 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-kaitori/' },
-  title: "【2026年8月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
+  title: "【2026年9月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
   description:
     "Gibson(ギブソン)の買取相場を徹底解説。Les Paul・SG・ES-335などモデル別の買取価格目安、ヴィンテージGibsonの査定ポイント、高く売るコツまで。おすすめ買取業者3社の比較で最高値がわかります。",
   openGraph: {
-    title: "【2026年8月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
+    title: "【2026年9月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
     description: "Gibsonギターの買取相場をモデル別に徹底解説。Les Paul・SG・ES-335の相場目安と高く売るコツ。",
   },
 };
@@ -78,9 +78,9 @@ function FaqSchema() {
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【2026年8月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
+    headline: "【2026年9月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
     datePublished: "2026-04-18",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -88,7 +88,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年8月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/gibson-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年9月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/gibson-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -106,12 +106,12 @@ export default function GibsonKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年8月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを徹底解説
+            【2026年9月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを徹底解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             Gibson(ギブソン)のギターを売りたいとお考えの方へ。本記事では、Les Paul・SG・ES-335などGibsonの人気モデル別の買取相場を詳しく解説し、おすすめの買取業者3社を比較。ヴィンテージGibsonの査定ポイントや、少しでも高く売るためのコツまで網羅しています。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         {/* Table of Contents */}
@@ -149,7 +149,7 @@ export default function GibsonKaitoriPage() {
             </ul>
           </div>
 
-          <h2 id="market-price">Gibsonモデル別 買取相場一覧【2026年8月 週次相場更新】</h2>
+          <h2 id="market-price">Gibsonモデル別 買取相場一覧【2026年9月 週次相場更新】</h2>
 
           <p>Gibson(ギブソン)はアメリカを代表するギターブランドで、中古市場でも高い人気を誇ります。ここでは、2026年現在のGibsonの主要モデル別買取相場をエレキギターとアコースティックギターに分けてご紹介します。</p>
 

@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "古いモデルでも売れますか？", acceptedAnswer: { "@type": "Answer", text: "状態とメンテナンス次第で買取されます。オーバーホール済みは有利です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ヤナギサワ AWO10買取相場｜アルトサックスの価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ヤナギサワ AWO10買取相場｜アルトサックスの価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -70,7 +70,7 @@ export default function YanagisawaAwo10KaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】ヤナギサワ AWO10買取相場｜アルトサックスの価値と査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Yanagisawa AWO10（ヤナギサワ AWO10）を売りたい方へ。サックス専業メーカー・ヤナギサワのプロフェッショナルモデルで、精緻な作りと豊かな鳴りで国内外に支持されています。本記事では素材・仕様の違い、年式の評価、タンポ・管体の状態が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

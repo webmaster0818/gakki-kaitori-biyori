@@ -5,10 +5,10 @@ import UrielVisitBanner from "@/components/UrielVisitBanner";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-denshi-piano-kaitori/' },
-  title: "ローランド電子ピアノの買取ガイド【2026年8月】LX・HP・FPシリーズを高く売るコツ",
+  title: "ローランド電子ピアノの買取ガイド【2026年9月】LX・HP・FPシリーズを高く売るコツ",
   description: "ローランド（Roland）の電子ピアノを売るならどこがいい？LX・HP・RP・FPシリーズ別の査定ポイント、査定の鍵になる型番と製造年の確認方法、据置型の分解搬出と出張買取の流れ、おすすめ買取3社を比較。無料査定だけの利用もOK。",
   openGraph: {
-    title: "ローランド電子ピアノの買取ガイド【2026年8月】LX・HP・FPシリーズを高く売るコツ",
+    title: "ローランド電子ピアノの買取ガイド【2026年9月】LX・HP・FPシリーズを高く売るコツ",
     description: "ローランドの電子ピアノを売るなら。LX・HP・FPシリーズ別の査定ポイントとおすすめ買取3社を解説。",
   },
 };
@@ -17,7 +17,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"古いローランドの電子ピアノでも売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"製造10年以内であれば多くの業者で買取対象になります。10年以上経過したモデルは値が付かないこともありますが、LXシリーズなど上位モデルは古くても値段が付くことがあります。型番と製造年を伝えて、まず無料査定で確認するのがおすすめです。\"}}, {\"@type\": \"Question\", \"name\": \"据置型の電子ピアノは自分で分解する必要がありますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"出張買取なら業者のスタッフが分解・搬出まで対応してくれるため、自分で分解する必要はありません。多くの据置型電子ピアノは組み立て式のため、アコースティックピアノより搬出のハードルは低めです。\"}}, {\"@type\": \"Question\", \"name\": \"ローランド電子ピアノの買取相場はいくらですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"電子ピアノはモデルと製造年によって価格が大きく変動するため、一律の相場を示すことはできません。シリーズ・モデル別の目安は電子ピアノ買取ガイドに掲載していますが、正確な金額は型番（例: LX708、HP704、FP-30X）と製造年を添えた無料査定で確認するのが確実です。\"}}, {\"@type\": \"Question\", \"name\": \"宅配買取はできますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"FPシリーズなどポータブルタイプは宅配買取が可能です。据置型（LX・HP・RPシリーズ）は重量とサイズがあるため、分解・搬出まで任せられる出張買取のほうが手軽で安全です。\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"ローランド電子ピアノの買取ガイド【2026年8月】LX・HP・FPシリーズを高く売るコツ\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"ローランド電子ピアノの買取ガイド【2026年9月】LX・HP・FPシリーズを高く売るコツ\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"電子ピアノ買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"ローランド電子ピアノ買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/roland-denshi-piano-kaitori/\"}]}" }} />
     </>
   );
@@ -63,15 +63,15 @@ export default function Page() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">Roland×電子ピアノ</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年8月更新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年9月更新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            ローランド電子ピアノの買取ガイド【2026年8月】LX・HP・FPシリーズを高く売るコツ
+            ローランド電子ピアノの買取ガイド【2026年9月】LX・HP・FPシリーズを高く売るコツ
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             ローランド（Roland）の電子ピアノの買取を検討している方へ。本記事では、LX・HP・RP・FPシリーズ別の査定ポイント、査定額をほぼ決める型番・製造年の確認方法、据置型ならではの分解搬出と出張買取の流れ、おすすめ買取3社を解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

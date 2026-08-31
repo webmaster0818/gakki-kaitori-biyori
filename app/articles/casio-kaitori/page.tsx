@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>Privia PXシリーズ</td><td>20,000〜80,000円</td></tr><tr><td>Celviano（セルヴィアーノ）</td><td>30,000〜150,000円</td></tr><tr><td>CT-X / LK-Sシリーズ</td><td>8,000〜25,000円</td></tr><tr><td>CDP-Sシリーズ</td><td>15,000〜40,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

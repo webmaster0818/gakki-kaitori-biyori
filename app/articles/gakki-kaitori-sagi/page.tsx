@@ -42,7 +42,7 @@ function FaqSchema() {
       { "@type": "Question", name: "楽器買取のトラブルはどこに相談すればいいですか？", acceptedAnswer: { "@type": "Answer", text: "消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出しましょう。" } },
       { "@type": "Question", name: "信頼できる買取業者の見分け方は？", acceptedAnswer: { "@type": "Answer", text: "古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点を確認しましょう。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点\", \"item\": \"https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/\"}]}" }} /></>);
 }
@@ -60,7 +60,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器買取で詐欺やトラブルに遭わないための注意点を解説。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

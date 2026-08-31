@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/' },
-  title: "横浜の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ業者【2026年8月】",
+  title: "横浜の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ業者【2026年9月】",
   description:
     "横浜で楽器を売るならどこがいい？横浜駅周辺の専門店事情、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",
   openGraph: {
-    title: "横浜の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年8月】",
+    title: "横浜の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年9月】",
     description: "横浜で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説。",
   },
 };
@@ -76,9 +76,9 @@ function FaqSchema() {
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【2026年8月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較",
+    headline: "【2026年9月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年8月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年9月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -103,12 +103,12 @@ export default function YokohamaGakkiKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年8月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も徹底比較
+            【2026年9月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も徹底比較
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             横浜で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、横浜エリア対応の楽器買取おすすめ3社を徹底比較。横浜駅周辺のイシバシ楽器・クロサワ楽器・島村楽器など専門店の情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

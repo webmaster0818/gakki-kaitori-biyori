@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "ロータリーの動作不良は影響しますか？", acceptedAnswer: { "@type": "Answer", text: "減額要因になります。可能なら整備状況も伝えましょう。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フレンチホルン買取おすすめ3社比較｜相場とメーカー別の価値", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フレンチホルン買取おすすめ3社比較｜相場とメーカー別の価値", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,7 +71,7 @@ export default function HornKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】フレンチホルン買取おすすめ3社比較｜相場とメーカー別の価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">フレンチホルンを売りたい方へ。YAMAHA・Alexander・Paxman・Holton などメーカー別の価値、シングル/ダブル/フルダブルの違い、状態による査定差を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

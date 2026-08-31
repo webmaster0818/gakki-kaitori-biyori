@@ -54,7 +54,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヤマハ U3の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ヤマハ U3は高さ131cmの大型アップライトピアノで、豊かな音量と響きから一般家庭・音楽教室・学校で長く愛されてきた定番モデルです。中古市場でも流通量・需要ともに多く、アップライトの代表的な買取対象です。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="yamaha-u3-kaitori" modelName="YAMAHA U3" />
@@ -81,7 +81,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">製造後10年以内（U3A／U30Aなど）</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜20万円前後</td><td className="px-4 py-3 text-warm-gray">現行に近い世代。状態良好なら高値傾向</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">1980〜90年代（U3H／U3Mなど）</td><td className="px-4 py-3 text-gold-dark font-bold">4万〜12万円前後</td><td className="px-4 py-3 text-warm-gray">流通量が多い世代。人気が安定</td></tr><tr className="bg-white"><td className="px-4 py-3">1970年代以前の旧モデル</td><td className="px-4 py-3 text-gold-dark font-bold">2万〜6万円前後</td><td className="px-4 py-3 text-warm-gray">状態と外装次第。象牙鍵盤は要確認</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年9月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">ヤマハ U3の買取価格を今すぐ無料でチェック</p>

@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bass-kaitori/' },
-  title: "ベース買取はどこがいい？おすすめ3社と実勢相場・高く売るコツ【2026年8月】",
+  title: "ベース買取はどこがいい？おすすめ3社と実勢相場・高く売るコツ【2026年9月】",
   description:
     "ベース買取のおすすめ業者3社を徹底比較。エレキベース・アコースティックベース・アップライトベースの買取相場、Fender・Gibson・Musicman・Rickenbacker・YAMAHAなどブランド別の相場目安、高く売るコツまで解説。",
   openGraph: {
@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
     datePublished: "2026-04-18",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -111,7 +111,7 @@ export default function BassKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             エレキベースやアコースティックベースを売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、ベース買取の人気3サービスを徹底比較し、エレキベース・アコースティックベース・アップライトベースの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。ベースはギターと比べて中古市場の流通量が少ないため、業者選びが買取価格を大きく左右します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         {/* Table of Contents */}

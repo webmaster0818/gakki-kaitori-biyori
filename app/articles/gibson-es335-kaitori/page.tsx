@@ -28,7 +28,7 @@ function FaqSchema() {
       { "@type": "Question", name: "セミアコは状態管理が難しいですが売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。ボディの割れ・バインディングの剥がれ・ネックの状態は評価に影響しますが、人気機種のため需要は安定しています。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ギブソン ES-335買取相場｜年代別の価値とセミアコの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ギブソン ES-335買取相場｜年代別の価値とセミアコの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -70,7 +70,7 @@ export default function GibsonEs335KaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】ギブソン ES-335買取相場｜年代別の価値とセミアコの査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Gibson ES-335（ES-335）を売りたい方へ。1958年登場、センターブロックを持つセミアコースティックの代表機で、ブルースからロック、ジャズまで幅広く使われる定番です。本記事では年代別の価値、ドットネック期やブロックインレイ期の評価、ヴィンテージ個体の希少性、状態が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

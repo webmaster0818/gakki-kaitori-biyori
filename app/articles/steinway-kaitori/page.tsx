@@ -5,9 +5,9 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/steinway-kaitori/' },
-  title: "【2026年8月 週次相場更新】Steinway & Sons買取相場ガイド｜全モデル査定額・高く売るコツ",
+  title: "【2026年9月 週次相場更新】Steinway & Sons買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Steinway & Sons（スタインウェイ）のグランドピアノ、アップライトピアノ買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
-  openGraph: { title: "【2026年8月 週次相場更新】Steinway & Sons買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Steinway & Sons（スタインウェイ）のグランドピアノ、アップライトピアノ買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
+  openGraph: { title: "【2026年9月 週次相場更新】Steinway & Sons買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Steinway & Sons（スタインウェイ）のグランドピアノ、アップライトピアノ買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
 };
 
 function Schema() {
@@ -63,7 +63,7 @@ export default function Page() {
             <tbody><tr><td>D型 コンサートグランド</td><td>8,000,000〜15,000,000円</td></tr><tr><td>B型 / C型 グランド</td><td>3,000,000〜8,000,000円</td></tr><tr><td>M型 / O型 / A型 グランド</td><td>1,500,000〜5,000,000円</td></tr><tr><td>S型 ベビーグランド</td><td>1,000,000〜3,000,000円</td></tr><tr><td>K型 アップライト</td><td>800,000〜1,800,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

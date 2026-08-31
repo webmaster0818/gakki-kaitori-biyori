@@ -52,7 +52,7 @@ export default function Page() {
             <tbody><tr><td>SM7B（配信・ボーカル）</td><td>30,000〜60,000円</td></tr><tr><td>SM58 / SM57（業務スタンダード）</td><td>5,000〜20,000円</td></tr><tr><td>KSM44A / KSM8</td><td>30,000〜100,000円</td></tr><tr><td>BLX / GLX-D ワイヤレス</td><td>30,000〜100,000円</td></tr><tr><td>Beta シリーズ</td><td>10,000〜40,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2>3. 状態別の査定額目安</h2>
         <div className="table-wrapper">

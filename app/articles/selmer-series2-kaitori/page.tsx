@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">セルマー シリーズIIの買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">セルマー シリーズII（Series II／Super Action 80 Series II）は、現代のプロ・上級者向けスタンダードとして広く使われるサックスです。中古市場でも安定した需要があり、状態の良い個体は高値で取引されます。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="selmer-series2-kaitori" modelName="Selmer Series II" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">アルト 美品</td><td className="px-4 py-3 text-gold-dark font-bold">15万〜35万円前後</td><td className="px-4 py-3 text-warm-gray">状態・付属品で変動</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">テナー 美品</td><td className="px-4 py-3 text-gold-dark font-bold">20万〜45万円前後</td><td className="px-4 py-3 text-warm-gray">テナーは高評価傾向</td></tr><tr className="bg-white"><td className="px-4 py-3">ジュビリー／彫刻入り等</td><td className="px-4 py-3 text-gold-dark font-bold">加点傾向</td><td className="px-4 py-3 text-warm-gray">仕様・年式で変動</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年9月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">セルマー シリーズIIの買取価格を今すぐ無料でチェック</p>

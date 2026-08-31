@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "セットで売ると有利ですか？", acceptedAnswer: { "@type": "Answer", text: "フルセットは総額が大きく、まとめ売りが有利です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】DW（ドラムワークショップ）買取おすすめ3社比較｜相場と価値", datePublished: "2026-06-05", dateModified: "2026-08-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】DW（ドラムワークショップ）買取おすすめ3社比較｜相場と価値", datePublished: "2026-06-05", dateModified: "2026-09-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,7 +71,7 @@ export default function DwKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】DW（ドラムワークショップ）買取おすすめ3社比較｜相場と価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">DW（Drum Workshop）を売りたい方へ。Collector's・Performance・Design シリーズのドラムセット、5000/9000ペダルの価値、状態による査定差を解説します。DWはハイエンドドラムの定番として中古需要が高いです。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <div className="article-body">

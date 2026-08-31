@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】壊れた楽器・古い楽器の買取｜ジャンク品でも売れる？",
     datePublished: "2026-04-18",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function KowaretaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             「壊れているから売れないだろう」と諦めていませんか？実は、ネック折れ・音が出ない・キズだらけの楽器でも買い取ってもらえるケースは多いのです。本記事では、壊れた楽器・古い楽器・ジャンク品が売れる理由、楽器別の買取相場、おすすめ業者3社を徹底解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

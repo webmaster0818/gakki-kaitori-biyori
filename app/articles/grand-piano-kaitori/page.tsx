@@ -5,10 +5,10 @@ import UrielVisitBanner from "@/components/UrielVisitBanner";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/grand-piano-kaitori/' },
-  title: "【2026年8月最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
+  title: "【2026年9月最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
   description: "グランドピアノ（Grand Piano）の買取相場、メーカー別の査定額目安、状態別の評価、高く売る5つのコツ、おすすめ買取業者3社を徹底解説。ピアノの買取で損しないための完全ガイド。",
   openGraph: {
-    title: "【2026年8月最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
+    title: "【2026年9月最新】グランドピアノ買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選",
     description: "グランドピアノ（Grand Piano）の買取相場、メーカー別の査定額目安、状態別の評価、高く売る5つのコツ、おすすめ買取業者3社を徹底解説。ピアノの買取で損しないための完全ガイド。",
   },
 };
@@ -59,11 +59,11 @@ export default function Page() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">ピアノ</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年8月更新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年9月更新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">グランドピアノの買取相場と高く売る完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">グランドピアノ（Grand Piano）はホール用大型からリビング向けまでサイズ別。ヤマハ・カワイ・スタインウェイが三大ブランド。本記事では、メーカー別の買取相場、状態別の査定額、高く売る5つのコツ、おすすめ買取業者3社を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -82,7 +82,7 @@ export default function Page() {
         <div className="article-body">
         <h2 id="summary">1. グランドピアノの特徴と市場概況</h2>
         <p>グランドピアノはホール用大型からリビング向けまでサイズ別。ヤマハ・カワイ・スタインウェイが三大ブランド。ピアノカテゴリの中でも特に中古市場での需要が安定している楽器の一つです。</p>
-        <p>2026年8月現在、グランドピアノの買取相場は、入門モデルで100,000円〜、中級モデルで約1,000,000円前後、プロ仕様の上位モデルは15,000,000円までと幅広い価格帯になります。</p>
+        <p>2026年9月現在、グランドピアノの買取相場は、入門モデルで100,000円〜、中級モデルで約1,000,000円前後、プロ仕様の上位モデルは15,000,000円までと幅広い価格帯になります。</p>
         <p>買取額を最大化するには、<strong>メーカー・モデル・状態・付属品</strong>の4要素が鍵となります。本記事では、それぞれの観点からグランドピアノの買取相場を整理します。</p>
 
         <UrielVisitBanner />
@@ -96,7 +96,7 @@ export default function Page() {
             <tbody><tr><td>スタインウェイ&サンズ（A・B・C・D・O型）</td><td>1,500,000〜15,000,000円</td></tr><tr><td>ベヒシュタイン</td><td>1,000,000〜8,000,000円</td></tr><tr><td>ベーゼンドルファー</td><td>1,500,000〜12,000,000円</td></tr><tr><td>ヤマハ（C・S・CFシリーズ）</td><td>300,000〜3,000,000円</td></tr><tr><td>カワイ（KG・RXシリーズ）</td><td>200,000〜1,500,000円</td></tr><tr><td>ディアパソン</td><td>150,000〜800,000円</td></tr></tbody>
           </table>
         </div>
-        <p>※相場は2026年8月時点の参考値。状態・付属品・買取業者により上下します。</p>
+        <p>※相場は2026年9月時点の参考値。状態・付属品・買取業者により上下します。</p>
 
         <h2 id="state-price">3. 状態別の査定額目安</h2>
         <p>同じモデルでも、状態によって査定額は大きく変わります。グランドピアノの状態別査定の目安は以下の通りです。</p>

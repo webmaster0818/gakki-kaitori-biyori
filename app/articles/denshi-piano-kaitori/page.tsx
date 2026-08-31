@@ -5,11 +5,11 @@ import UrielVisitBanner from "@/components/UrielVisitBanner";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/' },
-  title: "【2026年8月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
+  title: "【2026年9月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
   description:
     "電子ピアノの買取相場をYAMAHA・Roland・KAWAI別に徹底解説。Clavinova・HP・CNシリーズの年式別相場目安、高く売るコツ、おすすめ買取業者3社の比較まで。使わなくなった電子ピアノを最高値で売る方法がわかります。",
   openGraph: {
-    title: "【2026年8月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
+    title: "【2026年9月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
     description: "電子ピアノの買取相場をメーカー別に徹底解説。年式による価格差、高く売るコツ、おすすめ業者3社比較まで完全ガイド。",
   },
 };
@@ -68,9 +68,9 @@ function FaqSchema() {
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【2026年8月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
+    headline: "【2026年9月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
     datePublished: "2026-04-18",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -78,7 +78,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年8月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年9月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -92,15 +92,15 @@ export default function DenshiPianoKaitoriPage() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">電子ピアノ買取</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年8月更新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年9月更新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年8月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に徹底解説
+            【2026年9月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に徹底解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             使わなくなった電子ピアノ、そのまま眠らせていませんか？電子ピアノは技術の進化が早く、年数が経つほど価値が下がります。本記事では、YAMAHA・Roland・KAWAIの3大メーカー別に買取相場を解説し、年式による価格差や高く売るためのポイントをお伝えします。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

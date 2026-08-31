@@ -52,7 +52,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">カワイ K-300の買取相場と高く売るコツ完全ガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">カワイ K-300は高さ122cmの現行アップライトピアノで、Kシリーズのスタンダードモデルです。NEOTEXシボ仕上げ鍵盤など現代的な仕様を備え、新品でも人気が高く、中古買取でも安定した需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="kawai-k300-kaitori" modelName="KAWAI K-300" />
@@ -79,7 +79,7 @@ export default function Page() {
               <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-4 py-3">製造後5年以内（美品）</td><td className="px-4 py-3 text-gold-dark font-bold">12万〜30万円前後</td><td className="px-4 py-3 text-warm-gray">現行モデル。高値傾向</td></tr><tr className="bg-cream/50"><td className="px-4 py-3">製造後6〜12年</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜20万円前後</td><td className="px-4 py-3 text-warm-gray">状態良好なら高値を維持</td></tr><tr className="bg-white"><td className="px-4 py-3">旧K3／K30など先代</td><td className="px-4 py-3 text-gold-dark font-bold">4万〜12万円前後</td><td className="px-4 py-3 text-warm-gray">世代・状態により変動</td></tr></tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※相場は2026年8月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
+          <p className="text-xs text-warm-gray">※相場は2026年9月時点の参考目安です。個体差・市況・買取業者により変動するため、断定的な金額ではありません。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">カワイ K-300の買取価格を今すぐ無料でチェック</p>

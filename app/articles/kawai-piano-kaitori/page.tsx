@@ -5,10 +5,10 @@ import UrielVisitBanner from "@/components/UrielVisitBanner";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawai-piano-kaitori/' },
-  title: "カワイピアノの買取相場ガイド【2026年8月】グランド・アップライト・電子ピアノ別の査定ポイント",
+  title: "カワイピアノの買取相場ガイド【2026年9月】グランド・アップライト・電子ピアノ別の査定ポイント",
   description: "カワイ（KAWAI）のピアノを売るならどこがいい？RX・GXグランド、Kシリーズアップライト、CA・CN・CL電子ピアノのシリーズ別査定ポイント、製造番号での年代確認、重量物ならではの出張買取の流れとおすすめ3社を解説。無料査定だけの利用もOK。",
   openGraph: {
-    title: "カワイピアノの買取相場ガイド【2026年8月】グランド・アップライト・電子ピアノ別の査定ポイント",
+    title: "カワイピアノの買取相場ガイド【2026年9月】グランド・アップライト・電子ピアノ別の査定ポイント",
     description: "カワイピアノを売るなら。シリーズ別の査定ポイントとモデル名・製造番号での査定手順、おすすめ買取3社を解説。",
   },
 };
@@ -17,7 +17,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"CL5Eのような型番はどこで確認できますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"カワイの電子ピアノの型番は、鍵盤蓋の周辺や本体背面の銘板（ラベル）に記載されています。アコースティックピアノの場合はモデル名と製造番号が本体内部のフレーム（金属部分）に刻印されており、アップライトは上前板を開けた内側、グランドは大屋根を開けた内側で確認できます。型番と製造番号を査定フォームに書き添えると、査定がスムーズで正確になります。\"}}, {\"@type\": \"Question\", \"name\": \"古いカワイピアノ（BL・KUシリーズなど）でも売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"1960〜80年代のBL・KUシリーズなど古いモデルでも、状態次第で買取対象になります。国産中古ピアノは海外リユース需要があるため、国内で値が付きにくい年式でも買い取られるケースがあります。一方で、状態や年式によっては値が付かないこともあるため、まずは無料査定で確認するのが確実です。\"}}, {\"@type\": \"Question\", \"name\": \"ピアノの搬出費用はかかりますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"本記事で紹介している3社は査定・出張料無料です。ピアノは専門スタッフが搬出しますが、2階以上でエレベーターがない場合やクレーン搬出が必要な場合は条件が変わることがあるため、設置階・搬出経路を申込時に伝えておくとスムーズです。\"}}, {\"@type\": \"Question\", \"name\": \"カワイとヤマハ、どちらが高く売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"ブランドとしてはどちらも国産二大メーカーとして安定した需要があります。買取額を左右するのはブランド差よりも、モデル・年式・状態・搬出条件です。同クラスのモデル同士であれば大きな差は出にくいため、複数業者の査定額を比較するほうが効果的です。\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"カワイピアノの買取相場ガイド【2026年8月】グランド・アップライト・電子ピアノ別の査定ポイント\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"カワイピアノの買取相場ガイド【2026年9月】グランド・アップライト・電子ピアノ別の査定ポイント\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"ピアノ買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/piano-kaitori/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"カワイピアノ買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/kawai-piano-kaitori/\"}]}" }} />
     </>
   );
@@ -63,15 +63,15 @@ export default function Page() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">KAWAI×ピアノ</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年8月更新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年9月更新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            カワイピアノの買取相場ガイド【2026年8月】グランド・アップライト・電子ピアノ別の査定ポイント
+            カワイピアノの買取相場ガイド【2026年9月】グランド・アップライト・電子ピアノ別の査定ポイント
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             カワイ（KAWAI）のピアノの買取を検討している方へ。本記事では、グランドピアノ（RX・GX・Shigeru Kawai）・アップライトピアノ（Kシリーズ・BL/KUシリーズ）・電子ピアノ（CA・CN・CL・ES）のシリーズ別査定ポイント、査定の鍵になるモデル名と製造番号の確認方法、重量物のピアノで主流となる出張買取の流れ、おすすめ買取3社を解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

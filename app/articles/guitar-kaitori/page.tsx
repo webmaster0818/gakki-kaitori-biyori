@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツ",
     datePublished: "2026-04-18",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -111,7 +111,7 @@ export default function GuitarKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ギターを売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、ギター買取の人気3サービスを徹底比較し、エレキギター・アコースティックギターの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         {/* Table of Contents */}

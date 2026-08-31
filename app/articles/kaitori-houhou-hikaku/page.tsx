@@ -68,7 +68,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年版】楽器の買取方法4つを徹底比較",
     datePublished: "2026-04-18",
-    dateModified: "2026-08-01",
+    dateModified: "2026-09-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -98,7 +98,7 @@ export default function KaitoriHouhouHikakuPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             楽器を売りたいけど、どの方法で売ればいいかわからない方へ。一括査定・出張買取・店頭買取・宅配買取の4つの方法を、メリット・デメリットを含めて徹底比較。楽器の種類や状況別のおすすめ方法と、3社の対応表もまとめました。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

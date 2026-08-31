@@ -4,12 +4,12 @@ import RelatedArticles from "@/components/RelatedArticles";
 import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
-  title: "エレハモ ビッグマフの買取相場｜今週の実勢中央値・高く売るコツ【2026年8月最新】",
+  title: "エレハモ ビッグマフの買取相場｜今週の実勢中央値・高く売るコツ【2026年9月最新】",
   description: "エレハモ ビッグマフの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。ファズの定番。年代・バージョンでコレクター需要が変わります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "エレハモ ビッグマフ,Electro-Harmonix Big Muff 買取,Electro-Harmonix Big Muff 相場,Electro-Harmonix 買取",
   alternates: { canonical: "/articles/ehx-bigmuff-kaitori/" },
   openGraph: {
-    title: "エレハモ ビッグマフの買取相場｜今週の実勢中央値・高く売るコツ【2026年8月最新】",
+    title: "エレハモ ビッグマフの買取相場｜今週の実勢中央値・高く売るコツ【2026年9月最新】",
     description: "エレハモ ビッグマフの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/ehx-bigmuff-kaitori/",
     type: "article",
@@ -41,11 +41,11 @@ export default function Page() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">エレハモ ビッグマフ買取</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年8月最新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年9月最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">エレハモ ビッグマフの買取相場と高く売るコツ</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ファズの定番。年代・バージョンでコレクター需要が変わります。中古市場での需要をふまえ、実勢データと高く売るコツを解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年8月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年9月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="ehx-bigmuff-kaitori" modelName="Electro-Harmonix Big Muff" />
