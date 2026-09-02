@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  // 【2026-09-02】90日間 表示ゼロ かつ 独自量がしきい値未満（scaled-content-lint）。
+  //   薄いページを大量に索引させると Scaled Content 判定の材料になるため索引から外す。
+  //   ⚠️ 可逆。中身を厚くできたらこの2行を消す。follow は残すのでリンクは辿られる。
+  robots: { index: false, follow: true },
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/matsusaka-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 松阪市おすすめ3選｜出張・店頭・宅配を比較",
   description: "松阪市（三重県松阪市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、津・伊勢・多気エリアの状況も解説。",

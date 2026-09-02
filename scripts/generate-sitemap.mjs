@@ -43,9 +43,19 @@ const STATIC_PAGES = [
 
 function articleSlugs() {
   const dir = path.join(ROOT, "app", "articles");
+  // ⚠️ noindex にしたページは sitemap から外す（2026-09-02）。
+  //    「索引しないで」と書きながら sitemap で送るのは矛盾したシグナルになる。
+  const isNoindex = (slug) => {
+    try {
+      return fs.readFileSync(path.join(dir, slug, "page.tsx"), "utf8").includes("index: false");
+    } catch {
+      return false;
+    }
+  };
   return fs.readdirSync(dir, { withFileTypes: true })
     .filter(e => e.isDirectory() && !e.name.startsWith("_") && !e.name.startsWith("["))
     .map(e => e.name)
+    .filter(slug => !isNoindex(slug))
     .sort();
 }
 
