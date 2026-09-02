@@ -348,9 +348,7 @@ export default function FukuokaGakkiKaitoriPage() {
           <p className="mb-2 text-sm font-bold text-gray-900">「楽器の買取屋さん」について詳しく知りたい方へ</p>
           <p className="text-sm leading-relaxed text-gray-700">
             出張買取で全国対応している「楽器の買取屋さん」の運営会社・買取方法・手数料・実際の評判は、
-            <Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="font-medium text-amber-700 underline hover:text-amber-900">
-              楽器の買取屋さんの評判・口コミを検証した記事
-            </Link>
+            <Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="font-medium text-amber-700 underline hover:text-amber-900">楽器の買取屋さんの評判・デメリット</Link>
             で出典付きに整理しています。
           </p>
         </div>
