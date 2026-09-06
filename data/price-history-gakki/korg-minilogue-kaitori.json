@@ -64,10 +64,16 @@
       "median_jpy": 42000,
       "sample_n": 48,
       "raw_n": 48
+    },
+    {
+      "date": "2026-09-07",
+      "median_jpy": 42000,
+      "sample_n": 48,
+      "raw_n": 48
     }
   ],
   "latest": {
-    "date": "2026-09-01",
+    "date": "2026-09-07",
     "median_jpy": 42000,
     "sample_n": 48,
     "raw_n": 48,
