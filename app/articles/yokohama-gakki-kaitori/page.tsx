@@ -357,6 +357,17 @@ export default function YokohamaGakkiKaitoriPage() {
             で出典付きに整理しています。
           </p>
         </div>
+        {/* kaitoriyasan-link-202609 : 「楽器の買取屋さん」の指名クエリをこのページが拾っているため、専用ページへ送る */}
+        <div className="bg-white border border-warm-200 p-5 my-8">
+          <p className="text-xs font-medium text-warm-gray mb-2">業者を指名で調べている方へ</p>
+          <p className="text-sm leading-relaxed mb-3">
+            「楽器の買取屋さん」の運営会社・店頭買取の店舗一覧・出張の対応エリアを、公式サイトの公表内容だけで整理しています。
+          </p>
+          <Link href="/articles/gakki-no-kaitoriyasan/" className="text-sm text-accent underline hover:opacity-80">
+            楽器の買取屋さんとは？運営会社・店舗一覧・対応エリアを見る
+          </Link>
+        </div>
+
         <RelatedArticles
           currentSlug="yokohama-gakki-kaitori"
           relatedSlugs={["guitar-kaitori-yokohama", "kawasaki-gakki-kaitori", "machida-gakki-kaitori", "tokyo-gakki-kaitori", "chiba-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
