@@ -91,6 +91,48 @@ export default function Page() {
           <p><strong>対策:</strong> 個人間取引のリスクを避けたい場合は、信頼できる買取業者を利用しましょう。</p>
 
           <CtaBox />
+        {/* piano-sagi-202609: GSC実測「ピアノ買取 詐欺」36imp pos22.2 がこの記事に着地している。
+            ピアノは運び出しが絡むぶんトラブルの形が他の楽器と違うので、独立した節にする。 */}
+        <h2 className="text-xl font-bold mt-12 mb-4">ピアノの買取で起きやすいトラブル</h2>
+        <p className="text-sm leading-relaxed mb-4">
+          ピアノは他の楽器と違い、<strong>運び出しが必ず伴います。</strong>そのぶん、金額以外のところでもめやすくなります。
+          「ピアノ買取 詐欺」と調べている方は、次の3つを先に確認してください。
+        </p>
+        <div className="space-y-4 mb-6">
+          <div className="bg-white border border-warm-200 p-5">
+            <p className="text-sm font-medium mb-2">① 搬出費用が後から出てくる</p>
+            <p className="text-sm text-warm-gray leading-relaxed">
+              査定額は伝えられたのに、当日になって階段作業料・クレーン費用・床養生費を差し引かれる、という形です。
+              <strong>見積もりの時点で「差し引かれる費用が他にあるか」を必ず聞き、金額を書面かメッセージで残してください。</strong>
+              ピアノは設置場所（2階以上か、エレベーターの有無、通路幅）で作業が変わるため、
+              建物の条件を伝えずに出た金額は、そもそも確定額ではありません。
+            </p>
+          </div>
+          <div className="bg-white border border-warm-200 p-5">
+            <p className="text-sm font-medium mb-2">② 「処分費がかかる」と言われて0円、あるいは支払いを求められる</p>
+            <p className="text-sm text-warm-gray leading-relaxed">
+              古い機種や状態の悪いピアノでは、実際に買取額がつかないことはあります。問題は、
+              <strong>その説明が搬出当日に、他の選択肢が無くなった状態で出てくる</strong>ことです。
+              その場で決めず、いったん中止して構いません。断ったことで費用を請求される契約になっていないか、
+              申し込み時の書面を確認してください。
+            </p>
+          </div>
+          <div className="bg-white border border-warm-200 p-5">
+            <p className="text-sm font-medium mb-2">③ 訪問が「ピアノ以外」に広がる</p>
+            <p className="text-sm text-warm-gray leading-relaxed">
+              ピアノの査定で家に上がったあと、貴金属や時計の話に移る形です。
+              <strong>頼んでいない品物の話が始まったら、その場で断って構いません。</strong>
+              買取の訪問には特定商取引法のクーリング・オフが適用される場合があります。
+              不安があれば、消費者ホットライン（188）に相談できます。
+            </p>
+          </div>
+        </div>
+        <p className="text-sm leading-relaxed mb-8">
+          ピアノを売ること自体が危険なわけではありません。
+          <strong>建物の条件を先に伝え、差し引かれる費用を含めた金額を文字で受け取り、当日に決めない。</strong>
+          この3つで、ここに挙げたトラブルはほぼ避けられます。
+        </p>
+
 
           <h2 id="checklist">安心して楽器を売るためのチェックリスト</h2>
           <ul>

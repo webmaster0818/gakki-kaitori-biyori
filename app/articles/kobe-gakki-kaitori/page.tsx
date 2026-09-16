@@ -426,6 +426,17 @@ export default function KobeGakkiKaitoriPage() {
             楽器の買取屋さんとは？運営会社・店舗一覧・対応エリアを見る
           </Link>
         </div>
+        {/* dokogaii-link-202609 : 「楽器買取 どこがいい」で1ページ目に出ているが地域名の無い問い。答えのページへ送る */}
+        <div className="bg-white border border-warm-200 p-5 my-8">
+          <p className="text-xs font-medium text-warm-gray mb-2">地域を問わず「どこがいい？」で迷っている方へ</p>
+          <p className="text-sm leading-relaxed mb-3">
+            買取方式（一括査定・出張・店頭）によって、得意な楽器も手間も変わります。3社を方式別に比較しています。
+          </p>
+          <Link href="/articles/gakki-kaitori-osusume/" className="text-sm text-accent underline hover:opacity-80">
+            楽器買取はどこがいい？おすすめ業者3社の比較を見る
+          </Link>
+        </div>
+
 
         <RelatedArticles
           currentSlug="kobe-gakki-kaitori"
