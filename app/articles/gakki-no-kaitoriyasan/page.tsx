@@ -86,11 +86,11 @@ function Breadcrumb() {
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan/" },
-  title: "楽器の買取屋さんとは？運営会社・店舗一覧・出張の対応エリアを公式情報で整理【2026年9月】",
+  title: "楽器の買取屋さんとは？運営会社・店舗一覧・出張の対応エリアを公式情報で整理【2026年10月】",
   description:
     `楽器の買取屋さん（運営：UNI SOUND株式会社）の運営会社・買取方法・店頭買取${SHOP_COUNT}店舗・出張の対応エリアを、公式サイトの公表内容だけで整理しました。持ち込みできる店舗の探し方と、査定を他社と比べるときの見かたも解説します。`,
   openGraph: {
-    title: "楽器の買取屋さんとは？運営会社・店舗一覧・出張の対応エリア【2026年9月】",
+    title: "楽器の買取屋さんとは？運営会社・店舗一覧・出張の対応エリア【2026年10月】",
     description: "公式サイトの公表内容だけで整理。店頭買取の店舗一覧と出張の対応エリア、他社と比べるときの見かた。",
   },
 };
@@ -103,7 +103,7 @@ export default function Page() {
         "@type": "Article",
         headline: "楽器の買取屋さんとは？運営会社・店舗一覧・出張の対応エリアを公式情報で整理",
         datePublished: "2026-09-16",
-        dateModified: "2026-09-16",
+        dateModified: "2026-10-01",
         author: { "@type": "Organization", name: "楽器買取びより編集部" },
         mainEntityOfPage: "https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan/",
       },

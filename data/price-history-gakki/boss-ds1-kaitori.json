@@ -130,11 +130,17 @@
       "median_jpy": 6344,
       "sample_n": 252,
       "raw_n": 276
+    },
+    {
+      "date": "2026-10-01",
+      "median_jpy": 6200,
+      "sample_n": 252,
+      "raw_n": 276
     }
   ],
   "latest": {
-    "date": "2026-09-28",
-    "median_jpy": 6344,
+    "date": "2026-10-01",
+    "median_jpy": 6200,
     "sample_n": 252,
     "raw_n": 276,
     "insufficient": false

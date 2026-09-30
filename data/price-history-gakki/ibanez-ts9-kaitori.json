@@ -130,13 +130,19 @@
       "median_jpy": 8900,
       "sample_n": 122,
       "raw_n": 138
+    },
+    {
+      "date": "2026-10-01",
+      "median_jpy": 8900,
+      "sample_n": 118,
+      "raw_n": 134
     }
   ],
   "latest": {
-    "date": "2026-09-28",
+    "date": "2026-10-01",
     "median_jpy": 8900,
-    "sample_n": 122,
-    "raw_n": 138,
+    "sample_n": 118,
+    "raw_n": 134,
     "insufficient": false
   },
   "note": "週次自動更新で履歴を蓄積中。"
