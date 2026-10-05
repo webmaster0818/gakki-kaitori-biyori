@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagano-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 長野おすすめ3選｜出張・店頭・宅配を比較",
   description: "長野（長野県長野市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、須坂・千曲・中野エリアの状況も解説。",
-  openGraph: { title: "【2026年最新】楽器買取 長野おすすめ3選｜出張・店頭・宅配を比較", description: "長野（長野県長野市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、須坂・千曲・中野エリアの状況も解説。" },
+  openGraph: { images: ["/og-image.png"], title: "【2026年最新】楽器買取 長野おすすめ3選｜出張・店頭・宅配を比較", description: "長野（長野県長野市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、須坂・千曲・中野エリアの状況も解説。" },
 };
 
 function Schema() {
@@ -120,6 +121,7 @@ export default function Page() {
           <li><Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent hover:underline">楽器の買取屋さんの店舗一覧・運営会社・評判の検証</Link></li>
         </ul>
         </div>
+        <SameGroupArticles slug="nagano-gakki-kaitori" />
       </article>
     </>
   );

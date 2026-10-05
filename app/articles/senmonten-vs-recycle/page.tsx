@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/senmonten-vs-recycle/' },
   title: "【2026年最新】楽器買取専門店 vs リサイクルショップ｜査定額に最大10倍の差",
   description: "楽器を売るなら買取専門店とリサイクルショップどっち？査定額の差、専門性、対応範囲を比較。最大10倍の査定額差が生じる理由も解説。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取専門店 vs リサイクルショップ｜査定額に最大10倍の差",
     description: "楽器を売るなら買取専門店とリサイクルショップどっち？査定額の差、専門性、対応範囲を比較。最大10倍の査定額差が生じる理由も解説。",
   },

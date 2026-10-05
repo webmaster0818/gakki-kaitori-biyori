@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/matome-uri-kaitori/' },
   title: "【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ",
   description: "楽器を複数まとめて売りたい方へ。まとめ売り対応の買取業者3社を徹底比較。バンド機材一式・楽器コレクションの一括買取で高く売るコツ、セット売りのメリット・デメリットまで解説。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ",
     description: "楽器のまとめ売り・一括買取のおすすめ3社と高く売るコツを徹底解説。",
   },

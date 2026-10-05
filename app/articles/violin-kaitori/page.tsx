@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性",
   description:
     "バイオリン・弦楽器買取のおすすめ業者3社を徹底比較。バイオリン・ビオラ・チェロ・コントラバスの買取相場、Stradivarius・YAMAHA・Suzuki・Karl Hofnerなどブランド別の相場目安、鑑定書の有無による価格差まで解説。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性",
     description: "バイオリン・弦楽器買取のおすすめ業者3社を徹底比較。種類別・ブランド別の買取相場から鑑定書の重要性まで完全ガイド。",
   },

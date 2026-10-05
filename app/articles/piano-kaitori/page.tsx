@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】ピアノ買取おすすめ3社比較｜グランド・アップライト相場",
   description:
     "ピアノ買取のおすすめ業者3社を徹底比較。グランドピアノ・アップライトピアノ・電子ピアノの買取相場、YAMAHA・KAWAI・Steinwayなどブランド別の相場目安、高く売るコツまで解説します。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】ピアノ買取おすすめ3社比較｜グランド・アップライト相場",
     description: "ピアノ買取のおすすめ業者3社を徹底比較。グランド・アップライトの買取相場からブランド別相場、高く売るコツまで完全ガイド。",
   },

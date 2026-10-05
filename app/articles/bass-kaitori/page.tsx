@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "ベース買取はどこがいい？おすすめ3社と実勢相場・高く売るコツ【2026年10月】",
   description:
     "ベース買取のおすすめ業者3社を徹底比較。エレキベース・アコースティックベース・アップライトベースの買取相場、Fender・Gibson・Musicman・Rickenbacker・YAMAHAなどブランド別の相場目安、高く売るコツまで解説。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
     description: "ベース買取のおすすめ業者3社を徹底比較。エレキベース・アコースティックベースの買取相場からブランド別相場、高く売るコツまで完全ガイド。",
   },

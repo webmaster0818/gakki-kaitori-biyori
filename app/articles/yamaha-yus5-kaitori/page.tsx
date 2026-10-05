@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "ヤマハ YUS5の買取相場を年式・状態別に解説。ヤマハ YUS5の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。",
   keywords: "ヤマハ YUS5,YUS5買取,ヤマハ アップライト 上位,YUS5 相場",
   alternates: { canonical: "/articles/yamaha-yus5-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】ヤマハ YUS5の買取相場｜高く売るコツ・おすすめ業者",
     description: "ヤマハ YUS5の買取相場・特徴・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/yamaha-yus5-kaitori/",

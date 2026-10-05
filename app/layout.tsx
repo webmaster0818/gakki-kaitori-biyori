@@ -44,11 +44,15 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: `${SITE_NAME} | 楽器買取おすすめ比較ガイド`,
     description: SITE_DESCRIPTION,
+    // ⚠️ ページ側で openGraph を定義すると、この images は引き継がれない（上書きされる）。
+    //    自前の openGraph を持つページには scripts/add-og-image.py で同じ画像を書いている
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: `${SITE_NAME}｜楽器買取サービスの比較ガイド` }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} | 楽器買取おすすめ比較ガイド`,
     description: SITE_DESCRIPTION,
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -332,6 +336,22 @@ function Footer() {
                   className="hover:text-white transition-colors"
                 >
                   記事制作ポリシー
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/author/"
+                  className="hover:text-white transition-colors"
+                >
+                  編集部紹介
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/widget/"
+                  className="hover:text-white transition-colors"
+                >
+                  相場ウィジェット（無料配布）
                 </Link>
               </li>
             </ul>

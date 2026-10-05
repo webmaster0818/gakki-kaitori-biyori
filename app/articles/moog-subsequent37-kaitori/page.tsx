@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "モーグ サブスィークエント37の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。アナログシンセの名門Moogの人気モデル。太いサウンドで需要があります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "モーグ サブスィークエント37,Moog Subsequent 37 買取,Moog Subsequent 37 相場,Moog 買取",
   alternates: { canonical: "/articles/moog-subsequent37-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "モーグ サブスィークエント37の買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "モーグ サブスィークエント37の買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/moog-subsequent37-kaitori/",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "ローランド Junoの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。ヴィンテージから現行まで人気のシンセ。型番で評価が大きく異なります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "ローランド Juno,Roland Juno 買取,Roland Juno 相場,Roland 買取",
   alternates: { canonical: "/articles/roland-juno-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "ローランド Junoの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "ローランド Junoの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/roland-juno-kaitori/",

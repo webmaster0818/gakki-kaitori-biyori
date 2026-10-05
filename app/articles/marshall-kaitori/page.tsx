@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/marshall-kaitori/' },
   title: "【2026年10月 週次相場更新】Marshall買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Marshall（マーシャル）の真空管アンプ、ソリッドステートアンプ、キャビネット買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
-  openGraph: { title: "【2026年10月 週次相場更新】Marshall買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Marshall（マーシャル）の真空管アンプ、ソリッドステートアンプ、キャビネット買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
+  openGraph: { images: ["/og-image.png"], title: "【2026年10月 週次相場更新】Marshall買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Marshall（マーシャル）の真空管アンプ、ソリッドステートアンプ、キャビネット買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
 };
 
 function Schema() {

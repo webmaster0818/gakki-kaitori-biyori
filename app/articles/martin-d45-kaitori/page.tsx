@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "マーティン D-45の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。マーティンの最高峰ドレッドノート。ヴィンテージは非常に高い評価がつきます。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "マーティン D-45,Martin D-45 買取,Martin D-45 相場,Martin 買取",
   alternates: { canonical: "/articles/martin-d45-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "マーティン D-45の買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "マーティン D-45の買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/martin-d45-kaitori/",

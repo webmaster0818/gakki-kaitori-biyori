@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Martin買取はどこがいい？D-28等の相場とおすすめ3社【2026年10月】",
   description:
     "Martin（マーティン）のアコギを売るならどこがいい？D-28・D-45・000-28などモデル別の買取相場の目安と、Martin買取に強いおすすめ3社を比較。ヴィンテージ・限定モデルの高額買取のコツも解説。無料査定だけの利用もOK。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "Martin買取はどこがいい？D-28等の相場とおすすめ3社【2026年10月】",
     description: "Martinアコギの買取相場の目安とおすすめ3社を比較。モデル別相場から高く売るコツまで。",
   },

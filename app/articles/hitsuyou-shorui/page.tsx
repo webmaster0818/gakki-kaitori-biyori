@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/hitsuyou-shorui/' },
   title: "【2026年最新】楽器買取に必要な書類リスト｜身分証・印鑑・領収書まで",
   description: "楽器買取に必要な書類を解説。身分証、印鑑、領収書、保証書の必要性、未成年者の場合の追加書類、書類なしでも売れるケースまで。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取に必要な書類リスト｜身分証・印鑑・領収書まで",
     description: "楽器買取に必要な書類を解説。身分証、印鑑、領収書、保証書の必要性、未成年者の場合の追加書類、書類なしでも売れるケースまで。",
   },

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fukuoka-hakata-gakki-kaitori/' },
   title: "博多の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】",
   description: "博多（福岡市博多区）で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方と相場の目安、おすすめ3社を比較。天神・中央区エリアも解説。無料査定だけの利用もOK。",
-  openGraph: { title: "博多の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】", description: "博多（福岡市博多区）で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方と相場の目安、おすすめ3社を比較。天神・中央区エリアも解説。無料査定だけの利用もOK。" },
+  openGraph: { images: ["/og-image.png"], title: "博多の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】", description: "博多（福岡市博多区）で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方と相場の目安、おすすめ3社を比較。天神・中央区エリアも解説。無料査定だけの利用もOK。" },
 };
 
 function Schema() {
@@ -130,6 +131,7 @@ export default function Page() {
           <li><Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent hover:underline">楽器の買取屋さんの店舗一覧・運営会社・評判の検証</Link></li>
         </ul>
         </div>
+        <SameGroupArticles slug="fukuoka-hakata-gakki-kaitori" />
       </article>
     </>
   );

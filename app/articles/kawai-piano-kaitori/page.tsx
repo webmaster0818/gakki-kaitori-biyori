@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawai-piano-kaitori/' },
   title: "カワイピアノの買取相場ガイド【2026年10月】グランド・アップライト・電子ピアノ別の査定ポイント",
   description: "カワイ（KAWAI）のピアノを売るならどこがいい？RX・GXグランド、Kシリーズアップライト、CA・CN・CL電子ピアノのシリーズ別査定ポイント、製造番号での年代確認、重量物ならではの出張買取の流れとおすすめ3社を解説。無料査定だけの利用もOK。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "カワイピアノの買取相場ガイド【2026年10月】グランド・アップライト・電子ピアノ別の査定ポイント",
     description: "カワイピアノを売るなら。シリーズ別の査定ポイントとモデル名・製造番号での査定手順、おすすめ買取3社を解説。",
   },

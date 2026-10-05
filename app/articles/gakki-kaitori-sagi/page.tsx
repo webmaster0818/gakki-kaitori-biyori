@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/' },
   title: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点",
   description: "楽器買取で詐欺やトラブルに遭わないための注意点を解説。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点",
     description: "楽器買取の詐欺・トラブルを防ぐ方法と安心して売るための注意点を解説。",
   },

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-shobun-houhou/' },
   title: "【2026年最新】楽器の処分方法10選｜捨てる・売る・譲るを徹底比較",
   description: "楽器の処分方法10種を徹底比較。買取・粗大ゴミ・寄付・譲渡・廃品回収・メルカリ・ヤフオクなど、各方法の費用・手間・所要時間を一覧表で解説。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器の処分方法10選｜捨てる・売る・譲るを徹底比較",
     description: "楽器の処分方法10種を徹底比較。買取・粗大ゴミ・寄付・譲渡・廃品回収・メルカリ・ヤフオクなど、各方法の費用・手間・所要時間を一覧表で解説。",
   },

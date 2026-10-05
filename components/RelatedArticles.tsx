@@ -2,6 +2,7 @@ import Link from "next/link";
 import articlesMetadata from "@/data/articles-metadata.json";
 import PriceDisclaimer from "@/components/PriceDisclaimer";
 import RecommendedServices from "@/components/RecommendedServices";
+import SameGroupArticles from "@/components/SameGroupArticles";
 
 type ArticleCategory = "instrument" | "brand" | "model" | "region" | "howto";
 
@@ -77,6 +78,7 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
         <RecommendedServices />
         <PriceDisclaimer />
         <BuyerReviewLink currentSlug={currentSlug} />
+        <SameGroupArticles slug={currentSlug} />
       </>
     );
 
@@ -131,6 +133,8 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
         })}
       </div>
     </aside>
+    {/* 同じ楽器カテゴリ／同じ都道府県の記事。上の関連記事に出したものは重ねて出さない */}
+    <SameGroupArticles slug={currentSlug} exclude={items.map((i) => i.slug)} />
     </>
   );
 }

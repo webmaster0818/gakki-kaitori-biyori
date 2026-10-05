@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
   description:
     "電子ピアノの買取相場をYAMAHA・Roland・KAWAI別に徹底解説。Clavinova・HP・CNシリーズの年式別相場目安、高く売るコツ、おすすめ買取業者3社の比較まで。使わなくなった電子ピアノを最高値で売る方法がわかります。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
     description: "電子ピアノの買取相場をメーカー別に徹底解説。年式による価格差、高く売るコツ、おすすめ業者3社比較まで完全ガイド。",
   },

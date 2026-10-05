@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "フェンダー デラックスリバーブの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。録音・ライブ両用で定評のあるチューブコンボ。年式で評価が分かれます。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "フェンダー デラックスリバーブ,Fender Deluxe Reverb 買取,Fender Deluxe Reverb 相場,Fender 買取",
   alternates: { canonical: "/articles/fender-deluxereverb-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "フェンダー デラックスリバーブの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "フェンダー デラックスリバーブの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/fender-deluxereverb-kaitori/",

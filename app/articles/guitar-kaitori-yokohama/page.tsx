@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/guitar-kaitori-yokohama/' },
   title: "横浜のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場",
   description: "横浜でギターを売るならどこがいい？エレキ・アコギ対応のおすすめ買取3社を比較。Gibson・Fenderなど主要モデルの週次実勢相場、横浜駅西口の持ち込み事情、高く売るコツまで解説。無料査定だけの利用もOK。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "横浜のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場",
     description: "横浜でギターを売るなら。おすすめ3社の比較と主要モデルの週次相場、高く売るコツを解説。",
   },

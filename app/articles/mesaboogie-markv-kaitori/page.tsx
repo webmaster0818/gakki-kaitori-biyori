@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "メサブギー マークVの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。多彩なモードを持つハイエンドチューブアンプ。ハイゲイン系で人気。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "メサブギー マークV,Mesa Boogie Mark V 買取,Mesa Boogie Mark V 相場,Mesa Boogie 買取",
   alternates: { canonical: "/articles/mesaboogie-markv-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "メサブギー マークVの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "メサブギー マークVの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/mesaboogie-markv-kaitori/",

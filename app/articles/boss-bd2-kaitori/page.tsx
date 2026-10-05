@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "BOSS BD-2 Blues Driverの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。定番オーバードライブ。手頃な価格帯ですが安定した需要があります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "BOSS BD-2 Blues Driver,BOSS BD-2 買取,BOSS BD-2 相場,BOSS 買取",
   alternates: { canonical: "/articles/boss-bd2-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "BOSS BD-2 Blues Driverの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "BOSS BD-2 Blues Driverの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/boss-bd2-kaitori/",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "ラディック スープラフォニックの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。スネアの定番中の定番。録音現場でも愛用される名機です。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "ラディック スープラフォニック,Ludwig Supraphonic 買取,Ludwig Supraphonic 相場,Ludwig 買取",
   alternates: { canonical: "/articles/ludwig-supraphonic-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "ラディック スープラフォニックの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "ラディック スープラフォニックの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/ludwig-supraphonic-kaitori/",

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年10月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
   description:
     "Pearl（パール）のドラムを売るならどこがいい？Pearl製ドラムセット・スネアドラム・シンバルスタンドの買取相場とおすすめ3社を徹底比較。Masterworks・Reference・Exportなどシリーズ別の相場、高く売るコツまで解説。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
     description: "Pearl製ドラムの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
   },

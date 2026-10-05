@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "バック 42 トロンボーンの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。テナーバストロンボーンの定番。オーケストラ・吹奏楽で広く使われます。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "バック 42 トロンボーン,Bach 42 Trombone 買取,Bach 42 Trombone 相場,Bach 買取",
   alternates: { canonical: "/articles/bach-42-trombone-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "バック 42 トロンボーンの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "バック 42 トロンボーンの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/bach-42-trombone-kaitori/",

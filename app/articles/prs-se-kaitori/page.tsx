@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "PRS SEの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。PRSの普及価格帯シリーズ。状態と付属品で査定が変わります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "PRS SE,PRS SE 買取,PRS SE 相場,PRS 買取",
   alternates: { canonical: "/articles/prs-se-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "PRS SEの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
     description: "PRS SEの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
     url: "/articles/prs-se-kaitori/",

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kakegawa-gakki-kaitori/' },
   title: "掛川市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】",
   description: "掛川市で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。ハードオフ掛川店など市内の実店舗も紹介。無料査定だけの利用もOK。",
-  openGraph: { title: "掛川市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】", description: "掛川市で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。ハードオフ掛川店など市内の実店舗も紹介。無料査定だけの利用もOK。" },
+  openGraph: { images: ["/og-image.png"], title: "掛川市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】", description: "掛川市で楽器を売るならどこ？近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。ハードオフ掛川店など市内の実店舗も紹介。無料査定だけの利用もOK。" },
 };
 
 function Schema() {
@@ -130,6 +131,7 @@ export default function Page() {
           <li><Link href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent hover:underline">楽器の買取屋さんの店舗一覧・運営会社・評判の検証</Link></li>
         </ul>
         </div>
+        <SameGroupArticles slug="kakegawa-gakki-kaitori" />
       </article>
     </>
   );

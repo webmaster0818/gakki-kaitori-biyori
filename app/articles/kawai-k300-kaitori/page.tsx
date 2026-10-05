@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "カワイ K-300の買取相場を年式・状態別に解説。カワイ K-300の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。",
   keywords: "カワイ K-300,K300買取,カワイ アップライト 買取,K-300 相場",
   alternates: { canonical: "/articles/kawai-k300-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】カワイ K-300の買取相場｜高く売るコツ・おすすめ業者",
     description: "カワイ K-300の買取相場・特徴・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/kawai-k300-kaitori/",

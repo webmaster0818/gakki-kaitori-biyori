@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
   description:
     "Gibson(ギブソン)の買取相場を徹底解説。Les Paul・SG・ES-335などモデル別の買取価格目安、ヴィンテージGibsonの査定ポイント、高く売るコツまで。おすすめ買取業者3社の比較で最高値がわかります。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
     description: "Gibsonギターの買取相場をモデル別に徹底解説。Les Paul・SG・ES-335の相場目安と高く売るコツ。",
   },

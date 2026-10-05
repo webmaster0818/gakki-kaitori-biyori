@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/guitar-kaitori-aichi/' },
   title: "愛知のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場",
   description: "愛知でギターを売るならどこがいい？エレキ・アコギ対応のおすすめ買取3社を比較。Gibson・Fenderなど主要モデルの週次実勢相場、名古屋市・大須の持ち込み事情、高く売るコツまで解説。無料査定だけの利用もOK。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "愛知のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場",
     description: "愛知でギターを売るなら。おすすめ3社の比較と主要モデルの週次相場、高く売るコツを解説。",
   },

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-denshi-piano-kaitori/' },
   title: "ローランド電子ピアノの買取ガイド【2026年10月】LX・HP・FPシリーズを高く売るコツ",
   description: "ローランド（Roland）の電子ピアノを売るならどこがいい？LX・HP・RP・FPシリーズ別の査定ポイント、査定の鍵になる型番と製造年の確認方法、据置型の分解搬出と出張買取の流れ、おすすめ買取3社を比較。無料査定だけの利用もOK。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "ローランド電子ピアノの買取ガイド【2026年10月】LX・HP・FPシリーズを高く売るコツ",
     description: "ローランドの電子ピアノを売るなら。LX・HP・FPシリーズ別の査定ポイントとおすすめ買取3社を解説。",
   },

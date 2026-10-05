@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kishiwada-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 岸和田市おすすめ3選｜出張・店頭・宅配を比較",
   description: "岸和田市（大阪府岸和田市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、堺・和泉・貝塚エリアの状況も解説。",
-  openGraph: { title: "【2026年最新】楽器買取 岸和田市おすすめ3選｜出張・店頭・宅配を比較", description: "岸和田市（大阪府岸和田市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、堺・和泉・貝塚エリアの状況も解説。" },
+  openGraph: { images: ["/og-image.png"], title: "【2026年最新】楽器買取 岸和田市おすすめ3選｜出張・店頭・宅配を比較", description: "岸和田市（大阪府岸和田市）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、堺・和泉・貝塚エリアの状況も解説。" },
 };
 
 function Schema() {

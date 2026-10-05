@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "マーシャル JCM800の買取相場を年式・状態別に解説。マーシャル JCM800の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。",
   keywords: "マーシャル JCM800,JCM800 買取,Marshall アンプ 買取,2203 2204 相場",
   alternates: { canonical: "/articles/marshall-jcm800-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】マーシャル JCM800の買取相場｜高く売るコツ・おすすめ業者",
     description: "マーシャル JCM800の買取相場・特徴・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/marshall-jcm800-kaitori/",

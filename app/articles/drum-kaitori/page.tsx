@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "【2026年最新】ドラム買取おすすめ3社比較｜相場・高く売るコツ",
   description:
     "ドラム買取のおすすめ業者3社を徹底比較。アコースティックドラム・電子ドラム・シンバル単品の買取相場、Pearl・TAMA・DW・Roland・YAMAHAなどブランド別の相場目安、出張買取がおすすめな理由まで解説。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】ドラム買取おすすめ3社比較｜相場・高く売るコツ",
     description: "ドラム買取のおすすめ業者3社を徹底比較。ドラムセット・電子ドラムの買取相場からブランド別相場、高く売るコツまで完全ガイド。",
   },

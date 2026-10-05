@@ -185,3 +185,22 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
   搬出費用の後出し／当日に処分費を言われる／訪問がピアノ以外に広がる の3つ＋消費者ホットライン188。
 - ⚠️ 相場データ（souba-ranking-gakki.json・55モデル・2026-09-14更新）に**ピアノはYAMAHA C3の1件のみ**。
   ピアノの金額を語るには母数が足りないので、金額ではなく**トラブルの構造**で書いた。
+
+### 2026-10-05 公開前チェック（site-precheck.py）不合格3項目を修正 ✅本番反映済み
+初回 precheck（568ページ・noindex 117）: [7] og:image 無し 568 / [8] favicon 無し / [14] 被リンク1本以下 223（/widget/・/author/・記事221）。→ **全項目OK**。
+- **[7] og:image**: `public/og-image.png`（1200×630・`scripts/make-og.py`・数字なし）。
+  ⚠️ **ページ側で `openGraph` を定義すると layout の `openGraph.images` は引き継がれない**。`app/opengraph-image.png`（ファイル規約）でも同じで、482ページで出なかった（実測）。
+  → 自前の openGraph を持つ482ページに `images: ["/og-image.png"]` を付与（`scripts/add-og-image.py`・冪等）。**記事を新設したら add-og-image.py を流す**（生成スクリプトは images を出さない）。
+- **[8] favicon**: `app/icon.png`＋`app/favicon.ico`（make-og.py が同時に作る）。
+- **[14] 孤立**: 地域記事179本は関連記事ブロック自体が無く、型番記事12本は articles-metadata.json にも無く一覧にすら出ていなかった（warwick-thumb / ehx-bigmuff は被リンク0）。
+  → `components/SameGroupArticles.tsx`（同じ都道府県／同じ楽器カテゴリの記事を、並び順で近い最大8本）。グループは `scripts/gen-related-groups.py` → `data/related-groups.json`（46グループ・437記事）。
+  - 地域＝description の都道府県。インデックス対象4本未満の県は同じ地方でまとめる。それ以外＝relatedSlugs の最初の楽器カテゴリ記事が親。3本未満は系統（管楽器等）でまとめる。
+  - **noindex の117本はグループに入れず、ブロックも出さない**。
+  - RelatedArticles を持つ記事は RelatedArticles の中から出る（ページ編集不要）。持たない地域記事182本には `<SameGroupArticles slug="…" />` を `</article>` の直前に注入した。
+  - ⚠️ **記事を足した・noindex を変えたら `python3 scripts/gen-related-groups.py` を再実行**。RelatedArticles を持たない記事を新設したら SameGroupArticles の1行も入れる。
+  - /author/・/widget/ はフッター「サイト情報」からリンク。
+- 🔍 **見つけたが直していない**:
+  - `tama-kaitori` は metadata が「楽器買取 多摩エリア」（region・badge 多摩）なのに**ページの中身はドラムの TAMA**（relatedSlugs は多摩の地域記事のまま）。一覧・関連記事に誤った名前で出ている。関連グループからは除外（gen-related-groups.py の SKIP）。
+  - 型番記事24本が articles-metadata.json に未登録（一覧に出ない）。うち slug 違いの重複らしき組: `gibson-flyingv`/`gibson-flying-v`、`fender-deluxereverb`/`fender-deluxe-reverb`、`nord-stage`/`nord-stage3`。
+  - 管楽器の型番3本（bach-42-trombone / buffet-r13 / muramatsu-flute）の relatedSlugs 先頭が `saxophone-kaitori`（8/26 の kangakki 振替の名残）。グループ側は HUB_FIX で正したが、ページの関連記事・パンくずは未修正。
+- 先頭の「source push=§16 HTTPS」は古い。remote は SSH エイリアス（`git@github.com-webmaster0818-gakki-kaitori-biyori`）。

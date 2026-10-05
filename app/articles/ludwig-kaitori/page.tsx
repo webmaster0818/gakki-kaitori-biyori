@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ludwig-kaitori/' },
   title: "【2026年最新】Ludwig買取相場ガイド｜全モデル査定額・高く売るコツ",
   description: "Ludwig（ラディック）のクラシックドラムセット、スネアドラム買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。",
-  openGraph: { title: "【2026年最新】Ludwig買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Ludwig（ラディック）のクラシックドラムセット、スネアドラム買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
+  openGraph: { images: ["/og-image.png"], title: "【2026年最新】Ludwig買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Ludwig（ラディック）のクラシックドラムセット、スネアドラム買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。" },
 };
 
 function Schema() {

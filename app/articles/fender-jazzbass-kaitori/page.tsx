@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "フェンダー ジャズベースの買取相場を年式・状態別に解説。フェンダー ジャズベースの特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。",
   keywords: "フェンダー ジャズベース,Jazz Bass 買取,Fender ベース 買取,ジャズベ 相場",
   alternates: { canonical: "/articles/fender-jazzbass-kaitori/" },
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】フェンダー ジャズベースの買取相場｜高く売るコツ・おすすめ業者",
     description: "フェンダー ジャズベースの買取相場・特徴・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/fender-jazzbass-kaitori/",

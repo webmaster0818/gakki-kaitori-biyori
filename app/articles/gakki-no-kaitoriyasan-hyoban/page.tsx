@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan-hyoban/' },
   title: "楽器の買取屋さんとは？店舗一覧・評判・運営会社と手数料を検証【2026年10月】",
   description: "「楽器の買取屋さん」はどんな買取業者？店舗一覧・運営会社・買取方法・料金・評判を公開情報で検証。査定料/出張料/キャンセル料0円・全国出張対応の実態、良い評判と気になる声の傾向、他社との比較まで中立的に整理します。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "楽器の買取屋さんとは？店舗一覧・評判・運営会社と手数料を検証【2026年10月】",
     description: "「楽器の買取屋さん」の運営会社・買取方法・料金・評判の傾向を公開情報で中立的に検証。",
   },

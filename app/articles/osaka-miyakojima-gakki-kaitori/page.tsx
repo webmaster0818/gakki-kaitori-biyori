@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/osaka-miyakojima-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 大阪市都島区おすすめ3選｜出張・店頭・宅配を比較",
   description: "大阪市都島区（大阪府大阪市都島区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、北・旭・城東・東淀川エリアの状況も解説。",
-  openGraph: { title: "【2026年最新】楽器買取 大阪市都島区おすすめ3選｜出張・店頭・宅配を比較", description: "大阪市都島区（大阪府大阪市都島区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、北・旭・城東・東淀川エリアの状況も解説。" },
+  openGraph: { images: ["/og-image.png"], title: "【2026年最新】楽器買取 大阪市都島区おすすめ3選｜出張・店頭・宅配を比較", description: "大阪市都島区（大阪府大阪市都島区）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、北・旭・城東・東淀川エリアの状況も解説。" },
 };
 
 function Schema() {

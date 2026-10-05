@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/guitar-kaitori-kobe/' },
   title: "神戸のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場",
   description: "神戸でギターを売るならどこがいい？エレキ・アコギ対応のおすすめ買取3社を比較。Gibson・Fenderなど主要モデルの週次実勢相場、三宮・元町の持ち込み事情、高く売るコツまで解説。無料査定だけの利用もOK。",
-  openGraph: {
+  openGraph: { images: ["/og-image.png"], 
     title: "神戸のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場",
     description: "神戸でギターを売るなら。おすすめ3社の比較と主要モデルの週次相場、高く売るコツを解説。",
   },
