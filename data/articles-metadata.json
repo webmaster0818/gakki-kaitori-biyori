@@ -4278,5 +4278,173 @@
     "badge": "業者レビュー",
     "description": "「楽器の買取屋さん」の運営会社・買取方法・料金・評判の傾向を公開情報で中立的に検証。",
     "category": "howto"
+  },
+  {
+    "slug": "bach-42-trombone-kaitori",
+    "title": "バック 42 トロンボーンの買取相場ガイド",
+    "shortTitle": "バック 42 トロンボーン買取相場",
+    "badge": "バック 42 トロンボーン",
+    "category": "model",
+    "description": "バック 42 トロンボーンの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。テナーバストロンボーンの定番。オーケストラ・吹奏楽で広く使われます。 価格を左"
+  },
+  {
+    "slug": "boss-bd2-kaitori",
+    "title": "BOSS BD-2 Blues Driverの買取相場ガイド",
+    "shortTitle": "BOSS BD-2 Blues Driver買取相場",
+    "badge": "BOSS BD-2 Blues Driver",
+    "category": "model",
+    "description": "BOSS BD-2 Blues Driverの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。定番オーバードライブ。手頃な価格帯ですが安定した需要がありま"
+  },
+  {
+    "slug": "buffet-r13-kaitori",
+    "title": "クランポン R13の買取相場ガイド",
+    "shortTitle": "クランポン R13買取相場",
+    "badge": "クランポン R13",
+    "category": "model",
+    "description": "クランポン R13の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。クラリネットの世界的定番。プロ・アマ問わず需要の高いモデルです。 価格を左右するポイン"
+  },
+  {
+    "slug": "dw-collectors-kaitori",
+    "title": "DW コレクターズの買取相場ガイド",
+    "shortTitle": "DW コレクターズ買取相場",
+    "badge": "DW コレクターズ",
+    "category": "model",
+    "description": "DW コレクターズの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。米国ハイエンドドラムの代名詞。カスタム構成が多く個体差があります。 価格を左右するポイ"
+  },
+  {
+    "slug": "ehx-bigmuff-kaitori",
+    "title": "エレハモ ビッグマフの買取相場ガイド",
+    "shortTitle": "エレハモ ビッグマフ買取相場",
+    "badge": "エレハモ ビッグマフ",
+    "category": "model",
+    "description": "エレハモ ビッグマフの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。ファズの定番。年代・バージョンでコレクター需要が変わります。 価格を左右するポイント"
+  },
+  {
+    "slug": "esp-horizon-kaitori",
+    "title": "ESP ホライゾンの買取相場ガイド",
+    "shortTitle": "ESP ホライゾン買取相場",
+    "badge": "ESP ホライゾン",
+    "category": "model",
+    "description": "ESP ホライゾンの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。国産ハイエンドの定番。メタル系で安定した需要があります。 価格を左右するポイント、高く"
+  },
+  {
+    "slug": "fender-mustang-kaitori",
+    "title": "フェンダー ムスタングの買取相場ガイド",
+    "shortTitle": "フェンダー ムスタング買取相場",
+    "badge": "フェンダー ムスタング",
+    "category": "model",
+    "description": "フェンダー ムスタングの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。ショートスケールの人気モデル。オルタナ／インディー系での需要が高い一本です。 価格"
+  },
+  {
+    "slug": "gibson-explorer-kaitori",
+    "title": "ギブソン エクスプローラーの買取相場ガイド",
+    "shortTitle": "ギブソン エクスプローラー買取相場",
+    "badge": "ギブソン エクスプローラー",
+    "category": "model",
+    "description": "ギブソン エクスプローラーの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。近未来的なシェイプのハードロック／メタル定番モデル。個体差と年式で評価が大きく"
+  },
+  {
+    "slug": "gibson-firebird-kaitori",
+    "title": "ギブソン ファイアーバードの買取相場ガイド",
+    "shortTitle": "ギブソン ファイアーバード買取相場",
+    "badge": "ギブソン ファイアーバード",
+    "category": "model",
+    "description": "ギブソン ファイアーバードの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。リバースボディとミニハムが個性的なモデル。中古市場で根強い需要があります。 価"
+  },
+  {
+    "slug": "ibanez-jem-kaitori",
+    "title": "アイバニーズ JEMの買取相場ガイド",
+    "shortTitle": "アイバニーズ JEM買取相場",
+    "badge": "アイバニーズ JEM",
+    "category": "model",
+    "description": "アイバニーズ JEMの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。スティーヴ・ヴァイのシグネチャー。モノグリップやピラミッドインレイが象徴的です。 価"
+  },
+  {
+    "slug": "ludwig-supraphonic-kaitori",
+    "title": "ラディック スープラフォニックの買取相場ガイド",
+    "shortTitle": "ラディック スープラフォニック買取相場",
+    "badge": "ラディック スープラフォニック",
+    "category": "model",
+    "description": "ラディック スープラフォニックの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。スネアの定番中の定番。録音現場でも愛用される名機です。 価格を左右するポイ"
+  },
+  {
+    "slug": "martin-000-kaitori",
+    "title": "マーティン 000-28の買取相場ガイド",
+    "shortTitle": "マーティン 000-28買取相場",
+    "badge": "マーティン 000-28",
+    "category": "model",
+    "description": "マーティン 000-28の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。小ぶりなボディでフィンガーピッキングにも人気のマーティン定番。 価格を左右するポ"
+  },
+  {
+    "slug": "martin-d45-kaitori",
+    "title": "マーティン D-45の買取相場ガイド",
+    "shortTitle": "マーティン D-45買取相場",
+    "badge": "マーティン D-45",
+    "category": "model",
+    "description": "マーティン D-45の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。マーティンの最高峰ドレッドノート。ヴィンテージは非常に高い評価がつきます。 価格を左"
+  },
+  {
+    "slug": "mesaboogie-markv-kaitori",
+    "title": "メサブギー マークVの買取相場ガイド",
+    "shortTitle": "メサブギー マークV買取相場",
+    "badge": "メサブギー マークV",
+    "category": "model",
+    "description": "メサブギー マークVの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。多彩なモードを持つハイエンドチューブアンプ。ハイゲイン系で人気。 価格を左右するポイ"
+  },
+  {
+    "slug": "moog-subsequent37-kaitori",
+    "title": "モーグ サブスィークエント37の買取相場ガイド",
+    "shortTitle": "モーグ サブスィークエント37買取相場",
+    "badge": "モーグ サブスィークエント37",
+    "category": "model",
+    "description": "モーグ サブスィークエント37の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。アナログシンセの名門Moogの人気モデル。太いサウンドで需要があります。 "
+  },
+  {
+    "slug": "muramatsu-flute-kaitori",
+    "title": "ムラマツ フルートの買取相場ガイド",
+    "shortTitle": "ムラマツ フルート買取相場",
+    "badge": "ムラマツ フルート",
+    "category": "model",
+    "description": "ムラマツ フルートの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。国産最高峰フルートブランド。銀・金の素材や型番で相場が大きく動きます。 価格を左右する"
+  },
+  {
+    "slug": "prs-se-kaitori",
+    "title": "PRS SEの買取相場ガイド",
+    "shortTitle": "PRS SE買取相場",
+    "badge": "PRS SE",
+    "category": "model",
+    "description": "PRS SEの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。PRSの普及価格帯シリーズ。状態と付属品で査定が変わります。 価格を左右するポイント、高く売"
+  },
+  {
+    "slug": "rickenbacker-4003-kaitori",
+    "title": "リッケンバッカー 4003の買取相場ガイド",
+    "shortTitle": "リッケンバッカー 4003買取相場",
+    "badge": "リッケンバッカー 4003",
+    "category": "model",
+    "description": "リッケンバッカー 4003の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。唯一無二のサウンドとルックスを持つリッケンバッカーの定番ベース。 価格を左右す"
+  },
+  {
+    "slug": "roland-juno-kaitori",
+    "title": "ローランド Junoの買取相場ガイド",
+    "shortTitle": "ローランド Juno買取相場",
+    "badge": "ローランド Juno",
+    "category": "model",
+    "description": "ローランド Junoの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。ヴィンテージから現行まで人気のシンセ。型番で評価が大きく異なります。 価格を左右する"
+  },
+  {
+    "slug": "warwick-thumb-kaitori",
+    "title": "ワーウィック サムの買取相場ガイド",
+    "shortTitle": "ワーウィック サム買取相場",
+    "badge": "ワーウィック サム",
+    "category": "model",
+    "description": "ワーウィック サムの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。独特のネックスルー構造とサウンドで人気のドイツ製ハイエンドベース。 価格を左右するポイ"
+  },
+  {
+    "slug": "yamaha-ytr8335-kaitori",
+    "title": "ヤマハ YTR-8335の買取相場ガイド",
+    "shortTitle": "ヤマハ YTR-8335買取相場",
+    "badge": "ヤマハ YTR-8335",
+    "category": "model",
+    "description": "ヤマハ YTR-8335の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。Xenoシリーズのプロ向けトランペット。管楽器買取で安定需要があります。 価格を"
   }
 ]
