@@ -343,7 +343,7 @@ function Footer() {
                   href="/author/"
                   className="hover:text-white transition-colors"
                 >
-                  編集部紹介
+                  運営方針・データの確認手順
                 </Link>
               </li>
               <li>
