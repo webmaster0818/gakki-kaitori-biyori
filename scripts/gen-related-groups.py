@@ -16,7 +16,7 @@ components/SameGroupArticles.tsx が読む。記事を足した・noindex を変
     インデックス対象が MIN_PREF 本未満の県は、同じ地方（8地方区分）の小さい県どうしでまとめる。
   - それ以外: その記事の RelatedArticles の relatedSlugs で最初に出てくる「楽器カテゴリ」記事。
     （例: warwick-thumb → bass-kaitori）。他の記事から親にされている楽器記事は自分が親。
-    relatedSlugs の先頭が実際の楽器と違う3本は HUB_FIX で正す（トロンボーンがサックス扱い等）。
+    relatedSlugs の先頭が実際の楽器と違う記事は HUB_FIX で正す（カリンバ）。
     3本未満にしかならない親は、同じ楽器の系統（FAMILY＝管楽器・DTM/DJ 等）でまとめる。
     楽器カテゴリへの関連を持たない記事（売り方ガイド等）は同じ category どうし。
     それでも1本だけのグループは出力しない（ブロックを出さない）。
@@ -66,12 +66,9 @@ PREF_FIX = {
     "guitar-kaitori-tokyo": "東京都", "guitar-kaitori-yokohama": "神奈川県",
     "guitar-kaitori-sapporo": "北海道", "guitar-kaitori-aichi": "愛知県",
 }
-# relatedSlugs の先頭が別の楽器になっている型番記事 → 実際の楽器カテゴリ記事
-#   （2026-08-26 に存在しない kangakki-kaitori を saxophone-kaitori へ一括振替した名残）
+# relatedSlugs の先頭が別の楽器になっている記事 → 実際の楽器カテゴリ記事
+#   （管楽器型番3本＝bach-42/buffet-r13/muramatsu は 2026-10-07 にページ側を直したので外した）
 HUB_FIX = {
-    "bach-42-trombone-kaitori": "trombone-kaitori",   # トロンボーン
-    "buffet-r13-kaitori": "clarinet-kaitori",         # クラリネット
-    "muramatsu-flute-kaitori": "flute-kaitori",       # フルート
     "kalimba-kaitori": "drum-kaitori",                # カリンバは打楽器（relatedSlugs 先頭はハーモニカ）
 }
 # グループに入れない記事。

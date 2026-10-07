@@ -186,6 +186,12 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - ⚠️ 相場データ（souba-ranking-gakki.json・55モデル・2026-09-14更新）に**ピアノはYAMAHA C3の1件のみ**。
   ピアノの金額を語るには母数が足りないので、金額ではなく**トラブルの構造**で書いた。
 
+### 2026-10-07 管楽器型番3本の関連リンク・パンくずが「サックス」になっていたのを根本修正 ✅本番反映済み
+- **原因の連鎖**: `scripts/gen-souba-models-202607.py`（7/16）が型番ページを `[カテゴリハブ, ブランドハブ(無ければカテゴリハブ), …]` で生成し、管楽器は一律 `wind → /articles/kangakki-kaitori/`（存在しない）。8/26 の404修正で `kangakki-kaitori → saxophone-kaitori` に機械置換 → トロンボーン/クラリネット/フルートの型番がサックス扱いに（relatedSlugs 先頭2つ・パンくず表示・BreadcrumbList JSON-LD の3箇所）。10/5 は gen-related-groups.py の HUB_FIX でグループ側だけ上書きしていた。
+- **修正**: bach-42-trombone → `trombone-kaitori`+`bach-kaitori`／buffet-r13 → `clarinet-kaitori`+`buffet-kaitori`／muramatsu-flute → `flute-kaitori`（ブランド記事なし・重複は落とす）。パンくず（表示＋JSON-LD）も「トロンボーン買取／クラリネット買取／フルート買取」→各楽器ハブへ。生成元 gen-souba-models-202607.py の CAT に trombone/clarinet/flute を追加し3本の定義を差し替え。HUB_FIX から3本を削除（kalimba のみ残す）。
+- gen-related-groups.py 再実行 → `data/related-groups.json` は**差分0**（46グループ・437記事。HUB_FIX が既に同じ結果を出していたため、他ページの関連ブロックは不変）。add-og-image.py は付与0（482付与済）。影響ページ＝3本のみ。
+- 🔍 **見つけたが直していない**（同じ原因）: `yamaha-ytr8335-kaitori`（トランペット）も relatedSlugs 先頭とパンくずが `saxophone-kaitori`「管楽器買取」。gen-souba-models-202607.py の CAT `amp`→`/amp-kaitori/`・`synth`→`/synth-kaitori/` も存在しないハブのまま（ページ側は8/26に guitar-amp/synthesizer へ振替済）。`conn-kaitori`（ブランド）は sax 先頭だが Conn はサックス主力なので誤りとは言えない。
+
 ### 2026-10-05 公開前チェック（site-precheck.py）不合格3項目を修正 ✅本番反映済み
 初回 precheck（568ページ・noindex 117）: [7] og:image 無し 568 / [8] favicon 無し / [14] 被リンク1本以下 223（/widget/・/author/・記事221）。→ **全項目OK**。
 - **[7] og:image**: `public/og-image.png`（1200×630・`scripts/make-og.py`・数字なし）。
@@ -202,5 +208,5 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 🔍 **見つけたが直していない**:
   - `tama-kaitori` は metadata が「楽器買取 多摩エリア」（region・badge 多摩）なのに**ページの中身はドラムの TAMA**（relatedSlugs は多摩の地域記事のまま）。一覧・関連記事に誤った名前で出ている。関連グループからは除外（gen-related-groups.py の SKIP）。
   - 型番記事24本が articles-metadata.json に未登録（一覧に出ない）。うち slug 違いの重複らしき組: `gibson-flyingv`/`gibson-flying-v`、`fender-deluxereverb`/`fender-deluxe-reverb`、`nord-stage`/`nord-stage3`。
-  - 管楽器の型番3本（bach-42-trombone / buffet-r13 / muramatsu-flute）の relatedSlugs 先頭が `saxophone-kaitori`（8/26 の kangakki 振替の名残）。グループ側は HUB_FIX で正したが、ページの関連記事・パンくずは未修正。
+  - 管楽器の型番3本（bach-42-trombone / buffet-r13 / muramatsu-flute）の relatedSlugs 先頭が `saxophone-kaitori`（8/26 の kangakki 振替の名残）。→ **2026-10-07 にページ側を修正済み（上記）**。
 - 先頭の「source push=§16 HTTPS」は古い。remote は SSH エイリアス（`git@github.com-webmaster0818-gakki-kaitori-biyori`）。
