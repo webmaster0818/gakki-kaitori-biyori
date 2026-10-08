@@ -210,3 +210,11 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
   - 型番記事24本が articles-metadata.json に未登録（一覧に出ない）。うち slug 違いの重複らしき組: `gibson-flyingv`/`gibson-flying-v`、`fender-deluxereverb`/`fender-deluxe-reverb`、`nord-stage`/`nord-stage3`。
   - 管楽器の型番3本（bach-42-trombone / buffet-r13 / muramatsu-flute）の relatedSlugs 先頭が `saxophone-kaitori`（8/26 の kangakki 振替の名残）。→ **2026-10-07 にページ側を修正済み（上記）**。
 - 先頭の「source push=§16 HTTPS」は古い。remote は SSH エイリアス（`git@github.com-webmaster0818-gakki-kaitori-biyori`）。
+
+### 2026-10-08 「ヒカカク 楽器買取 口コミ／評判」受け皿 新規（MediaXAI指示・3サイト横断） ✅本番反映済み
+- 既存ページを title/h1/URL で「ヒカカク」検索→該当なし（CTA言及のみ）→ `/articles/hikakaku-gakki-kaitori-kuchikomi/` 新規（手書き page.tsx・category=howto・badge「サービス評判」）
+- 一次情報は hikakaku.com の**生HTML**を curl で確認（/lp/ 使い方・よくあるご質問・利用規約・運営者情報・古物営業法表記・/hikakaku_reviews/・楽器/ピアノカテゴリ）。口コミは公式クチコミページの評価分布（総合3.4／星5=425・4=200・3=106・2=86・1=266＝1,083件・「悪い比率32.5%」は公式表示）＋内容の傾向のみ。本文転載・架空・件数捏造なし。Googleマップ等の独自集計は使っていない（取れないので書かない）
+- 構成: 結論→とは（表）→楽器を出す流れ5step→注意点5→良い/気になる評判→向き不向き→FAQ6(FAQPage)→出典。PR表記＋`rel="noopener noreferrer nofollow sponsored"`
+- 内部リンク元5本: gakki-kaitori-osusume / kaitori-houhou-hikaku / takaku-uru-kotsu / mercari-vs-gyosha / gakki-kaitori-sagi（最初の `<CtaBox />` 直後に1文＋relatedSlugs先頭）。sitemap 452 URL再生成
+- precheck: 初回「description 167字」不合格→141字に短縮→✅全項目OK。deploy 87399d3bc・本番curl 200・Indexing API 6/6
+- ⚠️ 自前 openGraph を書くページは `images: ["/og-image.png"]` を必ず入れる（layoutのデフォルトが上書きされて og:image が消える＝peatbidで precheck 不合格になった）
