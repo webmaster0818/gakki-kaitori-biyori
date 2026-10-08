@@ -272,7 +272,7 @@ M = [
    ("Celestionスピーカーは価値がありますか？","はい。Alnico Blue等のオリジナルスピーカーは価値が高く、評価を押し上げます。"),
    ("重いので出張買取できますか？","可能です。掲載3社のうちウリエルは出張買取に対応しており、大型アンプの搬出も依頼できます。"),
    ("費用はかかりますか？","掲載3社は査定・出張・送料・キャンセルすべて無料です。")],
-  ["marshall-jcm800-kaitori","amp-kaitori","guitar-kaitori","takaku-uru-kotsu","souba-ichiran"],
+  ["marshall-jcm800-kaitori","guitar-amp-kaitori","guitar-kaitori","takaku-uru-kotsu","souba-ichiran"],
   "現行Customで3万〜7万円、Hand-Wiredで7万〜15万円、1960〜70年代ヴィンテージは15万〜50万円以上"),
 
  ("fender-deluxe-reverb-kaitori","フェンダー デラックスリバーブ買取",
@@ -289,7 +289,7 @@ M = [
    ("ブラックフェイスとシルバーフェイスの違いは？","コントロールパネルの色で年代を区別します。1960年代ブラックフェイスがより高評価です。"),
    ("リバーブやトレモロが不調でも売れますか？","売却可能です。定番の修理箇所で、軽度なら大きな減額にはなりにくいです。"),
    ("費用はかかりますか？","掲載3社は査定・出張・送料・キャンセルすべて無料です。")],
-  ["fender-twinreverb-kaitori","amp-kaitori","fender-kaitori","takaku-uru-kotsu","souba-ichiran"],
+  ["fender-twinreverb-kaitori","guitar-amp-kaitori","fender-kaitori","takaku-uru-kotsu","souba-ichiran"],
   "現行Reissueで4万〜9万円、シルバーフェイスで8万〜18万円、ブラックフェイスのヴィンテージは20万〜50万円以上"),
 
  ("roland-jc120-kaitori","ローランド JC-120買取",
@@ -306,7 +306,7 @@ M = [
    ("コーラスが効かなくても売れますか？","売却可能ですが、コーラス不調は減額要因です。動作状況を正直に伝えましょう。"),
    ("重量があるので出張買取できますか？","可能です。掲載3社のうちウリエルは出張買取に対応しています。"),
    ("費用はかかりますか？","掲載3社は査定・出張・送料・キャンセルすべて無料です。")],
-  ["amp-kaitori","guitar-kaitori","takaku-uru-kotsu","souba-ichiran","kaitori-houhou-hikaku"],
+  ["guitar-amp-kaitori","guitar-kaitori","takaku-uru-kotsu","souba-ichiran","kaitori-houhou-hikaku"],
   "中古で2万〜6万円程度（年式新しめ・動作良好は上限寄り）"),
 
  # ===== エフェクター =====

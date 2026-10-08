@@ -9,19 +9,24 @@ ROOT = "/Users/takashi.hasegawa/projects/gakki-kaitori-biyori"
 DATE = "2026-07-16"
 
 # モデル定義: slug -> (表示名, カテゴリkey, 見出し名, 1行説明, keywords, 相場帯レンジ文)
-# category: guitar/acoustic/bass/amp/effector/wind/drums/synth → パンくず親
+# category: guitar/acoustic/bass/amp/effector/trumpet/trombone/clarinet/flute/drums/synth/piano → パンくず親
+# ⚠️ URL は必ず app/articles/ に実在するハブに向けること（2026-10-08 整理）。
+#   旧定義の /articles/amp-kaitori/ ・ /articles/synth-kaitori/ ・ /articles/kangakki-kaitori/ は
+#   いずれもページが存在せず（本番404）、8/26 にページ側を機械置換で直した経緯がある。
+#   実在ハブ: guitar-amp-kaitori / synthesizer-kaitori / trumpet-kaitori / piano-kaitori（本番200確認済）
 CAT = {
     "guitar": ("ギター買取", "/articles/guitar-kaitori/"),
     "acoustic": ("アコギ買取", "/articles/acoustic-guitar-kaitori/"),
     "bass": ("ベース買取", "/articles/bass-kaitori/"),
-    "amp": ("アンプ買取", "/articles/amp-kaitori/"),
+    "amp": ("アンプ買取", "/articles/guitar-amp-kaitori/"),
     "effector": ("エフェクター買取", "/articles/effector-kaitori/"),
-    "wind": ("管楽器買取", "/articles/kangakki-kaitori/"),   # ⚠️ kangakki-kaitori は存在しない（8/26 に saxophone へ振替済・ytr8335 が未修正）
+    "trumpet": ("トランペット買取", "/articles/trumpet-kaitori/"),   # 旧 "wind"(kangakki-kaitori=存在しない) の置き換え
     "trombone": ("トロンボーン買取", "/articles/trombone-kaitori/"),
     "clarinet": ("クラリネット買取", "/articles/clarinet-kaitori/"),
     "flute": ("フルート買取", "/articles/flute-kaitori/"),
     "drums": ("ドラム買取", "/articles/drum-kaitori/"),
-    "synth": ("シンセ・キーボード買取", "/articles/synth-kaitori/"),
+    "synth": ("シンセ・キーボード買取", "/articles/synthesizer-kaitori/"),
+    "piano": ("ピアノ買取", "/articles/piano-kaitori/"),
 }
 
 MODELS = {
@@ -39,24 +44,24 @@ MODELS = {
     "martin-d45-kaitori": ("Martin D-45", "マーティン D-45", "acoustic", "Martin", "/articles/martin-kaitori/", "マーティンの最高峰ドレッドノート。ヴィンテージは非常に高い評価がつきます。"),
     "warwick-thumb-kaitori": ("Warwick Thumb", "ワーウィック サム", "bass", "Warwick", "/articles/bass-kaitori/", "独特のネックスルー構造とサウンドで人気のドイツ製ハイエンドベース。"),
     "rickenbacker-4003-kaitori": ("Rickenbacker 4003", "リッケンバッカー 4003", "bass", "Rickenbacker", "/articles/bass-kaitori/", "唯一無二のサウンドとルックスを持つリッケンバッカーの定番ベース。"),
-    "fender-deluxereverb-kaitori": ("Fender Deluxe Reverb", "フェンダー デラックスリバーブ", "amp", "Fender", "/articles/amp-kaitori/", "録音・ライブ両用で定評のあるチューブコンボ。年式で評価が分かれます。"),
-    "vox-ac30-kaitori": ("VOX AC30", "VOX AC30", "amp", "VOX", "/articles/amp-kaitori/", "ブリティッシュサウンドの代名詞。定番チューブアンプとして安定した需要。"),
-    "roland-jc120-kaitori": ("Roland JC-120", "ローランド JC-120", "amp", "Roland", "/articles/amp-kaitori/", "クリーンの定番ジャズコーラス。スタジオ常設の超定番モデルです。"),
-    "mesaboogie-markv-kaitori": ("Mesa Boogie Mark V", "メサブギー マークV", "amp", "Mesa Boogie", "/articles/amp-kaitori/", "多彩なモードを持つハイエンドチューブアンプ。ハイゲイン系で人気。"),
+    "fender-deluxereverb-kaitori": ("Fender Deluxe Reverb", "フェンダー デラックスリバーブ", "amp", "Fender", "/articles/fender-kaitori/", "録音・ライブ両用で定評のあるチューブコンボ。年式で評価が分かれます。"),
+    "vox-ac30-kaitori": ("VOX AC30", "VOX AC30", "amp", "VOX", "/articles/vox-kaitori/", "ブリティッシュサウンドの代名詞。定番チューブアンプとして安定した需要。"),
+    "roland-jc120-kaitori": ("Roland JC-120", "ローランド JC-120", "amp", "Roland", "/articles/roland-kaitori/", "クリーンの定番ジャズコーラス。スタジオ常設の超定番モデルです。"),
+    "mesaboogie-markv-kaitori": ("Mesa Boogie Mark V", "メサブギー マークV", "amp", "Mesa Boogie", "/articles/mesaboogie-kaitori/", "多彩なモードを持つハイエンドチューブアンプ。ハイゲイン系で人気。"),
     "boss-bd2-kaitori": ("BOSS BD-2", "BOSS BD-2 Blues Driver", "effector", "BOSS", "/articles/boss-kaitori/", "定番オーバードライブ。手頃な価格帯ですが安定した需要があります。"),
     "ibanez-ts808-kaitori": ("Ibanez TS808", "アイバニーズ TS808", "effector", "Ibanez", "/articles/ibanez-kaitori/", "伝説的チューブスクリーマー。復刻・ヴィンテージで評価が異なります。"),
     "ehx-bigmuff-kaitori": ("Electro-Harmonix Big Muff", "エレハモ ビッグマフ", "effector", "Electro-Harmonix", "/articles/effector-kaitori/", "ファズの定番。年代・バージョンでコレクター需要が変わります。"),
-    "yamaha-ytr8335-kaitori": ("YAMAHA YTR-8335", "ヤマハ YTR-8335", "wind", "YAMAHA", "/articles/yamaha-kaitori/", "Xenoシリーズのプロ向けトランペット。管楽器買取で安定需要があります。"),
+    "yamaha-ytr8335-kaitori": ("YAMAHA YTR-8335", "ヤマハ YTR-8335", "trumpet", "YAMAHA", "/articles/yamaha-kaitori/", "Xenoシリーズのプロ向けトランペット。管楽器買取で安定需要があります。"),   # ページ側は saxophone-kaitori のまま（判断待ち）
     "buffet-r13-kaitori": ("Buffet Crampon R13", "クランポン R13", "clarinet", "Buffet Crampon", "/articles/buffet-kaitori/", "クラリネットの世界的定番。プロ・アマ問わず需要の高いモデルです。"),
     "muramatsu-flute-kaitori": ("Muramatsu Flute", "ムラマツ フルート", "flute", "Muramatsu", "/articles/flute-kaitori/", "国産最高峰フルートブランド。銀・金の素材や型番で相場が大きく動きます。"),
     "bach-42-trombone-kaitori": ("Bach 42 Trombone", "バック 42 トロンボーン", "trombone", "Bach", "/articles/bach-kaitori/", "テナーバストロンボーンの定番。オーケストラ・吹奏楽で広く使われます。"),
     "tama-starclassic-kaitori": ("TAMA Starclassic", "タマ スタークラシック", "drums", "TAMA", "/articles/drum-kaitori/", "国産ハイエンドドラム。素材・構成で相場が動く人気シリーズです。"),
     "dw-collectors-kaitori": ("DW Collector's", "DW コレクターズ", "drums", "DW", "/articles/drum-kaitori/", "米国ハイエンドドラムの代名詞。カスタム構成が多く個体差があります。"),
     "ludwig-supraphonic-kaitori": ("Ludwig Supraphonic", "ラディック スープラフォニック", "drums", "Ludwig", "/articles/drum-kaitori/", "スネアの定番中の定番。録音現場でも愛用される名機です。"),
-    "roland-juno-kaitori": ("Roland Juno", "ローランド Juno", "synth", "Roland", "/articles/synth-kaitori/", "ヴィンテージから現行まで人気のシンセ。型番で評価が大きく異なります。"),
-    "nord-stage-kaitori": ("Nord Stage", "ノード ステージ", "synth", "Nord", "/articles/synth-kaitori/", "ステージキーボードの定番。プロ需要が高く中古も安定しています。"),
-    "moog-subsequent37-kaitori": ("Moog Subsequent 37", "モーグ サブスィークエント37", "synth", "Moog", "/articles/synth-kaitori/", "アナログシンセの名門Moogの人気モデル。太いサウンドで需要があります。"),
-    "korg-minilogue-kaitori": ("KORG minilogue", "コルグ ミニローグ", "synth", "KORG", "/articles/synth-kaitori/", "手頃なアナログポリシンセ。入門〜中級で安定した需要があります。"),
+    "roland-juno-kaitori": ("Roland Juno", "ローランド Juno", "synth", "Roland", "/articles/roland-kaitori/", "ヴィンテージから現行まで人気のシンセ。型番で評価が大きく異なります。"),
+    "nord-stage-kaitori": ("Nord Stage", "ノード ステージ", "synth", "Nord", "/articles/nord-kaitori/", "ステージキーボードの定番。プロ需要が高く中古も安定しています。"),
+    "moog-subsequent37-kaitori": ("Moog Subsequent 37", "モーグ サブスィークエント37", "synth", "Moog", "/articles/moog-kaitori/", "アナログシンセの名門Moogの人気モデル。太いサウンドで需要があります。"),
+    "korg-minilogue-kaitori": ("KORG minilogue", "コルグ ミニローグ", "synth", "KORG", "/articles/korg-kaitori/", "手頃なアナログポリシンセ。入門〜中級で安定した需要があります。"),
     "prs-custom24-kaitori": ("PRS Custom 24", "PRS カスタム24", "guitar", "PRS", "/articles/prs-kaitori/", "PRSの看板モデル。美しいトップ材と汎用性で高い人気を誇ります。"),
     "martin-d28-kaitori": ("Martin D-28", "マーティン D-28", "acoustic", "Martin", "/articles/martin-kaitori/", "ドレッドノートの世界標準。アコギ買取で最も需要の高い一本です。"),
     "taylor-814ce-kaitori": ("Taylor 814ce", "テイラー 814ce", "acoustic", "Taylor", "/articles/taylor-kaitori/", "モダンアコギの定番。エレアコ機能付きで幅広い層に人気です。"),
@@ -66,7 +71,7 @@ MODELS = {
     "ibanez-rg-kaitori": ("Ibanez RG", "アイバニーズ RG", "guitar", "Ibanez", "/articles/ibanez-kaitori/", "ハイスピード系の定番。プレステージ等グレードで相場が動きます。"),
     "musicman-stingray-kaitori": ("Music Man StingRay", "ミュージックマン スティングレイ", "bass", "Music Man", "/articles/bass-kaitori/", "パワフルなサウンドの定番ベース。中古市場で安定した需要があります。"),
     "fender-precisionbass-kaitori": ("Fender Precision Bass", "フェンダー プレシジョンベース", "bass", "Fender", "/articles/bass-kaitori/", "エレキベースの原点。USA製・年式で評価が変わる定番モデルです。"),
-    "yamaha-c3-kaitori": ("YAMAHA C3", "ヤマハ C3", "synth", "YAMAHA", "/articles/piano-kaitori/", "定番のグランドピアノ。製造番号・状態で相場が動きます。※ピアノ"),
+    "yamaha-c3-kaitori": ("YAMAHA C3", "ヤマハ C3", "piano", "YAMAHA", "/articles/piano-kaitori/", "定番のグランドピアノ。製造番号・状態で相場が動きます。※ピアノ"),
 }
 
 def esc_json(s): return json.dumps(s, ensure_ascii=False)
