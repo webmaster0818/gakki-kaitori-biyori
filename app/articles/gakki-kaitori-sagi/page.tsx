@@ -91,6 +91,7 @@ export default function Page() {
           <p><strong>対策:</strong> 個人間取引のリスクを避けたい場合は、信頼できる買取業者を利用しましょう。</p>
 
           <CtaBox />
+          <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。</p>
         {/* piano-sagi-202609: GSC実測「ピアノ買取 詐欺」36imp pos22.2 がこの記事に着地している。
             ピアノは運び出しが絡むぶんトラブルの形が他の楽器と違うので、独立した節にする。 */}
         <h2 className="text-xl font-bold mt-12 mb-4">ピアノの買取で起きやすいトラブル</h2>
@@ -186,7 +187,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="gakki-kaitori-sagi"
-          relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "senmonten-vs-recycle", "mercari-vs-gyosha", "gakki-kaitori-vs-kojin-baibai", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
+          relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "senmonten-vs-recycle", "mercari-vs-gyosha", "gakki-kaitori-vs-kojin-baibai", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
         />
       </article>
     </>

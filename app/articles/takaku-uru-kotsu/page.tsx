@@ -293,6 +293,7 @@ export default function TakakuUruKotsuPage() {
           </ul>
 
           <CtaBox />
+          <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。</p>
 
           <h2 id="services">3社の使い分けガイド</h2>
 
@@ -380,7 +381,7 @@ export default function TakakuUruKotsuPage() {
 
         <RelatedArticles
           currentSlug="takaku-uru-kotsu"
-          relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori"]}
+          relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori"]}
         />
       </article>
     </>

@@ -110,6 +110,7 @@ export default function GakkiKaitoriOsusumePage() {
           <p>どの業者も<strong>査定料・手数料は無料</strong>なので、迷ったらまず一括査定で相場感をつかみ、都合に合う方式で売るのが失敗しない手順です。</p>
 
           <CtaBox />
+          <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。</p>
 
           <h2 id="comparison">楽器買取おすすめ3社の比較表</h2>
           <div className="table-wrapper mb-6">
@@ -197,7 +198,7 @@ export default function GakkiKaitoriOsusumePage() {
           <CtaBox />
         </section>
 
-        <RelatedArticles currentSlug="gakki-kaitori-osusume" relatedSlugs={["takaku-uru-kotsu", "mercari-vs-gyosha", "guitar-kaitori", "tokyo-gakki-kaitori", "piano-kaitori", "saxophone-kaitori"]} />
+        <RelatedArticles currentSlug="gakki-kaitori-osusume" relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "takaku-uru-kotsu", "mercari-vs-gyosha", "guitar-kaitori", "tokyo-gakki-kaitori", "piano-kaitori", "saxophone-kaitori"]} />
       </article>
     </>
   );

@@ -99,6 +99,7 @@ export default function Page() {
           <p>上記の例では、<strong>メルカリと買取業者でほとんど差がない</strong>ことがわかります。しかも、メルカリには「売れないリスク」「返品トラブル」「梱包の手間」があるため、総合的に見ると買取業者の方がお得なケースが多いのです。</p>
 
           <CtaBox />
+          <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。</p>
 
           <h2 id="type">楽器の種類別おすすめ売却方法</h2>
           <h3>買取業者がおすすめの楽器</h3>
@@ -156,7 +157,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="mercari-vs-gyosha"
-          relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "gakki-kaitori-vs-kojin-baibai", "senmonten-vs-recycle", "kaitori-houhou-hikaku", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
+          relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "gakki-kaitori-vs-kojin-baibai", "senmonten-vs-recycle", "kaitori-houhou-hikaku", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
         />
       </article>
     </>

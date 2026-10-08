@@ -254,6 +254,7 @@ export default function KaitoriHouhouHikakuPage() {
           <p><strong>こんな人におすすめ:</strong> 地方在住で店舗が近くにない人、対面が苦手な人、小型・軽量の楽器を売りたい人</p>
 
           <CtaBox />
+          <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。</p>
 
           <h2 id="merit-demerit">4つの買取方法メリット・デメリット比較表</h2>
 
@@ -388,7 +389,7 @@ export default function KaitoriHouhouHikakuPage() {
 
         <RelatedArticles
           currentSlug="kaitori-houhou-hikaku"
-          relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "kaitori-houshiki-tetteihikaku", "kaitori-nagare", "senmonten-vs-recycle", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
+          relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "kaitori-houshiki-tetteihikaku", "kaitori-nagare", "senmonten-vs-recycle", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
         />
       </article>
     </>
