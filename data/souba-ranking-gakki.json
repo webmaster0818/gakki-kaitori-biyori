@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-05",
-  "count": 55,
+  "count": 53,
   "models": [
     {
       "slug": "bach-42-trombone-kaitori",
@@ -453,15 +453,6 @@
       "change_2w": -3.2
     },
     {
-      "slug": "vox-ac30-kaitori",
-      "name": "VOX AC30",
-      "category": "アンプ",
-      "median": 3200,
-      "sample_n": 178,
-      "change_1w": -1.5,
-      "change_2w": -5.9
-    },
-    {
       "slug": "warwick-thumb-kaitori",
       "name": "Warwick Thumb",
       "category": "楽器",
@@ -469,15 +460,6 @@
       "sample_n": 28,
       "change_1w": 0.0,
       "change_2w": 2.4
-    },
-    {
-      "slug": "yamaha-c3-kaitori",
-      "name": "YAMAHA C3",
-      "category": "ピアノ",
-      "median": 8000,
-      "sample_n": 10,
-      "change_1w": -93.1,
-      "change_2w": -93.1
     },
     {
       "slug": "yamaha-yas62-kaitori",

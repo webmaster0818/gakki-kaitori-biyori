@@ -585,9 +585,10 @@
     "mean": 3288,
     "min": 510,
     "max": 10990,
-    "insufficient": false,
+    "insufficient": true,
     "fetched_at": "2026-10-05",
-    "label": "VOX AC30"
+    "label": "VOX AC30",
+    "note": "算出された中央値が想定下限（¥30,000）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
   },
   "roland-jc120-kaitori": {
     "query_used": "Roland JC-120 ジャズコーラス アンプ",
@@ -676,9 +677,10 @@
     "mean": 154050,
     "min": 5000,
     "max": 528000,
-    "insufficient": false,
+    "insufficient": true,
     "fetched_at": "2026-10-05",
-    "label": "YAMAHA C3"
+    "label": "YAMAHA C3",
+    "note": "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
   },
   "buffet-r13-kaitori": {
     "query_used": "クランポン R13 クラリネット",

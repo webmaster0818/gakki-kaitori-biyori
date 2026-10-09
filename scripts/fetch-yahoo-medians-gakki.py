@@ -242,6 +242,43 @@ MIN_PLAUSIBLE_MEDIAN = {
 }
 
 
+def apply_quality_rules(slug: str, r: dict) -> bool:
+    """ALWAYS_INSUFFICIENT_SLUGS / MIN_PLAUSIBLE_MEDIAN を1件に適用。insufficient が変わったら True。
+    fetch時（main）と、ルール追加後に既存データへ当て直す --reapply の両方で使う（規則の一元化）。"""
+    before = r.get("insufficient", False)
+    # 1. 常に insufficient なモデル (ピアノ系)
+    if slug in ALWAYS_INSUFFICIENT_SLUGS:
+        r["insufficient"] = True
+        r["note"] = "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
+
+    # 2. 中央値が想定最低を下回る場合は異常値として insufficient マーク
+    median = r.get("median")
+    floor = MIN_PLAUSIBLE_MEDIAN.get(slug)
+    if median and floor and median < floor:
+        r["insufficient"] = True
+        r["note"] = f"算出された中央値が想定下限（¥{floor:,}）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
+    return r.get("insufficient", False) != before
+
+
+def reapply():
+    """fetch せずに、既存の yahoo-medians-gakki.json と price-history の latest に現行ルールを当て直す。
+    insufficient になった取得日の点は history[] からも外す（write_history が insufficient を履歴に入れないのと同じ扱い）。
+    数値そのものは一切変えない。"""
+    results = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+    changed = []
+    for slug, r in results.items():
+        if apply_quality_rules(slug, r):
+            changed.append(slug)
+            path = HISTORY_DIR / f"{slug}.json"
+            if path.exists():
+                d = json.loads(path.read_text(encoding="utf-8"))
+                d.setdefault("latest", {})["insufficient"] = True
+                d["history"] = [h for h in d.get("history", []) if h.get("date") != r.get("fetched_at")]
+                path.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+    OUT_JSON.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"reapply: insufficient に変更 {len(changed)} 件 {changed}")
+
+
 def main():
     print(f"🔍 Yahoo median fetch (楽器 {TODAY}) — {len(MODEL_QUERIES)} models")
     results = {}
@@ -249,18 +286,7 @@ def main():
         print(f"  [{i}/{len(MODEL_QUERIES)}] {slug} '{query}'...", end=" ", flush=True)
         r = median_for_query(query)
         r["label"] = label
-
-        # 1. 常に insufficient なモデル (ピアノ系)
-        if slug in ALWAYS_INSUFFICIENT_SLUGS:
-            r["insufficient"] = True
-            r["note"] = "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
-
-        # 2. 中央値が想定最低を下回る場合は異常値として insufficient マーク
-        median = r.get("median")
-        floor = MIN_PLAUSIBLE_MEDIAN.get(slug)
-        if median and floor and median < floor:
-            r["insufficient"] = True
-            r["note"] = f"算出された中央値が想定下限（¥{floor:,}）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
+        apply_quality_rules(slug, r)
 
         results[slug] = r
         if r.get("median") and not r.get("insufficient"):
@@ -279,4 +305,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--reapply" in sys.argv[1:]:
+        reapply()  # 取得せずルールだけ当て直す（ルール追加日に使う）
+    else:
+        main()
