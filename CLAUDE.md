@@ -218,3 +218,12 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 内部リンク元5本: gakki-kaitori-osusume / kaitori-houhou-hikaku / takaku-uru-kotsu / mercari-vs-gyosha / gakki-kaitori-sagi（最初の `<CtaBox />` 直後に1文＋relatedSlugs先頭）。sitemap 452 URL再生成
 - precheck: 初回「description 167字」不合格→141字に短縮→✅全項目OK。deploy 87399d3bc・本番curl 200・Indexing API 6/6
 - ⚠️ 自前 openGraph を書くページは `images: ["/og-image.png"]` を必ず入れる（layoutのデフォルトが上書きされて og:image が消える＝peatbidで precheck 不合格になった）
+
+### 2026-10-09 /author/ 差し替え・/content-policy/ 実装なし記述の削除・型番16本に相場カード ✅本番反映済み（src c3df075 / deploy c255c3afc）
+- **(a) /author/**: 10/8 既定案どおり `wip/author-policy`（7b8418e）を main にマージ（競合なし）。編集部メンバーの経歴・Person 構造化データを削り「運営方針とデータの確認手順」だけに。フッター文言「編集部紹介」→「運営方針・データの確認手順」。out/ 全体 grep: Person schema 0 件・「編集部紹介」0 件（残る「経歴」1件は「個人名・経歴は載せない」という否定文）。
+- **(b) /content-policy/**: 「口コミ・評判を紹介しています」「SNS（X、Instagram等）上の投稿」「編集部独自のアンケート調査」の3記述を削除（scripts 36本・data に該当実装が0、サイト自身が口コミ本文を載せないと明記）。残した参照元は「公式サイト掲載レビュー」「口コミサイトの投稿」の2つ。out/ 全体 grep: アンケート 0・SNS投稿 0・口コミ紹介 0。
+- **(c) 相場カード未表示18本の原因**: 18本は全て `scripts/gen-models-batch1.py` 製で、同スクリプトが再利用する `gen-expansion-articles.py` の gen() テンプレに `ModelSpotPriceCard` が無い（`gen-souba-models-202607.py` のテンプレには `</header>` 直後にある）。データ側は `data/yahoo-medians-gakki.json` 62件（全て fetched_at 2026-10-05）に揃っていた。18本＝fender-jaguar/jazzmaster/precisionbass・gibson-es335/j45・gretsch-6120・ibanez-rg/ts808・korg-minilogue・martin-d28・musicman-stingray・prs-custom24・rickenbacker-330・roland-jc120・tama-starclassic・taylor-814ce・vox-ac30・yamaha-c3。
+  - **16本に追加**: import ＋ `</header>` 直後に `<ModelSpotPriceCard slug=… modelName={dataのlabel} />`（gibson-sg と同じ位置・同じ部品。値・n・取得日は部品が週次データから読む）。カード付きページ 45→61。
+  - ⚠️ **2本は保留（vox-ac30・yamaha-c3）**: 10/5 データが VOX AC30 中央値 ¥3,200（n=178）・YAMAHA C3 ¥8,000（n=10・前週比-93.1%）で部品・小物混入が明らか。表示すると誤った相場になるのでカードは入れず、`fetch-yahoo-medians-gakki.py` に vox-ac30 の下限 ¥30,000・yamaha-c3 を常時 insufficient（他ピアノ5本と同じ扱い）を追加。**次回週次（10/12）以降に2本へカードを追加**すれば他と同じ「データ不足のため非表示」表示になる。
+  - 🔍 **見つけたが直していない**: `/souba-ranking/` に YAMAHA C3 ¥8,000 が現在も載っている（souba-ranking-gakki.json に insufficient なしで入っているため）。上記ルール追加で 10/12 の再生成から外れる見込み。gen-expansion-articles.py のテンプレ自体は未変更（model カテゴリで再生成するとまたカードなしになる）。
+- precheck ✅全項目OK（569ページ）。本番 curl: es335 ¥254,100・n=46・取得 2026-10-05／jc120 ¥29,800／author Person 0／content-policy 該当0。
