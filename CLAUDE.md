@@ -227,3 +227,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
   - ⚠️ **2本は保留（vox-ac30・yamaha-c3）**: 10/5 データが VOX AC30 中央値 ¥3,200（n=178）・YAMAHA C3 ¥8,000（n=10・前週比-93.1%）で部品・小物混入が明らか。表示すると誤った相場になるのでカードは入れず、`fetch-yahoo-medians-gakki.py` に vox-ac30 の下限 ¥30,000・yamaha-c3 を常時 insufficient（他ピアノ5本と同じ扱い）を追加。**次回週次（10/12）以降に2本へカードを追加**すれば他と同じ「データ不足のため非表示」表示になる。
   - 🔍 **見つけたが直していない**: `/souba-ranking/` に YAMAHA C3 ¥8,000 が現在も載っている（souba-ranking-gakki.json に insufficient なしで入っているため）。上記ルール追加で 10/12 の再生成から外れる見込み。gen-expansion-articles.py のテンプレ自体は未変更（model カテゴリで再生成するとまたカードなしになる）。
 - precheck ✅全項目OK（569ページ）。本番 curl: es335 ¥254,100・n=46・取得 2026-10-05／jc120 ¥29,800／author Person 0／content-policy 該当0。
+
+### 2026-10-09 (2) VOX AC30 ¥3,200・YAMAHA C3 ¥8,000 を ranking/ハブ/指数から当日除外 ✅本番反映済み（src b9c7332 / deploy 7fe77a725）
+- コーディネータ指示「10/12 まで待たず今日外す」。out/ grep で露出を実数確認: **YAMAHA C3 ¥8,000**＝/souba-ranking/・/articles/yamaha-kaitori/（BrandSpotPrices）の2ページ／**VOX AC30 ¥3,200**＝/articles/guitar-kaitori/＋ギター地域12本（GuitarSpotPrices）の13ページ＋/souba-index/ の構成銘柄。grand-piano の「1,000,000〜8,000,000円」は静的レンジ表の部分一致で無関係。
+- 全消費側（souba-ranking/widget/BrandSpotPrices/GuitarSpotPrices/SellTimingSignal/gakki-kaitori-osusume）は `data/souba-ranking-gakki.json` を読み、ranking 生成器は history の `latest.insufficient` を除外条件にしている → **データ側に同じ規則を当てる**のが一点で済む。
+- `fetch-yahoo-medians-gakki.py`: ルール適用を `apply_quality_rules()` に一本化し、**`--reapply`**（取得せず既存 medians と history の latest に現行ルールを当て直し、insufficient になった取得日の点を history[] から外す＝write_history と同じ扱い。数値は不変）を追加。ルールを足した日はこれを流してから ranking/index/widget を再生成する。
+- 実行結果: reapply で2件 insufficient 化 → ranking 55→53モデル、相場指数 45→44銘柄（VOX AC30 が構成から外れ、最新 2026-10-05 の指数 95.69→95.79）、widget 変化なし。precheck ✅全項目OK。本番 curl: /souba-ranking/・/articles/guitar-kaitori/・/articles/guitar-kaitori-tokyo/・/articles/yamaha-kaitori/・/souba-index/ で該当0。
+- ⚠️ 10/12 の週次 fetch は新ルールで取得時に自動 insufficient 化されるので追加作業なし。vox-ac30 の history は 10/1 以前の ¥3,2xx 台が残っている（正しい値が取れたら大きな前週比が出る。クエリ「VOX AC30 ギターアンプ」の見直しが本筋）。
