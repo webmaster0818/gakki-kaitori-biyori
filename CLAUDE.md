@@ -234,3 +234,16 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - `fetch-yahoo-medians-gakki.py`: ルール適用を `apply_quality_rules()` に一本化し、**`--reapply`**（取得せず既存 medians と history の latest に現行ルールを当て直し、insufficient になった取得日の点を history[] から外す＝write_history と同じ扱い。数値は不変）を追加。ルールを足した日はこれを流してから ranking/index/widget を再生成する。
 - 実行結果: reapply で2件 insufficient 化 → ranking 55→53モデル、相場指数 45→44銘柄（VOX AC30 が構成から外れ、最新 2026-10-05 の指数 95.69→95.79）、widget 変化なし。precheck ✅全項目OK。本番 curl: /souba-ranking/・/articles/guitar-kaitori/・/articles/guitar-kaitori-tokyo/・/articles/yamaha-kaitori/・/souba-index/ で該当0。
 - ⚠️ 10/12 の週次 fetch は新ルールで取得時に自動 insufficient 化されるので追加作業なし。vox-ac30 の history は 10/1 以前の ¥3,2xx 台が残っている（正しい値が取れたら大きな前週比が出る。クエリ「VOX AC30 ギターアンプ」の見直しが本筋）。
+
+### 2026-10-09 (3) 「ウリエル 楽器買取 口コミ／評判」受け皿 新規＋ヒカカク記事に使い分けの章（12:00成長ルーチン B・C） ✅本番反映済み（src 5d6a324 / deploy 557e35b70）
+- 既存チェック: title/h1/URL に「ウリエル」を含むページ0（言及は TOP カード・比較表・CTA のみ）→ `/articles/uriel-gakki-kaitori-kuchikomi/` 新規（手書き page.tsx・howto・badge「サービス評判」）
+- **felmat 規約**: リポ・workspace に A11184N の掲載レギュレーションのメモは無し（確認できたのは affiliate.ts の「リンク末尾を編集しない・imp 1x1 をセット」のみ）。既存と同じテキストリンク `URIEL.url`＋`URIEL.imp`、文言は TOP と同じ「出張買取を申し込む」、PR 表記・`rel="noopener noreferrer nofollow sponsored"`
+- 一次情報は uriel-cuore.co.jp の**生HTML**（⚠️HTMLコメント内に旧文言＝宅配買取・営業時間が残っているので**コメントを除去してから読む**）: 会社概要（株式会社クオーレ・古物商 愛知県公安委員会 第542791100800号）／楽器買取（対象・流れ・買取例6件・お客様の声6件・FAQ・エリア）／出張買取（エリア・10-17時・最短翌日以降・1点可・本人立会い）／店頭（川崎店のみ・予約制）／クーリングオフ（出張のみ8日）
+  - ⚠️ 出張エリアがページで違う（出張ページ＝関東〜九州・沖縄除外／楽器ページ＝関東・中部・近畿・岡山）→両方載せて申込時確認と書いた。宅配買取ページは404
+  - 全体FAQ（/faq/）は「金・ブランド品等のみ買取」「出張・催事の2方式」と古い記述 → 楽器ページを優先
+- 口コミ: 第三者＝ヒカカク！ company/23566（3件・2.67点・66.7%・楽器投稿0）。公式の楽器の声6件の傾向。本文転載なし。競合（sakai2-jh 着物買取ノート 2026-09）が引用している「カメラの低評価＋査定士の謝罪」は公式 voice 全28ページ・camera ページで見つからず→不採用
+- 国民生活センター 2023-09-27（訪問購入 2022年度7,722件・60歳以上8割近く）・消費者庁「訪問購入」を出典に注意点5つ
+- 内部リンク元: fender-kaitori（GSC着地ページ）/ gakki-kaitori-osusume / gakki-shucchou-kaitori / kaitori-houhou-hikaku / hikakaku-gakki-kaitori-kuchikomi
+- 表記修正: fender の比較表 ウリエル「最短即日」→「最短翌日以降（出張）」（公式FAQ）、osusume・fender「出張買取専門」→「出張買取中心」（川崎店・催事あり）
+- ヒカカク記事: 競合（ecopolis/uridoki/kmhc/omocha 等）が共通して持つ「他サービスとの比較」が無かった→「ヒカカク！と他の売り方の使い分け」表を追加。公開日/更新日を分けて表示（datePublished 10-08・dateModified 10-09）。評価分布は10/9再確認で変化なし。競合の「ヒカカク裁判」は一次情報が取れないため不採用
+- precheck ✅全項目OK（570ページ）。本番200は push 約9分後。Indexing API 6/6
