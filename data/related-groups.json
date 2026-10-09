@@ -109,8 +109,7 @@
    "members": [
     "kabi-gakki-kaitori",
     "gakki-hozon-houhou",
-    "kowareta-gakki-kaitori",
-    "ihin-gakki-kaitori"
+    "kowareta-gakki-kaitori"
    ]
   },
   "family:管楽器": {
@@ -283,6 +282,14 @@
     "rickenbacker-330-kaitori",
     "gakki-kaitori-osusume",
     "gakki-no-kaitoriyasan-hyoban"
+   ]
+  },
+  "inst:ihin-gakki-kaitori": {
+   "label": "「遺品の楽器買取ガイド」と関連する買取ガイド",
+   "members": [
+    "ihin-gakki-kaitori",
+    "hikakaku-gakki-kaitori-kuchikomi",
+    "uriel-gakki-kaitori-kuchikomi"
    ]
   },
   "inst:koto-kaitori": {
@@ -731,7 +738,6 @@
   "kabi-gakki-kaitori": "カビ・劣化楽器の買取ガイド",
   "gakki-hozon-houhou": "楽器の保管方法ガイド",
   "kowareta-gakki-kaitori": "壊れた楽器の買取ガイド",
-  "ihin-gakki-kaitori": "遺品の楽器買取ガイド",
   "euphonium-kaitori": "ユーフォニアム買取ガイド",
   "tuba-kaitori": "チューバ買取ガイド",
   "trombone-kaitori": "トロンボーン買取相場ガイド",
@@ -844,6 +850,9 @@
   "rickenbacker-330-kaitori": "リッケンバッカー 330買取ガイド",
   "gakki-kaitori-osusume": "楽器買取おすすめ業者比較",
   "gakki-no-kaitoriyasan-hyoban": "楽器の買取屋さんの評判",
+  "ihin-gakki-kaitori": "遺品の楽器買取ガイド",
+  "hikakaku-gakki-kaitori-kuchikomi": "ヒカカク 口コミ・評判",
+  "uriel-gakki-kaitori-kuchikomi": "ウリエル 口コミ・評判",
   "koto-kaitori": "琴(箏)買取相場ガイド",
   "shakuhachi-kaitori": "尺八買取相場ガイド",
   "wadaiko-kaitori": "和太鼓買取相場ガイド",

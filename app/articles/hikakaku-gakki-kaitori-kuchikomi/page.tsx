@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
-const UPDATED = "2026-10-08";
-const UPDATED_JA = "2026年10月8日";
+const PUBLISHED = "2026-10-08";
+const UPDATED = "2026-10-09";
+const UPDATED_JA = "2026年10月9日";
 const URL = "https://gakkikaitori-biyori.com/articles/hikakaku-gakki-kaitori-kuchikomi/";
 const TITLE = "ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点【2026年10月最新】";
 const DESC =
@@ -75,7 +76,7 @@ function Schemas() {
     "@type": "Article",
     headline: TITLE,
     description: DESC,
-    datePublished: UPDATED,
+    datePublished: PUBLISHED,
     dateModified: UPDATED,
     mainEntityOfPage: URL,
     author: { "@type": "Organization", name: "楽器買取びより", url: "https://gakkikaitori-biyori.com/author/" },
@@ -119,9 +120,9 @@ export default function HikakakuGakkiKuchikomiPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            「楽器を一括査定に出したいけれど、ヒカカク！の評判は実際どうなのか」を知りたい方向けに、公式サイトと公式クチコミページを{UPDATED_JA}に確認して整理しました。本文の口コミは転載せず、評価分布と内容の傾向だけを出典付きで示します。本記事は広告（PR）リンクを含みます。
+            「楽器を一括査定に出したいけれど、ヒカカク！の評判は実際どうなのか」を知りたい方向けに、公式サイトと公式クチコミページを2026年10月8日に確認して整理しました（評価分布は{UPDATED_JA}に再確認・変化なし）。本文の口コミは転載せず、評価分布と内容の傾向だけを出典付きで示します。本記事は広告（PR）リンクを含みます。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: {UPDATED_JA}</p>
+          <p className="text-xs text-warm-gray mt-2">公開日: 2026年10月8日／更新日: {UPDATED_JA}（他の売り方との使い分けの章を追加）</p>
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">
@@ -264,6 +265,22 @@ export default function HikakakuGakkiKuchikomiPage() {
             迷う場合は、まず<Link href="/souba-ranking/" className="text-accent underline hover:text-accent-dark">相場ランキング</Link>で手持ちモデルの中古実勢を把握し、差が出やすい楽器だけ一括査定に出す、という使い分けが無駄がありません。買取方式ごとの違いは<Link href="/articles/kaitori-houhou-hikaku/" className="text-accent underline hover:text-accent-dark">出張・店頭・宅配買取の比較</Link>にまとめています。
           </p>
 
+          <h2 id="compare">ヒカカク！と他の売り方の使い分け</h2>
+          <p>ヒカカク！は「複数社に見積もりを取る入口」で、売る相手は届いた査定を見て選びます。楽器の場合、他の売り方と次のように使い分けるのが現実的です。</p>
+          <div className="table-wrapper mb-6">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">売り方</th><th className="px-4 py-3 text-left font-medium">向いている楽器・状況</th><th className="px-4 py-3 text-left font-medium">気をつける点</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">一括査定（ヒカカク！）</td><td className="px-4 py-3">型番が分かるギター・管楽器など、業者で差が出やすい楽器</td><td className="px-4 py-3">複数社から電話・メールが来る。返信が無い楽器もある</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">出張買取を1社に依頼</td><td className="px-4 py-3">琴・ドラム・アンプなど運べない楽器、他の品物とのまとめ売り</td><td className="px-4 py-3">対応エリアの確認が必要。売る物を先に決め、8日間のクーリングオフを知っておく</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">店頭に持ち込む</td><td className="px-4 py-3">今日中に現金化したい、持ち運べる楽器</td><td className="px-4 py-3">1店だけだと比較ができない</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            一括査定で相場の目安をつかんでから、大型の楽器だけ出張買取に出す、という組み合わせもできます。出張買取が中心のウリエルの評判・対応エリア・手数料は<Link href="/articles/uriel-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ウリエルの楽器買取 口コミ・評判</Link>、出張・店頭・宅配の違いは<Link href="/articles/kaitori-houhou-hikaku/" className="text-accent underline hover:text-accent-dark">買取方法の比較</Link>で解説しています。
+          </p>
+
           <CtaBox title="型番を入力して複数社の査定額を比較" lead="ケース・保証書・不具合の有無を書き添えると、実物査定での減額を避けやすくなります。" />
 
           <h2 id="faq">よくある質問</h2>
@@ -284,10 +301,10 @@ export default function HikakakuGakkiKuchikomiPage() {
             <li><a href="https://hikakaku.com/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">ヒカカク！ サイト利用規約（第4〜6条・最終改定2024年10月1日）</a></li>
             <li><a href="https://hikakaku.com/pages/company/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">運営者情報</a>／<a href="https://hikakaku.com/pages/kobutsu_hyoki/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">古物営業法に基づく表記</a></li>
           </ul>
-          <p className="text-xs text-warm-gray">※ いずれも{UPDATED_JA}に公式サイトの生ページを確認して記載しています。サービス内容・件数は変更されることがあるため、最新情報は公式サイトでご確認ください。本記事はPRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray">※ いずれも2026年10月8日に公式サイトの生ページを確認して記載しています（クチコミの評価分布は{UPDATED_JA}に再確認）。サービス内容・件数は変更されることがあるため、最新情報は公式サイトでご確認ください。本記事はPRリンクを含みます。</p>
         </section>
 
-        <RelatedArticles currentSlug="hikakaku-gakki-kaitori-kuchikomi" relatedSlugs={["gakki-kaitori-osusume", "kaitori-houhou-hikaku", "takaku-uru-kotsu", "mercari-vs-gyosha", "gakki-kaitori-sagi", "ihin-gakki-kaitori"]} />
+        <RelatedArticles currentSlug="hikakaku-gakki-kaitori-kuchikomi" relatedSlugs={["gakki-kaitori-osusume", "uriel-gakki-kaitori-kuchikomi", "kaitori-houhou-hikaku", "takaku-uru-kotsu", "mercari-vs-gyosha", "gakki-kaitori-sagi", "ihin-gakki-kaitori"]} />
       </article>
     </>
   );

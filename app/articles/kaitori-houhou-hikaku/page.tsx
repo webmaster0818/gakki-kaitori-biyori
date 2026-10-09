@@ -152,7 +152,7 @@ export default function KaitoriHouhouHikakuPage() {
 
           <h2 id="shutcho">方法2: 出張買取</h2>
 
-          <p>出張買取は、<strong>買取業者のスタッフが自宅まで来て、その場で査定・買取を行う方法</strong>です。ウリエルが出張買取専門のサービスとして知られています。</p>
+          <p>出張買取は、<strong>買取業者のスタッフが自宅まで来て、その場で査定・買取を行う方法</strong>です。ウリエルが出張買取を中心とするサービスとして知られています（<Link href="/articles/uriel-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ウリエルの楽器買取 口コミ・評判</Link>）。</p>
 
           <h3>出張買取の流れ</h3>
 

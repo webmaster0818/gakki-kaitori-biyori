@@ -264,9 +264,9 @@ export default function FenderKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">Fender対応</td><td className="px-4 py-3">全モデル対応</td><td className="px-4 py-3">全モデル対応</td><td className="px-4 py-3">全モデル対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短翌日以降（出張）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">業者間競争で最高値</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
               </tbody>
@@ -283,7 +283,7 @@ export default function FenderKaitoriPage() {
 
           <h3>ウリエル ── 複数本まとめて出張買取</h3>
 
-          <p>ウリエルの出張買取なら、ギター本体だけでなくアンプやエフェクターもまとめて売却できます。<strong>Fenderギターとアンプ（Twin Reverbなど）をセットで売ると査定アップ</strong>の可能性もあります。</p>
+          <p>ウリエルの出張買取なら、ギター本体だけでなくアンプやエフェクターもまとめて売却できます。<strong>Fenderギターとアンプ（Twin Reverbなど）をセットで売ると査定アップ</strong>の可能性もあります。出張エリア・手数料・口コミの傾向は <Link href="/articles/uriel-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ウリエルの楽器買取 口コミ・評判</Link> で公式情報と第三者の口コミを出典付きで整理しています。</p>
 
           <CtaBox />
 

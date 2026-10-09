@@ -92,7 +92,7 @@ export default function GakkiShucchouKaitoriPage() {
           <p>出張の売却には、以下の3サービスの活用がおすすめです。いずれも査定料・送料・キャンセル料が無料です。</p>
           <ul>
             <li><strong>ヒカカク！</strong> … 最大20社へ一括査定。専門業者を含めて最高値を効率よく探せます。</li>
-            <li><strong>ウリエル</strong> … 出張買取に対応。大型楽器やまとめ売りに便利で、出張費・査定料無料。</li>
+            <li><strong>ウリエル</strong> … 出張買取に対応。大型楽器やまとめ売りに便利で、出張費・査定料無料。対応エリアや口コミは <Link href="/articles/uriel-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ウリエルの楽器買取 口コミ・評判</Link> を参照。</li>
             <li><strong>ティファナ</strong> … 店頭・宅配に対応。手軽に売却できます。</li>
           </ul>
           <p>まずはヒカカク！で相場を把握し、最高値の業者に売却するのが効率的です。</p>
@@ -148,7 +148,7 @@ export default function GakkiShucchouKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="gakki-shucchou-kaitori" relatedSlugs={["kaitori-houhou-hikaku", "gakki-takuhai-kaitori", "gakki-sokujitsu-kaitori", "matome-uri-kaitori", "gakki-kaitori-sagi"]} />
+        <RelatedArticles currentSlug="gakki-shucchou-kaitori" relatedSlugs={["uriel-gakki-kaitori-kuchikomi", "kaitori-houhou-hikaku", "gakki-takuhai-kaitori", "gakki-sokujitsu-kaitori", "matome-uri-kaitori", "gakki-kaitori-sagi"]} />
       </article>
     </>
   );

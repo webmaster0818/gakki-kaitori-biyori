@@ -110,14 +110,14 @@ export default function GakkiKaitoriOsusumePage() {
           <p>どの業者も<strong>査定料・手数料は無料</strong>なので、迷ったらまず一括査定で相場感をつかみ、都合に合う方式で売るのが失敗しない手順です。</p>
 
           <CtaBox />
-          <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。</p>
+          <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。出張買取のウリエルについては <Link href="/articles/uriel-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ウリエルの楽器買取 口コミ・評判</Link>（対応エリア・手数料・クーリングオフ）をご覧ください。</p>
 
           <h2 id="comparison">楽器買取おすすめ3社の比較表</h2>
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">ヒカカク！</th><th className="px-4 py-3 text-left font-medium">ウリエル</th><th className="px-4 py-3 text-left font-medium">ティファナ</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3 text-gold-dark font-bold">一括査定（複数業者）</td><td className="px-4 py-3">出張買取専門</td><td className="px-4 py-3">出張/店頭/宅配</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3 text-gold-dark font-bold">一括査定（複数業者）</td><td className="px-4 py-3">出張買取中心</td><td className="px-4 py-3">出張/店頭/宅配</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">強み</td><td className="px-4 py-3">業者間競争で高値が出やすい</td><td className="px-4 py-3">自宅で完結・大型楽器OK</td><td className="px-4 py-3">店舗持込で即現金化</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定・手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">向いている人</td><td className="px-4 py-3">最高値で売りたい</td><td className="px-4 py-3">自宅で完結したい</td><td className="px-4 py-3">手軽に・すぐ売りたい</td></tr>
@@ -198,7 +198,7 @@ export default function GakkiKaitoriOsusumePage() {
           <CtaBox />
         </section>
 
-        <RelatedArticles currentSlug="gakki-kaitori-osusume" relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "takaku-uru-kotsu", "mercari-vs-gyosha", "guitar-kaitori", "tokyo-gakki-kaitori", "piano-kaitori", "saxophone-kaitori"]} />
+        <RelatedArticles currentSlug="gakki-kaitori-osusume" relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "uriel-gakki-kaitori-kuchikomi", "takaku-uru-kotsu", "mercari-vs-gyosha", "guitar-kaitori", "tokyo-gakki-kaitori", "piano-kaitori", "saxophone-kaitori"]} />
       </article>
     </>
   );
