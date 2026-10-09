@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-const PAGE_TITLE = "編集部紹介";
+const PAGE_TITLE = "運営方針とデータの確認手順";
 const PAGE_DESC =
-  "楽器買取びより編集部の体制とメンバーをご紹介します。楽器業界・買取市場の専門知識を持つ複数の編集者・リサーチャーで構成され、各記事の品質を担保しています。";
+  "楽器買取びよりの運営方針と、掲載している相場・業者・店舗データをどこから取得し、いつ・どのように更新しているかをご説明します。";
 const PAGE_URL = "https://gakkikaitori-biyori.com/author/";
 const SITE_NAME = "楽器買取びより";
 const SITE_URL = "https://gakkikaitori-biyori.com";
@@ -15,63 +15,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-image.png"], type: "article", title: PAGE_TITLE, description: PAGE_DESC, url: PAGE_URL },
 };
 
-const AUTHORS = [
-  {
-    name: "編集長 / 監修統括",
-    role: "楽器市場アナリスト",
-    bio: "楽器小売・買取業界で10年以上の実務経験を持つアナリスト。国内外オークションの落札データを継続的に追跡し、Reverb・Yahoo!オークション等の主要マーケットの相場推移を月次でレポート。各記事の価格データ・市場分析を最終監修。",
-    credentials: [
-      "楽器市場分析 10年以上",
-      "ヴィンテージギター鑑定経験者",
-      "国内外オークション継続観測 7年",
-    ],
-  },
-  {
-    name: "リサーチ担当",
-    role: "買取市場リサーチャー",
-    bio: "国内主要買取業者（ヒカカク！・ティファナ・ウリエル・ハードオフ・楽器堂等）の買取相場・キャンペーン情報を日次で追跡。各楽器ジャンル・ブランドごとの相場推移と業者比較データを編集部に提供。",
-    credentials: [
-      "国内買取業者 30社以上の継続調査",
-      "Yahoo!オークション 過去5年間の落札データ集約",
-      "楽器ブランド別相場データベース構築",
-    ],
-  },
-  {
-    name: "ファクトチェック責任者",
-    role: "シニアエディター",
-    bio: "全記事の数値情報（価格・年式・モデル名・スペック）を二重チェック。メーカー公式情報・楽器専門誌・業界資料を参照し、誤情報の混入を防止。",
-    credentials: [
-      "編集・校正経験 15年以上",
-      "楽器専門書・カタログ 50冊以上の参照",
-      "メーカー公式情報の継続フォロー",
-    ],
-  },
-  {
-    name: "監修パートナー（外部）",
-    role: "楽器店経営者・買取業界人脈",
-    bio: "全国の楽器店経営者・楽器買取業者・プロミュージシャン等、業界に深く関わる外部パートナーが編集部と連携。実務に基づく知見でコンテンツの専門性を支える。",
-    credentials: [
-      "楽器店経営 10年以上",
-      "プロミュージシャン人脈（国内30名以上）",
-      "楽器業界イベント・展示会への定期参加",
-    ],
-  },
-];
-
 export default function AuthorPage() {
-  const personSchemas = AUTHORS.map((author) => ({
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: author.name,
-    jobTitle: author.role,
-    description: author.bio,
-    worksFor: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
-  }));
-
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -79,11 +23,10 @@ export default function AuthorPage() {
     url: SITE_URL,
     description:
       "楽器買取の比較・解説メディア「楽器買取びより」。ギター・ピアノ・管楽器など全ジャンルの買取相場と業者比較を提供します。",
-    member: AUTHORS.map((a) => ({
-      "@type": "Person",
-      name: a.name,
-      jobTitle: a.role,
-    })),
+    parentOrganization: {
+      "@type": "Organization",
+      name: "株式会社MediaX",
+    },
   };
 
   const breadcrumbSchema = {
@@ -91,7 +34,7 @@ export default function AuthorPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "ホーム", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "編集部紹介", item: PAGE_URL },
+      { "@type": "ListItem", position: 2, name: PAGE_TITLE, item: PAGE_URL },
     ],
   };
 
@@ -105,13 +48,6 @@ export default function AuthorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      {personSchemas.map((schema, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
 
       <nav aria-label="パンくずリスト" className="text-xs text-warm-gray mb-6">
         <ol className="flex flex-wrap items-center gap-1">
@@ -122,79 +58,122 @@ export default function AuthorPage() {
           </li>
           <li className="breadcrumb-sep" />
           <li>
-            <span className="text-foreground font-medium">編集部紹介</span>
+            <span className="text-foreground font-medium">{PAGE_TITLE}</span>
           </li>
         </ol>
       </nav>
 
       <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
-        楽器買取びより 編集部
+        {SITE_NAME} {PAGE_TITLE}
       </h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年5月28日</p>
+      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年10月7日</p>
 
       <section className="article-body">
-        <p className="mb-6 leading-relaxed">
-          楽器買取びより編集部は、楽器業界・買取市場・オークション動向の専門知識を持つ複数の編集者・リサーチャー・外部監修パートナーで構成されています。
-          各メンバーの経歴・専門領域は以下のとおりです。
+        <p className="mb-4 leading-relaxed">
+          「{SITE_NAME}」は、楽器の売却を検討している方に向けて、中古相場の目安と買取業者の比較情報を提供するWebメディアです。
+          運営者は株式会社MediaXです（所在地などは
+          <Link href="/privacy-policy/" className="text-accent hover:underline">プライバシーポリシー</Link>
+          の「お問い合わせ窓口」に記載）。
+        </p>
+        <p className="mb-8 leading-relaxed">
+          このページでは、個人の執筆者や経歴ではなく、
+          <strong>当サイトが実際に行っている運営方針と、掲載データの取得・更新の手順</strong>
+          を公開しています。記事は編集部名義で作成し、個人名・肩書・経歴は掲載していません。
         </p>
 
-        <div className="space-y-6 mb-12 not-prose">
-          {AUTHORS.map((author) => (
-            <div
-              key={author.name}
-              className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm"
-            >
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-14 h-14 rounded-full bg-accent/15 flex items-center justify-center text-accent-dark font-bold text-xl shrink-0">
-                  {author.name.charAt(0)}
-                </div>
-                <div>
-                  <h2 className="font-display text-xl font-bold text-foreground mb-1">
-                    {author.name}
-                  </h2>
-                  <p className="text-sm text-accent-dark">{author.role}</p>
-                </div>
-              </div>
-              <p className="text-sm text-foreground/80 leading-relaxed mb-3">
-                {author.bio}
-              </p>
-              <div className="bg-cream rounded-lg p-4">
-                <p className="text-xs font-bold text-warm-gray mb-2">
-                  実績・専門領域
-                </p>
-                <ul className="list-disc pl-5 space-y-1 text-sm text-foreground/80">
-                  {author.credentials.map((c, i) => (
-                    <li key={i}>{c}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          ))}
+        <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
+          運営方針
+        </h2>
+
+        <div className="space-y-6 mb-10 not-prose">
+          <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
+            <h3 className="font-bold text-base text-foreground mb-2">1. 相場は落札データの中央値で示し、サンプル数と取得日を明記する</h3>
+            <p className="text-sm text-foreground/80 leading-relaxed">
+              モデル別・ブランド別の相場は、Yahoo!オークションの過去180日分の落札データから、四分位範囲（IQR）による外れ値除去を行ったうえで中央値を算出しています。
+              相場を表示する箇所には、算出に使ったサンプル数と取得日、検索に使った条件を併記します。
+              サンプル数が不足しているモデルや、部品・ジャンク品が混じって中央値が実態と離れるモデル（アップライトピアノ・グランドピアノなど）は、金額を表示せず「データ不足のため非表示」としています。
+            </p>
+          </div>
+
+          <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
+            <h3 className="font-bold text-base text-foreground mb-2">2. 中古相場と買取査定額は別のものとして扱う</h3>
+            <p className="text-sm text-foreground/80 leading-relaxed">
+              表示している中央値は「中古品が落札された実取引価格」であり、買取業者の査定額ではありません。
+              一般に買取査定額は中古相場の50〜70%程度が目安になりますが、年式・状態・付属品で変わるため、当サイトは買取額を保証しません。
+              週次更新と明記していない価格（地域ページなどの目安表）は、自動更新の対象外の参考値です。
+            </p>
+          </div>
+
+          <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
+            <h3 className="font-bold text-base text-foreground mb-2">3. 業者情報は各社の公式サイトの公開情報のみを使う</h3>
+            <p className="text-sm text-foreground/80 leading-relaxed">
+              買取業者の店舗数・買取方法・対応エリア・手数料などは、各社の公式サイトで確認できる情報だけを掲載し、取得元のURLを出典として保持しています。
+              推測で埋めることはせず、公式に明記がない項目は「不明（要問合せ）」と表記します。
+              地域ページの店舗一覧も、各社公式の店舗ページで実在を確認できた店舗のみを掲載しています。
+            </p>
+          </div>
+
+          <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
+            <h3 className="font-bold text-base text-foreground mb-2">4. 口コミ本文は転載しない</h3>
+            <p className="text-sm text-foreground/80 leading-relaxed">
+              第三者が投稿した口コミ・レビューの本文は転載しません。業者の評判に触れる場合は、参照した媒体と調査時点を明記したうえで、内容の傾向を要約するにとどめます。
+              「高く売れる」などの断定的な表現も使いません。
+            </p>
+          </div>
+
+          <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
+            <h3 className="font-bold text-base text-foreground mb-2">5. 広告と評価を分ける</h3>
+            <p className="text-sm text-foreground/80 leading-relaxed">
+              当サイトはプロモーション（PR）を含み、記事内のリンク経由でお申し込みがあった場合に紹介報酬が発生することがあります。
+              広告報酬の有無で比較表の内容や評価を変えることはありません。記事の作り方は
+              <Link href="/content-policy/" className="text-accent hover:underline">記事制作ポリシー</Link>
+              をご覧ください。
+            </p>
+          </div>
         </div>
 
         <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
-          編集部としての姿勢
+          データの更新手順
         </h2>
-        <p className="leading-relaxed mb-4">
-          楽器買取びより編集部は、個人名ではなく
-          <strong>編集部全体の合議制</strong>で記事を作成・公開しています。
-          楽器の中古市場は需要・相場の変動が激しく、個人判断より複数視点での相互レビューが重要だと考えるためです。
-          記事内の数値情報・市場分析・業者評価は、リサーチ担当 → 編集長監修 →
-          ファクトチェック責任者の3段階チェックを経て公開されます。
-        </p>
-        <p className="leading-relaxed">
-          また、買取業者の評価については、編集部独自のヒアリング・相見積もり調査結果に基づき、可能な限り中立的な比較を心掛けています。
-          特定の業者を不当に推奨することなく、利用者の状況に応じて最適な選択肢を提示することを最優先としています。
-        </p>
+
+        <div className="not-prose space-y-4 mb-10">
+          <div className="bg-cream rounded-lg p-4">
+            <p className="text-xs font-bold text-warm-gray mb-2">毎週（月曜 4:00）に自動実行する処理</p>
+            <ol className="list-decimal pl-6 space-y-2 text-sm text-foreground/80 leading-relaxed">
+              <li>対象モデル（ギター・ベース・アンプ・エフェクター・サックス・トランペット・ドラム・ピアノの約20モデル）について、Yahoo!オークションの過去180日分の落札データを取得する</li>
+              <li>外れ値を除去して中央値を算出し、モデル別の履歴に追記する。サンプル不足・異常値のモデルは非表示フラグを付ける</li>
+              <li>
+                <Link href="/souba-ranking/" className="text-accent hover:underline">相場ランキング</Link>
+                ・
+                <Link href="/souba-index/" className="text-accent hover:underline">相場指数</Link>
+                ・
+                <Link href="/widget/" className="text-accent hover:underline">相場ウィジェット</Link>
+                を同じデータから再生成する
+              </li>
+              <li>サイト全体を再生成し、モデル記事・ブランドページの相場カードを最新の中央値に更新して公開する</li>
+            </ol>
+          </div>
+          <div className="bg-cream rounded-lg p-4">
+            <p className="text-xs font-bold text-warm-gray mb-2">毎月1日に自動実行する処理</p>
+            <ol className="list-decimal pl-6 space-y-2 text-sm text-foreground/80 leading-relaxed">
+              <li>上記の相場データを再取得する</li>
+              <li>記事に表示している年月の表記と更新日を当月に更新し、再生成して公開する</li>
+            </ol>
+          </div>
+          <ul className="list-disc pl-6 space-y-2 text-sm text-foreground/80 leading-relaxed">
+            <li>取得に失敗した週は前回取得分の表示が残ります。相場カードの「取得日」が直近でない場合は、その日付時点の値です。</li>
+            <li>業者情報・店舗情報は自動更新の対象外です。公式サイトを確認のうえ、追加・修正のたびに手動で更新しています。</li>
+          </ul>
+        </div>
 
         <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
-          編集ポリシー
+          掲載していないもの
         </h2>
         <ul className="list-disc pl-6 space-y-2 leading-relaxed">
-          <li>価格・相場データは実取引・落札データを起点に算出し、推測値の公開は禁止</li>
-          <li>業者比較は実際の利用実績・公式情報に基づく</li>
-          <li>記事更新日を明示し、相場変動に応じて定期更新</li>
-          <li>誤情報・読者指摘には迅速に対応し、訂正履歴を残す</li>
+          <li>執筆者・監修者の個人名、肩書、経歴、顔写真</li>
+          <li>第三者の口コミ・レビューの本文</li>
+          <li>公式サイトで確認できない買取条件や店舗</li>
+          <li>サンプル不足・異常値と判定したモデルの相場金額</li>
         </ul>
 
         <h2 className="font-display text-2xl font-bold text-foreground mt-10 mb-4">
@@ -202,26 +181,22 @@ export default function AuthorPage() {
         </h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            <Link
-              href="/content-policy/"
-              className="text-accent hover:underline"
-            >
+            <Link href="/content-policy/" className="text-accent hover:underline">
               記事制作ポリシー
             </Link>
           </li>
           <li>
-            <Link
-              href="/privacy-policy/"
-              className="text-accent hover:underline"
-            >
+            <Link href="/souba-ranking/" className="text-accent hover:underline">
+              楽器買取相場ランキング（週次更新）
+            </Link>
+          </li>
+          <li>
+            <Link href="/privacy-policy/" className="text-accent hover:underline">
               プライバシーポリシー
             </Link>
           </li>
           <li>
-            <Link
-              href="/terms-of-service/"
-              className="text-accent hover:underline"
-            >
+            <Link href="/terms-of-service/" className="text-accent hover:underline">
               利用規約
             </Link>
           </li>
