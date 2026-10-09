@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-jaguar-kaitori/' },
@@ -72,6 +73,8 @@ export default function FenderJaguarKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Fender Jaguar（ジャガー）を売りたい方へ。1962年登場、ショートスケール（24インチ）とオフセットボディが特徴で、サーフ／オルタナ系で人気の高い機種です。本記事では製造国・年代別の価値、ヴィンテージとリイシューの違い、複雑なスイッチ類やブリッジの状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="fender-jaguar-kaitori" modelName="Fender Jaguar" />
 
         <div className="article-body">
 

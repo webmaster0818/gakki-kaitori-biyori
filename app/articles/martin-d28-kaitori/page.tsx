@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/martin-d28-kaitori/' },
@@ -72,6 +73,8 @@ export default function MartinD28KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Martin D-28（マーチンD-28）を売りたい方へ。ローズウッド×スプルースのドレッドノートで、アコギの王道とも言える名機です。本記事では年代別の価値、プレウォー（戦前）個体やブレイシングの違い、トップの状態やクラックが査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="martin-d28-kaitori" modelName="Martin D-28" />
 
         <div className="article-body">
 

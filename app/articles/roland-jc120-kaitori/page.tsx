@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-jc120-kaitori/' },
@@ -72,6 +73,8 @@ export default function RolandJc120KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Roland JC-120（ジャズコーラス）を売りたい方へ。透明感のあるクリーンと内蔵コーラスで、スタジオやライブハウスの定番として長年使われるソリッドステートアンプです。本記事では年代別の価値、動作状態（コーラス・スピーカー）が査定に与える影響、高く売るコツを解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="roland-jc120-kaitori" modelName="Roland JC-120" />
 
         <div className="article-body">
 

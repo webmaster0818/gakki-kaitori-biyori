@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-rg-kaitori/' },
@@ -72,6 +73,8 @@ export default function IbanezRgKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Ibanez RGシリーズを売りたい方へ。薄く速いネックとロック式トレモロで、シュレッド／メタル系に支持される定番機です。本記事ではPrestige（日本製上位）/Premium/Standardといったシリーズ別の価値、トレモロ仕様（Edge/Lo-Pro等）、状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="ibanez-rg-kaitori" modelName="Ibanez RG" />
 
         <div className="article-body">
 

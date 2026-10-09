@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-ts808-kaitori/' },
@@ -72,6 +73,8 @@ export default function IbanezTs808KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Ibanez TS808（チューブスクリーマー）を売りたい方へ。中域に独特のうねりを持つ名オーバードライブで、ヴィンテージ個体はプレミア価格で取引されます。本記事では年代・仕様（旧ロゴ、JRC4558Dチップ等）別の価値、現行リイシューとの違い、状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="ibanez-ts808-kaitori" modelName="Ibanez TS808" />
 
         <div className="article-body">
 

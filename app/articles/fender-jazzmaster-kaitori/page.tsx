@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-jazzmaster-kaitori/' },
@@ -72,6 +73,8 @@ export default function FenderJazzmasterKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Fender Jazzmaster（ジャズマスター）を売りたい方へ。1958年登場のオフセットボディで、オルタナ／インディー系で再評価された名機です。本記事ではUSA・日本製・メキシコ製といった製造国別の価値、ヴィンテージ個体の評価、フローティングトレモロやバーサクシステムなど固有パーツの状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="fender-jazzmaster-kaitori" modelName="Fender Jazzmaster" />
 
         <div className="article-body">
 

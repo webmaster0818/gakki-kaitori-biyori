@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/musicman-stingray-kaitori/' },
@@ -72,6 +73,8 @@ export default function MusicmanStingrayKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Music Man StingRay（スティングレイ）を売りたい方へ。パワフルなアクティブサウンドと独特のミュート感で、ファンク／ロックを中心に定番のエレキベースです。本記事では年代・仕様（2バンド/3バンドEQ、H/HH）別の価値、プリアンプの状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="musicman-stingray-kaitori" modelName="Music Man StingRay" />
 
         <div className="article-body">
 

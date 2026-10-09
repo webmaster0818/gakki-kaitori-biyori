@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/korg-minilogue-kaitori/' },
@@ -72,6 +73,8 @@ export default function KorgMinilogueKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">KORG minilogue（コルグ ミニローグ）を売りたい方へ。手頃な価格と本格的なアナログサウンドで人気のポリフォニックシンセです。本記事では無印／minilogue xd等の仕様差、状態（鍵盤・ツマミ・端子）が査定に与える影響、高く売るコツを解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="korg-minilogue-kaitori" modelName="KORG minilogue" />
 
         <div className="article-body">
 

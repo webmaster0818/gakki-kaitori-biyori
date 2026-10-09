@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/taylor-814ce-kaitori/' },
@@ -72,6 +73,8 @@ export default function Taylor814ceKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Taylor 814ce（テイラー814ce）を売りたい方へ。インディアンローズウッド×シトカスプルースのグランドオーディトリアムで、エレアコ（Expression System）を搭載した800シリーズの中核モデルです。本記事では年代・仕様（V-Class導入前後）別の価値、状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="taylor-814ce-kaitori" modelName="Taylor 814ce" />
 
         <div className="article-body">
 

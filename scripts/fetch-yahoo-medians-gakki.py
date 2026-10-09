@@ -216,6 +216,7 @@ ALWAYS_INSUFFICIENT_SLUGS = {
     "yamaha-yus5-kaitori",
     "kawai-k300-kaitori",
     "steinway-b211-kaitori",
+    "yamaha-c3-kaitori",  # 2026-10-09追加: グランドピアノ。10/5取得が n=10・中央値¥8,000 で本体以外の混入が明らか
 }
 
 # モデル種別ごとの最低想定中古中央値 (これ未満なら異常値として insufficient マーク)
@@ -230,6 +231,7 @@ MIN_PLAUSIBLE_MEDIAN = {
     "fender-jazzbass-kaitori": 50_000,
     "fender-twinreverb-kaitori": 40_000,
     "marshall-jcm800-kaitori": 50_000,
+    "vox-ac30-kaitori": 30_000,  # 2026-10-09追加: 10/5取得が n=178・中央値¥3,200（部品・小物混入）
     "pearl-masters-kaitori": 15_000,
     "selmer-markvi-kaitori": 200_000,
     "selmer-series2-kaitori": 100_000,

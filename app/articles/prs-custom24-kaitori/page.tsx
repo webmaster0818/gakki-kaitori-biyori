@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/prs-custom24-kaitori/' },
@@ -72,6 +73,8 @@ export default function PrsCustom24KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">PRS Custom 24（カスタム24）を売りたい方へ。Paul Reed Smithの代表機で、24フレット・トレモロ・回転式ピックアップセレクターを備えた完成度の高いモデルです。本記事ではCore（USA本国）/S2/SEといったグレード別の価値、フレイムメイプルトップのグレード、状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="prs-custom24-kaitori" modelName="PRS Custom 24" />
 
         <div className="article-body">
 

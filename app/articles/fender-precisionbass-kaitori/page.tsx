@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-precisionbass-kaitori/' },
@@ -72,6 +73,8 @@ export default function FenderPrecisionbassKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Fender Precision Bass（プレシジョンベース／プレベ）を売りたい方へ。1951年登場、エレキベースの元祖にして王道の定番機です。本記事ではUSA・日本製・メキシコ製の製造国別の価値、ヴィンテージ個体の評価、スプリットコイルPUやネックの状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="fender-precisionbass-kaitori" modelName="Fender Precision Bass" />
 
         <div className="article-body">
 

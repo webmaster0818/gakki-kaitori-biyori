@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-j45-kaitori/' },
@@ -72,6 +73,8 @@ export default function GibsonJ45KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Gibson J-45（ギブソンJ-45）を売りたい方へ。マホガニー×スプルースのラウンドショルダー・ドレッドノートで、温かみのある中音域から「ワークホース」と称される定番アコギです。本記事では年代別の価値、ヴィンテージ個体の評価、状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="gibson-j45-kaitori" modelName="Gibson J-45" />
 
         <div className="article-body">
 

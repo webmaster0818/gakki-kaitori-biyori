@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/rickenbacker-330-kaitori/' },
@@ -72,6 +73,8 @@ export default function Rickenbacker330KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">Rickenbacker 330（リッケンバッカー330）を売りたい方へ。煌びやかな高音とジャングリーなサウンドで、ビートルズ／パワーポップ系に愛されるセミアコです。本記事ではカラー（Fireglo/Jetglo/Mapleglo）別の価値、年代の評価、独特なトラスロッドや配線の状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="rickenbacker-330-kaitori" modelName="Rickenbacker 330" />
 
         <div className="article-body">
 

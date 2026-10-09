@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/tama-starclassic-kaitori/' },
@@ -72,6 +73,8 @@ export default function TamaStarclassicKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">TAMA Starclassic（スタークラシック）を売りたい方へ。TAMAの上位ドラムシリーズで、メイプルやバーチ、ウォルナットなどのシェルとプロ仕様のハードウェアが特徴です。本記事ではシェル材・構成（バスドラ・タム・スネアの本数）の違い、状態が査定に与える影響、高く売るコツを解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="tama-starclassic-kaitori" modelName="TAMA Starclassic" />
 
         <div className="article-body">
 
