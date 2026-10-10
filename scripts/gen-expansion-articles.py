@@ -595,10 +595,22 @@ def gen(slug,badge,cat,h1,desc,lead,points,faqs,related,souba):
           <p>{badge.replace('買取','')}の買取相場は、ブランド・モデル・状態によって大きく変わります。あくまで目安として、{souba}とされています。正確な査定額は楽器の状態や付属品、時期によって変動するため、無料査定で確認するのが確実です。</p>
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 '''
+    # model カテゴリは週次相場カード（ModelSpotPriceCard）を </header> 直後に入れる（2026-10-10追加）。
+    # gen-souba-models-202607.py / 10/9 に手で足した16本と同じ位置・同じ部品。データが無い slug では部品側が何も出さない。
+    # modelName は data/yahoo-medians-gakki.json の label（無ければ省略＝部品が label か slug を使う）。
+    spot_import = spot_card = ""
+    if cat == "model":
+        spot_import = 'import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";\n'
+        try:
+            label = json.load(open(os.path.join(ROOT, "data/yahoo-medians-gakki.json"), encoding="utf-8")).get(slug, {}).get("label")
+        except (OSError, json.JSONDecodeError):
+            label = None
+        name_attr = f' modelName={json.dumps(label, ensure_ascii=False)}' if label else ""
+        spot_card = f'\n        <ModelSpotPriceCard slug="{slug}"{name_attr} />\n'
     return f'''import type {{ Metadata }} from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
-
+{spot_import}
 export const metadata: Metadata = {{
   title: {json.dumps("【2026年最新】"+h1,ensure_ascii=False)},
   description: {json.dumps(desc,ensure_ascii=False)},
@@ -650,7 +662,7 @@ export default function {pascal(slug)}() {{
           <p className="text-warm-gray text-sm leading-relaxed">{lead}</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年6月5日</p>
         </header>
-
+{spot_card}
         <div className="article-body">
 {souba_block}
           <h2 id="points">査定額を左右するポイント</h2>

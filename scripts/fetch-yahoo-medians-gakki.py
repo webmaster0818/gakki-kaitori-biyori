@@ -13,6 +13,7 @@ import json
 import re
 import statistics
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from datetime import datetime
@@ -112,6 +113,103 @@ def extract_prices(html: str) -> list[int]:
     return out
 
 
+# ===== 出品タイトルで本体以外を落とすモデル（2026-10-10追加） =====
+# extract_prices は価格だけを拾うため、同じ型番を名乗る別商品（小型ヘッドホンアンプ・ラジオ・カバー等）が
+# 混ざると中央値が壊れる。ここに載せたモデルだけ __NEXT_DATA__ の出品（title / price）を読んで、
+# 除外語に当たる出品と、本体としてあり得ない安値（min_item_price 未満）を IQR の前に落とす。
+# 実測（2026-10-10 の「VOX AC30 ギターアンプ」3ページ・116出品）: 本体は約25件で、残りは
+#   amPlug / AP2-AC / AP3-AC（ヘッドホンアンプ ¥500〜7,000）・VGH-AC30 / APHN-AC30（ヘッドホン）・
+#   AC30 RADIO・ピンバッジ・純正ハードケース・Pathfinder。中央値 ¥3,200 の正体はこれ。
+# 「ヤマハ C3 グランドピアノ」は 5出品中 3件がピアノカバー（¥5,000〜8,000）。
+# ※ 本体タイトルにも「真空管」「フットスイッチ付」「カバー付き」「celestion」は普通に出るので、単語では落とさない。
+TITLE_RULES = {
+    "vox-ac30-kaitori": {
+        "exclude": [
+            "amplug", "アンプラグ", "ap2-ac", "ap3-ac", "ap-ac", "ap2-cab", "ac-cab",
+            "ヘッドホン", "ヘッドフォン", "vgh-ac30", "aphn",
+            "radio", "ラジオ", "ピンバッジ", "ピンズ", "キーホルダー", "ミニチュア", "ステッカー",
+            "ハードケース", "アンプケース", "ケースのみ", "カバーのみ", "アンプカバー",
+            "pathfinder", "交換用",
+        ],
+        "exclude_regex": [
+            r"ac-?30\s*(用|対応|専用)",                      # 「AC30用 真空管」「AC30対応カバー」
+            r"(真空管|スピーカー|フットスイッチ|シャーシ|基板|ノブ).{0,6}(のみ|単体|単品)",
+            r"(el84|ecc83|12ax7|gz34|ef86).{0,15}(\d\s*本|ペア|マッチ|セット)",
+        ],
+        "min_item_price": 8_000,  # 実測の本体最安は AC30VR ジャンク ¥10,000。amPlug 最高は ¥6,990
+    },
+    "yamaha-c3-kaitori": {
+        "exclude": [
+            "カバー", "椅子", "イス", "チェア", "インシュレーター", "譜面", "楽譜",
+            "部品", "パーツ", "ハンマー", "鍵盤のみ", "ペダルのみ",
+            # 「消音」「サイレント」「キャスター」は本体タイトル（消音機能付き等）にも出るので入れない
+        ],
+        "exclude_regex": [r"(c3x?|グランドピアノ)\s*(用|対応|専用)"],
+        "min_item_price": 100_000,
+    },
+}
+
+# ルールを変えた日より前の履歴点は別物（例: VOX AC30 の 7/16〜10/1 は全て amPlug の ¥3,4xx）なので、
+# 次回 fetch の write_history でこの日付より前の点を捨てる。残すと正しい値が入った週に
+# 前週比 +2000% 級の偽の値動きがランキングに出る。
+HISTORY_RESET_BEFORE = {
+    "vox-ac30-kaitori": "2026-10-10",
+    "yamaha-c3-kaitori": "2026-10-10",
+}
+
+
+def extract_listings(html: str) -> list[dict] | None:
+    """__NEXT_DATA__ から出品 {title, price} を拾う。読めなければ None。
+    件数を extract_prices（"price" の正規表現）と揃えるため、ページ内で同じ出品が2回出ても重複を残す
+    （2026-10-10 実測: 1ページ 50出品 → "price" 100件、両者一致）。"""
+    m = re.search(r'<script id="__NEXT_DATA__" type="application/json"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return None
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return None
+    out: list[dict] = []
+
+    def walk(o):
+        if isinstance(o, dict):
+            if "auctionId" in o and "title" in o and isinstance(o.get("price"), int):
+                out.append({"title": str(o["title"]), "price": o["price"]})
+                return
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+
+    walk(data)
+    return out
+
+
+def is_excluded(title: str, rule: dict) -> bool:
+    t = unicodedata.normalize("NFKC", title).lower()
+    if any(w in t for w in rule.get("exclude", [])):
+        return True
+    return any(re.search(p, t) for p in rule.get("exclude_regex", []))
+
+
+def prices_with_rule(html: str, rule: dict) -> tuple[list[int], int] | None:
+    """TITLE_RULES 対象モデル用。(残った価格, 落とした件数)。__NEXT_DATA__ が読めなければ None。"""
+    listings = extract_listings(html)
+    if listings is None:
+        return None
+    kept, dropped = [], 0
+    for it in listings:
+        p = it["price"]
+        if not (500 <= p <= 50_000_000):
+            continue
+        if is_excluded(it["title"], rule) or p < rule.get("min_item_price", 0):
+            dropped += 1
+            continue
+        kept.append(p)
+    return kept, dropped
+
+
 def iqr_filter(prices: list[int]) -> list[int]:
     if len(prices) < 4:
         return prices
@@ -125,8 +223,10 @@ def iqr_filter(prices: list[int]) -> list[int]:
     return [p for p in s if lo <= p <= hi]
 
 
-def median_for_query(query: str) -> dict:
+def median_for_query(query: str, slug: str | None = None) -> dict:
+    rule = TITLE_RULES.get(slug) if slug else None
     raw_all = []
+    title_excluded = 0
     pages_fetched = 0
     for page in range(1, MAX_PAGES + 1):
         b = 1 + (page - 1) * 50
@@ -136,17 +236,33 @@ def median_for_query(query: str) -> dict:
             html = fetch(url)
         except Exception as e:
             return {"error": f"fetch_failed: {e}", "query_used": query, "fetched_at": TODAY}
-        page_prices = extract_prices(html)
+        if rule:
+            got = prices_with_rule(html, rule)
+            if got is None:
+                # タイトルが読めないと部品混入を防げない → 汚れた中央値を出すより非表示にする
+                return {"error": "listing_parse_failed", "query_used": query, "raw_n": 0, "filtered_n": 0,
+                        "median": None, "insufficient": True, "fetched_at": TODAY}
+            page_prices, dropped = got
+            title_excluded += dropped
+            page_has_items = bool(page_prices) or dropped > 0
+        else:
+            page_prices = extract_prices(html)
+            page_has_items = bool(page_prices)
         pages_fetched += 1
-        if not page_prices:
+        if not page_has_items:
             break
         raw_all.extend(page_prices)
         if page < MAX_PAGES:
             time.sleep(1.5)
     if not raw_all:
-        return {"query_used": query, "raw_n": 0, "filtered_n": 0, "median": None, "insufficient": True, "fetched_at": TODAY}
+        r0 = {"query_used": query, "raw_n": 0, "filtered_n": 0, "median": None, "insufficient": True, "fetched_at": TODAY}
+        if rule:
+            r0["title_excluded_n"] = title_excluded
+        return r0
     filtered = iqr_filter(raw_all)
+    extra = {"title_excluded_n": title_excluded} if rule else {}
     return {
+        **extra,
         "query_used": query,
         "pages_fetched": pages_fetched,
         "raw_n": len(raw_all),
@@ -185,6 +301,9 @@ def write_history(slug: str, label: str, result: dict) -> None:
     )
 
     merged = [h for h in existing_history if h.get("date") != fetched_at]
+    reset_before = HISTORY_RESET_BEFORE.get(slug)
+    if reset_before:
+        merged = [h for h in merged if (h.get("date") or "") >= reset_before]
     if new_point is not None:
         merged.append(new_point)
     merged.sort(key=lambda h: h.get("date") or "")
@@ -284,7 +403,7 @@ def main():
     results = {}
     for i, (slug, (label, query)) in enumerate(MODEL_QUERIES.items(), 1):
         print(f"  [{i}/{len(MODEL_QUERIES)}] {slug} '{query}'...", end=" ", flush=True)
-        r = median_for_query(query)
+        r = median_for_query(query, slug)
         r["label"] = label
         apply_quality_rules(slug, r)
 
