@@ -140,14 +140,54 @@ TITLE_RULES = {
     },
     "yamaha-c3-kaitori": {
         "exclude": [
-            "カバー", "椅子", "イス", "チェア", "インシュレーター", "譜面", "楽譜",
+            "カバー", "インシュレーター", "譜面", "楽譜",
             "部品", "パーツ", "ハンマー", "鍵盤のみ", "ペダルのみ",
             # 「消音」「サイレント」「キャスター」は本体タイトル（消音機能付き等）にも出るので入れない
+            # 2026-10-11: 「椅子」「イス」「チェア」を単語除外から外し PIANO_ACCESSORY_REGEX（椅子のみ・ピアノ椅子 等）へ。
+            #   U1/U3 の実出品で「椅子付き」は本体タイトルに普通に出る（10/11 実測 U1 2件・U3 2件）
         ],
-        "exclude_regex": [r"(c3x?|グランドピアノ)\s*(用|対応|専用)"],
+        "exclude_regex": [r"(c3x?|グランドピアノ)\s*(用|対応|専用)"],  # + PIANO_ACCESSORY_REGEX（下で追加）
         "min_item_price": 100_000,
     },
 }
+
+# ===== ピアノ5機種（2026-10-11追加）: C3 と同じ「タイトル除外語＋1出品下限」＋型番必須 =====
+# 10/11 に5機種のクエリを1回ずつ取得（各最大3ページ）して出品タイトルを目視した結果:
+#   - U1（14出品）/ U3（7出品）: 全て本体。付属品の混入は0。ただし「椅子付き」が本体に4件 → 「椅子」は単語で落とさない。
+#     ¥1〜¥5,000 は引取限定・1円スタートの本体（実勢でない）。
+#   - YUS5 / K-300 / B-211（各150出品）: 型番一致の本体が0件。Yahoo が型番を無視して
+#     他社アップライト・ピアノカバー・鍵・トイピアノ（YUS5/K-300）、インクカートリッジ・切符・腕時計等（B-211）を返していた。
+#     → カバー除外だけでは足りないので、タイトルに型番（B-211 はブランド名も）を必須にする（require_regex＝全部に一致が必要）。
+# どの機種も ALWAYS_INSUFFICIENT_SLUGS のままなのでサイト表示は変わらない（中央値 JSON と週次ログの値だけが正しくなる）。
+PIANO_ACCESSORY_REGEX = [
+    r"(ピアノ|トップ|レース|鍵盤|用)\s*カバー", r"カバー\s*(のみ|単体|単品)",
+    r"ピアノ\s*(椅子|イス|いす|チェア|ベンチ)(?!\s*付)", r"(椅子|イス|いす|チェア|ベンチ)\s*(のみ|単体|単品)",
+    r"インシュレーター(?!\s*付)", r"(?<!\d)鍵(?!盤)", r"キーホルダー",  # 「88鍵」「鍵盤」は本体
+    r"トイピアノ", r"ミニピアノ", r"おもちゃ", r"シルバニア", r"ドールハウス", r"ミニチュア",
+    r"電子ピアノ", r"カタログ", r"楽譜", r"譜面", r"部品", r"パーツ", r"ハンマー",
+    r"(u-?[13]|yus-?5|k-?300|b-?211|c3x?|ピアノ)\s*(用|対応|専用)",
+]
+_UPRIGHT_FLOOR = 10_000  # 実測の付属品最高は カバーセット ¥7,700。引取限定の ¥1〜数千円本体もここで落ちる
+TITLE_RULES.update({
+    "yamaha-u1-kaitori": {"require_regex": [r"(?<![a-z0-9])u-?1(?![0-9])"],
+                          "exclude_regex": PIANO_ACCESSORY_REGEX, "min_item_price": _UPRIGHT_FLOOR},
+    "yamaha-u3-kaitori": {"require_regex": [r"(?<![a-z0-9])u-?3(?![0-9])"],
+                          "exclude_regex": PIANO_ACCESSORY_REGEX, "min_item_price": _UPRIGHT_FLOOR},
+    "yamaha-yus5-kaitori": {"require_regex": [r"yus-?5(?![0-9])"],
+                            "exclude_regex": PIANO_ACCESSORY_REGEX, "min_item_price": _UPRIGHT_FLOOR},
+    "kawai-k300-kaitori": {"require_regex": [r"(?<![a-z0-9])k-?300(?![0-9])"],
+                           "exclude_regex": PIANO_ACCESSORY_REGEX, "min_item_price": _UPRIGHT_FLOOR},
+    "steinway-b211-kaitori": {"require_regex": [r"(?<![a-z0-9])b-?211(?![0-9])", r"steinway|スタインウェイ"],
+                              "exclude_regex": PIANO_ACCESSORY_REGEX, "min_item_price": 1_000_000},
+})
+TITLE_RULES["yamaha-c3-kaitori"]["exclude_regex"] = (
+    TITLE_RULES["yamaha-c3-kaitori"]["exclude_regex"] + PIANO_ACCESSORY_REGEX)
+
+# ===== n の二重計上の除去（2026-10-11 実装・既定は無効） =====
+# Yahoo の __NEXT_DATA__ は1ページ内で同じ出品を2回持っており、raw_n / filtered_n が実出品数の約2倍になっている。
+# True にすると、全モデルで __NEXT_DATA__ の auctionId（ページをまたいでも）で重複を除いてから IQR・中央値を出す。
+# 判断（A=実数に直す）が出たら下の1行を True にするだけでよい。__NEXT_DATA__ が読めないページは従来の "price" 正規表現に戻る。
+DEDUP_LISTINGS = False
 
 # ルールを変えた日より前の履歴点は別物（例: VOX AC30 の 7/16〜10/1 は全て amPlug の ¥3,4xx）なので、
 # 次回 fetch の write_history でこの日付より前の点を捨てる。残すと正しい値が入った週に
@@ -174,7 +214,7 @@ def extract_listings(html: str) -> list[dict] | None:
     def walk(o):
         if isinstance(o, dict):
             if "auctionId" in o and "title" in o and isinstance(o.get("price"), int):
-                out.append({"title": str(o["title"]), "price": o["price"]})
+                out.append({"title": str(o["title"]), "price": o["price"], "id": str(o["auctionId"])})
                 return
             for v in o.values():
                 walk(v)
@@ -188,16 +228,32 @@ def extract_listings(html: str) -> list[dict] | None:
 
 def is_excluded(title: str, rule: dict) -> bool:
     t = unicodedata.normalize("NFKC", title).lower()
+    if not all(re.search(p, t) for p in rule.get("require_regex", [])):
+        return True  # 型番が無い出品（Yahoo のあいまい一致で混ざる別商品）
     if any(w in t for w in rule.get("exclude", [])):
         return True
     return any(re.search(p, t) for p in rule.get("exclude_regex", []))
 
 
-def prices_with_rule(html: str, rule: dict) -> tuple[list[int], int] | None:
-    """TITLE_RULES 対象モデル用。(残った価格, 落とした件数)。__NEXT_DATA__ が読めなければ None。"""
+def dedup_listings(listings: list[dict], seen: set[str]) -> list[dict]:
+    """auctionId で重複を除く（seen はページをまたいで共有）。DEDUP_LISTINGS=True の時だけ使う。"""
+    out = []
+    for it in listings:
+        if it["id"] in seen:
+            continue
+        seen.add(it["id"])
+        out.append(it)
+    return out
+
+
+def prices_with_rule(html: str, rule: dict, seen: set[str] | None = None) -> tuple[list[int], int] | None:
+    """TITLE_RULES 対象モデル用。(残った価格, 落とした件数)。__NEXT_DATA__ が読めなければ None。
+    seen を渡すと auctionId で重複除去する（DEDUP_LISTINGS）。"""
     listings = extract_listings(html)
     if listings is None:
         return None
+    if seen is not None:
+        listings = dedup_listings(listings, seen)
     kept, dropped = [], 0
     for it in listings:
         p = it["price"]
@@ -208,6 +264,14 @@ def prices_with_rule(html: str, rule: dict) -> tuple[list[int], int] | None:
             continue
         kept.append(p)
     return kept, dropped
+
+
+def prices_dedup(html: str, seen: set[str]) -> list[int]:
+    """TITLE_RULES 対象外モデル用（DEDUP_LISTINGS=True の時だけ）。__NEXT_DATA__ が読めなければ従来の正規表現。"""
+    listings = extract_listings(html)
+    if listings is None:
+        return extract_prices(html)
+    return [it["price"] for it in dedup_listings(listings, seen) if 500 <= it["price"] <= 50_000_000]
 
 
 def iqr_filter(prices: list[int]) -> list[int]:
@@ -228,6 +292,7 @@ def median_for_query(query: str, slug: str | None = None) -> dict:
     raw_all = []
     title_excluded = 0
     pages_fetched = 0
+    seen: set[str] | None = set() if DEDUP_LISTINGS else None
     for page in range(1, MAX_PAGES + 1):
         b = 1 + (page - 1) * 50
         q = urllib.parse.quote(query)
@@ -237,7 +302,7 @@ def median_for_query(query: str, slug: str | None = None) -> dict:
         except Exception as e:
             return {"error": f"fetch_failed: {e}", "query_used": query, "fetched_at": TODAY}
         if rule:
-            got = prices_with_rule(html, rule)
+            got = prices_with_rule(html, rule, seen)
             if got is None:
                 # タイトルが読めないと部品混入を防げない → 汚れた中央値を出すより非表示にする
                 return {"error": "listing_parse_failed", "query_used": query, "raw_n": 0, "filtered_n": 0,
@@ -246,7 +311,7 @@ def median_for_query(query: str, slug: str | None = None) -> dict:
             title_excluded += dropped
             page_has_items = bool(page_prices) or dropped > 0
         else:
-            page_prices = extract_prices(html)
+            page_prices = prices_dedup(html, seen) if seen is not None else extract_prices(html)
             page_has_items = bool(page_prices)
         pages_fetched += 1
         if not page_has_items:
