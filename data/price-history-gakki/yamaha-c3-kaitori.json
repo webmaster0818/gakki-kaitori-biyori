@@ -4,103 +4,12 @@
   "source": "yahoo_auctions_closed_search_180d",
   "methodology": "median of individual lot final-prices, IQR outlier removal",
   "query_used": "ヤマハ C3 グランドピアノ",
-  "history": [
-    {
-      "date": "2026-07-16",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-07-20",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-07-27",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-08-01",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-08-03",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-08-10",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-08-17",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-08-24",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-08-31",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-09-01",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-09-07",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-09-14",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-09-21",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-09-28",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    },
-    {
-      "date": "2026-10-01",
-      "median_jpy": 115750,
-      "sample_n": 8,
-      "raw_n": 8
-    }
-  ],
+  "history": [],
   "latest": {
-    "date": "2026-10-05",
-    "median_jpy": 8000,
-    "sample_n": 10,
-    "raw_n": 10,
+    "date": "2026-10-12",
+    "median_jpy": 375750,
+    "sample_n": 4,
+    "raw_n": 4,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。"
