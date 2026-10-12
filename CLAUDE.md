@@ -278,3 +278,8 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - **前週比 ±50% 超**: 0本（最大 Rickenbacker 330 -28.9%）
 - **ytr8335 パンくず**: `wip/ytr8335-breadcrumb`（956f309）＝表示・JSON-LD・relatedSlugs 先頭を trumpet-kaitori「トランペット買取」へ、related-groups はサックス群→トランペット群へ1本移動。未デプロイ
 - precheck ✅全項目OK（570ページ）
+
+
+### 2026-10-12 成長ルーチン: sitemap lastmod
+- `scripts/generate-sitemap.mjs` の lastmod を「ビルド日」→「ページと参照データ（@/data の import）の最終コミット日」に変更。全URLが毎回同じ日付だと Google が lastmod を当てにせず、新規の受け皿記事が「Google が認識していない」まま残っていたため。
+- 記事を直したら **コミットしてから** `node scripts/generate-sitemap.mjs`（未コミットのファイルは当日扱い）→ ビルド → deploy。週次スクリプトは従来どおり自動で生成する。
