@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yamaha-c3-kaitori/' },
@@ -72,6 +73,8 @@ export default function YamahaC3KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">YAMAHA C3（ヤマハC3）を売りたい方へ。奥行き186cmの定番グランドピアノで、家庭・教室・ホールで広く使われる人気機種です。本記事では製造番号による年式判定、年代別の価値、外装・内部（弦・ハンマー・アクション）の状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="yamaha-c3-kaitori" modelName="YAMAHA C3" />
 
         <div className="article-body">
 

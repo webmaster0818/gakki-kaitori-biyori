@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-12",
-  "count": 55,
+  "count": 53,
   "models": [
     {
       "slug": "bach-42-trombone-kaitori",
@@ -73,15 +73,6 @@
       "sample_n": 82,
       "change_1w": 0.6,
       "change_2w": 2.7
-    },
-    {
-      "slug": "fender-jaguar-kaitori",
-      "name": "Fender Jaguar",
-      "category": "エレキギター",
-      "median": 96000,
-      "sample_n": 34,
-      "change_1w": 0.0,
-      "change_2w": -22.3
     },
     {
       "slug": "fender-jazzbass-kaitori",
@@ -388,15 +379,6 @@
       "sample_n": 286,
       "change_1w": -1.0,
       "change_2w": -1.1
-    },
-    {
-      "slug": "rickenbacker-330-kaitori",
-      "name": "Rickenbacker 330",
-      "category": "エレキギター",
-      "median": 48350,
-      "sample_n": 44,
-      "change_1w": -28.9,
-      "change_2w": -21.4
     },
     {
       "slug": "rickenbacker-4003-kaitori",

@@ -100,12 +100,6 @@
       "median_jpy": 68000,
       "sample_n": 50,
       "raw_n": 50
-    },
-    {
-      "date": "2026-10-12",
-      "median_jpy": 48350,
-      "sample_n": 44,
-      "raw_n": 44
     }
   ],
   "latest": {
@@ -113,7 +107,7 @@
     "median_jpy": 48350,
     "sample_n": 44,
     "raw_n": 44,
-    "insufficient": false
+    "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。"
 }

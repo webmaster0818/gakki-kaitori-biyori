@@ -344,9 +344,10 @@
     "mean": 118294,
     "min": 1000,
     "max": 264000,
-    "insufficient": false,
+    "insufficient": true,
     "fetched_at": "2026-10-12",
-    "label": "Fender Jaguar"
+    "label": "Fender Jaguar",
+    "note": "算出された中央値が想定下限（¥100,000）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
   },
   "fender-mustang-kaitori": {
     "query_used": "Fender USA Mustang ギター",
@@ -474,9 +475,10 @@
     "mean": 88788,
     "min": 1500,
     "max": 222200,
-    "insufficient": false,
+    "insufficient": true,
     "fetched_at": "2026-10-12",
-    "label": "Rickenbacker 330"
+    "label": "Rickenbacker 330",
+    "note": "算出された中央値が想定下限（¥90,000）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
   },
   "rickenbacker-4003-kaitori": {
     "query_used": "Rickenbacker 4003 ベース",

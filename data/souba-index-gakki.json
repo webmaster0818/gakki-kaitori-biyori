@@ -3,14 +3,14 @@
  "base_date": "2026-07-16",
  "latest_date": "2026-10-12",
  "constituents": {
-  "total": 44,
+  "total": 42,
   "by_category": {
    "管楽器": 4,
    "エフェクター": 4,
    "楽器": 12,
    "アンプ": 3,
-   "エレキギター": 11,
    "ベース": 3,
+   "エレキギター": 9,
    "アコギ": 4,
    "シンセ/キーボード": 2,
    "ドラム": 1
@@ -25,7 +25,6 @@
   "ehx-bigmuff-kaitori",
   "esp-horizon-kaitori",
   "fender-deluxereverb-kaitori",
-  "fender-jaguar-kaitori",
   "fender-jazzbass-kaitori",
   "fender-jazzmaster-kaitori",
   "fender-mustang-kaitori",
@@ -52,7 +51,6 @@
   "musicman-stingray-kaitori",
   "prs-custom24-kaitori",
   "prs-se-kaitori",
-  "rickenbacker-330-kaitori",
   "rickenbacker-4003-kaitori",
   "roland-jc120-kaitori",
   "roland-juno-kaitori",
@@ -71,7 +69,6 @@
   "ehx-bigmuff-kaitori": "Electro-Harmonix Big Muff",
   "esp-horizon-kaitori": "ESP Horizon",
   "fender-deluxereverb-kaitori": "Fender Deluxe Reverb",
-  "fender-jaguar-kaitori": "Fender Jaguar",
   "fender-jazzbass-kaitori": "Fender Jazz Bass",
   "fender-jazzmaster-kaitori": "Fender Jazzmaster",
   "fender-mustang-kaitori": "Fender Mustang",
@@ -98,7 +95,6 @@
   "musicman-stingray-kaitori": "Music Man StingRay",
   "prs-custom24-kaitori": "PRS Custom 24",
   "prs-se-kaitori": "PRS SE",
-  "rickenbacker-330-kaitori": "Rickenbacker 330",
   "rickenbacker-4003-kaitori": "Rickenbacker 4003",
   "roland-jc120-kaitori": "Roland JC-120",
   "roland-juno-kaitori": "Roland Juno",
@@ -115,67 +111,67 @@
   },
   {
    "date": "2026-07-20",
-   "index": 99.68
+   "index": 99.81
   },
   {
    "date": "2026-07-27",
-   "index": 99.95
+   "index": 100.13
   },
   {
    "date": "2026-08-01",
-   "index": 99.37
+   "index": 99.55
   },
   {
    "date": "2026-08-03",
-   "index": 98.28
+   "index": 98.73
   },
   {
    "date": "2026-08-10",
-   "index": 99.63
+   "index": 99.82
   },
   {
    "date": "2026-08-17",
-   "index": 99.15
+   "index": 99.47
   },
   {
    "date": "2026-08-24",
-   "index": 98.01
+   "index": 98.7
   },
   {
    "date": "2026-08-31",
-   "index": 98.01
+   "index": 98.7
   },
   {
    "date": "2026-09-01",
-   "index": 97.79
+   "index": 98.68
   },
   {
    "date": "2026-09-07",
-   "index": 96.69
+   "index": 98.18
   },
   {
    "date": "2026-09-14",
-   "index": 95.7
+   "index": 97.84
   },
   {
    "date": "2026-09-21",
-   "index": 96.05
+   "index": 98.2
   },
   {
    "date": "2026-09-28",
-   "index": 96.15
+   "index": 98.4
   },
   {
    "date": "2026-10-01",
-   "index": 96.12
+   "index": 98.37
   },
   {
    "date": "2026-10-05",
-   "index": 95.79
+   "index": 98.26
   },
   {
    "date": "2026-10-12",
-   "index": 95.5
+   "index": 98.23
   }
  ],
  "categories": {
@@ -459,76 +455,6 @@
     "index": 93.56
    }
   ],
-  "エレキギター": [
-   {
-    "date": "2026-07-16",
-    "index": 100.0
-   },
-   {
-    "date": "2026-07-20",
-    "index": 100.11
-   },
-   {
-    "date": "2026-07-27",
-    "index": 100.11
-   },
-   {
-    "date": "2026-08-01",
-    "index": 100.11
-   },
-   {
-    "date": "2026-08-03",
-    "index": 98.12
-   },
-   {
-    "date": "2026-08-10",
-    "index": 98.95
-   },
-   {
-    "date": "2026-08-17",
-    "index": 99.18
-   },
-   {
-    "date": "2026-08-24",
-    "index": 97.67
-   },
-   {
-    "date": "2026-08-31",
-    "index": 97.68
-   },
-   {
-    "date": "2026-09-01",
-    "index": 96.6
-   },
-   {
-    "date": "2026-09-07",
-    "index": 94.35
-   },
-   {
-    "date": "2026-09-14",
-    "index": 92.32
-   },
-   {
-    "date": "2026-09-21",
-    "index": 90.8
-   },
-   {
-    "date": "2026-09-28",
-    "index": 91.61
-   },
-   {
-    "date": "2026-10-01",
-    "index": 91.07
-   },
-   {
-    "date": "2026-10-05",
-    "index": 90.11
-   },
-   {
-    "date": "2026-10-12",
-    "index": 89.21
-   }
-  ],
   "ベース": [
    {
     "date": "2026-07-16",
@@ -597,6 +523,76 @@
    {
     "date": "2026-10-12",
     "index": 100.69
+   }
+  ],
+  "エレキギター": [
+   {
+    "date": "2026-07-16",
+    "index": 100.0
+   },
+   {
+    "date": "2026-07-20",
+    "index": 100.8
+   },
+   {
+    "date": "2026-07-27",
+    "index": 100.99
+   },
+   {
+    "date": "2026-08-01",
+    "index": 101.11
+   },
+   {
+    "date": "2026-08-03",
+    "index": 100.15
+   },
+   {
+    "date": "2026-08-10",
+    "index": 99.69
+   },
+   {
+    "date": "2026-08-17",
+    "index": 100.69
+   },
+   {
+    "date": "2026-08-24",
+    "index": 100.8
+   },
+   {
+    "date": "2026-08-31",
+    "index": 100.82
+   },
+   {
+    "date": "2026-09-01",
+    "index": 100.52
+   },
+   {
+    "date": "2026-09-07",
+    "index": 100.79
+   },
+   {
+    "date": "2026-09-14",
+    "index": 101.55
+   },
+   {
+    "date": "2026-09-21",
+    "index": 99.69
+   },
+   {
+    "date": "2026-09-28",
+    "index": 101.1
+   },
+   {
+    "date": "2026-10-01",
+    "index": 100.44
+   },
+   {
+    "date": "2026-10-05",
+    "index": 100.37
+   },
+   {
+    "date": "2026-10-12",
+    "index": 100.56
    }
   ],
   "アコギ": [

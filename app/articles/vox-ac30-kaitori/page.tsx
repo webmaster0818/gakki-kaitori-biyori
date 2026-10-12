@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
+import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/vox-ac30-kaitori/' },
@@ -72,6 +73,8 @@ export default function VoxAc30KaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">VOX AC30を売りたい方へ。きらびやかなブリティッシュトーンで、ビートルズ以降のロックに欠かせない真空管アンプの名機です。本記事ではヴィンテージと現行（Custom/Hand-Wired等）の違い、年代別の価値、真空管やスピーカー（Celestion）の状態が査定に与える影響を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
+
+        <ModelSpotPriceCard slug="vox-ac30-kaitori" modelName="VOX AC30" />
 
         <div className="article-body">
 

@@ -416,6 +416,13 @@ MIN_PLAUSIBLE_MEDIAN = {
     "fender-twinreverb-kaitori": 40_000,
     "marshall-jcm800-kaitori": 50_000,
     "vox-ac30-kaitori": 30_000,  # 2026-10-09追加: 10/5取得が n=178・中央値¥3,200（部品・小物混入）
+    # 2026-10-12追加（暫定の非表示）: 出品タイトル目視で半数前後が本体以外。本筋は TITLE_RULES 化（判断待ち）。
+    #   rickenbacker-330: 22出品中 キーホルダー4・ハードケース1・コピー/〜タイプ/レプリカ等7 → 中央値 ¥48,350（7/16 ¥170,800 から漸減）。
+    #     本物の330は ¥95,150〜¥222,200（10出品）。
+    #   fender-jaguar: 17出品中 コンデンサー/ブリッジ/PU/ケース7・コンポーネント1 → 中央値 ¥96,000（7/16 ¥200,000）。
+    #     USA本体は ¥151,000〜¥264,000。
+    "rickenbacker-330-kaitori": 90_000,
+    "fender-jaguar-kaitori": 100_000,
     "pearl-masters-kaitori": 15_000,
     "selmer-markvi-kaitori": 200_000,
     "selmer-series2-kaitori": 100_000,
