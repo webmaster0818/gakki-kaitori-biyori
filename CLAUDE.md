@@ -267,3 +267,14 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - **除外前→後（中央値 / filtered_n）**: U1 ¥8,900/20 → ¥27,500/10、U3 ¥36,166/12 → ¥42,333/10、YUS5 ¥5,811/234 → なし/0、K-300 ¥3,050/218 → なし/0、B-211 ¥1,940/224 → なし/0、C3 ¥375,750/4（不変）。全機種 ALWAYS_INSUFFICIENT のままなので**サイト表示は不変**。保存HTMLで旧スクリプトと全62モデルを比較し、変わるのはこの5機種だけ
 - **n の二重計上**: `DEDUP_LISTINGS = False`（1行で有効化）。True で全モデル auctionId 重複除去（ページ跨ぎも）。dry: 中央値は全モデル不変・n はほぼ半分。**MIN_SAMPLE=8 を割って非表示になるのは5本**: gibson-explorer 14→7 / ibanez-jem 12→6 / tama-starclassic 12→6 / mesaboogie-markv 8→4 / moog-subsequent37 8→4。境界: taylor-814ce 8・ibanez-rg 8・gibson-firebird 9
 - 判断待ち: n を A 実数に直す（上記5本が非表示）/ B 今のまま
+
+### 2026-10-12 週次後点検：VOX AC30 / YAMAHA C3 に相場カード・Rickenbacker 330 / Fender Jaguar を暫定非表示 ✅本番反映済み（src 23b6876 / deploy b698e0e3e）
+- **VOX AC30**: 週次 ¥61,000・filtered_n 50（insufficient False）。同クエリ3ページを取り直して目視＝ユニーク114出品中、ルール通過26件は**全て AC30 本体**（AC30VR ¥10,000〜20,900・CC1/CC2/C2/C2X・/6TB・H2/HW2・AC30T 1965 ¥349,800）。`</header>` 直後に `ModelSpotPriceCard`（10/9 の16本と同じ部品）。ranking には週次で既に戻っていて change_1w/2w=None（履歴1点＝前週比なし・異常値なし）、指数は履歴不足で自動除外のまま
+- **YAMAHA C3**: 同じ部品で「データ不足のため非表示」表示（ALWAYS_INSUFFICIENT）
+- **Rickenbacker 330 / Fender Jaguar（新発見）**: 7/16 から中央値が漸減（330 ¥170,800→¥48,350・Jaguar ¥200,000→¥96,000）。目視で330は22出品中 キーホルダー4・ケース1・コピー/〜タイプ/レプリカ等7、Jaguar は17出品中 部品/ケース7＋コンポーネント1。→ `MIN_PLAUSIBLE_MEDIAN` に 330=¥90,000・Jaguar=¥100,000 を足して `--reapply`（暫定の非表示）。ranking 55→53・指数 44→42銘柄（指数系列は再計算され最新 95.5→98.23）。ギター地域12本・guitar-kaitori・各型番ページ・/souba-ranking/ から消えた
+  - ⚠️ 本筋は TITLE_RULES 化（判断待ち）。直すときは HISTORY_RESET_BEFORE も要（330 は 9/7 以降、Jaguar は 10/5 以降の点が混入値）
+- **dw-collectors**: 「新たに非表示」ではなく、**7/16 の追加以来ずっと insufficient**（raw_n 2→4＝実出品2件、history 空）。原因はクエリ「DW Collector's ドラムセット」がセット出品しかヒットしないこと（目視: ¥321,999 / ¥1,000,000 の2件）。「DW コレクターズ」なら15件出るがスネア・タム単体中心（＋ビートルズLP・Nikon DW-1 等の無関係品）でセット相場にはならない。ページは「データ不足のため非表示」で古い数値の露出なし。ただし本文「上の相場カードは…中央値（毎週自動更新）です」・FAQ・description が数値ありの前提の文で、カードと食い違う（insufficient の型番ページ全般に同じ文があるはず）
+- **ピアノ5機種**: 新ルールが効いた＝YUS5/K-300/B-211 は n=0、U1 n=10（¥27,500 前後）・U3 n=12。全て ALWAYS_INSUFFICIENT で非表示（表示不変）
+- **前週比 ±50% 超**: 0本（最大 Rickenbacker 330 -28.9%）
+- **ytr8335 パンくず**: `wip/ytr8335-breadcrumb`（956f309）＝表示・JSON-LD・relatedSlugs 先頭を trumpet-kaitori「トランペット買取」へ、related-groups はサックス群→トランペット群へ1本移動。未デプロイ
+- precheck ✅全項目OK（570ページ）
