@@ -362,7 +362,6 @@
     "selmer-series2-kaitori",
     "yamaha-yas62-kaitori",
     "yamaha-yas875-kaitori",
-    "yamaha-ytr8335-kaitori",
     "yanagisawa-awo10-kaitori"
    ]
   },
@@ -389,7 +388,8 @@
     "horn-kaitori",
     "bach-kaitori",
     "jupiter-kaitori",
-    "bach-stradivarius-kaitori"
+    "bach-stradivarius-kaitori",
+    "yamaha-ytr8335-kaitori"
    ]
   },
   "inst:violin-kaitori": {
@@ -905,7 +905,6 @@
   "selmer-series2-kaitori": "セルマー シリーズII買取",
   "yamaha-yas62-kaitori": "ヤマハ YAS-62買取",
   "yamaha-yas875-kaitori": "ヤマハ YAS-875買取ガイド",
-  "yamaha-ytr8335-kaitori": "ヤマハ YTR-8335買取相場",
   "yanagisawa-awo10-kaitori": "ヤナギサワ AWO10買取ガイド",
   "synthesizer-kaitori": "シンセサイザー買取相場ガイド",
   "korg-kaitori": "KORG買取相場ガイド",
@@ -923,6 +922,7 @@
   "bach-kaitori": "Bach(バック)買取相場",
   "jupiter-kaitori": "Jupiter買取ガイド",
   "bach-stradivarius-kaitori": "バック ストラディバリ買取",
+  "yamaha-ytr8335-kaitori": "ヤマハ YTR-8335買取相場",
   "violin-kaitori": "バイオリン買取相場ガイド",
   "contrabass-kaitori": "コントラバス買取ガイド",
   "harp-kaitori": "ハープ買取相場ガイド",
