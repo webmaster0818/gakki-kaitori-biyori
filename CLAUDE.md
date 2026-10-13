@@ -283,3 +283,28 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 ### 2026-10-12 成長ルーチン: sitemap lastmod
 - `scripts/generate-sitemap.mjs` の lastmod を「ビルド日」→「ページと参照データ（@/data の import）の最終コミット日」に変更。全URLが毎回同じ日付だと Google が lastmod を当てにせず、新規の受け皿記事が「Google が認識していない」まま残っていたため。
 - 記事を直したら **コミットしてから** `node scripts/generate-sitemap.mjs`（未コミットのファイルは当日扱い）→ ビルド → deploy。週次スクリプトは従来どおり自動で生成する。
+
+### 2026-10-13 Rickenbacker 330 / Fender Jaguar を TITLE_RULES 化（暫定非表示→本体だけの値で再表示） ✅本番反映済み（src 3a84922・77fe9a6 / deploy aaaafd422）
+- **10/13 のヤフオク実データで出品タイトルを全件目視**（両クエリとも1ページで終端）:
+  - 「Rickenbacker 330 ギター」22出品 → 落とす12＝キーホルダー4（¥1,500〜1,900）・「330、360 ギター用 ハードケース」1・コピー/〜タイプ/〜風/レプリカ/Honey SG-5/Academy/Legend 7（¥14,300〜48,500）。残り10は**全て本物の 330 系**（Model330・330FG・330/12・1966 MOD 等 ¥95,150〜222,200）
+  - 「Fender USA Jaguar」17出品 → 落とす9＝コンデンサー・ブリッジカバー・ジャガー用ブリッジ・PU フロントのみ・ケース3・AmPro ボディ＋パーツ（¥63,000）・MJT コンポーネント（¥96,000）。残り8は**全て USA 本体**（AV62/AV65/Johnny Marr 等 ¥151,000〜264,000）
+- `fetch-yahoo-medians-gakki.py` の TITLE_RULES に2本追加（AC30 と同方式）: 330＝型番 `330` と Rickenbacker 表記必須・コピー系メーカー名/タイプ/風/レプリカ除外・下限 ¥60,000／Jaguar＝jaguar と fender 表記必須・〜用/コンデンサー/コンポーネント/ブリッジカバー/〜のみ除外・下限 ¥70,000。ケースは「ケース付/あり」が続かない形だけ落とす（本体タイトルに「ハードケース付き」が普通に出る）。「ステッカー」「ストラップ」も本体の付属品表記に出るので単語では落とさない
+- 結果: 330 ¥48,350（n=44）→ **¥177,001（n=18、IQR で ¥95,150 の2件落ち）**、Jaguar ¥96,000（n=34）→ **¥221,000（n=16）**。MIN_PLAUSIBLE_MEDIAN（9万/10万）は保険として残置
+- **履歴**: HISTORY_RESET_BEFORE＝両方 2026-10-13（旧方式の点を全部捨てる）。指示は「330 は 9/7〜・Jaguar は 10/5〜」の破棄だったが、その期間だけ消すと前の点（330 9/1 ¥140,800・Jaguar 10/1 ¥123,500）との間に **+25%／+79% の偽の前週比**がランキングに出る。Jaguar の 9/7〜10/1 ¥123,500 も本体値 ¥22万から大きく外れており混入が 10/5 より前からの可能性が高い → VOX と同じ全リセットにした。history は 10/13 の1点、change_1w/2w=None
+- **当日反映**: `--only slug,slug`（指定モデルだけ取得し既存 JSON の他モデルは残す）を追加。⚠️ ただし今日は差分確認で全62クエリ×2回を取得した直後で **Yahoo が HTTP 500 を返した**（--only 実行が fetch_failed → data は git checkout で戻した）。同じ10/13取得HTMLのキャッシュで main(only) を実行して反映。⚠️ fetch_failed の結果は insufficient キーが無く、HISTORY_RESET_BEFORE の対象モデルだと履歴が空になる（今回は戻したので無害）
+- **他60モデル不変の確認**: 同じ取得HTMLで HEAD 版と新版を全62モデル実行 → 差分は2本だけ（ただし後半13モデルは Yahoo 500 で両方 error。コード上 TITLE_RULES/HISTORY_RESET の追加は2スラッグのキーのみで他経路は不変）。ranking 53→55（他53モデルの行は完全一致）・指数 42銘柄 不変（2本は履歴1点で自動除外）・widget は日付以外不変なので戻した
+- precheck ✅全項目OK（570ページ）。ranking の「最終更新」は 2026-10-13 表示になる（2本だけ 10/13 取得・他は 10/12）
+- ⚠️ **Yahoo closedsearch が 10/13 09:0x 以降 HTTP 500 を返し続けている**（トップは200。今日の差分確認で約190リクエストを打った後から。30分以上回復せず）。来週月曜の週次までに回復していなければ週次が fetch_failed だらけになる → 月曜の週次ログで error 件数を確認すること
+
+### 2026-10-13 DEDUP_LISTINGS=True（n を実数に）の影響を再計算 → 10/14 実行手順（今日は有効にしていない）
+- **方法**: 10/13 取得HTML（49モデル。後半13モデルは上記の Yahoo 500 で取れず、10/12 週次値の n を半分にして補完＝10/11 dry で中央値不変・n ほぼ半分を確認済みのため）で DEDUP 無/有を実行し、データ複製に「次回週次 10/19」として書き込んで ranking/指数を再生成して比較
+- **中央値**: 全モデル不変（取得できた49モデルで実測）
+- **MIN_SAMPLE=8 を割って非表示になる4本**: gibson-explorer 14→7 / tama-starclassic 12→6 / mesaboogie-markv 8→4 / moog-subsequent37 8→4（10/11 dry の5本のうち ibanez-jem は今日 n=16→8 で境界に残った）。境界 n=8〜9: fender-jaguar・ibanez-jem・ibanez-rg・taylor-814ce（8）、gibson-firebird・rickenbacker-330（9）＝翌週以降の出入りが起きやすい
+- **ranking**: 55→51（上の4本が消える）。他モデルの中央値・前週比は不変。流通量TOP10 の顔ぶれ・順位も不変（n が全体に半分になるだけ）。ModelSpotPriceCard の「サンプル数 n=」は全ページで約半分の表示になる
+- **相場指数**: 42→37銘柄。🚨 指数生成器の「全履歴点で sample_n>=20」条件に、新しい点（実数 n）が引っかかって **esp-horizon / fender-mustang / gibson-lespaul-custom / ludwig-supraphonic / warwick-thumb の5本が指数から外れる**（実出品数が減ったのではなく数え方が変わっただけ）。構成が変わるので**過去の指数系列ごと再計算され、10/12 の値も 98.23→98.79 に変わる**（最新 10/19 試算 98.30→99.02）
+- **10/14 の実行手順（既定案）**:
+  1. `scripts/fetch-yahoo-medians-gakki.py` の `DEDUP_LISTINGS = False` → `True`（1行）
+  2. 指数の数え方も揃える（推奨・同時に）: `generate-souba-index-gakki.py` の `sample_n < 20` を「DEDUP 後の点は 10」にする。例: write_history の点に `"dedup": True` を入れ、指数側は `h.get("sample_n",0) < (10 if h.get("dedup") else 20)`。これをしないと上の5本が数え方の変更だけで指数から落ち、系列も書き換わる
+  3. 10/14 には取得しない（全62モデルの再取得は history に 10/14 の週外の点ができ、前週比が「2日比」になる＋今日 Yahoo 500 が出た）。**commit/push のみで、10/19 の週次から効く**
+  4. 10/19 週次後に確認: insufficient 化が上の4本（＋境界6本）で収まっているか、ranking 件数、指数の構成数と最新値、カードの n 表示
+- 判断が要る点: 4本（Explorer/Starclassic/Mark V/Subsequent 37）が「データ不足のため非表示」になること、指数の構成変更（手順2を入れるか）
