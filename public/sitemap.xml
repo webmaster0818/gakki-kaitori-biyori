@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://gakkikaitori-biyori.com/widget/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://gakkikaitori-biyori.com/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://gakkikaitori-biyori.com/articles/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://gakkikaitori-biyori.com/souba-ranking/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://gakkikaitori-biyori.com/widget/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://gakkikaitori-biyori.com/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://gakkikaitori-biyori.com/articles/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://gakkikaitori-biyori.com/souba-ranking/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/souba-index/</loc><lastmod>2026-10-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/author/</loc><lastmod>2026-10-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/privacy-policy/</loc><lastmod>2026-07-02</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
@@ -61,7 +61,7 @@
   <url><loc>https://gakkikaitori-biyori.com/articles/euphonium-kaitori/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/fender-deluxe-reverb-kaitori/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/fender-deluxereverb-kaitori/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://gakkikaitori-biyori.com/articles/fender-jaguar-kaitori/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gakkikaitori-biyori.com/articles/fender-jaguar-kaitori/</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/fender-jazzbass-kaitori/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/fender-jazzmaster-kaitori/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/fender-kaitori/</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -81,7 +81,7 @@
   <url><loc>https://gakkikaitori-biyori.com/articles/gakki-danshari/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/gakki-hozon-houhou/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/gakki-kaitori-jiki/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://gakkikaitori-biyori.com/articles/gakki-kaitori-osusume/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gakkikaitori-biyori.com/articles/gakki-kaitori-osusume/</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/</loc><lastmod>2026-10-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/gakki-kaitori-vs-kojin-baibai/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -328,7 +328,7 @@
   <url><loc>https://gakkikaitori-biyori.com/articles/prs-se-kaitori/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/recorder-kaitori/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/renshu-shinai-gakki/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://gakkikaitori-biyori.com/articles/rickenbacker-330-kaitori/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gakkikaitori-biyori.com/articles/rickenbacker-330-kaitori/</loc><lastmod>2026-10-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/rickenbacker-4003-kaitori/</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/rickenbacker-kaitori/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gakkikaitori-biyori.com/articles/roland-denshi-piano-kaitori/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
