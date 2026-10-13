@@ -336,18 +336,18 @@
     "label": "Fender Jazzmaster"
   },
   "fender-jaguar-kaitori": {
+    "title_excluded_n": 18,
     "query_used": "Fender USA Jaguar",
     "pages_fetched": 2,
-    "raw_n": 34,
-    "filtered_n": 34,
-    "median": 96000,
-    "mean": 118294,
-    "min": 1000,
+    "raw_n": 16,
+    "filtered_n": 16,
+    "median": 221000,
+    "mean": 219500,
+    "min": 151000,
     "max": 264000,
-    "insufficient": true,
-    "fetched_at": "2026-10-12",
-    "label": "Fender Jaguar",
-    "note": "算出された中央値が想定下限（¥100,000）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
+    "insufficient": false,
+    "fetched_at": "2026-10-13",
+    "label": "Fender Jaguar"
   },
   "fender-mustang-kaitori": {
     "query_used": "Fender USA Mustang ギター",
@@ -467,18 +467,18 @@
     "label": "Gibson J-45"
   },
   "rickenbacker-330-kaitori": {
+    "title_excluded_n": 24,
     "query_used": "Rickenbacker 330 ギター",
     "pages_fetched": 2,
-    "raw_n": 44,
-    "filtered_n": 44,
-    "median": 48350,
-    "mean": 88788,
-    "min": 1500,
+    "raw_n": 20,
+    "filtered_n": 18,
+    "median": 177001,
+    "mean": 181055,
+    "min": 140800,
     "max": 222200,
-    "insufficient": true,
-    "fetched_at": "2026-10-12",
-    "label": "Rickenbacker 330",
-    "note": "算出された中央値が想定下限（¥90,000）を下回ったため、類似品や部品混入の可能性があり非表示にしています。"
+    "insufficient": false,
+    "fetched_at": "2026-10-13",
+    "label": "Rickenbacker 330"
   },
   "rickenbacker-4003-kaitori": {
     "query_used": "Rickenbacker 4003 ベース",

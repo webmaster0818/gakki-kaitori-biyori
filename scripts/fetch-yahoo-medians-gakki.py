@@ -183,6 +183,47 @@ TITLE_RULES.update({
 TITLE_RULES["yamaha-c3-kaitori"]["exclude_regex"] = (
     TITLE_RULES["yamaha-c3-kaitori"]["exclude_regex"] + PIANO_ACCESSORY_REGEX)
 
+# ===== Rickenbacker 330 / Fender Jaguar（2026-10-13追加）: AC30 と同じ「タイトル除外語＋1出品下限＋型番必須」 =====
+# 10/13 に両クエリを取得（各1ページで終端）して出品タイトルを全件目視:
+#   - 「Rickenbacker 330 ギター」22出品: キーホルダー4（¥1,500〜1,900）・「330、360 ギター用 ハードケース」1（¥9,800）・
+#     コピー/〜タイプ/〜風/レプリカ/Honey SG-5/Academy/Legend 7（¥14,300〜48,500）・本物の 330 系10（¥95,150〜222,200）。
+#   - 「Fender USA Jaguar」17出品: コンデンサー・ブリッジカバー・ジャガー用ブリッジ・PU フロントのみ（¥1,000〜7,000）・
+#     ケース3（¥19,999〜30,000）・AmPro ボディ＋パーツ（¥63,000）・MJT コンポーネント（¥96,000）・USA 本体8（¥151,000〜264,000）。
+# 本体タイトルにも「ハードケース付」「ケース付」は普通に出るので、ケースは「付/あり/有/入」が続かない形だけ落とす。
+_CASE_ONLY = r"(ハード|ソフト|ギグ|デラックスハード)?ケース(?!\s*(付|あり|有|入|・|込))"
+_PART_ONLY = (r"(ピックアップ|pickups?|ブリッジ|ネック|ボディ|ペグ|ノブ|ピックガード|テールピース|"
+              r"コンデンサー|ポット|サドル).{0,8}(のみ|単体|単品)")
+TITLE_RULES.update({
+    "rickenbacker-330-kaitori": {
+        "require_regex": [r"(?<!\d)330(?!\d)", r"rickenbacker|リッケンバッカー|ricken\s*backer"],
+        "exclude": [
+            "キーホルダー", "ミニチュア", "ピンバッジ",  # 「ステッカー」「ストラップ」は本体の付属品表記にも出るので入れない
+            "コピー", "copy", "タイプ", "type", "レプリカ", "replica", "メーカー不明",
+            "honey", "ハニー", "academy", "アカデミー", "legend", "レジェンド",
+            "greco", "グレコ", "tokai", "トーカイ", "fernandes", "フェルナンデス", "burny", "バーニー",
+        ],
+        "exclude_regex": [
+            r"(330|リッケン\S*|rickenbacker\S*)\s*風",          # 「Rickenbacker330風」
+            r"(330|360|ギター|ベース)\s*(用|対応|専用)",          # 「330、360 ギター用 ハードケース」
+            _CASE_ONLY, _PART_ONLY, r"(ボディ|ネック)\s*\+",
+        ],
+        "min_item_price": 60_000,  # 実測: 本物の最安 ¥95,150・コピー最高 ¥48,500
+    },
+    "fender-jaguar-kaitori": {
+        "require_regex": [r"jaguar|ジャガー", r"fender|フェンダー"],
+        "exclude": [
+            "コンデンサー", "capacitor", "コンポーネント", "component",
+            "squier", "スクワイア", "スクワイヤー", "キーホルダー", "ミニチュア",
+        ],
+        "exclude_regex": [
+            r"(jaguar|ジャガー|jazzmaster|ジャズマスター).{0,4}(用|対応|専用)",  # 「ジャガー用ブリッジ」
+            r"for\s+jaguar", r"ブリッジ\s*(カバー|のみ|単体|単品)", r"(フロント|リア|front|rear)\s*のみ",
+            _CASE_ONLY, _PART_ONLY, r"(ボディ|ネック)\s*\+",
+        ],
+        "min_item_price": 70_000,  # 実測: USA 本体最安 ¥151,000・付属品最高 ¥63,000（ボディ＋パーツ）
+    },
+})
+
 # ===== n の二重計上の除去（2026-10-11 実装・既定は無効） =====
 # Yahoo の __NEXT_DATA__ は1ページ内で同じ出品を2回持っており、raw_n / filtered_n が実出品数の約2倍になっている。
 # True にすると、全モデルで __NEXT_DATA__ の auctionId（ページをまたいでも）で重複を除いてから IQR・中央値を出す。
@@ -195,6 +236,12 @@ DEDUP_LISTINGS = False
 HISTORY_RESET_BEFORE = {
     "vox-ac30-kaitori": "2026-10-10",
     "yamaha-c3-kaitori": "2026-10-10",
+    # 2026-10-13: 混入期間（330 は 9/7〜・Jaguar は 10/5〜）だけでなく、それ以前の点も捨てる。
+    #   旧方式（価格だけ）の点を残すと、10/13 の本体だけの値（330 ¥176,500・Jaguar ¥221,000）との間に
+    #   330 は 9/1 ¥140,800 比 +25%、Jaguar は 10/1 ¥123,500 比 +79% の偽の前週比が出る
+    #   （Jaguar の 9/7〜10/1 ¥123,500 も本体だけの値から大きく外れており、混入が 10/5 より前から始まっていた可能性が高い）。
+    "rickenbacker-330-kaitori": "2026-10-13",
+    "fender-jaguar-kaitori": "2026-10-13",
 }
 
 
@@ -416,7 +463,8 @@ MIN_PLAUSIBLE_MEDIAN = {
     "fender-twinreverb-kaitori": 40_000,
     "marshall-jcm800-kaitori": 50_000,
     "vox-ac30-kaitori": 30_000,  # 2026-10-09追加: 10/5取得が n=178・中央値¥3,200（部品・小物混入）
-    # 2026-10-12追加（暫定の非表示）: 出品タイトル目視で半数前後が本体以外。本筋は TITLE_RULES 化（判断待ち）。
+    # 2026-10-12追加（暫定の非表示）: 出品タイトル目視で半数前後が本体以外。
+    #   → 2026-10-13 に TITLE_RULES 化（本体だけで 330 ¥176,500・Jaguar ¥221,000）。下の下限は保険として残す。
     #   rickenbacker-330: 22出品中 キーホルダー4・ハードケース1・コピー/〜タイプ/レプリカ等7 → 中央値 ¥48,350（7/16 ¥170,800 から漸減）。
     #     本物の330は ¥95,150〜¥222,200（10出品）。
     #   fender-jaguar: 17出品中 コンデンサー/ブリッジ/PU/ケース7・コンポーネント1 → 中央値 ¥96,000（7/16 ¥200,000）。
@@ -470,11 +518,13 @@ def reapply():
     print(f"reapply: insufficient に変更 {len(changed)} 件 {changed}")
 
 
-def main():
-    print(f"🔍 Yahoo median fetch (楽器 {TODAY}) — {len(MODEL_QUERIES)} models")
-    results = {}
-    for i, (slug, (label, query)) in enumerate(MODEL_QUERIES.items(), 1):
-        print(f"  [{i}/{len(MODEL_QUERIES)}] {slug} '{query}'...", end=" ", flush=True)
+def main(only: list[str] | None = None):
+    """only を渡すとそのモデルだけ取得し、既存 JSON の他モデルはそのまま残す（ルールを直した日の当日反映用）。"""
+    targets = {s: MODEL_QUERIES[s] for s in only} if only else MODEL_QUERIES
+    print(f"🔍 Yahoo median fetch (楽器 {TODAY}) — {len(targets)} models")
+    results = json.loads(OUT_JSON.read_text(encoding="utf-8")) if only else {}
+    for i, (slug, (label, query)) in enumerate(targets.items(), 1):
+        print(f"  [{i}/{len(targets)}] {slug} '{query}'...", end=" ", flush=True)
         r = median_for_query(query, slug)
         r["label"] = label
         apply_quality_rules(slug, r)
@@ -499,5 +549,8 @@ if __name__ == "__main__":
     import sys
     if "--reapply" in sys.argv[1:]:
         reapply()  # 取得せずルールだけ当て直す（ルール追加日に使う）
+    elif "--only" in sys.argv[1:]:
+        # 例: --only rickenbacker-330-kaitori,fender-jaguar-kaitori（TITLE_RULES を足した日に当該モデルだけ取り直す）
+        main(sys.argv[sys.argv.index("--only") + 1].split(","))
     else:
         main()

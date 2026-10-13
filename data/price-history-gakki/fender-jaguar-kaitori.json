@@ -6,108 +6,18 @@
   "query_used": "Fender USA Jaguar",
   "history": [
     {
-      "date": "2026-07-16",
-      "median_jpy": 200000,
-      "sample_n": 30,
-      "raw_n": 30
-    },
-    {
-      "date": "2026-07-20",
-      "median_jpy": 188800,
-      "sample_n": 34,
-      "raw_n": 34
-    },
-    {
-      "date": "2026-07-27",
-      "median_jpy": 188000,
-      "sample_n": 30,
-      "raw_n": 30
-    },
-    {
-      "date": "2026-08-01",
-      "median_jpy": 188000,
-      "sample_n": 30,
-      "raw_n": 30
-    },
-    {
-      "date": "2026-08-03",
-      "median_jpy": 168000,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-08-10",
-      "median_jpy": 188000,
-      "sample_n": 30,
-      "raw_n": 30
-    },
-    {
-      "date": "2026-08-17",
-      "median_jpy": 188000,
-      "sample_n": 30,
-      "raw_n": 30
-    },
-    {
-      "date": "2026-08-24",
-      "median_jpy": 169500,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-08-31",
-      "median_jpy": 169500,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-09-01",
-      "median_jpy": 151000,
-      "sample_n": 34,
-      "raw_n": 34
-    },
-    {
-      "date": "2026-09-07",
-      "median_jpy": 123500,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-09-14",
-      "median_jpy": 123500,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-09-21",
-      "median_jpy": 123500,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-09-28",
-      "median_jpy": 123500,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-10-01",
-      "median_jpy": 123500,
-      "sample_n": 32,
-      "raw_n": 32
-    },
-    {
-      "date": "2026-10-05",
-      "median_jpy": 96000,
-      "sample_n": 34,
-      "raw_n": 34
+      "date": "2026-10-13",
+      "median_jpy": 221000,
+      "sample_n": 16,
+      "raw_n": 16
     }
   ],
   "latest": {
-    "date": "2026-10-12",
-    "median_jpy": 96000,
-    "sample_n": 34,
-    "raw_n": 34,
-    "insufficient": true
+    "date": "2026-10-13",
+    "median_jpy": 221000,
+    "sample_n": 16,
+    "raw_n": 16,
+    "insufficient": false
   },
   "note": "週次自動更新で履歴を蓄積中。"
 }
