@@ -4,13 +4,13 @@ import RelatedArticles from "@/components/RelatedArticles";
 import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
-  title: "DW コレクターズの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
-  description: "DW コレクターズの買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。米国ハイエンドドラムの代名詞。カスタム構成が多く個体差があります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
+  title: "DW コレクターズの買取相場｜査定のポイント・高く売るコツ【2026年10月最新】",
+  description: "DW コレクターズの買取相場の考え方を解説。米国ハイエンドドラムの代名詞。カスタム構成が多く個体差があります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "DW コレクターズ,DW Collector's 買取,DW Collector's 相場,DW 買取",
   alternates: { canonical: "/articles/dw-collectors-kaitori/" },
   openGraph: { images: ["/og-image.png"], 
-    title: "DW コレクターズの買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
-    description: "DW コレクターズの買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
+    title: "DW コレクターズの買取相場｜査定のポイント・高く売るコツ【2026年10月最新】",
+    description: "DW コレクターズの買取相場の考え方・高く売るコツ・おすすめ業者を解説。",
     url: "/articles/dw-collectors-kaitori/",
     type: "article",
   },
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
 function Schema() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"DW コレクターズの買取相場はいくらですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"DW コレクターズの買取相場は年式・状態・付属品により大きく異なります。本ページ上部の相場カードで、ヤフオク落札の実勢中央値（毎週自動更新）を確認できます。正確な査定額は無料査定でご確認ください。\"}}, {\"@type\": \"Question\", \"name\": \"古いDW コレクターズでも買い取ってもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい、DW コレクターズは中古市場で需要があるため、年式が古くても状態次第で買取可能なケースが多いです。ヴィンテージ価値が評価される個体もあります。\"}}, {\"@type\": \"Question\", \"name\": \"DW コレクターズを高く売るにはどうすればいいですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"(1)複数業者で一括査定して相見積もりを取る、(2)純正ケース・付属品・保証書を揃える、(3)軽い清掃で見た目を整える、(4)需要が高まる時期に売る、の4点が基本です。深い修理・改造は自分で行わず業者に任せましょう。\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"DW コレクターズの買取相場と高く売るコツ（実勢データ付き）\", \"datePublished\": \"2026-07-16\", \"dateModified\": \"2026-07-16\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"DW コレクターズの買取相場はいくらですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"DW コレクターズの買取相場は年式・状態・付属品により大きく異なります。セット（シェルキット）単位の落札件数が少ないため、本ページの相場カードは現在「データ不足」で中央値を表示していません。構成（シェル数・サイズ）によって価格が大きく変わるため、正確な金額は無料査定でご確認ください。\"}}, {\"@type\": \"Question\", \"name\": \"古いDW コレクターズでも買い取ってもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい、DW コレクターズは中古市場で需要があるため、年式が古くても状態次第で買取可能なケースが多いです。ヴィンテージ価値が評価される個体もあります。\"}}, {\"@type\": \"Question\", \"name\": \"DW コレクターズを高く売るにはどうすればいいですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"(1)複数業者で一括査定して相見積もりを取る、(2)純正ケース・付属品・保証書を揃える、(3)軽い清掃で見た目を整える、(4)需要が高まる時期に売る、の4点が基本です。深い修理・改造は自分で行わず業者に任せましょう。\"}}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"DW コレクターズの買取相場と高く売るコツ\", \"datePublished\": \"2026-07-16\", \"dateModified\": \"2026-07-16\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"ドラム買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/drum-kaitori/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"DW コレクターズ買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/dw-collectors-kaitori/\"}]}" }} />
     </>
   );
@@ -44,15 +44,15 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年10月最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">DW コレクターズの買取相場と高く売るコツ</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">米国ハイエンドドラムの代名詞。カスタム構成が多く個体差があります。中古市場での需要をふまえ、実勢データと高く売るコツを解説します。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">米国ハイエンドドラムの代名詞。カスタム構成が多く個体差があります。中古市場での需要をふまえ、査定のポイントと高く売るコツを解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
         <ModelSpotPriceCard slug="dw-collectors-kaitori" modelName="DW Collector's" />
 
         <section id="souba" className="mb-10 mt-8">
-          <h2 className="font-display text-xl md:text-2xl font-bold text-foreground mb-4">DW コレクターズの買取相場（実勢データの見方）</h2>
-          <p className="text-foreground/90 leading-relaxed mb-4">上の相場カードは、ヤフオク！の落札実績から算出した中央値（毎週自動更新）です。年式・状態・付属品の有無で実際の査定額は上下します。特に純正ケース・保証書・オリジナルパーツの有無は評価に大きく影響します。相場はあくまで目安で、買取額を保証するものではありません。</p>
+          <h2 className="font-display text-xl md:text-2xl font-bold text-foreground mb-4">DW コレクターズの買取相場（相場カードについて）</h2>
+          <p className="text-foreground/90 leading-relaxed mb-4">上の相場カードは、ヤフオク！の落札実績から中央値を毎週自動で算出する仕組みです。DW コレクターズはセット（シェルキット）単位での落札が少なく、算出に必要な件数に届かないため、現在は「データ不足のため非表示」としています（スネア・タム単体の落札はセットの相場にならないため含めていません）。セットの金額はシェルの数・サイズ・仕上げ（フィニッシュ）で大きく変わるため、構成を伝えたうえで複数業者の査定を比べるのが確実です。年式・状態・付属品の有無でも実際の査定額は上下します。特に純正ケース・保証書・オリジナルパーツの有無は評価に大きく影響します。相場はあくまで目安で、買取額を保証するものではありません。</p>
         </section>
 
         <section id="factors" className="mb-10">
