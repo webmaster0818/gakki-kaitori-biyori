@@ -228,7 +228,7 @@ TITLE_RULES.update({
 # Yahoo の __NEXT_DATA__ は1ページ内で同じ出品を2回持っており、raw_n / filtered_n が実出品数の約2倍になっている。
 # True にすると、全モデルで __NEXT_DATA__ の auctionId（ページをまたいでも）で重複を除いてから IQR・中央値を出す。
 # 判断（A=実数に直す）が出たら下の1行を True にするだけでよい。__NEXT_DATA__ が読めないページは従来の "price" 正規表現に戻る。
-DEDUP_LISTINGS = False
+DEDUP_LISTINGS = True
 
 # ルールを変えた日より前の履歴点は別物（例: VOX AC30 の 7/16〜10/1 は全て amPlug の ¥3,4xx）なので、
 # 次回 fetch の write_history でこの日付より前の点を捨てる。残すと正しい値が入った週に
