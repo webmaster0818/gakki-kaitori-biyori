@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import yahooMedians from "@/data/yahoo-medians-gakki.json";
+
+// 週次取得の対象モデル数（取得スクリプトが書き出すデータの件数。手書きの数字は使わない）
+const TRACKED_MODELS = Object.keys(yahooMedians).length;
 
 const PAGE_TITLE = "運営方針とデータの確認手順";
 const PAGE_DESC =
@@ -140,7 +144,7 @@ export default function AuthorPage() {
           <div className="bg-cream rounded-lg p-4">
             <p className="text-xs font-bold text-warm-gray mb-2">毎週（月曜 4:00）に自動実行する処理</p>
             <ol className="list-decimal pl-6 space-y-2 text-sm text-foreground/80 leading-relaxed">
-              <li>対象モデル（ギター・ベース・アンプ・エフェクター・サックス・トランペット・ドラム・ピアノの約20モデル）について、Yahoo!オークションの過去180日分の落札データを取得する</li>
+              <li>対象モデル（ギター・ベース・アンプ・エフェクター・シンセサイザー・サックス・トランペット・トロンボーン・クラリネット・フルート・ドラム・ピアノの{TRACKED_MODELS}モデル）について、Yahoo!オークションの過去180日分の落札データを取得する</li>
               <li>外れ値を除去して中央値を算出し、モデル別の履歴に追記する。サンプル不足・異常値のモデルは非表示フラグを付ける</li>
               <li>
                 <Link href="/souba-ranking/" className="text-accent hover:underline">相場ランキング</Link>
