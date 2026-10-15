@@ -308,3 +308,9 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
   3. 10/14 には取得しない（全62モデルの再取得は history に 10/14 の週外の点ができ、前週比が「2日比」になる＋今日 Yahoo 500 が出た）。**commit/push のみで、10/19 の週次から効く**
   4. 10/19 週次後に確認: insufficient 化が上の4本（＋境界6本）で収まっているか、ranking 件数、指数の構成数と最新値、カードの n 表示
 - 判断が要る点: 4本（Explorer/Starclassic/Mark V/Subsequent 37）が「データ不足のため非表示」になること、指数の構成変更（手順2を入れるか）
+
+### 2026-10-15 /author/ の「約20モデル」→ 実数（62）✅本番反映済み（src 0da0572・5860c79 / deploy 7b9753772）
+- 「データの更新手順」が「ギター〜ピアノの約20モデル」（6月の初期値のまま）。週次取得は `data/yahoo-medians-gakki.json` の 62 モデル、カテゴリにシンセ（Juno/Nord/Moog/minilogue）・トロンボーン・クラリネット・フルートも入っている。数字は `Object.keys(yahoo-medians).length` から出すようにした（モデルを足しても手で直さなくてよい）
+- 「過去180日分」の記述は未確認のまま（取得 URL に期間指定なし。Yahoo 側の保持期間を一次情報で確かめていない）
+- 他ページに同じ数の記述なし（souba-ranking は `models.length` で動的）。型番ページ 62/62 に相場カードあり・リンク切れ0（out/ 全走査）
+- DEDUP 再計算（10/13 取得キャッシュ49モデル＋残り13は n 半分補完・取得0回）: 非表示4本＝gibson-explorer 14→7 / mesaboogie-markv 8→4 / tama-starclassic 12→6 / moog-subsequent37 8→4（後2本は補完値）、境界 n=8〜9 は6本、ranking 55→51、指数 42→37（落ちる5本＝esp-horizon / fender-mustang / gibson-lespaul-custom / ludwig-supraphonic / warwick-thumb、10/12 98.23→98.79・10/19 試算 99.02）＝10/13 の一覧と一致
