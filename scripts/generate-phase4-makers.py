@@ -33,14 +33,14 @@ def build_page(maker: dict) -> str:
     slug = maker["slug"]
     cat = maker["category"]
     title = f"【2026年最新】{name_only}買取相場ガイド｜全モデル査定額・高く売るコツ"
-    description = f"{name}の{maker['instruments']}買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説。"
-    h1 = f"{name_only}買取相場と高く売る完全ガイド"
+    description = f"{name}の{maker['instruments']}買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説します。"
+    h1 = f"{name_only}買取相場と高く売るガイド"
     lead = f"{name}は{cat}カテゴリで世界的に高い評価を持つメーカーです。{maker['instruments']}など、ラインナップが幅広く、中古市場でも安定した需要があります。本記事では{name}の買取相場・モデル別査定額・高く売るコツを解説します。"
 
     model_rows = "".join(f"<tr><td>{m[0]}</td><td>{m[1]}</td></tr>" for m in maker["models"])
     faqs_list = [
         (f"{name_only}の古いモデルでも買取してもらえますか？", f"はい、{name}は中古市場で需要があるブランドです。製造後10年〜数十年経過したモデルでも、状態次第で買取可能です。特にヴィンテージ価値があるモデルは新品より高値になることもあります。"),
-        (f"{name_only}の付属品がないと買取できませんか？", f"本体のみでも買取可能ですが、純正ケース・取扱説明書・保証書などが揃うと査定額が10〜30%アップします。可能な限り付属品を揃えましょう。"),
+        (f"{name_only}の付属品がないと買取できませんか？", f"本体のみでも買取可能ですが、純正ケース・取扱説明書・保証書などが揃うと査定額が10〜30%アップします。可能な限り付属品を揃えてください。"),
         (f"{name_only}を高く売るタイミングは？", "新生活前（1〜3月）、文化祭シーズン（9〜10月）が中古需要のピーク。また、新機種発表前は旧モデル価格が下がる前に売却するのがおすすめです。"),
         (f"故障している{name_only}でも買取してもらえますか？", "状態によります。動作する状態なら買取可能、明らかな故障でも修理工房を持つ買取業者なら部品取り目的で買取してくれることがあります。"),
     ]
@@ -130,7 +130,7 @@ export default function Page() {{
         <h2>5. {name_only}買取のおすすめ業者3社</h2>
         <ul>
           <li><strong>ヒカカク！</strong>: 一括査定。複数業者から見積もり比較で最高値を引き出せる</li>
-          <li><strong>ウリエル</strong>: 出張買取専門。大型楽器も自宅で査定</li>
+          <li><strong>ウリエル</strong>: 出張買取が中心。大型楽器も自宅で査定</li>
           <li><strong>ティファナ</strong>: 全国の楽器店ネットワークでの査定・即現金化</li>
         </ul>
 
@@ -149,8 +149,8 @@ export default function Page() {{
 
         <h2>関連記事</h2>
         <ul>
-          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
-          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
+          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを比較</Link></li>
+          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るためのポイント</Link></li>
           <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
         </ul>
         </div>

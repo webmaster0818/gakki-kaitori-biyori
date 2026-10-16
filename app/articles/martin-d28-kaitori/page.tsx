@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/martin-d28-kaitori/' },
   title: "【2026年最新】マーチン D-28買取相場｜年代別の価値とドレッドノートの査定ポイント",
-  description: "Martin D-28の買取相場を年代別に解説。ドレッドノートの代表機の価値要因、ヴィンテージ（プレウォー/ブレイスング）の評価、状態の査定差とおすすめ買取3社を比較。",
+  description: "Martin D-28の買取相場を年代別に解説します。ドレッドノートの代表機の価値要因、ヴィンテージ（プレウォー/ブレイスング）の評価、状態の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -25,8 +25,8 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "マーチンD-28の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行のStandardで10万〜20万円、Reimagined/Marquis等の上位やヴィンテージリイシューで15万〜35万円、1970年代以前のヴィンテージは30万〜数百万円が目安です。戦前個体は別格です。" } },
       { "@type": "Question", name: "ハカランダ（ブラジリアンローズウッド）だと高いですか？", acceptedAnswer: { "@type": "Answer", text: "はい。ワシントン条約以前のハカランダ材を使った個体は希少で、相場が大きく上がります。" } },
-      { "@type": "Question", name: "トップのクラック（割れ）があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。割れ・ブレイシング剥がれは減額要因ですが、人気機種のため修復前提でも値はつきます。状態を正直に伝えましょう。" } },
-      { "@type": "Question", name: "ネックリセット歴があると不利ですか？", acceptedAnswer: { "@type": "Answer", text: "適切な修理であれば致命的ではありませんが、オリジナル状態が最も高評価です。修理歴は申告しましょう。" } },
+      { "@type": "Question", name: "トップのクラック（割れ）があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。割れ・ブレイシング剥がれは減額要因ですが、人気機種のため修復前提でも値はつきます。状態を正確に伝えてください。" } },
+      { "@type": "Question", name: "ネックリセット歴があると不利ですか？", acceptedAnswer: { "@type": "Answer", text: "適切な修理であれば致命的ではありませんが、オリジナル状態が最も高評価です。修理歴は申告してください。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】マーチン D-28買取相場｜年代別の価値とドレッドノートの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function MartinD28KaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>マーチン D-28を売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>マーチン D-28を売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>製造年（戦前プレウォーは極めて高額、各年代で評価が異なる）</li>
             <li>サイド・バックのローズウッド（ハカランダ期は特に高額）</li>
@@ -107,7 +107,7 @@ export default function MartinD28KaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -135,14 +135,14 @@ export default function MartinD28KaitoriPage() {
                 <span className="pr-4">トップのクラック（割れ）があっても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。割れ・ブレイシング剥がれは減額要因ですが、人気機種のため修復前提でも値はつきます。状態を正直に伝えましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。割れ・ブレイシング剥がれは減額要因ですが、人気機種のため修復前提でも値はつきます。状態を正確に伝えてください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
                 <span className="pr-4">ネックリセット歴があると不利ですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">適切な修理であれば致命的ではありませんが、オリジナル状態が最も高評価です。修理歴は申告しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">適切な修理であれば致命的ではありませんが、オリジナル状態が最も高評価です。修理歴は申告してください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

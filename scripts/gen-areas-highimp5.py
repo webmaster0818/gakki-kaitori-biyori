@@ -60,7 +60,7 @@ def main():
         d = ARTICLES_DIR / slug; d.mkdir(parents=True, exist_ok=True)
         (d / "page.tsx").write_text(ph5.build_page(area), encoding="utf-8")
         meta.append({"slug": slug, "title": f"楽器買取 {name}おすすめ3選", "shortTitle": f"楽器買取 {name}おすすめ3選",
-                     "badge": name, "description": f"{name}（{pref}）の楽器買取を出張・店頭・宅配で比較。送客3社とエリア状況を解説。", "category": "region"})
+                     "badge": name, "description": f"{name}（{pref}）の楽器買取を出張・店頭・宅配の方式別に比較します。紹介する3社とエリアの状況を解説します。", "category": "region"})
         added.append(slug); print(f"  ✅ {slug} ({name})")
     json.dump(meta, open(META, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"\ngenerated: {len(added)}  metadata total: {len(meta)}")

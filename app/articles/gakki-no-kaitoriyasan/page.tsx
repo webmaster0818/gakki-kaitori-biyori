@@ -3,7 +3,7 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 // GSC実測（2026-08-17〜09-13）で「楽器の買取屋さん」系の指名クエリが合計526表示・3クリック。
-// 専用の受け皿が無く、川崎・名古屋・神戸・横浜・渋谷・札幌の地域記事6本に分散して拾っていた。
+// 専用の受け皿がなく、川崎・名古屋・神戸・横浜・渋谷・札幌の地域記事6本に分散して拾っていた。
 // 指名で探している人に、まず事実（会社・買取方法・店舗・対応エリア）を出すページを1本置く。
 //
 // ⚠️ 本文の事実はすべて公式サイト（https://gakkikaitori.co.jp/ ・2026-09-16取得）から。
@@ -144,7 +144,7 @@ export default function Page() {
         </p>
 
         <div className="border-l-4 border-accent bg-white p-5 mb-10">
-          <p className="text-xs font-medium text-accent mb-2">まず結論</p>
+          <p className="text-xs font-medium text-accent mb-2">概要</p>
           <p className="text-sm leading-relaxed mb-3">
             楽器の買取屋さんは、<strong>出張買取を中心に、宅配・店頭にも対応している楽器専門の買取サービス</strong>です。
             運営はUNI SOUND株式会社で、公式サイトでは出張料・査定料が無料と公表されています。
@@ -196,7 +196,7 @@ export default function Page() {
         <h2 id="area" className="text-xl font-bold mt-12 mb-4">出張買取の対応エリア</h2>
         <p className="text-sm leading-relaxed mb-4">
           公式サイトの「無料出張見積対応エリア」には<strong>46都道府県</strong>が掲載されています。
-          店舗が無い地域でも出張の対象になっている場合があるため、近くに店舗が無いからといって諦める必要はありません。
+          店舗がない地域でも出張の対象になっている場合があるため、近くに店舗がないからといって諦める必要はありません。
         </p>
         <p className="text-sm leading-relaxed mb-10">
           ただし、<strong>同じ都道府県でも地域によって条件が変わることがあります。</strong>

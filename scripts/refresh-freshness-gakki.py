@@ -19,7 +19,10 @@ for f in base.glob("*/page.tsx"):
     def repl(m):
         y, mo = int(m.group(1)), int(m.group(2))
         return ym if is_old(y, mo) else m.group(0)
-    s = re.sub(r'20(\d\d)年(\d+)月(?!\d)', lambda m: (ym if is_old(2000+int(m.group(1)), int(m.group(2))) else m.group(0)), s)
+    # ⚠️ 2026-10-16: 後ろが表示用の語（現在/時点/最新/更新/週次/】/版）のときだけ当月にする。
+    #    以前は全ての「20XX年X月」を当月にしていたため、歴史的な日付まで毎月書き換わっていた
+    #   （成年年齢引下げ 2022年4月→2026年10月、イシバシ神戸三宮の閉店 2019年8月→2026年10月、口コミの調査時点 7月→10月）。
+    s = re.sub(r'20(\d\d)年(\d+)月(?=現在|時点|最新|更新| 週次|】|版)', lambda m: (ym if is_old(2000+int(m.group(1)), int(m.group(2))) else m.group(0)), s)
     s = re.sub(r'(dateModified:\s*")20\d\d-\d{2}-\d{2}(")', r'\g<1>' + iso + r'\g<2>', s)
     if s != o:
         f.write_text(s); changed += 1

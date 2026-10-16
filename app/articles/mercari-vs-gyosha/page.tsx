@@ -4,11 +4,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mercari-vs-gyosha/' },
-  title: "【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？",
-  description: "楽器を売るならメルカリ（フリマアプリ）と買取業者どちらがお得？手数料・送料・トラブルリスク・売却スピードなど7項目で徹底比較。楽器の種類別おすすめ売却方法も解説。",
+  title: "【2026年版】楽器を売るならメルカリvs買取業者どっちが得？",
+  description: "楽器を売るならメルカリ（フリマアプリ）と買取業者どちらがお得？手数料・送料・トラブルリスク・売却スピードなど7項目で比較します。楽器の種類別おすすめ売却方法も解説します。",
   openGraph: { images: ["/og-image.png"], 
-    title: "【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？",
-    description: "メルカリvs買取業者、楽器売却はどっちが得？7項目で徹底比較。",
+    title: "【2026年版】楽器を売るならメルカリvs買取業者どっちが得？",
+    description: "メルカリvs買取業者、楽器売却はどっちが得？7項目で比較します。",
   },
 };
 
@@ -36,14 +36,14 @@ function CtaBox() {
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "メルカリと買取業者、どちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "手数料（10%）と送料を差し引くと、多くのケースで手取り額はほぼ同じです。大型楽器は送料が高額になるため、買取業者の方がお得になることが多いです。" } },
-      { "@type": "Question", name: "メルカリで楽器を売る際の注意点は？", acceptedAnswer: { "@type": "Answer", text: "梱包を丁寧に行う（配送中の破損防止）、写真を詳細に撮る、傷や不具合を正直に記載する、送料を正確に計算する、の4つが重要です。" } },
+      { "@type": "Question", name: "メルカリで楽器を売る際の注意点は？", acceptedAnswer: { "@type": "Answer", text: "梱包を丁寧に行う（配送中の破損防止）、写真を詳細に撮る、傷や不具合を正確に記載する、送料を正確に計算する、の4つが重要です。" } },
       { "@type": "Question", name: "大型楽器（ピアノ、ドラム）はメルカリで売れますか？", acceptedAnswer: { "@type": "Answer", text: "技術的には出品可能ですが、梱包と送料が大きな障壁です。ピアノの配送は専門業者が必要で数万円かかるため、出張買取業者の利用が現実的です。" } },
       { "@type": "Question", name: "エフェクターはメルカリと業者どちらがお得？", acceptedAnswer: { "@type": "Answer", text: "小型のエフェクターは送料が安いため、メルカリの方が高く売れるケースがあります。ただし、手数料10%を考慮すると大きな差にはなりません。" } },
       { "@type": "Question", name: "すぐに現金が必要な場合はどうすべきですか？", acceptedAnswer: { "@type": "Answer", text: "買取業者の利用がおすすめです。出張買取なら最短即日で現金化でき、宅配買取でも1〜3営業日で振込されます。メルカリは売れるまでの日数が読めません。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？", datePublished: "2026-04-26", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年版】楽器を売るならメルカリvs買取業者どっちが得？", datePublished: "2026-04-26", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？\", \"item\": \"https://gakkikaitori-biyori.com/articles/mercari-vs-gyosha/\"}]}" }} /></>);
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年版】楽器を売るならメルカリvs買取業者どっちが得？\", \"item\": \"https://gakkikaitori-biyori.com/articles/mercari-vs-gyosha/\"}]}" }} /></>);
 }
 
 export default function Page() {
@@ -57,8 +57,8 @@ export default function Page() {
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">メルカリvs業者</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年徹底比較】楽器を売るならメルカリvs買取業者どっちが得？</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">楽器を売るならメルカリ（フリマアプリ）と買取業者どちらがお得？手数料・送料・トラブルリスク・売却スピードなど7項目で徹底比較。楽器の種類別おすすめ売却方法も解説。</p>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年版】楽器を売るならメルカリvs買取業者どっちが得？</h1>
+          <p className="text-warm-gray text-sm leading-relaxed">楽器を売るならメルカリ（フリマアプリ）と買取業者どちらがお得？手数料・送料・トラブルリスク・売却スピードなど7項目で比較します。楽器の種類別おすすめ売却方法も解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
@@ -66,9 +66,9 @@ export default function Page() {
 
           <h2 id="overview">メルカリと買取業者、どっちが得？</h2>
           <p>楽器を売る方法として、メルカリ（メルカリ・ラクマ等のフリマアプリ）と買取業者の2つの選択肢があります。「メルカリの方が高く売れる」というイメージを持つ方も多いですが、<strong>実際には楽器の種類や状況によって最適な方法が異なります</strong>。</p>
-          <p>本記事では、手数料・送料・手間・リスク・スピードなど7項目でメルカリと買取業者を徹底比較し、楽器の種類別におすすめの売却方法を解説します。</p>
+          <p>本記事では、手数料・送料・手間・リスク・スピードなど7項目でメルカリと買取業者を比較し、楽器の種類別におすすめの売却方法を解説します。</p>
 
-          <h2 id="comparison">7項目で徹底比較</h2>
+          <h2 id="comparison">7項目で比較</h2>
           <div className="table-wrapper mb-6"><table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden"><thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">比較項目</th><th className="px-4 py-3 text-left font-medium">メルカリ</th><th className="px-4 py-3 text-left font-medium">買取業者</th></tr></thead><tbody className="divide-y divide-warm-border">
             <tr className="bg-white"><td className="px-4 py-3 font-medium">販売価格</td><td className="px-4 py-3">自分で設定（高く設定可能）</td><td className="px-4 py-3">業者の査定額</td></tr>
             <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3 text-red-600">販売価格の10%</td><td className="px-4 py-3 text-gold-dark font-bold">無料</td></tr>
@@ -104,7 +104,7 @@ export default function Page() {
           <h2 id="type">楽器の種類別おすすめ売却方法</h2>
           <h3>買取業者がおすすめの楽器</h3>
           <ul>
-            <li><strong>ピアノ・電子ピアノ</strong>: 大型で梱包・発送が困難。出張買取一択</li>
+            <li><strong>ピアノ・電子ピアノ</strong>: 大型で梱包・発送が困難。出張買取が適しています</li>
             <li><strong>ドラムセット</strong>: 同上。出張買取が最適</li>
             <li><strong>アンプ</strong>: 重量があり送料が高額。出張買取がおすすめ</li>
             <li><strong>高額ヴィンテージ楽器</strong>: 配送中の破損リスクが高い。出張買取が安心</li>
@@ -127,7 +127,7 @@ export default function Page() {
 
           <CtaBox />
 
-          <h2 id="best">結論: 迷ったら買取業者がおすすめ</h2>
+          <h2 id="best">買取業者の利用をおすすめします</h2>
           <p>メルカリと買取業者を比較した結果、<strong>多くのケースで買取業者の利用がおすすめ</strong>です。特に以下の理由から、楽器の売却には買取業者が向いています。</p>
           <ul>
             <li>手数料・送料・梱包の手間を考えると、実質的な手取り額はほぼ同じ</li>
@@ -135,12 +135,12 @@ export default function Page() {
             <li>最短即日で現金化（メルカリは売れるまで不明）</li>
             <li>トラブルリスクが低い（プロの査定で安心）</li>
           </ul>
-          <p>まずはヒカカク！で一括査定を行い、買取業者の査定額を確認してみましょう。その上で「メルカリの方が明らかに高い」と判断できる場合のみ、フリマアプリを利用するのが賢い選択です。</p>
+          <p>まずはヒカカク！で一括査定を行い、買取業者の査定額を確認してください。その上で「メルカリの方が明らかに高い」と判断できる場合のみ、フリマアプリを利用するのが賢い選択です。</p>
 
           <h2 id="faq">よくある質問</h2>
           <div className="space-y-4 mt-6">
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">メルカリと買取業者、どちらが高く売れますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">手数料（10%）と送料を差し引くと、多くのケースで手取り額はほぼ同じです。大型楽器は送料が高額になるため、買取業者の方がお得になることが多いです。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">メルカリで楽器を売る際の注意点は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">梱包を丁寧に行う（配送中の破損防止）、写真を詳細に撮る、傷や不具合を正直に記載する、送料を正確に計算する、の4つが重要です。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">メルカリで楽器を売る際の注意点は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">梱包を丁寧に行う（配送中の破損防止）、写真を詳細に撮る、傷や不具合を正確に記載する、送料を正確に計算する、の4つが重要です。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">大型楽器（ピアノ、ドラム）はメルカリで売れますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">技術的には出品可能ですが、梱包と送料が大きな障壁です。ピアノの配送は専門業者が必要で数万円かかるため、出張買取業者の利用が現実的です。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">エフェクターはメルカリと業者どちらがお得？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">小型のエフェクターは送料が安いため、メルカリの方が高く売れるケースがあります。ただし、手数料10%を考慮すると大きな差にはなりません。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">すぐに現金が必要な場合はどうすべきですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">買取業者の利用がおすすめです。出張買取なら最短即日で現金化でき、宅配買取でも1〜3営業日で振込されます。メルカリは売れるまでの日数が読めません。</div></details>

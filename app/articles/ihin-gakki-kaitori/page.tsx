@@ -5,10 +5,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ihin-gakki-kaitori/' },
   title: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法",
-  description: "故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説。",
+  description: "故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法",
-    description: "遺品整理での楽器買取。適正価格で売る方法とおすすめ業者を徹底解説。",
+    description: "遺品整理での楽器買取。適正価格で売る方法とおすすめ業者を解説します。",
   },
 };
 
@@ -39,7 +39,7 @@ function FaqSchema() {
       { "@type": "Question", name: "楽器の価値がわからなくても査定してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ブランド名やモデル名がわからなくても、写真を送るだけで査定してもらえます。プロの査定士が楽器の価値を判断してくれます。" } },
       { "@type": "Question", name: "遺品整理業者と楽器買取業者、どちらに頼むべきですか？", acceptedAnswer: { "@type": "Answer", text: "楽器だけは楽器買取の専門業者に査定を出すことをおすすめします。遺品整理業者は楽器の専門知識を持っていないことが多く、ヴィンテージ品の価値を見逃す可能性があります。" } },
       { "@type": "Question", name: "故人の楽器を出張買取してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルの出張買取なら故人の自宅に査定士が訪問し、ピアノなど大型楽器も含めて一括で査定・買取が可能です。" } },
-      { "@type": "Question", name: "遺品の楽器を売る際に必要な書類はありますか？", acceptedAnswer: { "@type": "Answer", text: "売却者の本人確認書類（免許証等）が必要です。故人名義の楽器でも問題なく売却できますが、心配な場合は事前に業者に相談しましょう。" } }
+      { "@type": "Question", name: "遺品の楽器を売る際に必要な書類はありますか？", acceptedAnswer: { "@type": "Answer", text: "売却者の本人確認書類（免許証等）が必要です。故人名義の楽器でも問題なく売却できますが、心配な場合は事前に業者にご相談ください。" } }
   ]};
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法", datePublished: "2026-04-26", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
@@ -58,15 +58,15 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
         <div className="article-body">
 
           <h2 id="overview">遺品の楽器をどうすべきか</h2>
-          <p>大切な方が亡くなった後、遺品の中に楽器が含まれているケースは少なくありません。ピアノ、ギター、バイオリン、サックスなど、故人が大切にしていた楽器をどのように処分すべきか、悩む方は多いでしょう。</p>
-          <p>結論から言うと、<strong>遺品の楽器は「捨てる」のではなく「買い取ってもらう」のが最善</strong>です。古い楽器でも、ブランド品やヴィンテージ品には高い価値がある場合があります。適正な査定を受けることで、故人の楽器を大切に次の持ち主に引き継ぐことができます。</p>
+          <p>大切な方が亡くなった後、遺品の中に楽器が含まれているケースは少なくありません。ピアノ、ギター、バイオリン、サックスなど、故人が大切にしていた楽器をどのように処分すべきか、悩む方は少なくありません。</p>
+          <p><strong>遺品の楽器は「捨てる」のではなく「買い取ってもらう」のが最善</strong>です。古い楽器でも、ブランド品やヴィンテージ品には高い価値がある場合があります。適正な査定を受けることで、故人の楽器を大切に次の持ち主に引き継ぐことができます。</p>
 
           <h3>遺品楽器の処分方法の比較</h3>
           <div className="table-wrapper mb-6"><table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden"><thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">方法</th><th className="px-4 py-3 text-left font-medium">メリット</th><th className="px-4 py-3 text-left font-medium">デメリット</th></tr></thead><tbody className="divide-y divide-warm-border">
@@ -76,7 +76,7 @@ export default function Page() {
             <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">寄付・譲渡</td><td className="px-4 py-3">社会貢献になる</td><td className="px-4 py-3 text-warm-gray">受け入れ先が限られる</td></tr>
           </tbody></table></div>
 
-          <p><strong>最もおすすめは、まずヒカカク！で楽器の価値を確認すること</strong>です。「価値がない」と思っていた楽器が、実は数万円〜数十万円の価値があるケースは珍しくありません。</p>
+          <p><strong>最もおすすめは、まずヒカカク！で楽器の価値を確認すること</strong>です。「価値がない」と思っていた楽器が、数万円〜数十万円の価値があるケースは珍しくありません。</p>
 
           <CtaBox />
 
@@ -91,7 +91,7 @@ export default function Page() {
           </ul>
 
           <h3>楽器の価値がわからない場合</h3>
-          <p>遺品の楽器の価値がわからない場合は、<strong>絶対に捨てないでください</strong>。まずはヒカカク！で一括査定を依頼し、プロの目で価値を判断してもらいましょう。写真を撮って送るだけで概算の査定額がわかります。</p>
+          <p>遺品の楽器の価値がわからない場合は、<strong>処分する前に査定を受けてください</strong>。まずはヒカカク！で一括査定を依頼し、専門の査定士による評価を受けてください。写真を撮って送るだけで概算の査定額がわかります。</p>
 
           <h2 id="comparison">遺品整理業者 vs 楽器買取業者</h2>
           <p>遺品整理を行う際、遺品整理業者に一括で依頼するケースが多いですが、<strong>楽器だけは楽器買取の専門業者に査定を出す</strong>ことを強くおすすめします。</p>
@@ -121,13 +121,13 @@ export default function Page() {
 
           <h2 id="tips">遺品楽器を適正価格で売る5つのポイント</h2>
           <h3>ポイント1: 楽器を捨てない・急がない</h3>
-          <p>遺品整理は急ぎがちですが、楽器だけは査定を受けてから処分を決めましょう。価値のわからない楽器を粗大ゴミに出して後悔するケースは少なくありません。</p>
+          <p>遺品整理は急ぎがちですが、楽器だけは査定を受けてから処分を決めてください。価値のわからない楽器を粗大ゴミに出して後悔するケースは少なくありません。</p>
           <h3>ポイント2: 複数業者に査定を依頼する</h3>
-          <p>ヒカカク！で一括査定を行い、楽器専門の業者を含む複数社の見積もりを比較しましょう。</p>
+          <p>ヒカカク！で一括査定を行い、楽器専門の業者を含む複数社の見積もりを比較してください。</p>
           <h3>ポイント3: 付属品を探す</h3>
-          <p>ケース、保証書、取扱説明書、メンテナンス道具など、楽器に関連する付属品が故人の自宅にないか探しましょう。付属品が揃うことで査定額が上がります。</p>
+          <p>ケース、保証書、取扱説明書、メンテナンス道具など、楽器に関連する付属品が故人の自宅にないか探してください。付属品が揃うことで査定額が上がります。</p>
           <h3>ポイント4: 遺品整理業者と楽器買取業者を使い分ける</h3>
-          <p>家具や家電は遺品整理業者に任せ、楽器だけは専門の買取業者に依頼しましょう。この使い分けが最も合理的です。</p>
+          <p>家具や家電は遺品整理業者に任せ、楽器だけは専門の買取業者にご依頼ください。この使い分けが最も合理的です。</p>
           <h3>ポイント5: 出張買取を活用する</h3>
           <p>故人の自宅にある楽器を運び出す手間を考えると、ウリエルの出張買取が最も便利です。ピアノや大型楽器も自宅で完結します。</p>
 
@@ -137,7 +137,7 @@ export default function Page() {
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器の価値がわからなくても査定してもらえますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ブランド名やモデル名がわからなくても、写真を送るだけで査定してもらえます。プロの査定士が楽器の価値を判断してくれます。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">遺品整理業者と楽器買取業者、どちらに頼むべきですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">楽器だけは楽器買取の専門業者に査定を出すことをおすすめします。遺品整理業者は楽器の専門知識を持っていないことが多く、ヴィンテージ品の価値を見逃す可能性があります。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">故人の楽器を出張買取してもらえますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ウリエルの出張買取なら故人の自宅に査定士が訪問し、ピアノなど大型楽器も含めて一括で査定・買取が可能です。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">遺品の楽器を売る際に必要な書類はありますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却者の本人確認書類（免許証等）が必要です。故人名義の楽器でも問題なく売却できますが、心配な場合は事前に業者に相談しましょう。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">遺品の楽器を売る際に必要な書類はありますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却者の本人確認書類（免許証等）が必要です。故人名義の楽器でも問題なく売却できますが、心配な場合は事前に業者にご相談ください。</div></details>
           </div>
 
           <h2>まとめ</h2>

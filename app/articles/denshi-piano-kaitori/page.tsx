@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/' },
   title: "【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
   description:
-    "電子ピアノの買取相場をYAMAHA・Roland・KAWAI別に徹底解説。Clavinova・HP・CNシリーズの年式別相場目安、高く売るコツ、おすすめ買取業者3社の比較まで。使わなくなった電子ピアノを最高値で売る方法がわかります。",
+    "電子ピアノの買取相場をYAMAHA・Roland・KAWAI別に解説します。Clavinova・HP・CNシリーズの年式別相場目安、高く売るコツ、おすすめ買取業者3社の比較まで。使わなくなった電子ピアノを最高値で売る方法がわかります。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
-    description: "電子ピアノの買取相場をメーカー別に徹底解説。年式による価格差、高く売るコツ、おすすめ業者3社比較まで完全ガイド。",
+    description: "電子ピアノの買取相場をメーカー別に解説します。年式による価格差、高く売るコツ、おすすめ業者3社比較まで解説します。",
   },
 };
 
@@ -78,7 +78,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/denshi-piano-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -95,7 +95,7 @@ export default function DenshiPianoKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年10月更新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に徹底解説
+            【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI メーカー別に解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             使わなくなった電子ピアノ、そのまま眠らせていませんか？電子ピアノは技術の進化が早く、年数が経つほど価値が下がります。本記事では、YAMAHA・Roland・KAWAIの3大メーカー別に買取相場を解説し、年式による価格差や高く売るためのポイントをお伝えします。
@@ -275,7 +275,7 @@ export default function DenshiPianoKaitoriPage() {
 
           <h2 id="comparison">電子ピアノ買取おすすめ3社比較</h2>
 
-          <p>電子ピアノの買取は、タイプ（据え置き型かポータブル型か）によって最適な売り方が変わります。以下の3社を上手に使い分けましょう。</p>
+          <p>電子ピアノの買取は、タイプ（据え置き型かポータブル型か）によって最適な売り方が変わります。以下の3社を上手に使い分けてください。</p>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -296,12 +296,12 @@ export default function DenshiPianoKaitoriPage() {
             </table>
           </div>
 
-          <p>電子ピアノの買取で最も重要なのは<strong>スピード</strong>です。電子ピアノは年々新モデルが出るため、売ると決めたら早めに行動しましょう。まずはヒカカク！で複数社の査定を取り、最も条件の良い業者を選ぶのがおすすめです。</p>
+          <p>電子ピアノの買取で最も重要なのは<strong>スピード</strong>です。電子ピアノは年々新モデルが出るため、売ると決めたら早めに行動してください。まずはヒカカク！で複数社の査定を取り、最も条件の良い業者を選ぶのがおすすめです。</p>
 
           {/* 買取の流れ */}
           <h2 id="flow">電子ピアノ買取の流れ</h2>
 
-          <p>電子ピアノは大型家具に近いサイズのため、買取方法を事前に確認しておきましょう。</p>
+          <p>電子ピアノは大型家具に近いサイズのため、買取方法を事前に確認しておいてください。</p>
 
           <div className="space-y-4 my-6">
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
@@ -310,15 +310,15 @@ export default function DenshiPianoKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">仮査定額の確認</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定すれば、複数業者から概算額が届きます。電子ピアノは業者間の差が大きいため、必ず比較しましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">仮査定額の確認</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定すれば、複数業者から概算額が届きます。電子ピアノは業者間の差が大きいため、必ず比較してください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
-              <div><h3 className="font-bold text-sm mb-1">出張買取で搬出</h3><p className="text-sm text-warm-gray">電子ピアノは重量があるため出張買取がおすすめ。ウリエルなら自宅で査定から搬出まで一括対応してくれます。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">出張買取で搬出</h3><p className="text-sm text-warm-gray">電子ピアノは重量があるため出張買取がおすすめです。ウリエルなら自宅で査定から搬出まで一括対応してくれます。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
-              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">その場で現金または後日振込。キャンセルも無料なので、金額に納得できなければ断ってOKです。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">その場で現金または後日振込。キャンセルも無料のため、金額に納得できなければお断りいただけます。</p></div>
             </div>
           </div>
 
@@ -341,7 +341,7 @@ export default function DenshiPianoKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3">1〜2年</td><td className="px-4 py-3 text-gold-dark font-bold">定価の40〜60%</td><td className="px-4 py-3 text-warm-gray">最も高く売れるタイミング</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">3〜4年</td><td className="px-4 py-3 text-gold-dark font-bold">定価の25〜40%</td><td className="px-4 py-3 text-warm-gray">まだ十分な価値あり</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">3〜4年</td><td className="px-4 py-3 text-gold-dark font-bold">定価の25〜40%</td><td className="px-4 py-3 text-warm-gray">十分な価値が残っている場合があります</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">5〜7年</td><td className="px-4 py-3 text-gold-dark font-bold">定価の10〜25%</td><td className="px-4 py-3 text-warm-gray">早めの売却が吉</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">8〜10年</td><td className="px-4 py-3 text-gold-dark font-bold">定価の5〜15%</td><td className="px-4 py-3 text-warm-gray">上位モデルのみ値段がつく</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">10年以上</td><td className="px-4 py-3 text-gold-dark font-bold">0〜5%</td><td className="px-4 py-3 text-warm-gray">買取不可の場合も</td></tr>
@@ -382,7 +382,7 @@ export default function DenshiPianoKaitoriPage() {
 
           <h2>まとめ：電子ピアノは早く売るほど高く売れる</h2>
 
-          <p>電子ピアノの買取で最も重要なのは<strong>スピード</strong>です。アコースティックピアノと違い、電子ピアノは年々価値が下がるため、使わなくなったら早めに売却しましょう。</p>
+          <p>電子ピアノの買取で最も重要なのは<strong>スピード</strong>です。アコースティックピアノと違い、電子ピアノは年々価値が下がるため、使わなくなったら早めに売却してください。</p>
 
           <ul>
             <li><strong>価格を比較したい</strong> → ヒカカク！で一括査定</li>

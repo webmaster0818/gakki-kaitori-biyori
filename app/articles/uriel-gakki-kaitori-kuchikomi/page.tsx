@@ -8,7 +8,7 @@ const UPDATED_JA = "2026年10月9日";
 const URL = "https://gakkikaitori-biyori.com/articles/uriel-gakki-kaitori-kuchikomi/";
 const TITLE = "ウリエルの楽器買取 口コミ・評判は？出張エリア・手数料・流れ・注意点【2026年10月最新】";
 const DESC =
-  "ウリエルの楽器買取の口コミ・評判を、ヒカカク！の第三者クチコミ（3件・2.67点）と公式「お客様の声」の傾向から出典付きで整理。出張エリア・手数料・キャンセル・クーリングオフ、楽器を出す流れと注意点も解説。";
+  "ウリエルの楽器買取の口コミ・評判を、ヒカカク！の第三者クチコミ（3件・2.67点）と公式「お客様の声」の傾向から出典付きで整理。出張エリア・手数料・キャンセル・クーリングオフ、楽器を出す流れと注意点も解説します。";
 
 const faqs = [
   {
@@ -132,7 +132,7 @@ export default function UrielGakkiKuchikomiPage() {
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">
-          <h2 id="conclusion">結論：ウリエルの楽器買取はこんな人向け</h2>
+          <h2 id="conclusion">ウリエルの楽器買取が適している方</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>ウリエルは<strong>株式会社クオーレ（愛知県大府市）</strong>が運営する総合買取店。楽器は公式に買取品目の1つで、ギター・ベース・弦楽器・管楽器・和楽器・デジタル楽器を扱う。</li>
             <li>中心は<strong>出張買取</strong>。出張料・査定料・キャンセル料・買取手数料はすべて無料、査定額に納得すればその場で現金払い。</li>
@@ -149,7 +149,7 @@ export default function UrielGakkiKuchikomiPage() {
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream w-36">サービス名</th><td className="px-4 py-3">買取専門店ウリエル（uriel）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">運営会社</th><td className="px-4 py-3">株式会社クオーレ（設立 平成23年3月・代表 竹本泰志・資本金5,000万円）本社 愛知県大府市。東京支社・東京営業所（品川区）、大阪営業所あり</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">古物商許可</th><td className="px-4 py-3">愛知県公安委員会 第542791100800号（会社概要の記載）</td></tr>
-                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">買取方法</th><td className="px-4 py-3">出張買取・催事買取・店舗買取。店舗は「ウリエル川崎 ラ チッタデッラ店」のみで、他店舗は準備中・来店は事前予約制。宅配買取は現在の案内に無い</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">買取方法</th><td className="px-4 py-3">出張買取・催事買取・店舗買取。店舗は「ウリエル川崎 ラ チッタデッラ店」のみで、他店舗は準備中・来店は事前予約制。宅配買取は現在の案内にない</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">料金</th><td className="px-4 py-3">査定料・買取手数料・キャンセル料・出張費用すべて無料</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">楽器の対象</th><td className="px-4 py-3">ギター・ベース／弦楽器／管楽器／和楽器（三味線・琴など）／デジタル楽器。「基本的に買取・査定ができない楽器はございません」とFAQで回答</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">受付</th><td className="px-4 py-3">電話 0120-242-556（24時間受付・年末年始除く）、メール・LINE</td></tr>
@@ -215,7 +215,7 @@ export default function UrielGakkiKuchikomiPage() {
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3">総合評価</td><td className="px-4 py-3">2.67（5点満点）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">件数の内訳</td><td className="px-4 py-3">星5：1件／星4：0件／星3：0件／星2：1件／星1：1件（合計3件）</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">投稿された品物</td><td className="px-4 py-3">オーディオ（2022年）、時計・アクセサリー・バッグ（2025年）、記載なし（2022年）。<strong>楽器の投稿は無し</strong></td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">投稿された品物</td><td className="px-4 py-3">オーディオ（2022年）、時計・アクセサリー・バッグ（2025年）、記載なし（2022年）。<strong>楽器の投稿はなし</strong></td></tr>
               </tbody>
             </table>
           </div>
@@ -236,7 +236,7 @@ export default function UrielGakkiKuchikomiPage() {
           </ul>
           <p className="text-xs text-warm-gray">※ 公式の「お客様の声」は事業者が選んで掲載しているものです。第三者サイトの件数・評価は表示を転記したもので、当サイトが集計したものではありません。投稿本文の引用はしていません。</p>
 
-          <h2 id="caution">楽器を出す前に知っておきたい注意点</h2>
+          <h2 id="caution">楽器を出す前の注意点</h2>
           <h3>1. 売る物を先に決め、それ以外は見せない</h3>
           <p>
             国民生活センターは訪問購入（出張買取）の相談が2022年度に7,722件あり、契約当事者の8割近くが60歳以上だったと公表しています（ウリエルに限った数字ではありません）。典型例は「売るつもりのない物まで買い取られた」というものです。<strong>申込時に「楽器だけ」と伝え、当日も楽器以外は出さない</strong>のが確実です。
@@ -273,8 +273,8 @@ export default function UrielGakkiKuchikomiPage() {
               <p className="font-bold text-foreground mb-2">向かない人</p>
               <ul className="text-sm space-y-1 list-disc pl-5">
                 <li>型番の分かるギター1本を<strong>最高値</strong>で売りたい（まず相見積もり）</li>
-                <li>北海道・東北・群馬・沖縄など対応エリアの記載が無い地域に住んでいる</li>
-                <li>宅配で送って済ませたい（宅配買取の案内が無い）</li>
+                <li>北海道・東北・群馬・沖縄など対応エリアの記載がない地域に住んでいる</li>
+                <li>宅配で送って済ませたい（宅配買取の案内がない）</li>
                 <li>自宅に人を呼びたくない</li>
               </ul>
             </div>

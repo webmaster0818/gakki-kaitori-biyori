@@ -5,12 +5,12 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
 export const metadata: Metadata = {
   title: "ヤマハ YTR-8335の買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
-  description: "ヤマハ YTR-8335の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説。Xenoシリーズのプロ向けトランペット。管楽器買取で安定需要があります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
+  description: "ヤマハ YTR-8335の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説します。Xenoシリーズのプロ向けトランペット。管楽器買取で安定需要があります。 価格を左右するポイント、高く売るコツ、おすすめ買取業者まで。正確な査定額は無料査定で確認できます。",
   keywords: "ヤマハ YTR-8335,YAMAHA YTR-8335 買取,YAMAHA YTR-8335 相場,YAMAHA 買取",
   alternates: { canonical: "/articles/yamaha-ytr8335-kaitori/" },
   openGraph: { images: ["/og-image.png"], 
     title: "ヤマハ YTR-8335の買取相場｜今週の実勢中央値・高く売るコツ【2026年10月最新】",
-    description: "ヤマハ YTR-8335の買取相場・高く売るコツ・おすすめ業者を実勢データで解説。",
+    description: "ヤマハ YTR-8335の買取相場・高く売るコツ・おすすめ業者を実勢データで解説します。",
     url: "/articles/yamaha-ytr8335-kaitori/",
     type: "article",
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 function Schema() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"ヤマハ YTR-8335の買取相場はいくらですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"ヤマハ YTR-8335の買取相場は年式・状態・付属品により大きく異なります。本ページ上部の相場カードで、ヤフオク落札の実勢中央値（毎週自動更新）を確認できます。正確な査定額は無料査定でご確認ください。\"}}, {\"@type\": \"Question\", \"name\": \"古いヤマハ YTR-8335でも買い取ってもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい、ヤマハ YTR-8335は中古市場で需要があるため、年式が古くても状態次第で買取可能なケースが多いです。ヴィンテージ価値が評価される個体もあります。\"}}, {\"@type\": \"Question\", \"name\": \"ヤマハ YTR-8335を高く売るにはどうすればいいですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"(1)複数業者で一括査定して相見積もりを取る、(2)純正ケース・付属品・保証書を揃える、(3)軽い清掃で見た目を整える、(4)需要が高まる時期に売る、の4点が基本です。深い修理・改造は自分で行わず業者に任せましょう。\"}}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"ヤマハ YTR-8335の買取相場はいくらですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"ヤマハ YTR-8335の買取相場は年式・状態・付属品により大きく異なります。本ページ上部の相場カードで、ヤフオク落札の実勢中央値（毎週自動更新）を確認できます。正確な査定額は無料査定でご確認ください。\"}}, {\"@type\": \"Question\", \"name\": \"古いヤマハ YTR-8335でも買い取ってもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい、ヤマハ YTR-8335は中古市場で需要があるため、年式が古くても状態次第で買取可能なケースが多いです。ヴィンテージ価値が評価される個体もあります。\"}}, {\"@type\": \"Question\", \"name\": \"ヤマハ YTR-8335を高く売るにはどうすればよいですか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"(1)複数業者で一括査定して相見積もりを取る、(2)純正ケース・付属品・保証書を揃える、(3)軽い清掃で見た目を整える、(4)需要が高まる時期に売る、の4点が基本です。深い修理・改造は自分で行わず業者に任せてください。\"}}]}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"ヤマハ YTR-8335の買取相場と高く売るコツ（実勢データ付き）\", \"datePublished\": \"2026-07-16\", \"dateModified\": \"2026-07-16\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"管楽器買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/saxophone-kaitori/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"ヤマハ YTR-8335買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/yamaha-ytr8335-kaitori/\"}]}" }} />
     </>

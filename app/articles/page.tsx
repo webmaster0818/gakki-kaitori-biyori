@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/' },
   title: "楽器買取の記事一覧｜楽器・ブランド・地域・売り方別ガイド",
   description:
-    "楽器買取に関する記事一覧。ピアノ・ギター・管楽器など楽器別、YAMAHA・Gibson・Fenderなどブランド別、地域別の買取おすすめ、相場・高く売るコツまで網羅。あなたの楽器の売却に役立つ情報が見つかります。",
+    "楽器買取に関する記事一覧。ピアノ・ギター・管楽器など楽器別、YAMAHA・Gibson・Fenderなどブランド別、地域別の買取おすすめ、相場・高く売るコツまで掲載しています。お持ちの楽器の売却に役立つ情報が見つかります。",
 };
 
 type ArticleCategory = "instrument" | "brand" | "model" | "region" | "howto";

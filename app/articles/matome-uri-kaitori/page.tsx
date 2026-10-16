@@ -5,10 +5,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/matome-uri-kaitori/' },
   title: "【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ",
-  description: "楽器を複数まとめて売りたい方へ。まとめ売り対応の買取業者3社を徹底比較。バンド機材一式・楽器コレクションの一括買取で高く売るコツ、セット売りのメリット・デメリットまで解説。",
+  description: "楽器を複数まとめて売りたい方へ。まとめ売り対応の買取業者3社を比較します。バンド機材一式・楽器コレクションの一括買取で高く売るコツ、セット売りのメリット・デメリットまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ",
-    description: "楽器のまとめ売り・一括買取のおすすめ3社と高く売るコツを徹底解説。",
+    description: "楽器のまとめ売り・一括買取のおすすめ3社と高く売るコツを解説します。",
   },
 };
 
@@ -58,7 +58,7 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器まとめ売り買取ガイド｜複数楽器を一括で高く売るコツ</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">楽器を複数まとめて売りたい方へ。まとめ売り対応の買取業者3社を徹底比較。バンド機材一式・楽器コレクションの一括買取で高く売るコツ、セット売りのメリット・デメリットまで解説。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">楽器を複数まとめて売りたい方へ。まとめ売り対応の買取業者3社を比較します。バンド機材一式・楽器コレクションの一括買取で高く売るコツ、セット売りのメリット・デメリットまで解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
@@ -81,7 +81,7 @@ export default function Page() {
 
           <h2 id="comparison">まとめ売り対応のおすすめ3社を比較</h2>
           <div className="table-wrapper mb-6"><table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden"><thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">ヒカカク！</th><th className="px-4 py-3 text-left font-medium">ティファナ</th><th className="px-4 py-3 text-left font-medium">ウリエル</th></tr></thead><tbody className="divide-y divide-warm-border">
-            <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+            <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
             <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">まとめ売り</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3 text-gold-dark font-bold">出張で一括対応</td></tr>
             <tr className="bg-white"><td className="px-4 py-3 font-medium">大型楽器</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">出張で対応</td><td className="px-4 py-3 text-gold-dark font-bold">出張で対応</td></tr>
             <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -108,13 +108,13 @@ export default function Page() {
 
           <h2 id="tips">まとめ売りで高く売る5つのコツ</h2>
           <h3>コツ1: 高額品は個別査定、その他はまとめ売り</h3>
-          <p>Gibson Les Paul StandardやMartin D-28など高額楽器は、ヒカカク！で個別に複数業者の査定を受けましょう。エントリーモデルやアクセサリー類はまとめ売りで効率よく売却します。</p>
+          <p>Gibson Les Paul StandardやMartin D-28など高額楽器は、ヒカカク！で個別に複数業者の査定を受けてください。エントリーモデルやアクセサリー類はまとめ売りで効率よく売却します。</p>
           <h3>コツ2: リストを作成して事前に伝える</h3>
-          <p>売りたい楽器のリスト（ブランド・モデル名・状態）を作成し、査定依頼時に伝えましょう。業者側も事前に相場を確認でき、スムーズな査定につながります。</p>
+          <p>売りたい楽器のリスト（ブランド・モデル名・状態）を作成し、査定依頼時に伝えてください。業者側も事前に相場を確認でき、スムーズな査定につながります。</p>
           <h3>コツ3: 付属品はまとめて整理</h3>
-          <p>各楽器のケース・付属品・保証書を楽器ごとにまとめておきましょう。付属品が紛失しているものは、その旨を伝えれば問題ありません。</p>
+          <p>各楽器のケース・付属品・保証書を楽器ごとにまとめておいてください。付属品が紛失しているものは、その旨を伝えれば問題ありません。</p>
           <h3>コツ4: 簡単でもクリーニングする</h3>
-          <p>全部を完璧にクリーニングする必要はありませんが、ホコリを拭き取る程度のケアは行いましょう。見た目の印象は査定額に影響します。</p>
+          <p>全部を完璧にクリーニングする必要はありませんが、ホコリを拭き取る程度のケアは行ってください。見た目の印象は査定額に影響します。</p>
           <h3>コツ5: 出張買取を活用する</h3>
           <p>複数の楽器を売る場合、宅配買取だと梱包の手間が膨大です。ウリエルの出張買取なら、自宅で査定士に見てもらえるので最も効率的です。</p>
 

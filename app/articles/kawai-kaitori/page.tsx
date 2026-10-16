@@ -6,10 +6,10 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawai-kaitori/' },
   title: "【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場",
-  description: "KAWAI（カワイ）のピアノ・電子ピアノを売るならどこがいい？グランドピアノ・アップライトピアノ・電子ピアノの買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
+  description: "KAWAI（カワイ）のピアノ・電子ピアノを売るならどこがいい？グランドピアノ・アップライトピアノ・電子ピアノの買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場",
-    description: "KAWAI製ピアノの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
+    description: "KAWAI製ピアノの買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
   },
 };
 
@@ -21,7 +21,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのKAWAI製品の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のKAWAI製品の買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
@@ -59,7 +59,7 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">KAWAI（カワイ/河合楽器）のピアノ・電子ピアノを売りたい方へ。本記事では、KAWAI製品の買取に強い3社を徹底比較し、グランドピアノ・アップライトピアノ・電子ピアノのシリーズ別買取相場、高く売るコツまで詳しく解説します。KAWAIは1927年創業の日本を代表するピアノメーカーで、YAMAHAと並ぶ国産ピアノの二大ブランドです。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">KAWAI（カワイ/河合楽器）のピアノ・電子ピアノを売りたい方へ。本記事では、KAWAI製品の買取に強い3社を比較し、グランドピアノ・アップライトピアノ・電子ピアノのシリーズ別買取相場、高く売るコツまで詳しく解説します。KAWAIは1927年創業の日本を代表するピアノメーカーで、YAMAHAと並ぶ国産ピアノの二大ブランドです。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
@@ -119,13 +119,13 @@ export default function Page() {
 
           <h2 id="tips">KAWAIピアノを高く売る5つのコツ</h2>
           <h3>コツ1: 複数業者に査定を依頼する</h3>
-          <p>ヒカカク！で一括査定を行い、ピアノ専門の業者を含む複数社の査定額を比較しましょう。</p>
+          <p>ヒカカク！で一括査定を行い、ピアノ専門の業者を含む複数社の査定額を比較してください。</p>
           <h3>コツ2: 椅子・カバー・取扱説明書を揃える</h3>
-          <p>専用椅子、鍵盤カバー、トップカバー、取扱説明書、保証書を揃えましょう。椅子があるだけで数千円のプラスになります。</p>
+          <p>専用椅子、鍵盤カバー、トップカバー、取扱説明書、保証書を揃えてください。椅子があるだけで数千円のプラスになります。</p>
           <h3>コツ3: 鍵盤と外装をクリーニング</h3>
-          <p>鍵盤を専用クリーナーで拭き、外装のホコリを除去しましょう。黒いピアノは指紋が目立つため、ピアノ用クロスで磨くと好印象です。</p>
+          <p>鍵盤を専用クリーナーで拭き、外装のホコリを除去してください。黒いピアノは指紋が目立つため、ピアノ用クロスで磨くと好印象です。</p>
           <h3>コツ4: 調律履歴を伝える</h3>
-          <p>アコースティックピアノの場合、定期的に調律していたかどうかは重要な査定ポイントです。調律履歴がある場合は伝えましょう。</p>
+          <p>アコースティックピアノの場合、定期的に調律していたかどうかは重要な査定ポイントです。調律履歴がある場合は伝えてください。</p>
           <h3>コツ5: 大型ピアノは出張買取を活用</h3>
           <p>グランドピアノやアップライトピアノは運搬が困難です。ウリエルの出張買取なら自宅で完結するため最も便利です。</p>
 

@@ -64,7 +64,7 @@ CITIES = [
         "slug": "guitar-kaitori-chiba", "name": "千葉", "pref": "千葉県千葉市",
         "generic": "chiba-gakki-kaitori", "generic_label": "千葉の楽器買取ガイド",
         "visit": "千葉駅周辺",
-        "street": "千葉駅周辺に楽器店やリサイクルショップがあり、店頭持ち込みが可能です。高額モデルの場合は、日本最大のギター店街である東京・御茶ノ水も電車圏内なので、比較先として検討できます。",
+        "street": "千葉駅周辺に楽器店やリサイクルショップがあり、店頭持ち込みが可能です。高額モデルの場合は、日本最大のギター店街である東京・御茶ノ水も電車圏内のため、比較先として検討できます。",
         "outreach": "ウリエル・ティファナなど全国対応の主要業者が千葉市とその周辺を出張買取の対応エリアとしています。",
         "cross": ["guitar-kaitori-tokyo", "guitar-kaitori-yokohama"],
     },
@@ -96,7 +96,7 @@ CITIES = [
         "slug": "guitar-kaitori-yokohama", "name": "横浜", "pref": "神奈川県横浜市",
         "generic": "yokohama-gakki-kaitori", "generic_label": "横浜の楽器買取ガイド",
         "visit": "横浜駅西口",
-        "street": "横浜駅西口にはイシバシ楽器・クロサワ楽器など大手楽器店が集まっており、店頭持ち込みで査定を受けられます。日本最大のギター店街である東京・御茶ノ水も電車圏内なので、高額モデルなら比較先として検討できます。",
+        "street": "横浜駅西口にはイシバシ楽器・クロサワ楽器など大手楽器店が集まっており、店頭持ち込みで査定を受けられます。日本最大のギター店街である東京・御茶ノ水も電車圏内のため、高額モデルなら比較先として検討できます。",
         "outreach": "ウリエルは横浜市内全域への出張買取に対応しており、ティファナも横浜エリアで出張・宅配買取を行っています。",
         "cross": ["guitar-kaitori-tokyo", "guitar-kaitori-chiba"],
     },
@@ -225,12 +225,12 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">__NAME__対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">対応エリア</td><td className="px-4 py-3">対応エリア</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応ギター</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅完結・まとめ売りOK</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">機材ごとまとめて売る人</td></tr>
               </tbody>
             </table>
@@ -243,13 +243,13 @@ export default function Page() {
           <p>ティファナは<strong>年間4万件の買取実績</strong>があり、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。</p>
 
           <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>
-          <p>ウリエルは出張買取専門で、__OUTREACH_SHORT__<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
+          <p>ウリエルは出張買取が中心で、__OUTREACH_SHORT__<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
 
           <CtaBox />
 
           <h2 id="souba">ギターの買取相場【週次更新・ヤフオク!実勢データ】</h2>
 
-          <p>中古ギターの相場は全国のオンライン市場（ヤフオク!・フリマ・楽器店EC）で形成されるため、<strong>__NAME__だから高い・安いという地域差は基本的にありません</strong>。当サイトが毎週集計している主要モデルの実勢相場を基準にすれば、__NAME__で受けた査定額が妥当かどうかを判断できます。</p>
+          <p>中古ギターの相場は全国のオンライン市場（ヤフオク!・フリマ・楽器店EC）で形成されるため、<strong>__NAME__と他地域の間で、買取価格の地域差は基本的にありません</strong>。当サイトが毎週集計している主要モデルの実勢相場を基準にすれば、__NAME__で受けた査定額が妥当かどうかを判断できます。</p>
 
           <GuitarSpotPrices />
 
@@ -283,7 +283,7 @@ export default function Page() {
           <p>ヘッド裏やネックプレートのシリアル、モデル名がわかると査定がスムーズで、年式による上乗せ評価も受けやすくなります。事前のオンライン査定でも正確な金額が出やすくなります。</p>
 
           <h3>コツ3: 付属品を揃えてクリーニングする</h3>
-          <p>純正ハードケース・保証書・アーム・レンチなどの付属品は査定額に直結します。ボディ・指板の汚れを拭き取り、可能なら弦のサビを落としてから出しましょう。</p>
+          <p>純正ハードケース・保証書・アーム・レンチなどの付属品は査定額に直結します。ボディ・指板の汚れを拭き取り、可能なら弦のサビを落としてから出してください。</p>
 
           <h3>コツ4: 売り時を逃さない</h3>
           <p>新生活シーズン（2〜3月）やボーナス期（6〜7月・12月）は中古ギターの需要が高まります。また、弾かないギターの放置は打痕・ネック反り・サビによる減額リスクを高めるため、売ると決めたら早めの査定がおすすめです。</p>
@@ -296,9 +296,9 @@ export default function Page() {
 __FAQ_ITEMS__
           </div>
 
-          <h2>まとめ: __NAME__のギター買取は相場を把握してから比較しよう</h2>
+          <h2>まとめ: __NAME__のギター買取は相場を把握したうえでの比較をおすすめします</h2>
 
-          <p>__NAME__でギターを売るなら、まず週次相場表でモデルの実勢価格を把握し、<strong>一括査定＋店頭・出張の比較</strong>で最高値を狙うのが鉄則です。</p>
+          <p>__NAME__でギターを売るなら、まず週次相場表でモデルの実勢価格を把握し、<strong>一括査定＋店頭・出張の比較</strong>で最高値を狙うのが基本です。</p>
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
@@ -306,7 +306,7 @@ __FAQ_ITEMS__
             <li><strong>機材ごとまとめて売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定は完全無料。まずは相場チェックから始めてみてください。</p>
+          <p>査定は無料です。まずは相場の確認からご利用ください。</p>
 
           <CtaBox />
         </div>
@@ -359,10 +359,10 @@ def build_page(c):
     slug = c["slug"]
     title = f"{name}のギター買取おすすめ3社を比較【2026年7月】高く売るコツと相場"
     desc = (
-        f"{name}でギターを売るならどこがいい？エレキ・アコギ対応のおすすめ買取3社を比較。"
-        f"Gibson・Fenderなど主要モデルの週次実勢相場、{c['visit']}の持ち込み事情、高く売るコツまで解説。無料査定だけの利用もOK。"
+        f"{name}でギターを売るならどこがいい？エレキ・アコギ対応のおすすめ買取3社を比較します。"
+        f"Gibson・Fenderなど主要モデルの週次実勢相場、{c['visit']}の持ち込み事情、高く売るコツまで解説します。無料査定のみの利用も可能です。"
     )
-    ogdesc = f"{name}でギターを売るなら。おすすめ3社の比較と主要モデルの週次相場、高く売るコツを解説。"
+    ogdesc = f"{name}でギターを売るなら。おすすめ3社の比較と主要モデルの週次相場、高く売るコツを解説します。"
     lead = (
         f"{name}（{c['pref']}）でギターの買取を検討している方へ。本記事では、{name}で利用できるギター買取おすすめ3社の比較、"
         f"Gibson・Fenderなど主要モデルの週次実勢相場（ヤフオク!落札データを毎週独自集計）、"
@@ -452,7 +452,7 @@ def patch_generic(c, callout=True):
             callout = (
                 f'{indent}<div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">\n'
                 f'{indent}  <p className="font-bold text-sm mb-1">ギターを売るなら専用ガイドへ</p>\n'
-                f'{indent}  <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>\n'
+                f'{indent}  <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表を掲載した専用ページで詳しく解説しています。</p>\n'
                 f'{indent}  <Link href="{href}" className="text-accent font-medium text-sm hover:underline">{c["name"]}のギター買取おすすめ3社と相場を見る →</Link>\n'
                 f'{indent}</div>\n\n'
             )
@@ -518,7 +518,7 @@ def main():
                 "title": f"{c['name']}のギター買取おすすめ3社比較",
                 "shortTitle": f"ギター買取 {c['name']}",
                 "badge": f"{c['name']}×ギター",
-                "description": f"{c['name']}のギター買取おすすめ3社と主要モデルの週次実勢相場、高く売るコツを解説。",
+                "description": f"{c['name']}のギター買取おすすめ3社と主要モデルの週次実勢相場、高く売るコツを解説します。",
                 "category": "region",
             })
             added.append(c["slug"])

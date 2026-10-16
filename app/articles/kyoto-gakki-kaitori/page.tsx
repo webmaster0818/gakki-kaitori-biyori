@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kyoto-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 京都おすすめ3選｜出張・店頭・宅配を比較",
   description:
-    "京都で楽器を売るならどこがいい？京都対応の楽器買取おすすめ3社を徹底比較。河原町・四条・伏見エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説。",
+    "京都で楽器を売るならどこがいい？京都対応の楽器買取おすすめ3社を比較します。河原町・四条・伏見エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 京都おすすめ3選｜出張・店頭・宅配を比較",
-    description: "京都で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを徹底解説。",
+    description: "京都で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
   },
 };
 
@@ -69,7 +69,7 @@ function FaqSchema() {
       { "@type": "Question", name: "京都で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "京都で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。河原町・四条周辺の楽器店でも買取を行っていますが、全国規模のサービスを活用することで、より高い買取価格が期待できます。" } },
       { "@type": "Question", name: "京都で出張買取に対応している業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは京都市内全域に出張買取に対応しています。左京区・中京区・右京区・伏見区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。ピアノや大型楽器の売却に特に便利です。" } },
       { "@type": "Question", name: "京都の大学で使っていた楽器は売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、大学の軽音楽部やオーケストラで使用していた楽器も買取可能です。京都は京大・同志社・立命館など大学が多く、学生楽器の買取需要も高いです。卒業・就職を機に手放す方は、新学期前の2〜3月に売ると高値がつきやすい傾向があります。" } },
-      { "@type": "Question", name: "壊れた楽器でも京都で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド楽器は壊れていても値段がつくことがあります。まずは無料査定で確認しましょう。" } },
+      { "@type": "Question", name: "壊れた楽器でも京都で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド楽器は壊れていても値段がつくことがあります。まずは無料査定でご確認ください。" } },
       { "@type": "Question", name: "京都から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取を利用すれば、京都から全国の買取業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。ギターなどの小型〜中型楽器の売却に便利です。" } },
     ],
   };
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 京都おすすめ3選｜出張・店頭・宅配を徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/kyoto-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 京都おすすめ3選｜出張・店頭・宅配を比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/kyoto-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -103,10 +103,10 @@ export default function KyotoGakkiKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】楽器買取 京都おすすめ3選｜出張・店頭・宅配を徹底比較
+            【2026年最新】楽器買取 京都おすすめ3選｜出張・店頭・宅配を比較
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            京都で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、京都エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、河原町・四条・伏見など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
+            京都で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、京都エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、河原町・四条・伏見など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -144,7 +144,7 @@ export default function KyotoGakkiKaitoriPage() {
 
           <CtaBox />
 
-          <h2 id="comparison">京都対応の楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">京都対応の楽器買取おすすめ3社を比較</h2>
 
           <p>京都エリアに対応している楽器買取3社を比較します。</p>
 
@@ -159,7 +159,7 @@ export default function KyotoGakkiKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">京都対応</td><td className="px-4 py-3">全国対応（京都含む）</td><td className="px-4 py-3">全国対応（京都含む）</td><td className="px-4 py-3">京都市内出張可</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -177,13 +177,13 @@ export default function KyotoGakkiKaitoriPage() {
 
           <h3>ティファナ ── 3つの買取方法に対応</h3>
 
-          <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。出張・店頭・宅配の3つの方法に対応しており、京都からも利用可能。楽器の状態を問わず査定してくれるのが強みです。</p>
+          <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。出張・店頭・宅配の3つの方法に対応しており、京都からも利用可能です。楽器の状態を問わず査定してくれるのが強みです。</p>
 
-          <p>京都から宅配買取を利用する場合、送料は無料。梱包して送るだけなので、河原町や四条まで出向く必要がありません。</p>
+          <p>京都から宅配買取を利用する場合、送料は無料。梱包して送るだけのため、河原町や四条まで出向く必要がありません。</p>
 
           <h3>ウリエル ── 京都市内の出張買取に対応</h3>
 
-          <p>ウリエルは出張買取専門のサービスで、京都市内全域に対応しています。左京区・中京区・右京区・上京区・下京区・南区・伏見区・山科区・西京区と、市内全域が出張対象です。</p>
+          <p>ウリエルは出張買取を中心とするサービスで、京都市内全域に対応しています。左京区・中京区・右京区・上京区・下京区・南区・伏見区・山科区・西京区と、市内全域が出張対象です。</p>
 
           <p>ピアノやドラムセット、複数の楽器をまとめて売りたい場合に特に便利です。査定士が自宅に訪問し、その場で査定・現金買取が完了します。</p>
 
@@ -245,7 +245,7 @@ export default function KyotoGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h4 className="font-bold text-sm mb-1">査定額の提示を受ける</h4><p className="text-sm text-warm-gray">業者から査定額が届きます。複数業者の金額を比較して、最も高い業者を選びましょう。</p></div>
+              <div><h4 className="font-bold text-sm mb-1">査定額の提示を受ける</h4><p className="text-sm text-warm-gray">業者から査定額が届きます。複数業者の金額を比較して、最も高い業者を選んでください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -263,22 +263,22 @@ export default function KyotoGakkiKaitoriPage() {
           <p>最も効果的なのが相見積もりです。ヒカカク！を使えば一度の入力で複数業者から査定額が届きます。業者によって得意ジャンルが異なるため、同じ楽器でも数万円の差が出ることがあります。</p>
 
           <h3>コツ2: 付属品を揃えて査定に出す</h3>
-          <p>ケース・保証書・取扱説明書・アダプターなど、購入時の付属品は可能な限り揃えましょう。特に純正ハードケースは数千円〜1万円のプラス評価になることもあります。</p>
+          <p>ケース・保証書・取扱説明書・アダプターなど、購入時の付属品は可能な限り揃えてください。特に純正ハードケースは数千円〜1万円のプラス評価になることもあります。</p>
 
           <h3>コツ3: クリーニングで第一印象アップ</h3>
-          <p>査定前にボディを拭き、弦を張り替え、フレットボードを保湿しましょう。管楽器は内部洗浄、ピアノは鍵盤の拭き掃除を行うと好印象です。見た目の清潔感は査定額に直結します。</p>
+          <p>査定前にボディを拭き、弦を張り替え、フレットボードを保湿してください。管楽器は内部洗浄、ピアノは鍵盤の拭き掃除を行うと好印象です。見た目の清潔感は査定額に直結します。</p>
 
           <h3>コツ4: 卒業シーズン前に売る</h3>
           <p>京都は大学が多い街のため、<strong>2〜3月の新入生シーズンは中古楽器の需要がピーク</strong>になります。このタイミングで売却すると、通常より高い査定額が期待できます。</p>
 
           <h3>コツ5: 全国サービスも併用する</h3>
-          <p>河原町の楽器店だけでなく、ヒカカク！のような全国サービスも活用しましょう。地元店の買取価格が全国相場より低いケースは少なくありません。</p>
+          <p>河原町の楽器店だけでなく、ヒカカク！のような全国サービスもご活用ください。地元店の買取価格が全国相場より低いケースは少なくありません。</p>
 
           <CtaBox />
 
           <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
             <p className="font-bold text-sm mb-1">ギターを売るなら専用ガイドへ</p>
-            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>
+            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表を掲載した専用ページで詳しく解説しています。</p>
             <Link href="/articles/guitar-kaitori-kyoto/" className="text-accent font-medium text-sm hover:underline">京都のギター買取おすすめ3社と相場を見る →</Link>
           </div>
 
@@ -311,7 +311,7 @@ export default function KyotoGakkiKaitoriPage() {
                 <span className="pr-4">壊れた楽器でも京都で買い取ってもらえますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、壊れた楽器やジャンク品でも査定可能です。ブランド楽器は壊れていても値段がつくことがあります。まずは無料査定で確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、壊れた楽器やジャンク品でも査定可能です。ブランド楽器は壊れていても値段がつくことがあります。まずは無料査定でご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
@@ -332,7 +332,7 @@ export default function KyotoGakkiKaitoriPage() {
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定はすべて無料です。まずはヒカカク！で相場を確認してみてください。</p>
+          <p>査定はすべて無料です。まずはヒカカク！で相場をご確認ください。</p>
 
           <CtaBox />
         </div>

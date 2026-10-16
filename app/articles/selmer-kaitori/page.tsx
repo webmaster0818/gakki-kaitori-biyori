@@ -6,10 +6,10 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/selmer-kaitori/' },
   title: "【2026年10月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場",
-  description: "Selmer（セルマー）のサックスを売るならどこがいい？Series III・Reference・Super Action 80 IIなどモデル別の買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
+  description: "Selmer（セルマー）のサックスを売るならどこがいい？Series III・Reference・Super Action 80 IIなどモデル別の買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場",
-    description: "Selmerサックスの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
+    description: "Selmerサックスの買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
   },
 };
 
@@ -21,7 +21,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのSelmer製品の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のSelmer製品の買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
@@ -59,7 +59,7 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年10月 週次相場更新】Selmer買取おすすめ3社比較｜サックスの最高峰の相場</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">Selmer（セルマー/セルマーパリ）のサックスを売りたい方へ。本記事では、Selmer製サックスの買取に強い3社を徹底比較し、Series III・Reference・Super Action 80 IIなどモデル別の買取相場、ヴィンテージSelmerの価値、高く売るコツまで詳しく解説します。Selmerは1885年創業のフランスの管楽器メーカーで、サックスの世界で「最高峰」の地位を確立しています。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">Selmer（セルマー/セルマーパリ）のサックスを売りたい方へ。本記事では、Selmer製サックスの買取に強い3社を比較し、Series III・Reference・Super Action 80 IIなどモデル別の買取相場、ヴィンテージSelmerの価値、高く売るコツまで詳しく解説します。Selmerは1885年創業のフランスの管楽器メーカーで、サックスの世界で「最高峰」の地位を確立しています。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
@@ -108,11 +108,11 @@ export default function Page() {
 
           <h2 id="tips">Selmerサックスを高く売る5つのコツ</h2>
           <h3>コツ1: 複数業者に査定を依頼する</h3>
-          <p>Selmerサックスは高額品のため、業者間で査定額に大きな差が出ます。ヒカカク！で一括査定を行い、管楽器に強い業者の見積もりを比較しましょう。</p>
+          <p>Selmerサックスは高額品のため、業者間で査定額に大きな差が出ます。ヒカカク！で一括査定を行い、管楽器に強い業者の見積もりを比較してください。</p>
           <h3>コツ2: マウスピース・ケースを揃える</h3>
-          <p>純正マウスピース、リガチャー、純正ケース、保証書、ネックストラップなどの付属品を揃えましょう。特にSelmerの純正ケースは高額です。</p>
+          <p>純正マウスピース、リガチャー、純正ケース、保証書、ネックストラップなどの付属品を揃えてください。特にSelmerの純正ケースは高額です。</p>
           <h3>コツ3: クリーニングとメンテナンス</h3>
-          <p>本体を磨き、タンポの状態を確認しましょう。タンポが劣化している場合でも、そのまま査定に出して問題ありません（リペア前提で査定されます）。キーオイルを注し、動作確認をしておきましょう。</p>
+          <p>本体を磨き、タンポの状態をご確認ください。タンポが劣化している場合でも、そのまま査定に出して問題ありません（リペア前提で査定されます）。キーオイルを注し、動作確認をしておいてください。</p>
           <h3>コツ4: シリアルナンバーで年式を伝える</h3>
           <p>Selmerサックスはシリアルナンバーで年式が特定できます。特にMark VIは製造年代によって音色の特徴が異なるため、正確な年式情報は査定額に直結します。</p>
           <h3>コツ5: 楽器専門の業者に依頼する</h3>

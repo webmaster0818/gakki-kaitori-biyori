@@ -8,12 +8,12 @@ const UPDATED_JA = "2026年10月9日";
 const URL = "https://gakkikaitori-biyori.com/articles/hikakaku-gakki-kaitori-kuchikomi/";
 const TITLE = "ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点【2026年10月最新】";
 const DESC =
-  "ヒカカク！で楽器を売る前に知りたい口コミ・評判を、公式クチコミの評価分布（総合3.4・1,083件）と傾向から出典付きで整理。無料・最大20社の一括査定の仕組み、楽器カテゴリ（1,117社掲載）の使い方、ギター・ピアノを出す流れ、キャンセル・電話連絡の注意点、向いている人まで解説。";
+  "ヒカカク！で楽器を売る前に知りたい口コミ・評判を、公式クチコミの評価分布（総合3.4・1,083件）と傾向から出典付きで整理。無料・最大20社の一括査定の仕組み、楽器カテゴリ（1,117社掲載）の使い方、ギター・ピアノを出す流れ、キャンセル・電話連絡の注意点、向いている人まで解説します。";
 
 const faqs = [
   {
     q: "ヒカカク！の楽器買取は無料ですか？",
-    a: "公式のよくあるご質問に「完全無料でご利用いただけます」と明記されています。利用規約第6条でも「当社がユーザーに対して請求する費用は原則無料」です。査定結果を見て売らない選択をしても料金はかかりません。",
+    a: "公式のよくあるご質問に「無料でご利用いただけます」と明記されています。利用規約第6条でも「当社がユーザーに対して請求する費用は原則無料」です。査定結果を見て売らない選択をしても料金はかかりません。",
   },
   {
     q: "ヒカカク！が楽器を査定・買取するのですか？",
@@ -44,7 +44,7 @@ function CtaBox({ title, lead }: { title: string; lead: string }) {
       <p className="text-sm text-warm-gray mb-4">{lead}</p>
       <p className="text-xs text-warm-gray mb-3">
         <span className="inline-block align-middle border border-warm-gray/50 rounded px-1.5 py-0.5 mr-2 text-[11px] font-bold tracking-wide">PR</span>
-        ヒカカク！（買取価格比較サイト・最大20社に一括査定・完全無料）
+        ヒカカク！（買取価格比較サイト・最大20社に一括査定・無料）
       </p>
       <a
         href="https://hikakaku.com"
@@ -126,15 +126,15 @@ export default function HikakakuGakkiKuchikomiPage() {
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">
-          <h2 id="conclusion">結論：ヒカカクの楽器買取はこんな人向け</h2>
+          <h2 id="conclusion">ヒカカクの楽器買取が適している方</h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li>ヒカカク！は<strong>買取店を紹介する比較サイト</strong>で、自社では査定も買取もしない。利用は<strong>完全無料</strong>、最大20社から査定結果がメールで届く。</li>
+            <li>ヒカカク！は<strong>買取店を紹介する比較サイト</strong>で、自社では査定も買取もしない。利用は<strong>無料</strong>、最大20社から査定結果がメールで届く。</li>
             <li>楽器カテゴリは<strong>1,117社・39,236点</strong>、ピアノは別カテゴリで<strong>616社・854点</strong>の掲載（2026年10月8日時点の公式カテゴリページ表記）。</li>
             <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない」。</li>
             <li>向いているのは<strong>型番が分かる楽器で複数社の相見積もりを取りたい人</strong>。電話連絡を避けたい人や、今日中に現金化したい人には向かない。</li>
           </ul>
 
-          <CtaBox title="楽器の買取価格を複数社で比較" lead="メーカー・型番・状態を入力するだけ。査定額に納得できなければ売らなくてOKです。" />
+          <CtaBox title="楽器の買取価格を複数社で比較" lead="メーカー・型番・状態を入力するだけ。査定額に納得できなければ、売却しなくても問題ありません。" />
 
           <h2 id="about">ヒカカク！とは（仕組み・運営会社・楽器カテゴリ）</h2>
           <p>
@@ -147,8 +147,8 @@ export default function HikakakuGakkiKuchikomiPage() {
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream w-36">サービス名</th><td className="px-4 py-3">ヒカカク！（買取価格比較サイト）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">運営会社</th><td className="px-4 py-3">株式会社じげん（ZIGExN Co., Ltd.）東京都港区虎ノ門3-4-8／代表責任者 平尾 丈</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">許可・表記</th><td className="px-4 py-3">古物営業法に基づき都道府県公安委員会の許可を取得と表記。アフィリエイトプログラムを利用したサービス紹介を行う旨も明記</td></tr>
-                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">料金</th><td className="px-4 py-3">完全無料（利用規約第6条「当社がユーザーに対して請求する費用は原則無料」）</td></tr>
-                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">査定社数</th><td className="px-4 py-3">最大20社から査定結果（買取不可の場合は返信が無いこともある）</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">料金</th><td className="px-4 py-3">無料（利用規約第6条「当社がユーザーに対して請求する費用は原則無料」）</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">査定社数</th><td className="px-4 py-3">最大20社から査定結果（買取不可の場合は返信がないこともある）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">買取方法</th><td className="px-4 py-3">宅配・出張・店頭から最大3つを希望として選択</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">楽器カテゴリ</th><td className="px-4 py-3">掲載 39,236点・1,117社。直近1年の買取実績は「最低1円〜最高1,700,000円」と表示。絞り込みにギター・ベース・アンプ・エフェクター・管楽器・弦楽器・ドラム・電子ピアノ・DTM機材・PA機器など</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">ピアノカテゴリ</th><td className="px-4 py-3">掲載 854点・616社。直近1年の買取実績は「最低100円〜最高1,000,000円」と表示。ヤマハ・カワイのアップライト／グランドで絞り込み可</td></tr>
@@ -166,7 +166,7 @@ export default function HikakakuGakkiKuchikomiPage() {
           <p>公式の「査定申込の流れ」をもとに、楽器を出す場合の実務に置き換えると次の5ステップです。</p>
           <ol className="list-decimal pl-6 space-y-2">
             <li>
-              <strong>査定フォームを起動</strong>：トップの「一括査定・見積もり」から。写真でAI査定（品名・型番が分からなくてもOK）と、自分で入力する方式の2つがあります。型番が分からないヴィンテージ品や貰い物は写真方式が便利です。
+              <strong>査定フォームを起動</strong>：トップの「一括査定・見積もり」から。写真でAI査定（品名・型番が分からなくても可能）と、自分で入力する方式の2つがあります。型番が分からないヴィンテージ品や貰い物は写真方式が便利です。
             </li>
             <li>
               <strong>商品情報を入力</strong>：商品カテゴリは「楽器・ピアノ」を選び、商品名にメーカー・型番・年式（例：Fender USA Stratocaster 2015・Gibson Les Paul Standard）を入れます。商品状態は「新品・未開封」「中古美品」「中古品・使用感あり」「目立つ傷がある」「故障品」から選択。
@@ -183,7 +183,7 @@ export default function HikakakuGakkiKuchikomiPage() {
             </li>
           </ol>
 
-          <h2 id="caution">楽器を出す前に知っておきたい注意点</h2>
+          <h2 id="caution">楽器を出す前の注意点</h2>
           <p>公式FAQ・利用規約の記載から、楽器を出す人が事前に知っておくべき点を抜き出します。</p>
           <h3>1. キャンセルは「各業者へ直接」</h3>
           <p>
@@ -195,11 +195,11 @@ export default function HikakakuGakkiKuchikomiPage() {
           </p>
           <h3>3. 電話連絡が来る前提で申し込む</h3>
           <p>
-            電話番号は必須項目で、査定・買取の連絡は各業者から直接来ます。利用規約第4条でも、サイト上・電話・メールで各種連絡をすることがあると定められています。後述の口コミでも電話の多さは指摘が多い点なので、<strong>連絡が取りやすい時間帯に申し込む</strong>か、備考にメール希望と書いておくのが現実的な対処です。
+            電話番号は必須項目で、査定・買取の連絡は各業者から直接来ます。利用規約第4条でも、サイト上・電話・メールで各種連絡をすることがあると定められています。後述の口コミでも電話の多さは指摘が多い点のため、<strong>連絡が取りやすい時間帯に申し込む</strong>か、備考にメール希望と書いておくのが現実的な対処です。
           </p>
           <h3>4. 査定額は「実物を見て変わる」ことがある</h3>
           <p>
-            使い方ガイドのQ&amp;Aには「商品状態を詳しく鑑定する中で当初想定していた状態と違っていた際に買取価格が変更となる場合があります」とあります。楽器は<strong>ネックの状態・フレットの減り・電装の動作・付属品</strong>で差が付くので、状態は正直に書くのが結果的に早道です。
+            使い方ガイドのQ&amp;Aには「商品状態を詳しく鑑定する中で当初想定していた状態と違っていた際に買取価格が変更となる場合があります」とあります。楽器は<strong>ネックの状態・フレットの減り・電装の動作・付属品</strong>で差が付くので、状態を正確に記載することで、取引が円滑に進みます。
             一方で、あまりに不当な値下げをされた場合は「買取業者へ注意喚起を行うので、お問い合わせフォームからご連絡ください」とも案内されています。悪質な手口の見分け方は<Link href="/articles/gakki-kaitori-sagi/" className="text-accent underline hover:text-accent-dark">楽器買取の詐欺・トラブル対策</Link>にまとめています。
           </p>
           <h3>5. 楽器専門でない業者が混じることがある</h3>
@@ -229,7 +229,7 @@ export default function HikakakuGakkiKuchikomiPage() {
           </ul>
           <h3>気になる評判に多い内容</h3>
           <ul className="list-disc pl-6 space-y-1">
-            <li><strong>見積もり業者が少ない・1社しか来ない</strong>：「事前見積もりの業者数が少ない」「一社しか価格提示がなく桁違いに安かった」という星1の投稿があります。公式FAQも、商品によっては1社も返信が無いことがあると認めています。</li>
+            <li><strong>見積もり業者が少ない・1社しか来ない</strong>：「事前見積もりの業者数が少ない」「一社しか価格提示がなく桁違いに安かった」という星1の投稿があります。公式FAQも、商品によっては1社も返信がないことがあると認めています。</li>
             <li><strong>電話がひっきりなしに来る</strong>：申込直後から電話が続いた、価格を明示せず「実物を見せてほしい」と言われたという星1の投稿があります。</li>
             <li><strong>店舗で相場より低い提示</strong>：持ち込み後に相場変動を理由に低い額を出されたという声。実物査定で変わりうることは公式も明記しています。</li>
             <li><strong>操作が分かりにくい</strong>：返信方法が分からなかったという星3の投稿があり、会員登録・マイページの使い方は事前に確認した方が安心です。</li>
@@ -271,7 +271,7 @@ export default function HikakakuGakkiKuchikomiPage() {
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">売り方</th><th className="px-4 py-3 text-left font-medium">向いている楽器・状況</th><th className="px-4 py-3 text-left font-medium">気をつける点</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">一括査定（ヒカカク！）</td><td className="px-4 py-3">型番が分かるギター・管楽器など、業者で差が出やすい楽器</td><td className="px-4 py-3">複数社から電話・メールが来る。返信が無い楽器もある</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">一括査定（ヒカカク！）</td><td className="px-4 py-3">型番が分かるギター・管楽器など、業者で差が出やすい楽器</td><td className="px-4 py-3">複数社から電話・メールが来る。返信がない楽器もある</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">出張買取を1社に依頼</td><td className="px-4 py-3">琴・ドラム・アンプなど運べない楽器、他の品物とのまとめ売り</td><td className="px-4 py-3">対応エリアの確認が必要。売る物を先に決め、8日間のクーリングオフを知っておく</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">店頭に持ち込む</td><td className="px-4 py-3">今日中に現金化したい、持ち運べる楽器</td><td className="px-4 py-3">1店だけだと比較ができない</td></tr>
               </tbody>

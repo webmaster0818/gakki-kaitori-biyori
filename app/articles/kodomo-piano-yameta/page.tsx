@@ -5,10 +5,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kodomo-piano-yameta/' },
   title: "【2026年最新】子供がピアノを辞めた時の処分方法5選｜後悔しないチェックリスト付き",
-  description: "子供がピアノを辞めた・続かなかった時の処分方法を解説。ピアノ買取、引き取り、譲渡、粗大ゴミの比較と、売る前に確認すべき7つのチェックリスト。ヤマハ・カワイの買取相場も。",
+  description: "子供がピアノを辞めた・続かなかった時の処分方法を解説します。ピアノ買取、引き取り、譲渡、粗大ゴミの比較と、売る前に確認すべき7つのチェックリスト。ヤマハ・カワイの買取相場も。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】子供がピアノを辞めた時の処分方法5選｜後悔しないチェックリスト付き",
-    description: "子供がピアノを辞めた・続かなかった時の処分方法を解説。ピアノ買取、引き取り、譲渡、粗大ゴミの比較と、売る前に確認すべき7つのチェックリスト。ヤマハ・カワイの買取相場も。",
+    description: "子供がピアノを辞めた・続かなかった時の処分方法を解説します。ピアノ買取、引き取り、譲渡、粗大ゴミの比較と、売る前に確認すべき7つのチェックリスト。ヤマハ・カワイの買取相場も。",
   },
 };
 
@@ -61,14 +61,14 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">子供がピアノを辞めた時の処分方法5選｜後悔しないチェックリスト付き</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">子供がピアノを辞めた、続かなかった——多くの家庭で起こる悩みです。ピアノは大型かつ高価な楽器ゆえに、安易に処分すると後悔しがち。本記事では、ピアノを処分する5つの方法と、判断に迷った時のチェックリスト、ヤマハ・カワイの買取相場まで解説します。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">子供がピアノを辞めた、続かなかった——多くの家庭で起こる悩みです。ピアノは大型かつ高価な楽器ゆえに、安易に処分すると後悔につながる場合があります。本記事では、ピアノを処分する5つの方法と、判断に迷った時のチェックリスト、ヤマハ・カワイの買取相場まで解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
-            <li><a href="#checklist" className="hover:underline">売却の前にチェック！7つの判断ポイント</a></li>
+            <li><a href="#checklist" className="hover:underline">売却の前に確認：7つの判断ポイント</a></li>
             <li><a href="#methods" className="hover:underline">ピアノを処分する5つの方法</a></li>
             <li><a href="#souba" className="hover:underline">メーカー別・年式別の買取相場</a></li>
             <li><a href="#partner" className="hover:underline">おすすめのピアノ買取サービス</a></li>
@@ -78,10 +78,10 @@ export default function Page() {
         </nav>
 
         <div className="article-body">
-        <h2 id="checklist">売却の前にチェック！7つの判断ポイント</h2>
-        <p>「子供が辞めたら即処分」ではなく、まず7つのポイントを確認しましょう。後悔しない判断のためのチェックリストです。</p>
+        <h2 id="checklist">売却の前に確認：7つの判断ポイント</h2>
+        <p>「子供が辞めたら即処分」ではなく、まず7つのポイントをご確認ください。後悔しない判断のためのチェックリストです。</p>
         <ol><li><strong>他の家族が弾く可能性はないか</strong>: 兄弟姉妹や親自身が始める可能性。意外と再開する家族は多い</li><li><strong>ブランクから再開する可能性はないか</strong>: 数年後に子供本人が再開するケースも珍しくない</li><li><strong>処分費用と買取額のバランス</strong>: 古いピアノは処分費用が買取額を上回ることも</li><li><strong>運び出しのスペース・経路</strong>: 階段や狭い廊下があると、専門業者でないと運び出せない</li><li><strong>ピアノの年式・状態</strong>: 30年以内・整音整調済みなら高値が期待できる</li><li><strong>ヤマハ・カワイのモデル</strong>: 国内大手2社のピアノは中古市場で需要がある</li><li><strong>保管環境</strong>: 直射日光・湿気にさらされた個体は買取額が大きく下がる</li></ol>
-        <p>7項目のうち、<strong>5項目以上が「処分OK」の方向</strong>なら売却を進めて問題ありません。逆に「再開する可能性が高い」「保管環境が良好」なら、もう少し様子を見るのも選択肢です。</p>
+        <p>7項目のうち、<strong>5項目以上が「処分してよい」の方向</strong>なら売却を進めて問題ありません。逆に「再開する可能性が高い」「保管環境が良好」なら、もう少し様子を見るのも選択肢です。</p>
 
         <h2 id="methods">ピアノを処分する5つの方法</h2>
         <h3>方法1: ピアノ買取専門業者に売る（最もおすすめ）</h3>

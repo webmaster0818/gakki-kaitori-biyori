@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-ts808-kaitori/' },
   title: "【2026年最新】アイバニーズ TS808買取相場｜年代・仕様別の価値とオーバードライブの査定ポイント",
-  description: "Ibanez TS808（Tube Screamer）の買取相場を年代・仕様別に解説。名オーバードライブの価値要因、ヴィンテージ（旧ロゴ/JRC4558D）の評価、状態の査定差とおすすめ買取3社を比較。",
+  description: "Ibanez TS808（Tube Screamer）の買取相場を年代・仕様別に解説します。名オーバードライブの価値要因、ヴィンテージ（旧ロゴ/JRC4558D）の評価、状態の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "TS808の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行リイシューで5,000〜1.5万円、ヴィンテージの旧ロゴ個体は3万〜8万円以上が目安です。チップや基板の世代で大きく変わります。" } },
       { "@type": "Question", name: "ヴィンテージのTS808が高いのはなぜですか？", acceptedAnswer: { "@type": "Answer", text: "初期のオペアンプ（JRC4558D等）を搭載した旧ロゴ個体が音色面で評価され、希少性からプレミア化しているためです。" } },
-      { "@type": "Question", name: "動作しなくても売れますか？", acceptedAnswer: { "@type": "Answer", text: "部品取りや修理前提で買取される場合があります。状態を正直に伝えましょう。" } },
+      { "@type": "Question", name: "動作しなくても売れますか？", acceptedAnswer: { "@type": "Answer", text: "部品取りや修理前提で買取される場合があります。状態を正確に伝えてください。" } },
       { "@type": "Question", name: "改造（MOD）品は不利ですか？", acceptedAnswer: { "@type": "Answer", text: "オリジナルが最も高評価ですが、有名ビルダーのMODは需要がある場合もあります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function IbanezTs808KaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>アイバニーズ TS808を売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>アイバニーズ TS808を売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>年代・仕様（オリジナルのヴィンテージは高額、現行リイシューは手頃）</li>
             <li>オペアンプチップ（JRC4558D等）の有無・基板の世代</li>
@@ -107,7 +107,7 @@ export default function IbanezTs808KaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -135,7 +135,7 @@ export default function IbanezTs808KaitoriPage() {
                 <span className="pr-4">動作しなくても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">部品取りや修理前提で買取される場合があります。状態を正直に伝えましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">部品取りや修理前提で買取される場合があります。状態を正確に伝えてください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

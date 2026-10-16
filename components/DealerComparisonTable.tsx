@@ -11,8 +11,8 @@ type Props = {
 
 export default function DealerComparisonTable({
   dealerIds,
-  heading = "楽器買取業者 主要7社 徹底比較",
-  intro = "店舗数・対応エリア・査定スピード・手数料の公式公開情報をまとめました。出典は各社公式サイト（最終確認：2026年6月）。",
+  heading = "楽器買取業者 主要7社 比較",
+  intro = "店舗数・対応エリア・査定スピード・手数料について、各社の公式サイトで公開されている情報を掲載しています。出典は各社公式サイト（最終確認：2026年6月）。",
 }: Props) {
   const dealers: Dealer[] = dealerIds ? pickDealers(dealerIds) : DEALERS;
 

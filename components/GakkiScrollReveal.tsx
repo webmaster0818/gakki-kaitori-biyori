@@ -11,7 +11,7 @@ export default function GakkiScrollReveal() {
   // URLが変わるたび（クリック遷移）に再実行。これがないと遷移先で非表示のまま＝白化けする
   const pathname = usePathname()
   useEffect(() => {
-    // .article-body は中身を内包する1つの大きな箱なので、それ自体ではなく
+    // .article-body は中身を内包する1つの大きな箱のため、それ自体ではなく
     // 「本文の各ブロック」＋「article直下のヘッダー/目次/カード/関連」を個別に対象にする
     const els = Array.from(
       document.querySelectorAll(

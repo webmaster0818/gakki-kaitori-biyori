@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/chiba-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 千葉おすすめ3選｜出張・店頭・宅配を比較",
   description:
-    "千葉で楽器を売るならどこがいい？千葉対応の楽器買取おすすめ3社を徹底比較。千葉・船橋・柏エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説。",
+    "千葉で楽器を売るならどこがいい？千葉対応の楽器買取おすすめ3社を比較します。千葉・船橋・柏エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 千葉おすすめ3選｜出張・店頭・宅配を比較",
-    description: "千葉で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを徹底解説。",
+    description: "千葉で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
   },
 };
 
@@ -68,7 +68,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "千葉で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "千葉で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。一括査定で相場を把握してから売却先を決めると、損をしにくくなります。" } },
       { "@type": "Question", name: "千葉で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは千葉エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
-      { "@type": "Question", name: "千葉の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼して確認しましょう。" } },
+      { "@type": "Question", name: "千葉の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
       { "@type": "Question", name: "壊れた楽器でも千葉で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド品は壊れていても値段がつくことがあります。" } },
       { "@type": "Question", name: "千葉から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら千葉から全国の買取業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。" } },
     ],
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 千葉おすすめ3選｜出張・店頭・宅配を徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/chiba-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 千葉おすすめ3選｜出張・店頭・宅配を比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/chiba-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -103,10 +103,10 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】楽器買取 千葉おすすめ3選｜出張・店頭・宅配を徹底比較
+            【2026年最新】楽器買取 千葉おすすめ3選｜出張・店頭・宅配を比較
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            千葉で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、千葉エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、千葉・船橋・柏など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
+            千葉で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、千葉エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、千葉・船橋・柏など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -136,7 +136,7 @@ export default function Page() {
 
           <CtaBox />
 
-          <h2 id="comparison">千葉対応の楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">千葉対応の楽器買取おすすめ3社を比較</h2>
 
           <p>千葉エリアに対応している楽器買取3社を、買取方法・特徴・スピードの面から比較します。</p>
 
@@ -151,7 +151,7 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">千葉対応</td><td className="px-4 py-3">全国対応（千葉含む）</td><td className="px-4 py-3">全国対応（千葉含む）</td><td className="px-4 py-3">千葉エリア出張可</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -171,7 +171,7 @@ export default function Page() {
 
           <h3>ウリエル ── 千葉エリアの出張買取に対応</h3>
 
-          <p>ウリエルは出張買取専門のサービスで、千葉エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
+          <p>ウリエルは出張買取を中心とするサービスで、千葉エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
 
           <CtaBox />
 
@@ -204,7 +204,7 @@ export default function Page() {
             </table>
           </div>
 
-          <p>上記はあくまで目安です。<strong>正確な買取価格を知るには、複数の業者に査定を依頼しましょう。</strong></p>
+          <p>上記はあくまで目安です。<strong>正確な買取価格を知るには、複数の業者に査定をご依頼ください。</strong></p>
 
           <CtaBox />
 
@@ -214,22 +214,22 @@ export default function Page() {
           <p>最も効果的なのが相見積もりです。ヒカカク！を使えば一度の入力で複数業者から査定額が届きます。業者によって得意ジャンルが異なるため、同じ楽器でも数万円の差が出ることがあります。</p>
 
           <h3>コツ2: 付属品を揃えて査定に出す</h3>
-          <p>ケース・保証書・取扱説明書・アダプターなど、購入時の付属品は可能な限り揃えましょう。特に純正ハードケースは数千円〜1万円のプラス評価になることもあります。</p>
+          <p>ケース・保証書・取扱説明書・アダプターなど、購入時の付属品は可能な限り揃えてください。特に純正ハードケースは数千円〜1万円のプラス評価になることもあります。</p>
 
           <h3>コツ3: クリーニングで第一印象アップ</h3>
-          <p>査定前にボディを拭き、弦を張り替え、フレットボードを保湿しましょう。見た目の清潔感は査定額に直結します。管楽器は内部洗浄、ピアノは鍵盤の拭き掃除を行うと好印象です。</p>
+          <p>査定前にボディを拭き、弦を張り替え、フレットボードを保湿してください。見た目の清潔感は査定額に直結します。管楽器は内部洗浄、ピアノは鍵盤の拭き掃除を行うと好印象です。</p>
 
           <h3>コツ4: 需要が高い時期に売る</h3>
           <p>2〜3月の新学期シーズンやボーナス時期（6〜7月、12月）は楽器の需要が高まり、買取価格も上がりやすい傾向があります。逆に年末年始やお盆は避けた方が無難です。</p>
 
           <h3>コツ5: 全国サービスも併用する</h3>
-          <p>地元の楽器店だけでなく、ヒカカク！のような全国サービスも活用しましょう。<strong>地元店の買取価格が全国相場より低いケースは少なくありません。</strong></p>
+          <p>地元の楽器店だけでなく、ヒカカク！のような全国サービスもご活用ください。<strong>地元店の買取価格が全国相場より低いケースは少なくありません。</strong></p>
 
           <CtaBox />
 
           <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
             <p className="font-bold text-sm mb-1">ギターを売るなら専用ガイドへ</p>
-            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>
+            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表を掲載した専用ページで詳しく解説しています。</p>
             <Link href="/articles/guitar-kaitori-chiba/" className="text-accent font-medium text-sm hover:underline">千葉のギター買取おすすめ3社と相場を見る →</Link>
           </div>
 
@@ -255,14 +255,14 @@ export default function Page() {
                 <span className="pr-4">千葉の楽器買取相場はどのくらいですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円が目安です。正確な金額は複数業者に査定依頼して確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円が目安です。正確な金額は複数業者に査定依頼してご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
                 <span className="pr-4">壊れた楽器でも千葉で買い取ってもらえますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、壊れた楽器やジャンク品でも査定可能です。ブランド品は壊れていても値段がつくことがあります。まずは無料査定で確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、壊れた楽器やジャンク品でも査定可能です。ブランド品は壊れていても値段がつくことがあります。まずは無料査定でご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
@@ -273,7 +273,7 @@ export default function Page() {
             </details>
           </div>
 
-          <h2>まとめ：千葉の楽器買取は複数社比較が鉄則</h2>
+          <h2>まとめ：千葉の楽器買取は複数社の比較が基本</h2>
 
           <p>千葉で楽器を売る際は、1社だけの査定で決めずに複数の業者を比較することが大切です。今回紹介した3社の使い分けをまとめます。</p>
 
@@ -283,7 +283,7 @@ export default function Page() {
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定はすべて無料です。まずはヒカカク！で千葉エリアの買取相場を確認してみてください。</p>
+          <p>査定はすべて無料です。まずはヒカカク！で千葉エリアの買取相場をご確認ください。</p>
 
           <CtaBox />
         </div>

@@ -20,7 +20,7 @@ export default function PriceDisclaimer() {
           実際の買取額は、<strong className="text-foreground">楽器の状態・年式・付属品・市場の需要や買取業者によって変動</strong>します。
           記載の金額は<strong className="text-foreground">あくまで目安であり、買取額を保証するものではありません</strong>。
         </li>
-        <li>正確な金額は、各買取業者の無料査定で実際にご確認ください（複数社の比較がおすすめです）。</li>
+        <li>正確な金額は、各買取業者の無料査定にてご確認ください（複数社での比較をおすすめします）。</li>
       </ul>
     </aside>
   );

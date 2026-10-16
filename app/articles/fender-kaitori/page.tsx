@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-kaitori/' },
   title: "【2026年10月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
   description:
-    "Fender(フェンダー)の買取相場を徹底解説。Stratocaster・Telecaster・Jazz Bassなどモデル別の買取価格、USA製・メキシコ製・日本製の違い、Custom Shop製品の査定ポイントまで。おすすめ買取業者3社比較。",
+    "Fender(フェンダー)の買取相場を解説します。Stratocaster・Telecaster・Jazz Bassなどモデル別の買取価格、USA製・メキシコ製・日本製の違い、Custom Shop製品の査定ポイントまで。おすすめ買取業者3社比較。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
-    description: "Fenderギターの買取相場をモデル・製造国別に徹底解説。ストラト・テレキャスの相場目安と高く売るコツ。",
+    description: "Fenderギターの買取相場をモデル・製造国別に解説します。ストラト・テレキャスの相場目安と高く売るコツを解説します。",
   },
 };
 
@@ -41,7 +41,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのFenderの買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のFenderの買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -70,7 +70,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "Fenderギターの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "Fenderギターの買取相場は製造国・モデルにより異なります。USA製American Professional IIが7万〜14万円、Custom Shopが15万〜50万円以上、メキシコ製Playerが3万〜6万円、日本製（旧Fender Japan）が2万〜8万円が目安です。" } },
       { "@type": "Question", name: "Fender USAとFender Japanの買取価格の違いは？", acceptedAnswer: { "@type": "Answer", text: "Fender USAは7万〜20万円、Fender Japan（現Made in Japan）は2万〜8万円が一般的な相場です。USA製は中古市場で圧倒的に人気が高く、特にAmerican ProfessionalやAmerican Ultraシリーズは安定した高額買取が期待できます。" } },
-      { "@type": "Question", name: "Fender Custom Shopの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Fender Custom Shop製品は15万〜50万円以上が一般的な買取相場です。マスタービルダー製のモデルは50万〜100万円を超えることもあります。COA（認定証）の有無で査定額が大きく変わるため、必ず揃えて査定に出しましょう。" } },
+      { "@type": "Question", name: "Fender Custom Shopの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Fender Custom Shop製品は15万〜50万円以上が一般的な買取相場です。マスタービルダー製のモデルは50万〜100万円を超えることもあります。COA（認定証）の有無で査定額が大きく変わるため、必ず揃えて査定に出してください。" } },
       { "@type": "Question", name: "Fenderギターの製造国を確認する方法は？", acceptedAnswer: { "@type": "Answer", text: "Fenderギターの製造国は、ヘッドのロゴ下やネックプレートのシリアルナンバーで確認できます。USの場合はUS+数字、MXはメキシコ製、JDやMIJは日本製を示します。製造国により買取相場が異なるため、事前に確認しておくことをおすすめします。" } },
       { "@type": "Question", name: "Fenderを最も高く売るには？", acceptedAnswer: { "@type": "Answer", text: "Fenderを高く売るには、(1)ヒカカク！で複数業者に一括査定する、(2)純正ハードケース・ギグバッグ・保証書を揃える、(3)トレモロアームやレンチなど小物も一緒に出す、(4)弦を張り替えてクリーニングする、の4つが重要です。" } },
     ],
@@ -88,7 +88,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/fender-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/fender-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -105,7 +105,7 @@ export default function FenderKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年10月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを徹底解説
+            【2026年10月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツを解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             Fender(フェンダー)のギター・ベースを売りたい方へ。本記事では、Stratocaster・Telecaster・Jazz Bassなどモデル別の買取相場をUSA製・メキシコ製・日本製に分けて解説。Custom Shop製品の査定ポイントや、高く売るためのコツまで網羅しています。
@@ -251,7 +251,7 @@ export default function FenderKaitoriPage() {
 
           <CtaBox />
 
-          <h2 id="comparison">Fender買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">Fender買取おすすめ3社を比較</h2>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -290,7 +290,7 @@ export default function FenderKaitoriPage() {
           <h2 id="tips">Fenderを高く売るための5つのコツ</h2>
 
           <h3>コツ1: 複数社に査定を依頼する</h3>
-          <p>Fenderは流通量が多いため、業者の在庫状況によって査定額が変動します。<strong>ヒカカク！で一括査定し、最低3社の見積もりを比較</strong>しましょう。</p>
+          <p>Fenderは流通量が多いため、業者の在庫状況によって査定額が変動します。<strong>ヒカカク！で一括査定し、最低3社の見積もりを比較</strong>してください。</p>
 
           <h3>コツ2: 付属品を漏れなく揃える</h3>
           <ul>
@@ -305,14 +305,14 @@ export default function FenderKaitoriPage() {
 
           <h3>コツ4: クリーニングで印象アップ</h3>
           <ul>
-            <li><strong>ボディ</strong>: ポリウレタン塗装なら市販のポリッシュでOK</li>
+            <li><strong>ボディ</strong>: ポリウレタン塗装なら市販のポリッシュで対応できます</li>
             <li><strong>メイプル指板</strong>: 乾拭きで汚れを落とす（オイル不要）</li>
             <li><strong>ローズウッド指板</strong>: レモンオイルで保湿</li>
             <li><strong>弦</strong>: 新品に交換して印象アップ</li>
           </ul>
 
           <h3>コツ5: 改造パーツは純正に戻す</h3>
-          <p>ピックアップやペグを交換している場合は純正パーツに戻しましょう。<strong>Fenderはオリジナルの状態が最も高く評価</strong>されます。純正パーツがない場合は、交換パーツの情報を伝えましょう。</p>
+          <p>ピックアップやペグを交換している場合は純正パーツに戻してください。<strong>Fenderはオリジナルの状態が最も高く評価</strong>されます。純正パーツがない場合は、交換パーツの情報を伝えてください。</p>
 
           <CtaBox />
 
@@ -328,7 +328,7 @@ export default function FenderKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">一括査定で相場を把握</h3><p className="text-sm text-warm-gray">ヒカカク！で複数社に一括査定。USA製とMexico製で査定額が2〜3倍違うこともあるため、正確な情報を伝えましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で相場を把握</h3><p className="text-sm text-warm-gray">ヒカカク！で複数社に一括査定。USA製とMexico製で査定額が2〜3倍違うこともあるため、正確な情報を伝えてください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -369,7 +369,7 @@ export default function FenderKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                Fender Custom Shop製品は15万〜50万円以上が一般的な買取相場です。マスタービルダー製のモデルは50万〜100万円を超えることもあります。COA（認定証）の有無で査定額が大きく変わるため、必ず揃えて査定に出しましょう。
+                Fender Custom Shop製品は15万〜50万円以上が一般的な買取相場です。マスタービルダー製のモデルは50万〜100万円を超えることもあります。COA（認定証）の有無で査定額が大きく変わるため、必ず揃えて査定に出してください。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -394,7 +394,7 @@ export default function FenderKaitoriPage() {
 
           <h2>まとめ：Fender買取は製造国の確認と複数社比較がカギ</h2>
 
-          <p>Fenderギターは製造国とモデルラインによって買取価格が明確に異なります。まずは自分のギターの製造国を確認し、相場を把握してから査定に臨みましょう。</p>
+          <p>Fenderギターは製造国とモデルラインによって買取価格が明確に異なります。まずは自分のギターの製造国を確認し、相場を把握してから査定に臨んでください。</p>
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
@@ -402,7 +402,7 @@ export default function FenderKaitoriPage() {
             <li><strong>自宅でまとめて売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定は完全無料です。まずはヒカカク！でお手持ちのFenderの相場をチェックしてみてください。</p>
+          <p>査定は無料です。まずはヒカカク！でお手持ちのFenderの相場をご確認ください。</p>
 
           <CtaBox />
         </div>

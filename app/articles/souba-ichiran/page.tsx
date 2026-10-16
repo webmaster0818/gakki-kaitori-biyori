@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/souba-ichiran/' },
   title: "【2026年最新】楽器買取相場一覧｜ギター・ピアノ・管楽器・ドラムの相場まとめ",
   description:
-    "楽器の買取相場を楽器カテゴリ別に完全網羅。ギター・ベース・ピアノ・電子ピアノ・管楽器・弦楽器・ドラム・キーボードの代表的なブランド・モデルと買取価格レンジを一覧で解説。相場を左右する5つの要因も紹介。",
+    "楽器の買取相場を楽器カテゴリ別に完全掲載しています。ギター・ベース・ピアノ・電子ピアノ・管楽器・弦楽器・ドラム・キーボードの代表的なブランド・モデルと買取価格レンジを一覧で解説します。相場を左右する5つの要因も紹介します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取相場一覧｜全カテゴリの相場まとめ",
-    description: "楽器の買取相場を全カテゴリ別に一覧で解説。ギターからドラムまで、代表的なブランド・モデルの買取価格レンジを完全網羅。",
+    description: "楽器の買取相場を全カテゴリ別に一覧で解説します。ギターからドラムまで、代表的なブランド・モデルの買取価格レンジを完全掲載しています。",
   },
 };
 
@@ -39,7 +39,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -66,9 +66,9 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "楽器の買取相場はどうやって決まりますか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場は主に(1)ブランド・モデル、(2)楽器の状態、(3)付属品の有無、(4)市場の需要、(5)年式・希少性の5つの要因で決まります。同じモデルでも状態や付属品によって数万円の差が出ることがあります。" } },
+      { "@type": "Question", name: "楽器の買取相場はどのように決まりますか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場は主に(1)ブランド・モデル、(2)楽器の状態、(3)付属品の有無、(4)市場の需要、(5)年式・希少性の5つの要因で決まります。同じモデルでも状態や付属品によって数万円の差が出ることがあります。" } },
       { "@type": "Question", name: "楽器を最も高く売る方法は何ですか？", acceptedAnswer: { "@type": "Answer", text: "楽器を最も高く売るには、複数の買取業者に査定を依頼して比較する「相見積もり」が最も効果的です。ヒカカク！のような一括査定サービスを利用すれば、一度の入力で複数業者の査定額を比較できます。" } },
-      { "@type": "Question", name: "壊れた楽器や古い楽器でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、多くの買取業者は壊れた楽器や古い楽器でも査定可能です。特に有名ブランドの楽器は、修理可能な状態であれば値段がつくことがあります。ヴィンテージ楽器は古いほど価値が上がることもあるため、諦めずに査定に出してみましょう。" } },
+      { "@type": "Question", name: "壊れた楽器や古い楽器でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、多くの買取業者は壊れた楽器や古い楽器でも査定可能です。特に有名ブランドの楽器は、修理可能な状態であれば値段がつくことがあります。ヴィンテージ楽器は古いほど価値が上がることもあるため、諦めずに査定に出してください。" } },
     ],
   };
   const articleData = {
@@ -104,7 +104,7 @@ export default function SoubaIchiranPage() {
             【2026年最新】楽器買取相場一覧｜全カテゴリの買取価格を完全網羅
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            楽器を売りたいけど、自分の楽器がいくらで売れるのかわからない方へ。本記事では、ギター・ベース・ピアノ・電子ピアノ・管楽器（サックス・トランペット等）・弦楽器（バイオリン・チェロ等）・ドラム・キーボード/シンセサイザーの全カテゴリについて、代表的なブランド・モデルの買取価格レンジを一覧でまとめました。相場を左右する5つの要因も解説しているので、売却前の参考にしてください。
+            楽器を売りたいものの、自分の楽器がいくらで売れるのかわからない方へ。本記事では、ギター・ベース・ピアノ・電子ピアノ・管楽器（サックス・トランペット等）・弦楽器（バイオリン・チェロ等）・ドラム・キーボード/シンセサイザーの全カテゴリについて、代表的なブランド・モデルの買取価格レンジを一覧でまとめました。相場を左右する5つの要因も解説しているので、売却前の参考にしてください。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -439,7 +439,7 @@ export default function SoubaIchiranPage() {
             <li><strong>手間が最小限</strong>: ヒカカク！なら1回の情報入力で複数社に査定依頼可能</li>
           </ul>
 
-          <p>相場表を参考にしつつ、最終的には<Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline font-medium">買取方法の比較</Link>を確認し、あなたに最適な売却方法を選びましょう。</p>
+          <p>相場表を参考にしつつ、最終的には<Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline font-medium">買取方法の比較</Link>を確認し、利用者に最適な売却方法を選んでください。</p>
 
           <CtaBox />
 
@@ -449,7 +449,7 @@ export default function SoubaIchiranPage() {
           <div className="space-y-4 mt-6">
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
-                <span className="pr-4">楽器の買取相場はどうやって決まりますか？</span>
+                <span className="pr-4">楽器の買取相場はどのように決まりますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
@@ -463,7 +463,7 @@ export default function SoubaIchiranPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                楽器を最も高く売るには、複数の買取業者に査定を依頼して比較する「相見積もり」が最も効果的です。ヒカカク！のような一括査定サービスを利用すれば、一度の入力で複数業者の査定額を比較できます。加えて、付属品を揃える・クリーニングする・需要が高い時期に売る、という3つのポイントも意識しましょう。
+                楽器を最も高く売るには、複数の買取業者に査定を依頼して比較する「相見積もり」が最も効果的です。ヒカカク！のような一括査定サービスを利用すれば、一度の入力で複数業者の査定額を比較できます。加えて、付属品を揃える・クリーニングする・需要が高い時期に売る、という3つのポイントも意識してください。
               </div>
             </details>
 
@@ -473,12 +473,12 @@ export default function SoubaIchiranPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、多くの買取業者は壊れた楽器や古い楽器でも査定可能です。特にGibson、Fender、Selmerなどの有名ブランドは、修理可能な状態であれば値段がつくことがあります。ビンテージ楽器は古いほど価値が上がることもあるため、諦めずに査定に出してみましょう。本記事で紹介している3社はすべて査定無料です。
+                はい、多くの買取業者は壊れた楽器や古い楽器でも査定可能です。特にGibson、Fender、Selmerなどの有名ブランドは、修理可能な状態であれば値段がつくことがあります。ビンテージ楽器は古いほど価値が上がることもあるため、諦めずに査定に出してください。本記事で紹介している3社はすべて査定無料です。
               </div>
             </details>
           </div>
 
-          <h2>まとめ：楽器の適正価格を知るには相見積もりが鉄則</h2>
+          <h2>まとめ：楽器の適正価格を知るには相見積もりが基本</h2>
 
           <p>楽器の買取価格は、ブランド・状態・付属品・市場需要・年式の5つの要因で決まります。同じ楽器でも業者によって査定額に大きな差が出るため、<strong>必ず複数の業者に査定を依頼して比較すること</strong>が最も重要です。</p>
 
@@ -519,7 +519,7 @@ export default function SoubaIchiranPage() {
             <li><strong>大型楽器を自宅で売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定は完全無料なので、まずは気軽にお手持ちの楽器の相場を確認してみてください。</p>
+          <p>査定は無料のため、まずは気軽にお手持ちの楽器の相場をご確認ください。</p>
 
           <CtaBox />
         </div>

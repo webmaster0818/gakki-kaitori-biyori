@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/keyboard-kaitori/' },
   title: "【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場ガイド",
   description:
-    "キーボード・シンセサイザー買取のおすすめ業者3社を徹底比較。ステージピアノ・ワークステーション・アナログシンセの買取相場、KORG・Roland・YAMAHA・Nord・Moogなどブランド別の相場目安、ビンテージシンセの価値まで解説。",
+    "キーボード・シンセサイザー買取のおすすめ業者3社を比較します。ステージピアノ・ワークステーション・アナログシンセの買取相場、KORG・Roland・YAMAHA・Nord・Moogなどブランド別の相場目安、ビンテージシンセの価値まで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場ガイド",
-    description: "キーボード・シンセサイザー買取のおすすめ業者3社を徹底比較。種類別・ブランド別の買取相場から高く売るコツまで完全ガイド。",
+    description: "キーボード・シンセサイザー買取のおすすめ業者3社を比較します。種類別・ブランド別の買取相場から高く売るコツまで解説します。",
   },
 };
 
@@ -39,7 +39,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのキーボード・シンセの買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のキーボード・シンセの買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場・ビンテージの価値を徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/keyboard-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場・ビンテージの価値を解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/keyboard-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -104,10 +104,10 @@ export default function KeyboardKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場・ビンテージの価値を徹底解説
+            【2026年最新】キーボード・シンセサイザー買取おすすめ3社比較｜相場・ビンテージの価値を解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            キーボードやシンセサイザーを売りたいけど、適正価格がわからない方へ。本記事では、キーボード・シンセサイザー買取の人気3サービスを徹底比較し、ステージピアノ・ワークステーション・アナログシンセの買取相場、デジタルピアノとの違い、KORG・Roland・YAMAHA・Nord・Moogなどブランド別の相場目安、そしてビンテージシンセの驚くべき価値について詳しく解説します。
+            キーボードやシンセサイザーを売りたいものの、適正価格がわからない方へ。本記事では、キーボード・シンセサイザー買取の人気3サービスを比較し、ステージピアノ・ワークステーション・アナログシンセの買取相場、デジタルピアノとの違い、KORG・Roland・YAMAHA・Nord・Moogなどブランド別の相場目安、そしてビンテージシンセの驚くべき価値について詳しく解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -128,7 +128,7 @@ export default function KeyboardKaitoriPage() {
         <div className="article-body">
           <h2 id="difference">キーボード・シンセサイザーとデジタルピアノの違い</h2>
 
-          <p>買取に出す前に、お手持ちの楽器がどのカテゴリに該当するかを確認しましょう。買取市場では<strong>キーボード/シンセサイザーとデジタルピアノ（電子ピアノ）は別カテゴリ</strong>として扱われることが多いです。</p>
+          <p>買取に出す前に、お手持ちの楽器がどのカテゴリに該当するかをご確認ください。買取市場では<strong>キーボード/シンセサイザーとデジタルピアノ（電子ピアノ）は別カテゴリ</strong>として扱われることが多いです。</p>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -228,7 +228,7 @@ export default function KeyboardKaitoriPage() {
 
           <CtaBox />
 
-          <h2 id="comparison">キーボード・シンセ買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">キーボード・シンセ買取おすすめ3社を比較</h2>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -241,7 +241,7 @@ export default function KeyboardKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">対応地域</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国主要都市</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -387,11 +387,11 @@ export default function KeyboardKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">一括査定で相場を把握</h3><p className="text-sm text-warm-gray">ヒカカク！で複数業者に一括査定。ビンテージシンセは専門店と総合買取店で査定額が大きく異なるため、必ず比較しましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で相場を把握</h3><p className="text-sm text-warm-gray">ヒカカク！で複数業者に一括査定。ビンテージシンセは専門店と総合買取店で査定額が大きく異なるため、必ず比較してください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
-              <div><h3 className="font-bold text-sm mb-1">買取方法の選択</h3><p className="text-sm text-warm-gray">61鍵以下のコンパクトモデルなら宅配買取も可能。88鍵やワークステーションなど大型モデルは出張買取（ウリエル）がおすすめです。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">買取方法の選択</h3><p className="text-sm text-warm-gray">61鍵以下のコンパクトモデルなら宅配買取も可能です。88鍵やワークステーションなど大型モデルは出張買取（ウリエル）がおすすめです。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
@@ -450,14 +450,14 @@ export default function KeyboardKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。完全無料で利用できます。
+                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。無料で利用できます。
               </div>
             </details>
           </div>
 
           <h2>まとめ：キーボード・シンセは型番と状態が査定の鍵</h2>
 
-          <p>キーボード・シンセサイザーの買取は、<strong>モデル（型番）と動作状態</strong>が査定額を大きく左右します。特にビンテージアナログシンセは業者によって評価が大きく異なるため、必ず複数業者で比較しましょう。</p>
+          <p>キーボード・シンセサイザーの買取は、<strong>モデル（型番）と動作状態</strong>が査定額を大きく左右します。特にビンテージアナログシンセは業者によって評価が大きく異なるため、必ず複数業者で比較してください。</p>
 
           <ul>
             <li><strong>ビンテージ・高額機材の最高値を知る</strong> → ヒカカク！で一括査定</li>
@@ -465,7 +465,7 @@ export default function KeyboardKaitoriPage() {
             <li><strong>88鍵など重い機材を売る</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>電源アダプターと付属品を忘れず揃えてから査定に出しましょう。査定は完全無料です。</p>
+          <p>電源アダプターと付属品を忘れず揃えてから査定に出してください。査定は無料です。</p>
 
           <CtaBox />
         </div>

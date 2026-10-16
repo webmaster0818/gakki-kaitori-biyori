@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-kaitori/' },
   title: "【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
   description:
-    "Gibson(ギブソン)の買取相場を徹底解説。Les Paul・SG・ES-335などモデル別の買取価格目安、ヴィンテージGibsonの査定ポイント、高く売るコツまで。おすすめ買取業者3社の比較で最高値がわかります。",
+    "Gibson(ギブソン)の買取相場を解説します。Les Paul・SG・ES-335などモデル別の買取価格目安、ヴィンテージGibsonの査定ポイント、高く売るコツまで。おすすめ買取業者3社の比較で最高値がわかります。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツ",
-    description: "Gibsonギターの買取相場をモデル別に徹底解説。Les Paul・SG・ES-335の相場目安と高く売るコツ。",
+    description: "Gibsonギターの買取相場をモデル別に解説します。Les Paul・SG・ES-335の相場目安と高く売るコツを解説します。",
   },
 };
 
@@ -41,7 +41,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのGibsonの買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のGibsonの買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -88,7 +88,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/gibson-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/gibson-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -106,10 +106,10 @@ export default function GibsonKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを徹底解説
+            【2026年10月 週次相場更新】Gibson(ギブソン)買取相場・おすすめ業者3選｜高く売るコツを解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            Gibson(ギブソン)のギターを売りたいとお考えの方へ。本記事では、Les Paul・SG・ES-335などGibsonの人気モデル別の買取相場を詳しく解説し、おすすめの買取業者3社を比較。ヴィンテージGibsonの査定ポイントや、少しでも高く売るためのコツまで網羅しています。
+            Gibson(ギブソン)のギターを売りたいとお考えの方へ。本記事では、Les Paul・SG・ES-335などGibsonの人気モデル別の買取相場を詳しく解説し、おすすめの買取業者3社を比較します。ヴィンテージGibsonの査定ポイントや、少しでも高く売るためのコツまで網羅しています。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -207,7 +207,7 @@ export default function GibsonKaitoriPage() {
             </table>
           </div>
 
-          <p>上記はあくまで目安であり、実際の買取価格は楽器の状態やその時の市場需要によって変動します。<strong>Gibsonは業者によって査定額の差が大きいブランドなので、必ず複数社に査定を依頼しましょう。</strong></p>
+          <p>上記はあくまで目安であり、実際の買取価格は楽器の状態やその時の市場需要によって変動します。<strong>Gibsonは業者によって査定額の差が大きいブランドのため、必ず複数社に査定をご依頼ください。</strong></p>
 
           <CtaBox />
 
@@ -250,7 +250,7 @@ export default function GibsonKaitoriPage() {
           <CtaBox />
 
           {/* Section 3: 3社比較 */}
-          <h2 id="comparison">Gibson買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">Gibson買取おすすめ3社を比較</h2>
 
           <p>Gibsonのギターは高額になるケースが多いため、買取業者選びが特に重要です。ここでは、Gibson買取に強いおすすめ3社を比較します。</p>
 
@@ -265,7 +265,7 @@ export default function GibsonKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">Gibson対応</td><td className="px-4 py-3">全モデル対応</td><td className="px-4 py-3">全モデル対応</td><td className="px-4 py-3">全モデル対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -281,11 +281,11 @@ export default function GibsonKaitoriPage() {
 
           <h3>ティファナ ── 状態を問わず査定対応</h3>
 
-          <p>ティファナは出張・店頭・宅配の3方式に対応し、年間4万件の買取実績があります。Gibsonのヘッド折れや塗装の剥がれなど、<strong>状態が良くないギターでも査定してくれる</strong>のが強みです。「値段がつくかわからない」というGibsonをお持ちなら、まずティファナに相談してみましょう。</p>
+          <p>ティファナは出張・店頭・宅配の3方式に対応し、年間4万件の買取実績があります。Gibsonのヘッド折れや塗装の剥がれなど、<strong>状態が良くないギターでも査定してくれる</strong>のが強みです。「値段がつくかわからない」というGibsonをお持ちなら、まずティファナに相談してください。</p>
 
           <h3>ウリエル ── 出張買取でGibsonを安全に売却</h3>
 
-          <p>Gibsonのギターは高額になるため、宅配時の破損リスクが気になる方も多いでしょう。ウリエルなら査定士が自宅に来てくれるため、<strong>梱包・発送の手間も破損リスクもありません</strong>。複数本のGibsonやアンプなどまとめて売りたい場合にも最適です。</p>
+          <p>Gibsonのギターは高額になるため、宅配時の破損リスクが気になる方も少なくありません。ウリエルなら査定士が自宅に来てくれるため、<strong>梱包・発送の手間も破損リスクもありません</strong>。複数本のGibsonやアンプなどまとめて売りたい場合にも最適です。</p>
 
           <CtaBox />
 
@@ -294,11 +294,11 @@ export default function GibsonKaitoriPage() {
 
           <h3>コツ1: 必ず複数社に査定を依頼する</h3>
 
-          <p>Gibsonは業者によって得意なモデルが異なるため、査定額に大きな差が出ます。ヒカカク！を使えば一度の入力で複数社に依頼できるので、<strong>最低でも3社以上の査定額を比較</strong>しましょう。</p>
+          <p>Gibsonは業者によって得意なモデルが異なるため、査定額に大きな差が出ます。ヒカカク！を使えば一度の入力で複数社に依頼できるので、<strong>最低でも3社以上の査定額を比較</strong>してください。</p>
 
           <h3>コツ2: 純正ケース・COA・保証書を揃える</h3>
 
-          <p>Gibsonの純正ハードケースは、それだけで1万〜3万円の価値があります。特にヴィンテージのブラウンケースやピンクライニングのケースは高額です。Custom Shop製品のCOA（認定証）も必ず一緒に出しましょう。</p>
+          <p>Gibsonの純正ハードケースは、それだけで1万〜3万円の価値があります。特にヴィンテージのブラウンケースやピンクライニングのケースは高額です。Custom Shop製品のCOA（認定証）も必ず一緒に出してください。</p>
 
           <h3>コツ3: シリアルナンバーを事前に調べておく</h3>
 
@@ -315,14 +315,14 @@ export default function GibsonKaitoriPage() {
 
           <h3>コツ5: 改造パーツは純正に戻す</h3>
 
-          <p>Gibsonはオリジナルの状態が最も高く評価されます。ピックアップやペグを交換している場合は、<strong>純正パーツに戻してから査定に出す</strong>のがベストです。純正パーツがない場合は、交換したパーツのブランド・型番を伝えましょう。</p>
+          <p>Gibsonはオリジナルの状態が最も高く評価されます。ピックアップやペグを交換している場合は、<strong>純正パーツに戻してから査定に出す</strong>のがベストです。純正パーツがない場合は、交換したパーツのブランド・型番を伝えてください。</p>
 
           <CtaBox />
 
           {/* Section 5: シリアルナンバー */}
           <h2 id="serial">Gibsonシリアルナンバーの読み方</h2>
 
-          <p>Gibsonのシリアルナンバーは、製造年や工場を特定するための重要な手がかりです。査定時にも必ず確認されるポイントなので、事前に自分のギターの情報を把握しておきましょう。</p>
+          <p>Gibsonのシリアルナンバーは、製造年や工場を特定するための重要な手がかりです。査定時にも必ず確認されるポイントのため、事前に自分のギターの情報を把握しておいてください。</p>
 
           <h3>1977年以降のシリアルナンバー（8桁）</h3>
 
@@ -343,7 +343,7 @@ export default function GibsonKaitoriPage() {
           {/* 買取の流れ */}
           <h2 id="flow">Gibson買取の流れ</h2>
 
-          <p>大切なGibsonギターを適正価格で売るための流れを確認しましょう。</p>
+          <p>大切なGibsonギターを適正価格で売るための流れをご確認ください。</p>
 
           <div className="space-y-4 my-6">
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
@@ -352,7 +352,7 @@ export default function GibsonKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">一括査定で複数社比較</h3><p className="text-sm text-warm-gray">Gibsonは業者によって得意不得意が大きく、同じモデルでも数万円の差が出ます。ヒカカク！で必ず複数社の見積もりを取りましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で複数社比較</h3><p className="text-sm text-warm-gray">Gibsonは業者によって得意不得意が大きく、同じモデルでも数万円の差が出ます。ヒカカク！で必ず複数社の見積もりを取ってください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -376,7 +376,7 @@ export default function GibsonKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                Gibsonギターの買取相場はモデル・年式・状態により大きく異なります。Les Paul Standardが10万〜30万円、SG Standardが5万〜15万円、ES-335が10万〜25万円が目安です。1950〜60年代のヴィンテージは50万〜数百万円になることもあります。正確な買取価格は複数業者に査定依頼して比較しましょう。
+                Gibsonギターの買取相場はモデル・年式・状態により大きく異なります。Les Paul Standardが10万〜30万円、SG Standardが5万〜15万円、ES-335が10万〜25万円が目安です。1950〜60年代のヴィンテージは50万〜数百万円になることもあります。正確な買取価格は複数業者に査定依頼して比較してください。
               </div>
             </details>
 
@@ -434,7 +434,7 @@ export default function GibsonKaitoriPage() {
             <li><strong>自宅で安全に売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>まずはヒカカク！で複数社の査定額を比較し、あなたのGibsonの本当の価値を確認してみてください。査定は完全無料です。</p>
+          <p>まずはヒカカク！で複数社の査定額を比較し、ご自身のGibsonの本当の価値をご確認ください。査定は無料です。</p>
 
           <CtaBox />
         </div>

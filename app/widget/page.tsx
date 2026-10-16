@@ -5,7 +5,7 @@ import ranking from "@/data/souba-ranking-gakki.json";
 export const metadata: Metadata = {
   title: "楽器買取相場ウィジェット無料配布｜ブログ・サイトに今週の実勢相場を表示",
   description:
-    "今週の楽器買取相場（人気モデルの中古実勢中央値・毎週自動更新）を、あなたのブログやサイトに無料で埋め込めるウィジェットを配布しています。コピペ1行で設置完了。",
+    "今週の楽器買取相場（人気モデルの中古実勢中央値・毎週自動更新）を、ご自身のブログやサイトに無料で埋め込めるウィジェットを配布しています。1行のコードを貼り付けるだけで設置できます。",
   alternates: { canonical: "https://gakkikaitori-biyori.com/widget/" },
   robots: { index: true, follow: true },
 };
@@ -34,7 +34,7 @@ export default function WidgetPage() {
       <article className="prose">
         <h1 className="text-2xl md:text-3xl font-bold mb-2 !border-none !pb-0 !mt-0">楽器買取相場ウィジェット（無料配布）</h1>
         <p>
-          今週の楽器買取相場（人気モデルの中古実勢中央値）を、あなたのブログやWebサイトに表示できる無料ウィジェットです。
+          今週の楽器買取相場（人気モデルの中古実勢中央値）を、ご自身のブログやWebサイトに表示できる無料ウィジェットです。
           価格は当サイトがヤフオク!落札データから独自集計（中央値・IQR外れ値除去）し、<strong>毎週自動更新</strong>されます。設置はコードを1行貼るだけです。
         </p>
 
@@ -55,7 +55,7 @@ export default function WidgetPage() {
           </div>
         </div>
 
-        <h2>設置方法（コピペ1行）</h2>
+        <h2>設置方法</h2>
         <p>表示したい場所に、以下のコードを貼り付けてください（JavaScriptが使えるブログ・サイト向け）。</p>
         <div className="table-wrapper not-prose">
           <pre style={{ whiteSpace: "pre-wrap", wordBreak: "break-all", background: "#faf7ef", border: "1px solid #e6dcc2", borderRadius: 8, padding: 12, fontSize: 12 }}>{SCRIPT_CODE}</pre>
@@ -70,7 +70,7 @@ export default function WidgetPage() {
           <li>個人・法人ともに<strong>無料</strong>でご利用いただけます。</li>
           <li>ウィジェット内の「楽器買取びより」へのリンクは、出典明示のため<strong>削除・改変せずに</strong>ご利用ください。</li>
           <li>データは毎週自動更新されるため、設置後の貼り替えは不要です。</li>
-          <li>相場データを記事内で引用される場合も、出典（gakkikaitori-biyori.com）を明記のうえ<strong>引用歓迎</strong>です。</li>
+          <li>相場データを記事内で引用される場合も、出典（gakkikaitori-biyori.com）を明記のうえ<strong>引用いただけます</strong>。</li>
         </ul>
 
         <h2>あわせて見る</h2>

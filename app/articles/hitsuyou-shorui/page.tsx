@@ -5,10 +5,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/hitsuyou-shorui/' },
   title: "【2026年最新】楽器買取に必要な書類リスト｜身分証・印鑑・領収書まで",
-  description: "楽器買取に必要な書類を解説。身分証、印鑑、領収書、保証書の必要性、未成年者の場合の追加書類、書類なしでも売れるケースまで。",
+  description: "楽器買取に必要な書類を解説します。身分証、印鑑、領収書、保証書の必要性、未成年者の場合の追加書類、書類なしでも売れるケースまで。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取に必要な書類リスト｜身分証・印鑑・領収書まで",
-    description: "楽器買取に必要な書類を解説。身分証、印鑑、領収書、保証書の必要性、未成年者の場合の追加書類、書類なしでも売れるケースまで。",
+    description: "楽器買取に必要な書類を解説します。身分証、印鑑、領収書、保証書の必要性、未成年者の場合の追加書類、書類なしでも売れるケースまで。",
   },
 };
 
@@ -45,7 +45,7 @@ export default function Page() {
         <div className="article-body">
 
           <p className="leading-relaxed mb-5">
-            楽器買取で<strong>必ず必要なのは「本人確認書類」</strong>です。これは古物営業法で定められた義務で、どの業者でも提示を求められます。加えて、<strong>状況に応じて</strong>振込先情報・付属書類・委任状などが必要になります。スムーズに売るために、申込前に揃えておきましょう。
+            楽器買取で<strong>必ず必要なのは「本人確認書類」</strong>です。これは古物営業法で定められた義務で、どの業者でも提示を求められます。加えて、<strong>状況に応じて</strong>振込先情報・付属書類・委任状などが必要になります。スムーズに売るために、申込前に揃えておいてください。
           </p>
 
           <h2 id="must" className="font-display text-xl font-bold text-foreground mt-8 mb-3">必ず必要なもの</h2>

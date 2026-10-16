@@ -80,7 +80,7 @@ export default function ModelSpotPriceCard({ slug, modelName }: Props) {
             </p>
           )}
           <p>
-            正確な買取価格は、複数の業者で実際に査定を取って比較するのが確実です。
+            正確な買取価格は、複数の業者で査定を受けて比較することをおすすめします。
           </p>
           <p className="font-bold text-foreground">
             ※ 表示額はあくまで目安です。実際の買取額は状態・年式・付属品・市況等で変動し、金額を保証するものではありません。

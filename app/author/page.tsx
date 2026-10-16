@@ -91,7 +91,7 @@ export default function AuthorPage() {
 
         <div className="space-y-6 mb-10 not-prose">
           <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
-            <h3 className="font-bold text-base text-foreground mb-2">1. 相場は落札データの中央値で示し、サンプル数と取得日を明記する</h3>
+            <h3 className="font-bold text-base text-foreground mb-2">1. 相場は落札データの中央値で示し、サンプル数と取得日を明記します</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               モデル別・ブランド別の相場は、Yahoo!オークションの過去180日分の落札データから、四分位範囲（IQR）による外れ値除去を行ったうえで中央値を算出しています。
               相場を表示する箇所には、算出に使ったサンプル数と取得日、検索に使った条件を併記します。
@@ -100,7 +100,7 @@ export default function AuthorPage() {
           </div>
 
           <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
-            <h3 className="font-bold text-base text-foreground mb-2">2. 中古相場と買取査定額は別のものとして扱う</h3>
+            <h3 className="font-bold text-base text-foreground mb-2">2. 中古相場と買取査定額は区別して掲載します</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               表示している中央値は「中古品が落札された実取引価格」であり、買取業者の査定額ではありません。
               一般に買取査定額は中古相場の50〜70%程度が目安になりますが、年式・状態・付属品で変わるため、当サイトは買取額を保証しません。
@@ -109,24 +109,24 @@ export default function AuthorPage() {
           </div>
 
           <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
-            <h3 className="font-bold text-base text-foreground mb-2">3. 業者情報は各社の公式サイトの公開情報のみを使う</h3>
+            <h3 className="font-bold text-base text-foreground mb-2">3. 業者情報は各社の公式サイトの公開情報のみを使用します</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               買取業者の店舗数・買取方法・対応エリア・手数料などは、各社の公式サイトで確認できる情報だけを掲載し、取得元のURLを出典として保持しています。
-              推測で埋めることはせず、公式に明記がない項目は「不明（要問合せ）」と表記します。
+              推測による補完は行わず、公式に明記がない項目は「不明（要問合せ）」と表記します。
               地域ページの店舗一覧も、各社公式の店舗ページで実在を確認できた店舗のみを掲載しています。
             </p>
           </div>
 
           <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
-            <h3 className="font-bold text-base text-foreground mb-2">4. 口コミ本文は転載しない</h3>
+            <h3 className="font-bold text-base text-foreground mb-2">4. 口コミ本文の転載は控えます</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               第三者が投稿した口コミ・レビューの本文は転載しません。業者の評判に触れる場合は、参照した媒体と調査時点を明記したうえで、内容の傾向を要約するにとどめます。
-              「高く売れる」などの断定的な表現も使いません。
+              「必ず高く売れる」などの断定的な表現も控えます。
             </p>
           </div>
 
           <div className="bg-white border border-warm-border rounded-2xl p-6 shadow-sm">
-            <h3 className="font-bold text-base text-foreground mb-2">5. 広告と評価を分ける</h3>
+            <h3 className="font-bold text-base text-foreground mb-2">5. 広告と評価は区別して取り扱います</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               当サイトはプロモーション（PR）を含み、記事内のリンク経由でお申し込みがあった場合に紹介報酬が発生することがあります。
               広告報酬の有無で比較表の内容や評価を変えることはありません。記事の作り方は
@@ -144,24 +144,24 @@ export default function AuthorPage() {
           <div className="bg-cream rounded-lg p-4">
             <p className="text-xs font-bold text-warm-gray mb-2">毎週（月曜 4:00）に自動実行する処理</p>
             <ol className="list-decimal pl-6 space-y-2 text-sm text-foreground/80 leading-relaxed">
-              <li>対象モデル（ギター・ベース・アンプ・エフェクター・シンセサイザー・サックス・トランペット・トロンボーン・クラリネット・フルート・ドラム・ピアノの{TRACKED_MODELS}モデル）について、Yahoo!オークションの過去180日分の落札データを取得する</li>
-              <li>外れ値を除去して中央値を算出し、モデル別の履歴に追記する。サンプル不足・異常値のモデルは非表示フラグを付ける</li>
+              <li>対象モデル（ギター・ベース・アンプ・エフェクター・シンセサイザー・サックス・トランペット・トロンボーン・クラリネット・フルート・ドラム・ピアノの{TRACKED_MODELS}モデル）について、Yahoo!オークションの過去180日分の落札データを取得します</li>
+              <li>外れ値を除去して中央値を算出し、モデル別の履歴に追記します。サンプル不足・異常値のモデルには非表示の判定を付けます</li>
               <li>
                 <Link href="/souba-ranking/" className="text-accent hover:underline">相場ランキング</Link>
                 ・
                 <Link href="/souba-index/" className="text-accent hover:underline">相場指数</Link>
                 ・
                 <Link href="/widget/" className="text-accent hover:underline">相場ウィジェット</Link>
-                を同じデータから再生成する
+                を同じデータから再生成します
               </li>
-              <li>サイト全体を再生成し、モデル記事・ブランドページの相場カードを最新の中央値に更新して公開する</li>
+              <li>サイト全体を再生成し、モデル記事・ブランドページの相場カードを最新の中央値に更新して公開します</li>
             </ol>
           </div>
           <div className="bg-cream rounded-lg p-4">
             <p className="text-xs font-bold text-warm-gray mb-2">毎月1日に自動実行する処理</p>
             <ol className="list-decimal pl-6 space-y-2 text-sm text-foreground/80 leading-relaxed">
-              <li>上記の相場データを再取得する</li>
-              <li>記事に表示している年月の表記と更新日を当月に更新し、再生成して公開する</li>
+              <li>上記の相場データを再取得します</li>
+              <li>記事に表示している年月の表記と更新日を当月に更新し、再生成して公開します</li>
             </ol>
           </div>
           <ul className="list-disc pl-6 space-y-2 text-sm text-foreground/80 leading-relaxed">

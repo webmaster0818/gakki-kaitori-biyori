@@ -6,10 +6,10 @@ import UrielVisitBanner from "@/components/UrielVisitBanner";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-denshi-piano-kaitori/' },
   title: "ローランド電子ピアノの買取ガイド【2026年10月】LX・HP・FPシリーズを高く売るコツ",
-  description: "ローランド（Roland）の電子ピアノを売るならどこがいい？LX・HP・RP・FPシリーズ別の査定ポイント、査定の鍵になる型番と製造年の確認方法、据置型の分解搬出と出張買取の流れ、おすすめ買取3社を比較。無料査定だけの利用もOK。",
+  description: "ローランド（Roland）の電子ピアノを売るならどこがいい？LX・HP・RP・FPシリーズ別の査定ポイント、査定の鍵になる型番と製造年の確認方法、据置型の分解搬出と出張買取の流れ、おすすめ買取3社を比較します。無料査定のみの利用も可能です。",
   openGraph: { images: ["/og-image.png"], 
     title: "ローランド電子ピアノの買取ガイド【2026年10月】LX・HP・FPシリーズを高く売るコツ",
-    description: "ローランドの電子ピアノを売るなら。LX・HP・FPシリーズ別の査定ポイントとおすすめ買取3社を解説。",
+    description: "ローランドの電子ピアノを売るなら。LX・HP・FPシリーズ別の査定ポイントとおすすめ買取3社を解説します。",
   },
 };
 
@@ -102,11 +102,11 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張買取専門</td><td className="px-4 py-3">出張/店頭/宅配</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張買取中心</td><td className="px-4 py-3">出張/店頭/宅配</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">電子ピアノ（据置/ポータブル）</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">搬出</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">スタッフが対応</td><td className="px-4 py-3">出張時対応</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">自宅完結・まとめ売りOK</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">搬出まで任せたい人</td><td className="px-4 py-3">すぐ売りたい人</td></tr>
               </tbody>
             </table>
@@ -116,7 +116,7 @@ export default function Page() {
           <p>電子ピアノは在庫状況・販路によって業者間の査定額に差が出ます。ヒカカク！なら<strong>複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。型番と製造年を添えて依頼すると正確な金額が出やすくなります。</p>
 
           <h3>ウリエル ── 出張買取で分解・搬出まで自宅完結</h3>
-          <p>ウリエルは出張買取専門で、出張料・査定料は無料です。<strong>据置型電子ピアノの分解・搬出までスタッフに任せられる</strong>ため、LX・HPシリーズなど大型モデルに向いています。</p>
+          <p>ウリエルは出張買取が中心で、出張料・査定料は無料です。<strong>据置型電子ピアノの分解・搬出までスタッフに任せられる</strong>ため、LX・HPシリーズなど大型モデルに向いています。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
           <p>ティファナは<strong>年間4万件の買取実績</strong>があり、電子ピアノ以外のアイテムもまとめて売れるのが強みです。ポータブルモデルなら宅配買取も利用できます。</p>
@@ -157,18 +157,18 @@ export default function Page() {
           <h2 id="sell">据置型は分解搬出 ── 出張買取が便利</h2>
 
           <p>LX・HP・RPシリーズなどの据置型は重量・サイズがあるため、<strong>分解・搬出までスタッフが対応する出張買取が最も手軽</strong>です。多くのモデルは組み立て式のため、アコースティックピアノのようなクレーン搬出はほぼ不要です。</p>
-          <p>FPシリーズなどポータブル型は宅配買取も選べます。梱包の際は鍵盤面を保護し、ペダル・アダプタなどの付属品を同梱しましょう。</p>
+          <p>FPシリーズなどポータブル型は宅配買取も選べます。梱包の際は鍵盤面を保護し、ペダル・アダプタなどの付属品を同梱してください。</p>
 
           <h2 id="tips">ローランド電子ピアノを高く売る4つのコツ</h2>
 
           <h3>コツ1: 型番と製造年を正確に伝える</h3>
-          <p>査定額をほぼ決める2要素です。銘板を確認し、査定依頼時に必ず書き添えましょう。</p>
+          <p>査定額をほぼ決める2要素です。銘板を確認し、査定依頼時に必ず書き添えてください。</p>
 
           <h3>コツ2: 売ると決めたら早めに売る</h3>
           <p>電子ピアノは後継モデルの発表で旧モデルの相場が下がる「鮮度が命」の商品です。使っていないなら、1年待つだけで査定が下がることがあります。</p>
 
           <h3>コツ3: 付属品を揃える</h3>
-          <p>専用スタンド・ペダルユニット・ACアダプタ・椅子・取扱説明書が揃っていると減額を防げます。外装はやわらかい布で拭き、鍵盤の汚れを落としておきましょう。</p>
+          <p>専用スタンド・ペダルユニット・ACアダプタ・椅子・取扱説明書が揃っていると減額を防げます。外装はやわらかい布で拭き、鍵盤の汚れを落としておいてください。</p>
 
           <h3>コツ4: 複数業者で相見積もりを取る</h3>
           <p>同じモデルでも業者の在庫・販路によって査定額は変わります。一括査定で比較してから売り先を決めるのが確実です。</p>
@@ -218,7 +218,7 @@ export default function Page() {
 
           <h2>まとめ: ローランド電子ピアノは型番・製造年を控えて早めの査定へ</h2>
 
-          <p>ローランドの電子ピアノを売るなら、型番と製造年を確認し、<strong>減価が進む前に複数業者の査定を比較</strong>するのが鉄則です。</p>
+          <p>ローランドの電子ピアノを売るなら、型番と製造年を確認し、<strong>減価が進む前に複数業者の査定を比較</strong>するのが基本です。</p>
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
@@ -226,7 +226,7 @@ export default function Page() {
             <li><strong>すぐに売りたい・他のアイテムもまとめたい</strong> → ティファナ</li>
           </ul>
 
-          <p>査定は完全無料。まずは銘板の型番チェックから始めてみてください。</p>
+          <p>査定は無料。まずは銘板の型番チェックから始めてください。</p>
 
           <CtaBox />
         </div>

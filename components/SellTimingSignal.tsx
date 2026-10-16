@@ -15,10 +15,10 @@ export function SellTimingSignal() {
   const trend = fromBase > 0.5 ? "上昇傾向" : fromBase < -0.5 ? "軟調（やや下落）" : "横ばい";
   const trendNote =
     fromBase > 0.5
-      ? "市場全体は上向き。相場が伸びている今は、急がず値動きを見ながら売却先を比較する余裕があります。"
+      ? "市場全体は上昇傾向です。値動きを確認しながら、複数の売却先を比較することをおすすめします。"
       : fromBase < -0.5
-        ? "市場全体はやや軟調。下落が続くモデルは、待つほど下がる可能性があるため早めの査定が有利になりやすい局面です。"
-        : "市場全体は横ばい。大きな追い風・向かい風はないため、モデルごとの値動き（下記）で判断するのがおすすめです。";
+        ? "市場全体はやや軟調です。下落が続いているモデルは、今後も相場が下がる可能性があるため、早めに査定を受けることをおすすめします。"
+        : "市場全体は横ばいです。モデルごとの値動き（下記）を確認したうえでのご判断をおすすめします。";
 
   const models = (ranking.models as M[]).filter((m) => m.change_1w !== null);
   const risers = [...models].sort((a, b) => (b.change_1w ?? 0) - (a.change_1w ?? 0)).filter((m) => (m.change_1w ?? 0) > 0).slice(0, 5);
@@ -28,7 +28,7 @@ export function SellTimingSignal() {
   return (
     <div className="not-prose my-8 rounded-xl border border-warm-gray/25 bg-cream/50 p-6">
       <p className="text-xs font-bold tracking-wider text-accent mb-1">当サイト独自データ・毎週更新</p>
-      <h3 className="text-xl font-bold text-foreground mb-4">今の中古楽器相場は「売り時」？</h3>
+      <h3 className="text-xl font-bold text-foreground mb-4">中古楽器相場の動向</h3>
 
       {/* 市場全体（指数） */}
       <div className="rounded-lg bg-white border border-warm-gray/20 p-4 mb-5">
@@ -49,7 +49,7 @@ export function SellTimingSignal() {
       {/* モデル別の値動き */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="rounded-lg bg-white border border-warm-gray/20 p-4">
-          <p className="text-sm font-bold text-emerald-700 mb-2">値上がり中のモデル（焦らず比較を）</p>
+          <p className="text-sm font-bold text-emerald-700 mb-2">値上がり中のモデル</p>
           {risers.length === 0 ? (
             <p className="text-xs text-warm-gray">直近で明確な値上がりはありません。</p>
           ) : (
@@ -64,7 +64,7 @@ export function SellTimingSignal() {
           )}
         </div>
         <div className="rounded-lg bg-white border border-warm-gray/20 p-4">
-          <p className="text-sm font-bold text-rose-600 mb-2">値下がり中のモデル（早めの査定が有利）</p>
+          <p className="text-sm font-bold text-rose-600 mb-2">値下がり中のモデル</p>
           {fallers.length === 0 ? (
             <p className="text-xs text-warm-gray">直近で明確な値下がりはありません。</p>
           ) : (

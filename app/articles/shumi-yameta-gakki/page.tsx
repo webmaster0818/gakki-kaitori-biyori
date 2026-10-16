@@ -5,10 +5,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shumi-yameta-gakki/' },
   title: "【2026年最新】趣味をやめた楽器の処分方法｜売却・譲渡・記念品保管の選択肢",
-  description: "趣味をやめた・続かなかった楽器の処分方法を解説。売却で残金化、知人への譲渡、記念品として保管、寄付の4つの選択肢のメリット・デメリットを比較。",
+  description: "趣味をやめた・続かなかった楽器の処分方法を解説します。売却で残金化、知人への譲渡、記念品として保管、寄付の4つの選択肢のメリット・デメリットを比較します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】趣味をやめた楽器の処分方法｜売却・譲渡・記念品保管の選択肢",
-    description: "趣味をやめた・続かなかった楽器の処分方法を解説。売却で残金化、知人への譲渡、記念品として保管、寄付の4つの選択肢のメリット・デメリットを比較。",
+    description: "趣味をやめた・続かなかった楽器の処分方法を解説します。売却で残金化、知人への譲渡、記念品として保管、寄付の4つの選択肢のメリット・デメリットを比較します。",
   },
 };
 
@@ -61,7 +61,7 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">趣味をやめた楽器の処分方法｜売却・譲渡・記念品保管の選択肢</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">ギターを始めたけど続かなかった、ピアノを習ったけどやめた——趣味として始めた楽器が「使われないまま」になることは珍しくありません。本記事では、趣味をやめた楽器の4つの処分選択肢と、それぞれの判断基準を解説します。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">ギターを始めたものの続かなかった、ピアノを習ったもののやめた——趣味として始めた楽器が「使われないまま」になることは珍しくありません。本記事では、趣味をやめた楽器の4つの処分選択肢と、それぞれの判断基準を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
         </header>
 
@@ -83,12 +83,12 @@ export default function Page() {
         <h3>選択肢2: 知人・家族に譲渡</h3>
         <p>演奏する知人や家族にあげる方法。社会的価値あり。</p>
         <h3>選択肢3: 記念品として保管</h3>
-        <p>「いつか再開するかも」と思うなら保管も選択肢。ただし保管環境を整える必要あり。</p>
+        <p>再開の予定がある場合は、保管も選択肢の一つです。ただし、保管環境を整える必要があります。</p>
         <h3>選択肢4: 寄付</h3>
         <p>音楽教育NPOや子ども会、地域音楽団体への寄付。価値の高い社会貢献。</p>
 
         <h2 id="kijun">選択肢を選ぶ判断基準</h2>
-        <div className="table-wrapper"><table><thead><tr><th>状況</th><th>おすすめの選択肢</th></tr></thead><tbody><tr><td>楽器が市場価値あり、もう絶対弾かない</td><td>売却</td></tr><tr><td>楽器が市場価値あり、演奏する知人がいる</td><td>譲渡 or 売却</td></tr><tr><td>楽器に思い入れがあり、保管スペースがある</td><td>保管</td></tr><tr><td>楽器の市場価値が低い</td><td>譲渡 or 寄付 or 処分</td></tr><tr><td>再開の可能性が低くないが、収納場所がない</td><td>売却（再開時に同モデル中古を購入）</td></tr></tbody></table></div>
+        <div className="table-wrapper"><table><thead><tr><th>状況</th><th>おすすめの選択肢</th></tr></thead><tbody><tr><td>楽器が市場価値あり、今後弾く予定がない</td><td>売却</td></tr><tr><td>楽器が市場価値あり、演奏する知人がいる</td><td>譲渡 or 売却</td></tr><tr><td>楽器に思い入れがあり、保管スペースがある</td><td>保管</td></tr><tr><td>楽器の市場価値が低い</td><td>譲渡 or 寄付 or 処分</td></tr><tr><td>再開の可能性が低くないが、収納場所がない</td><td>売却（再開時に同モデル中古を購入）</td></tr></tbody></table></div>
 
         <h2 id="souba">趣味楽器の買取相場目安</h2>
         <div className="table-wrapper"><table><thead><tr><th>楽器</th><th>初心者モデル相場</th><th>中級者モデル相場</th></tr></thead><tbody><tr><td>アコギ</td><td>3,000〜10,000円</td><td>20,000〜80,000円</td></tr><tr><td>エレキギター</td><td>5,000〜20,000円</td><td>30,000〜100,000円</td></tr><tr><td>ベース</td><td>5,000〜15,000円</td><td>20,000〜80,000円</td></tr><tr><td>電子ピアノ</td><td>10,000〜30,000円</td><td>40,000〜100,000円</td></tr><tr><td>管楽器（吹奏楽部レンタル品）</td><td>10,000〜30,000円</td><td>50,000〜200,000円</td></tr></tbody></table></div>

@@ -54,7 +54,7 @@ for area in AREAS:
     if slug not in existing:
         meta.append({"slug": slug, "title": f"{area['name']}の楽器買取おすすめ3社", "shortTitle": f"{area['name']}の楽器買取",
                      "badge": area["name"], "category": "region",
-                     "description": f"{area['prefectures']}の楽器買取。出張・店頭・宅配の比較と高く売るコツ。"})
+                     "description": f"{area['prefectures']}の楽器買取。出張・店頭・宅配の比較と高く売るコツを解説します。"})
 META.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 regions = sum(1 for a in meta if a.get("category") == "region")
 print(f"pages made: {made} / metadata total: {len(meta)} / regions: {regions}")

@@ -11,30 +11,30 @@ const services = [
     name: "ヒカカク！",
     url: "https://hikakaku.com",
     image: "/images/services/hikakaku.webp",
-    tagline: "一括査定で最高値を比較",
-    description: "複数の買取業者に一括で査定依頼。最高値の業者が見つかる比較サイト。楽器以外にも対応し、相場がひと目でわかります。",
-    features: ["一括査定で複数業者比較", "最高値が簡単にわかる", "無料で利用可能"],
-    recommended: "最高値で売りたい人",
+    tagline: "一括査定で複数社の査定額を比較",
+    description: "複数の買取業者に一括で査定を依頼できる比較サービスです。楽器以外の品目にも対応しており、業者ごとの査定額を比較できます。",
+    features: ["一括査定で複数業者を比較", "査定額を比較できる", "無料で利用可能"],
+    recommended: "複数社の査定額を比較したい方",
     color: "bg-amber-50 border-gold/30",
   },
   {
     name: "ティファナ",
     url: "https://tifana.net",
     image: "/images/services/tifana.webp",
-    tagline: "出張・店頭・宅配の3方式対応",
-    description: "年間4万件の買取実績。出張・店頭・宅配の3つの方法から選べる総合買取サービス。楽器の状態問わず査定可能。",
-    features: ["3つの買取方法から選べる", "年間4万件の実績", "状態問わず査定OK"],
-    recommended: "手軽に売りたい人",
+    tagline: "出張・店頭・宅配の3方式に対応",
+    description: "出張・店頭・宅配の3つの方法から選べる総合買取サービスです。楽器の状態を問わず査定を受け付けています（公式サイトの案内では年間4万件の買取実績）。",
+    features: ["3つの買取方法から選べる", "年間4万件の買取実績", "状態を問わず査定に対応"],
+    recommended: "売却方法を選びたい方",
     color: "bg-blue-50 border-blue-200",
   },
   {
     name: "ウリエル",
     url: "https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B",
     image: "/images/services/uriel.webp",
-    tagline: "出張買取で自宅完結",
-    description: "出張買取専門のサービス。自宅にいながら査定から買取まで完結。大型楽器や重い楽器の売却に最適です。",
-    features: ["自宅で査定・買取完結", "大型楽器の運搬不要", "即日現金化も可能"],
-    recommended: "自宅で完結したい人",
+    tagline: "出張買取で自宅で完結",
+    description: "出張買取を中心とするサービスです。自宅で査定から買取まで完結するため、大型楽器や重量のある楽器の売却に適しています。",
+    features: ["自宅で査定・買取が完結", "大型楽器の運搬が不要", "訪問時にその場で現金買取"],
+    recommended: "自宅で売却を完結したい方",
     color: "bg-green-50 border-green-200",
   },
 ];
@@ -70,15 +70,15 @@ const instrumentCategories = [
   { name: "池袋エリア", image: "/images/icon-compare.png", href: "/articles/ikebukuro-gakki-kaitori/", desc: "池袋の楽器買取おすすめ" },
   { name: "Roland", image: "/images/icon-electronic.png", href: "/articles/roland-kaitori/", desc: "電子ピアノ・シンセ・V-Drums" },
   { name: "Pearl", image: "/images/icon-drums.png", href: "/articles/pearl-kaitori/", desc: "ドラムセット・スネア" },
-  { name: "Martin", image: "/images/icon-guitar.png", href: "/articles/martin-kaitori/", desc: "アコギの王様" },
-  { name: "Selmer", image: "/images/icon-brass.png", href: "/articles/selmer-kaitori/", desc: "サックスの最高峰" },
+  { name: "Martin", image: "/images/icon-guitar.png", href: "/articles/martin-kaitori/", desc: "アコースティックギター" },
+  { name: "Selmer", image: "/images/icon-brass.png", href: "/articles/selmer-kaitori/", desc: "サックス・管楽器" },
   { name: "KAWAI", image: "/images/icon-piano.png", href: "/articles/kawai-kaitori/", desc: "ピアノ・電子ピアノ" },
   { name: "Ibanez", image: "/images/icon-guitar.png", href: "/articles/ibanez-kaitori/", desc: "RG・JEM・Prestige" },
   { name: "壊れた楽器", image: "/images/icon-howto.png", href: "/articles/kowareta-gakki-kaitori/", desc: "ジャンク品・古い楽器" },
   { name: "まとめ売り", image: "/images/icon-howto.png", href: "/articles/matome-uri-kaitori/", desc: "複数楽器の一括買取" },
   { name: "遺品整理", image: "/images/icon-howto.png", href: "/articles/ihin-gakki-kaitori/", desc: "故人の楽器を売る方法" },
   { name: "詐欺・注意点", image: "/images/icon-howto.png", href: "/articles/gakki-kaitori-sagi/", desc: "トラブル回避ガイド" },
-  { name: "メルカリvs業者", image: "/images/icon-howto.png", href: "/articles/mercari-vs-gyosha/", desc: "どっちが得か徹底比較" },
+  { name: "メルカリvs業者", image: "/images/icon-howto.png", href: "/articles/mercari-vs-gyosha/", desc: "手取り額と手間の比較" },
   { name: "相場一覧", image: "/images/icon-price.png", href: "/articles/souba-ichiran/", desc: "全楽器の買取相場まとめ" },
 ];
 
@@ -89,19 +89,19 @@ const faqs = [
   },
   {
     question: "楽器の買取相場はどのくらいですか？",
-    answer: "楽器の買取相場はブランド・モデル・状態・年式によって大きく異なります。例えばGibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円が目安です。正確な金額は複数業者の査定で確認しましょう。",
+    answer: "楽器の買取相場はブランド・モデル・状態・年式によって大きく異なります。例えばGibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円が目安です。正確な金額は複数業者の査定でご確認ください。",
   },
   {
-    question: "大型楽器（ピアノやドラムセット）はどう売ればいいですか？",
-    answer: "大型楽器は出張買取がおすすめです。ウリエルなどの出張買取サービスなら、自宅まで来てくれるので運搬の手間がかかりません。ピアノの場合は専門の運搬業者を手配してくれるサービスもあります。",
+    question: "大型楽器（ピアノやドラムセット）はどう売ればよいですか？",
+    answer: "大型楽器は出張買取がおすすめです。ウリエルなどの出張買取サービスでは査定士が自宅を訪問するため、運搬の手間がかかりません。ピアノの場合は、専門の運搬業者を手配するサービスもあります。",
   },
   {
     question: "楽器買取に費用はかかりますか？",
     answer: "当サイトで紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料・キャンセル料が無料です。買取が成立しなかった場合も一切費用はかかりません。",
   },
   {
-    question: "楽器を高く売るにはどうすればいいですか？",
-    answer: "楽器を高く売るための最も効果的な方法は、複数の買取業者に相見積もりを取ることです。同じ楽器でも業者によって数万円の差が出ることがあります。その他、付属品を揃える、クリーニングする、売却時期を見極めるなどのコツがあります。",
+    question: "楽器を高く売るにはどうすればよいですか？",
+    answer: "楽器を高く売るための最も効果的な方法は、複数の買取業者に相見積もりを取ることです。同じ楽器でも業者によって数万円の差が出ることがあります。そのほか、付属品を揃える、クリーニングする、売却時期を見極めるといった方法があります。",
   },
 ];
 
@@ -131,7 +131,7 @@ export default function Home() {
       <section className="relative overflow-hidden min-h-[480px] md:min-h-[540px] flex items-center">
         <Image
           src="/images/hero-gakki.png"
-          alt="楽器買取のプロが丁寧にギターを査定している様子"
+          alt="ギターの査定のイメージ"
           fill
           priority
           className="object-cover"
@@ -141,15 +141,15 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl mx-auto px-4 py-16 md:py-24 w-full">
           <div className="text-center max-w-3xl mx-auto">
             <p className="text-amber-200 font-medium text-sm mb-3 tracking-wider">
-              楽器買取おすすめ比較ガイド 2026年最新版
+              楽器買取おすすめ比較ガイド（2026年版）
             </p>
             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-              大切な楽器を、
+              楽器買取サービスの
               <br />
-              <span className="text-amber-300">最高価格</span>で。
+              <span className="text-amber-300">比較ガイド</span>
             </h1>
             <p className="text-white/85 text-base md:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-              あなたの楽器を丁寧に査定。プロの目で適正価格をお約束します。
+              当サイトでは、楽器買取サービスの買取方式・手数料・対応エリアと、ヤフオク！の落札データにもとづく相場を掲載しています。
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
@@ -189,15 +189,15 @@ export default function Home() {
             </span>
             <span className="flex items-center gap-1.5">
               <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              厳選3社を徹底比較
+              買取サービス3社を比較
             </span>
             <span className="flex items-center gap-1.5">
               <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              2026年最新情報
+              相場データは毎週更新
             </span>
             <span className="flex items-center gap-1.5">
               <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              すべて無料で利用可能
+              3社とも査定無料
             </span>
           </div>
         </div>
@@ -209,7 +209,7 @@ export default function Home() {
           楽器買取おすすめ3社を比較
         </h2>
         <p className="text-warm-gray text-sm text-center mb-8">
-          あなたの目的に合った買取サービスが見つかります
+          目的別に、各サービスの特徴を掲載しています
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {services.map((s) => (
@@ -230,7 +230,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <p className="text-xs text-warm-gray mb-3">こんな人におすすめ: <strong className="text-accent">{s.recommended}</strong></p>
+              <p className="text-xs text-warm-gray mb-3">おすすめの方: <strong className="text-accent">{s.recommended}</strong></p>
               <a
                 href={s.url}
                 target="_blank"
@@ -252,7 +252,7 @@ export default function Home() {
             楽器の種類から探す
           </h2>
           <p className="text-warm-gray text-sm text-center mb-8">
-            あなたが売りたい楽器のジャンルを選んでください
+            売却を検討している楽器のジャンルをお選びください
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
             {instrumentCategories.map((cat) => (
@@ -286,13 +286,13 @@ export default function Home() {
           楽器を少しでも高く売るために
         </h2>
         <p className="text-warm-gray text-sm text-center mb-10">
-          3ステップで買取額アップを目指しましょう
+          買取額を上げるための3つの準備をご紹介します
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { step: "01", title: "複数社に査定依頼", desc: "1社だけの査定では相場がわかりません。ヒカカク！で一括査定し、最高値を把握しましょう。" },
-            { step: "02", title: "付属品を揃える", desc: "ケース・保証書・取扱説明書など付属品が揃っていると買取額が10〜20%アップすることも。" },
-            { step: "03", title: "きれいに掃除する", desc: "弦を張り替え、ボディを拭くだけで印象が変わります。見た目の第一印象は査定に大きく影響します。" },
+            { step: "01", title: "複数社に査定依頼", desc: "1社だけの査定では相場を判断できません。複数社の査定額を比較することをおすすめします。" },
+            { step: "02", title: "付属品を揃える", desc: "ケース・保証書・取扱説明書などの付属品が揃っていると、買取額が上がる場合があります。" },
+            { step: "03", title: "きれいに掃除する", desc: "弦の張り替えやボディの拭き取りなど、簡単な手入れをしてから査定に出すことをおすすめします。" },
           ].map((item) => (
             <div key={item.step} className="text-center">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gold/10 text-gold-dark font-display font-bold text-lg mb-4">
@@ -318,7 +318,7 @@ export default function Home() {
 
       {/* 注目ガイド（GSC機会ページへの内部リンク集中） */}
       <section className="max-w-5xl mx-auto px-4 py-14">
-        <h2 className="font-display text-xl md:text-2xl font-bold mb-6 text-center">今週の注目買取ガイド</h2>
+        <h2 className="font-display text-xl md:text-2xl font-bold mb-6 text-center">主な買取ガイド</h2>
         <div className="flex flex-wrap justify-center gap-2">
           {[
             { name: "福岡の楽器買取", href: "/articles/fukuoka-gakki-kaitori/" },
@@ -332,7 +332,7 @@ export default function Home() {
             { name: "藤枝市の楽器買取", href: "/articles/fujieda-gakki-kaitori/" },
             { name: "岡崎市の楽器買取", href: "/articles/okazaki-gakki-kaitori/" },
             { name: "メルカリと買取業者の比較", href: "/articles/mercari-vs-gyosha/" },
-            { name: "相場ランキング(毎週更新)", href: "/souba-ranking/" },
+            { name: "相場ランキング（毎週更新）", href: "/souba-ranking/" },
           ].map((g) => (
             <Link key={g.href} href={g.href} className="text-sm text-accent-dark border border-warm-border bg-white px-4 py-2 rounded-full hover:border-accent-dark transition">
               {g.name}
@@ -372,12 +372,12 @@ export default function Home() {
       <section className="bg-gradient-to-b from-background to-cream py-16">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="font-display text-xl md:text-2xl font-bold mb-4">
-            まずは無料査定からはじめよう
+            無料査定のご案内
           </h2>
           <p className="text-warm-gray mb-8 text-sm md:text-base leading-relaxed">
-            複数の買取業者に一括で査定依頼。
+            複数の買取業者に一括で査定を依頼できます。
             <br className="md:hidden" />
-            あなたの楽器の最高買取価格がわかります。
+            業者ごとの査定額を比較してから売却先を決めることをおすすめします。
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a

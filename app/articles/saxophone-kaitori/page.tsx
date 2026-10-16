@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/saxophone-kaitori/' },
   title: "【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツ",
   description:
-    "サックス・管楽器買取のおすすめ業者3社を徹底比較。アルト・テナー・ソプラノサックスの買取相場、トランペット・トロンボーン・フルート・クラリネットの相場、Selmer・YAMAHA・Yanagisawaなどブランド別の相場目安まで解説。",
+    "サックス・管楽器買取のおすすめ業者3社を比較します。アルト・テナー・ソプラノサックスの買取相場、トランペット・トロンボーン・フルート・クラリネットの相場、Selmer・YAMAHA・Yanagisawaなどブランド別の相場目安まで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツ",
-    description: "サックス・管楽器買取のおすすめ業者3社を徹底比較。種類別・ブランド別の買取相場から高く売るコツまで完全ガイド。",
+    description: "サックス・管楽器買取のおすすめ業者3社を比較します。種類別・ブランド別の買取相場から高く売るコツまで解説します。",
   },
 };
 
@@ -39,7 +39,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの管楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身の管楽器の買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/saxophone-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツを解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/saxophone-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -104,10 +104,10 @@ export default function SaxophoneKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツを徹底解説
+            【2026年最新】サックス買取おすすめ3社比較｜管楽器の相場・高く売るコツを解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            サックスや管楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、サックス・管楽器買取の人気3サービスを徹底比較し、アルトサックス・テナーサックス・ソプラノサックス・バリトンサックスの買取相場に加え、トランペット・トロンボーン・フルート・クラリネットなど管楽器全般の相場、ブランド別の相場目安、メンテナンス状態が査定に与える影響、そして高く売るためのコツを詳しく解説します。管楽器は状態が査定額を大きく左右するため、適切な準備が重要です。
+            サックスや管楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、サックス・管楽器買取の人気3サービスを比較し、アルトサックス・テナーサックス・ソプラノサックス・バリトンサックスの買取相場に加え、トランペット・トロンボーン・フルート・クラリネットなど管楽器全般の相場、ブランド別の相場目安、メンテナンス状態が査定に与える影響、そして高く売るためのコツを詳しく解説します。管楽器は状態が査定額を大きく左右するため、適切な準備が重要です。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -293,7 +293,7 @@ export default function SaxophoneKaitoriPage() {
 
           <CtaBox />
 
-          <h2 id="comparison">サックス・管楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">サックス・管楽器買取おすすめ3社を比較</h2>
 
           <p>管楽器の買取は、楽器の専門知識を持った査定士がいる業者を選ぶことが重要です。ここでは、管楽器の買取実績が豊富な3社を比較します。</p>
 
@@ -308,7 +308,7 @@ export default function SaxophoneKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">対応地域</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国主要都市</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -329,7 +329,7 @@ export default function SaxophoneKaitoriPage() {
 
           <h3>ウリエル ── 出張買取で自宅から売却</h3>
 
-          <p>ウリエルは出張買取専門のサービスです。バリトンサックスやチューバなどの大型管楽器は運搬が大変なため、自宅まで来てくれる出張買取がおすすめです。複数の管楽器をまとめて売りたい場合（吹奏楽を引退して楽器一式を処分するケースなど）にも便利です。</p>
+          <p>ウリエルは出張買取を中心とするサービスです。バリトンサックスやチューバなどの大型管楽器は運搬が大変なため、自宅まで来てくれる出張買取がおすすめです。複数の管楽器をまとめて売りたい場合（吹奏楽を引退して楽器一式を処分するケースなど）にも便利です。</p>
 
           <CtaBox />
 
@@ -348,7 +348,7 @@ export default function SaxophoneKaitoriPage() {
             <li><strong>Reference 54</strong>: 20万〜45万円</li>
           </ul>
 
-          <p>Selmerのサックスは<strong>シリアルナンバーで製造年が特定できる</strong>ため、査定前に確認しておきましょう。特にMark VIは1954〜1981年の製造年によって価格が大きく変わります。</p>
+          <p>Selmerのサックスは<strong>シリアルナンバーで製造年が特定できる</strong>ため、査定前に確認しておいてください。特にMark VIは1954〜1981年の製造年によって価格が大きく変わります。</p>
 
           <h3>YAMAHA（ヤマハ）の買取相場</h3>
 
@@ -391,7 +391,7 @@ export default function SaxophoneKaitoriPage() {
           {/* 買取の流れ */}
           <h2 id="flow">サックス・管楽器 買取の流れ</h2>
 
-          <p>サックスや管楽器は精密機器のため、適切な方法で査定に出すことが重要です。一般的な買取の流れを確認しましょう。</p>
+          <p>サックスや管楽器は精密機器のため、適切な方法で査定に出すことが重要です。一般的な買取の流れをご確認ください。</p>
 
           <div className="space-y-4 my-6">
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
@@ -408,7 +408,7 @@ export default function SaxophoneKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
-              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">査定額に同意すれば買取成立。出張・店頭ならその場で現金、宅配なら振込で支払われます。キャンセルも完全無料です。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">買取成立・支払い</h3><p className="text-sm text-warm-gray">査定額に同意すれば買取成立。出張・店頭ならその場で現金、宅配なら振込で支払われます。キャンセルも無料です。</p></div>
             </div>
           </div>
 
@@ -416,7 +416,7 @@ export default function SaxophoneKaitoriPage() {
 
           <h2 id="tips">サックス・管楽器を高く売るためのコツ</h2>
 
-          <p>管楽器の買取価格は、弦楽器以上に<strong>メンテナンス状態が査定額を左右</strong>します。以下のポイントを押さえて、少しでも高く売却しましょう。</p>
+          <p>管楽器の買取価格は、弦楽器以上に<strong>メンテナンス状態が査定額を左右</strong>します。以下のポイントを押さえて、少しでも高く売却してください。</p>
 
           <h3>コツ1: タンポ（パッド）の状態を確認する</h3>
 
@@ -453,7 +453,7 @@ export default function SaxophoneKaitoriPage() {
 
           <h3>コツ4: 複数業者に査定依頼する</h3>
 
-          <p>管楽器は業者によって得意ブランドが異なるため、査定額に大きな差が出やすいカテゴリです。ヒカカク！の一括査定を利用して、最低3社以上の見積もりを比較しましょう。</p>
+          <p>管楽器は業者によって得意ブランドが異なるため、査定額に大きな差が出やすいカテゴリです。ヒカカク！の一括査定を利用して、最低3社以上の見積もりを比較してください。</p>
 
           <CtaBox />
 
@@ -466,7 +466,7 @@ export default function SaxophoneKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                サックスの買取相場はブランド・種類・状態により異なります。アルトサックスではSelmer Series IIIが20万〜50万円、YAMAHA YAS-62が5万〜10万円が目安です。ヴィンテージのSelmer Mark VIは40万〜120万円以上の高額買取も。テナーサックスはアルトより1〜2割高い傾向にあります。正確な金額は複数業者に査定依頼して比較しましょう。
+                サックスの買取相場はブランド・種類・状態により異なります。アルトサックスではSelmer Series IIIが20万〜50万円、YAMAHA YAS-62が5万〜10万円が目安です。ヴィンテージのSelmer Mark VIは40万〜120万円以上の高額買取も。テナーサックスはアルトより1〜2割高い傾向にあります。正確な金額は複数業者に査定依頼して比較してください。
               </div>
             </details>
 
@@ -476,7 +476,7 @@ export default function SaxophoneKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、古いサックスでも買取可能です。むしろSelmerのMark VIなどヴィンテージモデルは、現行品より高額で取引されることがあります。タンポの状態やラッカーの残存率が査定に影響しますが、歴史的価値のあるモデルは状態が多少悪くても高値がつくことがあります。まずは査定に出してみましょう。
+                はい、古いサックスでも買取可能です。むしろSelmerのMark VIなどヴィンテージモデルは、現行品より高額で取引されることがあります。タンポの状態やラッカーの残存率が査定に影響しますが、歴史的価値のあるモデルは状態が多少悪くても高値がつくことがあります。まずは査定に出してください。
               </div>
             </details>
 
@@ -506,14 +506,14 @@ export default function SaxophoneKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。完全無料で利用できるので、気軽に査定を申し込んでみてください。
+                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。無料で利用できます。
               </div>
             </details>
           </div>
 
           <h2>まとめ：サックス・管楽器は状態と業者選びで買取額が大きく変わる</h2>
 
-          <p>サックスや管楽器の買取は、<strong>メンテナンス状態と業者選び</strong>が買取額を大きく左右します。特にSelmerやYanagisawaなどの高級ブランドは、業者によって10万円以上の査定差がつくこともあるため、必ず複数業者で比較しましょう。</p>
+          <p>サックスや管楽器の買取は、<strong>メンテナンス状態と業者選び</strong>が買取額を大きく左右します。特にSelmerやYanagisawaなどの高級ブランドは、業者によって10万円以上の査定差がつくこともあるため、必ず複数業者で比較してください。</p>
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
@@ -521,7 +521,7 @@ export default function SaxophoneKaitoriPage() {
             <li><strong>大型管楽器・複数楽器を売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定前にタンポの状態確認と外装のクリーニングを行い、付属品を揃えてから査定に出すことで、買取額のアップが期待できます。査定は完全無料なので、まずは気軽に試してみてください。</p>
+          <p>査定前にタンポの状態確認と外装のクリーニングを行い、付属品を揃えてから査定に出すことで、買取額のアップが期待できます。査定は無料のため、まずは気軽に試してください。</p>
 
           <CtaBox />
         </div>

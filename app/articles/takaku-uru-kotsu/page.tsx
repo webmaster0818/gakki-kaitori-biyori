@@ -4,12 +4,12 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/takaku-uru-kotsu/' },
-  title: "【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣",
+  title: "楽器を高く売る5つのコツ｜買取額を上げるための準備",
   description:
-    "楽器を少しでも高く売るための5つの実践的なコツを解説。相見積もり・付属品・クリーニング・売却タイミング・買取方法の選び方まで。ギター・ピアノ・管楽器すべてに使えるノウハウです。",
+    "楽器を少しでも高く売るための5つの実践的なコツを解説します。相見積もり・付属品・クリーニング・売却タイミング・買取方法の選び方まで。ギター・ピアノ・管楽器すべてに使えるノウハウです。",
   openGraph: { images: ["/og-image.png"], 
-    title: "【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣",
-    description: "楽器買取額をアップさせる5つの実践的なコツを徹底解説。相見積もり・付属品・クリーニング・タイミング・方法選びのポイント。",
+    title: "楽器を高く売る5つのコツ｜買取額を上げるための準備",
+    description: "楽器買取額をアップさせる5つの実践的なコツを解説します。相見積もり・付属品・クリーニング・タイミング・方法選びのポイント。",
   },
 };
 
@@ -57,15 +57,15 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "楽器を高く売るために最も効果的なことは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最も効果的なのは複数の買取業者に相見積もりを取ることです。同じ楽器でも業者によって数万円の差がつくことがあります。ヒカカク！を使えば一度の入力で複数業者に査定依頼でき、最高値を簡単に把握できます。" } },
-      { "@type": "Question", name: "楽器の付属品がない場合、買取価格はどのくらい下がりますか？", acceptedAnswer: { "@type": "Answer", text: "付属品の有無による影響は楽器によって異なりますが、ケースがないと5〜15%、保証書がないと3〜10%程度の減額になることがあります。特にハードケースは単体でも価値があるため、必ず一緒に査定に出しましょう。" } },
+      { "@type": "Question", name: "楽器を高く売るために最も効果的なことは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最も効果的なのは複数の買取業者に相見積もりを取ることです。同じ楽器でも業者によって数万円の差がつくことがあります。ヒカカク！を使えば一度の入力で複数業者に査定依頼でき、査定額を比較できます。" } },
+      { "@type": "Question", name: "楽器の付属品がない場合、買取価格はどのくらい下がりますか？", acceptedAnswer: { "@type": "Answer", text: "付属品の有無による影響は楽器によって異なりますが、ケースがないと5〜15%、保証書がないと3〜10%程度の減額になることがあります。特にハードケースは単体でも価値があるため、必ず一緒に査定に出してください。" } },
       { "@type": "Question", name: "楽器を売るのに最適な時期はいつですか？", acceptedAnswer: { "@type": "Answer", text: "需要が高まる2〜3月（新学期前）とボーナス時期（6〜7月、12月）が高く売れる傾向にあります。ただし、電子楽器は技術の進化で時間が経つほど価値が下がるため、使わなくなったら早めに売ることが最も重要です。" } },
     ],
   };
   const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣",
+    headline: "楽器を高く売る5つのコツ｜買取額を上げるための準備",
     datePublished: "2026-04-18",
     dateModified: "2026-10-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
@@ -75,7 +75,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣を徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/takaku-uru-kotsu/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"楽器を高く売る5つのコツ｜買取額を上げるための準備を解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/takaku-uru-kotsu/\"}]}" }} />
     </>
   );
 }
@@ -89,10 +89,10 @@ export default function TakakuUruKotsuPage() {
         <header className="mb-8">
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">高く売るコツ</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">完全ガイド</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">ガイド</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【完全ガイド】楽器を高く売る5つのコツ｜買取額アップの秘訣を徹底解説
+            楽器を高く売る5つのコツ｜買取額を上げるための準備を解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
             「もっと高く売れたのに...」と後悔しないために。同じ楽器でも、売り方ひとつで買取額が数万円変わることがあります。この記事では、ギター・ピアノ・管楽器など、すべての楽器に使える「高く売るための5つの実践的なコツ」を詳しく解説します。
@@ -136,7 +136,7 @@ export default function TakakuUruKotsuPage() {
             <li><strong>ヒカカク！で一括査定</strong>: まず一度の入力で複数業者から見積もりを取得。最高値と最低値の差を把握します。</li>
             <li><strong>専門店にも直接問い合わせ</strong>: ギターならギター専門店、ピアノならピアノ専門店にも査定を依頼します。</li>
             <li><strong>最低3社、できれば5社以上</strong>: 比較する業者が多いほど、適正な相場がわかります。</li>
-            <li><strong>査定額だけでなく条件も比較</strong>: 搬出費用、振込手数料、キャンセル料なども確認しましょう。</li>
+            <li><strong>査定額だけでなく条件も比較</strong>: 搬出費用、振込手数料、キャンセル料などもご確認ください。</li>
           </ol>
 
           <div className="bg-gold/5 border border-gold/20 rounded-xl p-5 my-6">
@@ -146,7 +146,7 @@ export default function TakakuUruKotsuPage() {
               <li>B社（楽器専門）: 18万円</li>
               <li>C社（ギター特化）: 22万円</li>
             </ul>
-            <p className="text-sm text-gold-dark font-bold mt-2">→ 最大10万円の差！</p>
+            <p className="text-sm text-gold-dark font-bold mt-2">→ 最大10万円の差が出る場合があります</p>
           </div>
 
           <h2 id="tip2">コツ2: 付属品をすべて揃える（効果: 5〜20%アップ）</h2>
@@ -219,7 +219,7 @@ export default function TakakuUruKotsuPage() {
             <li><strong>キイ</strong>: キイオイルを差して動きを滑らかに</li>
           </ul>
 
-          <p><strong>注意:</strong> クリーニングはあくまで「きれいにする」程度にとどめましょう。深いキズを研磨で消そうとすると、かえってダメージを与えることがあります。</p>
+          <p><strong>注意:</strong> クリーニングはあくまで「きれいにする」程度にとどめてください。深いキズを研磨で消そうとすると、かえってダメージを与えることがあります。</p>
 
           <h2 id="tip4">コツ4: 売却のタイミングを見極める（効果: 5〜10%アップ）</h2>
 
@@ -257,7 +257,7 @@ export default function TakakuUruKotsuPage() {
 
           <h2 id="tip5">コツ5: 最適な買取方法を選ぶ（効果: 状況次第で大きな差）</h2>
 
-          <p>楽器の種類やあなたの状況によって、最適な買取方法は異なります。間違った方法を選ぶと、本来の価値よりも低い金額になってしまうことがあります。</p>
+          <p>楽器の種類やご自身の状況によって、最適な買取方法は異なります。間違った方法を選ぶと、本来の価値よりも低い金額になってしまうことがあります。</p>
 
           <h3>4つの買取方法の特徴</h3>
 
@@ -322,7 +322,7 @@ export default function TakakuUruKotsuPage() {
           {/* 楽器別ワンポイント */}
           <h2 id="by-instrument">楽器別 高く売るためのワンポイントアドバイス</h2>
 
-          <p>楽器のジャンルによって、特に気をつけるべきポイントが異なります。あなたの楽器に該当する項目をチェックしましょう。</p>
+          <p>楽器のジャンルによって、特に気をつけるべきポイントが異なります。お持ちの楽器に該当する項目をチェックしてください。</p>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -348,8 +348,8 @@ export default function TakakuUruKotsuPage() {
 
           <div className="space-y-4 mt-6">
             {[
-              { q: "楽器を高く売るために最も効果的なことは何ですか？", a: "最も効果的なのは複数の買取業者に相見積もりを取ることです。同じ楽器でも業者によって数万円の差がつくことがあります。ヒカカク！を使えば一度の入力で複数業者に査定依頼でき、最高値を簡単に把握できます。" },
-              { q: "楽器の付属品がない場合、買取価格はどのくらい下がりますか？", a: "付属品の有無による影響は楽器によって異なりますが、ケースがないと5〜15%、保証書がないと3〜10%程度の減額になることがあります。特にハードケースは単体でも価値があるため、必ず一緒に査定に出しましょう。" },
+              { q: "楽器を高く売るために最も効果的なことは何ですか？", a: "最も効果的なのは複数の買取業者に相見積もりを取ることです。同じ楽器でも業者によって数万円の差がつくことがあります。ヒカカク！を使えば一度の入力で複数業者に査定依頼でき、査定額を比較できます。" },
+              { q: "楽器の付属品がない場合、買取価格はどのくらい下がりますか？", a: "付属品の有無による影響は楽器によって異なりますが、ケースがないと5〜15%、保証書がないと3〜10%程度の減額になることがあります。特にハードケースは単体でも価値があるため、必ず一緒に査定に出してください。" },
               { q: "楽器を売るのに最適な時期はいつですか？", a: "需要が高まる2〜3月（新学期前）とボーナス時期（6〜7月、12月）が高く売れる傾向にあります。ただし、電子楽器は時間が経つほど価値が下がるため、使わなくなったら早めに売ることが最も重要です。" },
             ].map((faq) => (
               <details key={faq.q} className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -374,7 +374,7 @@ export default function TakakuUruKotsuPage() {
             <li><strong>方法選び</strong> — 楽器の種類に合った最適な買取方法を選ぶ</li>
           </ol>
 
-          <p>この中で最も効果が大きいのは、圧倒的に<strong>「相見積もり」</strong>です。まずはヒカカク！で一括査定を取り、あなたの楽器の本当の価値を知ることから始めましょう。</p>
+          <p>この中で最も効果が大きいのは、圧倒的に<strong>「相見積もり」</strong>です。まずはヒカカク！で一括査定を取り、お持ちの楽器の本当の価値を知ることから始めてください。</p>
 
           <CtaBox />
         </div>

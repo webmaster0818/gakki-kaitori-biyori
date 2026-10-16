@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/' },
   title: "横浜の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ業者【2026年10月】",
   description:
-    "横浜で楽器を売るならどこがいい？横浜駅周辺の専門店事情、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説。無料査定だけの利用もOK。ギター・ピアノ・管楽器に対応。",
+    "横浜で楽器を売るならどこがいい？横浜駅周辺の専門店事情、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説します。無料査定のみの利用も可能です。ギター・ピアノ・管楽器に対応。",
   openGraph: { images: ["/og-image.png"], 
     title: "横浜の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年10月】",
-    description: "横浜で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説。",
+    description: "横浜で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説します。",
   },
 };
 
@@ -66,11 +66,11 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "横浜で楽器を高く売るにはどうすればいいですか？", acceptedAnswer: { "@type": "Answer", text: "横浜で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)横浜駅周辺のイシバシ楽器やクロサワ楽器などの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。横浜は東京に次ぐ楽器市場規模があるため、複数社比較で高額査定が期待できます。" } },
+      { "@type": "Question", name: "横浜で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "横浜で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)横浜駅周辺のイシバシ楽器やクロサワ楽器などの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。横浜は東京に次ぐ楽器市場規模があるため、複数社比較で高額査定が期待できます。" } },
       { "@type": "Question", name: "横浜で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは横浜市内全域への出張買取に対応しています。ティファナも横浜エリアで出張買取を行っています。また、楽器の買取屋さん横浜店は最短30分で出張査定に来てくれるスピード対応が特徴です。出張料・査定料はいずれも無料です。" } },
       { "@type": "Question", name: "横浜の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。イシバシ楽器横浜店やクロサワ楽器横浜店の店頭買取なら、その場で査定・即日現金化ができます。楽器の買取屋さんの出張買取でも、その場で見積もり・即現金支払いに対応しています。" } },
       { "@type": "Question", name: "横浜駅周辺に楽器買取店は多いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、横浜駅周辺には楽器買取店が集中しています。イシバシ楽器横浜店（南幸2丁目・相鉄南幸第7ビル2F/3F）、クロサワ楽器横浜店（横浜岡田屋モアーズ4F）、島村楽器横浜ビブレ店など、徒歩圏内に大手楽器チェーンが揃っています。" } },
-      { "@type": "Question", name: "ピアノやドラムなど大型楽器は横浜でどうやって売ればいい？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。横浜市内全域に対応しており、搬出作業も査定士が行います。出張料・搬出料は無料です。横浜楽器でも大型楽器の出張買取に対応しています。" } },
+      { "@type": "Question", name: "ピアノやドラムなど大型楽器は横浜でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。横浜市内全域に対応しており、搬出作業も査定士が行います。出張料・搬出料は無料です。横浜楽器でも大型楽器の出張買取に対応しています。" } },
     ],
   };
   const articleData = {
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -103,10 +103,10 @@ export default function YokohamaGakkiKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年10月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も徹底比較
+            【2026年10月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            横浜で楽器を売りたいけど、どの業者を選べばいいかわからない方へ。本記事では、横浜エリア対応の楽器買取おすすめ3社を徹底比較。横浜駅周辺のイシバシ楽器・クロサワ楽器・島村楽器など専門店の情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、高く売るためのコツまで詳しく解説します。
+            横浜で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、横浜エリア対応の楽器買取おすすめ3社を比較します。横浜駅周辺のイシバシ楽器・クロサワ楽器・島村楽器など専門店の情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、高く売るためのコツまで詳しく解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -125,7 +125,7 @@ export default function YokohamaGakkiKaitoriPage() {
         </nav>
 
         <div className="article-body">
-          <h2 id="comparison">横浜対応の楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">横浜対応の楽器買取おすすめ3社を比較</h2>
 
           <p>横浜は東京に次ぐ人口を誇る大都市であり、楽器文化も盛んです。横浜駅周辺を中心に多くの楽器買取店がありますが、手数料無料・高額査定・対応の良さで特におすすめの3社をご紹介します。</p>
 
@@ -140,12 +140,12 @@ export default function YokohamaGakkiKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">横浜対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">横浜市内対応</td><td className="px-4 py-3">横浜市内全域</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">店頭なら即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅完結・大型OK</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">大型楽器を売る人</td></tr>
               </tbody>
             </table>
@@ -158,7 +158,7 @@ export default function YokohamaGakkiKaitoriPage() {
           <p>ティファナは横浜エリアでも出張買取・宅配買取に対応しており、<strong>年間4万件の実績</strong>で安心感があります。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しの際のまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 横浜市内全域へ出張買取</h3>
-          <p>ウリエルは横浜市内全域に出張買取で対応。18区すべてのエリアに対応しており、<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は完全無料です。</p>
+          <p>ウリエルは横浜市内全域に出張買取で対応。18区すべてのエリアに対応しており、<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
 
           <CtaBox />
 
@@ -184,7 +184,7 @@ export default function YokohamaGakkiKaitoriPage() {
 
           <h2 id="local-shops">横浜の主要楽器買取店ガイド</h2>
 
-          <p>横浜の楽器買取店を特徴別にまとめました。楽器の種類や買取方法に合わせて最適な店舗を選びましょう。</p>
+          <p>横浜の楽器買取店を特徴別にまとめました。楽器の種類や買取方法に合わせて最適な店舗を選んでください。</p>
 
           <h3>イシバシ楽器 横浜店 ── 全国チェーンの安心感</h3>
           <p>横浜市西区南幸2-17-1 相鉄南幸第7ビル2F/3Fに位置する、80年以上の歴史を持つ楽器専門店です。ヴィンテージ品から現行モデルまで幅広い買取実績があり、店頭買取はもちろん出張買取・宅配買取にも対応しています。買取専門フリーダイヤルでの事前査定も可能です。</p>
@@ -232,7 +232,7 @@ export default function YokohamaGakkiKaitoriPage() {
             <li>神奈川県内で横浜市外にお住まいの方</li>
           </ul>
 
-          <p>横浜にお住まいなら、<strong>まずヒカカク！で一括査定して相場を把握し、横浜駅周辺の専門店の査定額と比較する</strong>のが最も効率的です。東京の御茶ノ水にも足を延ばせるため、高額楽器なら東京の専門店も含めて検討しましょう。</p>
+          <p>横浜にお住まいなら、<strong>まずヒカカク！で一括査定して相場を把握し、横浜駅周辺の専門店の査定額と比較する</strong>のが最も効率的です。東京の御茶ノ水にも足を延ばせるため、高額楽器なら東京の専門店も含めてご検討ください。</p>
 
           <CtaBox />
 
@@ -245,7 +245,7 @@ export default function YokohamaGakkiKaitoriPage() {
           <p>管楽器ならセントラル楽器、バイオリンならクロサワバイオリン横浜店など、<strong>楽器の種類に合った専門店に持ち込む</strong>ことで高額査定が期待できます。専門店は一般的なリサイクルショップよりも楽器の価値を正確に評価してくれます。</p>
 
           <h3>コツ3: 付属品を揃えてクリーニング</h3>
-          <p>純正ケース、保証書、付属品を揃え、楽器をきれいにしてから査定に出しましょう。<strong>見た目の第一印象は査定額に大きく影響</strong>します。ギターなら弦を張り替え、管楽器ならマウスピースまで丁寧に掃除しましょう。</p>
+          <p>純正ケース、保証書、付属品を揃え、楽器をきれいにしてから査定に出してください。<strong>見た目の第一印象は査定額に大きく影響</strong>します。ギターなら弦を張り替え、管楽器ならマウスピースまで丁寧に掃除してください。</p>
 
           <h3>コツ4: 東京の専門店も視野に入れる</h3>
           <ul>
@@ -263,7 +263,7 @@ export default function YokohamaGakkiKaitoriPage() {
           <div className="space-y-4 my-6">
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
-              <div><h3 className="font-bold text-sm mb-1">一括査定で横浜対応業者を比較</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定すれば、横浜に対応する複数業者から見積もりが届きます。横浜駅周辺の専門店の買取価格と比較する基準値として活用しましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">一括査定で横浜対応業者を比較</h3><p className="text-sm text-warm-gray">ヒカカク！で一括査定すれば、横浜に対応する複数業者から見積もりが届きます。横浜駅周辺の専門店の買取価格と比較する基準値としてご活用ください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
@@ -279,7 +279,7 @@ export default function YokohamaGakkiKaitoriPage() {
 
           <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
             <p className="font-bold text-sm mb-1">ギターを売るなら専用ガイドへ</p>
-            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>
+            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表を掲載した専用ページで詳しく解説しています。</p>
             <Link href="/articles/guitar-kaitori-yokohama/" className="text-accent font-medium text-sm hover:underline">横浜のギター買取おすすめ3社と相場を見る →</Link>
           </div>
 
@@ -288,7 +288,7 @@ export default function YokohamaGakkiKaitoriPage() {
           <div className="space-y-4 mt-6">
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
-                <span className="pr-4">横浜で楽器を高く売るにはどうすればいいですか？</span>
+                <span className="pr-4">横浜で楽器を高く売るにはどうすればよいですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
@@ -324,7 +324,7 @@ export default function YokohamaGakkiKaitoriPage() {
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
-                <span className="pr-4">ピアノやドラムなど大型楽器は横浜でどうやって売ればいい？</span>
+                <span className="pr-4">ピアノやドラムなど大型楽器は横浜でどのように売ればよいですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
@@ -335,7 +335,7 @@ export default function YokohamaGakkiKaitoriPage() {
 
           <h2>まとめ：横浜なら駅周辺の専門店と一括査定を併用しよう</h2>
 
-          <p>横浜駅周辺にはイシバシ楽器・クロサワ楽器・島村楽器など大手楽器チェーンが集中しており、1日で複数店舗を回れるのが強みです。<strong>一括査定と店頭査定を併用して最高値を狙いましょう</strong>。</p>
+          <p>横浜駅周辺にはイシバシ楽器・クロサワ楽器・島村楽器など大手楽器チェーンが集中しており、1日で複数店舗を回れるのが強みです。<strong>一括査定と店頭査定を併用して最高値を狙ってください</strong>。</p>
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
@@ -343,7 +343,7 @@ export default function YokohamaGakkiKaitoriPage() {
             <li><strong>大型楽器・まとめ売り</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定は完全無料。まずはヒカカク！で相場をチェックしてみてください。</p>
+          <p>査定は無料。まずはヒカカク！で相場をご確認ください。</p>
 
           <CtaBox />
         </div>

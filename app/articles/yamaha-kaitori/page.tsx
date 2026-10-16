@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yamaha-kaitori/' },
   title: "【2026年10月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器",
   description:
-    "YAMAHA(ヤマハ)楽器の買取相場を徹底解説。ピアノ・ギター・管楽器・電子ピアノなど楽器別の買取価格目安、人気シリーズ別の相場、高く売るコツまで。おすすめ買取業者3社比較で最高値がわかります。",
+    "YAMAHA(ヤマハ)楽器の買取相場を解説します。ピアノ・ギター・管楽器・電子ピアノなど楽器別の買取価格目安、人気シリーズ別の相場、高く売るコツまで。おすすめ買取業者3社比較で最高値がわかります。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選",
-    description: "ヤマハ楽器の買取相場をピアノ・ギター・管楽器別に解説。人気シリーズの相場と高く売るコツ。",
+    description: "ヤマハ楽器の買取相場をピアノ・ギター・管楽器別に解説します。人気シリーズの相場と高く売るコツを解説します。",
   },
 };
 
@@ -40,7 +40,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのYAMAHA楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のYAMAHA楽器の買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -107,7 +107,7 @@ export default function YamahaKaitoriPage() {
             【2026年10月 週次相場更新】YAMAHA(ヤマハ)楽器買取相場・おすすめ業者3選｜ピアノ・ギター・管楽器
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            YAMAHA(ヤマハ)の楽器を売りたい方へ。本記事では、ピアノ・ギター・管楽器・電子ピアノ・ドラムなどYAMAHA製品の買取相場をジャンル別・シリーズ別に徹底解説。おすすめ買取業者3社の比較や、高く売るためのコツまで網羅しています。
+            YAMAHA(ヤマハ)の楽器を売りたい方へ。本記事では、ピアノ・ギター・管楽器・電子ピアノ・ドラムなどYAMAHA製品の買取相場をジャンル別・シリーズ別に解説します。おすすめ買取業者3社の比較や、高く売るためのコツまで網羅しています。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -315,7 +315,7 @@ export default function YamahaKaitoriPage() {
 
           <CtaBox />
 
-          <h2 id="comparison">YAMAHA楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">YAMAHA楽器買取おすすめ3社を比較</h2>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -328,7 +328,7 @@ export default function YamahaKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">ピアノ対応</td><td className="px-4 py-3">対応（運搬手配も）</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応（出張で搬出）</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">大型楽器も出張対応</td></tr>
@@ -351,7 +351,7 @@ export default function YamahaKaitoriPage() {
           <h2 id="tips">YAMAHA楽器を高く売るためのコツ</h2>
 
           <h3>コツ1: 型番を正確に把握する</h3>
-          <p>YAMAHAは型番が多く、一桁違うだけで買取価格が大きく変わります。<strong>楽器本体やケースに記載されている型番を正確に確認</strong>してから査定に出しましょう。</p>
+          <p>YAMAHAは型番が多く、一桁違うだけで買取価格が大きく変わります。<strong>楽器本体やケースに記載されている型番を正確に確認</strong>してから査定に出してください。</p>
 
           <h3>コツ2: 付属品を揃える</h3>
           <ul>
@@ -381,7 +381,7 @@ export default function YamahaKaitoriPage() {
           <div className="space-y-4 my-6">
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
-              <div><h3 className="font-bold text-sm mb-1">型番の確認</h3><p className="text-sm text-warm-gray">YAMAHA製品は型番で正確な相場がわかります。ピアノなら内部のフレーム、ギターなら内部のラベル、管楽器ならベル部分で型番を確認しましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">型番の確認</h3><p className="text-sm text-warm-gray">YAMAHA製品は型番で正確な相場がわかります。ピアノなら内部のフレーム、ギターなら内部のラベル、管楽器ならベル部分で型番をご確認ください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
@@ -459,7 +459,7 @@ export default function YamahaKaitoriPage() {
             <li><strong>ピアノ・大型楽器を売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定は完全無料なので、まずは気軽に試してみてください。</p>
+          <p>査定は無料のため、まずは気軽に試してください。</p>
 
           <CtaBox />
         </div>

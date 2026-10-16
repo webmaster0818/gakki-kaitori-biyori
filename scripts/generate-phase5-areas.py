@@ -50,15 +50,15 @@ def build_page(area: dict) -> str:
     pref = area["prefectures"]
     neighbors = area["neighbors"]
     title = f"【2026年最新】楽器買取 {name}おすすめ3選｜出張・店頭・宅配を比較"
-    description = f"{name}（{pref}）で楽器を売るならどこ？出張買取・店頭買取・宅配買取の3つの方法を比較。地域密着の業者と全国対応サービスの違い、{neighbors}エリアの状況も解説。"
+    description = f"{name}（{pref}）で楽器を売る際の出張買取・店頭買取・宅配買取の3つの方法を比較します。地域密着の業者と全国対応サービスの違い、{neighbors}エリアの状況も解説します。"
     h1 = f"{name}の楽器買取おすすめ3社｜地域密着 vs 全国対応"
     lead = f"{name}（{pref}）で楽器の買取を検討している方へ。本記事では、{name}エリアで利用できる買取方法・おすすめ業者3社・買取相場の地域差・近隣エリア（{neighbors}）の状況まで解説します。"
 
     faqs_list = [
         (f"{name}で出張買取は対応していますか？", f"はい、{name}（{pref}）は全国対応の主要買取業者（ヒカカク！・ウリエル・ティファナ等）がすべて対応エリアにしています。出張料・査定料は無料の業者がほとんどです。"),
-        (f"{name}で地域密着の楽器買取店はありますか？", f"{name}には地元の楽器店も数店ありますが、買取相場・対応スピード・取り扱いジャンルの幅では、全国チェーンや一括査定サービスの方が有利なケースが多いです。複数業者を比較するのがおすすめ。"),
-        (f"{name}から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？", f"対応可能です。ピアノ・ドラムセットなど大型楽器は出張買取一択。{name}エリアは主要業者の対応圏内なので、複数業者で相見積もりを取って最高値を選びましょう。"),
-        (f"{name}で当日中に現金化できますか？", f"店頭買取なら当日可、出張買取なら最短即日対応の業者あり。急ぎの場合は事前に「即日対応可能か」を確認してから申し込むのがおすすめです。"),
+        (f"{name}で地域密着の楽器買取店はありますか？", f"{name}には地元の楽器店も数店ありますが、買取相場・対応スピード・取り扱いジャンルの幅では、全国チェーンや一括査定サービスの方が有利なケースが多いです。複数業者を比較することをおすすめします。"),
+        (f"{name}から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？", f"対応可能です。ピアノ・ドラムセットなど大型楽器には出張買取が適しています。{name}エリアは主要業者の対応圏内のため、複数業者で相見積もりを取って最も条件のよい業者を選ぶことをおすすめします。"),
+        (f"{name}で当日中に現金化できますか？", f"店頭買取であれば当日中の現金化が可能で、出張買取にも最短即日で対応する業者があります。急ぎの場合は事前に「即日対応可能か」を確認してから申し込むのがおすすめです。"),
     ]
     faqs_html = "\n        ".join(
         f'<details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">{q}<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={{2}} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">{a}</p></details>'
@@ -116,13 +116,13 @@ export default function Page() {{
         <h2>2. {name}で利用できる買取方法3つ</h2>
 
         <h3>方法1: 出張買取（自宅まで査定）</h3>
-        <p>業者が自宅まで査定士を派遣し、その場で査定・買取・引き取りを行う方法。大型楽器（ピアノ・ドラム）・複数楽器のまとめ売りに最適。{name}を含む{region}全域が対応エリアです。</p>
+        <p>業者が自宅まで査定士を派遣し、その場で査定・買取・引き取りを行う方法です。大型楽器（ピアノ・ドラム）・複数楽器のまとめ売りに適しています。{name}を含む{region}全域が対応エリアです。</p>
 
         <h3>方法2: 店頭買取（持ち込み即現金化）</h3>
-        <p>自分で楽器を業者の店舗に持ち込んで査定してもらう方法。{name}駅周辺・郊外型店舗どちらも利用可能。即日現金化が可能。</p>
+        <p>自分で楽器を業者の店舗に持ち込んで査定を受ける方法です。{name}駅周辺・郊外型店舗どちらも利用できます。即日の現金化も可能です。</p>
 
         <h3>方法3: 宅配買取（自宅から発送）</h3>
-        <p>段ボールに梱包して業者に発送、後日入金される方法。{name}から東京・大阪の業者へ送付しても送料無料の業者が多数。</p>
+        <p>段ボールに梱包して業者に発送、後日入金される方法です。{name}から東京・大阪の業者へ送付しても送料無料の業者が多くあります。</p>
 
         <h2>3. {name}の楽器買取おすすめ3社</h2>
         <p>{name}（{pref}）エリアで実績のある楽器買取サービス3社を紹介します。</p>
@@ -137,8 +137,8 @@ export default function Page() {{
 
         <h3>② ウリエル（出張買取）</h3>
         <ul>
-          <li><strong>方式</strong>: 出張買取専門。自宅まで査定士が訪問</li>
-          <li><strong>強み</strong>: ピアノ・ドラム等大型楽器も対応、即日現金化</li>
+          <li><strong>方式</strong>: 出張買取が中心。自宅まで査定士が訪問</li>
+          <li><strong>強み</strong>: ピアノ・ドラム等の大型楽器にも対応。訪問時にその場で現金買取</li>
           <li><strong>対応エリア</strong>: {name}を含む{region}全域</li>
           <li><strong>料金</strong>: 出張料・査定料無料</li>
         </ul>
@@ -162,7 +162,7 @@ export default function Page() {{
         </div>
 
         <h2>4. {name}近隣エリアの状況</h2>
-        <p>{name}の周辺（{neighbors}）でも、ほぼ同じ買取サービスが利用できます。複数の都市にまたがって楽器がある場合（例: ご実家と現在の住居が別エリア）も、各業者で対応可能。出張買取なら、エリアをまたいで査定してもらえます。</p>
+        <p>{name}の周辺（{neighbors}）でも、ほぼ同じ買取サービスが利用できます。複数の都市にまたがって楽器がある場合（例: ご実家と現在の住居が別エリア）も、各業者で対応しています。出張買取なら、エリアをまたいで査定してもらえます。</p>
 
         <h2>5. {name}で楽器を高く売るコツ</h2>
         <ol>
@@ -178,8 +178,8 @@ export default function Page() {{
 
         <h2>関連記事</h2>
         <ul>
-          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
-          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
+          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを比較</Link></li>
+          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るためのポイント</Link></li>
           <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
         </ul>
         </div>

@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shibuya-gakki-kaitori/' },
   title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年10月】",
   description:
-    "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。原宿・恵比寿エリアも解説。無料査定だけの利用もOK。",
+    "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。原宿・恵比寿エリアも解説します。無料査定のみの利用も可能です。",
   openGraph: { images: ["/og-image.png"], 
     title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年10月】",
-    description: "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較。原宿・恵比寿エリアも解説。無料査定だけの利用もOK。",
+    description: "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。原宿・恵比寿エリアも解説します。無料査定のみの利用も可能です。",
   },
 };
 
@@ -68,7 +68,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "渋谷で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "渋谷で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。一括査定で相場を把握してから売却先を決めると、損をしにくくなります。" } },
       { "@type": "Question", name: "渋谷で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは渋谷エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
-      { "@type": "Question", name: "渋谷の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼して確認しましょう。" } },
+      { "@type": "Question", name: "渋谷の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
       { "@type": "Question", name: "壊れた楽器でも渋谷で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド品は壊れていても値段がつくことがあります。" } },
       { "@type": "Question", name: "渋谷から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら渋谷から全国の買取業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。" } },
     ],
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 渋谷おすすめ3選｜出張・店頭・宅配を徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/shibuya-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 渋谷おすすめ3選｜出張・店頭・宅配を比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/shibuya-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -106,7 +106,7 @@ export default function Page() {
             渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            渋谷で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、渋谷エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、渋谷・原宿・恵比寿など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
+            渋谷で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、渋谷エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、渋谷・原宿・恵比寿など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -144,7 +144,7 @@ export default function Page() {
 
           <CtaBox />
 
-          <h2 id="comparison">渋谷対応の楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">渋谷対応の楽器買取おすすめ3社を比較</h2>
 
           <p>渋谷エリアに対応している楽器買取3社を、買取方法・特徴・スピードの面から比較します。</p>
 
@@ -159,7 +159,7 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">渋谷対応</td><td className="px-4 py-3">全国対応（渋谷含む）</td><td className="px-4 py-3">全国対応（渋谷含む）</td><td className="px-4 py-3">渋谷エリア出張可</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -179,12 +179,12 @@ export default function Page() {
 
           <h3>ウリエル ── 渋谷エリアの出張買取に対応</h3>
 
-          <p>ウリエルは出張買取専門のサービスで、渋谷エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
+          <p>ウリエルは出張買取を中心とするサービスで、渋谷エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
 
           <CtaBox />
 
           <h2 id="area-guide">渋谷で「近くの楽器買取店」に持ち込み・店頭で売るには？<span id="chikaku"></span></h2>
-          <p>「渋谷で近くの楽器買取店に持ち込んで、その場で現金化したい」という方も多いはず。渋谷は<strong>道玄坂・宇田川町周辺に楽器店やレコード店が集まる</strong>音楽の街で、店頭への持ち込み買取も選択肢になります。ただし店舗によって買取ジャンルや得意分野が異なるため、来店前に取り扱い楽器と買取受付の有無を確認しておくと安心です（店舗情報は各公式でご確認ください）。</p>
+          <p>「渋谷で近くの楽器買取店に持ち込んで、その場で現金化したい」という方もいらっしゃいます。渋谷は<strong>道玄坂・宇田川町周辺に楽器店やレコード店が集まる</strong>音楽の街で、店頭への持ち込み買取も選択肢になります。ただし店舗によって買取ジャンルや得意分野が異なるため、来店前に取り扱い楽器と買取受付の有無を確認しておくと安心です（店舗情報は各公式でご確認ください）。</p>
           <p>なお、楽器専門買取大手「楽器の買取屋さん」の都内の実店舗は上野店（台東区）・池袋店（豊島区）で、渋谷区内にはありません（<a href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent-dark underline">楽器の買取屋さんの評判と店舗一覧</a>）。渋谷からは山手線で池袋・上野へ持ち込むか、<strong>自宅で完結する出張買取・宅配買取</strong>が現実的です。</p>
           <ul>
             <li><strong>近くの店に持ち込み（店頭買取）</strong>：ギター・エフェクター・管楽器など自分で運べる楽器向き。その場で査定し即日現金化できるのが利点です。</li>
@@ -218,7 +218,7 @@ export default function Page() {
             </table>
           </div>
 
-          <p>上記はあくまで目安です。<strong>正確な買取価格を知るには、複数の業者に査定を依頼しましょう。</strong></p>
+          <p>上記はあくまで目安です。<strong>正確な買取価格を知るには、複数の業者に査定をご依頼ください。</strong></p>
 
           <CtaBox />
 
@@ -228,16 +228,16 @@ export default function Page() {
           <p>最も効果的なのが相見積もりです。ヒカカク！を使えば一度の入力で複数業者から査定額が届きます。業者によって得意ジャンルが異なるため、同じ楽器でも数万円の差が出ることがあります。</p>
 
           <h3>コツ2: 付属品を揃えて査定に出す</h3>
-          <p>ケース・保証書・取扱説明書・アダプターなど、購入時の付属品は可能な限り揃えましょう。特に純正ハードケースは数千円〜1万円のプラス評価になることもあります。</p>
+          <p>ケース・保証書・取扱説明書・アダプターなど、購入時の付属品は可能な限り揃えてください。特に純正ハードケースは数千円〜1万円のプラス評価になることもあります。</p>
 
           <h3>コツ3: クリーニングで第一印象アップ</h3>
-          <p>査定前にボディを拭き、弦を張り替え、フレットボードを保湿しましょう。見た目の清潔感は査定額に直結します。管楽器は内部洗浄、ピアノは鍵盤の拭き掃除を行うと好印象です。</p>
+          <p>査定前にボディを拭き、弦を張り替え、フレットボードを保湿してください。見た目の清潔感は査定額に直結します。管楽器は内部洗浄、ピアノは鍵盤の拭き掃除を行うと好印象です。</p>
 
           <h3>コツ4: 需要が高い時期に売る</h3>
           <p>2〜3月の新学期シーズンやボーナス時期（6〜7月、12月）は楽器の需要が高まり、買取価格も上がりやすい傾向があります。逆に年末年始やお盆は避けた方が無難です。</p>
 
           <h3>コツ5: 全国サービスも併用する</h3>
-          <p>地元の楽器店だけでなく、ヒカカク！のような全国サービスも活用しましょう。<strong>地元店の買取価格が全国相場より低いケースは少なくありません。</strong></p>
+          <p>地元の楽器店だけでなく、ヒカカク！のような全国サービスもご活用ください。<strong>地元店の買取価格が全国相場より低いケースは少なくありません。</strong></p>
 
           <CtaBox />
 
@@ -285,14 +285,14 @@ export default function Page() {
                 <span className="pr-4">渋谷の楽器買取相場はどのくらいですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円が目安です。正確な金額は複数業者に査定依頼して確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円が目安です。正確な金額は複数業者に査定依頼してご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
                 <span className="pr-4">壊れた楽器でも渋谷で買い取ってもらえますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、壊れた楽器やジャンク品でも査定可能です。ブランド品は壊れていても値段がつくことがあります。まずは無料査定で確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、壊れた楽器やジャンク品でも査定可能です。ブランド品は壊れていても値段がつくことがあります。まずは無料査定でご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
@@ -303,7 +303,7 @@ export default function Page() {
             </details>
           </div>
 
-          <h2>まとめ：渋谷の楽器買取は複数社比較が鉄則</h2>
+          <h2>まとめ：渋谷の楽器買取は複数社の比較が基本</h2>
 
           <p>渋谷で楽器を売る際は、1社だけの査定で決めずに複数の業者を比較することが大切です。今回紹介した3社の使い分けをまとめます。</p>
 
@@ -313,7 +313,7 @@ export default function Page() {
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定はすべて無料です。まずはヒカカク！で渋谷エリアの買取相場を確認してみてください。</p>
+          <p>査定はすべて無料です。まずはヒカカク！で渋谷エリアの買取相場をご確認ください。</p>
 
           <CtaBox />
         </div>
@@ -339,7 +339,7 @@ export default function Page() {
             楽器の買取屋さんとは？運営会社・店舗一覧・対応エリアを見る
           </Link>
         </div>
-        {/* dokogaii-link-202609 : 「楽器買取 どこがいい」で1ページ目に出ているが地域名の無い問い。答えのページへ送る */}
+        {/* dokogaii-link-202609 : 「楽器買取 どこがいい」で1ページ目に出ているが地域名のない問い。答えのページへ送る */}
         <div className="bg-white border border-warm-200 p-5 my-8">
           <p className="text-xs font-medium text-warm-gray mb-2">地域を問わず「どこがいい？」で迷っている方へ</p>
           <p className="text-sm leading-relaxed mb-3">

@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kowareta-gakki-kaitori/' },
   title: "【2026年最新】壊れた楽器・古い楽器の買取｜ジャンク品でも売れる？相場と業者3選",
   description:
-    "壊れた楽器・古い楽器・ジャンク品は買取できる？ネック折れ・音が出ない・キズありの楽器でも売れる理由と買取相場を解説。ジャンク楽器の買取に対応したおすすめ業者3社を比較。",
+    "壊れた楽器・古い楽器・ジャンク品は買取できる？ネック折れ・音が出ない・キズありの楽器でも売れる理由と買取相場を解説します。ジャンク楽器の買取に対応したおすすめ業者3社を比較します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】壊れた楽器・古い楽器の買取｜ジャンク品でも売れる？",
-    description: "壊れた楽器・ジャンク品の買取相場と対応業者3社を徹底比較。売れる理由と高額査定のコツ。",
+    description: "壊れた楽器・ジャンク品の買取相場と対応業者3社を比較します。売れる理由と高額査定のコツ。",
   },
 };
 
@@ -106,7 +106,7 @@ export default function KowaretaGakkiKaitoriPage() {
             【2026年最新】壊れた楽器・古い楽器の買取｜ジャンク品でも売れる？相場とおすすめ業者3選
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            「壊れているから売れないだろう」と諦めていませんか？実は、ネック折れ・音が出ない・キズだらけの楽器でも買い取ってもらえるケースは多いのです。本記事では、壊れた楽器・古い楽器・ジャンク品が売れる理由、楽器別の買取相場、おすすめ業者3社を徹底解説します。
+            「壊れているから売れないだろう」と考えている方もいらっしゃいますが、ネック折れ・音が出ない・キズだらけの楽器でも買い取ってもらえるケースは多いのです。本記事では、壊れた楽器・古い楽器・ジャンク品が売れる理由、楽器別の買取相場、おすすめ業者3社を解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -232,7 +232,7 @@ export default function KowaretaGakkiKaitoriPage() {
             <li>カビや腐食が激しいもの</li>
           </ul>
 
-          <p>判断に迷ったら、<strong>まずはヒカカク！で無料査定を依頼</strong>してみましょう。意外な高額査定がつくことがあります。</p>
+          <p>判断に判断に迷う場合は、<strong>まずはヒカカク！で無料査定を依頼</strong>してください。意外な高額査定がつくことがあります。</p>
 
           <CtaBox />
 
@@ -252,16 +252,16 @@ export default function KowaretaGakkiKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">ジャンク品対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">対応（状態問わず）</td><td className="px-4 py-3">対応（状態問わず）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">複数社比較で最高値</td><td className="px-4 py-3 text-gold-dark font-bold">状態問わず査定OK</td><td className="px-4 py-3 text-gold-dark font-bold">壊れた大型楽器も出張</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">複数社比較で最高値</td><td className="px-4 py-3 text-gold-dark font-bold">状態を問わず査定に対応</td><td className="px-4 py-3 text-gold-dark font-bold">壊れた大型楽器も出張</td></tr>
               </tbody>
             </table>
           </div>
 
           <h3>ヒカカク！ ── 壊れた楽器こそ複数社比較が重要</h3>
-          <p>壊れた楽器は業者によって査定基準が大きく異なります。修理して再販できると判断する業者と、パーツ取りとしてしか評価しない業者では、<strong>査定額に数万円の差</strong>が出ることも。ヒカカク！で一括査定し、最も高く評価してくれる業者を見つけましょう。</p>
+          <p>壊れた楽器は業者によって査定基準が大きく異なります。修理して再販できると判断する業者と、パーツ取りとしてしか評価しない業者では、<strong>査定額に数万円の差</strong>が出ることも。ヒカカク！で一括査定し、最も高く評価してくれる業者を見つけてください。</p>
 
           <h3>ティファナ ── 状態を問わず気軽に査定</h3>
-          <p>ティファナは「状態を問わず査定OK」を掲げており、<strong>壊れた楽器やジャンク品でも気軽に査定依頼</strong>できます。「値段がつくかわからない」という楽器こそ、まずティファナに相談してみましょう。</p>
+          <p>ティファナは状態を問わず査定を受け付けており、<strong>壊れた楽器やジャンク品でも気軽に査定依頼</strong>できます。「値段がつくかわからない」という楽器こそ、まずティファナに相談してください。</p>
 
           <h3>ウリエル ── 壊れた大型楽器も出張対応</h3>
           <p>壊れたピアノやドラムセットなど、<strong>運搬が難しい壊れた大型楽器はウリエルの出張買取が最適</strong>です。搬出も査定士が行ってくれるため、自分で運ぶ必要がありません。</p>
@@ -271,16 +271,16 @@ export default function KowaretaGakkiKaitoriPage() {
           <h2 id="tips">壊れた楽器を少しでも高く売るための4つのコツ</h2>
 
           <h3>コツ1: 自分で修理しない</h3>
-          <p>これは意外かもしれませんが、<strong>素人修理は逆効果になることが多い</strong>です。特にギターのネック折れを自分で接着したり、管楽器の凹みを自分で直そうとすると、修理跡が残って余計に価値が下がります。壊れた状態のまま査定に出しましょう。</p>
+          <p><strong>素人修理は逆効果になることが多い</strong>です。特にギターのネック折れを自分で接着したり、管楽器の凹みを自分で直そうとすると、修理跡が残って余計に価値が下がります。壊れた状態のまま査定に出してください。</p>
 
           <h3>コツ2: 壊れていない部分はクリーニング</h3>
-          <p>壊れた楽器でも、<strong>壊れていない部分をきれいにする</strong>ことで印象が良くなります。ホコリを拭き取り、ケースの中もきれいにしておきましょう。</p>
+          <p>壊れた楽器でも、<strong>壊れていない部分をきれいにする</strong>ことで印象が良くなります。ホコリを拭き取り、ケースの中もきれいにしておいてください。</p>
 
           <h3>コツ3: 付属品を揃える</h3>
           <p>壊れた楽器でも、<strong>純正ケース・保証書・付属品があれば査定額がアップ</strong>します。特にGibsonやFenderの純正ハードケースは、ケースだけでも価値があります。</p>
 
           <h3>コツ4: 必ず複数社に査定を依頼</h3>
-          <p>壊れた楽器は特に業者間で評価が分かれるため、<strong>ヒカカク！で一括査定して最低3社は比較</strong>しましょう。「買取不可」の業者と「数万円つく」業者が混在することは珍しくありません。</p>
+          <p>壊れた楽器は特に業者間で評価が分かれるため、<strong>ヒカカク！で一括査定して最低3社は比較</strong>してください。「買取不可」の業者と「数万円つく」業者が混在することは珍しくありません。</p>
 
           <CtaBox />
 
@@ -305,11 +305,11 @@ export default function KowaretaGakkiKaitoriPage() {
           <div className="space-y-4 my-6">
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
-              <div><h3 className="font-bold text-sm mb-1">破損状態を正直に伝えて査定申し込み</h3><p className="text-sm text-warm-gray">「ネックが折れている」「音が出ない」「鍵盤が動かない」など、破損状態を具体的に伝えましょう。写真を添えるとより正確な仮査定額が出ます。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">破損状態を正確に伝えて査定申し込み</h3><p className="text-sm text-warm-gray">「ネックが折れている」「音が出ない」「鍵盤が動かない」など、破損状態を具体的に伝えてください。写真を添えるとより正確な仮査定額が出ます。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">複数社の見積もりを比較</h3><p className="text-sm text-warm-gray">ジャンク品は業者によって評価が大きく異なります。ヒカカク！で一括査定し、壊れた楽器の買取に強い業者を見つけましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">複数社の見積もりを比較</h3><p className="text-sm text-warm-gray">ジャンク品は業者によって評価が大きく異なります。ヒカカク！で一括査定し、壊れた楽器の買取に強い業者を見つけてください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -317,7 +317,7 @@ export default function KowaretaGakkiKaitoriPage() {
             </div>
           </div>
 
-          <p>壊れた楽器を<strong>捨てる前に必ず査定に出しましょう</strong>。処分費用がかかる大型楽器（ピアノ、ドラムセットなど）の場合、買い取ってもらえるだけでも大きなメリットです。</p>
+          <p>壊れた楽器を<strong>捨てる前に必ず査定に出してください</strong>。処分費用がかかる大型楽器（ピアノ、ドラムセットなど）の場合、買い取ってもらえるだけでも大きなメリットです。</p>
 
           <CtaBox />
 
@@ -373,7 +373,7 @@ export default function KowaretaGakkiKaitoriPage() {
 
           <h2>まとめ：壊れた楽器も捨てずにまず査定を</h2>
 
-          <p>壊れた楽器・古い楽器・ジャンク品でも、<strong>ブランドやモデルによっては驚くほどの価値がある</strong>ことがあります。「どうせ売れないだろう」と捨ててしまう前に、まずは無料査定を試してみてください。</p>
+          <p>壊れた楽器・古い楽器・ジャンク品でも、<strong>ブランドやモデルによっては驚くほどの価値がある</strong>ことがあります。「どうせ売れないだろう」と捨ててしまう前に、まずは無料査定を試してください。</p>
 
           <ul>
             <li><strong>複数社で比較したい</strong> → ヒカカク！で一括査定</li>
@@ -381,7 +381,7 @@ export default function KowaretaGakkiKaitoriPage() {
             <li><strong>壊れた大型楽器を売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定は完全無料。壊れた楽器があれば、諦める前にまず一度査定に出してみましょう。</p>
+          <p>査定は無料。壊れた楽器があれば、諦める前にまず一度査定に出してください。</p>
 
           <CtaBox />
         </div>

@@ -57,7 +57,7 @@ for area in AREAS:
             "shortTitle": f"{area['name']}の楽器買取",
             "badge": area["name"],
             "category": "region",
-            "description": f"{area['prefectures']}の楽器買取。出張・店頭・宅配の比較と高く売るコツ。",
+            "description": f"{area['prefectures']}の楽器買取。出張・店頭・宅配の比較と高く売るコツを解説します。",
         })
 
 META.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")

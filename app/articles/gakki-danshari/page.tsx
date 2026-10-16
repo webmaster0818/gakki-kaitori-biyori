@@ -61,7 +61,7 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">楽器の断捨離・整理術｜売る・譲る・捨ての判断基準と実践ステップ</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">「使わないけど捨てるには忍びない」——楽器の断捨離は、思い入れと現実のせめぎ合いです。本記事では、楽器の断捨離における判断基準、実践的なステップ、そして手放した後に後悔しないコツを解説します。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">「使わないものの捨てるには忍びない」——楽器の断捨離は、思い入れと現実のせめぎ合いです。本記事では、楽器の断捨離における判断基準、実践的なステップ、そして手放した後に後悔しないコツを解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
         </header>
 
@@ -70,7 +70,7 @@ export default function Page() {
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
             <li><a href="#why" className="hover:underline">なぜ楽器の断捨離は難しいのか</a></li>
             <li><a href="#kijun" className="hover:underline">売る・譲る・捨ての3つの判断基準</a></li>
-            <li><a href="#steps" className="hover:underline">実践！楽器断捨離の5ステップ</a></li>
+            <li><a href="#steps" className="hover:underline">実践：楽器断捨離の5ステップ</a></li>
             <li><a href="#benefits" className="hover:underline">断捨離で得られる3つのメリット</a></li>
             <li><a href="#partner" className="hover:underline">おすすめ買取サービス</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
@@ -90,7 +90,7 @@ export default function Page() {
         <h3>基準3: 保管スペースのコスト</h3>
         <p>都心の1畳あたりの月額家賃 ≒ 5,000〜10,000円。楽器1台が占有するスペースのコストを計算すると、保有を続ける合理性が見えてきます。</p>
 
-        <h2 id="steps">実践！楽器断捨離の5ステップ</h2>
+        <h2 id="steps">実践：楽器断捨離の5ステップ</h2>
         <ol><li><strong>所有楽器のリスト化</strong>: 全楽器の写真とメーカー・型番をスプレッドシートにまとめる</li><li><strong>判断基準を適用</strong>: 上記の3基準で「売る・譲る・残す」を仕分け</li><li><strong>一括査定で売却額を把握</strong>: ヒカカク！等で売却候補の概算額を取得</li><li><strong>実行（売却・譲渡・処分）</strong>: 1ヶ月以内に完了させる</li><li><strong>残した楽器の整理</strong>: 残した楽器をすぐ弾ける状態に整え、保管環境も整備</li></ol>
 
         <h2 id="benefits">断捨離で得られる3つのメリット</h2>

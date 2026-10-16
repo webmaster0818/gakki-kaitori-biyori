@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-jc120-kaitori/' },
   title: "【2026年最新】ローランド JC-120買取相場｜年代別の価値とジャズコーラスの査定ポイント",
-  description: "Roland JC-120（ジャズコーラス）の買取相場を解説。クリーン＆コーラスの定番アンプの価値要因、年代の評価、状態の査定差とおすすめ買取3社を比較。",
+  description: "Roland JC-120（ジャズコーラス）の買取相場を解説します。クリーン＆コーラスの定番アンプの価値要因、年代の評価、状態の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "JC-120の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "中古で2万〜6万円程度が目安です。年式が新しく動作良好な個体は上限寄りになります。" } },
       { "@type": "Question", name: "ソリッドステートでも需要はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい。JC-120はクリーンの定番として根強い需要があり、安定して買取されます。" } },
-      { "@type": "Question", name: "コーラスが効かなくても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能ですが、コーラス不調は減額要因です。動作状況を正直に伝えましょう。" } },
+      { "@type": "Question", name: "コーラスが効かなくても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能ですが、コーラス不調は減額要因です。動作状況を正確に伝えてください。" } },
       { "@type": "Question", name: "重量があるので出張買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。掲載3社のうちウリエルは出張買取に対応しています。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function RolandJc120KaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>ローランド JC-120を売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>ローランド JC-120を売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>製造年・世代（現行・近年モデルは需要安定、古い個体は状態次第）</li>
             <li>動作確認（コーラス・ビブラート・スピーカー・ノイズ）</li>
@@ -107,7 +107,7 @@ export default function RolandJc120KaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -135,7 +135,7 @@ export default function RolandJc120KaitoriPage() {
                 <span className="pr-4">コーラスが効かなくても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能ですが、コーラス不調は減額要因です。動作状況を正直に伝えましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能ですが、コーラス不調は減額要因です。動作状況を正確に伝えてください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

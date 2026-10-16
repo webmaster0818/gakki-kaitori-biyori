@@ -23,7 +23,7 @@ const zenMaruGothic = Zen_Maru_Gothic({
 const SITE_NAME = "楽器買取びより";
 const SITE_URL = "https://gakkikaitori-biyori.com";
 const SITE_DESCRIPTION =
-  "楽器買取びよりは、ギター・ピアノ・管楽器などの楽器買取を徹底比較するガイドサイトです。ヒカカク！・ティファナ・ウリエルなど人気買取サービスを比較し、あなたの楽器を最高値で売る方法が見つかります。";
+  "楽器買取びよりは、ギター・ピアノ・管楽器などの楽器買取サービスを比較するガイドサイトです。ヒカカク！・ティファナ・ウリエルなどの買取方式・手数料・対応エリアを整理し、楽器の売却先選びに役立つ情報を掲載しています。";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -236,9 +236,9 @@ function Footer() {
               {SITE_NAME}
             </p>
             <p className="text-sm text-white/70 leading-relaxed">
-              楽器買取サービスを徹底比較。
+              当サイトでは、楽器買取サービスの
               <br />
-              あなたの楽器を最高値で売る方法が見つかります。
+              買取方式・相場・対応エリアを比較して掲載しています。
             </p>
           </div>
           <div>

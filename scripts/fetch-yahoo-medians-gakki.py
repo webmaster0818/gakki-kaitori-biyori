@@ -230,7 +230,7 @@ TITLE_RULES.update({
 # 判断（A=実数に直す）が出たら下の1行を True にするだけでよい。__NEXT_DATA__ が読めないページは従来の "price" 正規表現に戻る。
 DEDUP_LISTINGS = True
 
-# ルールを変えた日より前の履歴点は別物（例: VOX AC30 の 7/16〜10/1 は全て amPlug の ¥3,4xx）なので、
+# ルールを変えた日より前の履歴点は別物（例: VOX AC30 の 7/16〜10/1 は全て amPlug の ¥3,4xx）のため、
 # 次回 fetch の write_history でこの日付より前の点を捨てる。残すと正しい値が入った週に
 # 前週比 +2000% 級の偽の値動きがランキングに出る。
 HISTORY_RESET_BEFORE = {
@@ -276,7 +276,7 @@ def extract_listings(html: str) -> list[dict] | None:
 def is_excluded(title: str, rule: dict) -> bool:
     t = unicodedata.normalize("NFKC", title).lower()
     if not all(re.search(p, t) for p in rule.get("require_regex", [])):
-        return True  # 型番が無い出品（Yahoo のあいまい一致で混ざる別商品）
+        return True  # 型番がない出品（Yahoo のあいまい一致で混ざる別商品）
     if any(w in t for w in rule.get("exclude", [])):
         return True
     return any(re.search(p, t) for p in rule.get("exclude_regex", []))

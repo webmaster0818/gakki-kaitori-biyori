@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/violin-kaitori/' },
   title: "【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性",
   description:
-    "バイオリン・弦楽器買取のおすすめ業者3社を徹底比較。バイオリン・ビオラ・チェロ・コントラバスの買取相場、Stradivarius・YAMAHA・Suzuki・Karl Hofnerなどブランド別の相場目安、鑑定書の有無による価格差まで解説。",
+    "バイオリン・弦楽器買取のおすすめ業者3社を比較します。バイオリン・ビオラ・チェロ・コントラバスの買取相場、Stradivarius・YAMAHA・Suzuki・Karl Hofnerなどブランド別の相場目安、鑑定書の有無による価格差まで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性",
-    description: "バイオリン・弦楽器買取のおすすめ業者3社を徹底比較。種類別・ブランド別の買取相場から鑑定書の重要性まで完全ガイド。",
+    description: "バイオリン・弦楽器買取のおすすめ業者3社を比較します。種類別・ブランド別の買取相場から鑑定書の重要性まで解説します。",
   },
 };
 
@@ -39,7 +39,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのバイオリンの買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のバイオリンの買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性を徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/violin-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性を解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/violin-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -104,10 +104,10 @@ export default function ViolinKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性を徹底解説
+            【2026年最新】バイオリン買取おすすめ3社比較｜相場・鑑定書の重要性を解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            バイオリンやチェロなどの弦楽器を売りたいけど、適正価格がわからない方へ。本記事では、バイオリン・弦楽器買取の人気3サービスを徹底比較し、初心者用からプロ用・オールド楽器までの買取相場、ビオラ・チェロ・コントラバスの相場、ブランド別の価格目安、そして鑑定書の有無による価格差について詳しく解説します。バイオリンは楽器の中でも特に価格帯が幅広く、適正な査定を受けるためには専門知識を持つ業者選びが極めて重要です。
+            バイオリンやチェロなどの弦楽器を売りたいものの、適正価格がわからない方へ。本記事では、バイオリン・弦楽器買取の人気3サービスを比較し、初心者用からプロ用・オールド楽器までの買取相場、ビオラ・チェロ・コントラバスの相場、ブランド別の価格目安、そして鑑定書の有無による価格差について詳しく解説します。バイオリンは楽器の中でも特に価格帯が幅広く、適正な査定を受けるためには専門知識を持つ業者選びが極めて重要です。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -269,7 +269,7 @@ export default function ViolinKaitoriPage() {
 
           <CtaBox />
 
-          <h2 id="comparison">バイオリン・弦楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">バイオリン・弦楽器買取おすすめ3社を比較</h2>
 
           <p>バイオリンの買取は、楽器の真贋鑑定力が求められるため、<strong>弦楽器の専門知識を持つ業者を選ぶことが極めて重要</strong>です。</p>
 
@@ -284,7 +284,7 @@ export default function ViolinKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">対応地域</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国主要都市</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -385,7 +385,7 @@ export default function ViolinKaitoriPage() {
             </table>
           </div>
 
-          <p>鑑定書は、信頼できる鑑定機関や著名な弦楽器ディーラーが発行したものが有効です。購入時に付属していた鑑定書は、必ず保管しておきましょう。<strong>鑑定書を紛失した場合でも、購入時の領収書やお店の記録が残っていれば、査定の参考になります。</strong></p>
+          <p>鑑定書は、信頼できる鑑定機関や著名な弦楽器ディーラーが発行したものが有効です。購入時に付属していた鑑定書は、必ず保管しておいてください。<strong>鑑定書を紛失した場合でも、購入時の領収書やお店の記録が残っていれば、査定の参考になります。</strong></p>
 
           <CtaBox />
 
@@ -401,7 +401,7 @@ export default function ViolinKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">複数社に査定依頼</h3><p className="text-sm text-warm-gray">弦楽器は業者の専門知識によって査定額が大きく変わります。ヒカカク！で一括査定して、弦楽器に詳しい業者を見つけましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">複数社に査定依頼</h3><p className="text-sm text-warm-gray">弦楽器は業者の専門知識によって査定額が大きく変わります。ヒカカク！で一括査定して、弦楽器に詳しい業者を見つけてください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -424,7 +424,7 @@ export default function ViolinKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                バイオリンの買取相場はレベルにより大きく異なります。入門用で5,000〜3万円、中級用で3万〜15万円、上級・プロ用で15万〜100万円以上です。オールド楽器や名工の作品は数百万〜数千万円になることもあります。鑑定書の有無も価格に大きく影響するため、お持ちの方は必ず一緒に査定に出しましょう。
+                バイオリンの買取相場はレベルにより大きく異なります。入門用で5,000〜3万円、中級用で3万〜15万円、上級・プロ用で15万〜100万円以上です。オールド楽器や名工の作品は数百万〜数千万円になることもあります。鑑定書の有無も価格に大きく影響するため、お持ちの方は必ず一緒に査定に出してください。
               </div>
             </details>
 
@@ -434,7 +434,7 @@ export default function ViolinKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、鑑定書がなくても売却は可能です。ただし、鑑定書がないと製作者や年代の証明が難しくなるため、査定額が下がる可能性があります。特に高額なオールド楽器の場合は、鑑定書の有無で数十万〜数百万円の差がつくことも。購入時の領収書や店舗の記録があれば参考になるため、一緒に提出しましょう。
+                はい、鑑定書がなくても売却は可能です。ただし、鑑定書がないと製作者や年代の証明が難しくなるため、査定額が下がる可能性があります。特に高額なオールド楽器の場合は、鑑定書の有無で数十万〜数百万円の差がつくことも。購入時の領収書や店舗の記録があれば参考になるため、一緒に提出してください。
               </div>
             </details>
 
@@ -464,7 +464,7 @@ export default function ViolinKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。完全無料で利用できるので、気軽に査定を申し込んでみてください。
+                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。無料で利用できます。
               </div>
             </details>
           </div>
@@ -479,7 +479,7 @@ export default function ViolinKaitoriPage() {
             <li><strong>チェロ・コントラバスなど大型楽器</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>鑑定書がある場合は必ず一緒に提出し、購入時の記録もあれば添えましょう。査定は完全無料なので、まずは気軽に相場を確認してみてください。</p>
+          <p>鑑定書がある場合は必ず一緒に提出し、購入時の記録もあれば添えてください。査定は無料のため、まずは相場をご確認ください。</p>
 
           <CtaBox />
         </div>

@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yamaha-c3-kaitori/' },
   title: "【2026年最新】ヤマハ C3買取相場｜製造番号・年式別の価値とグランドピアノの査定ポイント",
-  description: "YAMAHA C3グランドピアノの買取相場を年式別に解説。定番グランドの価値要因、製造番号による年代判定、状態や設置環境の査定差とおすすめ買取3社を比較。",
+  description: "YAMAHA C3グランドピアノの買取相場を年式別に解説します。定番グランドの価値要因、製造番号による年代判定、状態や設置環境の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function YamahaC3KaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>ヤマハ C3を売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>ヤマハ C3を売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>製造番号・製造年式（新しいほど高評価、年代で相場が変わる）</li>
             <li>外装の状態（傷・打痕・艶）と内部（弦・ハンマー・アクション）のコンディション</li>
@@ -107,7 +107,7 @@ export default function YamahaC3KaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>

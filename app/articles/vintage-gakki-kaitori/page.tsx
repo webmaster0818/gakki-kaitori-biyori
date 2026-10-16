@@ -5,7 +5,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/vintage-gakki-kaitori/' },
   title: "【2026年最新】ヴィンテージ楽器の買取で損しない方法｜価値を見極めるポイント",
-  description: "ヴィンテージ楽器（ギター・管楽器等）を高く売る方法を解説。年代・オリジナル度・専門業者の選び方、価値を見極めるポイント、安易な売却で損しないための注意点を解説。",
+  description: "ヴィンテージ楽器（ギター・管楽器等）を高く売る方法を解説します。年代・オリジナル度・専門業者の選び方、価値を見極めるポイント、安易な売却で損しないための注意点を解説します。",
 };
 
 function Breadcrumb() {
@@ -23,7 +23,7 @@ function Breadcrumb() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "ヴィンテージ楽器はどこで売るのが良いですか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージに精通した専門業者で査定するのが鉄則です。一般のリサイクル店では適正評価されない恐れがあります。ヒカカク！で専門業者を含め一括比較しましょう。" } },
+      { "@type": "Question", name: "ヴィンテージ楽器はどこで売るのが良いですか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージに精通した専門業者で査定するのが基本です。一般のリサイクル店では適正評価されない恐れがあります。ヒカカク！で専門業者を含め一括比較してください。" } },
       { "@type": "Question", name: "パーツ交換していると価値は下がりますか？", acceptedAnswer: { "@type": "Answer", text: "はい。オリジナルパーツからの変更は減額要因です。外した純正パーツがあれば一緒に査定に。" } },
       { "@type": "Question", name: "年代はどう調べますか？", acceptedAnswer: { "@type": "Answer", text: "シリアル番号やロゴ・仕様から年代を特定できます。業者の鑑定で確認できます。" } },
       { "@type": "Question", name: "状態が悪くても価値がありますか？", acceptedAnswer: { "@type": "Answer", text: "希少なヴィンテージは修理前提でも需要があります。" } },
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -77,7 +77,7 @@ export default function VintageGakkiKaitoriPage() {
         <div className="article-body">
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>ヴィンテージ楽器を売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>ヴィンテージ楽器を売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>年代・製造期（プリウォー・60年代等は高評価）</li>
             <li>オリジナル度（パーツ・塗装が当時のままか）</li>
@@ -101,7 +101,7 @@ export default function VintageGakkiKaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -115,7 +115,7 @@ export default function VintageGakkiKaitoriPage() {
                 <span className="pr-4">ヴィンテージ楽器はどこで売るのが良いですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ヴィンテージに精通した専門業者で査定するのが鉄則です。一般のリサイクル店では適正評価されない恐れがあります。ヒカカク！で専門業者を含め一括比較しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ヴィンテージに精通した専門業者で査定するのが基本です。一般のリサイクル店では適正評価されない恐れがあります。ヒカカク！で専門業者を含め一括比較してください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

@@ -6,7 +6,7 @@ type M = { slug: string; name: string; category: string; median: number; sample_
 /**
  * ブランドページ用：当該ブランドの主要モデルの実勢相場（ヤフオク落札中央値）を表示。
  * data/souba-ranking-gakki.json を参照するため週次cronの再ビルドで自動更新される。
- * 該当モデルが無いブランドでは何も描画しない（null）。
+ * 該当モデルがないブランドでは何も描画しない（null）。
  */
 export default function BrandSpotPrices({ brand }: { brand: string }) {
   const models = (data.models as M[])
@@ -18,7 +18,7 @@ export default function BrandSpotPrices({ brand }: { brand: string }) {
     <section className="my-8 bg-white rounded-lg border border-warm-border p-5">
       <h2 className="text-lg font-bold text-foreground mb-1">主要モデルの実勢買取相場【{updated}更新】</h2>
       <p className="text-xs text-warm-gray mb-3">
-        ヤフオク!落札データ（過去180日）の中央値（IQR外れ値除去）を当サイトが独自集計。買取額は中央値の概ね50〜70%が目安です（実額は無料査定で確認）。
+        ヤフオク!落札データ（過去180日）の中央値（IQR外れ値除去）を当サイトが独自に集計しています。買取額は中央値の概ね50〜70%が目安です（実際の金額は無料査定でご確認ください）。
       </p>
       <ul>
         {models.map((m) => (

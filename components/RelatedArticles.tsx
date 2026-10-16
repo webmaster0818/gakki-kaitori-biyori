@@ -71,7 +71,7 @@ export default function RelatedArticles({ currentSlug, relatedSlugs }: Props) {
     seen.add(slug);
     items.push(meta);
   }
-  // 関連記事が無くてもおすすめ業者＋価格注記は必ず表示する
+  // 関連記事がなくてもおすすめ業者＋価格注記は必ず表示する
   if (items.length === 0)
     return (
       <>

@@ -71,7 +71,7 @@ def main():
             "title": f"楽器買取 {name}おすすめ3選",
             "shortTitle": f"楽器買取 {name}おすすめ3選",
             "badge": name,
-            "description": f"{name}（{pref}）の楽器買取を出張・店頭・宅配で比較。送客3社とエリア状況を解説。",
+            "description": f"{name}（{pref}）の楽器買取を出張・店頭・宅配の方式別に比較します。紹介する3社とエリアの状況を解説します。",
             "category": "region",
         })
         added.append(slug)

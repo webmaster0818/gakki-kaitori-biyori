@@ -6,10 +6,10 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-kaitori/' },
   title: "【2026年10月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
-  description: "Ibanez（アイバニーズ）のギターを売るならどこがいい？RG・JEM・S・Prestigeなどシリーズ別の買取相場とおすすめ3社を徹底比較。高く売るコツまで解説。",
+  description: "Ibanez（アイバニーズ）のギターを売るならどこがいい？RG・JEM・S・Prestigeなどシリーズ別の買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
-    description: "Ibanezギターの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
+    description: "Ibanezギターの買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
   },
 };
 
@@ -21,7 +21,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのIbanez製品の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のIbanez製品の買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
@@ -59,7 +59,7 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年10月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">Ibanez（アイバニーズ）のギターを売りたい方へ。本記事では、Ibanez製ギターの買取に強い3社を徹底比較し、RG・JEM・S・AZ・Prestigeなどシリーズ別の買取相場と高く売るコツを詳しく解説します。Ibanezは星野楽器が展開する日本発のグローバルギターブランドで、テクニカル系ギタリストから絶大な支持を受けています。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">Ibanez（アイバニーズ）のギターを売りたい方へ。本記事では、Ibanez製ギターの買取に強い3社を比較し、RG・JEM・S・AZ・Prestigeなどシリーズ別の買取相場と高く売るコツを詳しく解説します。Ibanezは星野楽器が展開する日本発のグローバルギターブランドで、テクニカル系ギタリストから絶大な支持を受けています。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
@@ -97,7 +97,7 @@ export default function Page() {
             <tr className="bg-cream/50"><td className="px-4 py-3">GIOシリーズ（エントリー）</td><td className="px-4 py-3 text-gold-dark font-bold">3,000〜1万円</td><td className="px-4 py-3 text-warm-gray">初心者向け。買取は低め</td></tr>
           </tbody></table></div>
 
-          <p><strong>日本製（Made in Japan）のPrestigeやJ.Customは、インドネシア製と比べて2〜5倍の買取価格</strong>になることがあります。ヘッドやネックジョイント付近の「Made in Japan」「Prestige」の表記を確認しましょう。</p>
+          <p><strong>日本製（Made in Japan）のPrestigeやJ.Customは、インドネシア製と比べて2〜5倍の買取価格</strong>になることがあります。ヘッドやネックジョイント付近の「Made in Japan」「Prestige」の表記をご確認ください。</p>
 
           <h2 id="bass">Ibanezベースの買取相場</h2>
           <ul>
@@ -111,15 +111,15 @@ export default function Page() {
 
           <h2 id="tips">Ibanezギターを高く売る5つのコツ</h2>
           <h3>コツ1: 日本製（Prestige/J.Custom）かどうかを確認</h3>
-          <p>Ibanezの買取価格は製造国で大きく変わります。日本製のPrestigeやJ.Customは高額査定が期待できます。ヘッド裏やネックポケットで製造国を確認しましょう。</p>
+          <p>Ibanezの買取価格は製造国で大きく変わります。日本製のPrestigeやJ.Customは高額査定が期待できます。ヘッド裏やネックポケットで製造国をご確認ください。</p>
           <h3>コツ2: トレモロの状態を確認</h3>
-          <p>Edge、Lo-Pro Edge、Edge Zero IIなどのトレモロブリッジの動作確認を行いましょう。アームの動きがスムーズか、チューニングの安定性はどうかをチェックしておくと好印象です。</p>
+          <p>Edge、Lo-Pro Edge、Edge Zero IIなどのトレモロブリッジの動作確認を行ってください。アームの動きがスムーズか、チューニングの安定性はどうかをチェックしておくと好印象です。</p>
           <h3>コツ3: 複数業者に査定を依頼する</h3>
-          <p>ヒカカク！で一括査定を行い、複数業者の査定額を比較しましょう。Ibanezはブランド専門で強い業者もいるため、差が出やすいです。</p>
+          <p>ヒカカク！で一括査定を行い、複数業者の査定額を比較してください。Ibanezはブランド専門で強い業者もいるため、差が出やすいです。</p>
           <h3>コツ4: 付属品を揃える</h3>
-          <p>純正ケース（特にPrestige付属のハードケース）、トレモロアーム、レンチ類、保証書を揃えましょう。</p>
+          <p>純正ケース（特にPrestige付属のハードケース）、トレモロアーム、レンチ類、保証書を揃えてください。</p>
           <h3>コツ5: クリーニングとフレットの状態確認</h3>
-          <p>ボディを拭き、フレットボードを保湿しましょう。フレットの減り具合は査定に影響するため、状態を把握しておきましょう。</p>
+          <p>ボディを拭き、フレットボードを保湿してください。フレットの減り具合は査定に影響するため、状態を把握しておいてください。</p>
 
           <h2 id="faq">Ibanez買取に関するよくある質問</h2>
           <div className="space-y-4 mt-6">

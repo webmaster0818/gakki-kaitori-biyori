@@ -6,10 +6,10 @@ import DealerComparisonTable from "@/components/DealerComparisonTable";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/' },
   title: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点",
-  description: "楽器買取で詐欺やトラブルに遭わないための注意点を解説。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。",
+  description: "楽器買取で詐欺やトラブルに遭わないための注意点を解説します。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点",
-    description: "楽器買取の詐欺・トラブルを防ぐ方法と安心して売るための注意点を解説。",
+    description: "楽器買取の詐欺・トラブルを防ぐ方法と安心して売るための注意点を解説します。",
   },
 };
 
@@ -36,11 +36,11 @@ function CtaBox() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "楽器買取で詐欺に遭わないためにはどうすればいいですか？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社はすべて安心して利用できます。" } },
-      { "@type": "Question", name: "出張買取で強引に買い取られた場合はどうすればいいですか？", acceptedAnswer: { "@type": "Answer", text: "訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面で通知することで無条件で契約を解除できます。" } },
-      { "@type": "Question", name: "事前査定額と実際の買取額が違った場合は？", acceptedAnswer: { "@type": "Answer", text: "事前査定はあくまで概算です。ただし、大幅に減額する業者は要注意。事前に「この写真の状態で○万円か」を確認し、減額の条件を明確にしておきましょう。" } },
-      { "@type": "Question", name: "楽器買取のトラブルはどこに相談すればいいですか？", acceptedAnswer: { "@type": "Answer", text: "消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出しましょう。" } },
-      { "@type": "Question", name: "信頼できる買取業者の見分け方は？", acceptedAnswer: { "@type": "Answer", text: "古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点を確認しましょう。" } }
+      { "@type": "Question", name: "楽器買取で詐欺に遭わないためにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社はすべて安心して利用できます。" } },
+      { "@type": "Question", name: "出張買取で強引に買い取られた場合はどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面で通知することで無条件で契約を解除できます。" } },
+      { "@type": "Question", name: "事前査定額と実際の買取額が違った場合は？", acceptedAnswer: { "@type": "Answer", text: "事前査定はあくまで概算です。ただし、大幅に減額する業者には注意が必要です。事前に「この写真の状態で○万円か」を確認し、減額の条件を明確にしておいてください。" } },
+      { "@type": "Question", name: "楽器買取のトラブルはどこに相談すればよいですか？", acceptedAnswer: { "@type": "Answer", text: "消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出してください。" } },
+      { "@type": "Question", name: "信頼できる買取業者の見分け方は？", acceptedAnswer: { "@type": "Answer", text: "古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点をご確認ください。" } }
   ]};
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
@@ -59,7 +59,7 @@ export default function Page() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">楽器買取で詐欺やトラブルに遭わないための注意点を解説。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">楽器買取で詐欺やトラブルに遭わないための注意点を解説します。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 
@@ -72,23 +72,23 @@ export default function Page() {
           <h2 id="patterns">よくある詐欺・トラブルパターン</h2>
           <h3>パターン1: 事前査定と実際の買取額が大幅に違う</h3>
           <p>Webや電話での事前査定では高額を提示しておきながら、実際に楽器を送った後や出張査定の現場で「傷がある」「状態が悪い」などの理由をつけて大幅に減額するケースです。</p>
-          <p><strong>対策:</strong> 事前査定の段階で、減額の条件や基準を確認しましょう。写真を詳細に送り、「この写真の状態で○万円ですか？」と確認を取ることが重要です。</p>
+          <p><strong>対策:</strong> 事前査定の段階で、減額の条件や基準をご確認ください。写真を詳細に送り、「この写真の状態で○万円ですか？」と確認を取ることが重要です。</p>
 
           <h3>パターン2: 宅配買取で返送時に高額な送料を請求</h3>
           <p>「送料無料」と謳いながら、査定後にキャンセルすると高額な返送料を請求されるケースです。楽器は大きく重いため、返送料が5,000〜10,000円になることもあります。</p>
-          <p><strong>対策:</strong> 申し込み前に「キャンセル時の返送料」を必ず確認しましょう。本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべてキャンセル料・返送料が無料です。</p>
+          <p><strong>対策:</strong> 申し込み前に「キャンセル時の返送料」を必ずご確認ください。本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべてキャンセル料・返送料が無料です。</p>
 
           <h3>パターン3: 出張買取での強引な買い取り</h3>
           <p>出張査定に来た業者が、査定額に納得していないのに「もう来たので」「今日中に決めてくれれば」などと言って、強引に買取を迫るケースです。</p>
-          <p><strong>対策:</strong> 査定額に納得できない場合は、はっきりと「お断りします」と伝えましょう。法律上、訪問買取は8日間のクーリングオフが適用されます。</p>
+          <p><strong>対策:</strong> 査定額に納得できない場合は、はっきりと「お断りします」と伝えてください。法律上、訪問買取は8日間のクーリングオフが適用されます。</p>
 
           <h3>パターン4: 楽器の価値を知らない業者による過小評価</h3>
           <p>これは詐欺ではありませんが、楽器の知識が乏しい総合リサイクルショップに持ち込んだ結果、ヴィンテージギターやプロ仕様の管楽器が数千円で買い叩かれるケースです。</p>
-          <p><strong>対策:</strong> 楽器は必ず楽器に詳しい専門業者に査定を出しましょう。ヒカカク！なら楽器専門の買取業者に査定を依頼できます。</p>
+          <p><strong>対策:</strong> 楽器は必ず楽器に詳しい専門業者に査定を出してください。ヒカカク！なら楽器専門の買取業者に査定を依頼できます。</p>
 
           <h3>パターン5: 個人間取引（フリマアプリ）でのトラブル</h3>
           <p>メルカリやヤフオクで楽器を売る際、「商品が説明と違う」とクレームをつけられ、返品・返金を強要されるケースがあります。楽器は状態の判断が主観的な部分もあるため、トラブルになりやすいジャンルです。</p>
-          <p><strong>対策:</strong> 個人間取引のリスクを避けたい場合は、信頼できる買取業者を利用しましょう。</p>
+          <p><strong>対策:</strong> 個人間取引のリスクを避けたい場合は、信頼できる買取業者をご利用ください。</p>
 
           <CtaBox />
           <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。</p>
@@ -113,7 +113,7 @@ export default function Page() {
             <p className="text-sm font-medium mb-2">② 「処分費がかかる」と言われて0円、あるいは支払いを求められる</p>
             <p className="text-sm text-warm-gray leading-relaxed">
               古い機種や状態の悪いピアノでは、実際に買取額がつかないことはあります。問題は、
-              <strong>その説明が搬出当日に、他の選択肢が無くなった状態で出てくる</strong>ことです。
+              <strong>その説明が搬出当日に、他の選択肢がなくなった状態で出てくる</strong>ことです。
               その場で決めず、いったん中止して構いません。断ったことで費用を請求される契約になっていないか、
               申し込み時の書面を確認してください。
             </p>
@@ -138,11 +138,11 @@ export default function Page() {
           <h2 id="checklist">安心して楽器を売るためのチェックリスト</h2>
           <ul>
             <li><strong>複数業者に査定を依頼しているか</strong>: 1社だけの査定は危険。必ず3社以上に見積もりを取る</li>
-            <li><strong>査定料・出張料・送料・キャンセル料が無料か</strong>: 有料の場合は要注意</li>
+            <li><strong>査定料・出張料・送料・キャンセル料が無料か</strong>: 有料の場合は注意が必要</li>
             <li><strong>会社の所在地・連絡先が明記されているか</strong>: 住所不明の業者は避ける</li>
             <li><strong>古物商許可番号が公開されているか</strong>: 買取業を行うには古物商許可が必要</li>
             <li><strong>口コミ・評判を確認したか</strong>: Google口コミやSNSで評判をチェック</li>
-            <li><strong>事前査定額の根拠を説明してくれるか</strong>: 根拠なく高額を提示する業者は要注意</li>
+            <li><strong>事前査定額の根拠を説明してくれるか</strong>: 根拠なく高額を提示する業者は注意が必要</li>
             <li><strong>クーリングオフの説明があるか</strong>: 訪問買取は8日間のクーリングオフが法律で保障されている</li>
           </ul>
 
@@ -163,15 +163,15 @@ export default function Page() {
           <h3>消費生活センターへの相談</h3>
           <p>トラブルに遭った場合は、<strong>消費者ホットライン（188）</strong>に電話すれば、最寄りの消費生活センターにつながります。専門の相談員が対応してくれます。</p>
           <h3>警察への相談</h3>
-          <p>明らかな詐欺行為（偽物とすり替えられた、代金が振り込まれない等）があった場合は、警察に被害届を出しましょう。</p>
+          <p>明らかな詐欺行為（偽物とすり替えられた、代金が振り込まれない等）があった場合は、警察に被害届を出してください。</p>
 
           <h2 id="faq">よくある質問</h2>
           <div className="space-y-4 mt-6">
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器買取で詐欺に遭わないためにはどうすればいいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社はすべて安心して利用できます。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">出張買取で強引に買い取られた場合はどうすればいいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面で通知することで無条件で契約を解除できます。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">事前査定額と実際の買取額が違った場合は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">事前査定はあくまで概算です。ただし、大幅に減額する業者は要注意。事前に「この写真の状態で○万円か」を確認し、減額の条件を明確にしておきましょう。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器買取のトラブルはどこに相談すればいいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出しましょう。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">信頼できる買取業者の見分け方は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点を確認しましょう。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器買取で詐欺に遭わないためにはどうすればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社はすべて安心して利用できます。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">出張買取で強引に買い取られた場合はどうすればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面で通知することで無条件で契約を解除できます。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">事前査定額と実際の買取額が違った場合は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">事前査定はあくまで概算です。ただし、大幅に減額する業者には注意が必要です。事前に「この写真の状態で○万円か」を確認し、減額の条件を明確にしておいてください。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器買取のトラブルはどこに相談すればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出してください。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">信頼できる買取業者の見分け方は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点をご確認ください。</div></details>
           </div>
 
           <h2>まとめ</h2>

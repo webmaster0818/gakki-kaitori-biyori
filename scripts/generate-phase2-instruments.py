@@ -330,7 +330,7 @@ def build_article(inst: dict) -> str:
     cat = inst["category"]
 
     title = f"【2026年最新】{name}買取相場ガイド｜メーカー別査定額・高く売るコツ・おすすめ業者3選"
-    description = f"{name}（{name_en}）の買取相場、メーカー別の査定額目安、状態別の評価、高く売る5つのコツ、おすすめ買取業者3社を徹底解説。{cat}の買取で損しないための完全ガイド。"
+    description = f"{name}（{name_en}）の買取相場、メーカー別の査定額目安、状態別の評価、高く売る5つのコツ、おすすめ買取業者3社を解説します。{cat}の売却時に確認すべき点もまとめています。"
 
     brand_rows = "".join(
         f"<tr><td>{b[0]}</td><td>{b[1]}</td></tr>" for b in inst["brands"]
@@ -348,14 +348,14 @@ def build_article(inst: dict) -> str:
           <li><strong>仕上げの精度</strong>: 正規品レベルの仕上げか</li>
           <li><strong>付属品</strong>: 純正ケース・保証書・購入時の領収書</li>
         </ul>
-        <p>不安な場合は、{name}の専門知識を持つ買取業者で鑑定査定を依頼しましょう。</p>
+        <p>不安な場合は、{name}の専門知識を持つ買取業者で鑑定査定をご依頼ください。</p>
 """
 
     faqs_list = [
         (f"{name}は古くても買取してもらえますか？", f"はい、{name}は中古市場でも需要があるため、メーカー・状態・年式によっては10年以上前のモデルでも買取可能です。特にヴィンテージとして評価される個体は、新品よりも高値になるケースがあります。"),
         (f"{name}を高く売るタイミングは？", f"新生活前（1〜3月）、文化祭シーズン（9〜10月）は中古需要が高まる時期です。また、メーカーが新機種を発表する直前は旧モデルの相場が落ち着くため、早めの売却がおすすめです。"),
-        (f"{name}の付属品がない場合、買取できますか？", f"本体のみでも買取は可能ですが、ケース・保証書・取扱説明書・購入時の領収書などが揃っていると査定額が10〜30%アップします。可能な限り付属品を揃えて出しましょう。"),
-        (f"{name}が壊れていても買取できますか？", f"破損の程度によります。動作する状態であれば買取可能、明らかな故障があっても部品取り目的で買取できる業者もあります。まずは無料査定で確認しましょう。"),
+        (f"{name}の付属品がない場合、買取できますか？", f"本体のみでも買取は可能ですが、ケース・保証書・取扱説明書・購入時の領収書などが揃っていると査定額が10〜30%アップします。可能な限り付属品を揃えて出してください。"),
+        (f"{name}が壊れていても買取できますか？", f"破損の程度によります。動作する状態であれば買取可能、明らかな故障があっても部品取り目的で買取できる業者もあります。まずは無料査定でご確認ください。"),
     ]
     faqs_html = "\n        ".join(
         f'<details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">{q}<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={{2}} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">{a}</p></details>'
@@ -436,7 +436,7 @@ export default function Page() {{
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">{cat}</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">{name}の買取相場と高く売る完全ガイド</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">{name}の買取相場と高く売るガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">{name}（{name_en}）は{inst['outline']}。本記事では、メーカー別の買取相場、状態別の査定額、高く売る5つのコツ、おすすめ買取業者3社を解説します。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
         </header>
@@ -498,10 +498,10 @@ export default function Page() {{
         <p>{name}の買取で実績のある3社を紹介します。それぞれ強みが異なるため、自分の状況に合わせて選ぶのがおすすめです。</p>
         <ul>
           <li><strong>ヒカカク！</strong>: 一括査定サービス。1度の入力で複数業者から見積もりが届き、最高値を選べる</li>
-          <li><strong>ウリエル</strong>: 出張買取専門。大型・重量楽器（ピアノ・ハープ等）も自宅まで査定に来てくれる</li>
+          <li><strong>ウリエル</strong>: 出張買取が中心。大型・重量楽器（ピアノ・ハープ等）も自宅で査定を受けられる</li>
           <li><strong>ティファナ</strong>: 全国の楽器店ネットワーク。持ち込みで即現金化が可能</li>
         </ul>
-        <p>まずは無料査定で、おおよその{name}の買取価格を確認してみましょう。</p>
+        <p>まずは無料査定で、おおよその{name}の買取価格を確認してください。</p>
 
         <CtaBox />
 
@@ -510,8 +510,8 @@ export default function Page() {{
 
         <h2>関連記事</h2>
         <ul>
-          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを徹底比較</Link></li>
-          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るコツ完全ガイド</Link></li>
+          <li><Link href="/articles/kaitori-houhou-hikaku/" className="text-accent hover:underline">楽器の買取方法4つを比較</Link></li>
+          <li><Link href="/articles/takaku-uru-kotsu/" className="text-accent hover:underline">楽器を高く売るためのポイント</Link></li>
           <li><Link href="/articles/souba-ichiran/" className="text-accent hover:underline">楽器買取相場一覧</Link></li>
         </ul>
         </div>

@@ -20,7 +20,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">1社だけで決めず、複数社の査定額を比べて最高値で売りましょう</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">1社だけで決めず、複数社の査定額を比べて最高値で売ってください</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -38,7 +38,7 @@ const FAQ = [
   { q: "楽器の買取屋さんの買取方法は？", a: "出張・宅配・店頭の3方式に対応し、LINE査定での申込もできます。出張は公式で「全国出張買取対応・最短30分」と案内されていますが、地域や点数によっては出張非対応となる場合があるため、対応可否は事前確認をおすすめします。" },
   { q: "査定料や手数料はかかりますか？", a: "公式では査定料・出張料・キャンセル料などが0円（お客様負担0円）と案内されています。ただし宅配買取の送料負担や宅配時の入金日数については公式ページに明確な記載が見当たらないため、申込前にご確認ください。" },
   { q: "どんな楽器を買い取ってもらえますか？", a: "ギター・ベース・弦楽器・管楽器・ピアノ・電子ピアノ・シンセサイザー・ドラム・DJ/音響/レコーディング機材などに対応しています。一方、口コミでは和楽器（琴・三味線）やエレクトーン・一部の電子ピアノは買取を断られたという声もあるため、対応可否は事前確認が確実です。" },
-  { q: "高く売るにはどうすればいいですか？", a: "楽器の買取価格は業者・時期・状態で数万円単位の差が出ます。楽器の買取屋さん1社だけで決めず、一括査定や他の専門店の見積もりと比較するのが最も確実に高く売るコツです。付属品（ケース・保証書・シールド等）を揃え、状態を清掃してから査定に出すと評価が上がりやすくなります。" },
+  { q: "高く売るにはどうすればよいですか？", a: "楽器の買取価格は業者・時期・状態で数万円単位の差が出ます。楽器の買取屋さん1社だけで決めず、一括査定や他の専門店の見積もりと比較するのが最も確実に高く売るコツです。付属品（ケース・保証書・シールド等）を揃え、状態を清掃してから査定に出すと評価が上がりやすくなります。" },
 ];
 
 export default function Page() {
@@ -56,13 +56,13 @@ export default function Page() {
         <p className="text-xs text-warm-gray mb-6">最終更新: 2026年10月1日／編集部調べ（各社公式・公開情報より）</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-5 mb-8">
-          <p className="font-bold mb-2 text-accent-dark">まず結論</p>
+          <p className="font-bold mb-2 text-accent-dark">概要</p>
           <p className="text-sm leading-relaxed">「楽器の買取屋さん」は<strong>UNI SOUND株式会社</strong>が運営する楽器買取専門店で、<strong>古物商許可あり・出張/宅配/店頭に対応・査定料/出張料/キャンセル料0円</strong>を掲げています。出張は最短30分・その場で現金化とスピードが強み。一方で「和楽器・一部電子ピアノは対象外だった」「返信が遅い」といった声もあります。<strong>金額は業者で差が出るため、1社に絞らず複数社の査定を比較</strong>するのが失敗しないコツです。</p>
         </div>
 
         {/* conclusion-202607: 指名検索者の疑問に冒頭で即答 */}
         <div className="my-6 rounded-2xl border border-warm-border bg-cream p-6">
-          <p className="mb-3 text-xs font-bold uppercase tracking-widest text-warm-gray">まず結論</p>
+          <p className="mb-3 text-xs font-bold uppercase tracking-widest text-warm-gray">概要</p>
           <ul className="space-y-2 text-sm leading-relaxed">
             <li>・<strong>運営会社</strong>：UNI SOUND株式会社（古物商許可：神奈川県公安委員会 第451310006356号）。実在する許可事業者です。</li>
             <li>・<strong>手数料</strong>：公式で査定料・出張料・キャンセル料が0円と案内されています（宅配時の送料・入金日数は公式に明記がないため要確認）。</li>
@@ -86,13 +86,13 @@ export default function Page() {
         <CtaBox />
 
         <h2 className="text-xl font-bold mt-8 mb-3">評判・口コミの傾向（出典付き）</h2>
-        <p className="text-sm text-warm-gray mb-3">出典：比較・買取系メディア（excite買取・買取探偵EX・みん評 等／調査時点2026年10月）。以下は口コミ本文の転載ではなく、内容の傾向を要約したものです。中立的な一次口コミ（Googleマップ等）の網羅的確認は限定的な点にご留意ください。</p>
+        <p className="text-sm text-warm-gray mb-3">出典：比較・買取系メディア（excite買取・買取探偵EX・みん評 等／調査時点2026年7月）。以下は口コミ本文の転載ではなく、内容の傾向を要約したものです。中立的な一次口コミ（Googleマップ等）の網羅的確認は限定的な点にご留意ください。</p>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="border border-warm-border rounded-lg p-4"><p className="font-bold text-sm mb-2 text-accent-dark">好意的な声に多い内容</p><ul className="text-sm space-y-1 list-disc pl-5"><li>出張が早く来て、その場で現金化できた</li><li>電話・スタッフの対応が丁寧だった</li><li>他店より査定額が高かった</li><li>壊れた楽器でも対応してくれた</li></ul></div>
           <div className="border border-warm-border rounded-lg p-4"><p className="font-bold text-sm mb-2">気になる声に多い内容</p><ul className="text-sm space-y-1 list-disc pl-5"><li>和楽器（琴・三味線）・エレクトーン・一部電子ピアノは買取を断られた</li><li>返信が遅い／連絡が来ないことがあった</li><li>スタッフの知識にばらつきを感じた</li><li>査定担当のタバコ臭が気になった</li></ul></div>
         </div>
 
-        <h2 className="text-xl font-bold mt-8 mb-3">メリット・デメリット（正直な整理）</h2>
+        <h2 className="text-xl font-bold mt-8 mb-3">メリット・デメリット</h2>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="border border-warm-border rounded-lg p-4"><p className="font-bold text-sm mb-2 text-accent-dark">メリット</p><ul className="text-sm space-y-1 list-disc pl-5"><li>楽器買取専門店で幅広いジャンルに対応</li><li>出張最短30分・その場現金手渡しのスピード</li><li>査定料・出張料・キャンセル料0円を明示</li><li>古物商許可を取得した事業者</li></ul></div>
           <div className="border border-warm-border rounded-lg p-4"><p className="font-bold text-sm mb-2">デメリット・注意点</p><ul className="text-sm space-y-1 list-disc pl-5"><li>和楽器・エレクトーン・一部電子ピアノは対象外の場合あり</li><li>宅配の送料・入金日数など一部条件が公式で分かりにくい</li><li>出張は地域・点数により非対応の場合あり</li><li>金額は1社だけでは相場か判断しづらい（比較推奨）</li></ul></div>

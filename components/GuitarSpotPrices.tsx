@@ -39,7 +39,7 @@ export default function GuitarSpotPrices() {
     <section className="my-8 bg-white rounded-lg border border-warm-border p-5">
       <h3 className="text-lg font-bold text-foreground mb-1">ギター主要モデルの実勢買取相場【{updated}更新】</h3>
       <p className="text-xs text-warm-gray mb-3">
-        ヤフオク!落札データ（過去180日）の中央値（IQR外れ値除去）を当サイトが独自集計し、毎週更新しています。中古楽器の相場は全国のオンライン市場で形成されるため、都市による大きな差はありません。買取店の提示額は中央値の概ね50〜70%が目安です（実額は無料査定で確認）。
+        ヤフオク!落札データ（過去180日）の中央値（IQR外れ値除去）を当サイトが独自集計し、毎週更新しています。中古楽器の相場は全国のオンライン市場で形成されるため、都市による大きな差はありません。買取店の提示額は中央値の概ね50〜70%が目安です（実際の金額は無料査定でご確認ください）。
       </p>
       <div className="table-wrapper mb-4">
         <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">

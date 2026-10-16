@@ -18,7 +18,7 @@ const updated = data.updated as string;
 export const metadata: Metadata = {
   title: `楽器買取相場ランキング【${updated}更新】値上がり/値下がりモデルと高額相場`,
   description:
-    "人気楽器モデルの実勢買取相場を毎週更新。今週の値上がり・値下がりモデル、高額相場ランキング、流通量ランキングを、ヤフオク!の落札データにもとづく当サイト独自集計（中央値・IQR外れ値除去）で公開します。出典明記で引用歓迎。",
+    "人気楽器モデルの実勢買取相場を毎週更新しています。今週の値上がり・値下がりモデル、高額相場ランキング、流通量ランキングを、ヤフオク!の落札データにもとづく当サイト独自集計（中央値・IQR外れ値除去）で公開しています。出典を明記のうえ引用いただけます。",
   alternates: { canonical: "/souba-ranking/" },
 };
 
@@ -88,9 +88,9 @@ export default function Page() {
         <header className="py-6">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">楽器買取相場ランキング</h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            人気楽器モデルの実勢相場を<strong className="text-foreground">毎週更新</strong>。ヤフオク!の過去180日落札データから、個別落札額の<strong className="text-foreground">中央値（IQR外れ値除去）</strong>を当サイトが独自集計したものです。買取額の目安は、状態・付属品・時期により中央値の概ね50〜70%が目安となります（実額は無料査定でご確認ください）。
+            人気楽器モデルの実勢相場を<strong className="text-foreground">毎週更新</strong>しています。ヤフオク!の過去180日落札データから、個別落札額の<strong className="text-foreground">中央値（IQR外れ値除去）</strong>を当サイトが独自集計したものです。買取額は、状態・付属品・時期により中央値の概ね50〜70%が目安です（実際の金額は無料査定でご確認ください）。
             <br />
-            <span className="text-xs">最終更新: {updated}／対象 {models.length} モデル。本データは出典（gakkikaitori-biyori.com）明記のうえ引用歓迎です。</span>
+            <span className="text-xs">最終更新: {updated}／対象 {models.length} モデル。本データは、出典（gakkikaitori-biyori.com）を明記のうえ引用いただけます。</span>
           </p>
         </header>
 

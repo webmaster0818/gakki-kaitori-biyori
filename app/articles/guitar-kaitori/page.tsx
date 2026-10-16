@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/guitar-kaitori/' },
   title: "【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツ",
   description:
-    "ギター買取のおすすめ業者3社を徹底比較。エレキギター・アコースティックギターの買取相場、Gibson・Fender・YAMAHAなどブランド別の相場目安、高く売るコツまで解説。無料査定で最高値がわかります。",
+    "ギター買取のおすすめ業者3社を比較します。エレキギター・アコースティックギターの買取相場、Gibson・Fender・YAMAHAなどブランド別の相場目安、高く売るコツまで解説します。無料査定で最高値がわかります。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツ",
-    description: "ギター買取のおすすめ業者3社を徹底比較。エレキ・アコギの買取相場からブランド別相場、高く売るコツまで完全ガイド。",
+    description: "ギター買取のおすすめ業者3社を比較します。エレキ・アコギの買取相場からブランド別相場、高く売るコツまで解説します。",
   },
 };
 
@@ -41,7 +41,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのギターの買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のギターの買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -88,7 +88,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツを解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -106,10 +106,10 @@ export default function GuitarKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツを徹底解説
+            【2026年最新】ギター買取おすすめ3社比較｜相場・高く売るコツを解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            ギターを売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、ギター買取の人気3サービスを徹底比較し、エレキギター・アコースティックギターの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。
+            ギターを売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、ギター買取の人気3サービスを比較し、エレキギター・アコースティックギターの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -202,7 +202,7 @@ export default function GuitarKaitoriPage() {
           <CtaBox />
 
           {/* Section 2: 3社比較 */}
-          <h2 id="comparison">ギター買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">ギター買取おすすめ3社を比較</h2>
 
           <p>ギターの買取業者は数多くありますが、ここでは特におすすめの3社を、買取方法・対応楽器・スピード・特徴の面から比較します。</p>
 
@@ -217,7 +217,7 @@ export default function GuitarKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">対応地域</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国主要都市</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -272,7 +272,7 @@ export default function GuitarKaitoriPage() {
             </div>
           </div>
 
-          <p>どの業者も<strong>査定・見積もりは完全無料</strong>です。金額に納得できなければキャンセルも無料なので、まずは気軽に申し込んでみましょう。</p>
+          <p>どの業者も<strong>査定・見積もりは無料</strong>です。金額に納得できなければキャンセルも無料のため、まずは気軽に申し込んでください。</p>
 
           {/* Section: 業者選びのポイント */}
           <h2 id="choose">ギター買取業者選びの3つのポイント</h2>
@@ -286,7 +286,7 @@ export default function GuitarKaitoriPage() {
           <p>出張・宅配・店頭など、複数の買取方法を用意している業者は柔軟性が高く便利です。エレキギター1本なら宅配でも良いですが、アンプやエフェクターもまとめて売るなら出張買取がおすすめです。</p>
 
           <h3>ポイント3: キャンセル料・送料が無料か</h3>
-          <p>査定後にキャンセルした場合の返送料や、宅配買取の送料が無料かどうかを確認しましょう。本記事で紹介している3社はすべて<strong>査定料・出張料・送料・キャンセル料が無料</strong>です。</p>
+          <p>査定後にキャンセルした場合の返送料や、宅配買取の送料が無料かどうかをご確認ください。本記事で紹介している3社はすべて<strong>査定料・出張料・送料・キャンセル料が無料</strong>です。</p>
 
           <CtaBox />
 
@@ -303,7 +303,7 @@ export default function GuitarKaitoriPage() {
 
           <h3>コツ2: 付属品をすべて揃える</h3>
 
-          <p>ギターの買取価格は、付属品の有無で大きく変わります。以下の付属品は、あれば必ず一緒に査定に出しましょう。</p>
+          <p>ギターの買取価格は、付属品の有無で大きく変わります。以下の付属品は、あれば必ず一緒に査定に出してください。</p>
 
           <ul>
             <li><strong>純正ハードケース/ギグバッグ</strong>: これだけで数千円〜1万円のプラスになることも</li>
@@ -315,7 +315,7 @@ export default function GuitarKaitoriPage() {
 
           <h3>コツ3: クリーニングして見た目を整える</h3>
 
-          <p>査定士も人間です。第一印象がきれいなギターは、それだけで好印象を持たれます。査定前に以下のクリーニングを行いましょう。</p>
+          <p>査定士も人間です。第一印象がきれいなギターは、それだけで好印象を持たれます。査定前に以下のクリーニングを行ってください。</p>
 
           <ul>
             <li><strong>ボディ</strong>: 専用のポリッシュで拭き上げる（ラッカー塗装のギターは対応製品を使用）</li>
@@ -378,7 +378,7 @@ export default function GuitarKaitoriPage() {
             <li><strong>Japan製（旧Fender Japan）</strong>: 2万〜8万円</li>
           </ul>
 
-          <p>Fenderギターは、USA製・メキシコ製・日本製でランクが明確に分かれるため、製造国を確認してから査定に出しましょう。ヘッドのロゴやシリアルナンバーで判別できます。</p>
+          <p>Fenderギターは、USA製・メキシコ製・日本製でランクが明確に分かれるため、製造国を確認してから査定に出してください。ヘッドのロゴやシリアルナンバーで判別できます。</p>
 
           <h3>YAMAHA（ヤマハ）の買取相場</h3>
 
@@ -443,7 +443,7 @@ export default function GuitarKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ギターの買取相場はブランド・モデル・状態により大きく異なります。エレキギターではGibson Les Paul Standardが10万〜30万円、Fender Stratocasterが5万〜20万円が目安です。アコースティックギターではMartin D-28が10万〜25万円、Gibson J-45が8万〜20万円程度です。正確な買取価格は複数業者に査定依頼して比較しましょう。
+                ギターの買取相場はブランド・モデル・状態により大きく異なります。エレキギターではGibson Les Paul Standardが10万〜30万円、Fender Stratocasterが5万〜20万円が目安です。アコースティックギターではMartin D-28が10万〜25万円、Gibson J-45が8万〜20万円程度です。正確な買取価格は複数業者に査定依頼して比較してください。
               </div>
             </details>
 
@@ -483,13 +483,13 @@ export default function GuitarKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。完全無料で利用できるので、気軽に査定を申し込んでみてください。
+                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。無料で利用できます。
               </div>
             </details>
           </div>
 
           {/* まとめ */}
-          <h2>まとめ：ギター買取は相見積もりが鉄則</h2>
+          <h2>まとめ：ギター買取は相見積もりが基本</h2>
 
           <p>ギターの買取価格は、同じモデルでも業者によって数万円の差が出ることがあります。大切なギターを適正価格で売却するためには、<strong>必ず複数の業者に査定を依頼し、比較検討すること</strong>が最も重要です。</p>
 
@@ -501,7 +501,7 @@ export default function GuitarKaitoriPage() {
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>まずはヒカカク！で相場を把握し、その後で最適な売却方法を選ぶのが、後悔しないギター売却のコツです。査定は完全無料なので、ぜひ気軽に試してみてください。</p>
+          <p>まずはヒカカク！で相場を把握し、その後で最適な売却方法を選ぶのが、後悔しないギター売却のコツです。査定は無料のため、ご利用ください。</p>
 
           <CtaBox />
         </div>

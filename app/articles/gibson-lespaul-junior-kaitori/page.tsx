@@ -5,7 +5,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gibson-lespaul-junior-kaitori/' },
   title: "【2026年最新】ギブソン レスポール ジュニア買取相場｜年代・仕様別の価値と査定ポイント",
-  description: "Gibson Les Paul Juniorの買取相場を年代・仕様別に解説。P-90×1基のシンプルな名機の価値要因、ダブルカッタウェイ／シングルカッタウェイの違い、状態の査定差とおすすめ買取3社を比較。",
+  description: "Gibson Les Paul Juniorの買取相場を年代・仕様別に解説します。P-90×1基のシンプルな名機の価値要因、ダブルカッタウェイ／シングルカッタウェイの違い、状態の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -24,8 +24,8 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "レスポール ジュニアの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行USA/Custom Shopで6万〜18万円、1950年代のヴィンテージは30万〜200万円以上が目安です。ダブルカッタウェイのオリジナルは特に高評価です。" } },
       { "@type": "Question", name: "P-90が1基だけでも需要はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい。シンプルゆえの太いサウンドを好む層が多く、需要は安定しています。" } },
-      { "@type": "Question", name: "ヘッド折れの修復歴があると売れませんか？", acceptedAnswer: { "@type": "Answer", text: "売却は可能ですが、ヘッド折れ・修復歴は減額要因です。修復品である旨を正直に伝え、複数社で査定するのがおすすめです。" } },
-      { "@type": "Question", name: "TVモデルやスペシャルとの違いは？", acceptedAnswer: { "@type": "Answer", text: "TVイエロー塗装のものや2ピックアップのスペシャルは別評価です。仕様によって相場が変わるため、型番や年代を確認しましょう。" } },
+      { "@type": "Question", name: "ヘッド折れの修復歴があると売れませんか？", acceptedAnswer: { "@type": "Answer", text: "売却は可能ですが、ヘッド折れ・修復歴は減額要因です。修復品である旨を正確に伝え、複数社で査定するのがおすすめです。" } },
+      { "@type": "Question", name: "TVモデルやスペシャルとの違いは？", acceptedAnswer: { "@type": "Answer", text: "TVイエロー塗装のものや2ピックアップのスペシャルは別評価です。仕様によって相場が変わるため、型番や年代をご確認ください。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ギブソン レスポール ジュニア買取相場｜年代・仕様別の価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -44,7 +44,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -80,7 +80,7 @@ export default function GibsonLespaulJuniorKaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>ギブソン レスポール ジュニアを売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>ギブソン レスポール ジュニアを売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>年代（1950年代のオリジナルは希少で高額）とボディ形状（ダブルカッタウェイは人気）</li>
             <li>オリジナルのP-90・配線・ラップアラウンドブリッジの保持</li>
@@ -104,7 +104,7 @@ export default function GibsonLespaulJuniorKaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -132,14 +132,14 @@ export default function GibsonLespaulJuniorKaitoriPage() {
                 <span className="pr-4">ヘッド折れの修復歴があると売れませんか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却は可能ですが、ヘッド折れ・修復歴は減額要因です。修復品である旨を正直に伝え、複数社で査定するのがおすすめです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却は可能ですが、ヘッド折れ・修復歴は減額要因です。修復品である旨を正確に伝え、複数社で査定するのがおすすめです。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
                 <span className="pr-4">TVモデルやスペシャルとの違いは？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">TVイエロー塗装のものや2ピックアップのスペシャルは別評価です。仕様によって相場が変わるため、型番や年代を確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">TVイエロー塗装のものや2ピックアップのスペシャルは別評価です。仕様によって相場が変わるため、型番や年代をご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

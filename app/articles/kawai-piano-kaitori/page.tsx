@@ -6,10 +6,10 @@ import UrielVisitBanner from "@/components/UrielVisitBanner";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawai-piano-kaitori/' },
   title: "カワイピアノの買取相場ガイド【2026年10月】グランド・アップライト・電子ピアノ別の査定ポイント",
-  description: "カワイ（KAWAI）のピアノを売るならどこがいい？RX・GXグランド、Kシリーズアップライト、CA・CN・CL電子ピアノのシリーズ別査定ポイント、製造番号での年代確認、重量物ならではの出張買取の流れとおすすめ3社を解説。無料査定だけの利用もOK。",
+  description: "カワイ（KAWAI）のピアノを売るならどこがいい？RX・GXグランド、Kシリーズアップライト、CA・CN・CL電子ピアノのシリーズ別査定ポイント、製造番号での年代確認、重量物ならではの出張買取の流れとおすすめ3社を解説します。無料査定のみの利用も可能です。",
   openGraph: { images: ["/og-image.png"], 
     title: "カワイピアノの買取相場ガイド【2026年10月】グランド・アップライト・電子ピアノ別の査定ポイント",
-    description: "カワイピアノを売るなら。シリーズ別の査定ポイントとモデル名・製造番号での査定手順、おすすめ買取3社を解説。",
+    description: "カワイピアノを売るなら。シリーズ別の査定ポイントとモデル名・製造番号での査定手順、おすすめ買取3社を解説します。",
   },
 };
 
@@ -102,11 +102,11 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張買取専門</td><td className="px-4 py-3">出張/店頭/宅配</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張買取中心</td><td className="px-4 py-3">出張/店頭/宅配</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">グランド/アップライト/電子</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">搬出</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">スタッフが対応</td><td className="px-4 py-3">出張時対応</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">自宅完結・まとめ売りOK</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">搬出まで任せたい人</td><td className="px-4 py-3">すぐ売りたい人</td></tr>
               </tbody>
             </table>
@@ -116,7 +116,7 @@ export default function Page() {
           <p>ピアノは業者の販路（国内再販・海外輸出・レストア）によって査定額の差が出やすい楽器です。ヒカカク！なら<strong>複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。モデル名と製造番号を添えて依頼すると、より正確な金額が出ます。</p>
 
           <h3>ウリエル ── 出張買取で搬出まで自宅完結</h3>
-          <p>ウリエルは出張買取専門で、出張料・査定料は無料です。<strong>自宅にいながら査定から引き渡しまで完結</strong>できるため、動かせないアップライト・グランドピアノに向いています。</p>
+          <p>ウリエルは出張買取が中心で、出張料・査定料は無料です。<strong>自宅にいながら査定から引き渡しまで完結</strong>できるため、動かせないアップライト・グランドピアノに向いています。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
           <p>ティファナは<strong>年間4万件の買取実績</strong>があり、ピアノ以外の楽器や家財もまとめて売れるのが強みです。電子ピアノなど比較的小型のモデルなら宅配買取も選べます。</p>
@@ -168,7 +168,7 @@ export default function Page() {
           <p>ピアノは販路（国内再販・海外輸出）によって業者ごとの査定額の差が出やすいため、一括査定で比較してから決めるのが確実です。</p>
 
           <h3>コツ3: 調律記録・付属品を揃える</h3>
-          <p>調律師のカードなど定期的な調律の記録は、管理状態の良さの証明になります。椅子・鍵・保証書などの付属品も揃えて査定に出しましょう。外装はやわらかい布で乾拭きし、ほこりを落としておきます。</p>
+          <p>調律師のカードなど定期的な調律の記録は、管理状態の良さの証明になります。椅子・鍵・保証書などの付属品も揃えて査定に出してください。外装はやわらかい布で乾拭きし、ほこりを落としておきます。</p>
 
           <h3>コツ4: 売ると決めたら早めに動く</h3>
           <p>ピアノは設置したまま放置すると湿度による内部劣化が進みます。使っていないピアノは、状態が良いうちに査定へ出すのが減額を防ぐ最大のポイントです。</p>
@@ -218,7 +218,7 @@ export default function Page() {
 
           <h2>まとめ: カワイピアノはモデル名・製造番号を控えて比較査定へ</h2>
 
-          <p>カワイのピアノを売るなら、まずモデル名と製造番号を確認し、<strong>出張買取対応の業者を複数比較</strong>するのが鉄則です。</p>
+          <p>カワイのピアノを売るなら、まずモデル名と製造番号を確認し、<strong>出張買取対応の業者を複数比較</strong>するのが基本です。</p>
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
@@ -226,7 +226,7 @@ export default function Page() {
             <li><strong>他の楽器・家財もまとめて売りたい</strong> → ティファナ</li>
           </ul>
 
-          <p>査定は完全無料。まずはモデル名の確認から始めてみてください。</p>
+          <p>査定は無料。まずはモデル名の確認から始めてください。</p>
 
           <CtaBox />
         </div>

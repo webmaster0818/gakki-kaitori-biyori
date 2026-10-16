@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/' },
   title: "神戸の楽器買取はどこがいい？三宮の専門店・近くの店・出張の選び方とおすすめ業者【2026年10月】",
   description:
-    "神戸で楽器を売るならどこがいい？神戸対応の楽器買取おすすめ3社を徹底比較。三宮・元町・ハーバーランドなどエリア別の買取事情、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説。",
+    "神戸で楽器を売るならどこがいい？神戸対応の楽器買取おすすめ3社を比較します。三宮・元町・ハーバーランドなどエリア別の買取事情、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
-    description: "神戸で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを徹底解説。",
+    description: "神戸で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
   },
 };
 
@@ -86,7 +86,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を徹底比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較\", \"item\": \"https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -103,10 +103,10 @@ export default function KobeGakkiKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を徹底比較
+            【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            神戸で楽器を売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を徹底比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
+            神戸で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -149,7 +149,7 @@ export default function KobeGakkiKaitoriPage() {
 
           <CtaBox />
 
-          <h2 id="comparison">神戸対応の楽器買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">神戸対応の楽器買取おすすめ3社を比較</h2>
 
           <p>神戸エリアに対応している楽器買取の人気3社を、買取方法・特徴・スピードの面から比較します。</p>
 
@@ -164,7 +164,7 @@ export default function KobeGakkiKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">神戸対応</td><td className="px-4 py-3">全国対応（神戸含む）</td><td className="px-4 py-3">全国対応（神戸含む）</td><td className="px-4 py-3">神戸市内出張可</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -178,13 +178,13 @@ export default function KobeGakkiKaitoriPage() {
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。神戸にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
-          <p>神戸在住で「どの業者に売ればいいかわからない」という方は、まずヒカカク！で相場を把握するところから始めましょう。</p>
+          <p>神戸在住で「どの業者に売ればよいかわからない」という方は、まずヒカカク！で相場を把握するところから始めてください。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式で神戸にも対応</h3>
 
           <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。出張買取・店頭買取・宅配買取の3つの方法に対応しており、神戸からでも利用可能です。特に宅配買取は、梱包して送るだけなので手軽に利用できます。</p>
 
-          <p>楽器の状態が悪くても査定してくれるのがティファナの強みです。「売れるかどうかわからない」という楽器でも、まずは気軽に相談してみましょう。</p>
+          <p>楽器の状態が悪くても査定してくれるのがティファナの強みです。「売れるかどうかわからない」という楽器でも、まずは気軽に相談してください。</p>
 
           <h3>ウリエル ── 神戸市内の出張買取で自宅完結</h3>
 
@@ -280,7 +280,7 @@ export default function KobeGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-accent text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
-              <div><h4 className="font-bold text-sm mb-1">買取成立・その場で現金受け取り</h4><p className="text-sm text-warm-gray">金額に納得できれば買取成立。その場で現金を受け取れます。納得できなければ無料でキャンセル可能。</p></div>
+              <div><h4 className="font-bold text-sm mb-1">買取成立・その場で現金受け取り</h4><p className="text-sm text-warm-gray">金額に納得できれば買取成立。その場で現金を受け取れます。納得できなければ無料でキャンセル可能です。</p></div>
             </div>
           </div>
 
@@ -294,25 +294,25 @@ export default function KobeGakkiKaitoriPage() {
 
           <h3>コツ2: 付属品をすべて揃える</h3>
 
-          <p>ケース・保証書・取扱説明書・チューナー・ストラップなど、購入時に付属していたものは可能な限り揃えましょう。特に純正ハードケースは、それだけで数千円〜1万円のプラスになることもあります。</p>
+          <p>ケース・保証書・取扱説明書・チューナー・ストラップなど、購入時に付属していたものは可能な限り揃えてください。特に純正ハードケースは、それだけで数千円〜1万円のプラスになることもあります。</p>
 
           <h3>コツ3: クリーニングして見た目を整える</h3>
 
-          <p>査定前にボディを拭き、フレットボードを保湿し、錆びた弦は張り替えましょう。見た目の第一印象は査定額に直結します。管楽器の場合は内部の汚れやマウスピースのクリーニングも忘れずに。</p>
+          <p>査定前にボディを拭き、フレットボードを保湿し、錆びた弦は張り替えてください。見た目の第一印象は査定額に直結します。管楽器の場合は内部の汚れやマウスピースのクリーニングも忘れずに。</p>
 
           <h3>コツ4: 売却タイミングを見極める</h3>
 
-          <p>2〜3月の新学期シーズンや、ボーナス時期（6〜7月、12月）は楽器の需要が高まり、買取価格も上がりやすい傾向があります。神戸は大学が多い街なので、特に春先の需要増は顕著です。</p>
+          <p>2〜3月の新学期シーズンや、ボーナス時期（6〜7月、12月）は楽器の需要が高まり、買取価格も上がりやすい傾向があります。神戸は大学が多い街のため、特に春先の需要増は顕著です。</p>
 
           <h3>コツ5: 地元店だけでなく全国サービスも活用する</h3>
 
-          <p>三宮周辺の楽器店だけに査定を出すのではなく、ヒカカク！のような全国規模のサービスも利用しましょう。<strong>地元店の買取価格が全国相場より低いケースは珍しくありません</strong>。特に高額楽器ほど、業者間の競争で価格差が広がります。</p>
+          <p>三宮周辺の楽器店だけに査定を出すのではなく、ヒカカク！のような全国規模のサービスもご利用ください。<strong>地元店の買取価格が全国相場より低いケースは珍しくありません</strong>。特に高額楽器ほど、業者間の競争で価格差が広がります。</p>
 
           <CtaBox />
 
           <div className="bg-gold/10 border border-warm-border rounded-xl p-5 my-8">
             <p className="font-bold text-sm mb-1">ギターを売るなら専用ガイドへ</p>
-            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表つきの専用ページで詳しく解説しています。</p>
+            <p className="text-sm text-warm-gray mb-2">Gibson・Fender・Ibanezなどギターの売却が目的なら、主要モデルの週次相場表を掲載した専用ページで詳しく解説しています。</p>
             <Link href="/articles/guitar-kaitori-kobe/" className="text-accent font-medium text-sm hover:underline">神戸のギター買取おすすめ3社と相場を見る →</Link>
           </div>
 
@@ -328,7 +328,7 @@ export default function KobeGakkiKaitoriPage() {
           <p>買取方式：店頭/出張。ギター類(Fender/Gibson/Martin/ESP、故障・部品欠品も可)・エフェクター等。灘店は2025/12新規（<a href="https://www.hardoff.co.jp/shop/detail/?p=201165" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>セカンドストリート（神戸西店/伊川谷店=西区、神戸垂水店=垂水区ほか） ── 西区・垂水区ほか市内複数</h3>
           <p>買取方式：店頭(予約不要・その場現金)。総合リユース店。店舗により楽器買取不可の場合あり（<a href="https://www.2ndstreet.jp/sell/category/instruments" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
-          <p className="text-sm text-warm-gray">※イシバシ楽器神戸三宮店は2026年10月閉店済で市内店舗なし(最寄り=大阪梅田/心斎橋)。JEUGIA・三木楽器も神戸市内店舗は確認できず(大阪/京都拠点)。神戸で売るなら上記チェーンか大阪持込。</p>
+          <p className="text-sm text-warm-gray">※イシバシ楽器神戸三宮店は2019年8月閉店済で市内店舗なし(最寄り=大阪梅田/心斎橋)。JEUGIA・三木楽器も神戸市内店舗は確認できず(大阪/京都拠点)。神戸で売るなら上記チェーンか大阪持込。</p>
 
           <CtaBox />
 
@@ -402,7 +402,7 @@ export default function KobeGakkiKaitoriPage() {
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>査定はすべて無料なので、まずはヒカカク！で相場を確認してみてください。複数業者の査定額を比較することで、大切な楽器を適正価格で売却できます。</p>
+          <p>査定はすべて無料のため、まずはヒカカク！で相場をご確認ください。複数業者の査定額を比較することで、大切な楽器を適正価格で売却できます。</p>
 
           <CtaBox />
         </div>
@@ -426,7 +426,7 @@ export default function KobeGakkiKaitoriPage() {
             楽器の買取屋さんとは？運営会社・店舗一覧・対応エリアを見る
           </Link>
         </div>
-        {/* dokogaii-link-202609 : 「楽器買取 どこがいい」で1ページ目に出ているが地域名の無い問い。答えのページへ送る */}
+        {/* dokogaii-link-202609 : 「楽器買取 どこがいい」で1ページ目に出ているが地域名のない問い。答えのページへ送る */}
         <div className="bg-white border border-warm-200 p-5 my-8">
           <p className="text-xs font-medium text-warm-gray mb-2">地域を問わず「どこがいい？」で迷っている方へ</p>
           <p className="text-sm leading-relaxed mb-3">

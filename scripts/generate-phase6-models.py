@@ -317,7 +317,7 @@ MODELS = [
         "spec": [
             "マークVIはフランス・セルマー社が1954年から製造した名機で、抜けの良い音色と高い操作性で「サックスの王様」とも称されます。ジャズ・クラシック問わず多くの名手が愛用しました。",
             "<strong>製造番号（シリアル）</strong>で製造年が分かり、特定のシリアル帯（いわゆる『黄金期』）が特に高く評価されます。アルトとテナーで人気・相場が異なります。",
-            "オリジナルラッカーの残存率、彫刻、未改造（ネックやキー周りに後年の改造が無い）であることが査定に大きく影響します。",
+            "オリジナルラッカーの残存率、彫刻、未改造（ネックやキー周りに後年の改造がない）であることが査定に大きく影響します。",
         ],
         "factors": [
             "<strong>製造番号（シリアル）</strong>: 製造年・人気帯の特定が最重要。",
@@ -544,8 +544,8 @@ def build_faqs(m: dict):
          f"{model}の買取相場は年式・状態・付属品により大きく異なります。中古市場では{m['price_rows'][0][1]}（最も状態の良い世代）が一つの目安として取引される傾向がありますが、断定はできません。正確な査定額は無料査定でご確認ください。"),
         (f"古い{model}でも買い取ってもらえますか？",
          f"はい、{model}は中古市場で需要があるため、年式が古くても状態次第で買取可能なケースが多いです。ヴィンテージ価値が評価される個体もあります。まずは無料査定に出してみることをおすすめします。"),
-        (f"{model}を高く売るにはどうすればいいですか？",
-         "(1)複数業者に一括査定して相見積もりを取る、(2)純正ケース・付属品・保証書を揃える、(3)軽い清掃で見た目を整える、(4)需要が高まる時期に売る、の4点が基本です。深い修理・改造は自分で行わず業者に任せましょう。"),
+        (f"{model}を高く売るにはどうすればよいですか？",
+         "(1)複数業者に一括査定して相見積もりを取る、(2)純正ケース・付属品・保証書を揃える、(3)軽い清掃で見た目を整える、(4)需要が高まる時期に売る、の4点が基本です。深い修理・改造は自分で行わず業者に任せてください。"),
         (f"{model}の付属品がなくても査定してもらえますか？",
          "本体のみでも査定・買取は可能ですが、純正ケースや付属品が揃っていると査定額が上がる傾向があります。可能な範囲で揃えてから査定に出すのがおすすめです。"),
         (f"{model}の正確な査定額はどこで分かりますか？",
@@ -563,9 +563,9 @@ def build_page(m: dict) -> str:
     url = f"{SITE}/articles/{slug}/"
 
     title = f"【2026年最新】{model}の買取相場｜高く売るコツ・おすすめ業者"
-    description = f"{model}の買取相場を年式・状態別に解説。{model}の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。"
-    og_desc = f"{model}の買取相場・特徴・高く売るコツ・おすすめ業者を解説。"
-    h1 = f"{model}の買取相場と高く売るコツ完全ガイド"
+    description = f"{model}の買取相場を年式・状態別に解説します。{model}の特徴と人気の理由、価格を左右するポイント、高く売るコツ、おすすめ買取業者3社まで。正確な査定額は無料査定で確認できます。"
+    og_desc = f"{model}の買取相場・特徴・高く売るコツ・おすすめ業者を解説します。"
+    h1 = f"{model}の買取相場と高く売るコツガイド"
 
     price_rows = "".join(
         f'<tr className="{"bg-white" if i % 2 == 0 else "bg-cream/50"}"><td className="px-4 py-3">{r[0]}</td><td className="px-4 py-3 text-gold-dark font-bold">{r[1]}</td><td className="px-4 py-3 text-warm-gray">{r[2]}</td></tr>'
@@ -710,10 +710,10 @@ export default function Page() {{
 
           <h2 id="tips">{model}を高く売るコツ</h2>
           <ol>
-            <li><strong>複数業者で相見積もりを取る</strong>: 1社だけで決めず、一括査定で最高値を比較しましょう。</li>
+            <li><strong>複数業者で相見積もりを取る</strong>: 1社だけで決めず、一括査定で最高値を比較してください。</li>
             <li><strong>純正ケース・付属品・保証書を揃える</strong>: オリジナルの付属品が揃うほど査定はプラスに働きます。</li>
             <li><strong>軽い清掃で見た目を整える</strong>: ほこり・指紋を拭き取る程度に。深い修理や改造は自分で行わず業者に任せます。</li>
-            <li><strong>正確な型番・製造番号を伝える</strong>: {model}は仕様・年式で価格が変わるため、製造番号やシリアルを確認しておきましょう。</li>
+            <li><strong>正確な型番・製造番号を伝える</strong>: {model}は仕様・年式で価格が変わるため、製造番号やシリアルを確認しておいてください。</li>
             <li><strong>需要が高まる時期に売る</strong>: 新生活前（1〜3月）や文化祭シーズン（9〜10月）は中古需要が高まりやすい傾向があります。</li>
           </ol>
 
@@ -727,7 +727,7 @@ export default function Page() {{
           <div className="space-y-4 my-6">
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
-              <div><h4 className="font-bold text-sm mb-1">型番・製造番号と状態を確認</h4><p className="text-sm text-warm-gray">{model}は仕様・年式で評価が変わります。本体の型番や製造番号、傷・動作の状態、付属品の有無を整理しておきましょう。</p></div>
+              <div><h4 className="font-bold text-sm mb-1">型番・製造番号と状態を確認</h4><p className="text-sm text-warm-gray">{model}は仕様・年式で評価が変わります。本体の型番や製造番号、傷・動作の状態、付属品の有無を整理しておいてください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
@@ -749,7 +749,7 @@ export default function Page() {{
           </div>
 
           <h2>まとめ：{model}は相場の把握と複数社比較が高額売却の鍵</h2>
-          <p>{model}は中古市場でも需要があり、年式・状態・付属品の条件が揃えば手堅い査定が期待できます。ただし掲載した相場はあくまで目安です。正確な金額は無料査定で確認し、複数社を比較して最高値を狙いましょう。</p>
+          <p>{model}は中古市場でも需要があり、年式・状態・付属品の条件が揃えば手堅い査定が期待できます。ただし掲載した相場はあくまで目安です。正確な金額は無料査定で確認し、複数社を比較して最高値を狙ってください。</p>
           <p>より広い視点での相場や売り方は、親カテゴリの<Link href="/articles/{cat}/" className="text-accent hover:underline">{cat_label}ガイド</Link>と、メーカー別の<Link href="/articles/{brand}/" className="text-accent hover:underline">{brand_label}相場ガイド</Link>もあわせてご覧ください。</p>
 
 {cta(model)}

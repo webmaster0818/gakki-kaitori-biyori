@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bass-kaitori/' },
   title: "ベース買取はどこがいい？おすすめ3社と実勢相場・高く売るコツ【2026年10月】",
   description:
-    "ベース買取のおすすめ業者3社を徹底比較。エレキベース・アコースティックベース・アップライトベースの買取相場、Fender・Gibson・Musicman・Rickenbacker・YAMAHAなどブランド別の相場目安、高く売るコツまで解説。",
+    "ベース買取のおすすめ業者3社を比較します。エレキベース・アコースティックベース・アップライトベースの買取相場、Fender・Gibson・Musicman・Rickenbacker・YAMAHAなどブランド別の相場目安、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
-    description: "ベース買取のおすすめ業者3社を徹底比較。エレキベース・アコースティックベースの買取相場からブランド別相場、高く売るコツまで完全ガイド。",
+    description: "ベース買取のおすすめ業者3社を比較します。エレキベース・アコースティックベースの買取相場からブランド別相場、高く売るコツまで解説します。",
   },
 };
 
@@ -41,7 +41,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのベースの買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のベースの買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">
           一括査定で最高値を調べる
@@ -69,7 +69,7 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "ベースの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "ベースの買取相場はブランド・モデル・状態により異なります。Fender Jazz Bass（USA）で5万〜18万円、Gibson Thunderbirdで5万〜15万円、Musicman StingRayで5万〜15万円が目安です。エントリーモデルは5,000〜3万円程度です。" } },
-      { "@type": "Question", name: "壊れたベースでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、多くの買取業者は壊れたベースでも査定可能です。特にFenderやGibsonなどの有名ブランドは、修理可能な状態であれば値段がつくことがあります。ネック折れやジャック不良があっても、まずは査定に出してみましょう。" } },
+      { "@type": "Question", name: "壊れたベースでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、多くの買取業者は壊れたベースでも査定可能です。特にFenderやGibsonなどの有名ブランドは、修理可能な状態であれば値段がつくことがあります。ネック折れやジャック不良があっても、まずは査定に出してください。" } },
       { "@type": "Question", name: "ベースとギターではどちらが買取相場が高いですか？", acceptedAnswer: { "@type": "Answer", text: "一般的に、同ブランド・同グレードで比較するとギターの方が中古市場の需要が大きく、買取相場もやや高い傾向があります。ただし、Musicman StingRayやRickenbacker 4003など人気モデルはベースでも高額買取が期待できます。" } },
       { "@type": "Question", name: "ベースのアンプやエフェクターも一緒に売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ほとんどの買取業者はベース本体だけでなくアンプやエフェクターも買取対象です。まとめて売ると買取額がアップするキャンペーンを行っている業者もあります。特に出張買取なら重い機材もまとめて売却できて便利です。" } },
       { "@type": "Question", name: "ベース買取にかかる費用はありますか？", acceptedAnswer: { "@type": "Answer", text: "本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。" } },
@@ -88,7 +88,7 @@ function FaqSchema() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツを徹底解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/bass-kaitori/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツを解説\", \"item\": \"https://gakkikaitori-biyori.com/articles/bass-kaitori/\"}]}" }} />
     </>
   );
 }
@@ -106,10 +106,10 @@ export default function BassKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-            【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツを徹底解説
+            【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツを解説
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            エレキベースやアコースティックベースを売りたいけど、どの買取業者を選べばいいかわからない方へ。本記事では、ベース買取の人気3サービスを徹底比較し、エレキベース・アコースティックベース・アップライトベースの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。ベースはギターと比べて中古市場の流通量が少ないため、業者選びが買取価格を大きく左右します。
+            エレキベースやアコースティックベースを売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、ベース買取の人気3サービスを比較し、エレキベース・アコースティックベース・アップライトベースの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。ベースはギターと比べて中古市場の流通量が少ないため、業者選びが買取価格を大きく左右します。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -212,7 +212,7 @@ export default function BassKaitoriPage() {
           <CtaBox />
 
           {/* Section 2: 3社比較 */}
-          <h2 id="comparison">ベース買取おすすめ3社を徹底比較</h2>
+          <h2 id="comparison">ベース買取おすすめ3社を比較</h2>
 
           <p>ベースの買取業者は数多くありますが、ここでは特におすすめの3社を、買取方法・対応楽器・スピード・特徴の面から比較します。ベースはギターほど取り扱い業者が多くないため、楽器専門の査定力を持つ業者を選ぶことが重要です。</p>
 
@@ -227,7 +227,7 @@ export default function BassKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">対応地域</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国</td><td className="px-4 py-3">全国主要都市</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -246,9 +246,9 @@ export default function BassKaitoriPage() {
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
 
-          <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。年間4万件の買取実績があり、ベースに限らず楽器全般の買取に強みがあります。特にエレキベースは宅配買取でも安全に送れるサイズ感なので、梱包キットを利用した宅配買取がお手軽です。</p>
+          <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。年間4万件の買取実績があり、ベースに限らず楽器全般の買取に強みがあります。特にエレキベースは宅配買取でも安全に送れるサイズ感のため、梱包キットを利用した宅配買取がお手軽です。</p>
 
-          <p>状態が悪いベースや古いモデルでも査定可能なので、「売れるかどうかわからない」というベースがある場合にも安心です。</p>
+          <p>状態が悪いベースや古いモデルでも査定可能のため、「売れるかどうかわからない」というベースがある場合にも安心です。</p>
 
           <h3>ウリエル ── 出張買取で自宅から一歩も出ずに売却</h3>
 
@@ -277,7 +277,7 @@ export default function BassKaitoriPage() {
             <li><strong>ヴィンテージ（1960〜70年代）</strong>: 30万〜200万円以上</li>
           </ul>
 
-          <p>Fenderベースは<strong>製造国（USA/メキシコ/日本/インドネシア）で価格帯が明確に分かれる</strong>ため、ヘッドのロゴやシリアルナンバーで確認しておきましょう。</p>
+          <p>Fenderベースは<strong>製造国（USA/メキシコ/日本/インドネシア）で価格帯が明確に分かれる</strong>ため、ヘッドのロゴやシリアルナンバーで確認しておいてください。</p>
 
           <h3>Gibson（ギブソン）の買取相場</h3>
 
@@ -339,7 +339,7 @@ export default function BassKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">仮査定（概算見積もり）</h3><p className="text-sm text-warm-gray">写真や情報をもとに概算額が提示されます。複数社の見積もりを比較して、最も高い業者を選びましょう。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">仮査定（概算見積もり）</h3><p className="text-sm text-warm-gray">写真や情報をもとに概算額が提示されます。複数社の見積もりを比較して、最も高い業者を選んでください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -356,11 +356,11 @@ export default function BassKaitoriPage() {
           {/* Section 4: 高く売るコツ */}
           <h2 id="tips">ベースを高く売るための3つのコツ</h2>
 
-          <p>同じベースでも、売り方次第で買取価格が大きく変わります。以下の3つのコツを実践して、少しでも高く売却しましょう。</p>
+          <p>同じベースでも、売り方次第で買取価格が大きく変わります。以下の3つのコツを実践して、少しでも高く売却してください。</p>
 
           <h3>コツ1: 複数の業者に査定を依頼する（相見積もり）</h3>
 
-          <p>これが最も効果的な方法です。ベースはギターと比べて買取業者ごとの査定額にばらつきが出やすい傾向にあります。ある業者ではFender Jazz Bassに8万円の査定がつく一方で、別の業者では12万円ということもあります。</p>
+          <p>最も効果的な方法です。ベースはギターと比べて買取業者ごとの査定額にばらつきが出やすい傾向にあります。ある業者ではFender Jazz Bassに8万円の査定がつく一方で、別の業者では12万円ということもあります。</p>
 
           <p>ヒカカク！を使えば、一度の入力で複数業者に一括査定ができます。<strong>最低でも3社以上の査定額を比較すること</strong>をおすすめします。特にRickenbackerやWarwickなど、やや特殊なブランドは業者によって評価が大きく分かれるため、相見積もりの効果が大きくなります。</p>
 
@@ -376,7 +376,7 @@ export default function BassKaitoriPage() {
             <li><strong>元のピックアップ（交換済みの場合）</strong>: 純正パーツは取っておく</li>
           </ul>
 
-          <p>特にベースは<strong>ハードケースの有無で査定額に大きな差</strong>が出ます。純正ケースがある場合は必ず一緒に査定に出しましょう。</p>
+          <p>特にベースは<strong>ハードケースの有無で査定額に大きな差</strong>が出ます。純正ケースがある場合は必ず一緒に査定に出してください。</p>
 
           <h3>コツ3: ネック調整・クリーニングで状態を整える</h3>
 
@@ -390,7 +390,7 @@ export default function BassKaitoriPage() {
             <li><strong>フレット</strong>: フレット磨き用のクロスで磨く</li>
           </ul>
 
-          <p>ジャックのガリ（ノイズ）やポットの接触不良は<strong>「故障品」として大幅減額される原因</strong>になるため、市販の接点洗浄剤でメンテナンスしておきましょう。数百円のケアで査定額が数千〜数万円変わることがあります。</p>
+          <p>ジャックのガリ（ノイズ）やポットの接触不良は<strong>「故障品」として大幅減額される原因</strong>になるため、市販の接点洗浄剤でメンテナンスしておいてください。数百円のケアで査定額が数千〜数万円変わることがあります。</p>
 
           <CtaBox />
 
@@ -405,7 +405,7 @@ export default function BassKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ベースの買取相場はブランド・モデル・状態により異なります。Fender Jazz Bass（USA）で5万〜18万円、Musicman StingRayで5万〜15万円、Rickenbacker 4003で8万〜20万円が目安です。エントリーモデルは5,000〜3万円程度になります。正確な買取価格は複数業者に査定依頼して比較しましょう。
+                ベースの買取相場はブランド・モデル・状態により異なります。Fender Jazz Bass（USA）で5万〜18万円、Musicman StingRayで5万〜15万円、Rickenbacker 4003で8万〜20万円が目安です。エントリーモデルは5,000〜3万円程度になります。正確な買取価格は複数業者に査定依頼して比較してください。
               </div>
             </details>
 
@@ -415,7 +415,7 @@ export default function BassKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、多くの買取業者は壊れたベースでも査定可能です。特にFenderやRickenbackerなどの有名ブランドは、修理可能な状態であれば値段がつくことがあります。ネック折れやジャック不良があっても、パーツ取りとしての価値がある場合もあるため、まずは査定に出してみましょう。
+                はい、多くの買取業者は壊れたベースでも査定可能です。特にFenderやRickenbackerなどの有名ブランドは、修理可能な状態であれば値段がつくことがあります。ネック折れやジャック不良があっても、パーツ取りとしての価値がある場合もあるため、まずは査定に出してください。
               </div>
             </details>
 
@@ -445,7 +445,7 @@ export default function BassKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。完全無料で利用できるので、気軽に査定を申し込んでみてください。
+                本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。無料で利用できます。
               </div>
             </details>
           </div>
@@ -453,7 +453,7 @@ export default function BassKaitoriPage() {
           {/* まとめ */}
           <h2>まとめ：ベース買取は相見積もりで最高値を狙おう</h2>
 
-          <p>ベースの買取価格は、同じモデルでも業者によって大きな差が出ます。特にベースはギターに比べて取り扱い業者ごとの評価基準にばらつきがあるため、<strong>複数の業者に査定を依頼して比較すること</strong>が高額売却の鉄則です。</p>
+          <p>ベースの買取価格は、同じモデルでも業者によって大きな差が出ます。特にベースはギターに比べて取り扱い業者ごとの評価基準にばらつきがあるため、<strong>複数の業者に査定を依頼して比較すること</strong>が高額売却の基本です。</p>
 
           <p>今回紹介した3社の使い分けをまとめると以下のようになります。</p>
 
@@ -463,7 +463,7 @@ export default function BassKaitoriPage() {
             <li><strong>大型ベース・機材一式を売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
-          <p>まずはヒカカク！で相場を把握し、その後で最適な売却方法を選ぶのが、後悔しないベース売却のコツです。査定は完全無料なので、ぜひ気軽に試してみてください。</p>
+          <p>まずはヒカカク！で相場を把握し、その後で最適な売却方法を選ぶのが、後悔しないベース売却のコツです。査定は無料のため、ご利用ください。</p>
 
           <CtaBox />
         </div>

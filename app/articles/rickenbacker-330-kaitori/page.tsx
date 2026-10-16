@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/rickenbacker-330-kaitori/' },
   title: "【2026年最新】リッケンバッカー 330買取相場｜年代・カラー別の価値と査定ポイント",
-  description: "Rickenbacker 330の買取相場を解説。ジャングリーなサウンドで知られるセミアコの価値要因、Fireglo/Jetglo等カラーの評価、状態の査定差とおすすめ買取3社を比較。",
+  description: "Rickenbacker 330の買取相場を解説します。ジャングリーなサウンドで知られるセミアコの価値要因、Fireglo/Jetglo等カラーの評価、状態の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "リッケンバッカー330の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行モデルで8万〜18万円、1960〜70年代のヴィンテージは20万〜60万円以上が目安です。カラーや状態で変動します。" } },
       { "@type": "Question", name: "カラーで評価は変わりますか？", acceptedAnswer: { "@type": "Answer", text: "はい。Fireglo（サンバースト系）やJetglo（黒）など人気カラー、特に希少な廃番色は加点されやすいです。" } },
-      { "@type": "Question", name: "12弦の360/12も対象ですか？", acceptedAnswer: { "@type": "Answer", text: "はい。12弦モデルも買取対象で、独特の需要があります。型番（330/360、6弦/12弦）を確認しましょう。" } },
+      { "@type": "Question", name: "12弦の360/12も対象ですか？", acceptedAnswer: { "@type": "Answer", text: "はい。12弦モデルも買取対象で、独特の需要があります。型番（330/360、6弦/12弦）をご確認ください。" } },
       { "@type": "Question", name: "配線やトラスロッドが特殊ですが査定に影響しますか？", acceptedAnswer: { "@type": "Answer", text: "リッケンバッカー固有の構造で、不利にはなりません。動作に問題がなければ通常評価です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function Rickenbacker330KaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>リッケンバッカー 330を売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>リッケンバッカー 330を売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>製造年（ヴィンテージは加点、現行も需要安定）</li>
             <li>カラー（Fireglo/Jetglo/Mapleglo、希少色は加点）</li>
@@ -107,7 +107,7 @@ export default function Rickenbacker330KaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -135,7 +135,7 @@ export default function Rickenbacker330KaitoriPage() {
                 <span className="pr-4">12弦の360/12も対象ですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい。12弦モデルも買取対象で、独特の需要があります。型番（330/360、6弦/12弦）を確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい。12弦モデルも買取対象で、独特の需要があります。型番（330/360、6弦/12弦）をご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

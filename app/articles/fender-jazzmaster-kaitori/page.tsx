@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-jazzmaster-kaitori/' },
   title: "【2026年最新】フェンダー ジャズマスター買取相場｜年代・製造国別の価値と高く売るコツ",
-  description: "Fender Jazzmasterの買取相場を年代・製造国（USA/Japan/Mexico）別に解説。オフセットボディの名機の価値要因、ヴィンテージ個体の評価、状態による査定差とおすすめ買取3社を比較。",
+  description: "Fender Jazzmasterの買取相場を年代・製造国（USA/Japan/Mexico）別に解説します。オフセットボディの名機の価値要因、ヴィンテージ個体の評価、状態による査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -26,7 +26,7 @@ function FaqSchema() {
       { "@type": "Question", name: "ジャズマスターの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "日本製・メキシコ製の標準モデルで2万〜6万円、American Professional/Ultra等のUSA現行で5万〜12万円、American Vintageや1960年代のヴィンテージは15万〜100万円以上が目安です。正確な額は無料査定でご確認ください。" } },
       { "@type": "Question", name: "ヴィンテージのジャズマスターは高いですか？", acceptedAnswer: { "@type": "Answer", text: "はい。1960年代のオリジナル個体は希少で、状態・カラー・オリジナルパーツの保持状況によって数十万〜百万円超になることもあります。" } },
       { "@type": "Question", name: "改造（ピックアップ交換等）していても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。ただしオリジナルパーツが残っているほど評価は上がります。外したオリジナルパーツがあれば一緒に査定に出してください。" } },
-      { "@type": "Question", name: "トレモロやブリッジの不調があっても買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所で、軽度なら大きな減額にはなりにくいです。状態を正直に伝えましょう。" } },
+      { "@type": "Question", name: "トレモロやブリッジの不調があっても買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所で、軽度なら大きな減額にはなりにくいです。状態を正確に伝えてください。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社（ヒカカク！・ティファナ・ウリエル）は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フェンダー ジャズマスター買取相場｜年代・製造国別の価値と高く売るコツ", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function FenderJazzmasterKaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>フェンダー ジャズマスターを売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>フェンダー ジャズマスターを売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>製造国とシリーズ（American Vintage/Original・USAは高評価、Japan/Mexicoは中位）</li>
             <li>製造年（特に1960年代のヴィンテージは希少で高額）</li>
@@ -107,7 +107,7 @@ export default function FenderJazzmasterKaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -142,7 +142,7 @@ export default function FenderJazzmasterKaitoriPage() {
                 <span className="pr-4">トレモロやブリッジの不調があっても買取できますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所で、軽度なら大きな減額にはなりにくいです。状態を正直に伝えましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所で、軽度なら大きな減額にはなりにくいです。状態を正確に伝えてください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

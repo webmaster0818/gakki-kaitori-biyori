@@ -14,7 +14,7 @@ const fmtDate = (d: string) => d.replace(/^\d{4}-0?(\d+)-0?(\d+)$/, "$1/$2");
 
 export const metadata: Metadata = {
   title: `中古楽器買取相場指数【${idx.latest_date}】ギター・管楽器の市場インデックス（最新 ${latest.index}）`,
-  description: `人気楽器${total.total}モデルのヤフオク!実勢中央値を合成した「中古楽器買取相場指数」。基準週（${idx.base_date}）=100として週次で自動更新。最新値${latest.index}（前週比${wow >= 0 ? "+" : ""}${wow}／基準比${fromBase >= 0 ? "+" : ""}${fromBase}）。出典明記での引用歓迎。`,
+  description: `人気楽器${total.total}モデルのヤフオク!実勢中央値を合成した「中古楽器買取相場指数」。基準週（${idx.base_date}）を100として週次で自動更新しています。最新値${latest.index}（前週比${wow >= 0 ? "+" : ""}${wow}／基準比${fromBase >= 0 ? "+" : ""}${fromBase}）。出典を明記のうえ引用いただけます。`,
   alternates: { canonical: "/souba-index/" },
 };
 
@@ -48,8 +48,8 @@ export default function SoubaIndexPage() {
     name: "中古楽器買取相場指数",
     description: `中古楽器の買取相場を示す独自の週次インデックスです。人気楽器${total.total}モデルについてYahoo!オークションの落札実勢（過去180日の中央値）を毎週集計し、基準週を100として等ウェイトで合成しています。ギター・ベース・鍵盤・管楽器などカテゴリ別の指数も公開しています。`,
     url: "https://gakkikaitori-biyori.com/souba-index/",
-    license: "出典明記で引用可",
-    creator: { "@type": "Organization", name: "楽器買取日和" },
+    license: "出典を明記のうえ引用可",
+    creator: { "@type": "Organization", name: "楽器買取びより" },
     temporalCoverage: `${idx.base_date}/${idx.latest_date}`,
     variableMeasured: [
       { "@type": "PropertyValue", name: "総合指数(最新)", value: latest.index },
@@ -92,7 +92,7 @@ export default function SoubaIndexPage() {
 
       <div className="bg-cream/60 border border-warm-gray/20 rounded-xl p-5 mb-8">
         <p className="text-sm text-foreground leading-relaxed">
-          <strong>今週のまとめ：</strong> 基準週（{idx.base_date}）から <strong>{idx.latest_date}</strong> 時点で総合指数は <strong>{latest.index}</strong>（基準比 {fromBase >= 0 ? "+" : ""}{fromBase}）。中古楽器市場全体は足元で <strong>{trend}</strong> です。個別モデルの値上がり・値下がりは<Link href="/souba-ranking/" className="text-accent hover:text-accent-dark underline">楽器買取相場ランキング</Link>で確認できます。
+          <strong>今週の概況：</strong> 基準週（{idx.base_date}）から <strong>{idx.latest_date}</strong> 時点で総合指数は <strong>{latest.index}</strong>（基準比 {fromBase >= 0 ? "+" : ""}{fromBase}）。中古楽器市場全体は、直近では <strong>{trend}</strong> の傾向です。個別モデルの値上がり・値下がりは<Link href="/souba-ranking/" className="text-accent hover:text-accent-dark underline">楽器買取相場ランキング</Link>で確認できます。
         </p>
       </div>
 
@@ -140,12 +140,12 @@ export default function SoubaIndexPage() {
 
       {/* 引用歓迎（被リンク資産） */}
       <div className="bg-cream border border-warm-gray/20 rounded-xl p-5 mb-8">
-        <h2 className="text-lg font-bold text-foreground mb-2">データの引用について（引用歓迎）</h2>
+        <h2 className="text-lg font-bold text-foreground mb-2">データの引用について</h2>
         <p className="text-sm text-warm-gray leading-relaxed mb-3">
-          本指数の数値・チャートは、出典を明記いただければ引用・転載を歓迎します。出典表記例：
+          本指数の数値・チャートは、出典を明記のうえ引用・転載いただけます。出典の表記例は以下のとおりです。
         </p>
         <p className="text-xs text-foreground bg-white rounded p-3">
-          出典：楽器買取日和「中古楽器買取相場指数」（https://gakkikaitori-biyori.com/souba-index/）
+          出典：楽器買取びより「中古楽器買取相場指数」（https://gakkikaitori-biyori.com/souba-index/）
         </p>
       </div>
 

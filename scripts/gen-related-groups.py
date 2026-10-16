@@ -50,7 +50,7 @@ for area, names in {
     for n in names.split():
         AREA[n] = area
 
-# description に都道府県名が無い旧記事。都市・地区 → 都道府県（地理上の事実）
+# description に都道府県名がない旧記事。都市・地区 → 都道府県（地理上の事実）
 PREF_FIX = {
     "fukuoka-gakki-kaitori": "福岡県", "hiroshima-gakki-kaitori": "広島県",
     "ikebukuro-gakki-kaitori": "東京都", "kawasaki-gakki-kaitori": "神奈川県",
@@ -194,7 +194,7 @@ def main() -> None:
     if small:
         print("⚠️ 3本未満のグループ（相互リンクが1本以下になる）:", small)
     if unresolved:
-        print("⚠️ category=region だが都道府県が無い記事（地域以外として扱った。地域記事なら PREF_FIX に足す）:", unresolved)
+        print("⚠️ category=region だが都道府県がない記事（地域以外として扱った。地域記事なら PREF_FIX に足す）:", unresolved)
     nolabel = [s for s, v in out["labels"].items() if not v]
     if nolabel:
         print("⚠️ 表示名が取れない記事:", nolabel)

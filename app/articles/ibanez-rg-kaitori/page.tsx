@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-rg-kaitori/' },
   title: "【2026年最新】アイバニーズ RG買取相場｜製造国・シリーズ別の価値と査定ポイント",
-  description: "Ibanez RGシリーズの買取相場を製造国・シリーズ別（Prestige/Premium/Standard）に解説。ハイスピード系の定番機の価値要因、トレモロ仕様、状態の査定差とおすすめ買取3社を比較。",
+  description: "Ibanez RGシリーズの買取相場を製造国・シリーズ別（Prestige/Premium/Standard）に解説します。ハイスピード系の定番機の価値要因、トレモロ仕様、状態の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -24,7 +24,7 @@ function Breadcrumb() {
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "アイバニーズRGの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Standard（海外製）で1万〜4万円、Premiumで3万〜7万円、日本製Prestigeで5万〜12万円、JEM/Universe等のシグネチャーは10万〜30万円以上が目安です。" } },
-      { "@type": "Question", name: "PrestigeとStandardの違いは？", acceptedAnswer: { "@type": "Answer", text: "Prestigeは日本製の上位ライン、Standardは海外製の標準ラインで、相場は数倍の差があります。ヘッドやカタログ表記で確認しましょう。" } },
+      { "@type": "Question", name: "PrestigeとStandardの違いは？", acceptedAnswer: { "@type": "Answer", text: "Prestigeは日本製の上位ライン、Standardは海外製の標準ラインで、相場は数倍の差があります。ヘッドやカタログ表記でご確認ください。" } },
       { "@type": "Question", name: "ロック式トレモロの不調でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。フローティング調整は定番の作業で、軽度なら大きな減額にはなりにくいです。" } },
       { "@type": "Question", name: "Steve Vaiモデル（JEM）は高いですか？", acceptedAnswer: { "@type": "Answer", text: "はい。JEMやUniverse（7弦の先駆け）はシグネチャーの人気が高く、標準RGより高評価です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function IbanezRgKaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>アイバニーズ RGを売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>アイバニーズ RGを売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>シリーズ（日本製Prestigeは高評価、Premium中位、Standard/海外製は入門〜中位）</li>
             <li>トレモロの種類と状態（Edge/Lo-Pro Edge等のオリジナルは加点）</li>
@@ -107,7 +107,7 @@ export default function IbanezRgKaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -128,7 +128,7 @@ export default function IbanezRgKaitoriPage() {
                 <span className="pr-4">PrestigeとStandardの違いは？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Prestigeは日本製の上位ライン、Standardは海外製の標準ラインで、相場は数倍の差があります。ヘッドやカタログ表記で確認しましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Prestigeは日本製の上位ライン、Standardは海外製の標準ラインで、相場は数倍の差があります。ヘッドやカタログ表記でご確認ください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

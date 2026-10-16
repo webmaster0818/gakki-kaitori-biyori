@@ -47,7 +47,7 @@ def main() -> None:
         added += 1
     print(f"追加 {added} / 既存 {skipped} / 目印なしでスキップ {nomark}")
     if nomark:
-        print("  ※目印が無いページは構造が違うので、手で確認すること")
+        print("  ※目印がないページは構造が違うので、手で確認すること")
 
 
 if __name__ == "__main__":

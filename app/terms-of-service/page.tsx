@@ -75,7 +75,7 @@ export default function TermsOfServicePage() {
 
         <section>
           <h2 className="text-lg font-bold mb-3 border-b border-warm-border pb-2">第8条（禁止行為）</h2>
-          <p className="mb-3">ユーザーは以下の行為を禁止します。</p>
+          <p className="mb-3">ユーザーは、以下の行為を行ってはならないものとします。</p>
           <ul className="list-disc list-inside space-y-2">
             <li>本規約に違反する行為</li>
             <li>公序良俗に反する行為</li>

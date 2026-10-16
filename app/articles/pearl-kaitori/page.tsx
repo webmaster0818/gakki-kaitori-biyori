@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/pearl-kaitori/' },
   title: "【2026年10月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
   description:
-    "Pearl（パール）のドラムを売るならどこがいい？Pearl製ドラムセット・スネアドラム・シンバルスタンドの買取相場とおすすめ3社を徹底比較。Masterworks・Reference・Exportなどシリーズ別の相場、高く売るコツまで解説。",
+    "Pearl（パール）のドラムを売るならどこがいい？Pearl製ドラムセット・スネアドラム・シンバルスタンドの買取相場とおすすめ3社を比較します。Masterworks・Reference・Exportなどシリーズ別の相場、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年10月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場",
-    description: "Pearl製ドラムの買取相場とおすすめ3社を徹底比較。高く売るコツまで完全ガイド。",
+    description: "Pearl製ドラムの買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
   },
 };
 
@@ -40,7 +40,7 @@ function Breadcrumb() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたのPearlドラムの買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">ご自身のPearlドラムの買取価格を今すぐチェック</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む<svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>
@@ -62,7 +62,7 @@ function FaqSchema() {
       { "@type": "Question", name: "Pearlのスネアドラム単体でも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、スネアドラム単体でも買取可能です。Sensitoneで5,000〜1.5万円、Masters Maple Completeで1万〜3万円、Free Floating Systemで1万〜2.5万円、Philharmonicで2万〜5万円程度が目安です。" } },
       { "@type": "Question", name: "ドラムセットの出張買取はできますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルの出張買取ならドラムセット一式を自宅で査定・買取できます。大型で運搬が大変なドラムセットは出張買取が最も便利です。査定料・出張料は無料です。" } },
       { "@type": "Question", name: "Pearlドラムを高く売るコツは？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、ヘッド（打面）を新品に張り替える、ハードウェア・ケースを揃える、チューニングキーや付属品を揃える、の4つが重要です。バラ売りよりセット売りの方が高くなる傾向があります。" } },
-      { "@type": "Question", name: "古いPearlドラムでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古いPearlドラムでも買取可能です。1970〜80年代のヴィンテージPearlは、状態が良ければコレクター需要があり、高額査定が期待できることもあります。まずは査定に出してみましょう。" } },
+      { "@type": "Question", name: "古いPearlドラムでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古いPearlドラムでも買取可能です。1970〜80年代のヴィンテージPearlは、状態が良ければコレクター需要があり、高額査定が期待できることもあります。まずは査定に出してください。" } },
     ],
   };
   const articleData = {
@@ -98,7 +98,7 @@ export default function PearlKaitoriPage() {
             【2026年10月 週次相場更新】Pearl買取おすすめ3社比較｜ドラムセット・スネアの相場と高く売るコツ
           </h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            Pearl（パール）のドラムを売りたい方へ。本記事では、Pearl製ドラムセット・スネアドラム・ハードウェアの買取に強い3社を徹底比較し、シリーズ別の買取相場や高く売るコツを詳しく解説します。Pearlは1946年創業の日本を代表するドラムメーカーで、中古市場でも安定した人気があります。
+            Pearl（パール）のドラムを売りたい方へ。本記事では、Pearl製ドラムセット・スネアドラム・ハードウェアの買取に強い3社を比較し、シリーズ別の買取相場や高く売るコツを詳しく解説します。Pearlは1946年創業の日本を代表するドラムメーカーで、中古市場でも安定した人気があります。
           </p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
@@ -209,7 +209,7 @@ export default function PearlKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取専門</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">ドラム対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3 text-gold-dark font-bold">出張で大型も対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい</td><td className="px-4 py-3">手軽に売りたい</td><td className="px-4 py-3">自宅で完結したい</td></tr>
@@ -222,19 +222,19 @@ export default function PearlKaitoriPage() {
           <h2 id="tips">Pearlドラムを高く売る5つのコツ</h2>
 
           <h3>コツ1: ドラムヘッドを新品に張り替える</h3>
-          <p>打面のヘッドが凹んでいたり、汚れている場合は新品に張り替えましょう。REMOやEvansのヘッドに張り替えるだけで、<strong>見た目の印象が大幅に改善</strong>し、査定額アップにつながります。</p>
+          <p>打面のヘッドが凹んでいたり、汚れている場合は新品に張り替えてください。REMOやEvansのヘッドに張り替えるだけで、<strong>見た目の印象が大幅に改善</strong>し、査定額アップにつながります。</p>
 
           <h3>コツ2: セットでまとめて売る</h3>
           <p>ドラムシェル・ハードウェア・シンバルをセットで売る方が、バラ売りより高い査定額になる傾向があります。特にハードウェアパック一式は単品合計より高く評価されやすいです。</p>
 
           <h3>コツ3: 金属パーツを磨く</h3>
-          <p>ラグ、テンションボルト、リムなどの金属パーツを磨きましょう。シェルのフィニッシュもワックスで拭くと光沢が戻り好印象です。</p>
+          <p>ラグ、テンションボルト、リムなどの金属パーツを磨いてください。シェルのフィニッシュもワックスで拭くと光沢が戻り好印象です。</p>
 
           <h3>コツ4: 複数業者に査定を依頼する</h3>
-          <p>ヒカカク！で一括査定を行い、複数業者の査定額を比較しましょう。ドラム専門の業者と総合買取業者で査定額に大きな差が出ることがあります。</p>
+          <p>ヒカカク！で一括査定を行い、複数業者の査定額を比較してください。ドラム専門の業者と総合買取業者で査定額に大きな差が出ることがあります。</p>
 
           <h3>コツ5: 付属品・ケースを揃える</h3>
-          <p>ハードケースやソフトケース、チューニングキー、メーカー保証書などの付属品を揃えましょう。特にハードケースは単体でも価値があります。</p>
+          <p>ハードケースやソフトケース、チューニングキー、メーカー保証書などの付属品を揃えてください。特にハードケースは単体でも価値があります。</p>
 
           <CtaBox />
 

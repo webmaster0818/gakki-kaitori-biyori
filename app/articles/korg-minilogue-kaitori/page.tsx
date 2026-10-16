@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/korg-minilogue-kaitori/' },
   title: "【2026年最新】コルグ ミニローグ買取相場｜アナログシンセの価値と査定ポイント",
-  description: "KORG minilogueの買取相場を解説。人気のアナログポリシンセの価値要因、無印/xd等の仕様差、状態の査定差とおすすめ買取3社を比較。",
+  description: "KORG minilogueの買取相場を解説します。人気のアナログポリシンセの価値要因、無印/xd等の仕様差、状態の査定差とおすすめ買取3社を比較します。",
 };
 
 function Breadcrumb() {
@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "コルグ ミニローグの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "モデル・状態により、中古買取で1.5万〜4万円程度が目安です。minilogue xdや状態良好・付属品完備なら上限寄りになります。" } },
       { "@type": "Question", name: "付属品がないと不利ですか？", acceptedAnswer: { "@type": "Answer", text: "電源アダプター・箱・取説が揃うと評価が上がります。なくても買取可能です。" } },
-      { "@type": "Question", name: "ツマミのガリがあっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。軽度のガリは減額要因ですが大きくは響きにくいです。状態を正直に伝えましょう。" } },
+      { "@type": "Question", name: "ツマミのガリがあっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。軽度のガリは減額要因ですが大きくは響きにくいです。状態を正確に伝えてください。" } },
       { "@type": "Question", name: "無印とxdで評価は違いますか？", acceptedAnswer: { "@type": "Answer", text: "xdはエフェクト等を強化した上位機で、一般に評価が高くなります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -45,7 +45,7 @@ function FaqSchema() {
 function CtaBox() {
   return (
     <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
-      <p className="font-bold text-base mb-4 text-center text-accent-dark">あなたの楽器の買取価格を今すぐチェック</p>
+      <p className="font-bold text-base mb-4 text-center text-accent-dark">お持ちの楽器の買取価格を確認する</p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
         <a href="https://t.felmat.net/fmcl?ak=A11184N.1.11542509.O138027B" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
@@ -83,7 +83,7 @@ export default function KorgMinilogueKaitoriPage() {
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
-          <p>コルグ ミニローグを売る際、以下のポイントが査定額に影響します。売却前にチェックしておきましょう。</p>
+          <p>コルグ ミニローグを売る際、以下のポイントが査定額に影響します。売却前にチェックしておいてください。</p>
           <ul>
             <li>モデル（minilogue/minilogue xd等、上位・新しめは加点）</li>
             <li>動作確認（発音・鍵盤・ツマミのガリ・端子）</li>
@@ -107,7 +107,7 @@ export default function KorgMinilogueKaitoriPage() {
           <ol>
             <li><strong>複数社で相見積もりを取る</strong> … 業者により査定額は数千〜数万円変わります。</li>
             <li><strong>付属品・ケースを揃える</strong> … 純正ケース・保証書があると評価が上がります。</li>
-            <li><strong>状態を正直に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
+            <li><strong>状態を正確に伝える</strong> … 不具合の申告は信頼につながり、結果的に有利です。</li>
             <li><strong>早めに売る</strong> … 楽器は時間とともに状態が劣化しやすいため、売ると決めたら早めに。</li>
             <li><strong>専門知識のある業者を選ぶ</strong> … 楽器に詳しい業者ほど適正評価が期待できます。</li>
           </ol>
@@ -135,7 +135,7 @@ export default function KorgMinilogueKaitoriPage() {
                 <span className="pr-4">ツマミのガリがあっても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。軽度のガリは減額要因ですが大きくは響きにくいです。状態を正直に伝えましょう。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。軽度のガリは減額要因ですが大きくは響きにくいです。状態を正確に伝えてください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
