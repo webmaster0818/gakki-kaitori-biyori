@@ -25,7 +25,7 @@ function FaqSchema() {
       { "@type": "Question", name: "デラックスリバーブの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "’65 Reissue等の現行で4万〜9万円、1970年代シルバーフェイスで8万〜18万円、1960年代ブラックフェイスのヴィンテージは20万〜50万円以上が目安です。" } },
       { "@type": "Question", name: "リイシューでも需要はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい。’65 Reissueは定番として安定した需要があります。" } },
       { "@type": "Question", name: "ブラックフェイスとシルバーフェイスの違いは？", acceptedAnswer: { "@type": "Answer", text: "コントロールパネルの色で年代を区別します。1960年代ブラックフェイスがより高評価です。" } },
-      { "@type": "Question", name: "リバーブやトレモロが不調でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。定番の修理箇所で、軽度なら大きな減額にはなりにくいです。" } },
+      { "@type": "Question", name: "リバーブやトレモロが不調でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。定番の修理箇所であり、軽度であれば大幅な減額にはつながりにくい傾向があります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フェンダー デラックスリバーブ買取相場｜年代別の価値と真空管アンプの査定ポイント", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -139,7 +139,7 @@ export default function FenderDeluxeReverbKaitoriPage() {
                 <span className="pr-4">リバーブやトレモロが不調でも売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。定番の修理箇所で、軽度なら大きな減額にはなりにくいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。定番の修理箇所であり、軽度であれば大幅な減額にはつながりにくい傾向があります。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "ジャガーの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "日本製・メキシコ製で2万〜6万円、USA現行で5万〜12万円、1960年代のヴィンテージは15万〜80万円以上が目安です。状態とオリジナル度で変動します。" } },
       { "@type": "Question", name: "ショートスケールは査定で不利ですか？", acceptedAnswer: { "@type": "Answer", text: "いいえ。ジャガー固有の仕様であり、不利にはなりません。むしろこのモデルを求める層が一定数いるため需要は安定しています。" } },
-      { "@type": "Question", name: "スイッチの接触不良があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。ジャガーは多機能スイッチが特徴で接触不良が出やすい箇所ですが、軽度なら大きな減額にはなりにくいです。" } },
+      { "@type": "Question", name: "スイッチの接触不良があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。ジャガーは多機能スイッチが特徴で接触不良が出やすい箇所ですが、軽度であれば査定額への影響は限定的です。" } },
       { "@type": "Question", name: "Kurt Cobainモデルなどシグネチャーも対象ですか？", acceptedAnswer: { "@type": "Answer", text: "はい。シグネチャーモデルも買取対象で、人気モデルは標準個体より評価が高くなる場合があります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -135,7 +135,7 @@ export default function FenderJaguarKaitoriPage() {
                 <span className="pr-4">スイッチの接触不良があっても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。ジャガーは多機能スイッチが特徴で接触不良が出やすい箇所ですが、軽度なら大きな減額にはなりにくいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。ジャガーは多機能スイッチが特徴で接触不良が出やすい箇所ですが、軽度であれば査定額への影響は限定的です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

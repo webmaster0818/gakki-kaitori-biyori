@@ -240,7 +240,7 @@ export default function OsakaGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
-              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物を確認して正式な買取額を提示。大阪市内なら即日対応可能な業者が多いです。その場で現金支払いも可能です。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物を確認して正式な買取額を提示。大阪市内であれば、即日対応が可能な業者が多くあります。その場で現金支払いも可能です。</p></div>
             </div>
           </div>
 

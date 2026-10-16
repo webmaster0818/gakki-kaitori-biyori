@@ -71,7 +71,7 @@ function FaqSchema() {
       { "@type": "Question", name: "Gibsonギターの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "Gibsonギターの買取相場はモデル・年式・状態により大きく異なります。Les Paul Standardが10万〜30万円、SG Standardが5万〜15万円、ES-335が10万〜25万円が目安です。1950〜60年代のヴィンテージは50万〜数百万円になることもあります。" } },
       { "@type": "Question", name: "Gibsonのシリアルナンバーはどこにありますか？", acceptedAnswer: { "@type": "Answer", text: "Gibsonのシリアルナンバーは、ヘッド裏面に刻印されているのが一般的です。年式によって表記方法が異なり、1977年以降は8桁の数字で製造年・日・工場が特定できます。シリアルナンバーは査定時に必ず確認されるポイントです。" } },
       { "@type": "Question", name: "Gibson Epiphone（エピフォン）も高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "EpiphoneはGibson傘下のブランドで、本家Gibsonと比べると買取価格は低めです。一般的なEpiphoneモデルは3,000〜3万円程度ですが、日本製のElitistシリーズやヴィンテージのEpiphoneは5万〜15万円で取引されることもあります。" } },
-      { "@type": "Question", name: "壊れたGibsonでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、Gibsonは壊れていても買取可能な場合が多いです。特にヘッド折れ（ネック折れ）はGibsonの構造上よく起きる症状で、修理可能なため値段がつくことが多いです。パーツ単体でも価値があるため、まずは査定に出してみることをおすすめします。" } },
+      { "@type": "Question", name: "壊れたGibsonでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、Gibsonは壊れていても、多くの場合買取が可能です。特にヘッド折れ（ネック折れ）はGibsonの構造上よく起きる症状で、修理が可能なため、多くの場合は値段がつきます。パーツ単体でも価値があるため、まずは査定に出してみることをおすすめします。" } },
       { "@type": "Question", name: "Gibsonを最も高く売る方法は？", acceptedAnswer: { "@type": "Answer", text: "Gibsonを最も高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)純正ハードケース・保証書・COA（認定証）を揃える、(3)弦を張り替えボディをクリーニングする、(4)改造している場合は純正パーツに戻す、の4つがポイントです。業者間で5万円以上差がつくことも珍しくありません。" } },
     ],
   };
@@ -406,7 +406,7 @@ export default function GibsonKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、Gibsonは壊れていても買取可能な場合が多いです。特にヘッド折れ（ネック折れ）はGibsonの構造上よく起きる症状で、修理可能なため値段がつくことが多いです。パーツ単体でも価値があるため、まずは査定に出してみることをおすすめします。
+                はい、Gibsonは壊れていても、多くの場合買取が可能です。特にヘッド折れ（ネック折れ）はGibsonの構造上よく起きる症状で、修理が可能なため、多くの場合は値段がつきます。パーツ単体でも価値があるため、まずは査定に出してみることをおすすめします。
               </div>
             </details>
 

@@ -70,7 +70,7 @@ export default function DwKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】DW（ドラムワークショップ）買取おすすめ3社比較｜相場と価値</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">DW（Drum Workshop）を売りたい方へ。Collector's・Performance・Design シリーズのドラムセット、5000/9000ペダルの価値、状態による査定差を解説します。DWはハイエンドドラムの定番として中古需要が高いです。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">DW（Drum Workshop）を売りたい方へ。Collector's・Performance・Design シリーズのドラムセット、5000/9000ペダルの価値、状態による査定差を解説します。DWはハイエンドドラムの定番として、中古市場でも需要が高い傾向にあります。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 

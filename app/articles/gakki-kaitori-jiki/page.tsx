@@ -24,7 +24,7 @@ function Breadcrumb() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "楽器を売るベストな時期は？", acceptedAnswer: { "@type": "Answer", text: "新生活・吹奏楽が始まる春先は需要が高まりやすいです。一方で状態劣化前に早めに売るのも重要です。" } },
+      { "@type": "Question", name: "楽器を売るベストな時期は？", acceptedAnswer: { "@type": "Answer", text: "新生活・吹奏楽が始まる春先は、需要が高まる傾向があります。一方で状態劣化前に早めに売るのも重要です。" } },
       { "@type": "Question", name: "新モデル発売は影響しますか？", acceptedAnswer: { "@type": "Answer", text: "旧モデルの相場が下がる傾向があるため、発売前の売却が有利なことがあります。" } },
       { "@type": "Question", name: "使わない楽器は早く売るべき？", acceptedAnswer: { "@type": "Answer", text: "はい。時間とともに状態が劣化し査定額が下がるため早めがおすすめです。" } },
       { "@type": "Question", name: "相場はどう調べますか？", acceptedAnswer: { "@type": "Answer", text: "ヒカカク！等の一括査定で現在の相場感を把握できます。" } },
@@ -121,7 +121,7 @@ export default function GakkiKaitoriJikiPage() {
                 <span className="pr-4">楽器を売るベストな時期は？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">新生活・吹奏楽が始まる春先は需要が高まりやすいです。一方で状態劣化前に早めに売るのも重要です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">新生活・吹奏楽が始まる春先は、需要が高まる傾向があります。一方で状態劣化前に早めに売るのも重要です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

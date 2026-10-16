@@ -68,7 +68,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "壊れた楽器でも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、多くの買取業者は壊れた楽器でも査定可能です。ネック折れ・音が出ない・キズ・サビなどがあっても、修理可能な場合やパーツに価値がある場合は買取してもらえます。特にGibson・Fenderなどの有名ブランドは壊れていても数万円の値段がつくことがあります。" } },
       { "@type": "Question", name: "壊れた楽器の買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "壊れた楽器の買取相場は、ブランド・モデル・破損の程度によって異なります。Gibsonのネック折れで3万〜10万円、Fenderの電装系不具合で2万〜8万円、一般的なブランドのジャンク品で100〜5,000円が目安です。ヴィンテージモデルは壊れていても高額になることがあります。" } },
-      { "@type": "Question", name: "古い楽器は買取してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古い楽器は「ヴィンテージ」として高い価値を持つ場合があります。特に1950〜70年代のギター、管楽器、アコースティックピアノは、古いからこそ高額になるケースが多いです。年代物の楽器は、むしろ新品より高く売れることもあります。" } },
+      { "@type": "Question", name: "古い楽器は買取してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古い楽器は「ヴィンテージ」として高い価値を持つ場合があります。特に1950〜70年代のギター、管楽器、アコースティックピアノは、古いからこそ高額になる場合が少なくありません。年代物の楽器は、むしろ新品より高く売れることもあります。" } },
       { "@type": "Question", name: "どんな状態の楽器なら買取不可になりますか？", acceptedAnswer: { "@type": "Answer", text: "一般的に買取不可になるケースは、(1)ノーブランドの楽器で修理不能、(2)部品が大幅に欠損している、(3)カビや腐食が激しく衛生面で問題がある、などです。ただし、業者によって基準が異なるため、まずは査定に出してみることをおすすめします。" } },
       { "@type": "Question", name: "壊れた楽器を少しでも高く売るには？", acceptedAnswer: { "@type": "Answer", text: "壊れた楽器を高く売るには、(1)複数業者に査定依頼する（ヒカカク！で一括査定）、(2)壊れている箇所以外はクリーニングする、(3)付属品（ケース・保証書等）があれば揃える、(4)修理せずそのまま査定に出す（自己修理は逆効果の場合も）、の4つがポイントです。" } },
     ],
@@ -271,7 +271,7 @@ export default function KowaretaGakkiKaitoriPage() {
           <h2 id="tips">壊れた楽器を少しでも高く売るための4つのコツ</h2>
 
           <h3>コツ1: 自分で修理しない</h3>
-          <p><strong>素人修理は逆効果になることが多い</strong>です。特にギターのネック折れを自分で接着したり、管楽器の凹みを自分で直そうとすると、修理跡が残って余計に価値が下がります。壊れた状態のまま査定に出してください。</p>
+          <p><strong>素人修理は逆効果になる場合が多くあります</strong>。特にギターのネック折れを自分で接着したり、管楽器の凹みを自分で直そうとすると、修理跡が残って余計に価値が下がります。壊れた状態のまま査定に出してください。</p>
 
           <h3>コツ2: 壊れていない部分はクリーニング</h3>
           <p>壊れた楽器でも、<strong>壊れていない部分をきれいにする</strong>ことで印象が良くなります。ホコリを拭き取り、ケースの中もきれいにしておいてください。</p>
@@ -313,7 +313,7 @@ export default function KowaretaGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
-              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物確認で修理可能かどうかを判断。パーツ取りとしての価値もあるため、壊れていても0円にはならないことが多いです。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物確認で修理可能かどうかを判断。パーツ取りとしての価値もあるため、壊れていても、0円になることは多くありません。</p></div>
             </div>
           </div>
 
@@ -348,7 +348,7 @@ export default function KowaretaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、古い楽器は「ヴィンテージ」として高い価値を持つ場合があります。特に1950〜70年代のギター、管楽器、アコースティックピアノは、古いからこそ高額になるケースが多いです。
+                はい、古い楽器は「ヴィンテージ」として高い価値を持つ場合があります。特に1950〜70年代のギター、管楽器、アコースティックピアノは、古いからこそ高額になる場合が少なくありません。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">

@@ -23,7 +23,7 @@ function Breadcrumb() {
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "カワイRX-2の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "年式・状態により幅がありますが、中古買取で10万〜35万円程度が目安です。新しめで状態良好なら上限寄りになります。" } },
-      { "@type": "Question", name: "ヤマハC3とどちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "ブランド需要に差はありますが、最終的には年式・状態の影響が大きいです。両方とも安定した需要があります。" } },
+      { "@type": "Question", name: "ヤマハC3とどちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "ブランドによる需要の差はありますが、最終的な査定額は年式・状態に大きく左右されます。両方とも安定した需要があります。" } },
       { "@type": "Question", name: "搬出が不安ですが買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。掲載業者は専門運送で搬出します。設置階・経路・クレーン要否を伝えるとスムーズです。" } },
       { "@type": "Question", name: "古いRXでも値段がつきますか？", acceptedAnswer: { "@type": "Answer", text: "はい。状態次第で買取され、海外需要もあります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
@@ -125,7 +125,7 @@ export default function KawaiRx2KaitoriPage() {
                 <span className="pr-4">ヤマハC3とどちらが高く売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ブランド需要に差はありますが、最終的には年式・状態の影響が大きいです。両方とも安定した需要があります。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ブランドによる需要の差はありますが、最終的な査定額は年式・状態に大きく左右されます。両方とも安定した需要があります。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

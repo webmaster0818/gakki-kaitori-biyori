@@ -66,7 +66,7 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "キーボードとデジタルピアノの違いは何ですか？", acceptedAnswer: { "@type": "Answer", text: "キーボードは多種多様な音色を出せる電子楽器で、61鍵や76鍵のモデルが多いです。デジタルピアノ（電子ピアノ）はピアノの音色・タッチに特化した88鍵のモデルです。シンセサイザーは音作りに特化した電子楽器で、キーボードの一種です。買取では別カテゴリとして扱われることが多いです。" } },
+      { "@type": "Question", name: "キーボードとデジタルピアノの違いは何ですか？", acceptedAnswer: { "@type": "Answer", text: "キーボードは多種多様な音色を出せる電子楽器で、61鍵や76鍵のモデルが中心です。デジタルピアノ（電子ピアノ）はピアノの音色・タッチに特化した88鍵のモデルです。シンセサイザーは音作りに特化した電子楽器で、キーボードの一種です。買取では別カテゴリとして扱われるのが一般的です。" } },
       { "@type": "Question", name: "シンセサイザーの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "シンセサイザーの買取相場はタイプにより大幅に異なります。デジタルシンセはKORG KRONOS2で8万〜15万円、Roland FANTOMで5万〜12万円が目安です。アナログシンセは希少性が高く、Moog Minimoogで30万〜100万円以上になることもあります。" } },
       { "@type": "Question", name: "ビンテージシンセは高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ビンテージシンセ（特にアナログシンセ）は非常に高い需要があります。Moog Minimoog、Roland Jupiter-8、Sequential Prophet-5などの名機は、現行品の数倍の価格で取引されることがあります。状態が良く、全ての機能が動作するものほど高額になります。" } },
       { "@type": "Question", name: "キーボードの付属品は査定に影響しますか？", acceptedAnswer: { "@type": "Answer", text: "はい、付属品は査定額に大きく影響します。特に専用ケース（ソフトケース/ハードケース）、電源アダプター、サステインペダル、譜面台は重要です。電源アダプターがないと動作確認ができないため、大幅な減額になることがあります。" } },
@@ -128,7 +128,7 @@ export default function KeyboardKaitoriPage() {
         <div className="article-body">
           <h2 id="difference">キーボード・シンセサイザーとデジタルピアノの違い</h2>
 
-          <p>買取に出す前に、お手持ちの楽器がどのカテゴリに該当するかをご確認ください。買取市場では<strong>キーボード/シンセサイザーとデジタルピアノ（電子ピアノ）は別カテゴリ</strong>として扱われることが多いです。</p>
+          <p>買取に出す前に、お手持ちの楽器がどのカテゴリに該当するかをご確認ください。買取市場では<strong>キーボード/シンセサイザーとデジタルピアノ（電子ピアノ）は別カテゴリ</strong>として扱われるのが一般的です。</p>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -410,7 +410,7 @@ export default function KeyboardKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                キーボードは多種多様な音色を出せる電子楽器で、61鍵や76鍵のモデルが多いです。デジタルピアノ（電子ピアノ）はピアノの音色・タッチに特化した88鍵のモデルです。シンセサイザーは音作りに特化した電子楽器です。買取では別カテゴリとして扱われることが多く、デジタルピアノの買取については別記事で詳しく解説しています。
+                キーボードは多種多様な音色を出せる電子楽器で、61鍵や76鍵のモデルが中心です。デジタルピアノ（電子ピアノ）はピアノの音色・タッチに特化した88鍵のモデルです。シンセサイザーは音作りに特化した電子楽器です。買取では別カテゴリとして扱われることが多く、デジタルピアノの買取については別記事で詳しく解説しています。
               </div>
             </details>
 

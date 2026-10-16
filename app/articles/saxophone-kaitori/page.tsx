@@ -69,7 +69,7 @@ function FaqSchema() {
       { "@type": "Question", name: "サックスの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "サックスの買取相場はブランド・種類・状態により異なります。アルトサックスではSelmer Series IIIが20万〜50万円、YAMAHA YAS-62が5万〜10万円が目安です。テナーサックスはアルトより1〜2割高い傾向にあります。" } },
       { "@type": "Question", name: "古いサックスでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古いサックスでも買取可能です。特にSelmerのMark VIなどのヴィンテージモデルは、現行品より高額で取引されることもあります。タンポの状態やラッカーの残存率が査定に影響しますが、まずは査定に出してみることをおすすめします。" } },
       { "@type": "Question", name: "管楽器のメンテナンス状態は査定に影響しますか？", acceptedAnswer: { "@type": "Answer", text: "はい、管楽器はメンテナンス状態が査定額に大きく影響します。特にタンポ（パッド）の劣化、キーの動作不良、ラッカーの剥がれは減額要因です。定期的にオーバーホールされた楽器は高評価を受けやすくなります。" } },
-      { "@type": "Question", name: "マウスピースやリードだけでも売れますか？", acceptedAnswer: { "@type": "Answer", text: "マウスピースは単体でも買取可能です。特にSelmerやVandoren、メイヤーなどの高級マウスピースは数千〜数万円の買取価格がつくことがあります。リードは消耗品のため買取対象外となることが多いです。" } },
+      { "@type": "Question", name: "マウスピースやリードだけでも売れますか？", acceptedAnswer: { "@type": "Answer", text: "マウスピースは単体でも買取可能です。特にSelmerやVandoren、メイヤーなどの高級マウスピースは数千〜数万円の買取価格がつくことがあります。リードは消耗品のため、買取対象外となるのが一般的です。" } },
       { "@type": "Question", name: "サックス買取にかかる費用はありますか？", acceptedAnswer: { "@type": "Answer", text: "本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべて査定料・出張料・送料が無料です。買取が成立しなかった場合もキャンセル料はかかりません。" } },
     ],
   };
@@ -496,7 +496,7 @@ export default function SaxophoneKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                マウスピースは単体でも買取可能です。特にSelmer、Vandoren、メイヤー、オットーリンクなどの高級マウスピースは数千〜数万円の買取価格がつくことがあります。ヴィンテージのマウスピースはさらに高額になることも。リードは消耗品のため買取対象外となることが多いです。
+                マウスピースは単体でも買取可能です。特にSelmer、Vandoren、メイヤー、オットーリンクなどの高級マウスピースは数千〜数万円の買取価格がつくことがあります。ヴィンテージのマウスピースはさらに高額になることも。リードは消耗品のため、買取対象外となるのが一般的です。
               </div>
             </details>
 

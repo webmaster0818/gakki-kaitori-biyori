@@ -26,7 +26,7 @@ function FaqSchema() {
       { "@type": "Question", name: "ジャズマスターの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "日本製・メキシコ製の標準モデルで2万〜6万円、American Professional/Ultra等のUSA現行で5万〜12万円、American Vintageや1960年代のヴィンテージは15万〜100万円以上が目安です。正確な額は無料査定でご確認ください。" } },
       { "@type": "Question", name: "ヴィンテージのジャズマスターは高いですか？", acceptedAnswer: { "@type": "Answer", text: "はい。1960年代のオリジナル個体は希少で、状態・カラー・オリジナルパーツの保持状況によって数十万〜百万円超になることもあります。" } },
       { "@type": "Question", name: "改造（ピックアップ交換等）していても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。ただしオリジナルパーツが残っているほど評価は上がります。外したオリジナルパーツがあれば一緒に査定に出してください。" } },
-      { "@type": "Question", name: "トレモロやブリッジの不調があっても買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所で、軽度なら大きな減額にはなりにくいです。状態を正確に伝えてください。" } },
+      { "@type": "Question", name: "トレモロやブリッジの不調があっても買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所のため、軽度であれば減額幅は小さく抑えられる傾向があります。状態を正確に伝えてください。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社（ヒカカク！・ティファナ・ウリエル）は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フェンダー ジャズマスター買取相場｜年代・製造国別の価値と高く売るコツ", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -142,7 +142,7 @@ export default function FenderJazzmasterKaitoriPage() {
                 <span className="pr-4">トレモロやブリッジの不調があっても買取できますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所で、軽度なら大きな減額にはなりにくいです。状態を正確に伝えてください。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">可能です。フローティングトレモロやブリッジの弦落ちは定番の調整箇所のため、軽度であれば減額幅は小さく抑えられる傾向があります。状態を正確に伝えてください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

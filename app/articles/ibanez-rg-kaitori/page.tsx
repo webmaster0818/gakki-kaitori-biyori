@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "アイバニーズRGの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Standard（海外製）で1万〜4万円、Premiumで3万〜7万円、日本製Prestigeで5万〜12万円、JEM/Universe等のシグネチャーは10万〜30万円以上が目安です。" } },
       { "@type": "Question", name: "PrestigeとStandardの違いは？", acceptedAnswer: { "@type": "Answer", text: "Prestigeは日本製の上位ライン、Standardは海外製の標準ラインで、相場は数倍の差があります。ヘッドやカタログ表記でご確認ください。" } },
-      { "@type": "Question", name: "ロック式トレモロの不調でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。フローティング調整は定番の作業で、軽度なら大きな減額にはなりにくいです。" } },
+      { "@type": "Question", name: "ロック式トレモロの不調でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。フローティング調整は定番の作業のため、軽度であれば大きな減額にはなりにくい傾向があります。" } },
       { "@type": "Question", name: "Steve Vaiモデル（JEM）は高いですか？", acceptedAnswer: { "@type": "Answer", text: "はい。JEMやUniverse（7弦の先駆け）はシグネチャーの人気が高く、標準RGより高評価です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -135,7 +135,7 @@ export default function IbanezRgKaitoriPage() {
                 <span className="pr-4">ロック式トレモロの不調でも売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。フローティング調整は定番の作業で、軽度なら大きな減額にはなりにくいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。フローティング調整は定番の作業のため、軽度であれば大きな減額にはなりにくい傾向があります。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

@@ -60,7 +60,7 @@ export default function Page() {
 
           <h2 id="caution" className="font-display text-xl font-bold text-foreground mt-8 mb-3">トラブルを避けるために</h2>
           <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
-            <li>「親に内緒で」はおすすめしません。後で取消・返品トラブルになりやすいです。</li>
+            <li>「親に内緒で」はおすすめしません。後で取消・返品トラブルにつながるおそれがあります。</li>
             <li>高額な楽器ほど、同意・同伴を求められます。</li>
             <li>必要書類は <Link href="/articles/hitsuyou-shorui" className="text-accent underline">必要な書類リスト</Link>・<Link href="/articles/mibunsho-hitsuyou" className="text-accent underline">身分証ガイド</Link> も参照。</li>
           </ul>

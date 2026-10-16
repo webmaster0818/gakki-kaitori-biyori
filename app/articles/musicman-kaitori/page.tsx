@@ -24,7 +24,7 @@ function Breadcrumb() {
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "ミュージックマンの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Sterling by Music Manで2万〜6万円、USA StingRay/JP等は8万〜25万円以上が目安です。" } },
-      { "@type": "Question", name: "StingRayは人気ですか？", acceptedAnswer: { "@type": "Answer", text: "はい。定番ベースとして中古需要が非常に高いです。" } },
+      { "@type": "Question", name: "StingRayは人気ですか？", acceptedAnswer: { "@type": "Answer", text: "はい。定番ベースとして、中古市場でも非常に高い需要があります。" } },
       { "@type": "Question", name: "JPモデルは高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "John Petrucciモデルは人気が高く高評価です。" } },
       { "@type": "Question", name: "廉価版でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "Sterling by Music Manも需要があり買取可能です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
@@ -136,7 +136,7 @@ export default function MusicmanKaitoriPage() {
                 <span className="pr-4">StingRayは人気ですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい。定番ベースとして中古需要が非常に高いです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい。定番ベースとして、中古市場でも非常に高い需要があります。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

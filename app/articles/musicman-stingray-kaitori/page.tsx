@@ -26,7 +26,7 @@ function FaqSchema() {
       { "@type": "Question", name: "スティングレイの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行Special/Classicで6万〜15万円、年式の良い中古や限定カラーで10万〜20万円、Pre-EBや初期EBMMのヴィンテージは20万〜50万円以上が目安です。" } },
       { "@type": "Question", name: "アクティブ回路が不調でも売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。プリアンプの不調は減額要因になり得ますが、定番機のため需要は安定しています。" } },
       { "@type": "Question", name: "2バンドと3バンドEQで評価は違いますか？", acceptedAnswer: { "@type": "Answer", text: "仕様の違いで好みが分かれ、年代の指標にもなります。型番・年式をご確認ください。" } },
-      { "@type": "Question", name: "HH（2ハム）仕様は高いですか？", acceptedAnswer: { "@type": "Answer", text: "仕様による需要差はありますが、状態と年式の影響の方が大きいです。" } },
+      { "@type": "Question", name: "HH（2ハム）仕様は高いですか？", acceptedAnswer: { "@type": "Answer", text: "仕様による需要差はありますが、査定額には状態と年式の方が大きく影響します。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ミュージックマン スティングレイ買取相場｜年代・仕様別の価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -142,7 +142,7 @@ export default function MusicmanStingrayKaitoriPage() {
                 <span className="pr-4">HH（2ハム）仕様は高いですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">仕様による需要差はありますが、状態と年式の影響の方が大きいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">仕様による需要差はありますが、査定額には状態と年式の方が大きく影響します。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

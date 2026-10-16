@@ -26,7 +26,7 @@ function FaqSchema() {
       { "@type": "Question", name: "PRS Custom 24の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "SE（廉価版）で2万〜6万円、S2で5万〜12万円、USA Coreは12万〜30万円、Wood Libraryや限定モデル・10Topは20万〜50万円以上が目安です。" } },
       { "@type": "Question", name: "SEとCoreはどれくらい評価が違いますか？", acceptedAnswer: { "@type": "Answer", text: "SEは海外生産の廉価ライン、CoreはUSA本国生産の上位ラインで、相場は数倍の差があります。型番（SE/S2表記の有無）をご確認ください。" } },
       { "@type": "Question", name: "トップ材の杢は査定に影響しますか？", acceptedAnswer: { "@type": "Answer", text: "はい。フレイム／キルトの杢が美しい個体、特に10Topグレードは加点対象です。" } },
-      { "@type": "Question", name: "限定モデルは高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "Wood Libraryやアーティストモデル、年式限定カラーなどは希少性が高く、標準個体より高評価になりやすいです。" } },
+      { "@type": "Question", name: "限定モデルは高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "Wood Libraryやアーティストモデル、年式限定カラーなどは希少性が高く、標準個体より高く評価される傾向があります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】PRS カスタム24買取相場｜製造国・グレード別の価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -142,7 +142,7 @@ export default function PrsCustom24KaitoriPage() {
                 <span className="pr-4">限定モデルは高く売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Wood Libraryやアーティストモデル、年式限定カラーなどは希少性が高く、標準個体より高評価になりやすいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Wood Libraryやアーティストモデル、年式限定カラーなどは希少性が高く、標準個体より高く評価される傾向があります。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

@@ -68,7 +68,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "札幌で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "札幌で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)ミツノ楽器や島村楽器など地元の専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。札幌は北海道最大の楽器市場ですが、本州に比べて業者数が限られるため、オンライン一括査定の活用が特に効果的です。" } },
       { "@type": "Question", name: "札幌で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは札幌市内への出張買取に対応しています。また、札幌TOPKINGは札幌市全域で無料出張買取を行っています。ミツノ楽器も出張買取に対応しており、いずれも出張料・査定料は無料です。" } },
-      { "@type": "Question", name: "札幌の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。島村楽器札幌ステラプレイス店の店頭買取なら、その場で査定・即日現金化ができます。ミツノ楽器の店頭買取でも即日対応可能です。出張買取でもその場で現金支払いに対応している業者が多いです。" } },
+      { "@type": "Question", name: "札幌の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。島村楽器札幌ステラプレイス店の店頭買取なら、その場で査定・即日現金化ができます。ミツノ楽器の店頭買取でも即日対応可能です。出張買取でも、その場での現金支払いに対応する業者が多くあります。" } },
       { "@type": "Question", name: "札幌駅周辺に楽器買取店はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、島村楽器札幌ステラプレイス店がJR札幌駅直結のステラプレイス内にあります。また、ミツノ楽器やJINGLEなど地元の老舗楽器店も札幌市内にあり、買取に対応しています。" } },
       { "@type": "Question", name: "北海道の地方都市からでも楽器買取は利用できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、利用できます。ヒカカク！のオンライン一括査定なら北海道内どこからでも利用可能です。また、リコレクションズは北海道内で宅配買取を行っており、送料無料で利用できます。札幌TOPKINGも札幌市外への出張にも対応しています。" } },
     ],
@@ -307,7 +307,7 @@ export default function SapporoGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、可能です。島村楽器札幌ステラプレイス店の店頭買取やミツノ楽器の店頭買取で即日現金化ができます。出張買取でもその場で現金支払いに対応している業者が多いです。
+                はい、可能です。島村楽器札幌ステラプレイス店の店頭買取やミツノ楽器の店頭買取で即日現金化ができます。出張買取でも、その場での現金支払いに対応する業者が多くあります。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">

@@ -70,7 +70,7 @@ export default function PioneerDjKaitoriPage() {
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】Pioneer DJ買取おすすめ3社比較｜CDJ・DJMの相場と価値</h1>
-          <p className="text-warm-gray text-sm leading-relaxed">Pioneer DJの機材を売りたい方へ。CDJ-3000・CDJ-2000NXS2 などのプレーヤー、DJM-900NXS2 などのミキサー、DDJシリーズのコントローラーまで、機種・世代別の価値、状態による査定差を解説します。クラブ標準機として中古需要が非常に高いです。</p>
+          <p className="text-warm-gray text-sm leading-relaxed">Pioneer DJの機材を売りたい方へ。CDJ-3000・CDJ-2000NXS2 などのプレーヤー、DJM-900NXS2 などのミキサー、DDJシリーズのコントローラーまで、機種・世代別の価値、状態による査定差を解説します。クラブ標準機として、中古市場で非常に高い需要があります。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
         </header>
 

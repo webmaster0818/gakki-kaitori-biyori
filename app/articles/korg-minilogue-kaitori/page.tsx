@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "コルグ ミニローグの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "モデル・状態により、中古買取で1.5万〜4万円程度が目安です。minilogue xdや状態良好・付属品完備なら上限寄りになります。" } },
       { "@type": "Question", name: "付属品がないと不利ですか？", acceptedAnswer: { "@type": "Answer", text: "電源アダプター・箱・取説が揃うと評価が上がります。なくても買取可能です。" } },
-      { "@type": "Question", name: "ツマミのガリがあっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。軽度のガリは減額要因ですが大きくは響きにくいです。状態を正確に伝えてください。" } },
+      { "@type": "Question", name: "ツマミのガリがあっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。軽度のガリは減額要因となりますが、査定額への影響は大きくない傾向があります。状態を正確に伝えてください。" } },
       { "@type": "Question", name: "無印とxdで評価は違いますか？", acceptedAnswer: { "@type": "Answer", text: "xdはエフェクト等を強化した上位機で、一般に評価が高くなります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -135,7 +135,7 @@ export default function KorgMinilogueKaitoriPage() {
                 <span className="pr-4">ツマミのガリがあっても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。軽度のガリは減額要因ですが大きくは響きにくいです。状態を正確に伝えてください。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。軽度のガリは減額要因となりますが、査定額への影響は大きくない傾向があります。状態を正確に伝えてください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

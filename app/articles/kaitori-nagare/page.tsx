@@ -74,7 +74,7 @@ export default function Page() {
           <h3 className="font-bold text-base text-accent-dark mt-5 mb-1">ステップ2：仮査定（写真・ヒアリング）</h3>
           <p className="leading-relaxed mb-4"><strong>仮査定はあくまで目安</strong>で、実物確認で前後します。全体・型番・キズ部分を明るい場所で撮ると精度が上がります。</p>
           <h3 className="font-bold text-base text-accent-dark mt-5 mb-1">ステップ3：引き取り（出張・店頭・宅配）</h3>
-          <p className="leading-relaxed mb-4">選んだ方式で楽器を渡します。宅配は<strong>付属品（ケース・保証書・付属パーツ）</strong>も一緒に。付属品が揃うと評価が上がりやすいです。</p>
+          <p className="leading-relaxed mb-4">選んだ方式で楽器を渡します。宅配は<strong>付属品（ケース・保証書・付属パーツ）</strong>も一緒に。付属品が揃っていると評価が上がりやすくなります。</p>
           <h3 className="font-bold text-base text-accent-dark mt-5 mb-1">ステップ4：本査定</h3>
           <p className="leading-relaxed mb-4">プロが実機を確認し最終額を提示。傷・汚れ・動作不良があると<strong>減額</strong>、状態が良ければ<strong>増額</strong>することもあります。</p>
           <h3 className="font-bold text-base text-accent-dark mt-5 mb-1">ステップ5：金額に合意（納得できなければキャンセル）</h3>

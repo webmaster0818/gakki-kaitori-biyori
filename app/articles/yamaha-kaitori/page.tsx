@@ -70,7 +70,7 @@ function FaqSchema() {
       { "@type": "Question", name: "YAMAHAピアノの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "YAMAHAピアノの買取相場は、アップライトピアノのUシリーズが3万〜35万円、YUシリーズが10万〜50万円、グランドピアノのCシリーズが30万〜150万円が目安です。年式・状態・型番により大きく変動します。" } },
       { "@type": "Question", name: "YAMAHAギターの買取相場はどのくらい？", acceptedAnswer: { "@type": "Answer", text: "YAMAHAギターの買取相場は、アコースティックギターのLシリーズが2万〜12万円、FGシリーズが3,000〜2万円、エレキギターのPacificaが5,000〜3万円、REVSTARが2万〜6万円が目安です。上位モデルほど高額になります。" } },
       { "@type": "Question", name: "YAMAHA管楽器の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "YAMAHA管楽器の買取相場は、アルトサックスYAS-62が3万〜8万円、テナーサックスYTS-62が4万〜10万円、トランペットYTR-8335が3万〜7万円、フルートYFL-311が1万〜3万円が目安です。Customシリーズはさらに高額です。" } },
-      { "@type": "Question", name: "古いYAMAHA楽器でも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、YAMAHAは信頼性が高いブランドのため、古い楽器でも買取可能な場合が多いです。特にアコースティックギターのL系やピアノのUシリーズは、年代物でも需要があります。状態によっては値段がつかない場合もありますが、まずは査定に出してみることをおすすめします。" } },
+      { "@type": "Question", name: "古いYAMAHA楽器でも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、YAMAHAは信頼性の高いブランドのため、古い楽器でも買取の対象となる場合が多くあります。特にアコースティックギターのL系やピアノのUシリーズは、年代物でも需要があります。状態によっては値段がつかない場合もありますが、まずは査定に出してみることをおすすめします。" } },
       { "@type": "Question", name: "YAMAHA楽器を最も高く売るには？", acceptedAnswer: { "@type": "Answer", text: "YAMAHA楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定する、(2)純正ケース・マウスピース・付属品を揃える、(3)楽器をクリーニングする、(4)ピアノの場合は調律してから査定に出す、の4つがポイントです。" } },
     ],
   };
@@ -435,7 +435,7 @@ export default function YamahaKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、YAMAHAは信頼性が高いブランドのため、古い楽器でも買取可能な場合が多いです。特にアコースティックギターのL系やピアノのUシリーズは、年代物でも需要があります。まずは査定に出してみることをおすすめします。
+                はい、YAMAHAは信頼性の高いブランドのため、古い楽器でも買取の対象となる場合が多くあります。特にアコースティックギターのL系やピアノのUシリーズは、年代物でも需要があります。まずは査定に出してみることをおすすめします。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">

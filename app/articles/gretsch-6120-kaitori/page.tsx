@@ -25,7 +25,7 @@ function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "グレッチ6120の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "日本製のProfessional Collectionで5万〜12万円、USA製/Custom Shopで12万〜30万円、1950〜60年代のヴィンテージは数十万〜百万円超が目安です。" } },
       { "@type": "Question", name: "日本製とUSA製で評価は違いますか？", acceptedAnswer: { "@type": "Answer", text: "USA製・Custom Shopが上位ですが、日本製のProfessional Collectionも品質が高く一定の評価があります。型番でご確認ください。" } },
-      { "@type": "Question", name: "ビグスビーの不調があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。ビグスビー（トレモロ）は定番パーツで、軽度の不調は大きな減額にはなりにくいです。" } },
+      { "@type": "Question", name: "ビグスビーの不調があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。ビグスビー（トレモロ）は定番パーツのため、軽度の不調であれば大きな減額要因にはなりにくいと考えられます。" } },
       { "@type": "Question", name: "フルアコのボディ割れは減額になりますか？", acceptedAnswer: { "@type": "Answer", text: "割れ・剥がれは減額要因です。ただし人気機種のため、状態を正確に伝えれば値はつきます。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
@@ -135,7 +135,7 @@ export default function Gretsch6120KaitoriPage() {
                 <span className="pr-4">ビグスビーの不調があっても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。ビグスビー（トレモロ）は定番パーツで、軽度の不調は大きな減額にはなりにくいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。ビグスビー（トレモロ）は定番パーツのため、軽度の不調であれば大きな減額要因にはなりにくいと考えられます。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

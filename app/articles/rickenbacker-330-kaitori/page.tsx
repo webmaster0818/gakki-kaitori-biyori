@@ -24,7 +24,7 @@ function Breadcrumb() {
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
       { "@type": "Question", name: "リッケンバッカー330の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行モデルで8万〜18万円、1960〜70年代のヴィンテージは20万〜60万円以上が目安です。カラーや状態で変動します。" } },
-      { "@type": "Question", name: "カラーで評価は変わりますか？", acceptedAnswer: { "@type": "Answer", text: "はい。Fireglo（サンバースト系）やJetglo（黒）など人気カラー、特に希少な廃番色は加点されやすいです。" } },
+      { "@type": "Question", name: "カラーで評価は変わりますか？", acceptedAnswer: { "@type": "Answer", text: "はい。Fireglo（サンバースト系）やJetglo（黒）など人気カラー、特に希少な廃番色はプラス査定につながる傾向があります。" } },
       { "@type": "Question", name: "12弦の360/12も対象ですか？", acceptedAnswer: { "@type": "Answer", text: "はい。12弦モデルも買取対象で、独特の需要があります。型番（330/360、6弦/12弦）をご確認ください。" } },
       { "@type": "Question", name: "配線やトラスロッドが特殊ですが査定に影響しますか？", acceptedAnswer: { "@type": "Answer", text: "リッケンバッカー固有の構造で、不利にはなりません。動作に問題がなければ通常評価です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
@@ -128,7 +128,7 @@ export default function Rickenbacker330KaitoriPage() {
                 <span className="pr-4">カラーで評価は変わりますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい。Fireglo（サンバースト系）やJetglo（黒）など人気カラー、特に希少な廃番色は加点されやすいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい。Fireglo（サンバースト系）やJetglo（黒）など人気カラー、特に希少な廃番色はプラス査定につながる傾向があります。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

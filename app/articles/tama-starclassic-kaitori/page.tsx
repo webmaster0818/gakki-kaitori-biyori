@@ -26,7 +26,7 @@ function FaqSchema() {
       { "@type": "Question", name: "TAMAスタークラシックの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "構成・状態により幅がありますが、フルキットで中古買取5万〜20万円程度が目安です。シェル材・本数・付属ハードウェアで変わります。" } },
       { "@type": "Question", name: "ドラムセットは出張買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。掲載3社のうちウリエルは出張買取に対応し、大型のドラムセットもまとめて搬出できます。" } },
       { "@type": "Question", name: "シンバルやハードウェアも一緒に売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい。一式まとめて査定する方が効率的で、評価もしやすくなります。" } },
-      { "@type": "Question", name: "打痕や傷があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。シェルの割れは減額要因ですが、軽度の傷なら大きくは響きにくいです。" } },
+      { "@type": "Question", name: "打痕や傷があっても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。シェルの割れは減額要因となりますが、軽度の傷であれば査定額への影響は限定的です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】TAMA スタークラシック買取相場｜ドラムセットの価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
@@ -142,7 +142,7 @@ export default function TamaStarclassicKaitoriPage() {
                 <span className="pr-4">打痕や傷があっても売れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。シェルの割れは減額要因ですが、軽度の傷なら大きくは響きにくいです。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">売却可能です。シェルの割れは減額要因となりますが、軽度の傷であれば査定額への影響は限定的です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

@@ -132,7 +132,7 @@ export default function DrumKaitoriPage() {
 
           <h3>ドラムセット（シェルキット）の買取相場</h3>
 
-          <p>ドラムセットはバスドラム・タム・フロアタムのシェル（太鼓本体）のセットです。スネアドラムやシンバル、ハードウェアは別途査定されることが多いです。</p>
+          <p>ドラムセットはバスドラム・タム・フロアタムのシェル（太鼓本体）のセットです。スネアドラムやシンバル、ハードウェアは別途査定される場合が多くなっています。</p>
 
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -265,7 +265,7 @@ export default function DrumKaitoriPage() {
 
           <h3>ヒカカク！ ── 一括査定でドラムの最高値が見つかる</h3>
 
-          <p>ヒカカク！では複数の買取業者に一括で査定依頼ができます。DW CollectorやTAMA Starclassicなどの高額ドラムは、業者によって数万円の差が出ることがあるため、<strong>一括査定で比較するメリットが大きい</strong>です。</p>
+          <p>ヒカカク！では複数の買取業者に一括で査定依頼ができます。DW CollectorやTAMA Starclassicなどの高額ドラムは、業者によって数万円の差が出ることがあるため、<strong>一括査定で比較することには大きなメリットがあります</strong>。</p>
 
           <h3>ティファナ ── 電子ドラムの宅配買取にも対応</h3>
 
