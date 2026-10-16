@@ -314,3 +314,11 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 「過去180日分」の記述は未確認のまま（取得 URL に期間指定なし。Yahoo 側の保持期間を一次情報で確かめていない）
 - 他ページに同じ数の記述なし（souba-ranking は `models.length` で動的）。型番ページ 62/62 に相場カードあり・リンク切れ0（out/ 全走査）
 - DEDUP 再計算（10/13 取得キャッシュ49モデル＋残り13は n 半分補完・取得0回）: 非表示4本＝gibson-explorer 14→7 / mesaboogie-markv 8→4 / tama-starclassic 12→6 / moog-subsequent37 8→4（後2本は補完値）、境界 n=8〜9 は6本、ranking 55→51、指数 42→37（落ちる5本＝esp-horizon / fender-mustang / gibson-lespaul-custom / ludwig-supraphonic / warwick-thumb、10/12 98.23→98.79・10/19 試算 99.02）＝10/13 の一覧と一致
+
+### 2026-10-16 指数の採用基準 n≧10（DEDUP 後）を wip に用意（main 未マージ・本番変更なし）
+- wip `wip/index-n10-1016`（103771a・origin push 済み）。件数基準の所在を全部洗い出した＝**指数用の件数基準は `generate-souba-index-gakki.py` の1か所だけ**（取得側の `MIN_SAMPLE=8` は insufficient 判定用で別物・`--reapply` は点を消すだけで件数を見ない）＋表示文言 `app/souba-index/page.tsx`「全週でサンプル数20件以上」＋ generated_note。
+  - 取得側: write_history の点と latest に `"dedup": DEDUP_LISTINGS` を記録（10/19 週次の点から True）。指数側: `INDEX_MIN_N = 10`、印の無い旧点（〜10/12・重複込み）は ×`LEGACY_N_FACTOR=2`（=20）で判定＝旧点の判定は従来と完全に同じ
+- dry（取得0回。10/15 の 10/13 キャッシュ試算 `/tmp/gakki1015/dedup.json` を temp コピーに 10/19 点として書き込み）: 現データ → 指数 JSON が generated_note 以外完全一致（42銘柄・10/12=98.23）。10/19 試算 → **42銘柄のまま・7/16〜10/12 の系列とカテゴリ別も完全一致・10/19=98.30**（旧基準だと 37銘柄・10/12 が 98.79 に書き換わる）。救われる5本の 10/19 n は warwick-thumb 12 / mustang 15 / supraphonic 15（半分補完）/ lespaul-custom 16 / esp-horizon 19＝warwick は境界に近い
+- **10/17 の手順**: `cd ~/projects/gakki-kaitori-biyori && git checkout main && git pull && git merge --no-ff wip/index-n10-1016 && python3 scripts/generate-souba-index-gakki.py`（42モデル・最新 98.23 を確認）`&& git push`。**取得・ビルド・デプロイはしない**（/souba-index/ の文言は 10/19 週次のビルドで出る）。⚠️ 週次 cron は「今チェックアウトしているブランチの HEAD」を main に push するので、**作業後は必ず main に戻しておく**
+- 10/19 週次後の確認: 指数 42銘柄（warwick-thumb の n が 10 未満なら 41）・10/12 の値が 98.23 のまま・新しい点に `"dedup": true` が入っているか
+- DW Collector's の wip `wip/dw-text-1014`（42f194a）を確認: 本文・FAQ・title/description から「実勢中央値（毎週更新）」前提の文が消え、カードの「データ不足」と一致。main へのマージは衝突なし。DEDUP 後も n=4→2 で insufficient のまま＝文言は 10/19 以降も正しい。判断待ち（マージすればデプロイが要る）
