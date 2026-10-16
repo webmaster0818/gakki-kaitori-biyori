@@ -65,7 +65,7 @@ export default function Page() {
           <h2 id="point" className="font-display text-xl font-bold text-foreground mt-8 mb-3">高額査定を引き出す3つのポイント</h2>
           <ul className="list-disc pl-5 space-y-1 mb-4 leading-relaxed">
             <li><strong>付属品を揃える</strong>：ケース・保証書・元箱・付属パーツが揃うと評価が上がりやすい。</li>
-            <li><strong>専門性の高い業者を選ぶ</strong>：楽器専門の査定士がいる業者ほど、希少モデルの価値を正しく評価できる。</li>
+            <li><strong>専門性の高い業者を選ぶ</strong>：楽器専門の査定士がいる業者ほど、希少モデルの価値を正しく評価できます。</li>
             <li><strong>複数社で相見積り</strong>：同じ楽器でも提示額に差が出ます（<Link href="/articles/takaku-uru-kotsu/" className="text-accent underline">高く売るコツ</Link>・<Link href="/articles/souba-ichiran/" className="text-accent underline">相場一覧</Link>）。</li>
           </ul>
           <p className="text-xs text-warm-gray mb-2">※ 掲載のジャンル・金額感は一般的な中古市場の傾向にもとづく目安です。実際の買取額はモデル・年式・状態・付属品・各業者の在庫状況により異なります。正確な額は無料査定でご確認ください。</p>

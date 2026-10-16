@@ -13,7 +13,7 @@ const services = [
     image: "/images/services/hikakaku.webp",
     tagline: "一括査定で複数社の査定額を比較",
     description: "複数の買取業者に一括で査定を依頼できる比較サービスです。楽器以外の品目にも対応しており、業者ごとの査定額を比較できます。",
-    features: ["一括査定で複数業者を比較", "査定額を比較できる", "無料で利用可能"],
+    features: ["一括査定で複数業者を比較", "業者ごとの提示額を確認できる", "無料で利用可能"],
     recommended: "複数社の査定額を比較したい方",
     color: "bg-amber-50 border-gold/30",
   },
