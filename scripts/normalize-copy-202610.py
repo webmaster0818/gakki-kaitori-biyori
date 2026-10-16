@@ -73,6 +73,7 @@ PHRASES = [
     ("まで完全ガイド。", "まで解説します。"),
     ("完全ガイド", "ガイド"),
     ("【2026年徹底比較】", "【2026年版】"),
+    ("徹底比較ガイド", "比較ガイド"),
     ("徹底比較", "比較"),
     ("徹底解説", "解説"),
     ("網羅解説", "解説"),
@@ -299,7 +300,7 @@ REGEX_RULES = [
 FILES = (
     glob.glob(f"{ROOT}/app/**/*.tsx", recursive=True)
     + glob.glob(f"{ROOT}/components/*.tsx")
-    + [f"{ROOT}/data/articles-metadata.json", f"{ROOT}/data/dealers.ts"]
+    + [f"{ROOT}/data/articles-metadata.json", f"{ROOT}/data/dealers.ts", f"{ROOT}/data/related-groups.json"]
     + [f for f in glob.glob(f"{ROOT}/scripts/*.py") if not f.endswith("normalize-copy-202610.py")]
 )
 
