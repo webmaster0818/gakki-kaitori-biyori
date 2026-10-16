@@ -129,7 +129,7 @@ REGION_SLUGS: dict[str, dict] = {
 
 HOWTO_SLUGS: dict[str, dict] = {
     "takaku-uru-kotsu": {"badge": "高く売るコツ", "shortTitle": "楽器を高く売る5つのコツ", "description": "相見積もり・付属品など売却前の必須準備。"},
-    "souba-ichiran": {"badge": "相場一覧", "shortTitle": "楽器買取相場一覧まとめ", "description": "全カテゴリの相場を一覧で比較できる。"},
+    "souba-ichiran": {"badge": "相場一覧", "shortTitle": "楽器買取相場一覧まとめ", "description": "全カテゴリの相場を一覧で比較できます。"},
     "kaitori-houhou-hikaku": {"badge": "買取方法", "shortTitle": "出張・宅配・店頭 買取方法比較", "description": "3つの買取方法のメリットデメリットを比較します。"},
     "kaitori-houshiki-tetteihikaku": {"badge": "方式比較", "shortTitle": "買取方式 比較ガイド", "description": "業者選びで失敗しないための基礎知識。"},
     "kaitori-nagare": {"badge": "買取の流れ", "shortTitle": "楽器買取の流れガイド", "description": "問い合わせから入金まで全ステップを解説します。"},
