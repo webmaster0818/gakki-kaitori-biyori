@@ -4,10 +4,10 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/oya-gakki-seiri/' },
-  title: "【2026年最新】親の家の楽器整理マニュアル｜遺品・実家じまいで失敗しないコツ",
+  title: "【2026年最新】親の家の楽器整理マニュアル｜遺品・実家じまいでの注意点",
   description: "親の家に残された楽器の整理に困っている方へ。遺品整理、実家じまいでの楽器処分・買取の手順、価値ある楽器の見分け方、相続税との関係まで解説します。",
   openGraph: { images: ["/og-image.png"], 
-    title: "【2026年最新】親の家の楽器整理マニュアル｜遺品・実家じまいで失敗しないコツ",
+    title: "【2026年最新】親の家の楽器整理マニュアル｜遺品・実家じまいでの注意点",
     description: "親の家に残された楽器の整理に困っている方へ。遺品整理、実家じまいでの楽器処分・買取の手順、価値ある楽器の見分け方、相続税との関係まで解説します。",
   },
 };
@@ -43,8 +43,8 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"\u5f62\u898b\u3068\u3057\u3066\u4e00\u90e8\u3060\u3051\u6b8b\u3059\u306e\u306f\u30c0\u30e1\u3067\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u554f\u984c\u3042\u308a\u307e\u305b\u3093\u3002\u5bb6\u65cf\u3067\u8a71\u3057\u5408\u3044\u3001\u601d\u3044\u5165\u308c\u306e\u3042\u308b\u697d\u5668\u306f\u6b8b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u624b\u653e\u3059\u524d\u306b\u5199\u771f\u3068\u52d5\u753b\u3092\u64ae\u3063\u3066\u304a\u304f\u3068\u3001\u5fc3\u306e\u6574\u7406\u304c\u3064\u304d\u3084\u3059\u3044\u3067\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u53e4\u3044\u697d\u5668\u306e\u5e74\u4ee3\u304c\u308f\u304b\u3089\u306a\u3044\u5834\u5408\u306f\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u30b7\u30ea\u30a2\u30eb\u30ca\u30f3\u30d0\u30fc\u304b\u3089\u5224\u5225\u3067\u304d\u308b\u5834\u5408\u304c\u591a\u3044\u3067\u3059\u3002\u8cb7\u53d6\u696d\u8005\u306e\u5c02\u9580\u67fb\u5b9a\u58eb\u304c\u898b\u308c\u3070\u3001\u5e74\u4ee3\u3084\u4fa1\u5024\u3092\u5224\u5225\u3067\u304d\u307e\u3059\u3002\u307e\u305a\u306f\u7121\u6599\u67fb\u5b9a\u3092\u3054\u4f9d\u983c\u304f\u3060\u3055\u3044\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5b9f\u5bb6\u3092\u58f2\u5374\u3059\u308b\u524d\u306b\u3044\u3064\u307e\u3067\u306b\u51e6\u5206\u3059\u3079\u304d\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5b9f\u5bb6\u58f2\u5374\u306e\u5f15\u304d\u6e21\u3057\u306e1\u301c2\u30f6\u6708\u524d\u306b\u306f\u3001\u697d\u5668\u306e\u51e6\u5206\u3092\u5b8c\u4e86\u3055\u305b\u308b\u306e\u304c\u7406\u60f3\u3067\u3059\u3002\u8cb7\u53d6\u67fb\u5b9a\u301c\u5f15\u304d\u53d6\u308a\u30672\u301c4\u9031\u9593\u304b\u304b\u308b\u305f\u3081\u3001\u4f59\u88d5\u3092\u6301\u3063\u3066\u6e96\u5099\u3057\u3066\u304f\u3060\u3055\u3044\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u89aa\u306e\u5bb6\u306e\u697d\u5668\u6574\u7406\u30de\u30cb\u30e5\u30a2\u30eb\uff5c\u907a\u54c1\u30fb\u5b9f\u5bb6\u3058\u307e\u3044\u3067\u5931\u6557\u3057\u306a\u3044\u30b3\u30c4\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-05-17\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"親の家の楽器整理マニュアル｜遺品・実家じまいで失敗しないコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/oya-gakki-seiri/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u89aa\u306e\u5bb6\u306e\u697d\u5668\u6574\u7406\u30de\u30cb\u30e5\u30a2\u30eb\uff5c\u907a\u54c1\u30fb\u5b9f\u5bb6\u3058\u307e\u3044\u3067\u306e\u6ce8\u610f\u70b9\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-05-17\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"親の家の楽器整理マニュアル｜遺品・実家じまいでの注意点\", \"item\": \"https://gakkikaitori-biyori.com/articles/oya-gakki-seiri/\"}]}" }} />
     </>
   );
 }
@@ -60,7 +60,7 @@ export default function Page() {
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">シチュエーション</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">親の家の楽器整理マニュアル｜遺品・実家じまいで失敗しないコツ</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">親の家の楽器整理マニュアル｜遺品・実家じまいでの注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">親が亡くなった、施設に入った、実家を処分する——人生のターニングポイントで、親の家に残された楽器の整理に直面する方は少なくありません。「価値がわからない」「捨てるには罪悪感がある」と悩む前に、本記事の手順で順序立てて整理を進めてください。</p>
           <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
         </header>

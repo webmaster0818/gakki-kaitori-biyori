@@ -108,7 +108,7 @@ export default function KaitoriHouhouHikakuPage() {
             <li><a href="#shutcho" className="hover:underline">出張買取</a></li>
             <li><a href="#tentou" className="hover:underline">店頭買取</a></li>
             <li><a href="#takuhai" className="hover:underline">宅配買取</a></li>
-            <li><a href="#merit-demerit" className="hover:underline">メリデメ比較表</a></li>
+            <li><a href="#merit-demerit" className="hover:underline">メリット・デメリット比較表</a></li>
             <li><a href="#by-instrument" className="hover:underline">楽器別おすすめ方法</a></li>
             <li><a href="#service-table" className="hover:underline">3社の対応表</a></li>
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>

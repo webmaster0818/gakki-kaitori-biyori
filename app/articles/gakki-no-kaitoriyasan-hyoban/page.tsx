@@ -57,7 +57,7 @@ export default function Page() {
 
         <div className="bg-cream border border-warm-border rounded-2xl p-5 mb-8">
           <p className="font-bold mb-2 text-accent-dark">概要</p>
-          <p className="text-sm leading-relaxed">「楽器の買取屋さん」は<strong>UNI SOUND株式会社</strong>が運営する楽器買取専門店で、<strong>古物商許可あり・出張/宅配/店頭に対応・査定料/出張料/キャンセル料0円</strong>を掲げています。出張は最短30分・その場で現金化とスピードが強み。一方で「和楽器・一部電子ピアノは対象外だった」「返信が遅い」といった声もあります。<strong>金額は業者で差が出るため、1社に絞らず複数社の査定を比較</strong>するのが失敗しないコツです。</p>
+          <p className="text-sm leading-relaxed">「楽器の買取屋さん」は<strong>UNI SOUND株式会社</strong>が運営する楽器買取専門店で、<strong>古物商許可あり・出張/宅配/店頭に対応・査定料/出張料/キャンセル料0円</strong>を掲げています。出張は最短30分・その場で現金化とスピードが強み。一方で「和楽器・一部電子ピアノは対象外だった」「返信が遅い」といった声もあります。<strong>金額は業者で差が出るため、1社に絞らず複数社の査定を比較</strong>することをおすすめします。</p>
         </div>
 
         {/* conclusion-202607: 指名検索者の疑問に冒頭で即答 */}
