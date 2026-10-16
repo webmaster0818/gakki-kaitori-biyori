@@ -334,3 +334,7 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - ⚠️ `wip/dw-text-1014` は今回の変更と**衝突するようになった**（dw-collectors page.tsx・articles-metadata.json）。`wip/index-n10-1016`・`wip/ytr8335-breadcrumb` は衝突なし。
 - ⚠️ `python3 scripts/gen-related-groups.py` は引数を見ずに実行される（`--help` でも書き込む）。現行データで流すと 46→47グループ・437→439 記事に変わる（今回は戻した）。
 - 🔍 **見つけたが直していない（事実・要確認）**: 地域テンプレ324本のウリエル「対応エリア: 〇〇を含む〇〇全域」・FAQ「主要3社がすべて対応エリア」（ウリエル公式の出張エリアは北海道・東北・沖縄等を含まない）／ティファナ「〇〇近隣に店舗あり」（店舗は首都圏中心）・「年間4万件」・「状態を問わず査定OK」（公式トップに該当の文言なし）／「需要期 1〜3月・9〜10月」の根拠／miseinen FAQ「18歳以上であれば親権者の同意書を用意することで売却可能」（18歳以上は成年で同意不要）／中古楽器堂 福岡博多店「出張買取専門」／【2026年10月最新】等の月タグは月次スクリプトが本文の見直しなしに進めている（見せかけ鮮度）。
+
+### 2026-10-17 copy-audit 指摘の残り（失敗しないコツ）
+- oya-gakki-seiri の title/h1/JSON-LD（JSON-LD は \\uXXXX エスケープ表記で置換が届いていなかった）「失敗しないコツ」→「での注意点」、gakki-no-kaitoriyasan-hyoban「するのが失敗しないコツです」→「することをおすすめします」、kaitori-houhou-hikaku 目次「メリデメ」→「メリット・デメリット」。generate-phase1-situations.py・normalize-copy-202610.py にも規則を追加。
+- out/ の §8 NG 0・precheck 全項目OK・felmat 562ページ一致・copy-audit --n 60 で NG 0。source aeddaf9 / deploy 672800c4e。
