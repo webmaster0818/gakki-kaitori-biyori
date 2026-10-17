@@ -407,6 +407,10 @@ def write_history(slug: str, label: str, result: dict) -> None:
             "median_jpy": median_val,
             "sample_n": result.get("filtered_n"),
             "raw_n": result.get("raw_n"),
+            # 2026-10-16: n の数え方の印。True=auctionId 重複除去後の実出品数。
+            #   キーの無い旧点（〜10/12）は重複込み（約2倍）。指数の採用基準はこの印で切り替える
+            #   （generate-souba-index-gakki.py の INDEX_MIN_N）。
+            "dedup": DEDUP_LISTINGS,
         }
         if median_val is not None and not result.get("insufficient")
         else None
@@ -432,6 +436,7 @@ def write_history(slug: str, label: str, result: dict) -> None:
             "median_jpy": median_val,
             "sample_n": result.get("filtered_n"),
             "raw_n": result.get("raw_n"),
+            "dedup": DEDUP_LISTINGS,
             "insufficient": result.get("insufficient", False),
         },
         "note": "週次自動更新で履歴を蓄積中。",
