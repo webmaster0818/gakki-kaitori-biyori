@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 川崎おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-17",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             川崎で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、川崎エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、川崎・武蔵小杉・溝の口など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月17日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -231,9 +231,9 @@ export default function Page() {
           <h2 id="local-shops">川崎の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
           <p>川崎で楽器を売れる主な買取店を、2026年10月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
           <h3>島村楽器 川崎ルフロン店 ── 川崎駅直結・川崎ルフロン7F</h3>
-          <p>買取方式：店頭。楽器専門店の店頭買取。査定無料（<a href="https://www.shimamura.co.jp/shop/kawasaki/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
-          <h3>島村楽器 ラゾーナ川崎店 ── 幸区・ラゾーナ川崎プラザ4F</h3>
-          <p>買取方式：店頭。※公式告知で2026年9月23日をもって閉店予定（<a href="https://www.shimamura.co.jp/shop/l-kawasaki/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p>買取方式：店頭。楽器専門店の店頭買取。査定無料。買取代金は銀行振込で、現金での支払いは実施していないと公式に案内されています（<a href="https://www.shimamura.co.jp/shop/kawasaki/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>島村楽器 ラゾーナ川崎店 ── 2026年9月23日に閉店</h3>
+          <p>公式の閉店のお知らせによると、2026年9月23日に閉店しました。近隣店舗として川崎ルフロン店が案内されています（2026年10月17日確認・<a href="https://www.shimamura.co.jp/shop/l-kawasaki/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>ハードオフ コーナン川崎小田栄モール店 ── 川崎区小田栄</h3>
           <p>買取方式：店頭/宅配(出張は非対応)。ギター・ベース買取強化。店頭10:00〜20:00（<a href="https://www.hardoff.co.jp/shop/detail/?p=101072" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>セカンドストリート 川崎ダイス店 ── 川崎駅前・DICEビル</h3>
@@ -244,12 +244,12 @@ export default function Page() {
           <p>買取方式：店頭/宅配。溝の口・高津/宮前エリアの受け皿。大型ピアノ等は不可（<a href="https://www.2ndstreet.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>楽器の買取屋さん ── 川崎市全域へ出張(市内持込店舗なし)</h3>
           <p>買取方式：出張/宅配。出張料・査定料・搬出料無料。ピアノ・ドラム等大型も対応・その場現金（<a href="https://gakkikaitori.co.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
-          <p className="text-sm text-warm-gray">※イシバシ楽器は川崎市内店舗なし=神奈川の最寄りは横浜店(横浜駅徒歩約4分)。島村ラゾーナ川崎店は2026/9/23閉店予定→以降は川崎ルフロン店が市内唯一の島村店頭窓口。武蔵小杉・溝の口駅直近に大手専門店の店頭拠点はなくセカスト各店か出張が現実的。セカストは81kg超の大型ピアノ等は買取対象外。</p>
+          <p className="text-sm text-warm-gray">※イシバシ楽器は川崎市内店舗なし=神奈川の最寄りは横浜店(横浜駅徒歩約4分)。島村楽器ラゾーナ川崎店は2026年9月23日に閉店し、公式は近隣店舗として川崎ルフロン店を案内しています。武蔵小杉・溝の口駅直近に大手専門店の店頭拠点はなくセカスト各店か出張が現実的。セカストは81kg超の大型ピアノ等は買取対象外。</p>
 
           <CtaBox />
 
           <h3>川崎での「店頭・出張・宅配」の選び方</h3>
-          <p>小〜中型(ギター/ベース/エフェクター/管楽器)を即現金化=川崎駅周辺の店頭(島村川崎ルフロン=専門査定、セカスト川崎ダイス=駅前で気軽)。武蔵小杉=2nd武蔵小杉買取専門店、溝の口/高津=2nd川崎千年、宮前=2nd川崎野川。アップライト/グランドピアノ・ドラム等大型や大量売却は出張が有利で川崎全域対応の買取屋さん(店頭持込は不可)。小型の非対面売却はセカスト/ハードオフの宅配。</p>
+          <p>小〜中型(ギター/ベース/エフェクター/管楽器)を店頭で売る場合=川崎駅周辺(島村川崎ルフロン=専門査定・代金は銀行振込、セカスト川崎ダイス=駅前で気軽)。武蔵小杉=2nd武蔵小杉買取専門店、溝の口/高津=2nd川崎千年、宮前=2nd川崎野川。アップライト/グランドピアノ・ドラム等大型や大量売却は出張が有利で川崎全域対応の買取屋さん(店頭持込は不可)。小型の非対面売却はセカスト/ハードオフの宅配。</p>
 
 
           <h2 id="faq">川崎の楽器買取に関するよくある質問</h2>

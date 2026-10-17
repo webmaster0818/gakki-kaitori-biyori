@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 池袋おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-17",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             池袋で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、池袋エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、池袋・板橋・練馬など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月17日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -245,7 +245,7 @@ export default function Page() {
           <p>買取方式：店頭/出張(最短30分)/宅配。自社リペア対応。その場で現金の即日買取・相見積もりに対応。汚れ・故障品も可（<a href="https://gakkikaitori.co.jp/kaitori/shop/ikebukuro/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>セカンドストリート 池袋P'パルコ店 ── 東池袋・P'PARCO B1</h3>
           <p>買取方式：店頭。リユース店。大型ピアノ・業務用は買取不可。楽器知識のあるスタッフ不在の場合あり（<a href="https://www.2ndstreet.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
-          <p className="text-sm text-warm-gray">※ハードオフは豊島区・池袋に常設店舗なし(西武池袋本店の期間限定催事＋23区対象の首都圏出張買取センターが公式確認範囲)。セカストは楽器買取の可否・査定レベルが店舗差あり要確認。</p>
+          <p className="text-sm text-warm-gray">※ハードオフは豊島区・池袋に常設店舗がありません（23区対象の首都圏出張買取センターが公式で確認できた範囲です。西武池袋本店の期間限定店舗は2023年8月14日に終了しており、買取は行っていませんでした）。セカストは楽器買取の可否・査定レベルが店舗差あり要確認。</p>
 
           <CtaBox />
 
