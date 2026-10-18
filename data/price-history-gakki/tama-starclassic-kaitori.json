@@ -109,11 +109,12 @@
     }
   ],
   "latest": {
-    "date": "2026-10-12",
+    "date": "2026-10-19",
     "median_jpy": 154335,
-    "sample_n": 12,
-    "raw_n": 12,
-    "insufficient": false
+    "sample_n": 6,
+    "raw_n": 6,
+    "dedup": true,
+    "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。"
 }

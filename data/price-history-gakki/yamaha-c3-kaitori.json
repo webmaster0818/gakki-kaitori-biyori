@@ -6,10 +6,11 @@
   "query_used": "ヤマハ C3 グランドピアノ",
   "history": [],
   "latest": {
-    "date": "2026-10-12",
+    "date": "2026-10-19",
     "median_jpy": 375750,
-    "sample_n": 4,
-    "raw_n": 4,
+    "sample_n": 2,
+    "raw_n": 2,
+    "dedup": true,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。"

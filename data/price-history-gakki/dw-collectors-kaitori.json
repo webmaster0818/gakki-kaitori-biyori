@@ -6,10 +6,11 @@
   "query_used": "DW Collector's ドラムセット",
   "history": [],
   "latest": {
-    "date": "2026-10-12",
-    "median_jpy": 660999,
-    "sample_n": 4,
-    "raw_n": 4,
+    "date": "2026-10-19",
+    "median_jpy": 353100,
+    "sample_n": 3,
+    "raw_n": 3,
+    "dedup": true,
     "insufficient": true
   },
   "note": "週次自動更新で履歴を蓄積中。"
