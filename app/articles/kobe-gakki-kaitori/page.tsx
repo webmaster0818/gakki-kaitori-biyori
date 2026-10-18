@@ -67,10 +67,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "神戸で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "神戸で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。三宮周辺の楽器店でも買取を行っていますが、一括査定で相場を把握してから売却先を決めると、損をしにくくなります。" } },
-      { "@type": "Question", name: "神戸で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは神戸市内全域に出張買取に対応しています。中央区・灘区・東灘区・兵庫区・長田区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
+      { "@type": "Question", name: "神戸で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは兵庫県を出張買取の対応エリアに含めています（一部対応できない市町村あり・公式）。中央区・灘区・東灘区・兵庫区・長田区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
       { "@type": "Question", name: "神戸の楽器買取で人気の楽器は何ですか？", acceptedAnswer: { "@type": "Answer", text: "神戸ではギター（エレキ・アコギ）やピアノの買取依頼が多い傾向にあります。神戸はジャズの街としても知られ、サックスやトランペットなどの管楽器の需要も高めです。ブランド楽器は全般的に高額査定が期待できます。" } },
-      { "@type": "Question", name: "壊れた楽器でも神戸で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ヴィンテージ品やブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "神戸から宅配買取で楽器を送ることはできますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取を利用すれば、神戸から全国の買取業者に楽器を送ることができます。送料・査定料・キャンセル料はすべて無料です。梱包キットを送ってくれるサービスもあるので、手軽に利用できます。" } },
+      { "@type": "Question", name: "壊れた楽器でも神戸で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！では状態を添えて複数業者に査定を依頼できます。ティファナは状態が悪い・古い楽器も相談できるとしていますが、音が出ない楽器は「買取できないもの」に挙げています（公式）。ヴィンテージ品やブランド品は壊れていても値段がつくことがあります。" } },
+      { "@type": "Question", name: "神戸から宅配買取で楽器を送ることはできますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら神戸からも利用できます。送料・宅配キットは無料で、査定額に納得できず返却を希望する場合の返送料も無料です（取扱対象外の品は送料自己負担）。送れる段ボールは1箱・最大140サイズまでのため、ギターケースなど大きなものは事前にご確認ください。" } },
     ],
   };
   const articleData = {
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function KobeGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             神戸で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -141,7 +141,7 @@ export default function KobeGakkiKaitoriPage() {
           <ul>
             <li><strong>一括査定サービス（ヒカカク！）</strong>: 複数業者に同時に査定依頼。最高値が見つかりやすい</li>
             <li><strong>出張買取（ウリエル）</strong>: 自宅に査定士が来てくれる。大型楽器の売却に便利</li>
-            <li><strong>店頭・宅配・出張（ティファナ）</strong>: 3つの方法から選べる。手軽に売りたい人向け</li>
+            <li><strong>宅配（ティファナ）</strong>: 神戸からは宅配買取（送料無料）。出張・店頭は東京・埼玉など首都圏のみ</li>
             <li><strong>地元の楽器店</strong>: 三宮周辺に複数あるが、査定額は店舗によってまちまち</li>
           </ul>
 
@@ -165,10 +165,10 @@ export default function KobeGakkiKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">神戸対応</td><td className="px-4 py-3">全国対応（神戸含む）</td><td className="px-4 py-3">全国対応（神戸含む）</td><td className="px-4 py-3">神戸市内出張可</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">神戸対応</td><td className="px-4 py-3">全国対応（神戸含む）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">兵庫県に出張可（一部市町村除く）</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">到着後に査定・メールで通知</td><td className="px-4 py-3">最短翌日以降（出張）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">宅配は送料・キット無料</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
               </tbody>
             </table>
@@ -182,13 +182,13 @@ export default function KobeGakkiKaitoriPage() {
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式で神戸にも対応</h3>
 
-          <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。出張買取・店頭買取・宅配買取の3つの方法に対応しており、神戸からでも利用可能です。特に宅配買取は、梱包して送るだけなので手軽に利用できます。</p>
+          <p>ティファナは出張買取・店頭買取・宅配買取の3つの方法を持つ総合リサイクルショップです。ただし店舗は東京・埼玉、出張は東京・埼玉・神奈川・千葉の一部地域のため、<strong>神戸からは宅配買取（全国送料無料・宅配キット無料）</strong>での利用になります。梱包して送るだけなので手軽に利用できます。</p>
 
-          <p>楽器の状態が悪くても査定してくれるのがティファナの強みです。「売れるかどうかわからない」という楽器でも、まずは気軽に相談してください。</p>
+          <p>ティファナは保管状態が良くない楽器や古い楽器も相談できるとしています（音が出ない楽器は買取不可）。「売れるかどうかわからない」という楽器でも、まずは気軽に相談してください。</p>
 
           <h3>ウリエル ── 神戸市内の出張買取で自宅完結</h3>
 
-          <p>ウリエルは出張買取を専門とするサービスで、神戸市内全域に査定士が訪問してくれます。中央区・灘区・東灘区・兵庫区・長田区・須磨区・垂水区・北区・西区と、市内全域が対象です。</p>
+          <p>ウリエルは出張買取を中心とするサービスで、兵庫県を出張の対応エリアに含めています（公式の対応エリア。一部対応できない市町村があるため、申込時にご確認ください）。訪問は原則10:00〜17:00、最短で翌日以降です。</p>
 
           <p>ピアノやドラムセットなどの大型楽器は、運搬の手間がかかるのが悩みどころ。ウリエルの出張買取なら、<strong>自宅にいながら査定から買取まで完結</strong>するので、大型楽器の売却に最適です。買取成立後はその場で現金を受け取れます。</p>
 
@@ -259,7 +259,7 @@ export default function KobeGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h4 className="font-bold text-sm mb-1">複数業者から査定額が届く</h4><p className="text-sm text-warm-gray">最短即日で複数の買取業者から査定額が届きます。業者間の競争で高額査定になりやすい仕組みです。</p></div>
+              <div><h4 className="font-bold text-sm mb-1">複数業者から査定額が届く</h4><p className="text-sm text-warm-gray">最大20社の買取業者に一括で依頼でき、複数の査定額が届きます。業者間の競争で高額査定になりやすい仕組みです。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -318,10 +318,10 @@ export default function KobeGakkiKaitoriPage() {
 
           <h2 id="local-shops">神戸の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
           <p>神戸で楽器を売れる主な買取店を、2026年10月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
-          <h3>Qsic（キューシック）神戸本店 ── 三宮町さんプラザ3F（三宮・元町から徒歩圏）</h3>
-          <p>買取方式：店頭/出張/宅配。神戸の中古楽器専門店。弦楽器中心(Gibson/Fender/Martin、ヴィンテージも)。試奏動画配信（<a href="https://www.qsic.jp/?mode=f9" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <h3>Qsic（キュージック）神戸本店 ── 三宮町さんプラザ3F（三宮・元町から徒歩圏）</h3>
+          <p>買取方式：店頭/出張/宅配（宅配は当店着払いで送料無料）。神戸の中古楽器専門店。弦楽器中心(Gibson/Fender/Martin、ヴィンテージも)。営業時間は平日12:00〜19:00・土日祝11:00〜19:30、水曜定休（祝日の場合は翌日）。試奏動画配信（<a href="https://www.qsic.jp/?mode=f9" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 三宮オーパ店 ── 三宮オーパ5F・7F（三宮駅）</h3>
-          <p>買取方式：店頭/出張(ピアノ・電子ピアノ・防音室)/Web査定。1点から受付。持込で査定5%UP・下取10%UPの案内。※周辺小物・和楽器は対象外（<a href="https://www.shimamura.co.jp/shop/koube/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p>買取方式：店頭/出張(ピアノ・電子ピアノ・防音室)/Web査定。1点から受付。営業時間11:00〜21:00。持込で査定5%UP・島村楽器での購入品5%UP・下取10%UP（最大20%UP・ピアノは対象外）。2026年10月18日時点ではローランド電子ドラムの買取10%UPキャンペーンを実施中。買取代金は銀行振込のみ（現金払いなし）。※周辺小物・和楽器は対象外（<a href="https://www.shimamura.co.jp/shop/koube/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 イオンモール神戸北店 ── 北区・イオンモール神戸北</h3>
           <p>買取方式：店頭(下取/買取/中古販売)。郊外モール内店舗（<a href="https://www.shimamura.co.jp/shop/kobe-k/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>ハードオフ（市内複数：玉津店=西区/鈴蘭台店=北区/星陵台店=垂水区/灘店=灘区） ── 西区・北区・垂水区・灘区ほか</h3>
@@ -355,7 +355,7 @@ export default function KobeGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、ウリエルは神戸市内全域に出張買取に対応しています。中央区・灘区・東灘区・兵庫区・長田区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。
+                はい、ウリエルは兵庫県を出張買取の対応エリアに含めています（一部対応できない市町村あり・公式）。中央区・灘区・東灘区・兵庫区・長田区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。
               </div>
             </details>
 
@@ -375,7 +375,7 @@ export default function KobeGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ヴィンテージ品やブランド品は壊れていても値段がつくことがあります。
+                はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！では状態を添えて複数業者に査定を依頼できます。ティファナは状態が悪い・古い楽器も相談できるとしていますが、音が出ない楽器は「買取できないもの」に挙げています（公式）。ヴィンテージ品やブランド品は壊れていても値段がつくことがあります。
               </div>
             </details>
 
@@ -385,7 +385,7 @@ export default function KobeGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、ティファナの宅配買取を利用すれば、神戸から全国の買取業者に楽器を送ることができます。送料・査定料・キャンセル料はすべて無料です。梱包キットを送ってくれるサービスもあるので、手軽に利用できます。
+                はい、ティファナの宅配買取なら神戸からも利用できます。送料・宅配キットは無料で、査定額に納得できず返却を希望する場合の返送料も無料です（取扱対象外の品は送料自己負担）。送れる段ボールは1箱・最大140サイズまでのため、ギターケースなど大きなものは事前にご確認ください。
               </div>
             </details>
           </div>
@@ -398,7 +398,7 @@ export default function KobeGakkiKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配買取</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 

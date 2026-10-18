@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】ピアノ買取おすすめ3社比較｜グランド・アップライト相場",
     datePublished: "2026-04-18",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,7 +109,7 @@ export default function PianoKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             ピアノを売りたいものの、大きくて運べない、相場がわからない、どこに頼めばよいかわからない。そんな悩みを解決します。本記事では、ピアノ買取の人気3サービスを比較し、グランドピアノ・アップライトピアノ・電子ピアノそれぞれの買取相場から高く売るコツまで解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月18日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -232,11 +232,11 @@ export default function PianoKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">ピアノ搬出</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">搬出対応あり</td><td className="px-4 py-3">搬出対応あり</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">搬出費用</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">基本無料</td><td className="px-4 py-3">基本無料</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">ピアノ搬出</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">出張は首都圏の一部地域のみ</td><td className="px-4 py-3">査定士が運び出し（沖縄・東北・北海道等は対象外）</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">搬出費用</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">出張料・査定料無料（搬出費の記載なし）</td><td className="px-4 py-3">出張料・査定料・手数料無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">グランドピアノ</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">電子ピアノ</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3 text-gold-dark font-bold">最高値を比較</td><td className="px-4 py-3 text-gold-dark font-bold">実績豊富で安心</td><td className="px-4 py-3 text-gold-dark font-bold">大型でも自宅完結</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3 text-gold-dark font-bold">最高値を比較</td><td className="px-4 py-3 text-gold-dark font-bold">首都圏で出張</td><td className="px-4 py-3 text-gold-dark font-bold">大型でも自宅完結</td></tr>
               </tbody>
             </table>
           </div>
@@ -247,11 +247,11 @@ export default function PianoKaitoriPage() {
 
           <p><strong>ピアノ買取で最も重要なのは「相見積もり」です。</strong>同じYAMAHA U3でも、業者によって5万円以上の差がつくことがあります。これは各業者の販売ルート（国内中古市場・海外輸出）や在庫状況が異なるためです。まずはヒカカク！で相場をご確認ください。</p>
 
-          <h3>ティファナ ── 年間4万件の実績で安心</h3>
+          <h3>ティファナ ── 首都圏ならピアノも出張買取</h3>
 
-          <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。ピアノの出張買取にも対応しており、搬出から運搬まで一括で対応してくれます。</p>
+          <p>ティファナは楽器の買取品目にピアノを挙げている総合リサイクルショップです。出張買取は東京・埼玉・神奈川・千葉の一部地域が対象で、出張料・査定料・キャンセル料は無料です（公式）。搬出に特殊作業が必要な場合の扱いは公式に記載がないため、申込時にご確認ください。</p>
 
-          <p>ピアノだけでなく、周辺のアクセサリー（椅子、メトロノーム、楽譜台など）もまとめて買い取ってくれるのが便利なポイントです。「ピアノ教室を閉じるので全部まとめて売りたい」といったケースにも対応可能です。</p>
+          <p>家電・家具・洋服なども扱う総合リサイクルショップのため、引っ越しや片付けでピアノ以外の品と一緒に出張査定を頼めるのが便利なポイントです。</p>
 
           <h3>ウリエル ── 大型ピアノでも出張買取で安心</h3>
 
@@ -384,7 +384,7 @@ export default function PianoKaitoriPage() {
             {[
               { q: "ピアノの買取相場はいくらですか？", a: "ピアノの買取相場はタイプ・ブランド・年式・状態によって大きく異なります。YAMAHA アップライトピアノで3万〜15万円、KAWAI アップライトで2万〜12万円、YAMAHA グランドピアノで15万〜80万円が目安です。Steinwayなど海外高級ブランドは100万円以上になることもあります。正確な価格は必ず複数業者の査定でご確認ください。" },
               { q: "古いピアノでも買い取ってもらえますか？", a: "はい、30年以上前のピアノでも買取に対応する業者は多くあります。特にYAMAHAやKAWAIのピアノは耐久性が高く、海外需要もあるため古いモデルでも値段がつきます。ただし、響板の割れ、弦の大量の錆び、虫害がある場合は値段がつかないこともあります。まずは無料査定でご確認ください。" },
-              { q: "ピアノの搬出・運搬費用は誰が負担しますか？", a: "多くの買取業者では搬出・運搬費用は業者負担（無料）です。ただし、2階以上でエレベーターがない場合やクレーン搬出が必要な場合は別途費用がかかることがあります。ウリエルやティファナでは事前に搬出環境を確認し、無料で見積もりを出してくれます。" },
+              { q: "ピアノの搬出・運搬費用は誰が負担しますか？", a: "多くの買取業者では搬出・運搬費用は業者負担（無料）です。ただし、2階以上でエレベーターがない場合やクレーン搬出が必要な場合は別途費用がかかることがあります。ウリエルは出張料・査定料・手数料などお客様が支払う料金はないとしており、ティファナも出張料・査定料・キャンセル料は無料です（各社公式）。特殊な搬出が必要な場合の扱いは申込時にご確認ください。" },
               { q: "電子ピアノとアコースティックピアノ、どちらが高く売れますか？", a: "一般的にアコースティックピアノ（グランド・アップライト）の方が高く売れます。電子ピアノは技術の進化が早く、5年で価値が半減することもあります。ただし、Roland LXシリーズやYAMAHA CLP上位モデルは高額買取が期待できます。" },
               { q: "ピアノの調律をしてから売った方が高くなりますか？", a: "買取前に調律する必要はありません。買取業者は自社で調律を行うため、調律済みかどうかは査定額にほとんど影響しません。ただし、定期的に調律していた記録があれば管理状態の良さを証明でき、プラスになることがあります。" },
             ].map((faq) => (
@@ -404,7 +404,7 @@ export default function PianoKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで出張/店頭買取</li>
+            <li><strong>首都圏で出張を頼みたい</strong> → ティファナで出張買取</li>
             <li><strong>大型ピアノを自宅から</strong> → ウリエルで出張買取</li>
           </ul>
 
