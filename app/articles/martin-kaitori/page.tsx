@@ -42,7 +42,7 @@ function FaqSchema() {
     { "@type": "Question", name: "ヴィンテージMartinの価値はどのように判断しますか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージMartinの価値は、年式（シリアルナンバーで特定）、使用木材（特にハカランダの有無）、オリジナルパーツの残存率、ネック状態、リペア歴で判断されます。1969年以前のハカランダモデルは特に高額です。" } },
     { "@type": "Question", name: "Martin以外のアコギブランドとの買取価格の違いは？", acceptedAnswer: { "@type": "Answer", text: "Martinはアコースティックギターのトップブランドであり、同クラスのTaylorやGibsonアコギと比較しても、中古市場での人気が高く安定した買取価格がつきます。特にD-28とD-45はアコギの定番として不動の地位を確立しています。" } },
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年10月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年10月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-10-19", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月最新】Martin買取おすすめ3社比較｜アコギの王様の相場と高く売るコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/martin-kaitori/\"}]}" }} /></>);
 }
@@ -60,7 +60,7 @@ export default function MartinKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年10月最新】Martin買取おすすめ3社比較｜アコギの王様の相場と高く売るコツ</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Martin（マーティン/マーチン）のアコースティックギターを売りたい方へ。本記事では、Martin製アコギの買取に強い3社を比較し、D-28・D-45・000-28などモデル別の買取相場、ヴィンテージMartinの価値、高く売るコツまで詳しく解説します。1833年創業の老舗ブランドMartinは、アコースティックギターの世界で「王様」と称される存在です。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月19日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -144,7 +144,7 @@ export default function MartinKaitoriPage() {
               <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">ヒカカク！</th><th className="px-4 py-3 text-left font-medium">ティファナ</th><th className="px-4 py-3 text-left font-medium">ウリエル</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">Martin対応</td><td className="px-4 py-3 text-gold-dark font-bold">専門業者多数</td><td className="px-4 py-3">全モデル対応</td><td className="px-4 py-3">全モデル対応</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">Martin対応</td><td className="px-4 py-3 text-gold-dark font-bold">専門業者多数</td><td className="px-4 py-3">アコギを強化買取（マーチン等）</td><td className="px-4 py-3">マーチンの買取例あり</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい</td><td className="px-4 py-3">手軽に売りたい</td><td className="px-4 py-3">自宅で完結したい</td></tr>
               </tbody>

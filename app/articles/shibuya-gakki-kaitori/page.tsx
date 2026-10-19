@@ -67,10 +67,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "渋谷で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "渋谷で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。一括査定で相場を把握してから売却先を決めると、損をしにくくなります。" } },
-      { "@type": "Question", name: "渋谷で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは渋谷エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
+      { "@type": "Question", name: "渋谷で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは東京都を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナも渋谷区を出張買取の対応エリアにしています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
       { "@type": "Question", name: "渋谷の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
-      { "@type": "Question", name: "壊れた楽器でも渋谷で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "渋谷から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら渋谷から全国の買取業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。" } },
+      { "@type": "Question", name: "壊れた楽器でも渋谷で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ティファナは「汚れている、音が出ないなど状態が悪い楽器も相談可」としており、ブランド品は壊れていても値段がつくことがあります。" } },
+      { "@type": "Question", name: "渋谷から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら渋谷から楽器を送って査定を受けられます。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。" } },
     ],
   };
   const articleData = {
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 渋谷おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-19",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             渋谷で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、渋谷エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、渋谷・原宿・恵比寿など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月19日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -160,10 +160,10 @@ export default function Page() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">渋谷対応</td><td className="px-4 py-3">全国対応（渋谷含む）</td><td className="px-4 py-3">全国対応（渋谷含む）</td><td className="px-4 py-3">渋谷エリア出張可</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">渋谷対応</td><td className="px-4 py-3">全国対応（渋谷含む）</td><td className="px-4 py-3">渋谷区は出張エリア／宅配は全国</td><td className="px-4 py-3">東京都が出張エリア</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">最短即日（出張）</td><td className="px-4 py-3">最短翌日以降</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
               </tbody>
             </table>
@@ -175,17 +175,17 @@ export default function Page() {
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
 
-          <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、渋谷からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
+          <p>ティファナは出張・店頭・宅配の3つの方法に対応する総合買取サービスです。渋谷区は出張買取の対応エリアで、宅配買取は送料・宅配キットが無料です。汚れている・音が出ないなど状態が悪い楽器も相談でき、「売れるかわからない」楽器も気軽に相談できます。</p>
 
           <h3>ウリエル ── 渋谷エリアの出張買取に対応</h3>
 
-          <p>ウリエルは出張買取を中心とするサービスで、渋谷エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
+          <p>ウリエルは出張買取を中心とするサービスで、東京都を出張の対応エリアにしています（一部対応できない市町村があります。訪問は最短で翌日以降）。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
 
           <CtaBox />
 
           <h2 id="area-guide">渋谷で「近くの楽器買取店」に持ち込み・店頭で売るには？<span id="chikaku"></span></h2>
           <p>「渋谷で近くの楽器買取店に持ち込んで、その場で現金化したい」という方もいらっしゃいます。渋谷は<strong>道玄坂・宇田川町周辺に楽器店やレコード店が集まる</strong>音楽の街で、店頭への持ち込み買取も選択肢になります。ただし店舗によって買取ジャンルや得意分野が異なるため、来店前に取り扱い楽器と買取受付の有無を確認しておくと安心です（店舗情報は各公式でご確認ください）。</p>
-          <p>なお、楽器専門買取大手「楽器の買取屋さん」の都内の実店舗は上野店（台東区）・池袋店（豊島区）で、渋谷区内にはありません（<a href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent-dark underline">楽器の買取屋さんの評判と店舗一覧</a>）。渋谷からは山手線で池袋・上野へ持ち込むか、<strong>自宅で完結する出張買取・宅配買取</strong>が現実的です。</p>
+          <p>なお、楽器専門買取大手「楽器の買取屋さん」の都内の実店舗は上野店（台東区）・池袋店（豊島区）・板橋店（板橋区）で、渋谷区内にはありません（<a href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent-dark underline">楽器の買取屋さんの評判と店舗一覧</a>）。渋谷からは山手線で池袋・上野へ持ち込むか、<strong>自宅で完結する出張買取・宅配買取</strong>が現実的です。</p>
           <ul>
             <li><strong>近くの店に持ち込み（店頭買取）</strong>：ギター・エフェクター・管楽器など自分で運べる楽器向き。その場で査定し即日現金化できるのが利点です。</li>
             <li><strong>出張買取</strong>：ピアノ・ドラム・アンプなど大型楽器や、複数まとめ売り向き。自宅まで来てくれて搬出も任せられます。</li>
@@ -248,14 +248,14 @@ export default function Page() {
           <h3>中古楽器堂 渋谷店 ── 道玄坂・渋谷駅ハチ公改札徒歩約5分</h3>
           <p>買取方式：店頭(完全予約制)/出張(毎日9:00〜20:30)/宅配。楽器買取専門店。弦楽器〜PA/録音機器まで。出張対応時間が長い（<a href="https://gakkidou.co.jp/shop/tokyo/dogenzaka/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>クロサワ楽器 G-CLUB SHIBUYA（KAIKURO） ── 道玄坂・渋谷駅</h3>
-          <p>買取方式：店頭/出張/宅配。KAIKUROブランドでギター・ベースに強い(Gibson/Fender/Taylor等)（<a href="https://www.kurosawagakki.com/sh_gcshibuya/kaitori2021/index.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p>買取方式：店頭/出張/宅配（KAIKURO）。所在地は渋谷区道玄坂2-29-17。買取対象はエレキギター・エレキベース・アンプ・エフェクター・アコースティックギター・ウクレレ・クラシックギター・デジタル機器・ピアノ/キーボード（<a href="https://www.kurosawagakki.com/sh_gcshibuya/kaitori2021/index.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>イケシブリユース（池部楽器店） ── 桜丘町・渋谷駅徒歩圏</h3>
           <p>買取方式：店頭(中古販売＆総合買取受付窓口)。〒150-0031 東京都渋谷区桜丘町24-2 第3富士商事ビル5〜6F。イケベ楽器店の買取総合受付店で、楽器の種類・ジャンルを問わず持ち込み相談に対応（<a href="https://www.ikebe-gakki.com/Page/shoplist.aspx" target="_blank" rel="nofollow noopener" className="underline">公式店舗一覧</a>／<a href="https://www.ikebe-gakki.com/Page/reuse_purchase_method.aspx" target="_blank" rel="nofollow noopener" className="underline">買取方法</a>）</p>
           <h3>セカンドストリート 渋谷神南店 ── 神南(渋谷/原宿圏)</h3>
           <p>買取方式：店頭。総合リユース店。楽器買取の可否は店舗により異なる(要確認)（<a href="https://www.2ndstreet.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>楽器の買取屋さん ── 渋谷区に常設店舗なし(全国出張)</h3>
-          <p>買取方式：出張/宅配。出張買取が主力。最短30分査定（<a href="https://gakkikaitori.co.jp/area/tokyo/shibuya/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
-          <p className="text-sm text-warm-gray">※ハードオフは渋谷区内に常設の楽器買取店なし(高座渋谷店は神奈川県大和市で別物)。島村楽器も渋谷区内店舗なし(最寄り新宿PePe等)。渋谷で確実に売れる実店舗はイシバシ/中古楽器堂/クロサワG-CLUB/イケシブリユースの4社で、道玄坂・宇田川町・桜丘町に集中。</p>
+          <p>買取方式：出張/宅配。出張買取が主力。公式は「最短30分でお伺い可能」としています（<a href="https://gakkikaitori.co.jp/area/tokyo/shibuya/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p className="text-sm text-warm-gray">※ハードオフは渋谷区内に常設の楽器買取店なし(高座渋谷店は神奈川県大和市で別物)。島村楽器も渋谷区内店舗なし(買取受付のある近隣店は新宿PePe店・二子玉川ライズ・ショッピングセンター店など)。渋谷で確実に売れる実店舗はイシバシ/中古楽器堂/クロサワG-CLUB/イケシブリユースの4社で、道玄坂・宇田川町・桜丘町に集中。</p>
 
           <CtaBox />
 
@@ -278,7 +278,7 @@ export default function Page() {
                 <span className="pr-4">渋谷で出張買取に来てくれる業者はありますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ウリエルは渋谷エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ウリエルは東京都を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナも渋谷区を出張買取の対応エリアにしています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
@@ -299,7 +299,7 @@ export default function Page() {
                 <span className="pr-4">渋谷から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら渋谷から全国の業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら渋谷から楽器を送って査定を受けられます。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。</div>
             </details>
           </div>
 
