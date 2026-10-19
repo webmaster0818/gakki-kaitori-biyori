@@ -289,7 +289,7 @@ export default function ViolinKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">弦楽器対応</td><td className="px-4 py-3">バイオリン/ビオラ/チェロ</td><td className="px-4 py-3">バイオリン/ビオラ/チェロ</td><td className="px-4 py-3">全弦楽器対応</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">専門業者を比較できる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">大型楽器に対応</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">専門業者を比較できる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">大型楽器に対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">高額楽器の最高値を知りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">チェロ・コントラバスを売りたい人</td></tr>
               </tbody>
             </table>

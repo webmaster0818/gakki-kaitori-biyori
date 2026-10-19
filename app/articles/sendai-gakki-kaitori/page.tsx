@@ -145,7 +145,7 @@ export default function SendaiGakkiKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">宅配は数日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">宅配で売りたい人</td><td className="px-4 py-3">大型楽器を売る人</td></tr>
               </tbody>
             </table>
@@ -155,7 +155,7 @@ export default function SendaiGakkiKaitoriPage() {
           <p>仙台は東北最大の都市ですが、東京や大阪に比べると楽器買取業者の数は限られます。ヒカカク！なら、<strong>全国の買取業者に一括で査定依頼でき、仙台の地元業者だけでなく本州各地の高額査定業者とも比較</strong>できます。オンラインで完結するため、東北地方のどこからでも利用可能です。</p>
 
           <h3>ティファナ ── 宅配買取で全国対応</h3>
-          <p>ティファナは宅配買取で仙台からも利用可能で、<strong>年間4万件の実績</strong>で安心感があります。送料無料の梱包キットが用意されており、自宅から発送するだけ。楽器以外のアイテムもまとめて売れます。</p>
+          <p>ティファナは宅配買取で仙台からも利用可能です。送料無料の梱包キットが用意されており、自宅から発送するだけ。楽器以外のアイテムもまとめて売れます。</p>
 
           <h3>ウリエル ── 仙台市内へ出張買取</h3>
           <p>ウリエルは仙台市内に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>

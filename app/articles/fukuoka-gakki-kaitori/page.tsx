@@ -145,7 +145,7 @@ export default function FukuokaGakkiKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">店頭なら即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">大型楽器を売る人</td></tr>
               </tbody>
             </table>
@@ -155,7 +155,7 @@ export default function FukuokaGakkiKaitoriPage() {
           <p>福岡には天神・博多を中心に楽器買取業者が多数存在します。ヒカカク！なら、<strong>福岡対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。地元の専門店から全国対応のリサイクルショップまで幅広い業者が参加しています。</p>
 
           <h3>ティファナ ── 福岡エリアで出張買取・宅配買取に対応</h3>
-          <p>ティファナは福岡エリアでも出張買取・宅配買取に対応しており、<strong>年間4万件の実績</strong>で安心感があります。楽器以外のアイテムもまとめて売れるため、引っ越しや大掃除の際のまとめ売りにも便利です。</p>
+          <p>ティファナは福岡エリアでも出張買取・宅配買取に対応しています。楽器以外のアイテムもまとめて売れるため、引っ越しや大掃除の際のまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 福岡市内へ出張買取</h3>
           <p>ウリエルは福岡市内に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>

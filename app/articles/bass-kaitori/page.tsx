@@ -232,7 +232,7 @@ export default function BassKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">ベース対応</td><td className="px-4 py-3">エレキ/アコベ/アップライト</td><td className="px-4 py-3">エレキ/アコベ/アップライト</td><td className="px-4 py-3">エレキ/アコベ/アップライト</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">大型ベースを売りたい人</td></tr>
               </tbody>
             </table>
@@ -246,7 +246,7 @@ export default function BassKaitoriPage() {
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
 
-          <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。年間4万件の買取実績があり、ベースに限らず楽器全般の買取に強みがあります。特にエレキベースは宅配買取でも安全に送れるサイズ感のため、梱包キットを利用した宅配買取がお手軽です。</p>
+          <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。ベースに限らず楽器全般の買取に強みがあります。特にエレキベースは宅配買取でも安全に送れるサイズ感のため、梱包キットを利用した宅配買取がお手軽です。</p>
 
           <p>状態が悪いベースや古いモデルでも査定可能のため、「売れるかどうかわからない」というベースがある場合にも安心です。</p>
 

@@ -154,7 +154,7 @@ export default function Page() {
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">池袋対応</td><td className="px-4 py-3">全国対応（池袋含む）</td><td className="px-4 py-3">全国対応（池袋含む）</td><td className="px-4 py-3">池袋エリア出張可</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
               </tbody>
             </table>
@@ -166,7 +166,7 @@ export default function Page() {
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
 
-          <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、池袋からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
+          <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、池袋からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
 
           <h3>ウリエル ── 池袋エリアの出張買取に対応</h3>
 

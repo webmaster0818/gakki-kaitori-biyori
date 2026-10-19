@@ -163,7 +163,7 @@ export default function KyotoGakkiKaitoriPage() {
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">京都対応</td><td className="px-4 py-3">全国対応（京都含む）</td><td className="px-4 py-3">全国対応（京都含む）</td><td className="px-4 py-3">京都市内出張可</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
               </tbody>
             </table>
@@ -177,7 +177,7 @@ export default function KyotoGakkiKaitoriPage() {
 
           <h3>ティファナ ── 3つの買取方法に対応</h3>
 
-          <p>ティファナは年間4万件の買取実績を持つ総合買取サービスです。出張・店頭・宅配の3つの方法に対応しており、京都からも利用可能です。楽器の状態を問わず査定してくれるのが強みです。</p>
+          <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応しており、京都からも利用可能です。楽器の状態を問わず査定してくれるのが強みです。</p>
 
           <p>京都から宅配買取を利用する場合、送料は無料。梱包して送るだけのため、河原町や四条まで出向く必要がありません。</p>
 

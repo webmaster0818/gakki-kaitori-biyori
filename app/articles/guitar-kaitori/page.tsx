@@ -222,7 +222,7 @@ export default function GuitarKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">ギター対応</td><td className="px-4 py-3">エレキ/アコギ/ベース</td><td className="px-4 py-3">エレキ/アコギ/ベース</td><td className="px-4 py-3">エレキ/アコギ/ベース</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
               </tbody>
             </table>
@@ -236,7 +236,7 @@ export default function GuitarKaitoriPage() {
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
 
-          <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。年間4万件の買取実績があり、楽器に限らず幅広いジャンルに対応しています。</p>
+          <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。楽器に限らず幅広いジャンルに対応しています。</p>
 
           <p>ギター買取では、状態が悪いものや古いモデルでも査定してくれるのがポイントです。「売れるかどうかわからない」というギターがある場合は、まずティファナに相談してみることをおすすめします。店舗が近くにあれば、その場で現金化できる店頭買取も便利です。</p>
 

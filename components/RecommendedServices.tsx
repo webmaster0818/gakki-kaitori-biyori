@@ -17,7 +17,7 @@ const SERVICES = [
     url: "https://tifana.net",
     image: "/images/services/tifana.webp",
     tagline: "出張・店頭・宅配の3方式に対応",
-    desc: "出張・店頭・宅配の3つの方法から選べる総合買取サービスです（公式サイトの案内では年間4万件の買取実績）。",
+    desc: "出張・店頭・宅配の3つの方法から選べる総合買取サービスです。",
     cta: "ティファナで買取を申し込む",
   },
   {

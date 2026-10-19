@@ -269,7 +269,7 @@ export default function GibsonKaitoriPage() {
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">Gibson対応</td><td className="px-4 py-3">全モデル対応</td><td className="px-4 py-3">全モデル対応</td><td className="px-4 py-3">全モデル対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">業者間競争で最高値</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">業者間競争で最高値</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
               </tbody>
             </table>
@@ -281,7 +281,7 @@ export default function GibsonKaitoriPage() {
 
           <h3>ティファナ ── 状態を問わず査定対応</h3>
 
-          <p>ティファナは出張・店頭・宅配の3方式に対応し、年間4万件の買取実績があります。Gibsonのヘッド折れや塗装の剥がれなど、<strong>状態が良くないギターでも査定してくれる</strong>のが強みです。「値段がつくかわからない」というGibsonをお持ちなら、まずティファナに相談してください。</p>
+          <p>ティファナは出張・店頭・宅配の3方式に対応しています。Gibsonのヘッド折れや塗装の剥がれなど、<strong>状態が良くないギターでも査定してくれる</strong>のが強みです。「値段がつくかわからない」というGibsonをお持ちなら、まずティファナに相談してください。</p>
 
           <h3>ウリエル ── 出張買取でGibsonを安全に売却</h3>
 

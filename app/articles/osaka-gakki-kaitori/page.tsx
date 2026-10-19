@@ -144,7 +144,7 @@ export default function OsakaGakkiKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">店頭なら即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">大型楽器を売る人</td></tr>
               </tbody>
             </table>
@@ -154,7 +154,7 @@ export default function OsakaGakkiKaitoriPage() {
           <p>大阪には楽器専門の買取店から総合リサイクルショップまで多数の業者があります。ヒカカク！なら、<strong>大阪対応の複数業者に一括で査定依頼でき、業者間の競争で最高値</strong>を引き出せます。オンラインで完結するため、店舗に足を運ぶ必要もありません。</p>
 
           <h3>ティファナ ── 大阪で店頭・出張・宅配に対応</h3>
-          <p>ティファナは大阪エリアでも店頭・出張・宅配の3方式に対応。<strong>店頭買取なら即日現金化が可能</strong>です。年間4万件の買取実績があり、楽器の種類を問わず幅広く対応してくれます。</p>
+          <p>ティファナは大阪エリアでも店頭・出張・宅配の3方式に対応。<strong>店頭買取なら即日現金化が可能</strong>です。楽器の種類を問わず幅広く対応してくれます。</p>
 
           <h3>ウリエル ── 大阪市内への出張買取</h3>
           <p>ウリエルは大阪市内および堺市、東大阪市、豊中市などの周辺都市に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>

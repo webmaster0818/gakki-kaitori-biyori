@@ -145,7 +145,7 @@ COMPARISON_TABLE = '''          <div className="table-wrapper mb-6">
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">__ROW_TAISHO__</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">搬出</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">スタッフが対応</td><td className="px-4 py-3">出張時対応</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">搬出まで任せたい人</td><td className="px-4 py-3">すぐ売りたい人</td></tr>
               </tbody>
             </table>
@@ -206,7 +206,7 @@ __COMPARISON_TABLE__
           <p>ウリエルは出張買取が中心で、出張料・査定料は無料です。<strong>自宅にいながら査定から引き渡しまで完結</strong>できるため、動かせないアップライト・グランドピアノに向いています。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
-          <p>ティファナは<strong>年間4万件の買取実績</strong>があり、ピアノ以外の楽器や家財もまとめて売れるのが強みです。電子ピアノなど比較的小型のモデルなら宅配買取も選べます。</p>
+          <p>ティファナは、ピアノ以外の楽器や家財もまとめて売れるのが強みです。電子ピアノなど比較的小型のモデルなら宅配買取も選べます。</p>
 
           <CtaBox />
 
@@ -331,7 +331,7 @@ __COMPARISON_TABLE__
           <p>ウリエルは出張買取が中心で、出張料・査定料は無料です。<strong>据置型電子ピアノの分解・搬出までスタッフに任せられる</strong>ため、LX・HPシリーズなど大型モデルに向いています。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
-          <p>ティファナは<strong>年間4万件の買取実績</strong>があり、電子ピアノ以外のアイテムもまとめて売れるのが強みです。ポータブルモデルなら宅配買取も利用できます。</p>
+          <p>ティファナは、電子ピアノ以外のアイテムもまとめて売れるのが強みです。ポータブルモデルなら宅配買取も利用できます。</p>
 
           <CtaBox />
 

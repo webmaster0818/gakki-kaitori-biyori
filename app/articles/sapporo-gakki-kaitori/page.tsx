@@ -145,7 +145,7 @@ export default function SapporoGakkiKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">宅配は数日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">年間4万件実績</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">宅配で売りたい人</td><td className="px-4 py-3">大型楽器を売る人</td></tr>
               </tbody>
             </table>
@@ -155,7 +155,7 @@ export default function SapporoGakkiKaitoriPage() {
           <p>札幌は本州に比べて楽器買取業者の数が限られるため、<strong>オンライン一括査定の活用が特に重要</strong>です。ヒカカク！なら、全国の買取業者に一括で査定依頼でき、札幌の地元業者だけでなく本州の高額査定業者とも比較できます。</p>
 
           <h3>ティファナ ── 宅配買取で全国対応</h3>
-          <p>ティファナは宅配買取で札幌からも利用可能で、<strong>年間4万件の実績</strong>で安心感があります。送料無料で梱包キットも用意されており、自宅から発送するだけで完結します。</p>
+          <p>ティファナは宅配買取で札幌からも利用可能です。送料無料で梱包キットも用意されており、自宅から発送するだけで完結します。</p>
 
           <h3>ウリエル ── 札幌市内へ出張買取</h3>
           <p>ウリエルは札幌市内に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>
