@@ -67,8 +67,8 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "大阪で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大阪で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定する、(2)梅田・心斎橋・アメ村など楽器店が集まるエリアの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから出す、の3つがポイントです。大阪は関西最大の中古楽器市場のため、複数社の競争を活かしてください。" } },
-      { "@type": "Question", name: "大阪で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナも大阪全域で出張買取を行っています。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。" } },
-      { "@type": "Question", name: "大阪の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。ティファナの店頭買取なら、その場で査定・即日現金化ができます。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。" } },
+      { "@type": "Question", name: "大阪で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、大阪からは宅配買取になります。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。" } },
+      { "@type": "Question", name: "大阪の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店頭買取を行う楽器店に持ち込めば、その場で査定・現金化できる場合があります（買取代金が振込のみの店舗もあるため事前にご確認ください）。ウリエルの出張買取は買取成立後にその場で現金払いですが、訪問は最短で翌日以降です。" } },
       { "@type": "Question", name: "大阪のどのエリアに楽器買取店が多いですか？", acceptedAnswer: { "@type": "Answer", text: "大阪で楽器買取店が集中しているのは、梅田（大型楽器店が集積）、心斎橋・アメリカ村（ギター専門店多数）、難波（楽器店・リサイクルショップ多数）、日本橋（電子楽器・中古楽器店）です。" } },
       { "@type": "Question", name: "大阪から宅配買取を利用できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ヒカカク！経由の買取業者やティファナの宅配買取は全国対応のため、大阪からも利用可能です。梱包キットを無料で送ってくれるサービスもあります。送料は業者負担（無料）が一般的です。" } },
     ],
@@ -140,8 +140,8 @@ export default function OsakaGakkiKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">大阪対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">大阪全域</td><td className="px-4 py-3">大阪市+周辺都市</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">店頭なら即日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">大阪対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">大阪市+周辺都市</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">発送後に査定</td><td className="px-4 py-3">最短翌日以降</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
@@ -153,8 +153,8 @@ export default function OsakaGakkiKaitoriPage() {
           <h3>ヒカカク！ ── 大阪の買取業者を一括比較</h3>
           <p>大阪には楽器専門の買取店から総合リサイクルショップまで多数の業者があります。ヒカカク！なら、<strong>大阪対応の複数業者に一括で査定依頼でき、業者間の競争で最高値</strong>を引き出せます。オンラインで完結するため、店舗に足を運ぶ必要もありません。</p>
 
-          <h3>ティファナ ── 大阪で店頭・出張・宅配に対応</h3>
-          <p>ティファナは大阪エリアでも店頭・出張・宅配の3方式に対応。<strong>店頭買取なら即日現金化が可能</strong>です。楽器の種類を問わず幅広く対応してくれます。</p>
+          <h3>ティファナ ── 大阪からは宅配買取で利用</h3>
+          <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、大阪からは<strong>宅配買取</strong>（全国送料無料）での利用になります。楽器の種類を問わず幅広く対応してくれます。</p>
 
           <h3>ウリエル ── 大阪市内への出張買取</h3>
           <p>ウリエルは大阪市内および堺市、東大阪市、豊中市などの周辺都市に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
@@ -236,7 +236,7 @@ export default function OsakaGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">梅田・難波周辺なら店頭持ち込み（ティファナ）が手軽。大型楽器や住宅街なら出張買取（ウリエル）がおすすめです。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">梅田・難波周辺なら楽器店への店頭持ち込みが手軽。大型楽器や住宅街なら出張買取（ウリエル）がおすすめです。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -270,7 +270,7 @@ export default function OsakaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナも大阪全域で出張買取を行っています。出張料・査定料は無料です。
+                ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、大阪からは宅配買取になります。出張料・査定料は無料です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -279,7 +279,7 @@ export default function OsakaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、可能です。ティファナの店頭買取なら、その場で査定・即日現金化ができます。ウリエルの出張買取でも、その場で現金支払いが可能です。
+                店頭買取を行う楽器店に持ち込めば、その場で査定・現金化できる場合があります（買取代金が振込のみの店舗もあるため事前にご確認ください）。ウリエルの出張買取は買取成立後にその場で現金払いですが、訪問は最短で翌日以降です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -308,7 +308,7 @@ export default function OsakaGakkiKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>すぐに売りたい</strong> → ティファナで店頭買取</li>
+            <li><strong>すぐに売りたい</strong> → 楽器店で店頭買取</li>
             <li><strong>大型楽器・まとめ売り</strong> → ウリエルで出張買取</li>
           </ul>
 

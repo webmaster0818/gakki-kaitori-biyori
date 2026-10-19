@@ -69,8 +69,8 @@ function FaqSchema() {
       { "@type": "Question", name: "京都で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "京都で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。河原町・四条周辺の楽器店でも買取を行っていますが、全国規模のサービスを活用することで、より高い買取価格が期待できます。" } },
       { "@type": "Question", name: "京都で出張買取に対応している業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは京都市内全域に出張買取に対応しています。左京区・中京区・右京区・伏見区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。ピアノや大型楽器の売却に特に便利です。" } },
       { "@type": "Question", name: "京都の大学で使っていた楽器は売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、大学の軽音楽部やオーケストラで使用していた楽器も買取可能です。京都は京大・同志社・立命館など大学が多く、学生楽器の買取需要も高い地域です。卒業・就職を機に手放す方は、新学期前の2〜3月に売ると高値がつきやすい傾向があります。" } },
-      { "@type": "Question", name: "壊れた楽器でも京都で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド楽器は壊れていても値段がつくことがあります。まずは無料査定でご確認ください。" } },
-      { "@type": "Question", name: "京都から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取を利用すれば、京都から全国の買取業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。ギターなどの小型〜中型楽器の売却に便利です。" } },
+      { "@type": "Question", name: "壊れた楽器でも京都で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ティファナは「汚れている、音が出ないなど状態が悪い楽器も相談可」としており、ブランド楽器は壊れていても値段がつくことがあります。まずは無料査定でご確認ください。" } },
+      { "@type": "Question", name: "京都から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取を利用すれば、京都から楽器を送って査定を受けられます。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。ギターなどの小型〜中型楽器の売却に便利です。" } },
     ],
   };
   const articleData = {
@@ -138,7 +138,7 @@ export default function KyotoGakkiKaitoriPage() {
           <ul>
             <li><strong>一括査定（ヒカカク！）</strong>: 複数業者を同時比較。最高値が見つかりやすい</li>
             <li><strong>出張買取（ウリエル）</strong>: 自宅訪問で大型楽器の売却に便利</li>
-            <li><strong>店頭・宅配・出張（ティファナ）</strong>: 3つの方法から選べる柔軟なサービス</li>
+            <li><strong>宅配（ティファナ）</strong>: 京都からは宅配買取（送料無料）。出張・店頭は首都圏のみ</li>
             <li><strong>河原町・四条の楽器店</strong>: 店頭持ち込みが可能だが、1社だけの査定では相場がわかりにくい</li>
           </ul>
 
@@ -160,8 +160,8 @@ export default function KyotoGakkiKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">京都対応</td><td className="px-4 py-3">全国対応（京都含む）</td><td className="px-4 py-3">全国対応（京都含む）</td><td className="px-4 py-3">京都市内出張可</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">京都対応</td><td className="px-4 py-3">全国対応（京都含む）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">京都市内出張可</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">発送後に査定</td><td className="px-4 py-3">最短翌日以降（出張）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
@@ -175,9 +175,9 @@ export default function KyotoGakkiKaitoriPage() {
 
           <p>特に高額なギターやバイオリンなどは、業者間で数万円の査定差が出ることも珍しくありません。<strong>まずはヒカカク！で相場を把握するのが、京都での楽器売却の第一歩</strong>です。</p>
 
-          <h3>ティファナ ── 3つの買取方法に対応</h3>
+          <h3>ティファナ ── 京都からは宅配買取で利用</h3>
 
-          <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応しており、京都からも利用可能です。楽器の状態を問わず査定してくれるのが強みです。</p>
+          <p>ティファナは総合買取サービスです。出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、京都からは宅配買取（全国送料無料）での利用になります。汚れている・音が出ないなど状態が悪い楽器も相談できます。</p>
 
           <p>京都から宅配買取を利用する場合、送料は無料。梱包して送るだけのため、河原町や四条まで出向く必要がありません。</p>
 
@@ -318,7 +318,7 @@ export default function KyotoGakkiKaitoriPage() {
                 <span className="pr-4">京都から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら京都から全国の業者に送れます。送料・査定料・キャンセル料はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら京都から楽器を送って査定を受けられます。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。</div>
             </details>
           </div>
 
@@ -328,7 +328,7 @@ export default function KyotoGakkiKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配買取</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 

@@ -102,7 +102,7 @@ export default function Page() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">札幌対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">対応エリア</td><td className="px-4 py-3">対応エリア</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">札幌対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">対応エリア</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応ギター</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -115,8 +115,8 @@ export default function Page() {
           <h3>ヒカカク！ ── 札幌対応の買取業者を一括比較</h3>
           <p>ギターは業者による査定額の差が大きい楽器です。ヒカカク！なら<strong>札幌対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。Gibson・Fenderなど人気ブランドほど業者間の価格差が出やすいため、相見積もりの効果が大きくなります。</p>
 
-          <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
-          <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。</p>
+          <h3>ティファナ ── 札幌からは宅配買取で利用</h3>
+          <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、札幌からは宅配買取（全国送料無料）での利用になります。</p>
 
           <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>
           <p>ウリエルは出張買取が中心で、ウリエルなど全国対応の主要業者が札幌市内を出張買取の対応エリアとしています。<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
@@ -213,7 +213,7 @@ export default function Page() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>すぐに現金化したい</strong> → ティファナ or 札幌駅周辺・大通エリアの店頭買取</li>
+            <li><strong>すぐに現金化したい</strong> → 札幌駅周辺・大通エリアの店頭買取</li>
             <li><strong>機材ごとまとめて売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 

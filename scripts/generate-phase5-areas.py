@@ -49,13 +49,33 @@ def build_page(area: dict) -> str:
     region = area["region"]
     pref = area["prefectures"]
     neighbors = area["neighbors"]
+    # ティファナの出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ（公式 tifana.net/visit/・店舗一覧 2026-10-19）。
+    # 首都圏外は宅配買取のみ
+    capital = pref.startswith(("東京都", "埼玉県", "神奈川県", "千葉県"))
+    tif_faq = "" if capital else f"ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、{name}からは宅配買取になります。"
+    tif_btn = "近くの店舗を探す" if capital else "ティファナの宅配買取"
+    tif_block = f"""        <h3>③ ティファナ（店頭・宅配）</h3>
+        <ul>
+          <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
+          <li><strong>強み</strong>: 全国の店舗ネットワーク、宅配買取も全国対応</li>
+          <li><strong>対応エリア</strong>: {name}近隣に店舗あり</li>
+          <li><strong>料金</strong>: 査定無料</li>
+        </ul>
+""" if capital else f"""        <h3>③ ティファナ（宅配）</h3>
+        <ul>
+          <li><strong>方式</strong>: {name}からは宅配買取（出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ）</li>
+          <li><strong>強み</strong>: 宅配買取は全国から送料・宅配キット無料で利用できる</li>
+          <li><strong>対応エリア</strong>: 宅配買取で全国（{name}近隣に店舗なし）</li>
+          <li><strong>料金</strong>: 査定無料</li>
+        </ul>
+"""
     title = f"【2026年最新】楽器買取 {name}おすすめ3選｜出張・店頭・宅配を比較"
     description = f"{name}（{pref}）で楽器を売る際の出張買取・店頭買取・宅配買取の3つの方法を比較します。地域密着の業者と全国対応サービスの違い、{neighbors}エリアの状況も解説します。"
     h1 = f"{name}の楽器買取おすすめ3社｜地域密着 vs 全国対応"
     lead = f"{name}（{pref}）で楽器の買取を検討している方へ。本記事では、{name}エリアで利用できる買取方法・おすすめ業者3社・買取相場の地域差・近隣エリア（{neighbors}）の状況まで解説します。"
 
     faqs_list = [
-        (f"{name}で出張買取は対応していますか？", f"はい、{name}（{pref}）は全国対応の主要買取業者（ヒカカク！・ウリエル・ティファナ等）がすべて対応エリアにしています。出張料・査定料は無料の業者がほとんどです。"),
+        (f"{name}で出張買取は対応していますか？", (f"はい、{name}（{pref}）は全国対応の主要買取業者（ヒカカク！・ウリエル・ティファナ等）がすべて対応エリアにしています。" if capital else f"はい、{name}（{pref}）は全国対応の主要買取業者（ヒカカク！・ウリエル等）がすべて対応エリアにしています。{tif_faq}") + f"出張料・査定料は無料の業者がほとんどです。"),
         (f"{name}で地域密着の楽器買取店はありますか？", f"{name}には地元の楽器店も数店ありますが、買取相場・対応スピード・取り扱いジャンルの幅では、全国チェーンや一括査定サービスの方が有利になる傾向があります。複数業者を比較することをおすすめします。"),
         (f"{name}から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？", f"対応可能です。ピアノ・ドラムセットなど大型楽器には出張買取が適しています。{name}エリアは主要業者の対応圏内のため、複数業者で相見積もりを取って最も条件のよい業者を選ぶことをおすすめします。"),
         (f"{name}で当日中に現金化できますか？", f"店頭買取であれば当日中の現金化が可能で、出張買取にも最短即日で対応する業者があります。急ぎの場合は事前に「即日対応可能か」を確認してから申し込むのがおすすめです。"),
@@ -143,20 +163,13 @@ export default function Page() {{
           <li><strong>料金</strong>: 出張料・査定料無料</li>
         </ul>
 
-        <h3>③ ティファナ（店頭・宅配）</h3>
-        <ul>
-          <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
-          <li><strong>強み</strong>: 全国の店舗ネットワーク、宅配買取も全国対応</li>
-          <li><strong>対応エリア</strong>: {name}近隣に店舗あり</li>
-          <li><strong>料金</strong>: 査定無料</li>
-        </ul>
-
+{tif_block}
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">{name}の楽器買取価格を無料で確認</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-gold text-white font-medium px-6 py-3 rounded-full hover:bg-gold-dark transition-colors text-sm shadow-md">一括査定で最高値を調べる</a>
             <a href="https://uriel-cuore.co.jp" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-accent text-white font-medium px-6 py-3 rounded-full hover:bg-accent-dark transition-colors text-sm shadow-md">出張買取を申し込む</a>
-            <a href="https://tifana.net" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-warm-gray text-white font-medium px-6 py-3 rounded-full hover:bg-foreground transition-colors text-sm shadow-md">近くの店舗を探す</a>
+            <a href="https://tifana.net" target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 bg-warm-gray text-white font-medium px-6 py-3 rounded-full hover:bg-foreground transition-colors text-sm shadow-md">{tif_btn}</a>
           </div>
         <p className="text-center mt-4 text-sm"><a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark font-medium underline">楽器買取おすすめ業者の比較を見る →</a></p>
         </div>

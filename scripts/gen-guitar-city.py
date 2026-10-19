@@ -24,8 +24,8 @@ CITIES = [
         "slug": "guitar-kaitori-nagoya", "name": "名古屋", "pref": "愛知県名古屋市",
         "generic": "nagoya-gakki-kaitori", "generic_label": "名古屋の楽器買取ガイド",
         "visit": "大須・栄",
-        "street": "大須は名古屋最大の楽器街で、コメ兵のギターフロア（常時約1,000本のUSED在庫）をはじめ楽器店が集中しています。栄にはイシバシ楽器・クロサワ楽器・ロッキンなど大手チェーンが揃っており、店頭持ち込みの選択肢が全国有数に豊富なエリアです。",
-        "outreach": "ウリエルは名古屋市内全域への出張買取に対応しており、ティファナも名古屋エリアで出張買取を行っています。",
+        "street": "大須は名古屋最大の楽器街で、コメ兵のギターフロア（名古屋本店 本館5F）をはじめ楽器店が集中しています。栄にはイシバシ楽器・クロサワ楽器・ロッキンなど大手チェーンが揃っており、店頭持ち込みの選択肢が全国有数に豊富なエリアです。",
+        "outreach": "ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。",
         "cross": ["guitar-kaitori-aichi", "guitar-kaitori-osaka", "guitar-kaitori-tokyo"],
     },
     {
@@ -33,7 +33,7 @@ CITIES = [
         "generic": "fukuoka-gakki-kaitori", "generic_label": "福岡の楽器買取ガイド",
         "visit": "天神・博多",
         "street": "天神にはイシバシ楽器・クロサワ楽器など大手楽器チェーンが集まっており、九州でギターを店頭で売るなら中心となるエリアです。博多駅周辺もアクセスが良く、持ち込み査定を受けやすい立地です。",
-        "outreach": "ウリエル・ティファナなど全国対応の主要業者が福岡市内を出張買取の対応エリアとしています。",
+        "outreach": "ウリエルなど全国対応の主要業者が福岡市内を出張買取の対応エリアとしています。",
         "cross": ["guitar-kaitori-hiroshima", "guitar-kaitori-osaka"],
     },
     {
@@ -41,7 +41,7 @@ CITIES = [
         "generic": "kobe-gakki-kaitori", "generic_label": "神戸の楽器買取ガイド",
         "visit": "三宮・元町",
         "street": "三宮・元町周辺に楽器店やリサイクルショップがあり、店頭持ち込みが可能です。より多くの店舗と比較したい場合は、大阪の楽器店街（梅田・心斎橋）も電車圏内です。",
-        "outreach": "ウリエル・ティファナなど全国対応の主要業者が神戸市内を出張買取の対応エリアとしています。",
+        "outreach": "ウリエルなど全国対応の主要業者が神戸市内を出張買取の対応エリアとしています。",
         "cross": ["guitar-kaitori-osaka", "guitar-kaitori-kyoto"],
     },
     {
@@ -49,7 +49,7 @@ CITIES = [
         "generic": "kyoto-gakki-kaitori", "generic_label": "京都の楽器買取ガイド",
         "visit": "河原町・四条",
         "street": "河原町・四条周辺に楽器店が集まっており、店頭持ち込みが可能です。より多くの店舗と比較したい場合は、大阪の楽器店街（梅田・心斎橋）も電車圏内です。",
-        "outreach": "ウリエル・ティファナなど全国対応の主要業者が京都市内を出張買取の対応エリアとしています。",
+        "outreach": "ウリエルなど全国対応の主要業者が京都市内を出張買取の対応エリアとしています。",
         "cross": ["guitar-kaitori-osaka", "guitar-kaitori-kobe"],
     },
     {
@@ -65,7 +65,7 @@ CITIES = [
         "generic": "chiba-gakki-kaitori", "generic_label": "千葉の楽器買取ガイド",
         "visit": "千葉駅周辺",
         "street": "千葉駅周辺に楽器店やリサイクルショップがあり、店頭持ち込みが可能です。高額モデルの場合は、日本最大のギター店街である東京・御茶ノ水も電車圏内のため、比較先として検討できます。",
-        "outreach": "ウリエル・ティファナなど全国対応の主要業者が千葉市とその周辺を出張買取の対応エリアとしています。",
+        "outreach": "ウリエルなど全国対応の主要業者が千葉市とその周辺を出張買取の対応エリアとしています。",
         "cross": ["guitar-kaitori-tokyo", "guitar-kaitori-yokohama"],
     },
     {
@@ -73,7 +73,7 @@ CITIES = [
         "generic": "osaka-gakki-kaitori", "generic_label": "大阪の楽器買取ガイド",
         "visit": "梅田・心斎橋",
         "street": "梅田や心斎橋（アメリカ村）周辺には大手楽器店・中古楽器店が集中しており、西日本でギターを店頭で売るなら選択肢が最も豊富なエリアです。複数店舗を同日にまわって査定額を比較しやすいのも強みです。",
-        "outreach": "ウリエル・ティファナなど全国対応の主要業者が大阪市内を出張買取の対応エリアとしています。",
+        "outreach": "ウリエルなど全国対応の主要業者が大阪市内を出張買取の対応エリアとしています。",
         "cross": ["guitar-kaitori-kobe", "guitar-kaitori-kyoto"],
     },
     {
@@ -81,7 +81,7 @@ CITIES = [
         "generic": "hiroshima-gakki-kaitori", "generic_label": "広島の楽器買取ガイド",
         "visit": "広島市中心部",
         "street": "広島市中心部に楽器店やリサイクルショップがあり、店頭持ち込みが可能です。中国地方では広島が店頭売却の中心エリアで、市外からの持ち込みも少なくありません。",
-        "outreach": "ウリエル・ティファナなど全国対応の主要業者が広島市内を出張買取の対応エリアとしています。",
+        "outreach": "ウリエルなど全国対応の主要業者が広島市内を出張買取の対応エリアとしています。",
         "cross": ["guitar-kaitori-fukuoka", "guitar-kaitori-osaka"],
     },
     {
@@ -113,7 +113,7 @@ CITIES = [
         "generic": "nagoya-gakki-kaitori", "generic_label": "名古屋の楽器買取ガイド",
         "visit": "名古屋市・大須",
         "street": "愛知県内最大の楽器街は名古屋市の大須で、コメ兵のギターフロアなど持ち込み先が集中しています。豊田・岡崎・一宮・豊橋など名古屋市外にお住まいの場合は、出張買取や宅配買取（全国共通）なら店舗まで行かずに県内全域から利用できます。",
-        "outreach": "ウリエル・ティファナなど全国対応の主要業者が愛知県内を出張買取の対応エリアとしています（対応日程はエリアにより異なるため申込時に確認を）。",
+        "outreach": "ウリエルなど全国対応の主要業者が愛知県内を出張買取の対応エリアとしています（対応日程はエリアにより異なるため申込時に確認を）。",
         "cross": ["guitar-kaitori-nagoya", "guitar-kaitori-osaka"],
     },
 ]
@@ -226,7 +226,7 @@ export default function Page() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">__NAME__対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">対応エリア</td><td className="px-4 py-3">対応エリア</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">__NAME__対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">__TIF_AREA__</td><td className="px-4 py-3">対応エリア</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応ギター</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
@@ -239,8 +239,8 @@ export default function Page() {
           <h3>ヒカカク！ ── __NAME__対応の買取業者を一括比較</h3>
           <p>ギターは業者による査定額の差が大きい楽器です。ヒカカク！なら<strong>__NAME__対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。Gibson・Fenderなど人気ブランドほど業者間の価格差が出やすいため、相見積もりの効果が大きくなります。</p>
 
-          <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
-          <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。</p>
+          <h3>ティファナ ── __TIF_H3__</h3>
+          <p>__TIF_P__</p>
 
           <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>
           <p>ウリエルは出張買取が中心で、__OUTREACH_SHORT__<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
@@ -302,7 +302,7 @@ __FAQ_ITEMS__
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>すぐに現金化したい</strong> → ティファナ or __VISIT__エリアの店頭買取</li>
+            <li><strong>すぐに現金化したい</strong> → __QUICK__</li>
             <li><strong>機材ごとまとめて売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 
@@ -355,6 +355,8 @@ def build_faqs(c):
 
 
 def build_page(c):
+    # ティファナの出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ（公式 2026-10-19）。首都圏外は宅配のみ
+    cap = c["pref"].startswith(("東京都", "埼玉県", "神奈川県", "千葉県"))
     name = c["name"]
     slug = c["slug"]
     title = f"{name}のギター買取おすすめ3社を比較【2026年7月】高く売るコツと相場"
@@ -423,6 +425,10 @@ def build_page(c):
         .replace("__OUTREACH_SHORT__", outreach_short)
         .replace("__OUTREACH__", c["outreach"])
         .replace("__STREET__", c["street"])
+        .replace("__TIF_AREA__", "対応エリア" if cap else "宅配のみ（出張・店舗は首都圏）")
+        .replace("__TIF_H3__", "出張・店頭・宅配の3方式に対応" if cap else "__NAME__からは宅配買取で利用")
+        .replace("__TIF_P__", "ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。" if cap else "ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、__NAME__からは宅配買取（全国送料無料）での利用になります。")
+        .replace("__QUICK__", "ティファナ or __VISIT__エリアの店頭買取" if cap else "__VISIT__エリアの店頭買取")
         .replace("__VISIT__", c["visit"])
         .replace("__PREF__", c["pref"])
         .replace("__TODAY_JP__", TODAY_JP)
