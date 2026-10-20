@@ -5,6 +5,23 @@ export const metadata = {
   alternates: { canonical: "https://gakkikaitori-biyori.com/" },
 };
 import GakkiScrollReveal from "@/components/GakkiScrollReveal";
+import HeroSearch from "@/components/HeroSearch";
+import fs from "node:fs";
+import path from "node:path";
+import ranking from "@/data/souba-ranking-gakki.json";
+import articlesMeta from "@/data/articles-metadata.json";
+
+// キービジュアルの数字（ビルド時に実データから数える。手で書かない）
+const ARTICLE_COUNT = fs.readdirSync(path.join(process.cwd(), "app/articles"), { withFileTypes: true }).filter((d) => d.isDirectory()).length;
+const RANKING_UPDATED = String(ranking.updated).replace(/^(\d{4})-(\d{2})-(\d{2}).*/, (_, y, m, d) => `${y}/${Number(m)}/${Number(d)}`);
+const TOP_MODELS = [...ranking.models].sort((a, b) => b.median - a.median).slice(0, 3);
+const STATS = [
+  { k: "掲載", v: String(ARTICLE_COUNT), u: "記事" },
+  { k: "比較", v: "3", u: "社" },
+  { k: "相場", v: String(ranking.count), u: "モデル" },
+  { k: "", v: "毎週更新", u: "" },
+];
+const SEARCH_ITEMS = (articlesMeta as { slug: string; shortTitle?: string; title: string }[]).map((a) => ({ slug: a.slug, label: a.shortTitle || a.title }));
 
 const services = [
   {
@@ -127,78 +144,79 @@ export default function Home() {
   return (
     <div className="gakki-reveal-home">
       <FaqSchema />
-      {/* Hero Section */}
-      <section className="relative overflow-hidden min-h-[480px] md:min-h-[540px] flex items-center">
+      {/* Hero Section（2026-10-21 デザイン②スタジオ・MediaXAI 選定）。数字はすべてビルド時の実データ */}
+      <section className="relative overflow-hidden bg-accent-dark text-white">
         <Image
-          src="/images/hero-gakki.png"
-          alt="ギターの査定のイメージ"
+          src="/images/hero-studio.jpg"
+          alt="スタジオに置かれたエレキギターと真空管アンプ"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-right"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 max-w-5xl mx-auto px-4 py-16 md:py-24 w-full">
-          <div className="text-center max-w-3xl mx-auto">
-            <p className="text-amber-200 font-medium text-sm mb-3 tracking-wider">
-              楽器買取おすすめ比較ガイド（2026年版）
+        <div className="absolute inset-0 bg-gradient-to-r from-accent-dark via-accent-dark/85 to-accent-dark/10" />
+        <div className="relative z-10 max-w-6xl mx-auto px-4 pt-14 pb-10 md:pt-24 md:pb-20 grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_300px] gap-10 items-center">
+          <div>
+            {/* SEO: h1 は従来と同じ文言（「楽器買取サービスの比較ガイド」）。大きいキャッチは見出しにしない（MediaXAI「SEO要件を崩さない」10/21） */}
+            <h1 className="text-gold font-medium text-xs md:text-sm mb-4 tracking-[0.18em]">楽器買取サービスの比較ガイド</h1>
+            <p className="font-sans text-[34px] leading-[1.2] md:text-[52px] font-bold mb-5 tracking-tight">
+              その楽器、<br className="md:hidden" />いくらで売れる？
             </p>
-            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-              楽器買取サービスの
-              <br />
-              <span className="text-amber-300">比較ガイド</span>
-            </h1>
-            <p className="text-white/85 text-base md:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+            <p className="text-white/80 text-[15px] md:text-lg leading-relaxed mb-8 max-w-xl">
               当サイトでは、楽器買取サービスの買取方式・手数料・対応エリアと、ヤフオク！の落札データにもとづく相場を掲載しています。
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-              <a
-                href="https://hikakaku.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                className="inline-flex items-center gap-2 bg-amber-500 text-white font-medium px-7 py-3.5 rounded-full hover:bg-amber-600 transition-colors shadow-md hover:shadow-lg"
-              >
-                無料査定を依頼する
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-        {/* felmatインプレッション計測 */}
-        <img src="https://t.felmat.net/fmimp/A11184N.11542509.O138027B" width={1} height={1} alt="" style={{ border: "none" }} />
+            <HeroSearch items={SEARCH_ITEMS} />
+            <div className="flex flex-col sm:flex-row gap-3 mt-4 max-w-xl">
               <Link
                 href="/articles/gakki-kaitori-osusume/"
-                className="inline-flex items-center gap-2 bg-white/20 backdrop-blur text-white font-medium px-7 py-3.5 rounded-full hover:bg-white/30 transition-colors shadow-md border border-white/30"
+                className="flex-1 inline-flex items-center justify-center gap-2 border-2 border-gold text-gold font-bold px-6 py-3.5 rounded-lg hover:bg-gold hover:text-accent-dark transition-colors"
               >
-                おすすめ買取業者の比較を見る
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+                おすすめ3社を比較
+              </Link>
+              <Link
+                href="/souba-ranking/"
+                className="flex-1 inline-flex items-center justify-center gap-2 bg-gold text-accent-dark font-bold px-6 py-3.5 rounded-lg hover:bg-gold-light transition-colors"
+              >
+                相場ランキングを見る
               </Link>
             </div>
+            <a
+              href="https://hikakaku.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="inline-flex items-center gap-1.5 mt-5 text-sm text-white/70 underline underline-offset-4 hover:text-white"
+            >
+              無料査定を依頼する（ヒカカク！）
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+            </a>
+            {/* felmatインプレッション計測 */}
+            <img src="https://t.felmat.net/fmimp/A11184N.11542509.O138027B" width={1} height={1} alt="" style={{ border: "none" }} />
           </div>
+          {/* 相場ランキングのカード（souba-ranking-gakki.json の高額上位3モデル・週次で自動更新） */}
+          <Link href="/souba-ranking/" className="hidden md:block rounded-2xl border border-white/15 bg-black/45 backdrop-blur-md p-5 hover:border-gold/60 transition-colors">
+            <p className="text-gold font-bold text-[15px] mb-1">相場ランキング</p>
+            <p className="text-white/55 text-[11px] mb-4">ヤフオク！落札の中央値・{RANKING_UPDATED}更新</p>
+            <ul className="space-y-3">
+              {TOP_MODELS.map((m) => (
+                <li key={m.slug} className="flex items-baseline justify-between gap-3 border-b border-white/10 pb-2.5 last:border-0">
+                  <span className="text-[13px] text-white/85 leading-snug">{m.name}</span>
+                  <span className="text-[15px] font-bold text-white tabular-nums whitespace-nowrap">¥{m.median.toLocaleString("ja-JP")}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-[12px] text-gold mt-4">{ranking.count}モデルのランキングを見る →</p>
+          </Link>
         </div>
-      </section>
-
-      {/* Trust Badges */}
-      <section className="border-y border-warm-border bg-white">
-        <div className="max-w-5xl mx-auto px-4 py-5">
-          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-xs md:text-sm text-warm-gray">
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              楽器買取の専門ガイド
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              買取サービス3社を比較
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              相場データは毎週更新
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              3社とも査定無料
-            </span>
+        {/* 数字の帯 */}
+        <div className="relative z-10 border-t border-white/10 bg-accent-dark/90">
+          <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4">
+            {STATS.map((x, i) => (
+              <div key={x.k} className={`py-4 md:py-5 text-center ${i % 2 ? "" : "border-r border-white/10"} ${i < 2 ? "border-b md:border-b-0 border-white/10" : ""} ${i === 1 ? "md:border-r" : ""}`}>
+                <span className="text-white/60 text-xs md:text-sm mr-2">{x.k}</span>
+                <span className="text-white font-bold text-lg md:text-2xl tabular-nums">{x.v}</span>
+                {x.u && <span className="text-white/80 text-sm md:text-base ml-0.5">{x.u}</span>}
+              </div>
+            ))}
           </div>
         </div>
       </section>

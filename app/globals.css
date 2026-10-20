@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #faf7f2;
-  --foreground: #2d2520;
-  --accent: #5D4037;
-  --accent-light: #795548;
-  --accent-dark: #3E2723;
-  --gold: #D4A843;
-  --gold-light: #E8C96A;
-  --gold-dark: #B8922E;
-  --cream: #f5efe5;
-  --warm-gray: #8a7e72;
-  --warm-border: #e8dfd2;
+  /* 2026-10-21 デザイン②（チャコール×アンバー・MediaXAI 選定）。旧＝ブラウン×ゴールド */
+  --background: #f7f6f3;
+  --foreground: #1d1e22;
+  --accent: #2a2c31;
+  --accent-light: #3d4047;
+  --accent-dark: #17181b;
+  --gold: #f2b134;
+  --gold-light: #f7c55a;
+  --gold-dark: #a8710c;
+  --cream: #f0eee9;
+  --warm-gray: #6b6d73;
+  --warm-border: #e1dfd9;
 }
 
 @theme inline {
@@ -168,3 +169,7 @@ html.js .gakki-reveal-home > section.visible {
     transition: none !important;
   }
 }
+
+/* 2026-10-21 デザイン②：アンバーの面に白文字は読みにくいので、文字をチャコールに（595ページの CTA ボタン・番号の丸） */
+.bg-gold.text-white { color: var(--accent-dark); }
+.bg-gold.text-white:hover { color: #fff; }
