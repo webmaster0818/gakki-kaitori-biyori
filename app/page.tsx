@@ -157,12 +157,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-accent-dark via-accent-dark/85 to-accent-dark/10" />
         <div className="relative z-10 max-w-6xl mx-auto px-4 pt-14 pb-10 md:pt-24 md:pb-20 grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_300px] gap-10 items-center">
           <div>
-            <p className="text-gold font-medium text-xs md:text-sm mb-4 tracking-[0.18em]">楽器買取おすすめ比較ガイド</p>
-            <h1 className="font-sans text-[34px] leading-[1.2] md:text-[52px] font-bold mb-5 tracking-tight">
+            {/* SEO: h1 は従来と同じ文言（「楽器買取サービスの比較ガイド」）。大きいキャッチは見出しにしない（MediaXAI「SEO要件を崩さない」10/21） */}
+            <h1 className="text-gold font-medium text-xs md:text-sm mb-4 tracking-[0.18em]">楽器買取サービスの比較ガイド</h1>
+            <p className="font-sans text-[34px] leading-[1.2] md:text-[52px] font-bold mb-5 tracking-tight">
               その楽器、<br className="md:hidden" />いくらで売れる？
-            </h1>
+            </p>
             <p className="text-white/80 text-[15px] md:text-lg leading-relaxed mb-8 max-w-xl">
-              ヤフオク！落札データの相場と、買取サービス3社の比較を一か所で掲載しています。
+              当サイトでは、楽器買取サービスの買取方式・手数料・対応エリアと、ヤフオク！の落札データにもとづく相場を掲載しています。
             </p>
             <HeroSearch items={SEARCH_ITEMS} />
             <div className="flex flex-col sm:flex-row gap-3 mt-4 max-w-xl">
