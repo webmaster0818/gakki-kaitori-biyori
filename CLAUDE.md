@@ -385,3 +385,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
   - 生成スクリプト: generate-phase5-areas.py に URIEL_OUT（highimp・batch も build_page を継承）、gen-guitar-city.py に同じ分岐（札幌・仙台）。phase5 の25エリアと guitar-city 3本で生成結果のウリエル部分が本番ソースと一致することを確認
   - 本番 ?cb= で41本全件200・旧表記0件・新表記41本。計測リンク 1168/562 前後一致（41本はページ別にも一致）。precheck 全項目OK。ボタン（計測リンク）は不変。Indexing は送っていない
   - 🔍 残り: エリア内の県の230本の「ヒカカク！・ウリエル等）がすべて対応エリア」は県単位では食い違わないので未変更（ウリエルは「一部対応できない市町村あり」・ヒカカク！は一括査定で出張業者ではない点は残る）。テンプレの「〇〇を含む〇〇全域が対応エリア」「〇〇駅周辺・郊外型店舗どちらも」も未変更
+
+### 2026-10-21 デザイン刷新：②スタジオ（チャコール×アンバー）＋ロゴB（MediaXAI 選定）✅本番（src c089034 / deploy e5db85b7a）
+- 案出し `scripts/gen-design-proposals.py`（FV3案＋ロゴ5案・design-proposals/ は gitignore）。採用＝②＋B
+- 全ページの色は `app/globals.css` のトークンだけで切り替え（accent=チャコール、gold=アンバー #f2b134、gold-dark #a8710c は文字用）。`.bg-gold.text-white` は文字をチャコールに上書き（アンバーに白は読めない）
+- ヘッダー＝bg-accent-dark＋ロゴB インラインSVG（public/images/logo-b.svg と同じ図形）。TOP キービジュアル＝hero-studio.jpg（生成・ヘッドのロゴ風文字は画素で消した）＋HeroSearch（記事名 datalist）＋相場ランキング上位3（souba-ranking-gakki.json）＋数字帯（記事数は app/articles のディレクトリ数をビルド時に数える）
+- ⚠️ SEO: TOP の h1 は従来文言「楽器買取サービスの比較ガイド」を維持（大キャッチは p）。デプロイ前に全ページの title/desc/canonical/robots/og/LD/h1/h2/リンク先を旧 deploy と照合して同一を確認した
+- 確認待ちの間は wip ブランチに置き main に入れない（週次・定例が main を push/deploy するため）
