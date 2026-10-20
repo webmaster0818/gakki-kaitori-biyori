@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/sapporo-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
   description:
-    "札幌で楽器を売るならどこがいい？札幌対応の楽器買取おすすめ3社を比較します。札幌駅・大通エリアのミツノ楽器・島村楽器など専門店情報、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説します。",
+    "札幌で楽器を売るならどこがいい？札幌対応の楽器買取おすすめ3社を比較します。札幌駅直結の島村楽器、豊平区のミツノ楽器など専門店情報、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
     description: "札幌で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
@@ -67,10 +67,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "札幌で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "札幌で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)ミツノ楽器や島村楽器など地元の専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。札幌は北海道最大の楽器市場ですが、本州に比べて業者数が限られるため、オンライン一括査定の活用が特に効果的です。" } },
-      { "@type": "Question", name: "札幌で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは札幌市内への出張買取に対応しています。また、札幌TOPKINGは札幌市全域で無料出張買取を行っています。ミツノ楽器も出張買取に対応しており、いずれも出張料・査定料は無料です。" } },
-      { "@type": "Question", name: "札幌の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。島村楽器札幌ステラプレイス店の店頭買取なら、その場で査定・即日現金化ができます。ミツノ楽器の店頭買取でも即日対応可能です。出張買取でも、その場での現金支払いに対応する業者が多くあります。" } },
+      { "@type": "Question", name: "札幌で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "札幌TOPKINGは札幌市全域で無料出張買取を行っています（電子ピアノ・ピアノなど大型楽器の買取は現在休止中）。ミツノ楽器も出張買取に対応しています。なお、ウリエルの出張買取エリアに北海道は含まれていません。" } },
+      { "@type": "Question", name: "札幌の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店頭買取なら可能な場合があります。ミツノ楽器は買取成立時にその場で現金で支払います（査定に時間がかかる場合は後日振込）。島村楽器の買取代金は指定口座への振込で、現金での支払いはありません。" } },
       { "@type": "Question", name: "札幌駅周辺に楽器買取店はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、島村楽器札幌ステラプレイス店がJR札幌駅直結のステラプレイス内にあります。また、ミツノ楽器やJINGLEなど地元の老舗楽器店も札幌市内にあり、買取に対応しています。" } },
-      { "@type": "Question", name: "北海道の地方都市からでも楽器買取は利用できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、利用できます。ヒカカク！のオンライン一括査定なら北海道内どこからでも利用可能です。また、リコレクションズは北海道内で宅配買取を行っており、送料無料で利用できます。札幌TOPKINGも札幌市外への出張にも対応しています。" } },
+      { "@type": "Question", name: "北海道の地方都市からでも楽器買取は利用できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、利用できます。ヒカカク！のオンライン一括査定なら北海道内どこからでも利用可能です。また、リコレクションズは北海道内で宅配買取を行っており、査定合計5,000円以上なら送料無料です。札幌TOPKINGも札幌市外への出張にも対応しています。" } },
     ],
   };
   const articleData = {
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-20",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function SapporoGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             札幌で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、札幌エリア対応の楽器買取おすすめ3社を比較します。札幌駅周辺・大通エリアの専門店情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、北海道ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月20日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -140,13 +140,13 @@ export default function SapporoGakkiKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">札幌対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配買取対応</td><td className="px-4 py-3">札幌市内対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">宅配は数日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張/店頭（川崎店）</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">札幌対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配買取対応</td><td className="px-4 py-3">出張エリア外（北海道は対象外）</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">宅配は数日</td><td className="px-4 py-3">最短翌日以降（出張エリア内）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">宅配で売りたい人</td><td className="px-4 py-3">大型楽器を売る人</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">宅配で売りたい人</td><td className="px-4 py-3">札幌からは利用不可（出張エリア外）</td></tr>
               </tbody>
             </table>
           </div>
@@ -157,8 +157,8 @@ export default function SapporoGakkiKaitoriPage() {
           <h3>ティファナ ── 宅配買取で全国対応</h3>
           <p>ティファナは宅配買取で札幌からも利用可能です。送料無料で梱包キットも用意されており、自宅から発送するだけで完結します。</p>
 
-          <h3>ウリエル ── 札幌市内へ出張買取</h3>
-          <p>ウリエルは札幌市内に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>
+          <h3>ウリエル ── 北海道は出張エリア外</h3>
+          <p>ウリエルの出張買取エリアは関東・中部・近畿・中国・四国・九州の一部の府県で、<strong>北海道は対象に含まれていません</strong>（2026年10月20日に公式の対応エリアで確認）。店頭買取は神奈川県川崎市の店舗のみのため、札幌からは利用できません。札幌での出張買取は、下で紹介する札幌TOPKINGやミツノ楽器などの地元業者を検討してください。</p>
 
           <CtaBox />
 
@@ -169,13 +169,13 @@ export default function SapporoGakkiKaitoriPage() {
           <h3>札幌駅周辺エリア ── 駅直結の好立地</h3>
           <p><strong>島村楽器 札幌ステラプレイス店</strong>はJR札幌駅直結のステラプレイス内にあり、アクセス抜群です。査定は無料で、不要になった楽器の整理や新しい楽器の購入資金に充てることができます。電子ピアノやギター、管楽器など幅広いジャンルに対応しており、買取キャンペーンも定期的に開催しています。</p>
 
-          <h3>大通・狸小路エリア ── 地元密着の楽器店</h3>
-          <p>大通エリアには<strong>JINGLE（ジングル）</strong>という札幌の地元密着型楽器店があります。中古楽器の販売と買取を行っており、音楽教室も併設しています。地域に根差した営業を行っており、札幌の楽器市場に精通しているのが強みです。</p>
-          <p><strong>MR.GAKKI LAB</strong>も札幌の楽器屋さんとして中古楽器の買取・販売を行っています。地域密着型のサービスで、札幌のお客様に寄り添った対応が特徴です。</p>
+          <h3>北区・東区 ── 地元密着の楽器店</h3>
+          <p>札幌市北区北23条西7丁目には<strong>JINGLE（ジングル）</strong>という札幌の地元密着型楽器店があります。中古楽器の販売と買取を行っており、音楽教室も併設しています。地域に根差した営業を行っており、札幌の楽器市場に精通しているのが強みです。</p>
+          <p>東区東苗穂6条3丁目の<strong>MR.GAKKI LAB</strong>も札幌の楽器屋さんとして中古楽器の買取・販売を行っています。地域密着型のサービスで、札幌のお客様に寄り添った対応が特徴です。</p>
 
           <h3>札幌市内その他のエリア</h3>
-          <p><strong>ミツノ楽器</strong>は創業50年を超える札幌の老舗楽器店です。圧倒的な在庫量ときめ細かな接客が特徴で、ギターや管楽器、ピアノの高価買取が期待できます。店頭買取・出張買取・郵送買取の3種類に対応しており、専門知識豊富なスタッフが査定を行います。</p>
-          <p><strong>札幌TOPKING</strong>は札幌市全域で無料出張買取を行っています。楽器買取専門のスタッフが確かな知識と経験で査定し、その場で現金支払いに対応しています。</p>
+          <p>豊平区月寒中央通7丁目の<strong>ミツノ楽器</strong>は創業50年を超える札幌の老舗楽器店です。圧倒的な在庫量ときめ細かな接客が特徴で、ギターや管楽器、ピアノの高価買取が期待できます。店頭買取・出張買取・郵送買取の3種類に対応しており、専門知識豊富なスタッフが査定を行います。</p>
+          <p><strong>札幌TOPKING</strong>は札幌市全域で無料出張買取を行っています。楽器買取専門のスタッフが査定します。電子ピアノ・アップライトピアノ・グランドピアノなど大型楽器の買取は現在休止しています。</p>
 
           <CtaBox />
 
@@ -193,7 +193,7 @@ export default function SapporoGakkiKaitoriPage() {
           <p>熟練のリペアマンが一本一本の楽器と向き合い、自社で修復を行うため、傷や不具合がある楽器でも最大限の査定額を提示できるのが強みです。状態の悪い楽器でも諦めずに査定を依頼してみる価値があります。</p>
 
           <h3>札幌TOPKING ── 札幌市全域の出張買取</h3>
-          <p>札幌市全域で無料出張買取に対応しています。楽器買取専門のスタッフが自宅まで来て査定し、その場で現金支払いが可能です。大型楽器の搬出もお任せできるため、ピアノやドラムセットの売却にも便利です。</p>
+          <p>札幌市全域で無料出張買取に対応しており、江別・北広島・千歳など札幌市外への出張にも対応しています。なお、電子ピアノ・アップライトピアノ・グランドピアノ・グランドハープなど大型楽器の買取は現在休止しています。</p>
 
           <h3>JINGLE（ジングル） ── 地元密着の楽器店</h3>
           <p>札幌の地元密着型楽器店で、中古楽器の販売・買取に加えて音楽教室も運営しています。地元の楽器市場に精通しており、札幌ならではの需要を反映した査定が受けられます。</p>
@@ -264,11 +264,11 @@ export default function SapporoGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">札幌駅周辺なら島村楽器で店頭買取が便利。市内ならウリエルやTOPKINGの出張買取も即日対応可能です。全国の業者を使うなら宅配買取を選んでください。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">札幌駅周辺なら島村楽器で店頭買取が便利です（買取代金は振込）。市内ならTOPKINGの出張買取（札幌市全域・出張無料）も利用できます。全国の業者を使うなら宅配買取を選んでください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
-              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物を確認して正式な買取額を提示。店頭・出張買取なら即現金支払い。宅配買取の場合は楽器到着後に査定、銀行振込で支払いとなります。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物を確認して正式な買取額を提示。店頭・出張買取の支払いは業者により現金または振込です（島村楽器は振込のみ）。宅配買取の場合は楽器到着後に査定、銀行振込で支払いとなります。</p></div>
             </div>
           </div>
 
@@ -298,7 +298,7 @@ export default function SapporoGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは札幌市内への出張買取に対応しています。札幌TOPKINGは札幌市全域で無料出張買取を行っています。ミツノ楽器も出張買取に対応しており、いずれも出張料・査定料は無料です。
+                札幌TOPKINGは札幌市全域で無料出張買取を行っています（電子ピアノ・ピアノなど大型楽器の買取は現在休止中）。ミツノ楽器も出張買取に対応しています。なお、ウリエルの出張買取エリアに北海道は含まれていません。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -307,7 +307,7 @@ export default function SapporoGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、可能です。島村楽器札幌ステラプレイス店の店頭買取やミツノ楽器の店頭買取で即日現金化ができます。出張買取でも、その場での現金支払いに対応する業者が多くあります。
+                店頭買取なら可能な場合があります。ミツノ楽器は買取成立時にその場で現金で支払います（査定に時間がかかる場合は後日振込）。島村楽器の買取代金は指定口座への振込で、現金での支払いはありません。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -325,7 +325,7 @@ export default function SapporoGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、利用できます。ヒカカク！のオンライン一括査定なら北海道内どこからでも利用可能です。リコレクションズは北海道内で宅配買取を行っており、送料無料で利用できます。
+                はい、利用できます。ヒカカク！のオンライン一括査定なら北海道内どこからでも利用可能です。リコレクションズは北海道内で宅配買取を行っており、査定合計5,000円以上なら送料無料です。
               </div>
             </details>
           </div>
@@ -336,8 +336,8 @@ export default function SapporoGakkiKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定（全国の業者と比較）</li>
-            <li><strong>すぐに売りたい</strong> → 島村楽器やミツノ楽器で店頭買取</li>
-            <li><strong>大型楽器・まとめ売り</strong> → ウリエルやTOPKINGで出張買取</li>
+            <li><strong>すぐに売りたい</strong> → ミツノ楽器などで店頭買取（島村楽器は振込払い）</li>
+            <li><strong>まとめ売り</strong> → TOPKINGやミツノ楽器で出張買取（TOPKINGは大型楽器の買取を休止中）</li>
           </ul>
 
           <p>査定は無料。まずはヒカカク！で相場をご確認ください。</p>

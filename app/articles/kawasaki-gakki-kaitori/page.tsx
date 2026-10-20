@@ -67,10 +67,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "川崎で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "川崎で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。一括査定で相場を把握してから売却先を決めると、損をしにくくなります。" } },
-      { "@type": "Question", name: "川崎で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは川崎エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
+      { "@type": "Question", name: "川崎で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、あります。ウリエルは神奈川県が出張買取エリアです（一部対応できない市町村あり）。楽器の買取屋さんは川崎市を含む神奈川県全域に出張しています。ティファナは川崎市の多摩区・高津区・中原区・宮前区が出張エリアで、川崎区・幸区・麻生区は相談地域です。" } },
       { "@type": "Question", name: "川崎の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
-      { "@type": "Question", name: "壊れた楽器でも川崎で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "川崎から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら川崎から全国の買取業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。" } },
+      { "@type": "Question", name: "壊れた楽器でも川崎で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ティファナは汚れている・音が出ないなど状態が悪い楽器も相談できるとしており、ブランド品は壊れていても値段がつくことがあります。" } },
+      { "@type": "Question", name: "川崎から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら川崎からティファナへ楽器を送れます（宅配買取は全国対応）。送料・査定料・キャンセル料はすべて無料です。" } },
     ],
   };
   const articleData = {
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 川崎おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-17",
+    dateModified: "2026-10-20",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             川崎で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、川崎エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、川崎・武蔵小杉・溝の口など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月17日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月20日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -152,9 +152,9 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">川崎対応</td><td className="px-4 py-3">全国対応（川崎含む）</td><td className="px-4 py-3">全国対応（川崎含む）</td><td className="px-4 py-3">川崎エリア出張可</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張/店頭（川崎区に店舗）</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">川崎対応</td><td className="px-4 py-3">全国対応（川崎含む）</td><td className="px-4 py-3">出張は多摩・高津・中原・宮前区（川崎・幸・麻生区は相談地域）／宅配は全国</td><td className="px-4 py-3">神奈川県へ出張（一部対象外の市町村あり）／川崎駅近くに店舗</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">出張は最短即日査定</td><td className="px-4 py-3">出張は最短翌日以降</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
@@ -166,13 +166,13 @@ export default function Page() {
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。川崎にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
-          <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
+          <h3>ティファナ ── 川崎市の一部の区へ出張・宅配は全国</h3>
 
-          <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、川崎からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
+          <p>ティファナは総合買取サービスです。川崎市では多摩区・高津区・中原区・宮前区が出張エリアで、川崎区・幸区・麻生区は相談地域です（品物の内容や点数によっては訪問が難しい場合があります）。店舗は東京都・埼玉県のみで、宅配買取は送料無料で全国から利用できます。汚れている・音が出ないなど状態が悪い楽器も相談できます。</p>
 
-          <h3>ウリエル ── 川崎エリアの出張買取に対応</h3>
+          <h3>ウリエル ── 川崎駅近くに店舗・神奈川県へ出張</h3>
 
-          <p>ウリエルは出張買取を中心とするサービスで、川崎エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
+          <p>ウリエルは出張買取と店頭買取に対応しています。2026年9月17日に初の実店舗「川崎 ラ チッタデッラ店」を開店しました（川崎区小川町4-1 ラ チッタデッラ内 マッジョーレ2階・JR川崎駅から徒歩約5分・11時〜21時（最終受付20時）・予約不要）。出張買取は神奈川県が対応エリアで（一部対応できない市町村あり）、最短翌日以降に訪問します。店頭・出張とも、買取成立後はその場で現金を受け取れます。</p>
 
           <CtaBox />
 
@@ -230,7 +230,7 @@ export default function Page() {
 
           <h2 id="local-shops">川崎の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
           <p>川崎で楽器を売れる主な買取店を、2026年10月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
-          <h3>島村楽器 川崎ルフロン店 ── 川崎駅直結・川崎ルフロン7F</h3>
+          <h3>島村楽器 川崎ルフロン店 ── JR川崎駅東口徒歩2分・川崎ルフロン7F</h3>
           <p>買取方式：店頭。楽器専門店の店頭買取。査定無料。買取代金は銀行振込で、現金での支払いは実施していないと公式に案内されています（<a href="https://www.shimamura.co.jp/shop/kawasaki/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 ラゾーナ川崎店 ── 2026年9月23日に閉店</h3>
           <p>公式の閉店のお知らせによると、2026年9月23日に閉店しました。近隣店舗として川崎ルフロン店が案内されています（2026年10月17日確認・<a href="https://www.shimamura.co.jp/shop/l-kawasaki/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
@@ -244,12 +244,12 @@ export default function Page() {
           <p>買取方式：店頭/宅配。溝の口・高津/宮前エリアの受け皿。大型ピアノ等は不可（<a href="https://www.2ndstreet.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>楽器の買取屋さん ── 川崎市全域へ出張(市内持込店舗なし)</h3>
           <p>買取方式：出張/宅配。出張料・査定料・搬出料無料。ピアノ・ドラム等大型も対応・その場現金（<a href="https://gakkikaitori.co.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
-          <p className="text-sm text-warm-gray">※イシバシ楽器は川崎市内店舗なし=神奈川の最寄りは横浜店(横浜駅徒歩約4分)。島村楽器ラゾーナ川崎店は2026年9月23日に閉店し、公式は近隣店舗として川崎ルフロン店を案内しています。武蔵小杉・溝の口駅直近に大手専門店の店頭拠点はなくセカスト各店か出張が現実的。セカストは81kg超の大型ピアノ等は買取対象外。</p>
+          <p className="text-sm text-warm-gray">※イシバシ楽器は川崎市内店舗なし=神奈川の最寄りは横浜店(横浜駅西口徒歩5分)。島村楽器ラゾーナ川崎店は2026年9月23日に閉店し、公式は近隣店舗として川崎ルフロン店を案内しています。武蔵小杉・溝の口駅直近に大手専門店の店頭拠点はなくセカスト各店か出張が現実的。セカストは81kg超の大型ピアノ等は買取対象外。</p>
 
           <CtaBox />
 
           <h3>川崎での「店頭・出張・宅配」の選び方</h3>
-          <p>小〜中型(ギター/ベース/エフェクター/管楽器)を店頭で売る場合=川崎駅周辺(島村川崎ルフロン=専門査定・代金は銀行振込、セカスト川崎ダイス=駅前で気軽)。武蔵小杉=2nd武蔵小杉買取専門店、溝の口/高津=2nd川崎千年、宮前=2nd川崎野川。アップライト/グランドピアノ・ドラム等大型や大量売却は出張が有利で川崎全域対応の買取屋さん(店頭持込は不可)。小型の非対面売却はセカスト/ハードオフの宅配。</p>
+          <p>小〜中型(ギター/ベース/エフェクター/管楽器)を店頭で売る場合=川崎駅周辺(島村川崎ルフロン=専門査定・代金は銀行振込、セカスト川崎ダイス=駅前で気軽)。武蔵小杉=2nd武蔵小杉買取専門店、溝の口/高津=2nd川崎千年、宮前=2nd川崎野川。アップライト/グランドピアノ・ドラム等大型や大量売却は出張が有利で川崎全域対応の買取屋さん(川崎市内に店舗なし)。小型の非対面売却はセカスト/ハードオフの宅配。</p>
 
 
           <h2 id="faq">川崎の楽器買取に関するよくある質問</h2>
@@ -267,7 +267,7 @@ export default function Page() {
                 <span className="pr-4">川崎で出張買取に来てくれる業者はありますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ウリエルは川崎エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、あります。ウリエルは神奈川県が出張買取エリアです（一部対応できない市町村あり）。楽器の買取屋さんは川崎市を含む神奈川県全域に出張しています。ティファナは川崎市の多摩区・高津区・中原区・宮前区が出張エリアで、川崎区・幸区・麻生区は相談地域です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
@@ -288,7 +288,7 @@ export default function Page() {
                 <span className="pr-4">川崎から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら川崎から全国の業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら川崎からティファナへ楽器を送れます（宅配買取は全国対応）。送料・査定料・キャンセル料はすべて無料です。</div>
             </details>
           </div>
 
@@ -298,8 +298,8 @@ export default function Page() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
-            <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配買取（出張は川崎市の一部の区）</li>
+            <li><strong>自宅で完結したい</strong> → ウリエルで出張買取（川崎駅近くの店頭も可）</li>
           </ul>
 
           <p>査定はすべて無料です。まずはヒカカク！で川崎エリアの買取相場をご確認ください。</p>
