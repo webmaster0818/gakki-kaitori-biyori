@@ -100,67 +100,66 @@ function JsonLd() {
 
 function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-warm-border">
+    <header className="sticky top-0 z-50 bg-accent-dark text-white border-b border-white/10">
       <nav className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link
           href="/"
-          className="font-display text-xl font-bold text-accent-dark tracking-tight flex items-center gap-2"
+          className="text-[19px] font-bold text-white tracking-tight flex items-center gap-2"
         >
-          <Image
-            src="/images/icon-guitar.png"
-            alt="楽器"
-            width={32}
-            height={32}
-            className="inline-block"
-          />
+          {/* ロゴB（ヘッドと棒グラフ・2026-10-21 MediaXAI 選定）。public/images/logo-b.svg と同じ図形 */}
+          <svg viewBox="0 0 64 64" width="34" height="34" aria-hidden="true" className="shrink-0">
+            <g fill="#f2b134"><rect x="6" y="38" width="5" height="10" rx="1.2"/><rect x="13.5" y="32" width="5" height="16" rx="1.2"/><rect x="21" y="26" width="5" height="22" rx="1.2"/></g>
+            <g fill="none" stroke="currentColor" strokeWidth="3.4" strokeLinejoin="round" strokeLinecap="round"><path d="M30 58 L40 34"/><path d="M36 60 L45 37"/><path d="M39.5 34.5 L44 10 C45 6 50 4.5 53 6.5 C56 8.5 56 12 54.5 15 L46 37 Z"/><path d="M38.5 35.5 L46.8 38.5"/></g>
+            <g fill="currentColor"><circle cx="58.5" cy="12" r="2.6"/><circle cx="56.2" cy="19.5" r="2.6"/><circle cx="53.6" cy="27" r="2.6"/></g>
+          </svg>
           {SITE_NAME}
         </Link>
         {/* Desktop nav */}
-        <ul className="hidden md:flex items-center gap-5 text-sm font-medium text-foreground/80">
+        <ul className="hidden md:flex items-center gap-5 text-sm font-medium text-white/80">
           <li>
-            <Link href="/articles/gakki-kaitori-osusume/" className="hover:text-accent transition-colors">
+            <Link href="/articles/gakki-kaitori-osusume/" className="hover:text-gold transition-colors">
               おすすめ業者
             </Link>
           </li>
           <li>
-            <Link href="/souba-ranking/" className="hover:text-accent transition-colors">
+            <Link href="/souba-ranking/" className="hover:text-gold transition-colors">
               相場ランキング
             </Link>
           </li>
           <li>
-            <Link href="/souba-index/" className="hover:text-accent transition-colors">
+            <Link href="/souba-index/" className="hover:text-gold transition-colors">
               相場指数
             </Link>
           </li>
           <li>
-            <Link href="/articles/#instrument" className="hover:text-accent transition-colors">
+            <Link href="/articles/#instrument" className="hover:text-gold transition-colors">
               楽器の種類
             </Link>
           </li>
           <li>
-            <Link href="/articles/#brand" className="hover:text-accent transition-colors">
+            <Link href="/articles/#brand" className="hover:text-gold transition-colors">
               ブランド
             </Link>
           </li>
           <li>
-            <Link href="/articles/#model" className="hover:text-accent transition-colors">
+            <Link href="/articles/#model" className="hover:text-gold transition-colors">
               モデル
             </Link>
           </li>
           <li>
-            <Link href="/articles/#region" className="hover:text-accent transition-colors">
+            <Link href="/articles/#region" className="hover:text-gold transition-colors">
               地域
             </Link>
           </li>
           <li>
-            <Link href="/articles/#howto" className="hover:text-accent transition-colors">
+            <Link href="/articles/#howto" className="hover:text-gold transition-colors">
               売り方
             </Link>
           </li>
           <li>
             <Link
               href="/articles/"
-              className="text-accent-dark font-semibold hover:text-accent transition-colors"
+              className="text-gold font-semibold hover:text-gold-light transition-colors"
             >
               記事一覧
             </Link>
@@ -168,7 +167,7 @@ function Header() {
         </ul>
         {/* Mobile hamburger */}
         <details className="md:hidden relative group">
-          <summary className="flex items-center justify-center w-10 h-10 rounded-lg hover:bg-cream transition-colors">
+          <summary className="flex items-center justify-center w-10 h-10 rounded-lg hover:bg-white/10 transition-colors">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -184,7 +183,7 @@ function Header() {
               />
             </svg>
           </summary>
-          <div className="absolute right-0 mt-2 w-60 bg-white border border-warm-border rounded-lg shadow-lg py-2 z-50">
+          <div className="absolute right-0 mt-2 w-60 bg-white text-foreground border border-warm-border rounded-lg shadow-lg py-2 z-50">
             <Link href="/" className="block px-4 py-2 text-sm hover:bg-cream transition-colors">
               ホーム
             </Link>
