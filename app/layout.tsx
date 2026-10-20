@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Noto_Sans_JP, Zen_Maru_Gothic } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import MobileMenuAutoClose from "@/components/MobileMenuAutoClose";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({
@@ -166,7 +167,8 @@ function Header() {
           </li>
         </ul>
         {/* Mobile hamburger */}
-        <details className="md:hidden relative group">
+        <MobileMenuAutoClose />
+        <details data-mobile-menu className="md:hidden relative group">
           <summary className="flex items-center justify-center w-10 h-10 rounded-lg hover:bg-white/10 transition-colors">
             <svg
               className="w-6 h-6"
