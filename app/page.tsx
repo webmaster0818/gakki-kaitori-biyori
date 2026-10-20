@@ -146,16 +146,31 @@ export default function Home() {
       <FaqSchema />
       {/* Hero Section（2026-10-21 デザイン②スタジオ・MediaXAI 選定）。数字はすべてビルド時の実データ */}
       <section className="relative overflow-hidden bg-accent-dark text-white">
-        <Image
-          src="/images/hero-studio.jpg"
-          alt="スタジオに置かれたエレキギターと真空管アンプ"
-          fill
-          priority
-          className="object-cover object-right"
-          sizes="100vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-accent-dark via-accent-dark/85 to-accent-dark/10" />
-        <div className="relative z-10 max-w-6xl mx-auto px-4 pt-14 pb-10 md:pt-24 md:pb-20 grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_300px] gap-10 items-center">
+        {/* PC：横長の写真を背景に（左を暗くして文字を置く） */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/hero-studio.jpg"
+            alt="スタジオに置かれたエレキギターと真空管アンプ"
+            fill
+            priority
+            className="object-cover object-right"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-accent-dark via-accent-dark/85 to-accent-dark/10" />
+        </div>
+        {/* スマホ：ギターとアンプの部分を切り出した写真を見出しの上に（MediaXAI 10/21「スマホだと何の画像かわからない」） */}
+        <div className="md:hidden relative aspect-[10/8] w-full">
+          <Image
+            src="/images/hero-studio-m.jpg"
+            alt="スタジオに置かれたエレキギターと真空管アンプ"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+          <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-accent-dark to-transparent" />
+        </div>
+        <div className="relative z-10 max-w-6xl mx-auto px-4 pt-4 pb-10 md:pt-24 md:pb-20 grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_300px] gap-10 items-center">
           <div>
             {/* SEO: h1 は従来と同じ文言（「楽器買取サービスの比較ガイド」）。大きいキャッチは見出しにしない（MediaXAI「SEO要件を崩さない」10/21） */}
             <h1 className="text-gold font-medium text-xs md:text-sm mb-4 tracking-[0.18em]">楽器買取サービスの比較ガイド</h1>
