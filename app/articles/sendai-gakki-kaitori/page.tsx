@@ -67,8 +67,8 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "仙台で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "仙台で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)島村楽器仙台ロフト店や一番町ギターなど地元の専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。仙台は東北最大の楽器市場ですが、業者数は大都市に比べて限られるため、オンライン一括査定の活用が効果的です。" } },
-      { "@type": "Question", name: "仙台で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは仙台市内への出張買取に対応しています。楽器の買取屋さんも仙台市で出張買取を行っており、専門スタッフが自宅まで来て査定します。出張買取チェンジ仙台も仙台市近郊の出張買取に対応しています。出張料・査定料はいずれも無料です。" } },
-      { "@type": "Question", name: "仙台の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。島村楽器仙台ロフト店の店頭買取なら即日査定・現金化が可能です。楽器の買取屋さんの出張買取でもその場で現金支払いに対応しています。" } },
+      { "@type": "Question", name: "仙台で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルの出張買取エリアに宮城県は含まれていません。楽器の買取屋さんは仙台市で出張買取を行っており、専門スタッフが自宅まで来て査定します。出張買取チェンジ仙台も仙台市近郊の出張買取に対応しています。出張料・査定料はいずれも無料です。" } },
+      { "@type": "Question", name: "仙台の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。島村楽器仙台ロフト店の店頭買取は買取代金が指定口座への振込で、現金での支払いはありません。楽器の買取屋さんの出張買取でもその場で現金支払いに対応しています。" } },
       { "@type": "Question", name: "仙台駅周辺に楽器買取店はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、島村楽器仙台ロフト店が仙台市青葉区中央1-10-10の仙台ロフト7階にあり、仙台駅から徒歩圏内です。ギター・ベース・電子ピアノ・管楽器など幅広く取り扱っており、東北地方随一の品数を誇ります。" } },
       { "@type": "Question", name: "東北地方の他の都市からでも仙台の楽器買取は利用できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、利用できます。ヒカカク！のオンライン一括査定なら東北地方のどこからでも利用可能です。宅配買取を使えば、盛岡・秋田・山形・福島などから送料無料で楽器を売ることができます。" } },
     ],
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年10月最新】楽器買取 仙台おすすめ3選｜仙台駅周辺の専門店も比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-20",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function SendaiGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             仙台で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、仙台エリア対応の楽器買取おすすめ3社を比較します。仙台駅周辺の島村楽器・一番町ギターなど専門店情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、東北エリアならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月20日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -140,13 +140,13 @@ export default function SendaiGakkiKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">仙台対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配買取対応</td><td className="px-4 py-3">仙台市内対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">宅配は数日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張/店頭（川崎店）</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">仙台対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配買取対応</td><td className="px-4 py-3">出張エリア外（宮城県は対象外）</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">宅配は数日</td><td className="px-4 py-3">最短翌日以降（出張エリア内）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・大型楽器に対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">宅配で売りたい人</td><td className="px-4 py-3">大型楽器を売る人</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">宅配で売りたい人</td><td className="px-4 py-3">仙台からは利用不可（出張エリア外）</td></tr>
               </tbody>
             </table>
           </div>
@@ -157,8 +157,8 @@ export default function SendaiGakkiKaitoriPage() {
           <h3>ティファナ ── 宅配買取で全国対応</h3>
           <p>ティファナは宅配買取で仙台からも利用可能です。送料無料の梱包キットが用意されており、自宅から発送するだけ。楽器以外のアイテムもまとめて売れます。</p>
 
-          <h3>ウリエル ── 仙台市内へ出張買取</h3>
-          <p>ウリエルは仙台市内に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>
+          <h3>ウリエル ── 宮城県は出張エリア外</h3>
+          <p>ウリエルの出張買取エリア（公式：関東・中部・近畿・中国・四国・九州の一部の都府県）に<strong>宮城県は含まれていません</strong>（2026年10月20日に公式の対応エリアで確認）。店頭買取は神奈川県川崎市の店舗のみのため、仙台からは利用できません。仙台での出張買取は、下で紹介する地元業者などを検討してください。</p>
 
           <CtaBox />
 
@@ -268,7 +268,7 @@ export default function SendaiGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">仙台駅周辺なら島村楽器で店頭買取が便利。ギターなら一番町ギターがおすすめです。大型楽器はウリエルの出張買取で。全国の業者を使うなら宅配買取を選んでください。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">仙台駅周辺なら島村楽器で店頭買取が便利。ギターなら一番町ギターがおすすめです。大型楽器は仙台市内に出張する業者の出張買取で。全国の業者を使うなら宅配買取を選んでください。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
@@ -302,7 +302,7 @@ export default function SendaiGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは仙台市内への出張買取に対応しています。楽器の買取屋さんも仙台市で出張買取を行っています。出張買取チェンジ仙台も仙台市近郊に対応しています。出張料・査定料はいずれも無料です。
+                ウリエルの出張買取エリアに宮城県は含まれていません。楽器の買取屋さんは仙台市で出張買取を行っています。出張買取チェンジ仙台も仙台市近郊に対応しています。出張料・査定料はいずれも無料です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -311,7 +311,7 @@ export default function SendaiGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、可能です。島村楽器仙台ロフト店の店頭買取なら即日現金化ができます。楽器の買取屋さんの出張買取でもその場で即現金支払いに対応しています。
+                島村楽器仙台ロフト店の店頭買取は買取代金が指定口座への振込で、現金での支払いはありません。楽器の買取屋さんの出張買取でもその場で即現金支払いに対応しています。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -341,7 +341,7 @@ export default function SendaiGakkiKaitoriPage() {
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定（全国の業者と比較）</li>
             <li><strong>すぐに売りたい</strong> → 島村楽器仙台ロフト店で店頭買取</li>
-            <li><strong>大型楽器・まとめ売り</strong> → ウリエルで出張買取</li>
+            <li><strong>大型楽器・まとめ売り</strong> → 仙台市内に出張する業者で出張買取（ウリエルは宮城県が出張エリア外）</li>
           </ul>
 
           <p>査定は無料。まずはヒカカク！で相場をご確認ください。</p>

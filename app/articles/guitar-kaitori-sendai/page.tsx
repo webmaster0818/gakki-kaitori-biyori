@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 function Schema() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"仙台でギターの出張買取は対応していますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい。ウリエルなど全国対応の主要業者が仙台市内を出張買取の対応エリアとしています。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。\"}}, {\"@type\": \"Question\", \"name\": \"弦が切れている・ネックが反っているギターでも仙台で売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"多くの業者で査定対象になります。状態に応じた減額はありますが、Gibson・Fenderなど人気ブランドはジャンク扱いでも値が付くことがあります。修理費が買取額の上昇分を上回ることが多いため、修理せずそのまま無料査定に出すのがおすすめです。\"}}, {\"@type\": \"Question\", \"name\": \"仙台のギター買取相場はどこで確認できますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"本ページの週次相場表（ヤフオク!落札データの中央値を当サイトが毎週集計）が目安になります。中古ギターの相場は全国のオンライン市場で決まるため、仙台だけ特別に高い・安いということは基本的にありません。買取店の提示額は中央値の概ね50〜70%が目安です。\"}}, {\"@type\": \"Question\", \"name\": \"ギター1本だけでも買取してもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"1本から買取可能です。店頭持ち込みならその場で現金化でき、宅配買取なら送料無料の梱包キットを用意している業者もあります。複数本や機材一式なら出張買取でまとめ売りすると交渉しやすくなります。\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"仙台のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"仙台でギターの出張買取は対応していますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"業者によります。出張買取の対応エリアは業者ごとに異なり、ウリエルの出張買取エリアに宮城県は含まれていません。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。\"}}, {\"@type\": \"Question\", \"name\": \"弦が切れている・ネックが反っているギターでも仙台で売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"多くの業者で査定対象になります。状態に応じた減額はありますが、Gibson・Fenderなど人気ブランドはジャンク扱いでも値が付くことがあります。修理費が買取額の上昇分を上回ることが多いため、修理せずそのまま無料査定に出すのがおすすめです。\"}}, {\"@type\": \"Question\", \"name\": \"仙台のギター買取相場はどこで確認できますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"本ページの週次相場表（ヤフオク!落札データの中央値を当サイトが毎週集計）が目安になります。中古ギターの相場は全国のオンライン市場で決まるため、仙台だけ特別に高い・安いということは基本的にありません。買取店の提示額は中央値の概ね50〜70%が目安です。\"}}, {\"@type\": \"Question\", \"name\": \"ギター1本だけでも買取してもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"1本から買取可能です。店頭持ち込みならその場で現金化でき、宅配買取なら送料無料の梱包キットを用意している業者もあります。複数本や機材一式なら出張買取でまとめ売りすると交渉しやすくなります。\"}}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"仙台のギター買取おすすめ3社を比較【2026年10月】高く売るコツと相場\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-10-20\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"ギター買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"ギター買取 仙台\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori-sendai/\"}]}" }} />
     </>
   );
@@ -71,7 +71,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             仙台（宮城県仙台市）でギターの買取を検討している方へ。本記事では、仙台で利用できるギター買取おすすめ3社の比較、Gibson・Fenderなど主要モデルの週次実勢相場（ヤフオク!落札データを毎週独自集計）、店頭・出張・宅配それぞれの売り方、高く売るコツまで解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月20日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -101,13 +101,13 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">仙台対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">対応エリア</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張/店頭（川崎店）</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">仙台対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">出張エリア外（宮城県は対象外）</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応ギター</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">機材ごとまとめて売る人</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">仙台からは利用不可（出張エリア外）</td></tr>
               </tbody>
             </table>
           </div>
@@ -118,8 +118,8 @@ export default function Page() {
           <h3>ティファナ ── 仙台からは宅配買取で利用</h3>
           <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、仙台からは宅配買取（全国送料無料）での利用になります。</p>
 
-          <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>
-          <p>ウリエルは出張買取が中心で、ウリエルなど全国対応の主要業者が仙台市内を出張買取の対応エリアとしています。<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
+          <h3>ウリエル ── 宮城県は出張エリア外</h3>
+          <p>ウリエルの出張買取エリア（公式：関東・中部・近畿・中国・四国・九州の一部の都府県）に宮城県は含まれていないため、仙台からは利用できません。機材一式をまとめて売る場合は、仙台市内に出張する業者を一括査定などで探してください。</p>
 
           <CtaBox />
 
@@ -138,7 +138,7 @@ export default function Page() {
           <p>店頭買取のメリットはその場で現金化できることです。ギター1本なら持ち運びやすいため、店頭・出張・宅配の中でも選びやすい方法です。</p>
 
           <h3>出張買取 ── 複数の機材をまとめて売りたい方に</h3>
-          <p>ウリエルなど全国対応の主要業者が仙台市内を出張買取の対応エリアとしています。出張料・査定料は無料の業者がほとんどで、アンプやエフェクター、ケースなど機材一式をまとめて査定してもらえます。本数が多い場合や大型アンプがある場合は出張買取が便利です。</p>
+          <p>出張買取の対応エリアは業者ごとに異なります（ウリエルの出張買取エリアに宮城県は含まれていません）。出張料・査定料は無料の業者がほとんどで、アンプやエフェクター、ケースなど機材一式をまとめて査定してもらえます。本数が多い場合や大型アンプがある場合は出張買取が便利です。</p>
 
           <h3>宅配買取 ── 全国どこからでも（仙台も同条件）</h3>
           <p>宅配買取は全国共通のサービスで、仙台からでも送料無料の梱包キットを使って売却できます。買取価格の条件も全国一律のため、近くに楽器店がないエリアでも不利になりません。ネックが動かないよう緩衝材を詰めて梱包するのがポイントです。</p>
@@ -175,7 +175,7 @@ export default function Page() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい。ウリエルなど全国対応の主要業者が仙台市内を出張買取の対応エリアとしています。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。
+                業者によります。出張買取の対応エリアは業者ごとに異なり、ウリエルの出張買取エリアに宮城県は含まれていません。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -214,7 +214,7 @@ export default function Page() {
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
             <li><strong>すぐに現金化したい</strong> → 仙台駅周辺・一番町エリアの店頭買取</li>
-            <li><strong>機材ごとまとめて売りたい</strong> → ウリエルで出張買取</li>
+            <li><strong>機材ごとまとめて売りたい</strong> → 仙台市内に出張する業者を一括査定で探す（ウリエルは宮城県が出張エリア外）</li>
           </ul>
 
           <p>査定は無料です。まずは相場の確認からご利用ください。</p>
