@@ -392,3 +392,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - ヘッダー＝bg-accent-dark＋ロゴB インラインSVG（public/images/logo-b.svg と同じ図形）。TOP キービジュアル＝hero-studio.jpg（生成・ヘッドのロゴ風文字は画素で消した）＋HeroSearch（記事名 datalist）＋相場ランキング上位3（souba-ranking-gakki.json）＋数字帯（記事数は app/articles のディレクトリ数をビルド時に数える）
 - ⚠️ SEO: TOP の h1 は従来文言「楽器買取サービスの比較ガイド」を維持（大キャッチは p）。デプロイ前に全ページの title/desc/canonical/robots/og/LD/h1/h2/リンク先を旧 deploy と照合して同一を確認した
 - 確認待ちの間は wip ブランチに置き main に入れない（週次・定例が main を push/deploy するため）
+
+### 2026-10-21 地域テンプレ322本の出張・店頭の定型文を公式の範囲に ✅本番反映済み（src 1532513・a0082bc / deploy 7a709c6ec）
+- 旧「{name}駅周辺・郊外型店舗どちらも利用できます。即日の現金化も可能です。」（322本・「大田区駅」等の実在しない駅名も含む）／「{name}を含む{region}全域が対応エリアです。」（322本）／ウリエルの対応エリア「{name}を含む{region}全域」（285本）を、10/21 に開いた公式の範囲に置換: ウリエル出張＝/visit/ の都府県（「一部対応できない市町村がございます」・沖縄対象外）、ウリエル店舗＝/shops/ 川崎 ラ チッタデッラ店のみ（その場で現金）、ティファナ出張＝/visit/ FAQ「東京都・埼玉県・神奈川県・千葉県の一部地域」、ティファナ店舗＝/access/ 東京都・埼玉県（川口・川口前川・上尾）のみ・店頭は現金払い（/tento/）。店頭は「3社の店舗は東京都・埼玉県・川崎市のみ、{県}内にはない」＋地元店は支払い方法（現金/振込）が店舗ごと、と書いた
+- 文言の定義は `scripts/fix-area-template-stores-202610.py`（冪等・既存ページへの置換も兼ねる）に一本化し、`generate-phase5-areas.py` が importlib で読む（highimp/batch も build_page 経由で継承）
+- 本番との照合: 本文が変わったのは322ページのみ（title/meta/JSON-LD 不変）、計測リンク 2336件（fmcl+fmimp ユニーク）/562ページ 前後完全一致、precheck 全項目OK
+- ⚠️ ソースは /tmp の git worktree で作業した（別セッションがデザイン作業中だったため）。Turbopack は symlink の node_modules を拒否する → worktree では `cp -Rc` で複製する
+- 🔍 未変更: Tokyo/Saitama テンプレの ティファナ「{name}近隣に店舗あり」（店舗の無い区市でも出る）・FAQ「主要3社がすべて対応エリア」（東京・埼玉55本）／FAQ「{name}エリアは主要業者の対応圏内」（ウリエル出張エリア外の県でも出る）／FAQ「出張買取にも最短即日で対応する業者があります」／kawasaki「楽器の買取屋さんは川崎市を含む神奈川県全域に出張」（未照合）
