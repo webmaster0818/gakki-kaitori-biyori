@@ -297,7 +297,8 @@ nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-chil
   bottom: 0;
   right: calc((100% - 100vw) / 2);
   width: min(46vw, 620px);
-  background: url("/images/subhero-studio.webp") center / cover no-repeat;
+  /* 記事ごとのテーマ画像（--subhero・scripts/add-subhero-images-202610.py が header に付ける）。無ければスタジオ写真 */
+  background: var(--subhero, url("/images/subhero-studio.webp")) center / cover no-repeat;
   opacity: 0.55;
   -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 55%);
   mask-image: linear-gradient(90deg, transparent 0%, #000 55%);
@@ -319,6 +320,34 @@ nav[aria-label="パンくずリスト"]:has(+ :is(article, main)) {
   .subhead::before {
     width: 70vw;
     opacity: 0.28;
+  }
+}
+
+/* ===== 配下ページのテーマ画像（2026-10-21 MediaXAI 承認・Nano Banana Pro）=====
+   記事の header に style="--subhero:url(…);--subhero-m:url(…)" がある帯だけ、写真をはっきり見せる。
+   画像は被写体が右半分・左が暗い構図で作ってあるので、PC は右側に広めに置き、文字側へ溶かす。
+   スマホは TOP のスマホ版ヒーローと同じく「見出しの上に写真の面」を作る（-m は右側を切り出した版）。 */
+nav[aria-label="パンくずリスト"] + :is(article, main) > header[style*="--subhero"]:first-child::before {
+  width: min(58vw, 820px);
+  opacity: 0.9;
+  background-position: right center;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgb(0 0 0 / 0.55) 30%, #000 60%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgb(0 0 0 / 0.55) 30%, #000 60%);
+}
+@media (max-width: 767px) {
+  nav[aria-label="パンくずリスト"] + :is(article, main) > header[style*="--subhero"]:first-child {
+    padding-top: calc(min(64vw, 340px) + 0.5rem);
+  }
+  nav[aria-label="パンくずリスト"] + :is(article, main) > header[style*="--subhero"]:first-child::before {
+    top: 0;
+    bottom: auto;
+    width: 100vw;
+    height: min(64vw, 340px);
+    opacity: 1;
+    background-image: var(--subhero-m, var(--subhero));
+    background-position: center;
+    -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 62%, transparent 100%);
+    mask-image: linear-gradient(180deg, #000 0%, #000 62%, transparent 100%);
   }
 }
 

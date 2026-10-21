@@ -403,3 +403,12 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 ## 2026-10-21 配下ページのテイスト統一＋公式サイトキャプチャ（MediaXAI）
 - 見出し帯: globals.css の「配下ページの見出し帯」。記事はCSSセレクタ（パンくずnav＋直後article/mainの先頭header）で適用＝生成物を触らない。非記事は <header className="subhead">
 - キャプチャ: components/ServiceCapture.tsx を各社紹介h3の直下に（scripts/add-service-captures-202610.py・冪等）。⚠️記事ジェネレータで再生成・新規生成したら、このスクリプトを再実行すること。画像=public/images/services/{hikakaku,tifana,uriel}.webp（1280×800・2026-10-21撮影。撮り直したら ServiceCapture の CAPTURED_ON も更新）
+- **見出し帯のテーマ画像（2026-10-21・MediaXAI 承認「テーマ単位で約160枚・約3,000円」）**: 記事559本の帯に、ページの主題の写真を出す（Nano Banana Pro・110枚・生成134回＝上限170内）。
+  - 画像: `scripts/gen-subhero-images-202610.py`（プロンプト全部入り。元画像は design-proposals/subhero-raw/＝リポ外、却下版は rejected/）→ `public/images/subhero/<key>.webp`（PC 1200px）＋`<key>-m.webp`（スマホ用に右側を切り出し 780px）。
+    楽器49＋補助7（無銘エレキ5種・アンプスタック・スネア/シンバル）／売り方35／地域19（8地方×2、関東・近畿・中部は×3）。無銘・人物なし・文字なし・TOP の hero-studio.jpg と同じトーン。
+    ⚠️ エレキは放っておくとストラト/テレ/レスポールの形（Fender/Gibson のヘッド形状）で出る → STYLE に「3+3 の丸いヘッド・特定モデルの複製でない」を入れてある。作り直したら必ずヘッドを拡大して確認。
+  - 割り当て: `python3 scripts/add-subhero-images-202610.py`（冪等）。記事の先頭 `<header>` に `style={{ ["--subhero" as string]: "url(...)", ["--subhero-m" as string]: "url(...)" }}` だけを足す（文言・リンク・metadata・JSON-LD は不変）。結果＝`data/subhero-map.json`。
+    instrument＝その楽器／howto＝その記事の場面／brand・model＝その楽器の画像を流用（スクリプト内 BRAND_MODEL）／region＝description の都道府県→8地方（gen-related-groups.py の PREF_FIX/AREA を流用）を都道府県順に a・b(・c) と回す。
+    ⚠️ **記事ジェネレータで再生成・新規作成したら、このスクリプトを再実行する**（新しい brand/model は BRAND_MODEL に足す。足さないと「割り当てなし」と表示され、その記事はスタジオ写真のまま）。
+  - CSS: globals.css「配下ページのテーマ画像」。`header[style*="--subhero"]` の帯だけ PC は右に広く（min(58vw,820px)・不透明度0.9）、スマホは見出しの上に写真の面（高さ min(64vw,340px)・-m 画像）。--subhero の無いページ（記事一覧・相場ランキング・相場指数・author・ポリシー）は従来どおりスタジオ写真。
+  - 帯の無い2本（gakki-no-kaitoriyasan / gakki-no-kaitoriyasan-hyoban：article の先頭が header でない）は画像なし。

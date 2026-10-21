@@ -64,7 +64,7 @@ export default function RecorderKaitoriPage() {
       <FaqSchema />
       <Breadcrumb />
       <article className="max-w-4xl mx-auto px-4 pb-16">
-        <header className="mb-8">
+        <header className="mb-8" style={{ ["--subhero" as string]: "url(/images/subhero/inst-recorder.webp)", ["--subhero-m" as string]: "url(/images/subhero/inst-recorder-m.webp)" }}>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">リコーダー買取</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
