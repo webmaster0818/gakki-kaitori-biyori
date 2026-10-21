@@ -43,7 +43,7 @@ export default function AuthorPage() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10 md:py-16">
+    <div className="max-w-3xl mx-auto px-4 pb-10 md:pb-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
@@ -53,6 +53,7 @@ export default function AuthorPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
+      <header className="subhead">
       <nav aria-label="パンくずリスト" className="text-xs text-warm-gray mb-6">
         <ol className="flex flex-wrap items-center gap-1">
           <li>
@@ -70,7 +71,8 @@ export default function AuthorPage() {
       <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
         {SITE_NAME} {PAGE_TITLE}
       </h1>
-      <p className="text-warm-gray text-sm mb-8">最終更新: 2026年10月7日</p>
+      <p className="text-warm-gray text-sm">最終更新: 2026年10月7日</p>
+      </header>
 
       <section className="article-body">
         <p className="mb-4 leading-relaxed">

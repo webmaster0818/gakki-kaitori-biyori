@@ -62,17 +62,19 @@ export default function SoubaIndexPage() {
   const catColors = ["#c0392b", "#2e7d5b", "#b7791f", "#5b6bbf"];
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 md:py-14">
+    <div className="max-w-4xl mx-auto px-4 pb-10 md:pb-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }} />
 
+      <header className="subhead">
       <nav className="text-xs text-warm-gray mb-4">
         <Link href="/" className="hover:text-accent">ホーム</Link> ／ 中古楽器買取相場指数
       </nav>
 
       <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">中古楽器買取相場指数</h1>
-      <p className="text-warm-gray leading-relaxed mb-6">
+      <p className="text-warm-gray leading-relaxed">
         人気楽器 <strong className="text-foreground">{total.total}モデル</strong> のヤフオク!実勢中央値を合成した、中古楽器市場の週次インデックスです。基準週（{idx.base_date}）を <strong>100</strong> とし、毎週自動で更新しています。買取や売却のタイミングを「市場全体が上向きか・下向きか」で捉えるための独自指標です。
       </p>
+      </header>
 
       {/* サマリー */}
       <div className="grid grid-cols-3 gap-3 mb-8">

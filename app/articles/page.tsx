@@ -50,7 +50,8 @@ export default function ArticlesIndexPage() {
   return (
     <>
       <BreadcrumbSchema />
-      <article className="max-w-4xl mx-auto px-4 py-8 pb-16">
+      <article className="max-w-4xl mx-auto px-4 pb-16">
+        <header className="subhead">
         <nav aria-label="パンくずリスト" className="text-xs text-warm-gray mb-6">
           <ol className="flex items-center">
             <li><Link href="/" className="hover:text-accent transition-colors">ホーム</Link></li>
@@ -59,9 +60,10 @@ export default function ArticlesIndexPage() {
         </nav>
 
         <h1 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-3">楽器買取の記事一覧</h1>
-        <p className="text-warm-gray text-sm mb-10 leading-relaxed">
+        <p className="text-warm-gray text-sm leading-relaxed">
           楽器を高く売るための情報を、楽器の種類・ブランド・地域・売り方別にまとめています。全{all.length}記事。お持ちの楽器に近いガイドからご覧ください。
         </p>
+        </header>
 
         <div className="space-y-10">
           {GROUP_ORDER.map((category) => {

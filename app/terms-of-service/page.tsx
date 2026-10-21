@@ -9,7 +9,8 @@ export const metadata: Metadata = {
 
 export default function TermsOfServicePage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-12">
+    <div className="max-w-3xl mx-auto px-4 pb-12">
+      <header className="subhead">
       <nav aria-label="パンくずリスト" className="mb-6">
         <ol className="flex items-center text-xs text-warm-gray">
           <li><Link href="/" className="hover:text-accent transition-colors">ホーム</Link></li>
@@ -17,7 +18,8 @@ export default function TermsOfServicePage() {
         </ol>
       </nav>
 
-      <h1 className="font-display text-2xl md:text-3xl font-bold mb-8">利用規約</h1>
+      <h1 className="font-display text-2xl md:text-3xl font-bold">利用規約</h1>
+      </header>
 
       <div className="article-body space-y-8 text-sm leading-relaxed">
         <p>

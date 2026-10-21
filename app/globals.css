@@ -173,3 +173,115 @@ html.js .gakki-reveal-home > section.visible {
 /* 2026-10-21 デザイン②：アンバーの面に白文字は読みにくいので、文字をチャコールに（595ページの CTA ボタン・番号の丸） */
 .bg-gold.text-white { color: var(--accent-dark); }
 .bg-gold.text-white:hover { color: #fff; }
+
+/* ===== 配下ページの見出し帯（2026-10-21 MediaXAI「配下ページもテイスト揃えて」）=====
+   TOP のヒーローと同じチャコール地×アンバー。記事（563本・生成物）はファイルを触らずに
+   「パンくず nav の直後の article/main の先頭 header」を帯にする。それ以外のページは .subhead を付ける。
+   帯は画面幅いっぱい（border-image の外側塗り）。本文の文字・構成は変えない。 */
+nav[aria-label="パンくずリスト"]:has(+ :is(article, main)),
+nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child,
+.subhead {
+  position: relative;
+  color: #fff;
+  border-image: linear-gradient(100deg, #17181b 0%, #17181b 55%, #24262b 100%) fill 0 // 0 100vmax;
+}
+nav[aria-label="パンくずリスト"]:has(+ :is(article, main)) {
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+}
+nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child,
+.subhead {
+  padding-top: 1.25rem;
+  padding-bottom: 2.25rem;
+  margin-bottom: 2.5rem;
+}
+nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child::after,
+.subhead::after {
+  /* 下端のアンバーの細線（全幅） */
+  content: "";
+  position: absolute;
+  left: -100vmax;
+  right: -100vmax;
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold) 30%, var(--gold) 70%, transparent);
+  opacity: 0.85;
+}
+:is(nav[aria-label="パンくずリスト"]:has(+ :is(article, main)), .subhead nav[aria-label="パンくずリスト"]) :is(ol, a, span, li) {
+  color: rgb(255 255 255 / 0.62);
+}
+:is(nav[aria-label="パンくずリスト"]:has(+ :is(article, main)), .subhead nav[aria-label="パンくずリスト"]) a:hover {
+  color: var(--gold);
+}
+:is(nav[aria-label="パンくずリスト"]:has(+ :is(article, main)), .subhead nav[aria-label="パンくずリスト"]) .text-foreground {
+  color: #fff;
+}
+:is(nav[aria-label="パンくずリスト"]:has(+ :is(article, main)), .subhead) .breadcrumb-sep::before {
+  color: rgb(255 255 255 / 0.35);
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) h1 {
+  color: #fff;
+  font-family: var(--font-zen-maru-gothic), sans-serif;
+  letter-spacing: 0.01em;
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) h1::before {
+  /* TOP の見出しと同じアンバーの短い罫 */
+  content: "";
+  display: block;
+  width: 44px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--gold);
+  margin-bottom: 0.9rem;
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) :is(p, .text-warm-gray) {
+  color: rgb(255 255 255 / 0.72);
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) :is(strong, .text-foreground) {
+  color: #fff;
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) a {
+  color: var(--gold-light);
+}
+/* バッジ（地域・2026年最新 など）：暗い地で読める色に */
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) .bg-gold\/10 {
+  background: rgb(242 177 52 / 0.16);
+  color: var(--gold-light);
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) .bg-accent\/10 {
+  background: rgb(255 255 255 / 0.1);
+  color: rgb(255 255 255 / 0.85);
+}
+/* 本文の h2 も TOP の書体に */
+.article-body h2 {
+  font-family: var(--font-zen-maru-gothic), sans-serif;
+}
+/* 帯の下線（::after）が横スクロールを生まないように */
+main {
+  overflow-x: clip;
+}
+/* souba-index のパンくず（aria-label 無し・帯の中） */
+.subhead > nav {
+  color: rgb(255 255 255 / 0.62);
+}
+.subhead > nav a {
+  color: rgb(255 255 255 / 0.62);
+}
+.subhead > nav a:hover {
+  color: var(--gold);
+}
+/* souba-index のパンくず（aria-label 無し・帯の中） */
+.subhead > nav,
+.subhead > nav a {
+  color: rgb(255 255 255 / 0.62);
+}
+.subhead > nav a:hover {
+  color: var(--gold);
+}
+/* 帯の中のパンくずリンクは白系（上の「帯の中の a はアンバー」より優先させる） */
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) nav a {
+  color: rgb(255 255 255 / 0.62);
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) nav a:hover {
+  color: var(--gold);
+}
