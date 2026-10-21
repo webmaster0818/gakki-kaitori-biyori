@@ -4,6 +4,12 @@
 """
 from pathlib import Path
 import json
+import importlib.util as _ilu
+
+# 出張・店頭の文言は公式の範囲（2026-10-21）に合わせる。文言の定義は fix-area-template-stores-202610.py に一本化
+_spec = _ilu.spec_from_file_location("_fix_area_stores", Path(__file__).resolve().parent / "fix-area-template-stores-202610.py")
+_fix = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_fix)
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_DIR = ROOT / "app" / "articles"
@@ -72,7 +78,7 @@ def build_page(area: dict) -> str:
           <li><strong>強み</strong>: 出張エリア内では大きい品物も買取可（申込時に大きさを伝える）。訪問時にその場で現金買取</li>
           <li><strong>対応エリア</strong>: 公式の出張エリア（関東・中部・近畿・中国・四国・九州の一部の都府県）に{up}は含まれない</li>""" if up else f"""          <li><strong>方式</strong>: 出張買取が中心。自宅まで査定士が訪問</li>
           <li><strong>強み</strong>: ピアノ・ドラム等の大型楽器にも対応。訪問時にその場で現金買取</li>
-          <li><strong>対応エリア</strong>: {name}を含む{region}全域</li>""")
+          <li><strong>対応エリア</strong>: {_fix.uriel_area_text(name, pref)}</li>""")
     faq1_head = (f"{name}（{pref}）の出張対応は業者によって異なります。ウリエルの出張買取エリアに{up}は含まれていません。ヒカカク！は一括査定サービスのため、出張の可否は査定を出す業者によります。"
                  if up else f"はい、{name}（{pref}）は全国対応の主要買取業者（ヒカカク！・ウリエル等）がすべて対応エリアにしています。")
     tif_block = f"""        <h3>③ ティファナ（店頭・宅配）</h3>
@@ -164,10 +170,10 @@ export default function Page() {{
         <h2>2. {name}で利用できる買取方法3つ</h2>
 
         <h3>方法1: 出張買取（自宅まで査定）</h3>
-        <p>業者が自宅まで査定士を派遣し、その場で査定・買取・引き取りを行う方法です。大型楽器（ピアノ・ドラム）・複数楽器のまとめ売りに適しています。{name}を含む{region}全域が対応エリアです。</p>
+        <p>業者が自宅まで査定士を派遣し、その場で査定・買取・引き取りを行う方法です。大型楽器（ピアノ・ドラム）・複数楽器のまとめ売りに適しています。{_fix.shucchou_text(name, pref)}</p>
 
         <h3>方法2: 店頭買取（持ち込み即現金化）</h3>
-        <p>自分で楽器を業者の店舗に持ち込んで査定を受ける方法です。{name}駅周辺・郊外型店舗どちらも利用できます。即日の現金化も可能です。</p>
+        <p>自分で楽器を業者の店舗に持ち込んで査定を受ける方法です。{_fix.tento_text(name, pref)}</p>
 
         <h3>方法3: 宅配買取（自宅から発送）</h3>
         <p>段ボールに梱包して業者に発送、後日入金される方法です。{name}から東京・大阪の業者へ送付しても送料無料の業者が多くあります。</p>
