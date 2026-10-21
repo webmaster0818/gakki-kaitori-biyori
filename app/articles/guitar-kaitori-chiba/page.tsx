@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import GuitarSpotPrices from "@/components/GuitarSpotPrices";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -113,12 +114,15 @@ export default function Page() {
           </div>
 
           <h3>ヒカカク！ ── 千葉対応の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>ギターは業者による査定額の差が大きい楽器です。ヒカカク！なら<strong>千葉対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。Gibson・Fenderなど人気ブランドほど業者間の価格差が出やすいため、相見積もりの効果が大きくなります。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。</p>
 
           <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルは出張買取が中心で、ウリエル・ティファナなど全国対応の主要業者が千葉市とその周辺を出張買取の対応エリアとしています。<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
 
           <CtaBox />

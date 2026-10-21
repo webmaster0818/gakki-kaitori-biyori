@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 import UrielVisitBanner from "@/components/UrielVisitBanner";
 
@@ -242,18 +243,21 @@ export default function PianoKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── ピアノ専門業者を含む一括査定</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！では、ピアノ専門の買取業者を含む複数社に一括で査定依頼が可能です。ピアノのメーカー・型番・年式・状態を入力するだけで、各業者から見積もりが届きます。</p>
 
           <p><strong>ピアノ買取で最も重要なのは「相見積もり」です。</strong>同じYAMAHA U3でも、業者によって5万円以上の差がつくことがあります。これは各業者の販売ルート（国内中古市場・海外輸出）や在庫状況が異なるためです。まずはヒカカク！で相場をご確認ください。</p>
 
           <h3>ティファナ ── 首都圏ならピアノも出張買取</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは楽器の買取品目にピアノを挙げている総合リサイクルショップです。出張買取は東京・埼玉・神奈川・千葉の一部地域が対象で、出張料・査定料・キャンセル料は無料です（公式）。搬出に特殊作業が必要な場合の扱いは公式に記載がないため、申込時にご確認ください。</p>
 
           <p>家電・家具・洋服なども扱う総合リサイクルショップのため、引っ越しや片付けでピアノ以外の品と一緒に出張査定を頼めるのが便利なポイントです。</p>
 
           <h3>ウリエル ── 大型ピアノでも出張買取で安心</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を中心とするサービスで、グランドピアノのような大型楽器でも自宅で査定・買取が完結します。専門のスタッフが搬出まで行ってくれるため、自分で運ぶ必要は一切ありません。</p>
 

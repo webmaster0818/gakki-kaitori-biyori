@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -152,12 +153,15 @@ export default function FukuokaGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 福岡の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>福岡には天神・博多を中心に楽器買取業者が多数存在します。ヒカカク！なら、<strong>福岡対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。地元の専門店から全国対応のリサイクルショップまで幅広い業者が参加しています。</p>
 
           <h3>ティファナ ── 福岡からは宅配買取で利用</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、福岡からは宅配買取（全国送料無料）での利用になります。楽器以外のアイテムもまとめて売れるため、引っ越しや大掃除の際のまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 福岡市内へ出張買取</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルは福岡市内に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>
 
           <CtaBox />

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -253,14 +254,17 @@ export default function KeyboardKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── ビンテージシンセの適正価格がわかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！では複数の買取業者に一括で査定依頼ができます。特にビンテージシンセや高額なワークステーションは、<strong>業者によって10万円以上の査定差がつくことも珍しくない</strong>ため、一括査定の効果が最も大きいカテゴリです。</p>
 
           <h3>ティファナ ── コンパクトな機材の宅配買取に便利</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。25鍵〜61鍵のコンパクトなシンセサイザーやMIDIキーボードは、宅配買取で手軽に売却できます。梱包キットも無料で提供されるため、箱がなくても安心です。</p>
 
           <h3>ウリエル ── 88鍵ステージピアノも出張買取で楽々</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルの出張買取は、<strong>88鍵のステージピアノやワークステーションなど重量のある機材の売却に最適</strong>です。Nord Stage（約20kg）やKORG KRONOS（約25kg）など、持ち運びが困難な機材も自宅から売却できます。</p>
 

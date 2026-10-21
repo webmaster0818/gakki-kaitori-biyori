@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -152,12 +153,15 @@ export default function SendaiGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 仙台から全国の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>仙台は東北最大の都市ですが、東京や大阪に比べると楽器買取業者の数は限られます。ヒカカク！なら、<strong>全国の買取業者に一括で査定依頼でき、仙台の地元業者だけでなく本州各地の高額査定業者とも比較</strong>できます。オンラインで完結するため、東北地方のどこからでも利用可能です。</p>
 
           <h3>ティファナ ── 宅配買取で全国対応</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは宅配買取で仙台からも利用可能です。送料無料の梱包キットが用意されており、自宅から発送するだけ。楽器以外のアイテムもまとめて売れます。</p>
 
           <h3>ウリエル ── 宮城県は出張エリア外</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルの出張買取エリア（公式：関東・中部・近畿・中国・四国・九州の一部の都府県）に<strong>宮城県は含まれていません</strong>（2026年10月20日に公式の対応エリアで確認）。店頭買取は神奈川県川崎市の店舗のみのため、仙台からは利用できません。仙台での出張買取は、下で紹介する地元業者などを検討してください。</p>
 
           <CtaBox />

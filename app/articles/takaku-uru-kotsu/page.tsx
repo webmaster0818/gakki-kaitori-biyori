@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -300,18 +301,21 @@ export default function TakakuUruKotsuPage() {
           <p>ここまでの5つのコツを踏まえ、おすすめ3社の最適な使い分け方をまとめます。</p>
 
           <h3>ヒカカク！ ── まず最初に使うべきサービス</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>どの楽器を売る場合でも、<strong>まずはヒカカク！で一括査定</strong>を取ることをおすすめします。複数業者の査定額を比較することで、自分の楽器の「本当の価値」がわかります。これが「コツ1: 相見積もり」を最も効率的に実践する方法です。</p>
 
           <p>特に高額楽器（ギターで5万円以上、ピアノで10万円以上が期待できるもの）では、業者間の査定額の差が大きくなるため、一括査定のメリットが最大化されます。</p>
 
           <h3>ティファナ ── 手軽さを重視する場合</h3>
+          <ServiceCapture id="tifana" />
 
           <p>「査定額よりも手軽さを重視したい」「できるだけ早く売りたい」という場合はティファナがおすすめです。出張・店頭・宅配の3方式から選べるため、自分の都合に合わせやすいのが強みです。</p>
 
           <p>楽器に限らず幅広いジャンルに対応しているため、「楽器と一緒にオーディオ機器やCDも売りたい」といったケースにも便利です。</p>
 
           <h3>ウリエル ── 大型楽器・まとめ売りに最適</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ピアノやドラムセットなどの大型楽器、または複数の楽器をまとめて売りたい場合はウリエルの出張買取が最適です。自宅に来てくれるため、重い楽器を運ぶ必要がありません。</p>
 

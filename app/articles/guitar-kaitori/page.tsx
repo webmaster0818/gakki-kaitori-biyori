@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import ModelHubChips from "@/components/ModelHubChips";
 import GuitarSpotPrices from "@/components/GuitarSpotPrices";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -229,18 +230,21 @@ export default function GuitarKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は、複数の買取業者に一括で査定依頼できるサービスです。ギター1本の情報を入力するだけで、複数の専門業者から査定額が届きます。業者間の競争が生まれるため、<strong>1社だけに査定を出すよりも高い買取価格になりやすい</strong>のが最大のメリットです。</p>
 
           <p>特に、Gibson・Fender・PRSなどの高額ギターを売る際は、業者によって査定額に数万円の差がつくことも珍しくありません。まずはヒカカク！で相場を把握してから、他の方法を検討するのが賢い売り方です。</p>
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。楽器に限らず幅広いジャンルに対応しています。</p>
 
           <p>ギター買取では、状態が悪いものや古いモデルでも査定してくれるのがポイントです。「売れるかどうかわからない」というギターがある場合は、まずティファナに相談してみることをおすすめします。店舗が近くにあれば、その場で現金化できる店頭買取も便利です。</p>
 
           <h3>ウリエル ── 出張買取で自宅から一歩も出ずに売却</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を専門とするサービスで、自宅にいながらギターの査定から買取まで完結します。エレキギター1本はもちろん、アンプやエフェクターなど複数の機材をまとめて売りたい場合にも便利です。</p>
 

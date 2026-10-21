@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import GuitarSpotPrices from "@/components/GuitarSpotPrices";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -113,12 +114,15 @@ export default function Page() {
           </div>
 
           <h3>ヒカカク！ ── 札幌対応の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>ギターは業者による査定額の差が大きい楽器です。ヒカカク！なら<strong>札幌対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。Gibson・Fenderなど人気ブランドほど業者間の価格差が出やすいため、相見積もりの効果が大きくなります。</p>
 
           <h3>ティファナ ── 札幌からは宅配買取で利用</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、札幌からは宅配買取（全国送料無料）での利用になります。</p>
 
           <h3>ウリエル ── 北海道は出張エリア外</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルの出張買取エリア（公式：関東・中部・近畿・中国・四国・九州の一部の都府県）に北海道は含まれていないため、札幌からは利用できません。機材一式をまとめて売る場合は、札幌市内に出張する業者を一括査定などで探してください。</p>
 
           <CtaBox />

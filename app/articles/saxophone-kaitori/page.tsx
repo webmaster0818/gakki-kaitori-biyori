@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -320,14 +321,17 @@ export default function SaxophoneKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で管楽器の最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。管楽器は業者によって得意なブランドが異なるため、<strong>一括査定で複数業者を比較することが特に効果的</strong>です。SelmerのMark VIなど高額なヴィンテージサックスは、業者によって10万円以上の査定差がつくこともあります。</p>
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。管楽器はケースに入れてコンパクトに梱包できるため、宅配買取との相性が良い楽器です。フルートやクラリネットなど小型の管楽器は、宅配買取が最も手軽な選択肢です。</p>
 
           <h3>ウリエル ── 出張買取で自宅から売却</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を中心とするサービスです。バリトンサックスやチューバなどの大型管楽器は運搬が大変なため、自宅まで来てくれる出張買取がおすすめです。複数の管楽器をまとめて売りたい場合（吹奏楽を引退して楽器一式を処分するケースなど）にも便利です。</p>
 

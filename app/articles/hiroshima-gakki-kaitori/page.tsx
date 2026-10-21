@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -160,14 +161,17 @@ export default function Page() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で広島の最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。広島にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
           <h3>ティファナ ── 広島からは宅配買取で利用</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは総合買取サービスです。出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、広島からは宅配買取（全国送料無料）での利用になります。汚れている・音が出ないなど状態が悪い楽器も相談でき、「売れるかわからない」楽器も気軽に相談できます。</p>
 
           <h3>ウリエル ── 広島エリアの出張買取に対応</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を中心とするサービスで、広島エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
 

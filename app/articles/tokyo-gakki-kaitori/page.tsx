@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -151,12 +152,15 @@ export default function TokyoGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 東京の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>東京は楽器買取業者の数が日本一多いエリアです。その分、業者によって査定額に大きな差が出ます。ヒカカク！なら、<strong>東京対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。御茶ノ水の専門店から大手リサイクルショップまで幅広い業者が参加しています。</p>
 
           <h3>ティファナ ── 東京で店頭買取・出張買取に対応</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは東京都内に複数の店舗を構え、店頭での即日査定・現金化が可能です。出張買取も東京全域に対応しています。楽器以外のアイテムもまとめて売れるのがメリットです。</p>
 
           <h3>ウリエル ── 東京23区・多摩地域へ出張買取</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルは東京23区はもちろん、八王子・町田・立川などの多摩地域にも出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
 
           <CtaBox />

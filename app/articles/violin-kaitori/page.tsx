@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -296,14 +297,17 @@ export default function ViolinKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で弦楽器専門業者を比較</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！では複数の買取業者に一括で査定依頼ができます。バイオリンは業者の専門知識によって査定額が大きく変わるため、<strong>弦楽器専門の業者を含む複数社を比較できる</strong>点は、非常に大きなメリットです。特にオールド楽器やイタリア製作家の作品は、一般的な買取業者と弦楽器専門業者で数十万円の差がつくこともあります。</p>
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。バイオリンはケースに入れてコンパクトに持ち運べるため、店頭買取や宅配買取との相性が良い楽器です。入門用〜中級のバイオリンを手軽に売りたい場合に最適です。</p>
 
           <h3>ウリエル ── 出張買取でチェロ・コントラバスも安心</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルの出張買取は、チェロやコントラバスなど<strong>大型の弦楽器を自宅から安全に売却できる</strong>のが最大のメリットです。運搬時の破損リスクがないため、高額楽器の売却にも安心して利用できます。</p>
 

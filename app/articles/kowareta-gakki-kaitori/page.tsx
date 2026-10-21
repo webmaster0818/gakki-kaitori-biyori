@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -258,12 +259,15 @@ export default function KowaretaGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 壊れた楽器こそ複数社比較が重要</h3>
+          <ServiceCapture id="hikakaku" />
           <p>壊れた楽器は業者によって査定基準が大きく異なります。修理して再販できると判断する業者と、パーツ取りとしてしか評価しない業者では、<strong>査定額に数万円の差</strong>が出ることも。ヒカカク！で一括査定し、最も高く評価してくれる業者を見つけてください。</p>
 
           <h3>ティファナ ── 状態を問わず気軽に査定</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは状態を問わず査定を受け付けており、<strong>壊れた楽器やジャンク品でも気軽に査定依頼</strong>できます。「値段がつくかわからない」という楽器こそ、まずティファナに相談してください。</p>
 
           <h3>ウリエル ── 壊れた大型楽器も出張対応</h3>
+          <ServiceCapture id="uriel" />
           <p>壊れたピアノやドラムセットなど、<strong>運搬が難しい壊れた大型楽器はウリエルの出張買取が最適</strong>です。搬出も査定士が行ってくれるため、自分で運ぶ必要がありません。</p>
 
           <CtaBox />

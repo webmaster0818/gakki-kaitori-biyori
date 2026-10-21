@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -169,14 +170,17 @@ export default function Page() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で御茶ノ水の最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。御茶ノ水にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、御茶ノ水からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
 
           <h3>ウリエル ── 御茶ノ水エリアの出張買取に対応</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を中心とするサービスで、御茶ノ水エリアに対応しています。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
 

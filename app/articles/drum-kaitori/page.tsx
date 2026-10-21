@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -264,14 +265,17 @@ export default function DrumKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定でドラムの最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！では複数の買取業者に一括で査定依頼ができます。DW CollectorやTAMA Starclassicなどの高額ドラムは、業者によって数万円の差が出ることがあるため、<strong>一括査定で比較することには大きなメリットがあります</strong>。</p>
 
           <h3>ティファナ ── 電子ドラムの宅配買取にも対応</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。電子ドラムはアコースティックドラムに比べて軽量でコンパクトに梱包できるため、宅配買取でも問題なく対応できます。Roland TD-17やYAMAHA DTX402Kなど、中型の電子ドラムは宅配買取が手軽です。</p>
 
           <h3>ウリエル ── 大型ドラムセットの出張買取に最適</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルの出張買取は、<strong>アコースティックドラムセットの売却に最も適した方法</strong>です。バスドラム、タム、フロアタム、シンバルスタンド、ハードウェアなど大量のパーツを自分で運搬する必要がなく、自宅で査定から買取まで完結します。シンバルやスネアなど単品でも、セットでまとめても対応可能です。</p>
 

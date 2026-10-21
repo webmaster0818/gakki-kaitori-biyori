@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -152,12 +153,15 @@ export default function NagoyaGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 名古屋の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>名古屋には大須を中心に楽器買取業者が多数存在します。ヒカカク！なら、<strong>名古屋対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。大須の専門店からリサイクルショップまで幅広い業者が参加しており、名古屋エリアの相場把握に最適です。</p>
 
           <h3>ティファナ ── 名古屋からは宅配買取で利用</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、名古屋からは<strong>宅配買取</strong>での利用になります（送料・宅配キットは無料）。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しシーズンのまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 愛知県へ出張買取</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。<strong>大きな楽器も買取の対象</strong>で、申込時におおよその大きさを伝えます。出張料・査定料は無料で、査定額に納得すればその場で現金で買い取られます。訪問は最短で翌日以降です。</p>
 
           <CtaBox />

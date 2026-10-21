@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
@@ -60,6 +61,7 @@ export default function Page() {
         <p>京都市山科区（京都府京都市山科区）エリアで実績のある楽器買取サービス3社を紹介します。</p>
 
         <h3>① ヒカカク！（一括査定）</h3>
+        <ServiceCapture id="hikakaku" />
         <ul>
           <li><strong>方式</strong>: Web入力で複数業者から査定が届く一括査定</li>
           <li><strong>強み</strong>: 業者間の競争が生まれ、最高値が出やすい</li>
@@ -68,6 +70,7 @@ export default function Page() {
         </ul>
 
         <h3>② ウリエル（出張買取）</h3>
+        <ServiceCapture id="uriel" />
         <ul>
           <li><strong>方式</strong>: 出張買取が中心。自宅まで査定士が訪問</li>
           <li><strong>強み</strong>: ピアノ・ドラム等の大型楽器にも対応。訪問時にその場で現金買取</li>
@@ -76,6 +79,7 @@ export default function Page() {
         </ul>
 
         <h3>③ ティファナ（宅配）</h3>
+        <ServiceCapture id="tifana" />
         <ul>
           <li><strong>方式</strong>: 京都市山科区からは宅配買取（出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ）</li>
           <li><strong>強み</strong>: 宅配買取は全国から送料・宅配キット無料で利用できる</li>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -152,12 +153,15 @@ export default function SapporoGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 札幌から全国の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>札幌は本州に比べて楽器買取業者の数が限られるため、<strong>オンライン一括査定の活用が特に重要</strong>です。ヒカカク！なら、全国の買取業者に一括で査定依頼でき、札幌の地元業者だけでなく本州の高額査定業者とも比較できます。</p>
 
           <h3>ティファナ ── 宅配買取で全国対応</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは宅配買取で札幌からも利用可能です。送料無料で梱包キットも用意されており、自宅から発送するだけで完結します。</p>
 
           <h3>ウリエル ── 北海道は出張エリア外</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルの出張買取エリアは関東・中部・近畿・中国・四国・九州の一部の府県で、<strong>北海道は対象に含まれていません</strong>（2026年10月20日に公式の対応エリアで確認）。店頭買取は神奈川県川崎市の店舗のみのため、札幌からは利用できません。札幌での出張買取は、下で紹介する札幌TOPKINGやミツノ楽器などの地元業者を検討してください。</p>
 
           <CtaBox />

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -170,14 +171,17 @@ export default function Page() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で渋谷の最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。渋谷にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張・店頭・宅配の3つの方法に対応する総合買取サービスです。渋谷区は出張買取の対応エリアで、宅配買取は送料・宅配キットが無料です。汚れている・音が出ないなど状態が悪い楽器も相談でき、「売れるかわからない」楽器も気軽に相談できます。</p>
 
           <h3>ウリエル ── 渋谷エリアの出張買取に対応</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を中心とするサービスで、東京都を出張の対応エリアにしています（一部対応できない市町村があります。訪問は最短で翌日以降）。ピアノやドラムセットなどの大型楽器は運搬が大変ですが、ウリエルなら<strong>自宅にいながら査定から買取まで完結</strong>します。買取成立後はその場で現金を受け取れます。</p>
 

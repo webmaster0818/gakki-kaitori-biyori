@@ -399,3 +399,7 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 本番との照合: 本文が変わったのは322ページのみ（title/meta/JSON-LD 不変）、計測リンク 2336件（fmcl+fmimp ユニーク）/562ページ 前後完全一致、precheck 全項目OK
 - ⚠️ ソースは /tmp の git worktree で作業した（別セッションがデザイン作業中だったため）。Turbopack は symlink の node_modules を拒否する → worktree では `cp -Rc` で複製する
 - 🔍 未変更: Tokyo/Saitama テンプレの ティファナ「{name}近隣に店舗あり」（店舗の無い区市でも出る）・FAQ「主要3社がすべて対応エリア」（東京・埼玉55本）／FAQ「{name}エリアは主要業者の対応圏内」（ウリエル出張エリア外の県でも出る）／FAQ「出張買取にも最短即日で対応する業者があります」／kawasaki「楽器の買取屋さんは川崎市を含む神奈川県全域に出張」（未照合）
+
+## 2026-10-21 配下ページのテイスト統一＋公式サイトキャプチャ（MediaXAI）
+- 見出し帯: globals.css の「配下ページの見出し帯」。記事はCSSセレクタ（パンくずnav＋直後article/mainの先頭header）で適用＝生成物を触らない。非記事は <header className="subhead">
+- キャプチャ: components/ServiceCapture.tsx を各社紹介h3の直下に（scripts/add-service-captures-202610.py・冪等）。⚠️記事ジェネレータで再生成・新規生成したら、このスクリプトを再実行すること。画像=public/images/services/{hikakaku,tifana,uriel}.webp（1280×800・2026-10-21撮影。撮り直したら ServiceCapture の CAPTURED_ON も更新）

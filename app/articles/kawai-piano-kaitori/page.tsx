@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 import UrielVisitBanner from "@/components/UrielVisitBanner";
 
@@ -113,12 +114,15 @@ export default function Page() {
           </div>
 
           <h3>ヒカカク！ ── 複数業者の査定額を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>ピアノは業者の販路（国内再販・海外輸出・レストア）によって査定額の差が出やすい楽器です。ヒカカク！なら<strong>複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。モデル名と製造番号を添えて依頼すると、より正確な金額が出ます。</p>
 
           <h3>ウリエル ── 出張買取で搬出まで自宅完結</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルは出張買取が中心で、出張料・査定料は無料です。<strong>自宅にいながら査定から引き渡しまで完結</strong>できるため、動かせないアップライト・グランドピアノに向いています。</p>
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは、ピアノ以外の楽器や家財もまとめて売れるのが強みです。電子ピアノなど比較的小型のモデルなら宅配買取も選べます。</p>
 
           <CtaBox />

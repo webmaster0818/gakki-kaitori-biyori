@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -151,12 +152,15 @@ export default function OsakaGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 大阪の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>大阪には楽器専門の買取店から総合リサイクルショップまで多数の業者があります。ヒカカク！なら、<strong>大阪対応の複数業者に一括で査定依頼でき、業者間の競争で最高値</strong>を引き出せます。オンラインで完結するため、店舗に足を運ぶ必要もありません。</p>
 
           <h3>ティファナ ── 大阪からは宅配買取で利用</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、大阪からは<strong>宅配買取</strong>（全国送料無料）での利用になります。楽器の種類を問わず幅広く対応してくれます。</p>
 
           <h3>ウリエル ── 大阪市内への出張買取</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルは大阪市内および堺市、東大阪市、豊中市などの周辺都市に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
 
           <CtaBox />

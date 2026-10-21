@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -175,18 +176,21 @@ export default function KobeGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で神戸の最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。神戸にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
           <p>神戸在住で「どの業者に売ればよいかわからない」という方は、まずヒカカク！で相場を把握するところから始めてください。</p>
 
           <h3>ティファナ ── 神戸からは宅配買取で利用</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張買取・店頭買取・宅配買取の3つの方法を持つ総合リサイクルショップです。ただし店舗は東京・埼玉、出張は東京・埼玉・神奈川・千葉の一部地域のため、<strong>神戸からは宅配買取（全国送料無料・宅配キット無料）</strong>での利用になります。梱包して送るだけなので手軽に利用できます。</p>
 
           <p>ティファナは保管状態が良くない楽器や古い楽器も相談できるとしています（音が出ない楽器は買取不可）。「売れるかどうかわからない」という楽器でも、まずは気軽に相談してください。</p>
 
           <h3>ウリエル ── 神戸市内の出張買取で自宅完結</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を中心とするサービスで、兵庫県を出張の対応エリアに含めています（公式の対応エリア。一部対応できない市町村があるため、申込時にご確認ください）。訪問は原則10:00〜17:00、最短で翌日以降です。</p>
 

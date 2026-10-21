@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
@@ -276,14 +277,17 @@ export default function GibsonKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定でGibsonの最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>Gibsonのように高額なギターこそ、複数業者の査定を比較することが重要です。ヒカカク！なら一度の入力で複数の専門業者から査定額が届くため、<strong>業者間の競争原理で最高値を引き出せます</strong>。Les Paul Standardのように業者間で5万円以上の差がつくモデルでは、一括査定の効果は絶大です。</p>
 
           <h3>ティファナ ── 状態を問わず査定対応</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張・店頭・宅配の3方式に対応しています。Gibsonのヘッド折れや塗装の剥がれなど、<strong>状態が良くないギターでも査定してくれる</strong>のが強みです。「値段がつくかわからない」というGibsonをお持ちなら、まずティファナに相談してください。</p>
 
           <h3>ウリエル ── 出張買取でGibsonを安全に売却</h3>
+          <ServiceCapture id="uriel" />
 
           <p>Gibsonのギターは高額になるため、宅配時の破損リスクが気になる方も少なくありません。ウリエルなら査定士が自宅に来てくれるため、<strong>梱包・発送の手間も破損リスクもありません</strong>。複数本のGibsonやアンプなどまとめて売りたい場合にも最適です。</p>
 

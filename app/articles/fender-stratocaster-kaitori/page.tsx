@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 
@@ -146,10 +147,13 @@ export default function Page() {
           <p>フェンダー ストラトキャスターを売るなら、楽器の専門知識を持つ業者を選ぶことが大切です。以下の3社は手数料無料で査定でき、当サイトでも案内している買取サービスです。</p>
 
         <h3>ヒカカク！ ── 一括査定で最高値を見つける</h3>
+        <ServiceCapture id="hikakaku" />
         <p>ヒカカク！は複数の買取業者に一度に査定を依頼できる一括査定サービスです。フェンダー ストラトキャスターは専門業者ごとに評価が分かれるため、相見積もりで最高値を引き出せます。</p>
         <h3>ウリエル ── 大型・繊細な楽器も出張買取</h3>
+        <ServiceCapture id="uriel" />
         <p>ウリエルは出張買取に対応しており、ピアノ・アンプ・ドラムなど運搬が難しい楽器も自宅で査定・搬出してもらえます。</p>
         <h3>ティファナ ── 店頭・宅配で手軽に現金化</h3>
+        <ServiceCapture id="tifana" />
         <p>ティファナは全国の店舗ネットワークを持ち、店頭・宅配での査定に対応。手軽に現金化したい方に向いています。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">

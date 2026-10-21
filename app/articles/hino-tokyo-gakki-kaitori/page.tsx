@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
@@ -60,6 +61,7 @@ export default function Page() {
         <p>日野市（東京都日野市）エリアで実績のある楽器買取サービス3社を紹介します。</p>
 
         <h3>① ヒカカク！（一括査定）</h3>
+        <ServiceCapture id="hikakaku" />
         <ul>
           <li><strong>方式</strong>: Web入力で複数業者から査定が届く一括査定</li>
           <li><strong>強み</strong>: 業者間の競争が生まれ、最高値が出やすい</li>
@@ -68,6 +70,7 @@ export default function Page() {
         </ul>
 
         <h3>② ウリエル（出張買取）</h3>
+        <ServiceCapture id="uriel" />
         <ul>
           <li><strong>方式</strong>: 出張買取が中心。自宅まで査定士が訪問</li>
           <li><strong>強み</strong>: ピアノ・ドラム等の大型楽器にも対応。訪問時にその場で現金買取</li>
@@ -76,6 +79,7 @@ export default function Page() {
         </ul>
 
         <h3>③ ティファナ（店頭・宅配）</h3>
+        <ServiceCapture id="tifana" />
         <ul>
           <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
           <li><strong>強み</strong>: 全国の店舗ネットワーク、宅配買取も全国対応</li>

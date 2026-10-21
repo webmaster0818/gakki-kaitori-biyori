@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 
 export const metadata: Metadata = {
   // 【2026-09-02】90日間 表示ゼロ かつ 独自量がしきい値未満（scaled-content-lint）。
@@ -63,6 +64,7 @@ export default function Page() {
         <p>札幌市東区（北海道札幌市東区）エリアで実績のある楽器買取サービス3社を紹介します。</p>
 
         <h3>① ヒカカク！（一括査定）</h3>
+        <ServiceCapture id="hikakaku" />
         <ul>
           <li><strong>方式</strong>: Web入力で複数業者から査定が届く一括査定</li>
           <li><strong>強み</strong>: 業者間の競争が生まれ、最高値が出やすい</li>
@@ -71,6 +73,7 @@ export default function Page() {
         </ul>
 
         <h3>② ウリエル（北海道は出張エリア外）</h3>
+        <ServiceCapture id="uriel" />
         <ul>
           <li><strong>方式</strong>: 出張買取と店頭買取（神奈川県川崎市の1店舗）。北海道は出張エリア外</li>
           <li><strong>強み</strong>: 出張エリア内では大きい品物も買取可（申込時に大きさを伝える）。訪問時にその場で現金買取</li>
@@ -79,6 +82,7 @@ export default function Page() {
         </ul>
 
         <h3>③ ティファナ（宅配）</h3>
+        <ServiceCapture id="tifana" />
         <ul>
           <li><strong>方式</strong>: 札幌市東区からは宅配買取（出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ）</li>
           <li><strong>強み</strong>: 宅配買取は全国から送料・宅配キット無料で利用できる</li>

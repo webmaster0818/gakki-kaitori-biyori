@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -163,14 +164,17 @@ export default function Page() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で川崎の最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。川崎にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
           <h3>ティファナ ── 川崎市の一部の区へ出張・宅配は全国</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは総合買取サービスです。川崎市では多摩区・高津区・中原区・宮前区が出張エリアで、川崎区・幸区・麻生区は相談地域です（品物の内容や点数によっては訪問が難しい場合があります）。店舗は東京都・埼玉県のみで、宅配買取は送料無料で全国から利用できます。汚れている・音が出ないなど状態が悪い楽器も相談できます。</p>
 
           <h3>ウリエル ── 川崎駅近くに店舗・神奈川県へ出張</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取と店頭買取に対応しています。2026年9月17日に初の実店舗「川崎 ラ チッタデッラ店」を開店しました（川崎区小川町4-1 ラ チッタデッラ内 マッジョーレ2階・JR川崎駅から徒歩約5分・11時〜21時（最終受付20時）・予約不要）。出張買取は神奈川県が対応エリアで（一部対応できない市町村あり）、最短翌日以降に訪問します。店頭・出張とも、買取成立後はその場で現金を受け取れます。</p>
 

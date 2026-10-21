@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -170,18 +171,21 @@ export default function KyotoGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で京都の最高値を発見</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できる比較サービスです。京都にいながら全国の買取業者に査定を出せるため、地元の楽器店だけでは得られない高額査定を受けられる可能性があります。</p>
 
           <p>特に高額なギターやバイオリンなどは、業者間で数万円の査定差が出ることも珍しくありません。<strong>まずはヒカカク！で相場を把握するのが、京都での楽器売却の第一歩</strong>です。</p>
 
           <h3>ティファナ ── 京都からは宅配買取で利用</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは総合買取サービスです。出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、京都からは宅配買取（全国送料無料）での利用になります。汚れている・音が出ないなど状態が悪い楽器も相談できます。</p>
 
           <p>京都から宅配買取を利用する場合、送料は無料。梱包して送るだけのため、河原町や四条まで出向く必要がありません。</p>
 
           <h3>ウリエル ── 京都市内の出張買取に対応</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を中心とするサービスで、京都市内全域に対応しています。左京区・中京区・右京区・上京区・下京区・南区・伏見区・山科区・西京区と、市内全域が出張対象です。</p>
 

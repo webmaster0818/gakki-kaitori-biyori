@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
@@ -274,14 +275,17 @@ export default function FenderKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── Fenderの最高値を見つける</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>Fenderは流通量が多いため業者によって査定額の差が出やすいブランドです。ヒカカク！なら複数の専門業者の査定額を比較でき、<strong>最高値で売却できる可能性が高まります</strong>。特にUSA製やCustom Shopモデルは業者間で数万円の差がつくことがあります。</p>
 
           <h3>ティファナ ── Squier含む全ライン対応</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは出張・店頭・宅配の3方式対応で、SquierなどのエントリーモデルからCustom Shopまで幅広く査定してくれます。<strong>「値段がつくかわからない」というFenderでもまずは相談可能</strong>です。</p>
 
           <h3>ウリエル ── 複数本まとめて出張買取</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルの出張買取なら、ギター本体だけでなくアンプやエフェクターもまとめて売却できます。<strong>Fenderギターとアンプ（Twin Reverbなど）をセットで売ると査定アップ</strong>の可能性もあります。出張エリア・手数料・口コミの傾向は <Link href="/articles/uriel-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ウリエルの楽器買取 口コミ・評判</Link> で公式情報と第三者の口コミを出典付きで整理しています。</p>
 

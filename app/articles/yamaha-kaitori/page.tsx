@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 import BrandSpotPrices from "@/components/BrandSpotPrices";
 
@@ -338,12 +339,15 @@ export default function YamahaKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定でYAMAHA楽器の最高値を発見</h3>
+          <ServiceCapture id="hikakaku" />
           <p>YAMAHAはラインナップが広いため、楽器ジャンルごとに得意な業者が異なります。ヒカカク！で一括査定すれば、<strong>ピアノ専門、ギター専門など各ジャンルの専門業者の査定を一度に比較</strong>できます。</p>
 
           <h3>ティファナ ── エントリーモデルも気軽に査定</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナは幅広いジャンルに対応しており、YAMAHAのエントリーモデル（FGシリーズ、Pacificaなど）も<strong>気軽に査定依頼できます</strong>。店頭に持ち込めば、その場で査定・現金化も可能です。</p>
 
           <h3>ウリエル ── ピアノやドラムの出張買取に最適</h3>
+          <ServiceCapture id="uriel" />
           <p>ピアノやドラムセットなど大型のYAMAHA楽器は、ウリエルの出張買取が最適です。<strong>搬出作業も査定士が対応してくれる</strong>ため、自分で運ぶ必要がありません。</p>
 
           <CtaBox />

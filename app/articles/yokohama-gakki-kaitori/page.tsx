@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -152,12 +153,15 @@ export default function YokohamaGakkiKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 横浜の買取業者を一括比較</h3>
+          <ServiceCapture id="hikakaku" />
           <p>横浜には楽器買取業者が10店舗以上あり、業者によって査定額に大きな差が出ます。ヒカカク！なら、<strong>横浜対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。横浜の専門店から全国対応のリサイクルショップまで幅広い業者が参加しています。</p>
 
           <h3>ティファナ ── 横浜エリアで出張買取・宅配買取に対応</h3>
+          <ServiceCapture id="tifana" />
           <p>ティファナの出張買取は東京・埼玉・神奈川・千葉の一部地域が対象で（公式の出張可能エリア）、<strong>宅配買取は全国から送料無料</strong>で利用できます。店舗は東京・埼玉にあり、神奈川県内にはありません。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しの際のまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 横浜市内全域へ出張買取</h3>
+          <ServiceCapture id="uriel" />
           <p>ウリエルは横浜市内全域に出張買取で対応。18区すべてのエリアに対応しており、<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
 
           <CtaBox />

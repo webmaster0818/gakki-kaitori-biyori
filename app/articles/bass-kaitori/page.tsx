@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ServiceCapture from "@/components/ServiceCapture";
 import ModelHubChips from "@/components/ModelHubChips";
 import RelatedArticles from "@/components/RelatedArticles";
 import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
@@ -239,18 +240,21 @@ export default function BassKaitoriPage() {
           </div>
 
           <h3>ヒカカク！ ── 一括査定で最高値が見つかる</h3>
+          <ServiceCapture id="hikakaku" />
 
           <p>ヒカカク！は、複数の買取業者に一括で査定依頼できるサービスです。ベース1本の情報を入力するだけで、複数の専門業者から査定額が届きます。ベースはギターに比べて業者ごとの査定額のばらつきが大きい傾向にあるため、<strong>一括査定で比較することが特に重要</strong>です。</p>
 
           <p>Fender Jazz BassやMusicman StingRayなどの人気モデルは、業者によって3万円以上の差がつくことも珍しくありません。まずはヒカカク！で相場を把握してから判断するのが賢明です。</p>
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
+          <ServiceCapture id="tifana" />
 
           <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。ベースに限らず楽器全般の買取に強みがあります。特にエレキベースは宅配買取でも安全に送れるサイズ感のため、梱包キットを利用した宅配買取がお手軽です。</p>
 
           <p>状態が悪いベースや古いモデルでも査定可能のため、「売れるかどうかわからない」というベースがある場合にも安心です。</p>
 
           <h3>ウリエル ── 出張買取で自宅から一歩も出ずに売却</h3>
+          <ServiceCapture id="uriel" />
 
           <p>ウリエルは出張買取を専門とするサービスで、自宅にいながらベースの査定から買取まで完結します。特に<strong>アップライトベース（ウッドベース）のように大型で運搬が困難な楽器</strong>を売る際には、出張買取が最適な選択肢です。</p>
 
