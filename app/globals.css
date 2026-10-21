@@ -257,7 +257,8 @@ nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-chil
   font-family: var(--font-zen-maru-gothic), sans-serif;
 }
 /* 帯の下線（::after）が横スクロールを生まないように */
-main {
+/* ページ外枠の main だけ（相場ランキングは中に main があり、そちらまで clip すると帯が箱の幅で切れる） */
+body > main {
   overflow-x: clip;
 }
 /* souba-index のパンくず（aria-label 無し・帯の中） */
