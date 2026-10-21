@@ -285,3 +285,98 @@ main {
 :is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) nav a:hover {
   color: var(--gold);
 }
+
+/* ===== 配下ページの微調整（2026-10-21 MediaXAI「配下ページもテイスト合わせて微調整」「各ページのファーストビューもこだわりたい」）=====
+   TOP と同じ素材・質感に寄せる。文言・リンクは変えない。 */
+/* 見出し帯の右側に TOP と同じスタジオ写真（帯の色へ溶かす） */
+nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child::before,
+.subhead::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: calc((100% - 100vw) / 2);
+  width: min(46vw, 620px);
+  background: url("/images/subhero-studio.webp") center / cover no-repeat;
+  opacity: 0.55;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 55%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 55%);
+  pointer-events: none;
+}
+nav[aria-label="パンくずリスト"]:has(+ :is(article, main)) {
+  position: relative;
+  z-index: 1;
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) > * {
+  position: relative;
+  z-index: 1;
+}
+:is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) h1 {
+  text-shadow: 0 2px 14px rgb(0 0 0 / 0.45);
+}
+@media (max-width: 767px) {
+  nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child::before,
+  .subhead::before {
+    width: 70vw;
+    opacity: 0.28;
+  }
+}
+
+/* 本文 h2：TOP のカードと同じ白地＋アンバーの縦罫 */
+.article-body h2 {
+  background: #fff;
+  border: 1px solid var(--warm-border);
+  border-left: 5px solid var(--gold);
+  border-radius: 0.6rem;
+  padding: 0.7rem 1rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.04);
+  line-height: 1.45;
+}
+.article-body h3 {
+  border-left-width: 3px;
+  color: var(--accent-dark);
+}
+/* 箇条書き：TOP のカードと同じアンバーの丸 */
+.article-body ul:not([class]) {
+  list-style: none;
+  padding-left: 0.25rem;
+}
+.article-body ul:not([class]) > li {
+  position: relative;
+  padding-left: 1.2rem;
+}
+.article-body ul:not([class]) > li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.72em;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  background: var(--gold);
+}
+/* 目次・CTA の箱：クリームの箱 → 白いカード＋上端アンバー */
+article nav.bg-cream,
+article div.bg-cream.rounded-2xl {
+  background: #fff;
+  border-top: 3px solid var(--gold);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.05);
+}
+/* 表：角丸＋行の縞 */
+.article-body .table-wrapper,
+.article-body table {
+  border-radius: 0.6rem;
+}
+.article-body .table-wrapper {
+  border: 1px solid var(--warm-border);
+  background: #fff;
+}
+.article-body tbody tr:nth-child(even) {
+  background: #faf9f6;
+}
+/* 写真に文字がかぶらないよう、帯の中の文章は幅を抑える（PC） */
+@media (min-width: 768px) {
+  :is(nav[aria-label="パンくずリスト"] + :is(article, main) > header:first-child, .subhead) :is(h1, p) {
+    max-width: 40rem;
+  }
+}
