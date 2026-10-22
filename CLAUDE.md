@@ -412,3 +412,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
     ⚠️ **記事ジェネレータで再生成・新規作成したら、このスクリプトを再実行する**（新しい brand/model は BRAND_MODEL に足す。足さないと「割り当てなし」と表示され、その記事はスタジオ写真のまま）。
   - CSS: globals.css「配下ページのテーマ画像」。`header[style*="--subhero"]` の帯だけ PC は右に広く（min(58vw,820px)・不透明度0.9）、スマホは見出しの上に写真の面（高さ min(64vw,340px)・-m 画像）。--subhero の無いページ（記事一覧・相場ランキング・相場指数・author・ポリシー）は従来どおりスタジオ写真。
   - 帯の無い2本（gakki-no-kaitoriyasan / gakki-no-kaitoriyasan-hyoban：article の先頭が header でない）は画像なし。
+
+### 2026-10-22 朝ルーチン：東京・埼玉テンプレ55本のティファナ記述＋楽器の買取屋さん店舗一覧 26店（src 8dfabc8・c1db663 / deploy 60efb3f8c）
+- **07:00 点検「データが10日より古い」（hyoban 2026-08-16）**＝店舗一覧の確認日。公式 /kaitori/shop/ を再確認したら**名古屋栄店が一覧から消え、/kaitori/shop/sakae は HTTP 410**（お知らせに閉店告知なし）→ 27→26店・確認日 10/22。10店舗（群馬桐生・厚木・新潟・金沢・福井花堂中・甲府千塚・長野松本・富士津田・広島・鹿児島）が「※事前予約制」を追記。gakki-no-kaitoriyasan も SHOPS から栄店を外し SHOPS_ASOF=10/22（description の店舗数 27→26・articles-metadata も）
+- **東京・埼玉55本**: `scripts/fix-tokyo-saitama-tifana-202610.py`（冪等・generate-phase5-areas.py が importlib で読む）。公式 10/22: 店舗＝/access/＋各店舗ページの住所（東京10区市・埼玉 川口/上尾）、出張＝/visit/ の「出張可能エリア」モーダルの JS データ（出張エリア／ご相談地域。無い区市は対象外）。「{name}近隣に店舗あり」→「{区市}内に店舗あり（〇〇店）／なし（店舗は…）。出張は出張エリア／相談地域／対象外」（店舗あり12・なし43、出張エリア34・相談14・対象外7）。「全国の店舗ネットワーク、宅配買取も全国対応」→ 店頭は現金払い＋宅配一時停止中。FAQ「主要3社がすべて対応エリア」→ 業者別（表示＋\u の JSON-LD）
+- 🚨 **ティファナの宅配買取が一時停止中**（/shipping/ ほか全ページのお知らせ「オンラインショップと宅配買取のサービスを一時的に停止」10/22）。首都圏外の「ティファナの宅配買取」ボタン・本文は未変更（判断待ち）
+- 🔍 未変更: 楽器の買取屋さん名古屋栄店の記述が5本7か所（nagoya-naka×3〔description にも〕・nishi・nakagawa・midori・okazaki）。「全国の店舗ネットワーク」が型番・ブランド記事20本に残る
+- 本文が変わったのは57本＋articles 一覧のみ。title/canonical/リンクは全574 HTML で旧 deploy と一致（description・h2 は kaitoriyasan の店舗数のみ）。felmat 6338 前後一致。precheck 全項目OK
