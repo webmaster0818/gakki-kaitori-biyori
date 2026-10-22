@@ -10,6 +10,10 @@ import importlib.util as _ilu
 _spec = _ilu.spec_from_file_location("_fix_area_stores", Path(__file__).resolve().parent / "fix-area-template-stores-202610.py")
 _fix = _ilu.module_from_spec(_spec)
 _spec.loader.exec_module(_fix)
+# 東京都・埼玉県のティファナ（店舗の有無・出張エリア）と FAQ は fix-tokyo-saitama-tifana-202610.py（2026-10-22 公式）に一本化
+_spec2 = _ilu.spec_from_file_location("_fix_ts_tif", Path(__file__).resolve().parent / "fix-tokyo-saitama-tifana-202610.py")
+_tif = _ilu.module_from_spec(_spec2)
+_spec2.loader.exec_module(_tif)
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_DIR = ROOT / "app" / "articles"
@@ -84,8 +88,8 @@ def build_page(area: dict) -> str:
     tif_block = f"""        <h3>③ ティファナ（店頭・宅配）</h3>
         <ul>
           <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
-          <li><strong>強み</strong>: 全国の店舗ネットワーク、宅配買取も全国対応</li>
-          <li><strong>対応エリア</strong>: {name}近隣に店舗あり</li>
+          <li><strong>強み</strong>: {_tif.STRENGTH}</li>
+          <li><strong>対応エリア</strong>: {_tif.area_li(pref)}</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>
 """ if capital and not (kana or chiba) else f"""        <h3>③ ティファナ（出張・宅配）</h3>
@@ -109,7 +113,7 @@ def build_page(area: dict) -> str:
     lead = f"{name}（{pref}）で楽器の買取を検討している方へ。本記事では、{name}エリアで利用できる買取方法・おすすめ業者3社・買取相場の地域差・近隣エリア（{neighbors}）の状況まで解説します。"
 
     faqs_list = [
-        (f"{name}で出張買取は対応していますか？", (f"はい、{name}（{pref}）は全国対応の主要買取業者（ヒカカク！・ウリエル・ティファナ等）がすべて対応エリアにしています。" if capital and not (kana or chiba) else f"{faq1_head}{tif_faq}") + f"出張料・査定料は無料の業者がほとんどです。"),
+        (f"{name}で出張買取は対応していますか？", (_tif.faq_answer(name, pref) if capital and not (kana or chiba) else f"{faq1_head}{tif_faq}") + f"出張料・査定料は無料の業者がほとんどです。"),
         (f"{name}で地域密着の楽器買取店はありますか？", f"{name}には地元の楽器店も数店ありますが、買取相場・対応スピード・取り扱いジャンルの幅では、全国チェーンや一括査定サービスの方が有利になる傾向があります。複数業者を比較することをおすすめします。"),
         (f"{name}から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？", f"対応可能です。ピアノ・ドラムセットなど大型楽器には出張買取が適しています。{name}エリアは主要業者の対応圏内のため、複数業者で相見積もりを取って最も条件のよい業者を選ぶことをおすすめします。"),
         (f"{name}で当日中に現金化できますか？", f"店頭買取であれば当日中の現金化が可能で、出張買取にも最短即日で対応する業者があります。急ぎの場合は事前に「即日対応可能か」を確認してから申し込むのがおすすめです。"),

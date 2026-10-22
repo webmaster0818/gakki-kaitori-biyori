@@ -66,7 +66,7 @@ export default function Page() {
           <ul className="space-y-2 text-sm leading-relaxed">
             <li>・<strong>運営会社</strong>：UNI SOUND株式会社（古物商許可：神奈川県公安委員会 第451310006356号）。実在する許可事業者です。</li>
             <li>・<strong>手数料</strong>：公式で査定料・出張料・キャンセル料が0円と案内されています（宅配時の送料・入金日数は公式に明記がないため要確認）。</li>
-            <li>・<strong>買取方法</strong>：出張・宅配・店頭の3方式。店頭は全店舗で持ち込み対応（予約推奨）。</li>
+            <li>・<strong>買取方法</strong>：出張・宅配・店頭の3方式。店頭は全店舗で持ち込み対応（10店舗は事前予約制）。</li>
             <li>・<strong>「怪しい」と感じたら</strong>：古物商許可番号が公開されている点は確認材料になります。ただし提示額の妥当性は1社では判断できないため、<strong>複数社の査定額を比べるのが確実</strong>です。</li>
           </ul>
           <p className="mt-3 text-xs text-warm-gray">※本ページは公式サイトおよび公開されている利用者の声をもとに、当編集部が中立の立場で整理したものです（2026年10月時点）。</p>
@@ -115,7 +115,7 @@ export default function Page() {
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">楽器の買取屋さん</td><td className="px-3 py-2">出張・宅配・店頭（全国27店舗）</td><td className="px-3 py-2">大型・多点数を自宅で片づけたい。近くに店舗がある</td></tr>
+              <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">楽器の買取屋さん</td><td className="px-3 py-2">出張・宅配・店頭（全国26店舗）</td><td className="px-3 py-2">大型・多点数を自宅で片づけたい。近くに店舗がある</td></tr>
               <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">一括査定（ヒカカク！）</td><td className="px-3 py-2">複数社へまとめて査定依頼</td><td className="px-3 py-2"><strong>金額が相場か確かめたい</strong>。1社の提示が妥当か判断できない</td></tr>
               <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">出張専門（ウリエル）</td><td className="px-3 py-2">出張</td><td className="px-3 py-2">ドラム・アンプなど運べない機材がある</td></tr>
               <tr className="border-b border-warm-border"><td className="px-3 py-2 font-medium whitespace-nowrap">総合買取（ティファナ）</td><td className="px-3 py-2">出張・店頭・宅配</td><td className="px-3 py-2">楽器以外もまとめて処分したい</td></tr>
@@ -125,14 +125,14 @@ export default function Page() {
         <p className="text-sm mb-6"><strong>迷ったときの目安は1つです。</strong>楽器の買取価格は業者・時期・状態で数万円単位の差が出ます。<strong>「この金額が妥当か分からない」なら、先に一括査定で相場を掴んでから個社に依頼する</strong>ほうが失敗しません。逆に<strong>金額より早さ・手間のなさを優先するなら、出張の強い業者に直接依頼する</strong>ほうが早く終わります。詳しい比較は<a href="/articles/gakki-kaitori-osusume/" className="text-accent-dark underline">楽器買取おすすめ業者の比較</a>にまとめています。</p>
 
         <h2 className="text-xl font-bold mt-8 mb-3">店舗一覧（店頭買取・持ち込み対応）</h2>
-        <p className="text-sm mb-3">楽器の買取屋さんは全国に店舗を展開しており、<strong>全店舗で店頭買取（持ち込み）に対応</strong>しています（来店前の電話予約でよりスムーズに対応可能と公式に案内されています）。以下は公式店舗ページで確認できる店舗の一覧です（2026年8月16日時点・当サイト確認／公式掲載27店舗）。住所詳細・営業時間・電話番号は<a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">公式の店舗一覧ページ</a>でご確認ください。</p>
+        <p className="text-sm mb-3">楽器の買取屋さんは全国に店舗を展開しており、<strong>全店舗で店頭買取（持ち込み）に対応</strong>しています（来店前の電話予約でよりスムーズに対応可能と公式に案内されています。群馬桐生店・厚木店・新潟店・金沢店・福井花堂中店・甲府千塚店・長野松本店・富士津田店・広島店・鹿児島店の10店舗は事前予約制）。以下は公式店舗ページで確認できる店舗の一覧です（2026年10月22日時点・当サイト確認／公式掲載26店舗）。住所詳細・営業時間・電話番号は<a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">公式の店舗一覧ページ</a>でご確認ください。</p>
         <div className="overflow-x-auto mb-3">
           <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
             <thead className="bg-cream"><tr><th className="px-3 py-2 text-left border-b border-warm-border">地方</th><th className="px-3 py-2 text-left border-b border-warm-border">店舗（所在地）</th></tr></thead>
             <tbody>
               <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東北・関東</td><td className="px-3 py-2 border-b border-warm-border">宮城岩沼店（宮城県岩沼市）／宇都宮店（栃木県宇都宮市）／群馬桐生店（群馬県桐生市）／大宮店（さいたま市大宮区）／柏店（千葉県柏市）／上野店（東京都台東区）／池袋店（東京都豊島区）／板橋店（東京都板橋区）／横浜店（横浜市中区）／厚木店（神奈川県厚木市）</td></tr>
               <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">北陸・甲信越</td><td className="px-3 py-2 border-b border-warm-border">新潟店（新潟市西区）／金沢店（石川県金沢市）／石川小松店（石川県小松市）／福井花堂中店（福井県福井市）／甲府千塚店（山梨県甲府市）／長野松本店（長野県松本市）</td></tr>
-              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東海</td><td className="px-3 py-2 border-b border-warm-border">富士津田店（静岡県富士市）／豊川店（愛知県豊川市）／名古屋守山店（名古屋市守山区）／名古屋栄店（名古屋市中区）</td></tr>
+              <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">東海</td><td className="px-3 py-2 border-b border-warm-border">富士津田店（静岡県富士市）／豊川店（愛知県豊川市）／名古屋守山店（名古屋市守山区）</td></tr>
               <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">関西</td><td className="px-3 py-2 border-b border-warm-border">大阪門真店（大阪府門真市）／大阪心斎橋店（大阪市中央区）／奈良神殿店（奈良県奈良市）</td></tr>
               <tr><td className="px-3 py-2 border-b border-warm-border font-medium whitespace-nowrap">中国・四国・九州</td><td className="px-3 py-2 border-b border-warm-border">広島店（広島市安佐北区）／高松店（香川県高松市）／福岡店（福岡県柳川市）／鹿児島店（鹿児島県鹿児島市）</td></tr>
             </tbody>
