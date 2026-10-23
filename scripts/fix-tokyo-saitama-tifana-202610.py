@@ -27,10 +27,12 @@ CHECKED = "2026年10月22日"
 TIF_STORES = {
     "江戸川区": ["瑞江店"], "品川区": ["中延店", "武蔵小山店"], "板橋区": ["大山店"],
     "杉並区": ["阿佐ヶ谷店", "高円寺店", "西荻窪店"], "武蔵野市": ["吉祥寺店"],
-    "世田谷区": ["豪徳寺店", "Reuse&amp;Vintage 豪徳寺店"], "北区": ["十条店"], "葛飾区": ["新小岩店"],
+    "世田谷区": ["豪徳寺店"], "北区": ["十条店"], "葛飾区": ["新小岩店"],
     "中野区": ["都立家政店", "東中野店"], "練馬区": ["富士見台店"],
-    "川口市": ["川口店", "イオンモール川口前川店"], "上尾市": ["イオンモール上尾店"],
+    "川口市": ["川口店"], "上尾市": ["イオンモール上尾店"],
 }
+# 店舗はあるが店頭買取をしていない（公式 2026-10-23: 川口前川＝店舗ページ「買取受付 対応不可」、Reuse&Vintage＝「店頭買取を実施しておりません」）
+TIF_NOBUY = {"川口市": "イオンモール川口前川店", "世田谷区": "Reuse&amp;Vintage 豪徳寺店"}
 STORE_PLACES = "東京都の中野・杉並・練馬・板橋・北・世田谷・品川・江戸川・葛飾区と武蔵野市、埼玉県の川口市・上尾市"
 
 TIF_VISIT = {
@@ -62,7 +64,8 @@ def visit_status(pref: str) -> str:
 def area_li(pref: str) -> str:
     P, muni = split_pref(pref)
     st = visit_status(pref)
-    shop = (f"{muni}内に店舗あり（{'・'.join(TIF_STORES[muni])}）" if muni in TIF_STORES
+    nb = f"。{TIF_NOBUY[muni]}は店頭買取なし" if muni in TIF_NOBUY else ""
+    shop = (f"{muni}内に店舗あり（{'・'.join(TIF_STORES[muni])}{nb}）" if muni in TIF_STORES
             else f"{muni}内に店舗なし（店舗は{STORE_PLACES}）")
     visit = {"visit": f"出張は{muni}が出張エリア",
              "soudan": f"出張は{muni}が相談地域（品物の内容や点数により訪問が難しい場合あり）",

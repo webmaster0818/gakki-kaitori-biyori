@@ -83,7 +83,7 @@ export default function Page() {
         <ul>
           <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
           <li><strong>強み</strong>: 店頭は査定金額をその場で現金払い。宅配買取は一時停止中（公式のお知らせ・2026年10月22日確認）</li>
-          <li><strong>対応エリア</strong>: 世田谷区内に店舗あり（豪徳寺店・Reuse&amp;Vintage 豪徳寺店）。出張は世田谷区が出張エリア</li>
+          <li><strong>対応エリア</strong>: 世田谷区内に店舗あり（豪徳寺店。Reuse&amp;Vintage 豪徳寺店は店頭買取なし）。出張は世田谷区が出張エリア</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>
 
