@@ -158,7 +158,7 @@ export default function Page() {
         <p>ウリエルは出張買取に対応しており、ピアノ・アンプ・ドラムなど運搬が難しい楽器も自宅で査定・搬出してもらえます。</p>
         <h3>ティファナ ── 店頭・宅配で手軽に現金化</h3>
         <ServiceCapture id="tifana" />
-        <p>ティファナは全国の店舗ネットワークを持ち、店頭・宅配での査定に対応。手軽に現金化したい方に向いています。</p>
+        <p>ティファナの店舗は東京都と埼玉県だけです。店頭買取ができるのは公式の買取店舗一覧で17店舗（東京都15・埼玉県2〔川口店・イオンモール上尾店〕、2026年10月23日確認）で、予約不要・その場で現金払い。店頭・宅配での査定に対応しています。</p>
 
         <div className="bg-cream border border-warm-border rounded-2xl p-6 my-8">
           <p className="font-bold text-base mb-4 text-center text-accent-dark">ヤマハ YUS5の買取価格を今すぐ無料でチェック</p>
