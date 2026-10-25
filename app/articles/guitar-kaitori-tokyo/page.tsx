@@ -103,7 +103,7 @@ export default function Page() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">東京対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">対応エリア</td><td className="px-4 py-3">対応エリア</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">東京対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">出張は23区＋多摩8市（11市は相談地域）</td><td className="px-4 py-3">対応エリア</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応ギター</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>

@@ -68,7 +68,7 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "東京で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "東京で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)御茶ノ水・渋谷・新宿など楽器店が集まるエリアの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。東京は買取業者が多いため、競争原理を活かして最高値を引き出してください。" } },
-      { "@type": "Question", name: "東京で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは東京23区および多摩地域への出張買取に対応しています。ティファナも東京全域で出張買取を行っています。出張料・査定料は無料で、自宅にいながらギター・ピアノ・管楽器などの査定から買取まで完結します。" } },
+      { "@type": "Question", name: "東京で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは東京23区および多摩地域への出張買取に対応しています。ティファナの出張エリアは東京23区と多摩の8市（西東京・武蔵野・三鷹・調布・狛江・小金井・国分寺・国立）で、立川・府中・町田・小平・日野・東村山・東大和・清瀬・東久留米・多摩・稲城の11市は相談地域、八王子市など載っていない市町村は出張エリアに含まれません（公式「出張可能エリア」2026年10月25日確認）。出張料・査定料は無料で、自宅にいながらギター・ピアノ・管楽器などの査定から買取まで完結します。" } },
       { "@type": "Question", name: "東京の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。ティファナの店頭買取なら、その場で査定・即日現金化ができます。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。ヒカカク！経由の業者でも即日対応のところがあります。" } },
       { "@type": "Question", name: "東京のどのエリアに楽器買取店が多いですか？", acceptedAnswer: { "@type": "Answer", text: "東京で楽器買取店が集中しているのは、御茶ノ水（ギター・ベース専門店街）、渋谷（大型楽器店が多数）、新宿（総合買取店が豊富）、池袋（楽器店多数）です。ただし、出張買取やオンライン一括査定を使えば、店舗に行く必要なく高額買取が可能です。" } },
       { "@type": "Question", name: "ピアノやドラムなど大型楽器は東京でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。東京23区・多摩地域全域に対応しており、搬出作業も査定士が行います。ピアノの場合は専門の運搬業者を手配してくれるサービスもあります。出張料・搬出料は無料です。" } },
@@ -141,7 +141,7 @@ export default function TokyoGakkiKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">東京対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">23区+多摩</td><td className="px-4 py-3">23区+多摩</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">東京対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">出張は23区＋多摩8市（11市は相談地域）</td><td className="px-4 py-3">23区+多摩</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">店頭なら即日</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
@@ -157,7 +157,7 @@ export default function TokyoGakkiKaitoriPage() {
 
           <h3>ティファナ ── 東京で店頭買取・出張買取に対応</h3>
           <ServiceCapture id="tifana" />
-          <p>ティファナは東京都内に複数の店舗を構え、店頭での即日査定・現金化が可能です。出張買取も東京全域に対応しています。楽器以外のアイテムもまとめて売れるのがメリットです。</p>
+          <p>ティファナは東京都内に複数の店舗を構え、店頭での即日査定・現金化が可能です。出張買取は東京23区と多摩の8市（西東京・武蔵野・三鷹・調布・狛江・小金井・国分寺・国立）が出張エリア、立川・府中・町田・小平・日野・東村山・東大和・清瀬・東久留米・多摩・稲城の11市は相談地域（品物の内容や点数により訪問が難しい場合あり）で、八王子市など載っていない市町村は対象外です（公式「出張可能エリア」2026年10月25日確認）。楽器以外のアイテムもまとめて売れるのがメリットです。</p>
 
           <h3>ウリエル ── 東京23区・多摩地域へ出張買取</h3>
           <ServiceCapture id="uriel" />
@@ -285,7 +285,7 @@ export default function TokyoGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは東京23区および多摩地域への出張買取に対応しています。ティファナも東京全域で出張買取を行っています。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。
+                ウリエルは東京23区および多摩地域への出張買取に対応しています。ティファナの出張エリアは東京23区と多摩の8市（西東京・武蔵野・三鷹・調布・狛江・小金井・国分寺・国立）で、立川・府中・町田・小平・日野・東村山・東大和・清瀬・東久留米・多摩・稲城の11市は相談地域、八王子市など載っていない市町村は出張エリアに含まれません（公式「出張可能エリア」2026年10月25日確認）。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
