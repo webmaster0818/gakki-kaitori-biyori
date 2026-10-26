@@ -17,7 +17,7 @@ const SERVICES = [
     url: "https://tifana.net",
     image: "/images/services/tifana.webp",
     tagline: "出張・店頭・宅配の3方式に対応",
-    desc: "出張・店頭・宅配の3つの方法から選べる総合買取サービスです。",
+    desc: "出張・店頭・宅配の3つの方法から選べる総合買取サービスです。宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。",
     cta: "ティファナで買取を申し込む",
   },
   {

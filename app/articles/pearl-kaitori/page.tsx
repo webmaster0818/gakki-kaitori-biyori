@@ -267,7 +267,7 @@ export default function PearlKaitoriPage() {
           <p>Pearlドラムは品質の高さから中古市場でも安定した需要があります。大型で運搬が大変なドラムセットは、出張買取の利用が最も便利です。</p>
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（宅配は一時停止中）</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
           <CtaBox />

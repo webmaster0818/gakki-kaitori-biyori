@@ -83,9 +83,10 @@ export default function Page() {
 
         <h3>③ ティファナ（出張・宅配）</h3>
         <ServiceCapture id="tifana" />
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
         <ul>
           <li><strong>方式</strong>: 出張・宅配（神奈川県は出張エリアの一部地域。店舗は東京都・埼玉県のみ）</li>
-          <li><strong>強み</strong>: 宅配買取は全国から送料・宅配キット無料で利用できる</li>
+          <li><strong>強み</strong>: 宅配買取は送料・宅配キット無料。ただし2026年10月26日時点は一時停止中（公式のお知らせ）</li>
           <li><strong>対応エリア</strong>: 出張は神奈川県の一部地域（平塚市が対象かは申込時に確認）・宅配は全国</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>

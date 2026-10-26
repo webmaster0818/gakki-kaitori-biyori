@@ -68,10 +68,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "大阪で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大阪で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定する、(2)梅田・心斎橋・アメ村など楽器店が集まるエリアの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから出す、の3つがポイントです。大阪は関西最大の中古楽器市場のため、複数社の競争を活かしてください。" } },
-      { "@type": "Question", name: "大阪で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、大阪からは宅配買取になります。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。" } },
+      { "@type": "Question", name: "大阪で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、大阪からは宅配買取になります。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。" } },
       { "@type": "Question", name: "大阪の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店頭買取を行う楽器店に持ち込めば、その場で査定・現金化できる場合があります（買取代金が振込のみの店舗もあるため事前にご確認ください）。ウリエルの出張買取は買取成立後にその場で現金払いですが、訪問は最短で翌日以降です。" } },
       { "@type": "Question", name: "大阪のどのエリアに楽器買取店が多いですか？", acceptedAnswer: { "@type": "Answer", text: "大阪で楽器買取店が集中しているのは、梅田（大型楽器店が集積）、心斎橋・アメリカ村（ギター専門店多数）、難波（楽器店・リサイクルショップ多数）、日本橋（電子楽器・中古楽器店）です。" } },
-      { "@type": "Question", name: "大阪から宅配買取を利用できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ヒカカク！経由の買取業者やティファナの宅配買取は全国対応のため、大阪からも利用可能です。梱包キットを無料で送ってくれるサービスもあります。送料は業者負担（無料）が一般的です。" } },
+      { "@type": "Question", name: "大阪から宅配買取を利用できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ヒカカク！経由の買取業者やティファナの宅配買取は全国対応のため、大阪からも利用可能です。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。梱包キットを無料で送ってくれるサービスもあります。送料は業者負担（無料）が一般的です。" } },
     ],
   };
   const articleData = {
@@ -157,6 +157,7 @@ export default function OsakaGakkiKaitoriPage() {
 
           <h3>ティファナ ── 大阪からは宅配買取で利用</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、大阪からは<strong>宅配買取</strong>（全国送料無料）での利用になります。楽器の種類を問わず幅広く対応してくれます。</p>
 
           <h3>ウリエル ── 大阪市内への出張買取</h3>
@@ -274,7 +275,7 @@ export default function OsakaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、大阪からは宅配買取になります。出張料・査定料は無料です。
+                ウリエルは大阪市内および周辺都市への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、大阪からは宅配買取になります。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。出張料・査定料は無料です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -301,7 +302,7 @@ export default function OsakaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、ヒカカク！経由の買取業者やティファナの宅配買取は全国対応のため、大阪からも利用可能です。送料は業者負担（無料）が一般的です。
+                はい、ヒカカク！経由の買取業者やティファナの宅配買取は全国対応のため、大阪からも利用可能です。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。送料は業者負担（無料）が一般的です。
               </div>
             </details>
           </div>

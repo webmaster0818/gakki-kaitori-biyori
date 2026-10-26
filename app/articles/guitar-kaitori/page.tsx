@@ -238,6 +238,7 @@ export default function GuitarKaitoriPage() {
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは、出張買取・店頭買取・宅配買取の3つの方法に対応した総合買取サービスです。楽器に限らず幅広いジャンルに対応しています。</p>
 
@@ -501,7 +502,7 @@ export default function GuitarKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで店頭/宅配買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで店頭/宅配買取（宅配は一時停止中）</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 

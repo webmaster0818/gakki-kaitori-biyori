@@ -71,7 +71,7 @@ function FaqSchema() {
       { "@type": "Question", name: "千葉で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは千葉エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
       { "@type": "Question", name: "千葉の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
       { "@type": "Question", name: "壊れた楽器でも千葉で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "千葉から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら千葉から全国の買取業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。" } },
+      { "@type": "Question", name: "千葉から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "ティファナの宅配買取（送料・宅配キット無料）は、2026年10月26日時点で公式サイトのお知らせにより一時停止中です（再開時期の記載なし）。宅配で売る場合は、申し込む前に各社の公式サイトで宅配買取の受付状況を確認してください。" } },
     ],
   };
   const articleData = {
@@ -153,10 +153,10 @@ export default function Page() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">千葉対応</td><td className="px-4 py-3">全国対応（千葉含む）</td><td className="px-4 py-3">全国対応（千葉含む）</td><td className="px-4 py-3">千葉エリア出張可</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">最短即日</td><td className="px-4 py-3">最短即日</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">千葉対応</td><td className="px-4 py-3">全国対応（千葉含む）</td><td className="px-4 py-3">千葉県内に店舗なし。出張は6市が相談地域（千葉市は対象外）。宅配は一時停止中</td><td className="px-4 py-3">千葉エリア出張可</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">査定スピード</td><td className="px-4 py-3">最短即日（複数社）</td><td className="px-4 py-3">見積もりは最短5分（LINE・公式）</td><td className="px-4 py-3">最短即日</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配（千葉は出張の相談地域のみ）</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">手軽に売りたい人</td><td className="px-4 py-3">運搬が面倒な人</td></tr>
               </tbody>
             </table>
@@ -167,10 +167,10 @@ export default function Page() {
 
           <p>ヒカカク！は複数の買取業者に一括で査定依頼できるサービスです。千葉にいながら全国の買取業者に査定を出せるため、<strong>地元の楽器店だけでは得られない高額査定を受けられる可能性</strong>があります。楽器1点の情報を入力するだけで複数の査定額が届き、最も高い業者を選んで売却できます。</p>
 
-          <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
+          <h3>ティファナ ── 千葉県内に店舗なし・出張は6市が相談地域</h3>
           <ServiceCapture id="tifana" />
 
-          <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、千葉からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
+          <p>ティファナは総合買取サービスです。ただし店舗は東京都・埼玉県のみで千葉県内にはなく、出張は市川・船橋・松戸・柏・流山・浦安の6市が相談地域で、千葉市は含まれていません。宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
 
           <h3>ウリエル ── 千葉エリアの出張買取に対応</h3>
           <ServiceCapture id="uriel" />
@@ -273,7 +273,7 @@ export default function Page() {
                 <span className="pr-4">千葉から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら千葉から全国の業者に楽器を送れます。送料・査定料・キャンセル料はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ティファナの宅配買取（送料・宅配キット無料）は、2026年10月26日時点で公式サイトのお知らせにより一時停止中です（再開時期の記載なし）。宅配で売る場合は、申し込む前に各社の公式サイトで宅配買取の受付状況を確認してください。</div>
             </details>
           </div>
 
@@ -283,7 +283,7 @@ export default function Page() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → 近くの楽器店の店頭買取（ティファナの店舗は東京都・埼玉県のみ。宅配買取は一時停止中）</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 

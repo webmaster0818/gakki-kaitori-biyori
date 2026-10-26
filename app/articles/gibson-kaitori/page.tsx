@@ -283,6 +283,7 @@ export default function GibsonKaitoriPage() {
 
           <h3>ティファナ ── 状態を問わず査定対応</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは出張・店頭・宅配の3方式に対応しています。Gibsonのヘッド折れや塗装の剥がれなど、<strong>状態が良くないギターでも査定してくれる</strong>のが強みです。「値段がつくかわからない」というGibsonをお持ちなら、まずティファナに相談してください。</p>
 

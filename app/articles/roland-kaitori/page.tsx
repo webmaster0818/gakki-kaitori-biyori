@@ -347,7 +347,7 @@ export default function RolandKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（宅配は一時停止中）</li>
             <li><strong>大型楽器を自宅で売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 

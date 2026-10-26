@@ -119,6 +119,7 @@ export default function Page() {
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。</p>
 
           <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>

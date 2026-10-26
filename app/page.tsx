@@ -40,7 +40,7 @@ const services = [
     image: "/images/services/tifana.webp",
     tagline: "出張・店頭・宅配の3方式に対応",
     description: "出張・店頭・宅配の3つの方法から選べる総合買取サービスです。楽器の状態を問わず査定を受け付けています。",
-    features: ["3つの買取方法から選べる", "宅配は送料・宅配キット無料", "状態を問わず査定に対応"],
+    features: ["3つの買取方法から選べる", "宅配は送料・宅配キット無料（2026年10月26日時点は一時停止中）", "状態を問わず査定に対応"],
     recommended: "売却方法を選びたい方",
     color: "bg-blue-50 border-blue-200",
   },

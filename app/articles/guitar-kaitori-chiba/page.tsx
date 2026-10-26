@@ -108,7 +108,7 @@ export default function Page() {
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">機材ごとまとめて売る人</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">ギター以外もまとめて売りたい人</td><td className="px-4 py-3">機材ごとまとめて売る人</td></tr>
               </tbody>
             </table>
           </div>
@@ -117,9 +117,9 @@ export default function Page() {
           <ServiceCapture id="hikakaku" />
           <p>ギターは業者による査定額の差が大きい楽器です。ヒカカク！なら<strong>千葉対応の複数業者に一括で査定依頼でき、最高値の業者がすぐにわかります</strong>。Gibson・Fenderなど人気ブランドほど業者間の価格差が出やすいため、相見積もりの効果が大きくなります。</p>
 
-          <h3>ティファナ ── 出張・店頭・宅配の3方式に対応</h3>
+          <h3>ティファナ ── 千葉県内に店舗なし・出張は6市が相談地域</h3>
           <ServiceCapture id="tifana" />
-          <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。</p>
+          <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。ただし店舗は東京都・埼玉県のみで千葉県内にはなく、出張は市川・船橋・松戸・柏・流山・浦安の6市が相談地域で、千葉市は含まれていません。</p>
 
           <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>
           <ServiceCapture id="uriel" />
@@ -217,7 +217,7 @@ export default function Page() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>すぐに現金化したい</strong> → ティファナ or 千葉駅周辺エリアの店頭買取</li>
+            <li><strong>すぐに現金化したい</strong> → 千葉駅周辺エリアの店頭買取（ティファナの店舗は東京都・埼玉県のみ）</li>
             <li><strong>機材ごとまとめて売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 

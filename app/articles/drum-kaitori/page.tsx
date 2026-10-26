@@ -271,6 +271,7 @@ export default function DrumKaitoriPage() {
 
           <h3>ティファナ ── 電子ドラムの宅配買取にも対応</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。電子ドラムはアコースティックドラムに比べて軽量でコンパクトに梱包できるため、宅配買取でも問題なく対応できます。Roland TD-17やYAMAHA DTX402Kなど、中型の電子ドラムは宅配買取が手軽です。</p>
 
@@ -451,7 +452,7 @@ export default function DrumKaitoriPage() {
 
           <ul>
             <li><strong>まずは相場を知る</strong> → ヒカカク！で一括査定</li>
-            <li><strong>電子ドラムを手軽に売る</strong> → ティファナで宅配買取</li>
+            <li><strong>電子ドラムを手軽に売る</strong> → ティファナで宅配買取（宅配は一時停止中）</li>
             <li><strong>ドラムセット一式を売る</strong> → ウリエルで出張買取</li>
           </ul>
 

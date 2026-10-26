@@ -327,6 +327,7 @@ export default function SaxophoneKaitoriPage() {
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。管楽器はケースに入れてコンパクトに梱包できるため、宅配買取との相性が良い楽器です。フルートやクラリネットなど小型の管楽器は、宅配買取が最も手軽な選択肢です。</p>
 
@@ -521,7 +522,7 @@ export default function SaxophoneKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（宅配は一時停止中）</li>
             <li><strong>大型管楽器・複数楽器を売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 

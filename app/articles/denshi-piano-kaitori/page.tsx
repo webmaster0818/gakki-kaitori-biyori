@@ -386,7 +386,7 @@ export default function DenshiPianoKaitoriPage() {
 
           <ul>
             <li><strong>価格を比較したい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナ（ポータブルなら宅配も可）</li>
+            <li><strong>手軽に売りたい</strong> → ティファナ（ポータブルなら宅配も可）（宅配は一時停止中）</li>
             <li><strong>据え置き型を売りたい</strong> → ウリエルで出張買取</li>
           </ul>
 

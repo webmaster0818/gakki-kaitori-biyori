@@ -158,6 +158,7 @@ export default function YokohamaGakkiKaitoriPage() {
 
           <h3>ティファナ ── 横浜エリアで出張買取・宅配買取に対応</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナの出張買取は東京・埼玉・神奈川・千葉の一部地域が対象で（公式の出張可能エリア）、<strong>宅配買取は全国から送料無料</strong>で利用できます。店舗は東京・埼玉にあり、神奈川県内にはありません。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しの際のまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 横浜市内全域へ出張買取</h3>

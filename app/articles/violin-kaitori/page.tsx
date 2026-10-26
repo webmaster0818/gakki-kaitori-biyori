@@ -303,6 +303,7 @@ export default function ViolinKaitoriPage() {
 
           <h3>ティファナ ── 3つの方法から選べる総合買取</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。バイオリンはケースに入れてコンパクトに持ち運べるため、店頭買取や宅配買取との相性が良い楽器です。入門用〜中級のバイオリンを手軽に売りたい場合に最適です。</p>
 
@@ -479,7 +480,7 @@ export default function ViolinKaitoriPage() {
 
           <ul>
             <li><strong>高額楽器の最高値を知りたい</strong> → ヒカカク！で専門業者を含む一括査定</li>
-            <li><strong>入門用〜中級を手軽に売りたい</strong> → ティファナで店頭/宅配買取</li>
+            <li><strong>入門用〜中級を手軽に売りたい</strong> → ティファナで店頭/宅配買取（宅配は一時停止中）</li>
             <li><strong>チェロ・コントラバスなど大型楽器</strong> → ウリエルで出張買取</li>
           </ul>
 

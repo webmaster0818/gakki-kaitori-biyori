@@ -71,7 +71,7 @@ function FaqSchema() {
       { "@type": "Question", name: "渋谷で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは東京都を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナも渋谷区を出張買取の対応エリアにしています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
       { "@type": "Question", name: "渋谷の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
       { "@type": "Question", name: "壊れた楽器でも渋谷で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ティファナは「汚れている、音が出ないなど状態が悪い楽器も相談可」としており、ブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "渋谷から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら渋谷から楽器を送って査定を受けられます。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。" } },
+      { "@type": "Question", name: "渋谷から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら渋谷から楽器を送って査定を受けられます。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。" } },
     ],
   };
   const articleData = {
@@ -177,6 +177,7 @@ export default function Page() {
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは出張・店頭・宅配の3つの方法に対応する総合買取サービスです。渋谷区は出張買取の対応エリアで、宅配買取は送料・宅配キットが無料です。汚れている・音が出ないなど状態が悪い楽器も相談でき、「売れるかわからない」楽器も気軽に相談できます。</p>
 
@@ -303,7 +304,7 @@ export default function Page() {
                 <span className="pr-4">渋谷から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら渋谷から楽器を送って査定を受けられます。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら渋谷から楽器を送って査定を受けられます。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。</div>
             </details>
           </div>
 
@@ -313,7 +314,7 @@ export default function Page() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（宅配は一時停止中）</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
 

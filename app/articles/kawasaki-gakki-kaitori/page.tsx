@@ -71,7 +71,7 @@ function FaqSchema() {
       { "@type": "Question", name: "川崎で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、あります。ウリエルは神奈川県が出張買取エリアです（一部対応できない市町村あり）。楽器の買取屋さんは川崎市を含む神奈川県全域に出張しています。ティファナは川崎市の多摩区・高津区・中原区・宮前区が出張エリアで、川崎区・幸区・麻生区は相談地域です。" } },
       { "@type": "Question", name: "川崎の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
       { "@type": "Question", name: "壊れた楽器でも川崎で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ティファナは汚れている・音が出ないなど状態が悪い楽器も相談できるとしており、ブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "川崎から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら川崎からティファナへ楽器を送れます（宅配買取は全国対応）。送料・査定料・キャンセル料はすべて無料です。" } },
+      { "@type": "Question", name: "川崎から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら川崎からティファナへ楽器を送れます（宅配買取は全国対応）。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。" } },
     ],
   };
   const articleData = {
@@ -170,6 +170,7 @@ export default function Page() {
 
           <h3>ティファナ ── 川崎市の一部の区へ出張・宅配は全国</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは総合買取サービスです。川崎市では多摩区・高津区・中原区・宮前区が出張エリアで、川崎区・幸区・麻生区は相談地域です（品物の内容や点数によっては訪問が難しい場合があります）。店舗は東京都・埼玉県のみで、宅配買取は送料無料で全国から利用できます。汚れている・音が出ないなど状態が悪い楽器も相談できます。</p>
 
@@ -292,7 +293,7 @@ export default function Page() {
                 <span className="pr-4">川崎から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら川崎からティファナへ楽器を送れます（宅配買取は全国対応）。送料・査定料・キャンセル料はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら川崎からティファナへ楽器を送れます（宅配買取は全国対応）。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。</div>
             </details>
           </div>
 
@@ -302,7 +303,7 @@ export default function Page() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配買取（出張は川崎市の一部の区）</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配買取（出張は川崎市の一部の区）（宅配は一時停止中）</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取（川崎駅近くの店頭も可）</li>
           </ul>
 

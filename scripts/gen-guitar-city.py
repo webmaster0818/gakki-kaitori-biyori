@@ -68,6 +68,11 @@ CITIES = [
         "outreach": "ウリエルは千葉県を出張エリアとしています（一部対応できない市町村あり）。ティファナの出張は千葉県では市川・船橋・松戸・柏・流山・浦安の6市が相談地域で、千葉市は含まれていません。",
         # ティファナ公式 /visit/「出張可能エリア」2026-10-25: 千葉県は全域が相談地域扱いで、載っているのは上の6市のみ
         "tif_area": "出張は6市が相談地域（千葉市は対象外）",
+        # 千葉県内にティファナの店舗はない（公式 /access/ 2026-10-24）・宅配買取は一時停止中（公式 2026-10-26）
+        "tif_h3": "千葉県内に店舗なし・出張は6市が相談地域",
+        "tif_p": "ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。ただし店舗は東京都・埼玉県のみで千葉県内にはなく、出張は市川・船橋・松戸・柏・流山・浦安の6市が相談地域で、千葉市は含まれていません。",
+        "tif_pick": "ギター以外もまとめて売りたい人",
+        "quick": "__VISIT__エリアの店頭買取（ティファナの店舗は東京都・埼玉県のみ）",
         "cross": ["guitar-kaitori-tokyo", "guitar-kaitori-yokohama"],
     },
     {
@@ -235,7 +240,7 @@ export default function Page() {
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">特徴</td><td className="px-4 py-3 text-gold-dark font-bold">最高値が見つかる</td><td className="px-4 py-3 text-gold-dark font-bold">出張・店頭・宅配の3方式</td><td className="px-4 py-3 text-gold-dark font-bold">自宅で完結・まとめ売りに対応</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">すぐ売りたい人</td><td className="px-4 py-3">機材ごとまとめて売る人</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">おすすめ</td><td className="px-4 py-3">最高値で売りたい人</td><td className="px-4 py-3">__TIF_PICK__</td><td className="px-4 py-3">機材ごとまとめて売る人</td></tr>
               </tbody>
             </table>
           </div>
@@ -358,6 +363,12 @@ def build_faqs(c):
     ]
 
 
+import importlib.util as _ilu
+_ps = _ilu.spec_from_file_location("_tif_pause", Path(__file__).resolve().parent / "fix-tifana-shipping-pause-202610.py")
+_pause = _ilu.module_from_spec(_ps)
+_ps.loader.exec_module(_pause)
+
+
 def build_page(c):
     # ティファナの出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ（公式 2026-10-19）。首都圏外は宅配のみ
     cap = c["pref"].startswith(("東京都", "埼玉県", "神奈川県", "千葉県"))
@@ -430,9 +441,10 @@ def build_page(c):
         .replace("__OUTREACH__", c["outreach"])
         .replace("__STREET__", c["street"])
         .replace("__TIF_AREA__", c.get("tif_area", "対応エリア") if cap else "宅配のみ（出張・店舗は首都圏）")
-        .replace("__TIF_H3__", "出張・店頭・宅配の3方式に対応" if cap else "__NAME__からは宅配買取で利用")
-        .replace("__TIF_P__", "ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。" if cap else "ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、__NAME__からは宅配買取（全国送料無料）での利用になります。")
-        .replace("__QUICK__", "ティファナ or __VISIT__エリアの店頭買取" if cap else "__VISIT__エリアの店頭買取")
+        .replace("__TIF_H3__", c.get("tif_h3", "出張・店頭・宅配の3方式に対応") if cap else "__NAME__からは宅配買取で利用")
+        .replace("__TIF_P__", c.get("tif_p", "ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。宅配買取は全国共通で利用でき、店頭・出張と使い分けられます。") if cap else "ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、__NAME__からは宅配買取（全国送料無料）での利用になります。")
+        .replace("__TIF_PICK__", c.get("tif_pick", "すぐ売りたい人"))
+        .replace("__QUICK__", c.get("quick", "ティファナ or __VISIT__エリアの店頭買取") if cap else "__VISIT__エリアの店頭買取")
         .replace("__VISIT__", c["visit"])
         .replace("__PREF__", c["pref"])
         .replace("__TODAY_JP__", TODAY_JP)
@@ -456,6 +468,8 @@ def build_page(c):
              f"<li><strong>機材ごとまとめて売りたい</strong> → {name}市内に出張する業者を一括査定で探す（ウリエルは{up}が出張エリア外）</li>"),
         ]:
             page = page.replace(a, b)
+    # ティファナの宅配買取 一時停止中の注記（fix-tifana-shipping-pause-202610.py に一本化・2026-10-26）
+    page, _ = _pause.patch(page)
     return page
 
 

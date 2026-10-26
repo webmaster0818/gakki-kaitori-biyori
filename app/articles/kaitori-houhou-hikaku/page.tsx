@@ -220,7 +220,7 @@ export default function KaitoriHouhouHikakuPage() {
 
           <h2 id="takuhai">方法4: 宅配買取</h2>
 
-          <p>宅配買取は、<strong>楽器を梱包して業者に送り、査定結果を確認して買取してもらう方法</strong>です。ティファナの宅配買取は送料無料で利用できます。</p>
+          <p>宅配買取は、<strong>楽器を梱包して業者に送り、査定結果を確認して買取してもらう方法</strong>です。ティファナの宅配買取は送料無料で利用できます。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。</p>
 
           <h3>宅配買取の流れ</h3>
 
@@ -345,7 +345,7 @@ export default function KaitoriHouhouHikakuPage() {
 
           <ol>
             <li><strong>ステップ1: ヒカカク！で一括査定</strong> → 相場を把握し、最高値の業者を見つける</li>
-            <li><strong>ステップ2: 最適な方法で実際の買取</strong> → 大型楽器はウリエルで出張買取、小型楽器はティファナで店頭/宅配買取</li>
+            <li><strong>ステップ2: 最適な方法で実際の買取</strong> → 大型楽器はウリエルで出張買取、小型楽器はティファナで店頭/宅配買取（宅配は一時停止中）</li>
           </ol>
 
           <p>この2ステップを踏むことで、<strong>「最高値」と「手軽さ」を両立</strong>できます。</p>
@@ -377,7 +377,7 @@ export default function KaitoriHouhouHikakuPage() {
           <ul>
             <li><strong>相場を把握したい</strong> → ヒカカク！で一括査定</li>
             <li><strong>大型楽器を売りたい</strong> → ウリエルで出張買取</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで店頭/宅配買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで店頭/宅配買取（宅配は一時停止中）</li>
           </ul>
 
           <p>すべて査定無料・キャンセル無料のため、まずは気軽に試してください。</p>

@@ -309,6 +309,7 @@ export default function TakakuUruKotsuPage() {
 
           <h3>ティファナ ── 手軽さを重視する場合</h3>
           <ServiceCapture id="tifana" />
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>「査定額よりも手軽さを重視したい」「できるだけ早く売りたい」という場合はティファナがおすすめです。出張・店頭・宅配の3方式から選べるため、自分の都合に合わせやすいのが強みです。</p>
 

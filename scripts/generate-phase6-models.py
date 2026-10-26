@@ -763,6 +763,19 @@ export default function Page() {{
 '''
 
 
+# ティファナの宅配買取 一時停止中の注記（2026-10-26 公式）。文言は fix-tifana-shipping-pause-202610.py に一本化。
+# 派生スクリプト（highimp・batch など）も build_page 経由でこの注記を受け継ぐ
+import importlib.util as _ilu_p
+_ps = _ilu_p.spec_from_file_location("_tif_pause", Path(__file__).resolve().parent / "fix-tifana-shipping-pause-202610.py")
+_pause = _ilu_p.module_from_spec(_ps)
+_ps.loader.exec_module(_pause)
+_build_page_raw = build_page
+
+
+def build_page(arg):
+    return _pause.patch(_build_page_raw(arg))[0]
+
+
 def main():
     print(f"Generating {len(MODELS)} Phase 6 model articles...")
     for m in MODELS:

@@ -179,7 +179,7 @@ export default function MartinKaitoriPage() {
           <p>Martinはアコースティックギターの王様であり、中古市場でも非常に高い価値を持ちます。特にヴィンテージモデルは、その価値を正しく評価できる専門業者に査定を依頼することが重要です。</p>
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（宅配は一時停止中）</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
           <CtaBox />
