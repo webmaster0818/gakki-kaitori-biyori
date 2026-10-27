@@ -68,10 +68,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "福岡で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "福岡で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)天神・博多エリアのイシバシ楽器やクロサワ楽器などの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。九州最大の楽器市場である福岡の競争環境を活かしてください。" } },
-      { "@type": "Question", name: "福岡で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは福岡市内への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、福岡からは宅配買取になります。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。また、中古楽器堂 福岡博多店も出張買取専門で対応しています。出張料・査定料は無料です。" } },
-      { "@type": "Question", name: "福岡の天神と博多、楽器を売るならどちらがいい？", acceptedAnswer: { "@type": "Answer", text: "天神エリアにはイシバシ楽器福岡パルコ店やクロサワ楽器福岡ミーナ天神店など大手楽器専門チェーンが集中しており、専門的な査定が受けられます。博多エリアには島村楽器アミュプラザ博多店があり、JR博多駅直結でアクセスが便利です。どちらも充実していますが、専門性重視なら天神、アクセス重視なら博多がおすすめです。" } },
-      { "@type": "Question", name: "福岡の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。島村楽器アミュプラザ博多店では10万円未満ならその場で現金支払い、イシバシ楽器福岡パルコ店でも店頭即日査定に対応しています。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。" } },
-      { "@type": "Question", name: "ピアノやドラムなど大型楽器は福岡でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。福岡市内に対応しており、搬出作業も査定士が行います。出張料・搬出料は無料です。また、ヒカカク！の一括査定で福岡対応の大型楽器買取業者を探すこともできます。" } },
+      { "@type": "Question", name: "福岡で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは福岡県（一部対応できない市町村あり）への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、福岡からは宅配買取になります。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。また、中古楽器堂 福岡博多店も出張買取専門で対応しています。出張料・査定料は無料です。" } },
+      { "@type": "Question", name: "福岡の天神と博多、楽器を売るならどちらがいい？", acceptedAnswer: { "@type": "Answer", text: "天神エリアにはイシバシ楽器 福岡店（福岡パルコ8F）やクロサワ楽器福岡ミーナ天神店など大手楽器専門チェーンが集中しており、専門的な査定が受けられます。博多エリアには島村楽器アミュプラザ博多店があり、JR博多駅直結でアクセスが便利です。どちらも充実していますが、専門性重視なら天神、アクセス重視なら博多がおすすめです。" } },
+      { "@type": "Question", name: "福岡の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店頭買取なら可能です。イシバシ楽器 福岡店（福岡パルコ8F）の店頭買取は即日現金払い、高く売れるドットコム 福岡リユースセンターも店頭はその場で現金払いです。ウリエルの出張買取も成約後その場で現金払いですが、訪問は最短で翌日以降です。島村楽器（アミュプラザ博多店を含む）は買取代金が銀行振込のみで、現金払いはありません（いずれも2026年10月27日 公式で確認）。" } },
+      { "@type": "Question", name: "ピアノやドラムなど大型楽器は福岡でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。出張エリアは福岡県（一部対応できない市町村あり）で、大きな品物も買取可能です（申込時におおよその大きさを伝えます）。出張料・査定料は無料です。また、ヒカカク！の一括査定で福岡対応の大型楽器買取業者を探すこともできます。" } },
     ],
   };
   const articleData = {
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年10月最新】楽器買取 福岡おすすめ3選｜天神・博多エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-27",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,7 +109,7 @@ export default function FukuokaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             福岡で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、福岡エリア対応の楽器買取おすすめ3社を比較します。天神・博多エリア別の特徴から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、福岡ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月27日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -142,7 +142,7 @@ export default function FukuokaGakkiKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">福岡対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">福岡市内対応</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">福岡対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">宅配のみ（出張・店舗は首都圏）</td><td className="px-4 py-3">福岡県（一部市町村を除く）</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">発送後に査定</td><td className="px-4 py-3">最短翌日以降</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
@@ -161,9 +161,9 @@ export default function FukuokaGakkiKaitoriPage() {
           <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年10月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、福岡からは宅配買取（全国送料無料）での利用になります。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。楽器以外のアイテムもまとめて売れるため、引っ越しや大掃除の際のまとめ売りにも便利です。</p>
 
-          <h3>ウリエル ── 福岡市内へ出張買取</h3>
+          <h3>ウリエル ── 福岡県へ出張買取</h3>
           <ServiceCapture id="uriel" />
-          <p>ウリエルは福岡市内に出張買取で対応。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>
+          <p>ウリエルは福岡県（一部対応できない市町村あり）に出張買取で対応。<strong>ピアノやドラムセットなど大きな品物も買取可能</strong>です（申込時におおよその大きさを伝えます）。出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。</p>
 
           <CtaBox />
 
@@ -173,12 +173,12 @@ export default function FukuokaGakkiKaitoriPage() {
 
           <h3>天神エリア ── 大手楽器チェーンが集結する九州の楽器街</h3>
           <p>天神は福岡最大の繁華街であり、大手楽器チェーンが集結しています。</p>
-          <p><strong>イシバシ楽器 福岡パルコ店</strong>は天神2丁目11-1の福岡パルコ8Fにあり、天神駅に直結しているためアクセス抜群です。営業時間は10:00〜20:30で、80年以上の歴史を持つ老舗楽器店ならではの経験豊富な査定が受けられます。買取専用フリーダイヤル（0120-51-1484）も用意されています。</p>
-          <p><strong>クロサワ楽器 福岡ミーナ天神店</strong>は九州初上陸のクロサワ楽器として注目を集めています。メジャーブランドのギター・ベースはもちろん、豊富な経験と知識を持つスタッフが在籍しています。店内にはリペア工房を併設しており、修理が必要な楽器でも適正な査定が可能です。買取・下取りにも対応しています。</p>
+          <p><strong>イシバシ楽器 福岡店（福岡パルコ8F）</strong>は天神2丁目11-1の福岡パルコ8Fにあり、天神駅に直結しているためアクセス抜群です。営業時間は10:00〜20:30で、80年以上の歴史を持つ老舗楽器店ならではの経験豊富な査定が受けられます。買取専用フリーダイヤル（0120-51-1484）も用意されています。</p>
+          <p><strong>クロサワ楽器 福岡ミーナ天神店</strong>は九州初上陸のクロサワ楽器として注目を集めています。公式では「ギター・ベース専門店」と案内しており、天神駅から徒歩3分のミーナ天神8F、営業時間は11:00〜20:00です。店内にはリペア工房を併設していますが、2026年10月27日時点で修理の新規受付を一時停止しています（公式のお知らせ）。買取・下取りにも対応しています。</p>
 
           <h3>博多エリア ── JR博多駅直結でアクセス便利</h3>
-          <p><strong>島村楽器 アミュプラザ博多店</strong>はJR博多駅直結のアミュプラザ博多内にあり、出張や旅行のついでに立ち寄れる便利な立地です。査定は無料で、10万円未満の楽器はその場で現金支払い、10万円以上は後日銀行振込となります。</p>
-          <p><strong>楽器高く売れるドットコム 福岡リユースセンター</strong>は博多エリアに大型リユースセンターを展開しています。テレビにも多く出演する専門バイヤーが在籍し、宅配買取・出張買取・店頭買取すべてに対応。楽器買取の専門知識を持ったスタッフが丁寧に査定します。</p>
+          <p><strong>島村楽器 アミュプラザ博多店</strong>はJR博多駅直結のアミュプラザ博多内にあり、出張や旅行のついでに立ち寄れる便利な立地です。査定は無料です。買取代金は銀行振込のみで現金払いはなく、10万円以上の振込は1週間ほどかかります（公式の下取／買取ページ）。営業時間は10:00〜20:00です。</p>
+          <p><strong>高く売れるドットコム 福岡リユースセンター</strong>は福岡市南区清水2-2-18にある総合買取の店舗です（西鉄「高宮駅」徒歩14分・博多駅から車で約10分）。店頭受付は10:30〜18:30・年中無休（年末年始を除く）で、宅配買取・出張買取・店頭買取に対応し、店頭買取はその場で現金払いです。楽器は家電・カメラなどと並ぶ買取品目のひとつです。</p>
 
           <h3>福岡市内その他のエリア</h3>
           <p><strong>福岡楽器買取センター（楽器王福岡店）</strong>は福岡エリアに特化した地域密着型の買取店です。AI即時査定システムを導入しており、見積もり・相談だけでも利用可能です。福岡市内全域を対象に出張買取も行っています。</p>
@@ -190,14 +190,14 @@ export default function FukuokaGakkiKaitoriPage() {
 
           <p>福岡には全国チェーンの大手楽器店から地元密着の専門店まで、多くの楽器買取店があります。主要な買取店の特徴をまとめました。</p>
 
-          <h3>イシバシ楽器 福岡パルコ店 ── 天神駅直結の老舗</h3>
+          <h3>イシバシ楽器 福岡店（福岡パルコ8F） ── 天神駅直結の老舗</h3>
           <p>福岡パルコ8Fに位置し、天神駅から直結でアクセス抜群です。80年以上の歴史を持ち、商品によっては価格保証がついています。ギター・ベース・管楽器・電子楽器まで幅広く買取に対応しており、ヴィンテージ品の査定にも定評があります。営業時間は10:00〜20:30と長めで、仕事帰りにも立ち寄りやすい店舗です。</p>
 
           <h3>クロサワ楽器 福岡ミーナ天神店 ── 九州初上陸の専門店</h3>
-          <p>九州初のクロサワ楽器店舗として、ギター・ベース・管楽器の専門知識を持ったスタッフが在籍しています。店内のリペア工房で修理歴のある楽器も正確に評価できるのが強みです。買取だけでなく下取にも対応しており、新しい楽器への買い替えを検討している方にもおすすめです。</p>
+          <p>九州初のクロサワ楽器店舗で、公式では「ギター・ベース専門店」と案内しています（管楽器の売り場はありません）。店内にはリペア工房を併設していますが、修理の新規受付は一時停止中です（2026年10月27日 公式のお知らせ）。買取だけでなく下取にも対応しており、新しい楽器への買い替えを検討している方にもおすすめです。</p>
 
           <h3>島村楽器 アミュプラザ博多店 ── 博多駅直結の総合楽器店</h3>
-          <p>JR博多駅ビル直結で、出張や旅行の際にも立ち寄りやすい好立地です。中古楽器の販売・買取・下取を扱っており、査定は無料。10万円未満はその場で現金支払い対応です。電子ピアノやドラムなど大型楽器の買取も受け付けています。</p>
+          <p>JR博多駅ビル直結で、出張や旅行の際にも立ち寄りやすい好立地です。中古楽器の販売・買取・下取を扱っており、査定は無料。買取代金は銀行振込のみで、現金払いはありません。電子ピアノやドラムなど大型楽器の買取も受け付けています。</p>
 
           <h3>福岡楽器買取センター（楽器王）── 地域密着型</h3>
           <p>福岡エリアに特化した買取店で、AI即時査定システムを導入しています。地元の相場に精通しており、福岡ならではの需要を反映した査定が期待できます。見積もり・相談だけの利用も歓迎しています。</p>
@@ -267,11 +267,11 @@ export default function FukuokaGakkiKaitoriPage() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
-              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">天神ならイシバシ楽器・クロサワ楽器で店頭買取、博多なら島村楽器で店頭買取が便利。福岡市内ならウリエルの出張買取も即日対応可能です。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">買取方法を選択</h3><p className="text-sm text-warm-gray">天神ならイシバシ楽器・クロサワ楽器で店頭買取、博多なら島村楽器で店頭買取が便利。福岡県内ならウリエルの出張買取も使えます（訪問は最短翌日以降）。</p></div>
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
-              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物を確認して正式な買取額を提示。店頭買取なら即現金支払い（島村楽器は10万円未満まで）、出張買取でもその場で現金化可能です。</p></div>
+              <div><h3 className="font-bold text-sm mb-1">本査定・買取成立</h3><p className="text-sm text-warm-gray">実物を確認して正式な買取額を提示。イシバシ楽器などの店頭買取は即現金払い（島村楽器は銀行振込のみ）、ウリエルの出張買取もその場で現金払いです。</p></div>
             </div>
           </div>
 
@@ -301,7 +301,7 @@ export default function FukuokaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは福岡市内への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、福岡からは宅配買取になります。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。また、中古楽器堂 福岡博多店も出張買取専門で対応しています。出張料・査定料は無料です。
+                ウリエルは福岡県（一部対応できない市町村あり）への出張買取に対応しています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、福岡からは宅配買取になります。なお、ティファナの宅配買取は2026年10月26日時点で一時停止中です（公式のお知らせ）。また、中古楽器堂 福岡博多店も出張買取専門で対応しています。出張料・査定料は無料です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -319,7 +319,7 @@ export default function FukuokaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、可能です。島村楽器アミュプラザ博多店では10万円未満ならその場で現金支払い対応。イシバシ楽器やウリエルの出張買取でも即日現金化が可能です。
+                店頭買取なら可能です。イシバシ楽器 福岡店（福岡パルコ8F）の店頭買取は即日現金払い、高く売れるドットコム 福岡リユースセンターも店頭はその場で現金払いです。ウリエルの出張買取も成約後その場で現金払いですが、訪問は最短で翌日以降です。島村楽器（アミュプラザ博多店を含む）は買取代金が銀行振込のみで、現金払いはありません（いずれも2026年10月27日 公式で確認）。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -328,7 +328,7 @@ export default function FukuokaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                大型楽器はウリエルの出張買取がおすすめです。福岡市内に対応しており、搬出作業も査定士が行います。出張料・搬出料は無料です。
+                大型楽器はウリエルの出張買取がおすすめです。出張エリアは福岡県（一部対応できない市町村あり）で、大きな品物も買取可能です（申込時におおよその大きさを伝えます）。出張料・査定料は無料です。
               </div>
             </details>
           </div>
