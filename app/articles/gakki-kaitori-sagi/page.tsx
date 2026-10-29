@@ -42,7 +42,7 @@ function FaqSchema() {
       { "@type": "Question", name: "楽器買取のトラブルはどこに相談すればよいですか？", acceptedAnswer: { "@type": "Answer", text: "消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出してください。" } },
       { "@type": "Question", name: "信頼できる買取業者の見分け方は？", acceptedAnswer: { "@type": "Answer", text: "古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点をご確認ください。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-10-29", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点\", \"item\": \"https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/\"}]}" }} /></>);
 }
@@ -60,7 +60,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器買取で詐欺やトラブルに遭わないための注意点を解説します。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月29日</p>
         </header>
 
         <div className="article-body">
@@ -76,7 +76,7 @@ export default function Page() {
 
           <h3>パターン2: 宅配買取で返送時に高額な送料を請求</h3>
           <p>「送料無料」と謳いながら、査定後にキャンセルすると高額な返送料を請求されるケースです。楽器は大きく重いため、返送料が5,000〜10,000円になることもあります。</p>
-          <p><strong>対策:</strong> 申し込み前に「キャンセル時の返送料」を必ずご確認ください。本記事で紹介している3社（ヒカカク！・ティファナ・ウリエル）はすべてキャンセル料・返送料が無料です。</p>
+          <p><strong>対策:</strong> 申し込み前に「キャンセル時の返送料」を必ずご確認ください。本記事で紹介している3社の公式サイトの表記（2026年10月29日確認）は次のとおりです。ティファナの宅配買取は、返却を希望した場合の送料を同社が負担します（取扱対象外の品物は利用者の送料負担。宅配買取は現在一時停止中）。ウリエルは宅配買取を行っておらず、出張・店頭・催事での買取です。ヒカカク！は一括査定の窓口で、利用は無料ですが、返送料などの条件は実際に依頼する業者ごとに異なります。</p>
 
           <h3>パターン3: 出張買取での強引な買い取り</h3>
           <p>出張査定に来た業者が、査定額に納得していないのに「もう来たので」「今日中に決めてくれれば」などと言って、強引に買取を迫るケースです。</p>
@@ -84,7 +84,7 @@ export default function Page() {
 
           <h3>パターン4: 楽器の価値を知らない業者による過小評価</h3>
           <p>これは詐欺ではありませんが、楽器の知識が乏しい総合リサイクルショップに持ち込んだ結果、ヴィンテージギターやプロ仕様の管楽器が数千円で買い叩かれるケースです。</p>
-          <p><strong>対策:</strong> 楽器は必ず楽器に詳しい専門業者に査定を出してください。ヒカカク！なら楽器専門の買取業者に査定を依頼できます。</p>
+          <p><strong>対策:</strong> 楽器は必ず楽器に詳しい専門業者に査定を出してください。ヒカカク！では最大20社に一括で査定を依頼でき、複数の業者の査定額を比べられます。</p>
 
           <h3>パターン5: 個人間取引（フリマアプリ）でのトラブル</h3>
           <p>メルカリやヤフオクで楽器を売る際、「商品が説明と違う」とクレームをつけられ、返品・返金を強要されるケースがあります。楽器は状態の判断が主観的な部分もあるため、トラブルになりやすいジャンルです。</p>
@@ -147,12 +147,12 @@ export default function Page() {
           </ul>
 
           <h2 id="safe">安心して利用できる買取サービス3選</h2>
-          <p>本記事で紹介している3社は、すべて<strong>査定料・出張料・送料・キャンセル料が無料</strong>で、安心して利用できるサービスです。</p>
+          <p>本記事で紹介している3社の料金を、公式サイトの表記で整理しました（2026年10月29日確認）。<strong>いずれも査定は無料</strong>です。返送料など、業者によって条件が異なる項目は申し込み前にご確認ください。</p>
           <div className="table-wrapper mb-6"><table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden"><thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">ヒカカク！</th><th className="px-4 py-3 text-left font-medium">ティファナ</th><th className="px-4 py-3 text-left font-medium">ウリエル</th></tr></thead><tbody className="divide-y divide-warm-border">
             <tr className="bg-white"><td className="px-4 py-3 font-medium">査定料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
             <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">出張料</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-            <tr className="bg-white"><td className="px-4 py-3 font-medium">キャンセル料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
-            <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">返送料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
+            <tr className="bg-white"><td className="px-4 py-3 font-medium">キャンセル料</td><td className="px-4 py-3">利用は無料（査定額に納得しなければ買取依頼は不要）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
+            <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">返送料</td><td className="px-4 py-3">依頼先の業者による</td><td className="px-4 py-3">無料（取扱対象外の品物は自己負担・宅配買取は一時停止中）</td><td className="px-4 py-3">—（宅配買取なし）</td></tr>
           </tbody></table></div>
 
           <CtaBox />

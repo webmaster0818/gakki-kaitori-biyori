@@ -39,10 +39,10 @@ function FaqSchema() {
       { "@type": "Question", name: "KAWAIアップライトピアノの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行Kシリーズで5万〜30万円、旧BLシリーズで1万〜8万円が目安です。年式・状態・モデルで大きく変動します。" } },
       { "@type": "Question", name: "KAWAI電子ピアノのCAシリーズの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "CAシリーズは3万〜15万円が目安です。木製鍵盤搭載で人気が高く、中古市場でも安定した需要があります。" } },
       { "@type": "Question", name: "KAWAIピアノを高く売るコツは？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、椅子や付属品を揃える、クリーニングする、調律履歴を伝える、の4つが重要です。" } },
-      { "@type": "Question", name: "大型のKAWAIピアノを出張買取できますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルの出張買取ならグランドピアノやアップライトピアノも自宅で査定・買取が完結します。査定料・出張料は無料です。" } },
+      { "@type": "Question", name: "大型のKAWAIピアノを出張買取できますか？", acceptedAnswer: { "@type": "Answer", text: "ウリエルの出張買取は出張料・査定料が無料で、大きい品物も買取可能としています（申し込み時におおよその大きさを伝える・後日の引き取りになる場合あり）。ただし、公式の楽器買取ページに挙がっている主な買取対象（ギター・ベース、弦楽器、管楽器、和楽器、デジタル楽器）にピアノは含まれていないため、グランドピアノ・アップライトピアノは申し込み時に対応できるかをご確認ください（2026年10月29日確認）。" } },
       { "@type": "Question", name: "古いKAWAIピアノでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古いモデルでも買取可能です。KAWAIの旧モデル（BL・US・BSシリーズ等）は今でも需要があります。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場", datePublished: "2026-04-26", dateModified: "2026-10-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場", datePublished: "2026-04-26", dateModified: "2026-10-29", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/kawai-kaitori/\"}]}" }} /></>);
 }
@@ -60,7 +60,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場</h1>
           <p className="text-warm-gray text-sm leading-relaxed">KAWAI（カワイ/河合楽器）のピアノ・電子ピアノを売りたい方へ。本記事では、KAWAI製品の買取に強い3社を比較し、グランドピアノ・アップライトピアノ・電子ピアノのシリーズ別買取相場、高く売るコツまで詳しく解説します。KAWAIは1927年創業の日本を代表するピアノメーカーで、YAMAHAと並ぶ国産ピアノの二大ブランドです。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月29日</p>
         </header>
 
         <div className="article-body">
@@ -79,7 +79,7 @@ export default function Page() {
 
           <h2 id="about">KAWAIブランドの特徴 ── 国産ピアノの名門</h2>
           <p>河合楽器製作所（KAWAI）は1927年に河合小市が静岡県浜松市で創業したピアノメーカーです。グランドピアノ「Shigeru Kawai」は<strong>世界のコンサートホールで採用される</strong>トップクラスの楽器であり、電子ピアノのCAシリーズは木製鍵盤による本格的なタッチ感で高い評価を受けています。</p>
-          <p>KAWAIの特徴は<strong>ABS樹脂製アクション部品やカーボンファイバー入りハンマー</strong>など、独自の素材技術です。木材の経年変化の影響を受けにくい設計で、中古品でも安定した品質を保っています。</p>
+          <p>KAWAIの特徴は、グランドピアノのアクションに<strong>カーボンファイバー入りの樹脂素材</strong>を用いるなど、独自の素材技術です（公式サイトの「ウルトラ・レスポンシブ・アクションⅡ」の説明）。</p>
 
           <CtaBox />
 
@@ -127,14 +127,14 @@ export default function Page() {
           <h3>コツ4: 調律履歴を伝える</h3>
           <p>アコースティックピアノの場合、定期的に調律していたかどうかは重要な査定ポイントです。調律履歴がある場合は伝えてください。</p>
           <h3>コツ5: 大型ピアノは出張買取を活用</h3>
-          <p>グランドピアノやアップライトピアノは運搬が困難です。ウリエルの出張買取なら自宅で完結するため最も便利です。</p>
+          <p>グランドピアノやアップライトピアノは運搬が困難なため、自宅で査定を受けられる出張買取が向いています。ウリエルは大きい品物も買取可能としていますが、ピアノは主な買取対象に挙がっていないため、申し込み時に対応できるかをご確認ください。ピアノを扱う業者は、ヒカカク！の一括査定でも探せます。</p>
 
           <h2 id="faq">KAWAI買取に関するよくある質問</h2>
           <div className="space-y-4 mt-6">
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAIアップライトピアノの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">現行Kシリーズで5万〜30万円、旧BLシリーズで1万〜8万円が目安です。年式・状態・モデルで大きく変動します。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAI電子ピアノのCAシリーズの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">CAシリーズは3万〜15万円が目安です。木製鍵盤搭載で人気が高く、中古市場でも安定した需要があります。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAIピアノを高く売るコツは？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">複数業者に査定を依頼する、椅子や付属品を揃える、クリーニングする、調律履歴を伝える、の4つが重要です。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">大型のKAWAIピアノを出張買取できますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ウリエルの出張買取ならグランドピアノやアップライトピアノも自宅で査定・買取が完結します。査定料・出張料は無料です。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">大型のKAWAIピアノを出張買取できますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ウリエルの出張買取は出張料・査定料が無料で、大きい品物も買取可能としています（申し込み時におおよその大きさを伝える・後日の引き取りになる場合あり）。ただし、公式の楽器買取ページに挙がっている主な買取対象（ギター・ベース、弦楽器、管楽器、和楽器、デジタル楽器）にピアノは含まれていないため、グランドピアノ・アップライトピアノは申し込み時に対応できるかをご確認ください（2026年10月29日確認）。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">古いKAWAIピアノでも買い取ってもらえますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、古いモデルでも買取可能です。KAWAIの旧モデル（BL・US・BSシリーズ等）は今でも需要があります。</div></details>
           </div>
 
@@ -142,7 +142,7 @@ export default function Page() {
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
             <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（宅配は一時停止中）</li>
-            <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
+            <li><strong>自宅で査定を受けたい</strong> → 出張買取（ウリエルはピアノの対応可否を申し込み時に確認）</li>
           </ul>
           <CtaBox />
         </div>
