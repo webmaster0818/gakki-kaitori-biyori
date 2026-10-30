@@ -36,13 +36,13 @@ function CtaBox() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "KAWAIアップライトピアノの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "現行Kシリーズで5万〜30万円、旧BLシリーズで1万〜8万円が目安です。年式・状態・モデルで大きく変動します。" } },
-      { "@type": "Question", name: "KAWAI電子ピアノのCAシリーズの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "CAシリーズは3万〜15万円が目安です。木製鍵盤搭載で人気が高く、中古市場でも安定した需要があります。" } },
+      { "@type": "Question", name: "KAWAIアップライトピアノの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Kシリーズ（現行のK-200/K-300/K-500と旧型番のK-800等）で5万〜30万円、旧BLシリーズで1万〜8万円が目安です。年式・状態・モデルで大きく変動します。" } },
+      { "@type": "Question", name: "KAWAI電子ピアノのCAシリーズの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "CAシリーズ（CA49/CA59/CA79/CA99等の旧世代の型番を含む）は3万〜15万円が目安です。現行モデルはCA401/CA501/CA701/CA901です（河合楽器製作所の製品情報・2026年10月30日確認）。木製鍵盤搭載で人気が高く、中古市場でも安定した需要があります。" } },
       { "@type": "Question", name: "KAWAIピアノを高く売るコツは？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、椅子や付属品を揃える、クリーニングする、調律履歴を伝える、の4つが重要です。" } },
       { "@type": "Question", name: "大型のKAWAIピアノを出張買取できますか？", acceptedAnswer: { "@type": "Answer", text: "ウリエルの出張買取は出張料・査定料が無料で、大きい品物も買取可能としています（申し込み時におおよその大きさを伝える・後日の引き取りになる場合あり）。ただし、公式の楽器買取ページに挙がっている主な買取対象（ギター・ベース、弦楽器、管楽器、和楽器、デジタル楽器）にピアノは含まれていないため、グランドピアノ・アップライトピアノは申し込み時に対応できるかをご確認ください（2026年10月29日確認）。" } },
       { "@type": "Question", name: "古いKAWAIピアノでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、古いモデルでも買取可能です。KAWAIの旧モデル（BL・US・BSシリーズ等）は今でも需要があります。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場", datePublished: "2026-04-26", dateModified: "2026-10-29", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場", datePublished: "2026-04-26", dateModified: "2026-10-30", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/kawai-kaitori/\"}]}" }} /></>);
 }
@@ -60,7 +60,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年10月 週次相場更新】KAWAI買取おすすめ3社比較｜ピアノ・電子ピアノの相場</h1>
           <p className="text-warm-gray text-sm leading-relaxed">KAWAI（カワイ/河合楽器）のピアノ・電子ピアノを売りたい方へ。本記事では、KAWAI製品の買取に強い3社を比較し、グランドピアノ・アップライトピアノ・電子ピアノのシリーズ別買取相場、高く売るコツまで詳しく解説します。KAWAIは1927年創業の日本を代表するピアノメーカーで、YAMAHAと並ぶ国産ピアノの二大ブランドです。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月29日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月30日</p>
         </header>
 
         <div className="article-body">
@@ -93,19 +93,21 @@ export default function Page() {
 
           <h2 id="upright">KAWAIアップライトピアノの買取相場</h2>
           <div className="table-wrapper mb-6"><table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden"><thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">シリーズ</th><th className="px-4 py-3 text-left font-medium">買取相場</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead><tbody className="divide-y divide-warm-border">
-            <tr className="bg-white"><td className="px-4 py-3">Kシリーズ（K-200/K-300/K-500/K-800）</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜30万円</td><td className="px-4 py-3 text-warm-gray">現行ライン。サイズで変動</td></tr>
+            <tr className="bg-white"><td className="px-4 py-3">Kシリーズ（K-200/K-300/K-500/K-800）</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜30万円</td><td className="px-4 py-3 text-warm-gray">K-200/K-300/K-500は現行ライン（現行はほかにK-400/K-700）。K-800は公式の現行一覧に無い旧型番。サイズで変動</td></tr>
             <tr className="bg-cream/50"><td className="px-4 py-3">BLシリーズ（旧モデル）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜8万円</td><td className="px-4 py-3 text-warm-gray">初心者向けの定番</td></tr>
             <tr className="bg-white"><td className="px-4 py-3">USシリーズ（旧モデル）</td><td className="px-4 py-3 text-gold-dark font-bold">2万〜10万円</td><td className="px-4 py-3 text-warm-gray">上位アップライト</td></tr>
             <tr className="bg-cream/50"><td className="px-4 py-3">BSシリーズ（旧モデル）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜5万円</td><td className="px-4 py-3 text-warm-gray">コンパクトモデル</td></tr>
           </tbody></table></div>
+          <p className="text-xs text-warm-gray -mt-4 mb-6">「旧モデル」と記したシリーズと K-800 は、河合楽器製作所の現行製品一覧に掲載がありません（2026年10月30日確認）。</p>
 
           <h2 id="digital">KAWAI電子ピアノの買取相場</h2>
           <div className="table-wrapper mb-6"><table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden"><thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">シリーズ</th><th className="px-4 py-3 text-left font-medium">買取相場</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead><tbody className="divide-y divide-warm-border">
-            <tr className="bg-white"><td className="px-4 py-3">CAシリーズ（木製鍵盤）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜15万円</td><td className="px-4 py-3 text-warm-gray">CA49/CA59/CA79/CA99等</td></tr>
-            <tr className="bg-cream/50"><td className="px-4 py-3">CNシリーズ</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜5万円</td><td className="px-4 py-3 text-warm-gray">CN29/CN39等。エントリー</td></tr>
-            <tr className="bg-white"><td className="px-4 py-3">ESシリーズ（ポータブル）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜4万円</td><td className="px-4 py-3 text-warm-gray">ES920等。軽量</td></tr>
-            <tr className="bg-cream/50"><td className="px-4 py-3">NVシリーズ（NOVUS）</td><td className="px-4 py-3 text-gold-dark font-bold">15万〜40万円</td><td className="px-4 py-3 text-warm-gray">ハイブリッドピアノ</td></tr>
+            <tr className="bg-white"><td className="px-4 py-3">CAシリーズ（木製鍵盤）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜15万円</td><td className="px-4 py-3 text-warm-gray">CA49/CA59/CA79/CA99等の旧世代の型番（現行はCA401/CA501/CA701/CA901）</td></tr>
+            <tr className="bg-cream/50"><td className="px-4 py-3">CNシリーズ</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜5万円</td><td className="px-4 py-3 text-warm-gray">CN29/CN39等の旧世代の型番。エントリー（後継のCN201/CN301も公式で生産終了と表示）</td></tr>
+            <tr className="bg-white"><td className="px-4 py-3">ESシリーズ（ポータブル）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜4万円</td><td className="px-4 py-3 text-warm-gray">ES920等（ES920は現行モデル）。軽量</td></tr>
+            <tr className="bg-cream/50"><td className="px-4 py-3">NVシリーズ（NOVUS）</td><td className="px-4 py-3 text-gold-dark font-bold">15万〜40万円</td><td className="px-4 py-3 text-warm-gray">ハイブリッドピアノ（現行はNV6/NV12。NV5S/NV10Sは公式で生産終了と表示）</td></tr>
           </tbody></table></div>
+          <p className="text-xs text-warm-gray -mt-4 mb-6">備考欄の型番には、現行モデルと旧世代の型番が混在しています。現行かどうかは河合楽器製作所の製品情報ページ（各シリーズの製品一覧・「生産終了」表示）で確認しました（2026年10月30日確認）。買取相場の金額は従来の掲載値のままで、型番ごとの相場ではありません。</p>
 
           <p>KAWAIの電子ピアノは<strong>木製鍵盤のCAシリーズが特に人気</strong>で、中古市場でも安定した需要があります。ピアノ教室でも推奨されるモデルが多く、初心者〜上級者まで幅広い層に需要があります。</p>
 
@@ -131,8 +133,8 @@ export default function Page() {
 
           <h2 id="faq">KAWAI買取に関するよくある質問</h2>
           <div className="space-y-4 mt-6">
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAIアップライトピアノの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">現行Kシリーズで5万〜30万円、旧BLシリーズで1万〜8万円が目安です。年式・状態・モデルで大きく変動します。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAI電子ピアノのCAシリーズの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">CAシリーズは3万〜15万円が目安です。木製鍵盤搭載で人気が高く、中古市場でも安定した需要があります。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAIアップライトピアノの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Kシリーズ（現行のK-200/K-300/K-500と旧型番のK-800等）で5万〜30万円、旧BLシリーズで1万〜8万円が目安です。年式・状態・モデルで大きく変動します。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAI電子ピアノのCAシリーズの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">CAシリーズ（CA49/CA59/CA79/CA99等の旧世代の型番を含む）は3万〜15万円が目安です。現行モデルはCA401/CA501/CA701/CA901です（河合楽器製作所の製品情報・2026年10月30日確認）。木製鍵盤搭載で人気が高く、中古市場でも安定した需要があります。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">KAWAIピアノを高く売るコツは？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">複数業者に査定を依頼する、椅子や付属品を揃える、クリーニングする、調律履歴を伝える、の4つが重要です。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">大型のKAWAIピアノを出張買取できますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ウリエルの出張買取は出張料・査定料が無料で、大きい品物も買取可能としています（申し込み時におおよその大きさを伝える・後日の引き取りになる場合あり）。ただし、公式の楽器買取ページに挙がっている主な買取対象（ギター・ベース、弦楽器、管楽器、和楽器、デジタル楽器）にピアノは含まれていないため、グランドピアノ・アップライトピアノは申し込み時に対応できるかをご確認ください（2026年10月29日確認）。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">古いKAWAIピアノでも買い取ってもらえますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、古いモデルでも買取可能です。KAWAIの旧モデル（BL・US・BSシリーズ等）は今でも需要があります。</div></details>
