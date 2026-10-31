@@ -59,11 +59,11 @@ export default function Page() {
         <header className="mb-8" style={{ ["--subhero" as string]: "url(/images/subhero/inst-grand-piano.webp)", ["--subhero-m" as string]: "url(/images/subhero/inst-grand-piano-m.webp)" }}>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">ピアノ</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年10月更新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年11月更新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">グランドピアノの買取相場と高く売るガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">グランドピアノ（Grand Piano）はホール用大型からリビング向けまでサイズ別。ヤマハ・カワイ・スタインウェイが三大ブランド。本記事では、メーカー別の買取相場、状態別の査定額、高く売る5つのコツ、おすすめ買取業者3社を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

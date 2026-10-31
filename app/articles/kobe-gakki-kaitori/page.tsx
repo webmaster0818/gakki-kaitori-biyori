@@ -5,7 +5,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/' },
-  title: "神戸の楽器買取はどこがいい？三宮の専門店・近くの店・出張の選び方とおすすめ業者【2026年10月】",
+  title: "神戸の楽器買取はどこがいい？三宮の専門店・近くの店・出張の選び方とおすすめ業者【2026年11月】",
   description:
     "神戸で楽器を売るならどこがいい？神戸対応の楽器買取おすすめ3社を比較します。三宮・元町・ハーバーランドなどエリア別の買取事情、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-10-18",
+    dateModified: "2026-11-01",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,7 +109,7 @@ export default function KobeGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             神戸で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月18日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -322,7 +322,7 @@ export default function KobeGakkiKaitoriPage() {
           </div>
 
           <h2 id="local-shops">神戸の主要楽器買取店ガイド（店頭・出張・宅配）</h2>
-          <p>神戸で楽器を売れる主な買取店を、2026年10月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
+          <p>神戸で楽器を売れる主な買取店を、2026年11月時点で各社公式の店舗情報から整理しました。価格・在庫・担当状況は変わるため、来店・依頼前に各公式で最新をご確認ください。</p>
           <h3>Qsic（キュージック）神戸本店 ── 三宮町さんプラザ3F（三宮・元町から徒歩圏）</h3>
           <p>買取方式：店頭/出張/宅配（宅配は当店着払いで送料無料）。神戸の中古楽器専門店。弦楽器中心(Gibson/Fender/Martin、ヴィンテージも)。営業時間は平日12:00〜19:00・土日祝11:00〜19:30、水曜定休（祝日の場合は翌日）。試奏動画配信（<a href="https://www.qsic.jp/?mode=f9" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 三宮オーパ店 ── 三宮オーパ5F・7F（三宮駅）</h3>

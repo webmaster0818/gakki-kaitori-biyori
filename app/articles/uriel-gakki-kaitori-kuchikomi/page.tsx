@@ -6,7 +6,7 @@ import { URIEL } from "@/data/affiliate";
 const UPDATED = "2026-10-09";
 const UPDATED_JA = "2026年10月9日";
 const URL = "https://gakkikaitori-biyori.com/articles/uriel-gakki-kaitori-kuchikomi/";
-const TITLE = "ウリエルの楽器買取 口コミ・評判は？出張エリア・手数料・流れ・注意点【2026年10月最新】";
+const TITLE = "ウリエルの楽器買取 口コミ・評判は？出張エリア・手数料・流れ・注意点【2026年11月最新】";
 const DESC =
   "ウリエルの楽器買取の口コミ・評判を、ヒカカク！の第三者クチコミ（3件・2.67点）と公式「お客様の声」の傾向から出典付きで整理。出張エリア・手数料・キャンセル・クーリングオフ、楽器を出す流れと注意点も解説します。";
 
@@ -122,7 +122,7 @@ export default function UrielGakkiKuchikomiPage() {
         <header className="mb-8" style={{ ["--subhero" as string]: "url(/images/subhero/howto-uriel-gakki-kaitori-kuchikomi.webp)", ["--subhero-m" as string]: "url(/images/subhero/howto-uriel-gakki-kaitori-kuchikomi-m.webp)" }}>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">サービス評判</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年10月最新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年11月最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ウリエルの楽器買取 口コミ・評判は？出張エリア・手数料・流れ・注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">

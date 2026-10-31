@@ -5,9 +5,9 @@ import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagoya-nakagawa-gakki-kaitori/' },
-  title: "名古屋市中川区の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】",
+  title: "名古屋市中川区の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】",
   description: "名古屋市中川区で楽器を売る際の近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。中区（栄）の店舗への持ち込みルートも解説します。無料査定のみの利用も可能です。",
-  openGraph: { images: ["/og-image.png"], title: "名古屋市中川区の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】", description: "名古屋市中川区で楽器を売る際の近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。中区（栄）の店舗への持ち込みルートも解説します。無料査定のみの利用も可能です。" },
+  openGraph: { images: ["/og-image.png"], title: "名古屋市中川区の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】", description: "名古屋市中川区で楽器を売る際の近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。中区（栄）の店舗への持ち込みルートも解説します。無料査定のみの利用も可能です。" },
 };
 
 function Schema() {

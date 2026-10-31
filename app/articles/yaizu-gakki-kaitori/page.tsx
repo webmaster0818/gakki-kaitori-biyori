@@ -5,9 +5,9 @@ import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yaizu-gakki-kaitori/' },
-  title: "焼津市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】",
+  title: "焼津市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】",
   description: "焼津市で楽器を売る際の市内に楽器買取専門店がない場合の近隣店頭・出張買取・宅配買取の選び方とおすすめ3社を比較します。近隣のハードオフや出張対応業者も解説します。無料査定のみの利用も可能です。",
-  openGraph: { images: ["/og-image.png"], title: "焼津市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】", description: "焼津市で楽器を売る際の市内に楽器買取専門店がない場合の近隣店頭・出張買取・宅配買取の選び方とおすすめ3社を比較します。近隣のハードオフや出張対応業者も解説します。無料査定のみの利用も可能です。" },
+  openGraph: { images: ["/og-image.png"], title: "焼津市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】", description: "焼津市で楽器を売る際の市内に楽器買取専門店がない場合の近隣店頭・出張買取・宅配買取の選び方とおすすめ3社を比較します。近隣のハードオフや出張対応業者も解説します。無料査定のみの利用も可能です。" },
 };
 
 function Schema() {

@@ -6,7 +6,7 @@ const PUBLISHED = "2026-10-08";
 const UPDATED = "2026-10-09";
 const UPDATED_JA = "2026年10月9日";
 const URL = "https://gakkikaitori-biyori.com/articles/hikakaku-gakki-kaitori-kuchikomi/";
-const TITLE = "ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点【2026年10月最新】";
+const TITLE = "ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点【2026年11月最新】";
 const DESC =
   "ヒカカク！で楽器を売る前に知りたい口コミ・評判を、公式クチコミの評価分布（総合3.4・1,083件）と傾向から出典付きで整理。無料・最大20社の一括査定の仕組み、楽器カテゴリ（1,117社掲載）の使い方、ギター・ピアノを出す流れ、キャンセル・電話連絡の注意点、向いている人まで解説します。";
 
@@ -116,7 +116,7 @@ export default function HikakakuGakkiKuchikomiPage() {
         <header className="mb-8" style={{ ["--subhero" as string]: "url(/images/subhero/howto-hikakaku-gakki-kaitori-kuchikomi.webp)", ["--subhero-m" as string]: "url(/images/subhero/howto-hikakaku-gakki-kaitori-kuchikomi-m.webp)" }}>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">サービス評判</span>
-            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年10月最新</span>
+            <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年11月最新</span>
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">

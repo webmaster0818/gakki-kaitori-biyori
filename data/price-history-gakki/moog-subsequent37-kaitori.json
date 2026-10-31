@@ -109,10 +109,10 @@
     }
   ],
   "latest": {
-    "date": "2026-10-26",
-    "median_jpy": 242273,
-    "sample_n": 4,
-    "raw_n": 5,
+    "date": "2026-11-01",
+    "median_jpy": 232547,
+    "sample_n": 3,
+    "raw_n": 3,
     "dedup": true,
     "insufficient": true
   },

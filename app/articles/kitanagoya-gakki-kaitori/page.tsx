@@ -5,9 +5,9 @@ import SameGroupArticles from "@/components/SameGroupArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kitanagoya-gakki-kaitori/' },
-  title: "北名古屋市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】",
+  title: "北名古屋市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】",
   description: "北名古屋市で楽器を売る際の市内・近隣の店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。近隣のハードオフ名古屋空港通店や出張対応業者も解説します。無料査定のみの利用も可能です。",
-  openGraph: { images: ["/og-image.png"], title: "北名古屋市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年10月】", description: "北名古屋市で楽器を売る際の市内・近隣の店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。近隣のハードオフ名古屋空港通店や出張対応業者も解説します。無料査定のみの利用も可能です。" },
+  openGraph: { images: ["/og-image.png"], title: "北名古屋市の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】", description: "北名古屋市で楽器を売る際の市内・近隣の店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。近隣のハードオフ名古屋空港通店や出張対応業者も解説します。無料査定のみの利用も可能です。" },
 };
 
 function Schema() {
