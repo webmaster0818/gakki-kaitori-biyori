@@ -70,7 +70,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年10月最新】電子ピアノ買取相場ガイド｜YAMAHA・Roland・KAWAI別",
     datePublished: "2026-04-18",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-31",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -100,7 +100,7 @@ export default function DenshiPianoKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             使わなくなった電子ピアノ、そのまま眠らせていませんか？電子ピアノは技術の進化が早く、年数が経つほど価値が下がります。本記事では、YAMAHA・Roland・KAWAIの3大メーカー別に買取相場を解説し、年式による価格差や高く売るためのポイントをお伝えします。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年10月31日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -136,38 +136,41 @@ export default function DenshiPianoKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3">CLP-785</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜18万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤・最上位</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">CLP-775</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">7万〜14万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤・人気モデル</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">CLP-745</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜10万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤・スタンダード</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">CLP-735</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜7万円</td><td className="px-4 py-3 text-warm-gray">樹脂鍵盤・エントリー</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">CLP-685</td><td className="px-4 py-3">2017</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜10万円</td><td className="px-4 py-3 text-warm-gray">旧世代最上位</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">CLP-675</td><td className="px-4 py-3">2017</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜7万円</td><td className="px-4 py-3 text-warm-gray">旧世代人気モデル</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">CLP-635</td><td className="px-4 py-3">2017</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜4万円</td><td className="px-4 py-3 text-warm-gray">旧世代エントリー</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">CLP-785</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜18万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤・旧世代（CLP-700シリーズ）の最上位</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">CLP-775</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">7万〜14万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤・旧世代（CLP-700シリーズ）の人気モデル</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">CLP-745</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜10万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤・旧世代（CLP-700シリーズ）のスタンダード</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">CLP-735</td><td className="px-4 py-3">2021</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜7万円</td><td className="px-4 py-3 text-warm-gray">樹脂鍵盤・旧世代（CLP-700シリーズ）のエントリー</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">CLP-685</td><td className="px-4 py-3">2017</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜10万円</td><td className="px-4 py-3 text-warm-gray">CLP-600シリーズ（旧世代）の最上位</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">CLP-675</td><td className="px-4 py-3">2017</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜7万円</td><td className="px-4 py-3 text-warm-gray">CLP-600シリーズ（旧世代）の人気モデル</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">CLP-635</td><td className="px-4 py-3">2017</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜4万円</td><td className="px-4 py-3 text-warm-gray">CLP-600シリーズ（旧世代）のエントリー</td></tr>
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-warm-gray -mt-4 mb-6">表のモデルはすべて旧世代です。現行のCLPはCLP-800シリーズ（CLP-825/835/845/875/885等）で、ヤマハのClavinova製品一覧にCLP-700・CLP-600シリーズの掲載はありません（2026年10月31日確認）。買取相場の金額は従来の掲載値のままです。</p>
 
           <h3>Clavinova CVPシリーズ</h3>
 
           <p>CVPシリーズは多機能モデルで、伴奏機能やレッスン機能が充実しています。中古市場でも根強い人気があります。</p>
 
           <ul>
-            <li><strong>CVP-809</strong>: 15万〜25万円（最新フラッグシップ）</li>
-            <li><strong>CVP-805</strong>: 10万〜18万円</li>
-            <li><strong>CVP-709</strong>: 5万〜12万円（旧世代でも高額）</li>
-            <li><strong>CVP-705</strong>: 3万〜8万円</li>
+            <li><strong>CVP-809</strong>: 15万〜25万円（旧世代のCVP-800シリーズのフラッグシップ）</li>
+            <li><strong>CVP-805</strong>: 10万〜18万円（旧世代）</li>
+            <li><strong>CVP-709</strong>: 5万〜12万円（さらに前のCVP-700シリーズ。旧世代でも高額）</li>
+            <li><strong>CVP-705</strong>: 3万〜8万円（旧世代）</li>
           </ul>
+          <p className="text-xs text-warm-gray">現行のCVPはCVP-905/CVP-909です（ヤマハのClavinova製品一覧（2026年10月31日確認））。</p>
 
           <h3>YAMAHA Pシリーズ（ポータブル）</h3>
 
           <p>Pシリーズはポータブルタイプの電子ピアノで、スタンドなしのコンパクトな設計が特徴です。買取価格はやや低めですが、宅配買取に対応しやすいメリットがあります。</p>
 
           <ul>
-            <li><strong>P-515</strong>: 2万〜5万円（木製鍵盤ポータブル）</li>
-            <li><strong>P-225</strong>: 1万〜3万円</li>
-            <li><strong>P-145</strong>: 5,000〜1.5万円</li>
+            <li><strong>P-515</strong>: 2万〜5万円（木製鍵盤ポータブル・旧モデル）</li>
+            <li><strong>P-225</strong>: 1万〜3万円（現行モデル）</li>
+            <li><strong>P-145</strong>: 5,000〜1.5万円（現行モデル）</li>
             <li><strong>P-125（旧モデル）</strong>: 8,000〜2万円</li>
           </ul>
+          <p className="text-xs text-warm-gray">ヤマハのPシリーズ製品一覧に載っている現行モデルはP-525/P-225/P-145で、P-515・P-125は掲載がありません（2026年10月31日確認）。</p>
 
           <CtaBox />
 
@@ -191,10 +194,10 @@ export default function DenshiPianoKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3">HP704</td><td className="px-4 py-3">2019</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜10万円</td><td className="px-4 py-3 text-warm-gray">PHA-50鍵盤搭載</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">HP702</td><td className="px-4 py-3">2019</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜7万円</td><td className="px-4 py-3 text-warm-gray">スタンダードモデル</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">HP605</td><td className="px-4 py-3">2016</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜6万円</td><td className="px-4 py-3 text-warm-gray">旧世代上位</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">HP603</td><td className="px-4 py-3">2016</td><td className="px-4 py-3 text-gold-dark font-bold">2万〜4万円</td><td className="px-4 py-3 text-warm-gray">旧世代スタンダード</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">HP704</td><td className="px-4 py-3">2019</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜10万円</td><td className="px-4 py-3 text-warm-gray">PHA-50鍵盤搭載・現行モデル</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">HP702</td><td className="px-4 py-3">2019</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜7万円</td><td className="px-4 py-3 text-warm-gray">スタンダードモデル・現行モデル</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">HP605</td><td className="px-4 py-3">2016</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜6万円</td><td className="px-4 py-3 text-warm-gray">旧世代上位（販売完了）</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">HP603</td><td className="px-4 py-3">2016</td><td className="px-4 py-3 text-gold-dark font-bold">2万〜4万円</td><td className="px-4 py-3 text-warm-gray">旧世代スタンダード（販売完了）</td></tr>
               </tbody>
             </table>
           </div>
@@ -204,21 +207,23 @@ export default function DenshiPianoKaitoriPage() {
           <p>LXシリーズはRolandの電子ピアノ最上位ラインで、ハイブリッド・グランド鍵盤を搭載。アコースティックピアノに最も近い弾き心地を実現しています。中古でも高額です。</p>
 
           <ul>
-            <li><strong>LX708</strong>: 12万〜22万円（フラッグシップ・プロジェクター付き）</li>
-            <li><strong>LX706</strong>: 8万〜15万円</li>
-            <li><strong>LX705</strong>: 5万〜10万円</li>
+            <li><strong>LX708</strong>: 12万〜22万円（旧世代のフラッグシップ・販売完了）</li>
+            <li><strong>LX706</strong>: 8万〜15万円（旧世代・販売完了）</li>
+            <li><strong>LX705</strong>: 5万〜10万円（旧世代・販売完了）</li>
             <li><strong>LX-17（旧モデル）</strong>: 8万〜15万円</li>
           </ul>
+          <p className="text-xs text-warm-gray">現行のLXシリーズはLX-9/LX-6/LX-5です。LX708/LX706/LX705/LX-17はローランドの製品ページに「販売完了」と表示されています（2026年10月31日確認）。</p>
 
           <h3>RPシリーズ / FPシリーズ</h3>
 
           <ul>
-            <li><strong>RP701</strong>: 2万〜5万円（エントリーモデル）</li>
-            <li><strong>RP501R</strong>: 1万〜3万円（旧世代エントリー）</li>
-            <li><strong>FP-90X</strong>: 3万〜7万円（ポータブル最上位）</li>
+            <li><strong>RP701</strong>: 2万〜5万円（エントリーモデル・現行）</li>
+            <li><strong>RP501R</strong>: 1万〜3万円（旧世代エントリー・販売完了）</li>
+            <li><strong>FP-90X</strong>: 3万〜7万円（ポータブル最上位・現行）</li>
             <li><strong>FP-60X</strong>: 2万〜5万円</li>
             <li><strong>FP-30X</strong>: 1万〜2.5万円</li>
           </ul>
+          <p className="text-xs text-warm-gray">FP-90X/FP-60X/FP-30XとRP701はローランドの現行製品一覧に掲載されています（2026年10月31日確認）。</p>
 
           <CtaBox />
 
@@ -239,20 +244,21 @@ export default function DenshiPianoKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3">CA901</td><td className="px-4 py-3">2023</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜18万円</td><td className="px-4 py-3 text-warm-gray">最上位・SK-EX音源</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">CA701</td><td className="px-4 py-3">2023</td><td className="px-4 py-3 text-gold-dark font-bold">7万〜13万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤グランドフィール</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">CA501</td><td className="px-4 py-3">2023</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜9万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤エントリー</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">CA901</td><td className="px-4 py-3">2023</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜18万円</td><td className="px-4 py-3 text-warm-gray">最上位・SK-EX音源・現行モデル</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">CA701</td><td className="px-4 py-3">2023</td><td className="px-4 py-3 text-gold-dark font-bold">7万〜13万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤グランドフィール・現行モデル</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">CA501</td><td className="px-4 py-3">2023</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜9万円</td><td className="px-4 py-3 text-warm-gray">木製鍵盤エントリー・現行モデル</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">CA99/CA79</td><td className="px-4 py-3">2020</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円</td><td className="px-4 py-3 text-warm-gray">旧世代上位</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">CA49</td><td className="px-4 py-3">2020</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜6万円</td><td className="px-4 py-3 text-warm-gray">旧世代スタンダード</td></tr>
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-warm-gray -mt-4 mb-6">現行のCAシリーズはCA401/CA501/CA701/CA901で、CA99/CA79/CA49は河合楽器製作所の現行製品一覧に掲載がありません（2026年10月31日確認）。</p>
 
           <h3>CNシリーズ</h3>
 
           <ul>
-            <li><strong>CN301</strong>: 3万〜6万円（新世代エントリー）</li>
-            <li><strong>CN201</strong>: 2万〜4万円</li>
+            <li><strong>CN301</strong>: 3万〜6万円（公式で生産終了と表示）</li>
+            <li><strong>CN201</strong>: 2万〜4万円（公式で生産終了と表示）</li>
             <li><strong>CN39</strong>: 2万〜4万円（旧世代）</li>
             <li><strong>CN29</strong>: 1万〜2.5万円（旧世代エントリー）</li>
           </ul>
@@ -260,10 +266,11 @@ export default function DenshiPianoKaitoriPage() {
           <h3>ESシリーズ（ポータブル）</h3>
 
           <ul>
-            <li><strong>ES920</strong>: 2万〜5万円</li>
-            <li><strong>ES520</strong>: 1万〜3万円</li>
-            <li><strong>ES110</strong>: 5,000〜1.5万円</li>
+            <li><strong>ES920</strong>: 2万〜5万円（現行モデル）</li>
+            <li><strong>ES520</strong>: 1万〜3万円（旧モデル）</li>
+            <li><strong>ES110</strong>: 5,000〜1.5万円（旧モデル）</li>
           </ul>
+          <p className="text-xs text-warm-gray">河合楽器製作所のESシリーズ製品一覧に載っている現行モデルはES920/ES120 Filo/ES60で、ES520・ES110は掲載がありません。CNシリーズはCN301/CN201とも一覧で「生産終了」と表示されています（2026年10月31日確認）。</p>
 
           <CtaBox />
 
