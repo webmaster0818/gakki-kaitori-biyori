@@ -127,12 +127,19 @@
       "sample_n": 138,
       "raw_n": 149,
       "dedup": true
+    },
+    {
+      "date": "2026-11-02",
+      "median_jpy": 57200,
+      "sample_n": 141,
+      "raw_n": 149,
+      "dedup": true
     }
   ],
   "latest": {
-    "date": "2026-11-01",
-    "median_jpy": 57990,
-    "sample_n": 138,
+    "date": "2026-11-02",
+    "median_jpy": 57200,
+    "sample_n": 141,
     "raw_n": 149,
     "dedup": true,
     "insufficient": false

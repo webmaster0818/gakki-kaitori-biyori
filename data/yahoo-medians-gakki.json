@@ -10,7 +10,7 @@
     "min": 12800,
     "max": 40997,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "YAMAHA U1",
     "note": "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
   },
@@ -25,7 +25,7 @@
     "min": 13200,
     "max": 101000,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "YAMAHA U3",
     "note": "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
   },
@@ -35,7 +35,7 @@
     "filtered_n": 0,
     "median": null,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "title_excluded_n": 129,
     "label": "YAMAHA YUS5",
     "note": "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
@@ -45,12 +45,12 @@
     "pages_fetched": 3,
     "raw_n": 150,
     "filtered_n": 134,
-    "median": 214500,
-    "mean": 217978,
+    "median": 210261,
+    "mean": 216728,
     "min": 100320,
     "max": 334400,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "YAMAHA YAS-62"
   },
   "gibson-lespaul-standard-kaitori": {
@@ -63,7 +63,7 @@
     "min": 118251,
     "max": 288999,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson Les Paul Standard"
   },
   "gibson-lespaul-custom-kaitori": {
@@ -76,20 +76,20 @@
     "min": 5390,
     "max": 637001,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson Les Paul Custom"
   },
   "gibson-sg-kaitori": {
     "query_used": "Gibson SG Standard USA",
     "pages_fetched": 2,
-    "raw_n": 19,
-    "filtered_n": 15,
-    "median": 146611,
-    "mean": 143594,
+    "raw_n": 20,
+    "filtered_n": 16,
+    "median": 144305,
+    "mean": 141006,
     "min": 79265,
     "max": 193600,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson SG"
   },
   "fender-stratocaster-kaitori": {
@@ -97,12 +97,12 @@
     "pages_fetched": 3,
     "raw_n": 150,
     "filtered_n": 139,
-    "median": 139200,
-    "mean": 130809,
+    "median": 140000,
+    "mean": 132156,
     "min": 1500,
-    "max": 268000,
+    "max": 287250,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Stratocaster"
   },
   "fender-telecaster-kaitori": {
@@ -111,11 +111,11 @@
     "raw_n": 150,
     "filtered_n": 145,
     "median": 126500,
-    "mean": 131639,
+    "mean": 131143,
     "min": 560,
     "max": 330000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Telecaster"
   },
   "fender-jazzbass-kaitori": {
@@ -128,20 +128,20 @@
     "min": 1981,
     "max": 377000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Jazz Bass"
   },
   "fender-twinreverb-kaitori": {
     "query_used": "Fender Twin Reverb アンプ",
     "pages_fetched": 3,
-    "raw_n": 112,
-    "filtered_n": 110,
+    "raw_n": 111,
+    "filtered_n": 109,
     "median": 80300,
-    "mean": 77589,
+    "mean": 77267,
     "min": 800,
     "max": 172953,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Twin Reverb"
   },
   "ibanez-ts9-kaitori": {
@@ -154,20 +154,20 @@
     "min": 5000,
     "max": 12900,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Ibanez TS9 Tube Screamer"
   },
   "boss-ds1-kaitori": {
     "query_used": "BOSS DS-1 エフェクター",
     "pages_fetched": 3,
     "raw_n": 141,
-    "filtered_n": 129,
-    "median": 6170,
-    "mean": 7105,
+    "filtered_n": 130,
+    "median": 6130,
+    "mean": 7067,
     "min": 530,
     "max": 18549,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "BOSS DS-1"
   },
   "marshall-jcm800-kaitori": {
@@ -180,7 +180,7 @@
     "min": 500,
     "max": 232100,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Marshall JCM800"
   },
   "pearl-masters-kaitori": {
@@ -193,20 +193,20 @@
     "min": 2200,
     "max": 198420,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Pearl Masters"
   },
   "selmer-markvi-kaitori": {
     "query_used": "Selmer Mark VI サックス",
     "pages_fetched": 3,
-    "raw_n": 86,
-    "filtered_n": 79,
-    "median": 609400,
-    "mean": 620389,
+    "raw_n": 85,
+    "filtered_n": 78,
+    "median": 607811,
+    "mean": 618739,
     "min": 390500,
     "max": 908662,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Selmer Mark VI"
   },
   "selmer-series2-kaitori": {
@@ -219,7 +219,7 @@
     "min": 262800,
     "max": 517000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Selmer Series II"
   },
   "bach-stradivarius-kaitori": {
@@ -228,11 +228,11 @@
     "raw_n": 150,
     "filtered_n": 137,
     "median": 172238,
-    "mean": 169160,
-    "min": 85250,
+    "mean": 168938,
+    "min": 44100,
     "max": 287100,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Bach Stradivarius"
   },
   "kawai-k300-kaitori": {
@@ -241,7 +241,7 @@
     "filtered_n": 0,
     "median": null,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "title_excluded_n": 130,
     "label": "KAWAI K-300",
     "note": "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
@@ -252,7 +252,7 @@
     "filtered_n": 0,
     "median": null,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "title_excluded_n": 124,
     "label": "Steinway B-211",
     "note": "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
@@ -267,7 +267,7 @@
     "min": 177782,
     "max": 380000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson ES-335"
   },
   "gibson-explorer-kaitori": {
@@ -280,7 +280,7 @@
     "min": 135000,
     "max": 160000,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson Explorer"
   },
   "gibson-flyingv-kaitori": {
@@ -293,7 +293,7 @@
     "min": 1300,
     "max": 251000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson Flying V"
   },
   "gibson-firebird-kaitori": {
@@ -306,7 +306,7 @@
     "min": 88000,
     "max": 404141,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson Firebird"
   },
   "fender-precisionbass-kaitori": {
@@ -319,34 +319,34 @@
     "min": 3000,
     "max": 414700,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Precision Bass"
   },
   "fender-jazzmaster-kaitori": {
     "query_used": "Fender USA Jazzmaster",
     "pages_fetched": 2,
-    "raw_n": 24,
-    "filtered_n": 24,
-    "median": 140502,
-    "mean": 130783,
+    "raw_n": 25,
+    "filtered_n": 25,
+    "median": 149000,
+    "mean": 136323,
     "min": 1000,
     "max": 271700,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Jazzmaster"
   },
   "fender-jaguar-kaitori": {
     "title_excluded_n": 8,
     "query_used": "Fender USA Jaguar",
     "pages_fetched": 2,
-    "raw_n": 10,
-    "filtered_n": 9,
-    "median": 220000,
-    "mean": 215444,
+    "raw_n": 9,
+    "filtered_n": 8,
+    "median": 210000,
+    "mean": 209875,
     "min": 151000,
     "max": 264000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Jaguar"
   },
   "fender-mustang-kaitori": {
@@ -359,46 +359,46 @@
     "min": 70400,
     "max": 198000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Mustang"
   },
   "fender-deluxereverb-kaitori": {
     "query_used": "Fender Deluxe Reverb アンプ",
     "pages_fetched": 2,
-    "raw_n": 46,
-    "filtered_n": 41,
-    "median": 105000,
-    "mean": 95255,
+    "raw_n": 45,
+    "filtered_n": 40,
+    "median": 106000,
+    "mean": 95028,
     "min": 800,
     "max": 221100,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Fender Deluxe Reverb"
   },
   "prs-custom24-kaitori": {
     "query_used": "PRS Custom 24 ギター",
     "pages_fetched": 3,
-    "raw_n": 142,
-    "filtered_n": 112,
-    "median": 68230,
-    "mean": 75963,
+    "raw_n": 143,
+    "filtered_n": 135,
+    "median": 73700,
+    "mean": 116434,
     "min": 1650,
-    "max": 260400,
+    "max": 352666,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "PRS Custom 24"
   },
   "prs-se-kaitori": {
     "query_used": "PRS SE ギター",
     "pages_fetched": 3,
     "raw_n": 149,
-    "filtered_n": 138,
-    "median": 57990,
-    "mean": 59722,
-    "min": 11221,
+    "filtered_n": 141,
+    "median": 57200,
+    "mean": 58470,
+    "min": 4000,
     "max": 104800,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "PRS SE"
   },
   "martin-d28-kaitori": {
@@ -411,7 +411,7 @@
     "min": 125400,
     "max": 318000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Martin D-28"
   },
   "martin-d45-kaitori": {
@@ -424,7 +424,7 @@
     "min": 8250,
     "max": 1078777,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Martin D-45"
   },
   "martin-000-kaitori": {
@@ -437,7 +437,7 @@
     "min": 130900,
     "max": 368000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Martin 000-28"
   },
   "taylor-814ce-kaitori": {
@@ -450,34 +450,34 @@
     "min": 182598,
     "max": 348000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Taylor 814ce"
   },
   "gibson-j45-kaitori": {
     "query_used": "Gibson J-45 アコースティックギター",
     "pages_fetched": 3,
-    "raw_n": 140,
-    "filtered_n": 132,
-    "median": 195000,
-    "mean": 172328,
+    "raw_n": 136,
+    "filtered_n": 128,
+    "median": 195350,
+    "mean": 173529,
     "min": 600,
     "max": 340000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gibson J-45"
   },
   "rickenbacker-330-kaitori": {
-    "title_excluded_n": 12,
+    "title_excluded_n": 11,
     "query_used": "Rickenbacker 330 ギター",
     "pages_fetched": 2,
-    "raw_n": 9,
-    "filtered_n": 8,
+    "raw_n": 10,
+    "filtered_n": 10,
     "median": 173800,
-    "mean": 178312,
-    "min": 140800,
+    "mean": 172746,
+    "min": 95150,
     "max": 222200,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Rickenbacker 330"
   },
   "rickenbacker-4003-kaitori": {
@@ -490,7 +490,7 @@
     "min": 93000,
     "max": 338000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Rickenbacker 4003"
   },
   "gretsch-6120-kaitori": {
@@ -503,7 +503,7 @@
     "min": 1000,
     "max": 297999,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Gretsch 6120"
   },
   "esp-horizon-kaitori": {
@@ -516,7 +516,7 @@
     "min": 15000,
     "max": 377850,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "ESP Horizon"
   },
   "ibanez-rg-kaitori": {
@@ -529,7 +529,7 @@
     "min": 91099,
     "max": 268000,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Ibanez RG"
   },
   "ibanez-jem-kaitori": {
@@ -542,7 +542,7 @@
     "min": 41800,
     "max": 301401,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Ibanez JEM"
   },
   "musicman-stingray-kaitori": {
@@ -555,34 +555,34 @@
     "min": 3000,
     "max": 308000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Music Man StingRay"
   },
   "warwick-thumb-kaitori": {
     "query_used": "Warwick Thumb ベース",
     "pages_fetched": 2,
-    "raw_n": 10,
-    "filtered_n": 8,
-    "median": 224550,
-    "mean": 236924,
+    "raw_n": 9,
+    "filtered_n": 7,
+    "median": 228000,
+    "mean": 239185,
     "min": 177100,
     "max": 326700,
-    "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "insufficient": true,
+    "fetched_at": "2026-11-02",
     "label": "Warwick Thumb"
   },
   "vox-ac30-kaitori": {
     "title_excluded_n": 84,
     "query_used": "VOX AC30 ギターアンプ",
     "pages_fetched": 3,
-    "raw_n": 23,
-    "filtered_n": 22,
-    "median": 52975,
-    "mean": 50697,
+    "raw_n": 22,
+    "filtered_n": 21,
+    "median": 44950,
+    "mean": 50206,
     "min": 10000,
     "max": 135850,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "VOX AC30"
   },
   "roland-jc120-kaitori": {
@@ -595,7 +595,7 @@
     "min": 4000,
     "max": 60500,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Roland JC-120"
   },
   "mesaboogie-markv-kaitori": {
@@ -608,20 +608,20 @@
     "min": 180001,
     "max": 281111,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Mesa Boogie Mark V"
   },
   "boss-bd2-kaitori": {
     "query_used": "BOSS BD-2 Blues Driver エフェクター",
     "pages_fetched": 3,
     "raw_n": 150,
-    "filtered_n": 123,
+    "filtered_n": 122,
     "median": 8800,
-    "mean": 8672,
-    "min": 4000,
+    "mean": 8729,
+    "min": 5000,
     "max": 13500,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "BOSS BD-2"
   },
   "ibanez-ts808-kaitori": {
@@ -634,20 +634,20 @@
     "min": 9438,
     "max": 19800,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Ibanez TS808"
   },
   "ehx-bigmuff-kaitori": {
     "query_used": "Electro-Harmonix Big Muff エフェクター",
     "pages_fetched": 3,
-    "raw_n": 92,
-    "filtered_n": 80,
+    "raw_n": 93,
+    "filtered_n": 81,
     "median": 10500,
-    "mean": 10900,
+    "mean": 10884,
     "min": 3809,
     "max": 23000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Electro-Harmonix Big Muff"
   },
   "yamaha-ytr8335-kaitori": {
@@ -656,11 +656,11 @@
     "raw_n": 150,
     "filtered_n": 142,
     "median": 165610,
-    "mean": 162303,
+    "mean": 162130,
     "min": 68101,
     "max": 270600,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "YAMAHA YTR-8335"
   },
   "yamaha-c3-kaitori": {
@@ -674,21 +674,21 @@
     "min": 223500,
     "max": 528000,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "YAMAHA C3",
     "note": "Yahoo Auctions では本体出品が少なく、検索結果に鍵盤・サイレント装置・楽譜・部品等が含まれるため中古市場の実勢価格を反映していません。買取相場は無料査定でご確認ください。"
   },
   "buffet-r13-kaitori": {
     "query_used": "クランポン R13 クラリネット",
     "pages_fetched": 3,
-    "raw_n": 130,
-    "filtered_n": 129,
-    "median": 110900,
-    "mean": 120929,
+    "raw_n": 131,
+    "filtered_n": 130,
+    "median": 111000,
+    "mean": 121682,
     "min": 5000,
     "max": 254300,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Buffet Crampon R13"
   },
   "muramatsu-flute-kaitori": {
@@ -696,12 +696,12 @@
     "pages_fetched": 3,
     "raw_n": 150,
     "filtered_n": 141,
-    "median": 30580,
-    "mean": 88008,
+    "median": 31800,
+    "mean": 88643,
     "min": 522,
     "max": 414700,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Muramatsu Flute"
   },
   "bach-42-trombone-kaitori": {
@@ -714,20 +714,20 @@
     "min": 74900,
     "max": 278300,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Bach 42 Trombone"
   },
   "tama-starclassic-kaitori": {
     "query_used": "TAMA Starclassic ドラムセット",
     "pages_fetched": 2,
-    "raw_n": 6,
-    "filtered_n": 6,
-    "median": 154335,
-    "mean": 147122,
-    "min": 70345,
+    "raw_n": 7,
+    "filtered_n": 7,
+    "median": 143121,
+    "mean": 130583,
+    "min": 31350,
     "max": 220000,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "TAMA Starclassic"
   },
   "dw-collectors-kaitori": {
@@ -740,7 +740,7 @@
     "min": 321999,
     "max": 1000000,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "DW Collector's"
   },
   "ludwig-supraphonic-kaitori": {
@@ -753,20 +753,20 @@
     "min": 38501,
     "max": 108900,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Ludwig Supraphonic"
   },
   "roland-juno-kaitori": {
     "query_used": "Roland Juno シンセサイザー",
     "pages_fetched": 3,
     "raw_n": 150,
-    "filtered_n": 144,
-    "median": 49900,
-    "mean": 52819,
+    "filtered_n": 143,
+    "median": 49800,
+    "mean": 51883,
     "min": 500,
-    "max": 153000,
+    "max": 146850,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Roland Juno"
   },
   "nord-stage-kaitori": {
@@ -779,7 +779,7 @@
     "min": 9800,
     "max": 550000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Nord Stage"
   },
   "moog-subsequent37-kaitori": {
@@ -792,7 +792,7 @@
     "min": 210100,
     "max": 335412,
     "insufficient": true,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "Moog Subsequent 37"
   },
   "korg-minilogue-kaitori": {
@@ -805,7 +805,7 @@
     "min": 23343,
     "max": 72000,
     "insufficient": false,
-    "fetched_at": "2026-11-01",
+    "fetched_at": "2026-11-02",
     "label": "KORG minilogue"
   }
 }
