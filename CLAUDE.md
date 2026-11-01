@@ -479,3 +479,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 直した表記: CLP表の特徴欄を「旧世代（CLP-700/600シリーズ）」に・CLP-785「最上位」→ 旧世代の最上位、CVP-809「最新フラッグシップ」→ 旧世代、P-515 旧モデル、HP/RP/FP/CA の現行品に「現行」、LX708「プロジェクター付き」→ 公式に記載なし＝削除し「販売完了」、CN301「新世代エントリー」→ 生産終了、ES520/ES110 旧モデル。各メーカー節に注記（現行型番・確認日）。金額は不変（全「〜万円」一致を diff で確認）。更新日/dateModified 10/1→10/31（title不変）
 - 本文が変わったのは denshi-piano-kaitori 1本のみ（全 HTML 可視テキスト＋JSON-LD 比較）。felmat fmcl 2910・fmimp 3340・t.felmat.net 6338 前後一致。precheck 全項目OK。Indexing 未送信
 - 🔍 未変更: 発売年列（CLP-700「2021」・CA901「2023」・CA99/79/49「2020」等）は公式で未照合。roland-kaitori の FAQ・表に LX706/LX708 が「上位機」として現行品のように書かれている（同方針で要対応）。FAQ の JSON-LD「KAWAI CNシリーズで3万〜10万円」と表示 FAQ「KAWAI CAシリーズで5万〜18万円」が不一致（金額のため未変更）
+
+### 2026-11-01 朝ルーチン：点検「データが10日より古い」の切り分け＋roland LX706/LX708＋denshi-piano FAQ JSON-LD（src e8a71785 / deploy 0c45ff171・f421e61a8）
+- 07:00 点検 toda-saitama（2026-10-21）＝**誤検知**。拾っていたのは ServiceCapture のキャプチャ撮影日「画像：〇〇 公式サイト（…）2026年10月21日時点」で、このページに週次データ（取得日）は無い。週次データは 11/01 05:23 の月次鮮度で 62件とも fetched_at 2026-11-01（正常）。workspace の daily-site-check.py に CAPTION_RE（キャプション撮影日を照合前に除外）を追加。⚠️ 地域ページは RecommendedServices 等の「2026年10月26日時点で一時停止中」も拾うため、11/6 以降は同じ形の誤検知が出る見込み（未対応）
+- roland-kaitori（Roland 公式 11/1: /jp/products/lx706/・lx708/・gp609/ に「販売完了」、lx-5/lx-6/lx-9・gp-3/gp-6/gp-9・hp704/hp702/rp701/fp-30x/fp-90x は表示なし）: FAQ（表示＋JSON-LD）「上位機のLX706で」→ LXシリーズ（LX706・LX708は販売完了・現行はLX-5/6/9）、表 LX 行「高級感あり」→ 販売完了の旧世代、GP 行「GP609/GP6/GP9」→ GP609（販売完了）/GP-6/GP-9、表下に確認日つき注記。金額は不変
+- denshi-piano: FAQ JSON-LD「KAWAI CNシリーズで3万〜10万円」→ 表示と同じ「CAシリーズで5万〜18万円」（本文 CA表＝CA501 5万〜CA901 18万。CN は本文 1万〜6万で 3万〜10万の根拠なし）
+- ⚠️ 週次と同じ `find out -name "__next*.txt"` だけだと index.txt 570本が deploy に入る（今回一度 push → 削除コミット）。robots.txt 以外の .txt を消すこと
+- 本文が変わったのは2本のみ（可視テキスト比較）。felmat 2336/2336 一致。precheck 全項目OK。本番 09:25 反映。Indexing 未送信
