@@ -66,7 +66,7 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "Rolandの電子ピアノの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "Rolandの電子ピアノの買取相場は、モデルや状態によって異なります。エントリーモデルのRP701で1万〜3万円、中級機のHP704で3万〜8万円、上位機のLX706で5万〜12万円、最上位のGPシリーズで10万〜25万円程度が目安です。" } },
+      { "@type": "Question", name: "Rolandの電子ピアノの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "Rolandの電子ピアノの買取相場は、モデルや状態によって異なります。エントリーモデルのRP701で1万〜3万円、中級機のHP704で3万〜8万円、上位機のLXシリーズ（LX706・LX708はいずれも販売完了。現行はLX-5/LX-6/LX-9）で5万〜12万円、最上位のGPシリーズで10万〜25万円程度が目安です。" } },
       { "@type": "Question", name: "Roland V-Drumsの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Roland V-Drums（電子ドラム）の買取相場は、TD-07KVで2万〜4万円、TD-17KVXで4万〜8万円、TD-27KV2で8万〜15万円、TD-50KV2で15万〜30万円程度です。パッド・スタンドの状態やモジュールの世代が査定に影響します。" } },
       { "@type": "Question", name: "Rolandのシンセサイザーは高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、Rolandのシンセサイザーは中古市場で人気があります。特にJUNO-106やJX-8Pなどのヴィンテージアナログシンセは10万〜30万円以上の高額買取が期待できます。現行モデルのFANTOMシリーズやJUPITER-Xも安定した買取価格がつきます。" } },
       { "@type": "Question", name: "Roland製品を高く売るコツは？", acceptedAnswer: { "@type": "Answer", text: "Roland製品を高く売るには、(1)複数業者に査定を依頼する、(2)電源アダプター・ペダル・スタンド等の付属品を揃える、(3)本体をクリーニングする、(4)新モデル発表前に売る、の4つがポイントです。特に電子ピアノは付属品（椅子・ヘッドフォン含む）の有無で大きく変わります。" } },
@@ -166,12 +166,14 @@ export default function RolandKaitoriPage() {
                 <tr className="bg-white"><td className="px-4 py-3">FPシリーズ（ポータブル）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜5万円</td><td className="px-4 py-3 text-warm-gray">FP-30X〜FP-90X。軽量で人気</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">RPシリーズ（エントリー）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜3万円</td><td className="px-4 py-3 text-warm-gray">RP701等。初心者向け</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">HPシリーズ（中級）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜8万円</td><td className="px-4 py-3 text-warm-gray">HP704等。家庭用の定番</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">LXシリーズ（上級）</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円</td><td className="px-4 py-3 text-warm-gray">LX706/LX708。高級感あり</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">GPシリーズ（グランド型）</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜25万円</td><td className="px-4 py-3 text-warm-gray">GP609/GP6/GP9。グランドピアノ型</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">LXシリーズ（上級）</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円</td><td className="px-4 py-3 text-warm-gray">LX706/LX708（いずれも販売完了の旧世代。現行はLX-5/LX-6/LX-9）</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">GPシリーズ（グランド型）</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜25万円</td><td className="px-4 py-3 text-warm-gray">GP609（販売完了）/GP-6/GP-9。グランドピアノ型</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">RDシリーズ（ステージピアノ）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜10万円</td><td className="px-4 py-3 text-warm-gray">RD-2000等。ライブ向け</td></tr>
               </tbody>
             </table>
           </div>
+
+          <p className="text-xs text-warm-gray -mt-4 mb-6">LX706・LX708・GP609はローランドの製品ページに「販売完了」と表示されています。現行のLXシリーズはLX-9/LX-6/LX-5です（2026年11月1日確認）。買取相場の金額は従来の掲載値のままです。</p>
 
           <p>電子ピアノは年式が新しいほど買取価格が高くなる傾向があります。発売から5年以上経過したモデルは、音源技術の進歩もあり、買取価格が大きく下がることがあります。<strong>使わなくなったら早めに売却するのが高額買取のコツです。</strong></p>
 
@@ -309,7 +311,7 @@ export default function RolandKaitoriPage() {
                 <span className="pr-4">Rolandの電子ピアノの買取相場はいくらですか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Rolandの電子ピアノの買取相場は、エントリーモデルのRP701で1万〜3万円、中級機のHP704で3万〜8万円、上位機のLX706で5万〜12万円、最上位のGPシリーズで10万〜25万円程度が目安です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Rolandの電子ピアノの買取相場は、エントリーモデルのRP701で1万〜3万円、中級機のHP704で3万〜8万円、上位機のLXシリーズ（LX706・LX708はいずれも販売完了。現行はLX-5/LX-6/LX-9）で5万〜12万円、最上位のGPシリーズで10万〜25万円程度が目安です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">

@@ -58,7 +58,7 @@ function FaqSchema() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: "電子ピアノの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "電子ピアノの買取相場はメーカー・モデル・年式によって異なります。YAMAHA Clavinova CLP-700シリーズで5万〜15万円、Roland HP700シリーズで5万〜12万円、KAWAI CNシリーズで3万〜10万円が目安です。製造5年以内のモデルが高く売れる傾向にあります。" } },
+      { "@type": "Question", name: "電子ピアノの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "電子ピアノの買取相場はメーカー・モデル・年式によって異なります。YAMAHA Clavinova CLP-700シリーズで5万〜15万円、Roland HP700シリーズで5万〜12万円、KAWAI CAシリーズで5万〜18万円が目安です。製造5年以内のモデルが高く売れる傾向にあります。" } },
       { "@type": "Question", name: "古い電子ピアノでも売れますか？", acceptedAnswer: { "@type": "Answer", text: "製造10年以内であれば多くの業者で買取可能です。ただし、10年以上経過したモデルは技術的に古くなるため、買取価格がつかないこともあります。上位モデル（YAMAHA CVP、Roland LX等）であれば古くても値段がつくことがあります。" } },
       { "@type": "Question", name: "電子ピアノの搬出は大変ですか？", acceptedAnswer: { "@type": "Answer", text: "多くの電子ピアノは組み立て式のため、分解して搬出できます。出張買取を利用すれば、業者が分解・搬出まで行ってくれるので安心です。据え置き型の大型モデルでも、プロのスタッフが対応してくれます。" } },
       { "@type": "Question", name: "電子ピアノは宅配買取できますか？", acceptedAnswer: { "@type": "Answer", text: "ポータブルタイプ（YAMAHA P-125等）は宅配買取が可能です。ただし、据え置き型は重量があるため、出張買取の方が適しています。宅配の場合、梱包材の準備が必要になるため、出張買取の方が手軽です。" } },
