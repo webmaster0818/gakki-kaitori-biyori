@@ -99,7 +99,8 @@ safe_rm_rf .next
 set -o pipefail
 npx next build 2>&1 | tail -5
 set +o pipefail
-find out -name "__next*.txt" -type f -delete
+# robots.txt 以外の .txt（__next*.txt・index.txt 等の RSC ペイロード）は deploy に入れない（CF 20k 対策・2026-11-02 index.txt 570本混入の再発防止）
+find out -name "*.txt" -type f ! -path "out/robots.txt" -delete
 
 # Scaled Content リント（warnモード）
 LINT="$HOME/.openclaw/workspace/scaled-content-lint.py"

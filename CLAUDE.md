@@ -486,3 +486,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - denshi-piano: FAQ JSON-LD「KAWAI CNシリーズで3万〜10万円」→ 表示と同じ「CAシリーズで5万〜18万円」（本文 CA表＝CA501 5万〜CA901 18万。CN は本文 1万〜6万で 3万〜10万の根拠なし）
 - ⚠️ 週次と同じ `find out -name "__next*.txt"` だけだと index.txt 570本が deploy に入る（今回一度 push → 削除コミット）。robots.txt 以外の .txt を消すこと
 - 本文が変わったのは2本のみ（可視テキスト比較）。felmat 2336/2336 一致。precheck 全項目OK。本番 09:25 反映。Indexing 未送信
+
+### 2026-11-02 朝ルーチン：週次（11/2 04:00）の中央値点検＋週次で再混入した index.txt の削除（src 本コミット / deploy bdba7b93b）
+- 週次 deploy 818c15f0a / src 4c810f67（49/62）。前週比（history 1点前・2点前）±30% 超は **0本**。最大は vox-ac30 ¥44,950（n=21・11/1 ¥52,975 比 -15.1%・10/26 ¥61,300 比 -26.7%）。TITLE_RULES 経路でタイトル除外 84件・下限 ¥8,000 通過・min ¥10,000（10/12 目視で AC30VR が ¥10,000〜20,900 の本体だった帯）。warwick-thumb が n 8→7 で新たに insufficient（中央値はほぼ同値）
+- ⚠️ **出品タイトルは保存されていない**（fetch-yahoo-medians-gakki.py は中央値・n・min/max だけ書く）＝再検索しない限り目視できない。今回は統計値（n・min/max・title_excluded_n・history）で判定
+- ⚠️ history に 11/1（月次鮮度）と 11/2（週次）の点が並ぶ＝今週の change_1w は実質「前日比」
+- 🚨 **週次スクリプトが `__next*.txt` だけ消していたため index.txt 570本が 818c15f0a で再混入** → deploy から削除（bdba7b93b）、weekly-yahoo-update.sh を「robots.txt 以外の .txt を全部消す」に修正。precheck 全項目OK
+- ティファナ宅配一時停止は 11/2 も継続（トップ「…リニューアルのため一時停止」、/shipping/「…システムリニューアルのため一時停止」）→ 注記はそのまま
