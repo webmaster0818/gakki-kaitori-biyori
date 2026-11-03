@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
+import KaitoriyasanInfo from "@/components/KaitoriyasanInfo";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/' },
@@ -79,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-03",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,14 +110,17 @@ export default function KobeGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             神戸で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月3日</p>
         </header>
+
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6">「楽器の買取屋さん」を探している方へ：兵庫県内に店舗はなく、神戸市は出張買取の対象です。運営会社・近畿の店舗・出張／宅配の条件を、公式サイトの公表内容でまとめています。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
             <li><a href="#kobe-overview" className="hover:underline">神戸の楽器買取事情</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
+            <li><a href="#kaitoriyasan-info" className="hover:underline">楽器の買取屋さん（神戸への出張・近畿の店舗）の基本情報</a></li>
             <li><a href="#area-guide" className="hover:underline">神戸エリア別ガイド</a></li>
             <li><a href="#popular-instruments" className="hover:underline">神戸で人気の楽器と買取相場</a></li>
             <li><a href="#flow" className="hover:underline">買取の流れ</a></li>
@@ -198,6 +202,8 @@ export default function KobeGakkiKaitoriPage() {
           <p>ピアノやドラムセットなどの大型楽器は、運搬の手間がかかるのが悩みどころ。ウリエルの出張買取なら、<strong>自宅にいながら査定から買取まで完結</strong>するので、大型楽器の売却に最適です。買取成立後はその場で現金を受け取れます。</p>
 
           <CtaBox />
+
+          <KaitoriyasanInfo area="kobe" />
 
           <h2 id="area-guide">神戸エリア別 楽器買取ガイド</h2>
 

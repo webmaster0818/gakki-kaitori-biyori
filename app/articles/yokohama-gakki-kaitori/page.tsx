@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
+import KaitoriyasanInfo from "@/components/KaitoriyasanInfo";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/' },
@@ -79,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-03",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,13 +110,16 @@ export default function YokohamaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             横浜で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、横浜エリア対応の楽器買取おすすめ3社を比較します。横浜駅周辺のイシバシ楽器・クロサワ楽器・島村楽器など専門店の情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月3日</p>
         </header>
+
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6">「楽器の買取屋さん 横浜店」を探している方へ：運営会社・横浜店の所在地と営業時間・出張／宅配の条件を、公式サイトの公表内容でまとめています。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
             <li><a href="#comparison" className="hover:underline">横浜対応おすすめ3社比較</a></li>
+            <li><a href="#kaitoriyasan-info" className="hover:underline">楽器の買取屋さん（横浜店）の基本情報</a></li>
             <li><a href="#area" className="hover:underline">横浜駅周辺の楽器買取事情</a></li>
             <li><a href="#local-shops" className="hover:underline">横浜の主要楽器買取店ガイド</a></li>
             <li><a href="#method" className="hover:underline">出張・店頭・宅配 どれがおすすめ？</a></li>
@@ -166,6 +170,8 @@ export default function YokohamaGakkiKaitoriPage() {
           <p>ウリエルは横浜市内全域に出張買取で対応。18区すべてのエリアに対応しており、<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
 
           <CtaBox />
+
+          <KaitoriyasanInfo area="yokohama" />
 
           <h2 id="area">横浜駅周辺の楽器買取事情</h2>
 
