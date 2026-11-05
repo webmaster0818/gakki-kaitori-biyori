@@ -44,7 +44,7 @@ export default function Page() {
 
         <div className="article-body">
         <h3>売却方法の基本比較</h3>
-        <div className="table-wrapper"><table><thead><tr><th>項目</th><th>業者買取</th><th>個人売買</th></tr></thead><tbody><tr><td>手取り額</td><td>相場の60〜80%</td><td>相場の80〜95%</td></tr><tr><td>手数料</td><td>0円</td><td>メルカリ10%・ヤフオク5〜10%</td></tr><tr><td>スピード</td><td>最短即日</td><td>1週間〜数ヶ月</td></tr><tr><td>手間</td><td>★（少ない）</td><td>★★★（多い）</td></tr><tr><td>トラブルリスク</td><td>低（業者保証あり）</td><td>中〜高（個人間）</td></tr><tr><td>梱包・発送</td><td>業者対応</td><td>自分で対応</td></tr><tr><td>大型楽器対応</td><td>出張買取で対応</td><td>発送が難しい</td></tr></tbody></table></div>
+        <div className="table-wrapper"><table><thead><tr><th>項目</th><th>業者買取</th><th>個人売買</th></tr></thead><tbody><tr><td>手取り額</td><td>相場の60〜80%</td><td>相場の80〜95%</td></tr><tr><td>手数料</td><td>0円</td><td>メルカリ10%・ヤフオク5〜10%</td></tr><tr><td>スピード</td><td>最短即日</td><td>1週間〜数ヶ月</td></tr><tr><td>手間</td><td>少ない</td><td>多い</td></tr><tr><td>トラブルリスク</td><td>低（業者保証あり）</td><td>中〜高（個人間）</td></tr><tr><td>梱包・発送</td><td>業者対応</td><td>自分で対応</td></tr><tr><td>大型楽器対応</td><td>出張買取で対応</td><td>発送が難しい</td></tr></tbody></table></div>
         <div className="table-wrapper"><table><thead><tr><th>状況</th><th>おすすめ</th></tr></thead><tbody><tr><td>大型楽器（ピアノ・ドラム等）</td><td>業者買取が適しています（出張買取）</td></tr><tr><td>高額楽器（50万円以上）</td><td>業者買取（個人売買はトラブルリスク大）</td></tr><tr><td>時間がない（急ぎ）</td><td>業者買取（即日対応可）</td></tr><tr><td>手間を惜しまず高く売りたい</td><td>個人売買（メルカリ・ヤフオク）</td></tr><tr><td>ジャンク・難ありの楽器</td><td>業者買取（個人売買は売れにくい）</td></tr><tr><td>珍しい・マニアック楽器</td><td>個人売買（特定マニアに高値で売れる）</td></tr></tbody></table></div>
 
           <h2 id="select" className="font-display text-xl font-bold text-foreground mt-8 mb-3">どちらを選ぶべきか</h2>
