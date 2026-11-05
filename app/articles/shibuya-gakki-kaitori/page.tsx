@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shibuya-gakki-kaitori/' },
   title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年11月】",
   description:
-    "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。原宿・恵比寿エリアも解説します。無料査定のみの利用も可能です。",
+    "渋谷で楽器を持ち込みで売るなら？イシバシ楽器・クロサワG-CLUB・イケシブリユース・中古楽器堂の駅徒歩・営業時間・買取品目を公式で確認した早見表と、出張・宅配の選び方、おすすめ3社の比較を解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "渋谷の楽器買取はどこがいい？道玄坂・近くの店への持ち込みと出張・宅配の選び方【2026年11月】",
-    description: "渋谷で楽器を売るならどこがいい？道玄坂・宇田川町など近くの楽器買取店への持ち込み・店頭買取、出張買取、宅配買取の選び方とおすすめ3社を比較します。原宿・恵比寿エリアも解説します。無料査定のみの利用も可能です。",
+    description: "渋谷で楽器を持ち込みで売るなら？イシバシ楽器・クロサワG-CLUB・イケシブリユース・中古楽器堂の駅徒歩・営業時間・買取品目を公式で確認した早見表と、出張・宅配の選び方、おすすめ3社の比較を解説します。",
   },
 };
 
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 渋谷おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-05",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,12 +109,30 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             渋谷で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、渋谷エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、渋谷・原宿・恵比寿など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月5日</p>
         </header>
+
+        <section id="hayami" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">渋谷で持ち込みできる楽器買取店の早見表</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">渋谷駅から歩ける主な実店舗は次の4店です（2026年11月5日に各店の公式で確認）。イシバシ楽器は予約なしでも受付と明記、中古楽器堂は完全予約制です。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店名・所在地</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店頭の受付</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">予約・支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.ishibashi.co.jp/kaitori/tentou/shibuya.html" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 渋谷店</a><br />宇田川町31-2 渋谷BEAM 2F</td><td className="px-3 py-2">渋谷駅 徒歩5分</td><td className="px-3 py-2">12:00〜20:00</td><td className="px-3 py-2">ギター・ベース・管楽器・シンセ・PA・DJ・ドラムほか</td><td className="px-3 py-2">予約なしで可。店頭は即日その場で現金（高額は振込・現金書留の場合あり）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.kurosawagakki.com/sh_gcshibuya/access/" target="_blank" rel="nofollow noopener" className="underline">クロサワ楽器 G-CLUB SHIBUYA</a><br />道玄坂2-29-17</td><td className="px-3 py-2">渋谷駅ハチ公口 徒歩5分</td><td className="px-3 py-2">平日・土 11:00〜20:00<br />日・祝 11:00〜19:00</td><td className="px-3 py-2">ギター・ベース・ウクレレの専門フロア（<a href="https://www.kurosawagakki.com/kaikuro/" target="_blank" rel="nofollow noopener" className="underline">KAIKURO</a>の買取対象は楽器類全般）</td><td className="px-3 py-2">問い合わせ・事前査定のあと持ち込み。<a href="https://www.kurosawagakki.com/sh_gcshibuya/kaitori2021/index.html" target="_blank" rel="nofollow noopener" className="underline">店頭は即現金</a>（高額は後日振込の場合あり）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.ikebe-gakki.com/Page/shopdetail/ikeshibu-reuse.aspx" target="_blank" rel="nofollow noopener" className="underline">イケシブリユース（イケベ楽器）</a><br />桜丘町24-2 第3富士商事ビル5〜6F</td><td className="px-3 py-2">JR渋谷駅西口 徒歩3分</td><td className="px-3 py-2">11:00〜20:00<br />元日を除き無休</td><td className="px-3 py-2">種類・ジャンルを問わず相談可（鍵盤・デジタル・レコーディング・DJ機材は原則お預かり）</td><td className="px-3 py-2">その場で支払い可（金額・店舗の状況で振込の場合あり。<a href="https://www.ikebe-gakki.com/Page/reuse_purchase_method.aspx" target="_blank" rel="nofollow noopener" className="underline">買取方法</a>）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://gakkidou.co.jp/shop/tokyo/dogenzaka/" target="_blank" rel="nofollow noopener" className="underline">中古楽器堂 渋谷店</a><br />道玄坂2-6-2 藤山恒産第一ビル5階</td><td className="px-3 py-2">渋谷駅ハチ公改札 約5分</td><td className="px-3 py-2">完全予約制<br />（電話は24時間）</td><td className="px-3 py-2">ギター・ベース・アンプ・ドラム・弦楽器・シンセ・DJ・PA／録音機器ほか</td><td className="px-3 py-2">来店は要予約。駐車場なし。支払い方法は店舗ページに記載なし</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月5日に確認。買取品目は各社公式の案内から抜粋し、対応は来店前に各店へ確認してください。支払い方法の出典：イシバシは<a href="https://www.ishibashi.co.jp/ec/sp/kaitori-flow/" target="_blank" rel="nofollow noopener" className="underline">買取の流れ</a>。セカンドストリート渋谷神南店は楽器買取の可否を確認できなかったため表に入れていません。</p>
+        </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#hayami" className="hover:underline">持ち込みできる店の早見表</a></li>
             <li><a href="#overview" className="hover:underline">渋谷の楽器買取事情</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#area-guide" className="hover:underline">近くの店に持ち込み・店頭で売るには</a></li>

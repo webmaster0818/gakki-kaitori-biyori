@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/shinjuku-gakki-kaitori/' },
   title: "新宿の楽器買取はどこがいい？近くの店・持ち込み・専門店の選び方とおすすめ業者【2026年11月】",
   description:
-    "新宿で楽器を売るならどこがいい？出張・店頭・宅配の特徴と買取相場の目安、新宿・高田馬場・中野エリアの事情、おすすめ3社の比較、高く売るコツまで解説します。無料査定のみの利用も可能です。ギター・ピアノ・管楽器に対応。",
+    "新宿で楽器を持ち込みで売るなら？イシバシ楽器・中古楽器堂・島村楽器・クロサワ楽器・ハードオフの駅徒歩・営業時間・買取品目・支払い方法を公式で確認した早見表と、出張・宅配の選び方、おすすめ3社の比較を解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "新宿の楽器買取はどこがいい？近くの店・持ち込み・専門店の選び方とおすすめ業者【2026年11月】",
     description: "新宿で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説します。",
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 新宿おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-05",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,12 +109,31 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             新宿で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、新宿エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、新宿・高田馬場・中野など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月4日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月5日</p>
         </header>
+
+        <section id="hayami" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">新宿で持ち込みできる楽器買取店の早見表</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">新宿駅周辺で持ち込める主な実店舗は次の5店です（2026年11月5日に各店の公式で確認）。島村楽器は銀行振込のみなので、その場で現金にしたい場合はご注意ください。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店名・所在地</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店頭の受付</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">予約・支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.ishibashi.co.jp/kaitori/tentou/shinjuku.html" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 新宿店</a><br />新宿3-3-2 地下鉄会館ビル</td><td className="px-3 py-2">新宿三丁目駅C4出口 徒歩0分／新宿駅 徒歩5分</td><td className="px-3 py-2">12:00〜20:00</td><td className="px-3 py-2">ギター・ベース・管楽器・シンセ・PA・DJ・ドラムほか</td><td className="px-3 py-2">予約なしで可。店頭は即日その場で現金（高額は振込・現金書留の場合あり）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://gakkidou.co.jp/shop/tokyo/shinjuku/" target="_blank" rel="nofollow noopener" className="underline">中古楽器堂 新宿本店</a><br />西新宿1-2-13 山田ビル2階</td><td className="px-3 py-2">新宿駅西口 徒歩約3分</td><td className="px-3 py-2">11:00〜18:30<br />（電話は24時間）</td><td className="px-3 py-2">ギター・ベース・アンプ・ドラム・弦楽器・シンセ・DJ・PA／録音機器ほか</td><td className="px-3 py-2">店舗買取は事前予約が必要（公式FAQ）。支払い方法は店舗ページに記載なし</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/shinjuku/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 新宿PePe店</a><br />歌舞伎町1-30-1 西武新宿ペペ6F</td><td className="px-3 py-2">西武新宿駅直結／JR新宿駅 徒歩5分</td><td className="px-3 py-2">11:00〜21:30<br />（査定がスムーズなのは13:30〜18:00）</td><td className="px-3 py-2">ギター・ベース・エフェクター・アンプ・電子ドラム・シンセ・PA・DJ・管楽器・バイオリンほか</td><td className="px-3 py-2">銀行振込のみ・現金払いなし（10万円以上は振込まで1週間ほど）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.kurosawagakki.com/sh_ohkubo/" target="_blank" rel="nofollow noopener" className="underline">クロサワ楽器 日本総本店</a><br />百人町1-10-8</td><td className="px-3 py-2">新大久保エリア</td><td className="px-3 py-2">平日・土 11:00〜20:00<br />日・祝 11:00〜19:00<br />（公式の表記は「土曜日を除く」つき）</td><td className="px-3 py-2">マーティン・ベース・クラシックギター・管楽器などのフロア別（<a href="https://www.kurosawagakki.com/kaikuro/" target="_blank" rel="nofollow noopener" className="underline">KAIKURO</a>の買取対象は楽器類全般）</td><td className="px-3 py-2">予約・支払いは公式で確認を</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.hardoff.co.jp/shop/detail/?p=101139" target="_blank" rel="nofollow noopener" className="underline">ハードオフ 新宿マルイメン</a><br />新宿5-16-4 新宿マルイメン</td><td className="px-3 py-2">新宿三丁目駅E2出口 徒歩約3分／新宿駅東口 徒歩約10分</td><td className="px-3 py-2">11:00〜20:00<br />年中無休</td><td className="px-3 py-2">楽器を含む総合リユース店（品目は店舗に確認）</td><td className="px-3 py-2">予約・支払いは公式で確認を</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月5日に確認。買取品目は各社公式の案内から抜粋し、対応は来店前に各店へ確認してください。支払い方法の出典：イシバシは<a href="https://www.ishibashi.co.jp/ec/sp/kaitori-flow/" target="_blank" rel="nofollow noopener" className="underline">買取の流れ</a>。セカンドストリート新宿店は公式ページを確認できなかったため表に入れていません。</p>
+        </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#hayami" className="hover:underline">持ち込みできる店の早見表</a></li>
             <li><a href="#overview" className="hover:underline">新宿の楽器買取事情</a></li>
             <li><a href="#mochikomi" className="hover:underline">持ち込み・専門店・宅配の選び方</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>

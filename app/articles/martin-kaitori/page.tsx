@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/martin-kaitori/' },
   title: "Martin買取はどこがいい？D-28等の相場とおすすめ3社【2026年11月】",
   description:
-    "Martin（マーティン）のアコギを売るならどこがいい？D-28・D-45・000-28などモデル別の買取相場の目安と、Martin買取に強いおすすめ3社を比較します。ヴィンテージ・限定モデルの高額買取のコツも解説します。無料査定のみの利用も可能です。",
+    "Martin D-28 Standardの掲示買取価格は島村楽器で14.8万〜26.4万円、イシバシ楽器で17万〜21.5万円（2026年11月5日確認）。D-45・000-28など型番別の価格と、おすすめ3社の比較、高く売るコツを解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "Martin買取はどこがいい？D-28等の相場とおすすめ3社【2026年11月】",
     description: "Martinアコギの買取相場の目安とおすすめ3社を比較します。モデル別相場から高く売るコツまで。",
@@ -36,13 +36,13 @@ function CtaBox() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-    { "@type": "Question", name: "Martin D-28の買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "Martin D-28の買取相場は、現行モデルで10万〜25万円程度です。1960年代以前のヴィンテージD-28は50万〜200万円以上の高額取引もあります。年式・状態・ハカランダ（ブラジリアンローズウッド）の有無が価格を大きく左右します。" } },
-    { "@type": "Question", name: "Martin D-45の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Martin D-45はMartinの最高峰モデルで、現行品で25万〜60万円、ヴィンテージ品は100万円〜数百万円の買取価格がつくこともあります。特に1942年以前のプリウォーD-45は超高額です。" } },
+    { "@type": "Question", name: "Martin D-28の買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "Martin D-28の買取相場は、現行のD-28 Standardで約15万〜26万円です（島村楽器・イシバシ楽器の掲示額、2026年11月5日確認）。1960年代以前のヴィンテージD-28は50万〜200万円以上の高額取引もあります。年式・状態・ハカランダ（ブラジリアンローズウッド）の有無が価格を大きく左右します。" } },
+    { "@type": "Question", name: "Martin D-45の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "Martin D-45はMartinの最高峰モデルで、現行のD-45 Standardで約46万〜81万円（島村楽器・イシバシ楽器の掲示額、2026年11月5日確認）、ヴィンテージ品は100万円〜数百万円の買取価格がつくこともあります。特に1942年以前のプリウォーD-45は超高額です。" } },
     { "@type": "Question", name: "Martinのギターを高く売るコツは？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、純正ハードケースを揃える、湿度管理の良さをアピールする、ネック反りがないか確認する、シリアルナンバーで年式を伝える、の5つがポイントです。Martinはケースの有無で大きく査定が変わります。" } },
     { "@type": "Question", name: "ヴィンテージMartinの価値はどのように判断しますか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージMartinの価値は、年式（シリアルナンバーで特定）、使用木材（特にハカランダの有無）、オリジナルパーツの残存率、ネック状態、リペア歴で判断されます。1969年以前のハカランダモデルは特に高額です。" } },
     { "@type": "Question", name: "Martin以外のアコギブランドとの買取価格の違いは？", acceptedAnswer: { "@type": "Answer", text: "Martinはアコースティックギターのトップブランドであり、同クラスのTaylorやGibsonアコギと比較しても、中古市場での人気が高く安定した買取価格がつきます。特にD-28とD-45はアコギの定番として不動の地位を確立しています。" } },
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年11月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-11-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年11月最新】Martin買取おすすめ3社比較｜アコギの王様の相場・高く売るコツ", datePublished: "2026-04-26", dateModified: "2026-11-05", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年11月最新】Martin買取おすすめ3社比較｜アコギの王様の相場と高く売るコツ\", \"item\": \"https://gakkikaitori-biyori.com/articles/martin-kaitori/\"}]}" }} /></>);
 }
@@ -60,12 +60,30 @@ export default function MartinKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年11月最新】Martin買取おすすめ3社比較｜アコギの王様の相場と高く売るコツ</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Martin（マーティン/マーチン）のアコースティックギターを売りたい方へ。本記事では、Martin製アコギの買取に強い3社を比較し、D-28・D-45・000-28などモデル別の買取相場、ヴィンテージMartinの価値、高く売るコツまで詳しく解説します。1833年創業の老舗ブランドMartinは、アコースティックギターの世界で「王様」と称される存在です。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月5日</p>
         </header>
+
+        <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">Martin主要モデルの掲示買取価格（2026年11月5日確認）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">買取価格を公開している島村楽器とイシバシ楽器の掲示額です。店によって差があるので、売る前に比べてください。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">モデル</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">島村楽器（A／B／C）</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">イシバシ楽器（美品／良品／並品）</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">D-28 Standard</td><td className="px-3 py-2">¥264,000／¥214,000／¥148,000</td><td className="px-3 py-2">¥215,000／¥195,000／¥170,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">HD-28 Standard</td><td className="px-3 py-2">¥301,000／¥244,000／¥169,000</td><td className="px-3 py-2">¥200,000／¥180,000／¥160,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">000-28 Standard</td><td className="px-3 py-2">¥301,000／¥244,000／¥169,000</td><td className="px-3 py-2">¥260,000／¥235,000／¥210,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">D-45 Standard</td><td className="px-3 py-2">¥813,000／¥661,000／¥457,000</td><td className="px-3 py-2">¥700,000／¥620,000／¥540,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※2026年11月5日に<a href="https://www.shimamura.co.jp/used/search.html?cat=1&inst=&brand=112&model=D-28&num=20&pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器の買取価格検索</a>と<a href="https://reuse.ishibashi.co.jp/ja/search?search_text=Martin%20D-28&sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器の買取価格検索</a>で確認（税込）。両社とも目安で、買取価格を保証するものではなく、現物確認で決まり、予告なく変わります。島村楽器のA／B／Cは「新品同様／多少の傷や汚れ／使用感があり傷や汚れが目立つ」で、付属品の欠品は減額です。イシバシ楽器の表記はD-28が「Standard (2017-)」、ほかが「Standard (2018-)」のモデルです。</p>
+        </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#kakaku" className="hover:underline">主要モデルの掲示買取価格</a></li>
             <li><a href="#about" className="hover:underline">Martinブランドの特徴</a></li>
             <li><a href="#dreadnought" className="hover:underline">ドレッドノートの買取相場</a></li>
             <li><a href="#other" className="hover:underline">その他モデルの買取相場</a></li>
@@ -101,9 +119,9 @@ export default function MartinKaitoriPage() {
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">モデル</th><th className="px-4 py-3 text-left font-medium">買取相場</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3">D-28</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜25万円</td><td className="px-4 py-3 text-warm-gray">アコギの定番中の定番</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">D-28</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜26万円</td><td className="px-4 py-3 text-warm-gray">アコギの定番中の定番。現行Standardは15万〜26万円</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">D-35</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜20万円</td><td className="px-4 py-3 text-warm-gray">3ピースバック</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">D-45</td><td className="px-4 py-3 text-gold-dark font-bold">25万〜60万円</td><td className="px-4 py-3 text-warm-gray">Martinの最高峰。豪華装飾</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">D-45</td><td className="px-4 py-3 text-gold-dark font-bold">46万〜81万円</td><td className="px-4 py-3 text-warm-gray">Martinの最高峰。豪華装飾</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">D-18</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜18万円</td><td className="px-4 py-3 text-warm-gray">マホガニーバック。温かい音色</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">HD-28</td><td className="px-4 py-3 text-gold-dark font-bold">12万〜28万円</td><td className="px-4 py-3 text-warm-gray">ヘリンボーン装飾。スキャロップ</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">D-16E</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円</td><td className="px-4 py-3 text-warm-gray">エレアコ。16シリーズ</td></tr>
@@ -117,7 +135,7 @@ export default function MartinKaitoriPage() {
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">モデル</th><th className="px-4 py-3 text-left font-medium">買取相場</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3">000-28</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜22万円</td><td className="px-4 py-3 text-warm-gray">オーディトリアムサイズの名機</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">000-28</td><td className="px-4 py-3 text-gold-dark font-bold">17万〜30万円</td><td className="px-4 py-3 text-warm-gray">オーディトリアムサイズの名機</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">OM-28</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜22万円</td><td className="px-4 py-3 text-warm-gray">ロングスケールの000</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">00-18</td><td className="px-4 py-3 text-gold-dark font-bold">8万〜15万円</td><td className="px-4 py-3 text-warm-gray">小ぶりで繊細な音色</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">GPC-16E</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円</td><td className="px-4 py-3 text-warm-gray">カッタウェイ付きエレアコ</td></tr>
@@ -168,8 +186,8 @@ export default function MartinKaitoriPage() {
 
           <h2 id="faq">Martin買取に関するよくある質問</h2>
           <div className="space-y-4 mt-6">
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Martin D-28の買取相場はいくらですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">現行モデルで10万〜25万円程度です。ヴィンテージ品は年式により50万〜200万円以上になることもあります。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Martin D-45の買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">現行品で25万〜60万円、ヴィンテージ品は100万円〜数百万円になることもあります。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Martin D-28の買取相場はいくらですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">現行のD-28 Standardで約15万〜26万円です（島村楽器・イシバシ楽器の掲示額、2026年11月5日確認）。ヴィンテージ品は年式により50万〜200万円以上になることもあります。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Martin D-45の買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">現行のD-45 Standardで約46万〜81万円（島村楽器・イシバシ楽器の掲示額、2026年11月5日確認）、ヴィンテージ品は100万円〜数百万円になることもあります。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Martinのギターを高く売るコツは？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">純正ハードケースを揃える、シリアルナンバーで年式を特定する、複数業者に査定を依頼する、の3つが特に重要です。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">ヴィンテージMartinの価値はどのように判断しますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">年式、使用木材（特にハカランダの有無）、オリジナルパーツの残存率、ネック状態、リペア歴で判断されます。1969年以前のハカランダモデルは特に高額です。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Martin以外のアコギとの買取価格の違いは？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">Martinはアコギのトップブランドで、同クラスのTaylorやGibsonアコギと比較しても安定した買取価格がつきます。特にD-28とD-45は定番として不動の人気です。</div></details>
