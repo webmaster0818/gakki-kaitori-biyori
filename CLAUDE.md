@@ -525,3 +525,9 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 🔍 楽器の買取屋さんの都内実店舗が shibuya「上野・池袋・板橋」／shinjuku「上野・池袋」で不一致（店舗数の判断待ちと一緒に）
 - 10日経過後（11/5 以降）の候補: 新宿・渋谷の冒頭に持ち込み早見表、martin の冒頭に当サイト週次中央値（D-28 ¥221,100 n=91・D-45 ¥746,735 n=23・000-28 ¥280,250 n=46、いずれも 11/2 の中古実勢＝買取価格ではない）へのリンクと店別の掲示買取価格（要確認）
 - felmat fmcl 2910・fmimp 3340・fmimg 88・562ページ 前後一致。本文が変わったのは shinjuku 1本のみ。precheck 全項目OK。Indexing 未送信（16時）
+
+### 2026-11-05 朝ルーチン：vs-kojin-baibai の★削除（点検 C6）／ティファナ宅配は停止継続／roland・denshi-piano は対応済みを確認（src 810c5976 / deploy 36e90b70c）
+- 点検 C6: gakki-kaitori-vs-kojin-baibai の比較表「手間」行「★（少ない）／★★★（多い）」は出典も評価基準もなし → 「少ない／多い」。generate-phase3-faq.py も同じ表記に。本文が変わったのは1本のみ（全 HTML 可視テキスト比較）。JSON-LD 変更なし。fmcl 2910・fmimp 3340・fmimg 88 前後一致。precheck 全項目OK。sitemap lastmod は当該ページ＋TOP/一覧（生成器の仕様で最新記事の日付に追従）
+- 🔍 未変更: 同じ根拠なしの★表が hikkoshi-gakki-shobun 5行・kabi-gakki-kaitori 5行・gakki-shobun-houhou 10行（計3ページ20行。generate-phase1-situations.py・generate-phase3-faq.py にも同じ値）
+- ティファナ 11/5: /shipping/「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止」が表示。トップの同文はコメント内。online.tifana.net は 503（GET のみ）→ 注記 327 ファイルは不変
+- roland-kaitori: FAQ（表示＋JSON-LD）・表とも LX706/LX708 は「販売完了」明記済み。Roland 公式 11/5 も lx706・lx708 に「販売完了」→ 変更なし。denshi-piano: JSON-LD・表示とも「KAWAI CAシリーズで5万〜18万円」、ソースに「CNシリーズで」0件・本番も CA のみ → 変更なし
