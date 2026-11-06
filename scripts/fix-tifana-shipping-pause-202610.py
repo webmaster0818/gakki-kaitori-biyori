@@ -6,6 +6,7 @@
 - tifana.net/shipping/「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております」
 - 再開時期の記載なし
 （10/22 から継続。10/25 に MediaXAI へ既定案 A＝注記 を宣言 → 回答なしのため 10/26 実行）
+確認日の更新: 2026-11-06（/shipping/ の表示は継続・online.tifana.net は 503）。本番の注記の日付も同日に一括更新。
 
 やること（宅配の記述・ボタンは消さず、注記を足すだけ）:
 1. ティファナ紹介の見出し（h3）の直下（ServiceCapture があればその下）に注記の段落を1つ
@@ -25,7 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES = ROOT / "app" / "articles"
-CHECKED = "2026年10月26日"
+CHECKED = "2026年11月6日"  # 最終確認日（本番の注記と揃える）
 
 NOTE_TEXT = (f"<strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています"
              f"（{CHECKED}確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。")
