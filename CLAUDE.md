@@ -557,3 +557,11 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - fender: 冒頭に島村・イシバシの掲示買取価格（AmPro II Strat／AV II 1957／MIJ Traditional 50s／Player Tele／Player Jazz Bass。公式 11/6）。既存の相場表と矛盾なし＝本文の相場は未変更。title 不変。島村の AmPro II Strat は通常品の行がなく Anniversary(2CS) の値と注記
 - 🔍 未変更: piano-kaitori の「KAWAI RXシリーズ 15万〜50万円」は今回の掲示額（50万〜65万）と未整合。kawai-kaitori・kawai-piano-kaitori・grand-piano-kaitori は未照合。イシバシ検索の「Fender Player Stratocaster」はヘッドレスで描画できない回があり表に入れず
 - WebSearch は米国経由で日本の SERP 順位は取れず。RX-2 はピアノワン・未来ピアノガーデン・pianosouba 等が価格を掲示。本文が変わったのは5本のみ（全 HTML 可視テキスト比較）。felmat fmcl 2910・fmimp 3340・fmimg 88 前後一致。precheck 全項目OK。Indexing 未送信（16時）
+
+
+### 2026-11-07 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/7 に更新／ミーナ天神は修理受付停止継続／ウリエル「市内全域」を公式の記載に訂正
+- ティファナ 11/7: /shipping/ の表示に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止」。online.tifana.net は 503（GET のみ）。表示部分に申込リンクなし（残る online.tifana.net は JS の svg 取得のみ）。再開時期の記載なし。→ 注記の日付を 11/6 → 11/7（331 ファイル・1,096 か所。うち JSON-LD の \\u 表記 232 か所）。店舗の確認日など 11/6 のティファナ以外の日付は不変。
+- クロサワ ミーナ天神店 11/7（/sh_fuk/）: 修理の新規受付の一時停止は継続（再開時期は未定）。リペア工房併設の説明も掲載＝fukuoka の3か所は一致のため不変。リペア工房の記載は他ページになし。
+- ウリエル: /visit/ は「買取対応エリア ※一部対応できない市町村がございます」で神奈川県・京都府。「横浜市内全域」「京都市内全域」「18区すべて」と区名の列挙を公式の記載に（yokohama 7か所・guitar-kaitori-yokohama 4か所・kyoto 3か所。gen-guitar-city.py も同じ）。title は不変。
+- 🔍 未確認のまま: セカンドストリート（www.2ndstreet.jp は robots.txt を含め 403）。未変更: 東京・埼玉テンプレ55本の「宅配買取は一時停止中（公式のお知らせ・2026年10月22日確認）」は日付が古いまま。
+- 点検 C3 /author/: 「個人の執筆者や経歴ではなく」「監修者の個人名…掲載していないもの」の否定文で誤検知（未変更）。
