@@ -69,10 +69,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "横浜で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "横浜で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)横浜駅周辺のイシバシ楽器やクロサワ楽器などの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。横浜は東京に次ぐ楽器市場規模があるため、複数社比較で高額査定が期待できます。" } },
-      { "@type": "Question", name: "横浜で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは横浜市内全域への出張買取に対応しています。ティファナも神奈川県の一部地域で出張買取を行っています。また、楽器の買取屋さん横浜店は最短30分で出張査定に来てくれるスピード対応が特徴です。出張料・査定料はいずれも無料です。" } },
+      { "@type": "Question", name: "横浜で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ティファナも神奈川県の一部地域で出張買取を行っています。また、楽器の買取屋さん横浜店は最短30分で出張査定に来てくれるスピード対応が特徴です。出張料・査定料はいずれも無料です。" } },
       { "@type": "Question", name: "横浜の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。イシバシ楽器横浜店やクロサワ楽器横浜店の店頭買取なら、その場で査定・即日現金化ができます。楽器の買取屋さんの出張買取でも、その場で見積もり・即現金支払いに対応しています。" } },
       { "@type": "Question", name: "横浜駅周辺に楽器買取店は多いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、横浜駅周辺には楽器買取店が集中しています。イシバシ楽器横浜店（南幸2丁目・相鉄南幸第7ビル2F/3F）、クロサワ楽器横浜店（横浜岡田屋モアーズ4F）、島村楽器横浜ビブレ店など、徒歩圏内に大手楽器チェーンが揃っています。" } },
-      { "@type": "Question", name: "ピアノやドラムなど大型楽器は横浜でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。横浜市内全域に対応しており、搬出作業も査定士が行います。出張料・搬出料は無料です。横浜楽器でも大型楽器の出張買取に対応しています。" } },
+      { "@type": "Question", name: "ピアノやドラムなど大型楽器は横浜でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。搬出作業も査定士が行います。出張料・搬出料は無料です。横浜楽器でも大型楽器の出張買取に対応しています。" } },
     ],
   };
   const articleData = {
@@ -146,7 +146,7 @@ export default function YokohamaGakkiKaitoriPage() {
               </thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">横浜対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">出張は神奈川の一部地域・宅配</td><td className="px-4 py-3">横浜市内全域</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">横浜対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">出張は神奈川の一部地域・宅配</td><td className="px-4 py-3">神奈川県（一部の市町村を除く）</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">即日対応</td><td className="px-4 py-3">業者による</td><td className="px-4 py-3">日程調整（神奈川に店舗なし）</td><td className="px-4 py-3">最短翌日以降（出張）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">手数料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">無料</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応楽器</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td><td className="px-4 py-3">全ジャンル</td></tr>
@@ -162,12 +162,12 @@ export default function YokohamaGakkiKaitoriPage() {
 
           <h3>ティファナ ── 横浜エリアで出張買取・宅配買取に対応</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月6日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月7日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナの出張買取は東京・埼玉・神奈川・千葉の一部地域が対象で（公式の出張可能エリア）、<strong>宅配買取は全国から送料無料</strong>で利用できます。店舗は東京・埼玉にあり、神奈川県内にはありません。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しの際のまとめ売りにも便利です。</p>
 
-          <h3>ウリエル ── 横浜市内全域へ出張買取</h3>
+          <h3>ウリエル ── 神奈川県が対応エリアの出張買取</h3>
           <ServiceCapture id="uriel" />
-          <p>ウリエルは横浜市内全域に出張買取で対応。18区すべてのエリアに対応しており、<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
+          <p>ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。<strong>ピアノやドラムセットなど大型楽器の搬出もお任せ</strong>できます。出張料・査定料は無料です。</p>
 
           <CtaBox />
 
@@ -312,7 +312,7 @@ export default function YokohamaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは横浜市内全域への出張買取に対応しています。ティファナも神奈川県の一部地域で出張買取を行っています。楽器の買取屋さん横浜店は最短30分で出張査定可能です。出張料・査定料はいずれも無料です。
+                ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ティファナも神奈川県の一部地域で出張買取を行っています。楽器の買取屋さん横浜店は最短30分で出張査定可能です。出張料・査定料はいずれも無料です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -339,7 +339,7 @@ export default function YokohamaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                大型楽器はウリエルの出張買取がおすすめです。横浜市内全域に対応しており、搬出作業も査定士が行います。出張料・搬出料は無料です。
+                大型楽器はウリエルの出張買取がおすすめです。公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。搬出作業も査定士が行います。出張料・搬出料は無料です。
               </div>
             </details>
           </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 function Schema() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"横浜でギターの出張買取は対応していますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい。ウリエルは横浜市内全域への出張買取に対応しています。ティファナの出張は横浜市では青葉区・都筑区が対象で、ほかの16区は相談地域です（品物の内容や点数により伺えない場合あり）。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。\"}}, {\"@type\": \"Question\", \"name\": \"弦が切れている・ネックが反っているギターでも横浜で売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"多くの業者で査定対象になります。状態に応じた減額はありますが、Gibson・Fenderなど人気ブランドはジャンク扱いでも値が付くことがあります。修理費が買取額の上昇分を上回ることが多いため、修理せずそのまま無料査定に出すのがおすすめです。\"}}, {\"@type\": \"Question\", \"name\": \"横浜のギター買取相場はどこで確認できますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"本ページの週次相場表（ヤフオク!落札データの中央値を当サイトが毎週集計）が目安になります。中古ギターの相場は全国のオンライン市場で決まるため、横浜だけ特別に高い・安いということは基本的にありません。買取店の提示額は中央値の概ね50〜70%が目安です。\"}}, {\"@type\": \"Question\", \"name\": \"ギター1本だけでも買取してもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"1本から買取可能です。店頭持ち込みならその場で現金化でき、宅配買取なら送料無料の梱包キットを用意している業者もあります。複数本や機材一式なら出張買取でまとめ売りすると交渉しやすくなります。\"}}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"横浜でギターの出張買取は対応していますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"はい。ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ティファナの出張は横浜市では青葉区・都筑区が対象で、ほかの16区は相談地域です（品物の内容や点数により伺えない場合あり）。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。\"}}, {\"@type\": \"Question\", \"name\": \"弦が切れている・ネックが反っているギターでも横浜で売れますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"多くの業者で査定対象になります。状態に応じた減額はありますが、Gibson・Fenderなど人気ブランドはジャンク扱いでも値が付くことがあります。修理費が買取額の上昇分を上回ることが多いため、修理せずそのまま無料査定に出すのがおすすめです。\"}}, {\"@type\": \"Question\", \"name\": \"横浜のギター買取相場はどこで確認できますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"本ページの週次相場表（ヤフオク!落札データの中央値を当サイトが毎週集計）が目安になります。中古ギターの相場は全国のオンライン市場で決まるため、横浜だけ特別に高い・安いということは基本的にありません。買取店の提示額は中央値の概ね50〜70%が目安です。\"}}, {\"@type\": \"Question\", \"name\": \"ギター1本だけでも買取してもらえますか？\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"1本から買取可能です。店頭持ち込みならその場で現金化でき、宅配買取なら送料無料の梱包キットを用意している業者もあります。複数本や機材一式なら出張買取でまとめ売りすると交渉しやすくなります。\"}}]}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"横浜のギター買取おすすめ3社を比較【2026年11月】高く売るコツと相場\", \"datePublished\": \"2026-07-04\", \"dateModified\": \"2026-07-04\", \"author\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"楽器買取びより\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"ギター買取\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"ギター買取 横浜\", \"item\": \"https://gakkikaitori-biyori.com/articles/guitar-kaitori-yokohama/\"}]}" }} />
     </>
@@ -119,12 +119,12 @@ export default function Page() {
 
           <h3>ティファナ ── 横浜市内に店舗なし・出張は青葉区・都筑区</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月6日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月7日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナは、ギター以外のアイテムもまとめて売れるのが強みです。ただし店舗は東京都・埼玉県のみで横浜市内にはなく、出張は青葉区・都筑区が対象、ほかの16区は相談地域です（ティファナ公式の出張可能エリア・2026年11月3日確認）。</p>
 
           <h3>ウリエル ── 自宅にいながらギターと機材をまとめて売却</h3>
           <ServiceCapture id="uriel" />
-          <p>ウリエルは出張買取が中心で、ウリエルは横浜市内全域への出張買取に対応しています。<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
+          <p>ウリエルは出張買取が中心で、公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。<strong>ギター本体だけでなくアンプ・エフェクター・ケースなど機材一式のまとめ売り</strong>に向いており、出張料・査定料は無料です。</p>
 
           <CtaBox />
 
@@ -143,7 +143,7 @@ export default function Page() {
           <p>店頭買取のメリットはその場で現金化できることです。ギター1本なら持ち運びやすいため、店頭・出張・宅配の中でも選びやすい方法です。</p>
 
           <h3>出張買取 ── 複数の機材をまとめて売りたい方に</h3>
-          <p>ウリエルは横浜市内全域への出張買取に対応しています。ティファナの出張は横浜市では青葉区・都筑区が対象で、ほかの16区は相談地域です（品物の内容や点数により伺えない場合あり）。出張料・査定料は無料の業者がほとんどで、アンプやエフェクター、ケースなど機材一式をまとめて査定してもらえます。本数が多い場合や大型アンプがある場合は出張買取が便利です。</p>
+          <p>ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ティファナの出張は横浜市では青葉区・都筑区が対象で、ほかの16区は相談地域です（品物の内容や点数により伺えない場合あり）。出張料・査定料は無料の業者がほとんどで、アンプやエフェクター、ケースなど機材一式をまとめて査定してもらえます。本数が多い場合や大型アンプがある場合は出張買取が便利です。</p>
 
           <h3>宅配買取 ── 全国どこからでも（横浜も同条件）</h3>
           <p>宅配買取は全国共通のサービスで、横浜からでも送料無料の梱包キットを使って売却できます。買取価格の条件も全国一律のため、近くに楽器店がないエリアでも不利になりません。ネックが動かないよう緩衝材を詰めて梱包するのがポイントです。</p>
@@ -180,7 +180,7 @@ export default function Page() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい。ウリエルは横浜市内全域への出張買取に対応しています。ティファナの出張は横浜市では青葉区・都筑区が対象で、ほかの16区は相談地域です（品物の内容や点数により伺えない場合あり）。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。
+                はい。ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ティファナの出張は横浜市では青葉区・都筑区が対象で、ほかの16区は相談地域です（品物の内容や点数により伺えない場合あり）。出張料・査定料は無料の業者がほとんどで、アンプ・エフェクターとのまとめ売りも可能です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">

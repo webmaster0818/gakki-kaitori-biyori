@@ -68,10 +68,10 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "京都で楽器を高く売れる買取業者はどこですか？", acceptedAnswer: { "@type": "Answer", text: "京都で楽器を高く売るには、ヒカカク！の一括査定で複数業者を比較するのがおすすめです。河原町・四条周辺の楽器店でも買取を行っていますが、全国規模のサービスを活用することで、より高い買取価格が期待できます。" } },
-      { "@type": "Question", name: "京都で出張買取に対応している業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは京都市内全域に出張買取に対応しています。左京区・中京区・右京区・伏見区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。ピアノや大型楽器の売却に特に便利です。" } },
+      { "@type": "Question", name: "京都で出張買取に対応している業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは公式の買取対応エリアに京都府を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。ピアノや大型楽器の売却に特に便利です。" } },
       { "@type": "Question", name: "京都の大学で使っていた楽器は売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、大学の軽音楽部やオーケストラで使用していた楽器も買取可能です。京都は京大・同志社・立命館など大学が多く、学生楽器の買取需要も高い地域です。卒業・就職を機に手放す方は、新学期前の2〜3月に売ると高値がつきやすい傾向があります。" } },
       { "@type": "Question", name: "壊れた楽器でも京都で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ティファナは「汚れている、音が出ないなど状態が悪い楽器も相談可」としており、ブランド楽器は壊れていても値段がつくことがあります。まずは無料査定でご確認ください。" } },
-      { "@type": "Question", name: "京都から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取を利用すれば、京都から楽器を送って査定を受けられます。なお、ティファナの宅配買取は2026年11月6日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。ギターなどの小型〜中型楽器の売却に便利です。" } },
+      { "@type": "Question", name: "京都から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取を利用すれば、京都から楽器を送って査定を受けられます。なお、ティファナの宅配買取は2026年11月7日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。ギターなどの小型〜中型楽器の売却に便利です。" } },
     ],
   };
   const articleData = {
@@ -179,7 +179,7 @@ export default function KyotoGakkiKaitoriPage() {
 
           <h3>ティファナ ── 京都からは宅配買取で利用</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月6日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月7日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは総合買取サービスです。出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、京都からは宅配買取（全国送料無料）での利用になります。汚れている・音が出ないなど状態が悪い楽器も相談できます。</p>
 
@@ -188,7 +188,7 @@ export default function KyotoGakkiKaitoriPage() {
           <h3>ウリエル ── 京都市内の出張買取に対応</h3>
           <ServiceCapture id="uriel" />
 
-          <p>ウリエルは出張買取を中心とするサービスで、京都市内全域に対応しています。左京区・中京区・右京区・上京区・下京区・南区・伏見区・山科区・西京区と、市内全域が出張対象です。</p>
+          <p>ウリエルは出張買取を中心とするサービスで、公式の買取対応エリアに京都府を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ご自宅が対象かどうかは、申し込むときに確認してください。</p>
 
           <p>ピアノやドラムセット、複数の楽器をまとめて売りたい場合に特に便利です。査定士が自宅に訪問し、その場で査定・現金買取が完了します。</p>
 
@@ -210,7 +210,7 @@ export default function KyotoGakkiKaitoriPage() {
 
           <h3>宇治・長岡京エリア（京都市外）</h3>
 
-          <p>宇治市や長岡京市など京都市外のエリアでも、ヒカカク！やティファナの宅配買取なら問題なく利用可能です。なお、ティファナの宅配買取は2026年11月6日時点で一時停止中です（公式のお知らせ）。ウリエルの出張買取も、京都府内の主要エリアであれば対応しています。</p>
+          <p>宇治市や長岡京市など京都市外のエリアでも、ヒカカク！やティファナの宅配買取なら問題なく利用可能です。なお、ティファナの宅配買取は2026年11月7日時点で一時停止中です（公式のお知らせ）。ウリエルの出張買取も、京都府内の主要エリアであれば対応しています。</p>
 
           <h2 id="popular-instruments">京都で人気の楽器と買取相場</h2>
 
@@ -302,7 +302,7 @@ export default function KyotoGakkiKaitoriPage() {
                 <span className="pr-4">京都で出張買取に対応している業者はありますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ウリエルは京都市内全域に出張買取に対応しています。左京区・中京区・右京区・伏見区など、ご自宅まで査定士が訪問可能です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ウリエルは公式の買取対応エリアに京都府を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ご自宅まで査定士が訪問可能です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
@@ -323,7 +323,7 @@ export default function KyotoGakkiKaitoriPage() {
                 <span className="pr-4">京都から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら京都から楽器を送って査定を受けられます。なお、ティファナの宅配買取は2026年11月6日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら京都から楽器を送って査定を受けられます。なお、ティファナの宅配買取は2026年11月7日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定料・キャンセル料もかかりません。</div>
             </details>
           </div>
 
