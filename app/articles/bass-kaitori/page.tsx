@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/bass-kaitori/' },
   title: "ベース買取はどこがいい？おすすめ3社と実勢相場・高く売るコツ【2026年11月】",
   description:
-    "ベース買取のおすすめ業者3社を比較します。エレキベース・アコースティックベース・アップライトベースの買取相場、Fender・Gibson・Musicman・Rickenbacker・YAMAHAなどブランド別の相場目安、高く売るコツまで解説します。",
+    "アコースティックベースの掲示買取価格はFender Kingman Bass SCEが島村楽器で1.2万〜2.7万円、イシバシ楽器で2.5万〜3.2万円（2026年11月7日確認）。エレキ・アップライトの相場、ブランド別の目安、おすすめ3社の比較、高く売るコツまで解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
-    description: "ベース買取のおすすめ業者3社を比較します。エレキベース・アコースティックベースの買取相場からブランド別相場、高く売るコツまで解説します。",
+    description: "アコースティックベースの掲示買取価格はFender Kingman Bass SCEが島村楽器で1.2万〜2.7万円、イシバシ楽器で2.5万〜3.2万円（2026年11月7日確認）。エレキ・アップライトの相場、ブランド別の目安、おすすめ3社の比較、高く売るコツまで解説します。",
   },
 };
 
@@ -81,7 +81,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】ベース買取おすすめ3社比較｜相場・高く売るコツ",
     datePublished: "2026-04-18",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-07",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -112,13 +112,33 @@ export default function BassKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             エレキベースやアコースティックベースを売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、ベース買取の人気3サービスを比較し、エレキベース・アコースティックベース・アップライトベースの買取相場、ブランド別の相場目安、そして少しでも高く売るためのコツを詳しく解説します。ベースはギターと比べて中古市場の流通量が少ないため、業者選びが買取価格を大きく左右します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月7日</p>
         </header>
+
+        <section id="acoustic-kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">アコースティックベースの掲示買取価格（2026年11月7日確認）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">買取価格を公開している島村楽器とイシバシ楽器の掲示額です。同じモデルでも店で大きく差が出ることがあるので、売る前に比べてください。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">モデル</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">島村楽器（A／B／C）</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">イシバシ楽器（美品／良品／並品）</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Fender Kingman Bass SCE</td><td className="px-3 py-2">¥27,000／¥20,000／¥12,000</td><td className="px-3 py-2">¥32,000／¥28,500／¥25,000（-2011）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Fender Kingman Bass V2</td><td className="px-3 py-2">¥26,000／¥20,000／¥12,000</td><td className="px-3 py-2">¥36,500／¥33,000／¥29,000（SCE V2・2012-）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Taylor GS Mini-e Bass</td><td className="px-3 py-2">¥34,000／¥25,000／¥14,000 ※</td><td className="px-3 py-2">¥40,000／¥36,000／¥32,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Ibanez AEB10E</td><td className="px-3 py-2">¥23,000／¥19,000／¥13,000</td><td className="px-3 py-2">¥11,000／¥10,000／¥7,200</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Ibanez AEGB24E</td><td className="px-3 py-2">¥26,000／¥21,000／¥14,000</td><td className="px-3 py-2">—（確認できず）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※2026年11月7日に<a href="https://www.shimamura.co.jp/used/search.html?cat=&inst=&brand=&model=Kingman&num=100&pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器の買取価格検索</a>と<a href="https://reuse.ishibashi.co.jp/ja/search?search_text=Kingman%20Bass&sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器の買取価格検索</a>で確認。掲示額は目安で、実際の査定額は状態と時期で変わります。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2">※ 島村楽器の Taylor GS Mini-e Bass は、カテゴリ「その他エレキベース」の行の値です。カテゴリ「エレアコギター」の同名の行は ¥65,000／¥53,000／¥37,000 です。イシバシ楽器には GS Mini-e Maple Bass（¥42,000／¥38,000／¥33,000）の掲示もあります。島村楽器の Fender Kingman Bass Walnut は ¥44,000／¥36,000／¥25,000 です。</p>
+        </section>
 
         {/* Table of Contents */}
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#acoustic-kakaku" className="hover:underline">アコースティックベースの掲示買取価格</a></li>
             <li><a href="#market-price" className="hover:underline">ベース買取相場（種類別）</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#brand-price" className="hover:underline">ブランド別買取相場</a></li>
@@ -178,9 +198,9 @@ export default function BassKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3">Taylor GS Mini-e Bass</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜6万円</td><td className="px-4 py-3 text-warm-gray">コンパクトで人気</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">Fender Kingman Bass</td><td className="px-4 py-3 text-gold-dark font-bold">2万〜5万円</td><td className="px-4 py-3 text-warm-gray">Fenderブランドの安心感</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3">Ibanez AEB/AEBFLシリーズ</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜3万円</td><td className="px-4 py-3 text-warm-gray">フレットレスモデルもあり</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">Taylor GS Mini-e Bass</td><td className="px-4 py-3 text-gold-dark font-bold">1.4万〜6.5万円</td><td className="px-4 py-3 text-warm-gray">コンパクトで人気</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">Fender Kingman Bass</td><td className="px-4 py-3 text-gold-dark font-bold">1.2万〜4.4万円</td><td className="px-4 py-3 text-warm-gray">Fenderブランドの安心感</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">Ibanez AEB/AEBFLシリーズ</td><td className="px-4 py-3 text-gold-dark font-bold">0.7万〜3万円</td><td className="px-4 py-3 text-warm-gray">フレットレスモデルもあり</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">Tacoma Thunderchief</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円</td><td className="px-4 py-3 text-warm-gray">生産終了で希少価値あり</td></tr>
               </tbody>
             </table>

@@ -5,7 +5,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/conn-kaitori/' },
   title: "【2026年最新】コーン（C.G.Conn）買取おすすめ3社比較｜管楽器の相場と価値",
-  description: "コーン（C.G. Conn）買取の相場とおすすめ業者3社を比較します。サックス（6M/10M等）・トランペット・トロンボーンのヴィンテージ価値、状態の査定差を解説します。",
+  description: "コーン（C.G.Conn）の掲示買取価格はアルトサックスCAS280が4.5万〜6.2万円、トロンボーン88Hが3.7万〜5.8万円（イシバシ楽器・2026年11月7日確認）。楽器の買取屋さんの価格表とヴィンテージの扱い、おすすめ3社の比較を解説します。",
 };
 
 function Breadcrumb() {
@@ -27,9 +27,9 @@ function FaqSchema() {
       { "@type": "Question", name: "ヴィンテージは高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "はい。プリウォーやChu Berry期のサックスは高額です。" } },
       { "@type": "Question", name: "ラッカーが剥げていても売れますか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージはオリジナルラッカーの残存が評価されますが、剥げていても買取可能です。" } },
       { "@type": "Question", name: "マウスピースも査定対象ですか？", acceptedAnswer: { "@type": "Answer", text: "ヴィンテージのマウスピースは別途評価されることがあります。" } },
-      { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
+      { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "査定は3社とも無料です。返送料など条件が業者で異なる項目は、申し込み前にご確認ください。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】コーン（C.G.Conn）買取おすすめ3社比較｜管楽器の相場と価値", datePublished: "2026-06-05", dateModified: "2026-11-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】コーン（C.G.Conn）買取おすすめ3社比較｜管楽器の相場と価値", datePublished: "2026-06-05", dateModified: "2026-11-07", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,8 +71,32 @@ export default function ConnKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】コーン（C.G.Conn）買取おすすめ3社比較｜管楽器の相場と価値</h1>
           <p className="text-warm-gray text-sm leading-relaxed">コーン（C.G. Conn）の管楽器を売りたい方へ。ヴィンテージサックス（6M・10M・Chu Berry等）、トロンボーン、トランペットの価値、状態や年代による査定差を解説します。アメリカの老舗管楽器メーカーで、ヴィンテージ個体に高い需要があります。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月7日</p>
         </header>
+
+        <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">コーン（C.G.Conn）の掲示買取価格（2026年11月7日確認）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">コーンの買取は、イシバシ楽器の掲示でアルトサックス CAS280 が4.5万〜6.2万円、トロンボーン 88H が3.7万〜5.8万円です。同じ型番でも状態で差があり、番号と状態が分かると見積もりを比べやすくなります。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">型番</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">イシバシ楽器（美品／良品／並品）</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">アルトサックス CAS280</td><td className="px-3 py-2">¥62,000／¥54,000／¥45,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">テナーサックス CTS280</td><td className="px-3 py-2">¥66,000／¥57,000／¥48,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">ソプラノサックス CSS280R</td><td className="px-3 py-2">¥69,000／¥59,000／¥49,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">バリトンサックス CBS280</td><td className="px-3 py-2">¥149,000／¥124,000／¥99,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">テナーバストロンボーン 88H</td><td className="px-3 py-2">¥58,000／¥49,000／¥37,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">テナーバストロンボーン 88HR</td><td className="px-3 py-2">¥140,000／¥116,000／¥94,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">フレンチホルン 8D</td><td className="px-3 py-2">¥116,000／¥101,000／¥76,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">フレンチホルン 8DS</td><td className="px-3 py-2">¥280,000／¥240,000／¥200,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">トランペット 1B Vintage One（GL）</td><td className="px-3 py-2">¥69,000／¥59,000／¥49,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※2026年11月7日に<a href="https://reuse.ishibashi.co.jp/ja/search?search_text=C.G.CONN&sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器の買取価格検索</a>で確認。掲示額は目安で、実際の査定額は状態と時期で変わります。島村楽器の買取価格検索にはコーンの管楽器の掲示がありませんでした。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2"><a href="https://gakkikaitori.co.jp/purchase/category/?maker=conn" target="_blank" rel="nofollow noopener" className="underline">楽器の買取屋さんのコーンのページ</a>には、相場表に 8D ¥167,000・8DS ¥148,000・89HY ¥135,000、買取事例にアルトサックス ¥63,000（2025年6月20日）の掲載があります（2026年11月7日確認）。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2">ヴィンテージの 6M・10M は、確認した範囲では両社とも掲示価格を見つけられませんでした。下の「10万〜40万円以上」は当サイトの目安で、店の掲示額による裏付けはありません。個別に査定を依頼してください。</p>
+        </section>
 
         <div className="article-body">
 
@@ -93,11 +117,11 @@ export default function ConnKaitoriPage() {
           <CtaBox />
 
           <h2 id="osusume">おすすめ買取サービス3社</h2>
-          <p>コーンの売却には、以下の3サービスの活用がおすすめです。いずれも査定料・送料・キャンセル料が無料です。</p>
+          <p>コーンの売却には、以下の3サービスの活用がおすすめです。いずれも査定は無料です。返送料など条件が業者で異なる項目は、申し込み前にご確認ください。</p>
           <ul>
             <li><strong>ヒカカク！</strong> … 最大20社へ一括で査定を依頼できます。専門業者を含めて査定額を比較できます。</li>
             <li><strong>ウリエル</strong> … 出張買取に対応しています。大型楽器やまとめ売りに適しており、出張費・査定料は無料です。</li>
-            <li><strong>ティファナ</strong> … 店頭・宅配に対応しています。</li>
+            <li><strong>ティファナ</strong> … 店舗は東京都・埼玉県のみです。宅配買取は2026年11月7日時点で一時停止中です（公式のお知らせ）。</li>
           </ul>
           <p>まずはヒカカク！で相場を把握し、最も条件のよい業者に売却することをおすすめします。</p>
 
@@ -147,7 +171,7 @@ export default function ConnKaitoriPage() {
                 <span className="pr-4">費用はかかりますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">掲載3社はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">査定は3社とも無料です。返送料など条件が業者で異なる項目は、申し込み前にご確認ください。</div>
             </details>
           </div>
         </div>
