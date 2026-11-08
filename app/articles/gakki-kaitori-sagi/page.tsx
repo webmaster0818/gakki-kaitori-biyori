@@ -6,7 +6,7 @@ import DealerComparisonTable from "@/components/DealerComparisonTable";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/' },
   title: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点",
-  description: "楽器買取で詐欺やトラブルに遭わないための注意点を解説します。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。",
+  description: "ピアノの出張買取で困ったら？クーリング・オフ（書面受領から8日・メールでも可）、引渡しの拒絶、査定を超えた勧誘の禁止を消費者庁の説明で整理。楽器買取の詐欺パターンと対処法、偽サイトの確かめ方も解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点",
     description: "楽器買取の詐欺・トラブルを防ぐ方法と安心して売るための注意点を解説します。",
@@ -36,13 +36,13 @@ function CtaBox() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "楽器買取で詐欺に遭わないためにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社はすべて安心して利用できます。" } },
-      { "@type": "Question", name: "出張買取で強引に買い取られた場合はどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面で通知することで無条件で契約を解除できます。" } },
+      { "@type": "Question", name: "楽器買取で詐欺に遭わないためにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社も、申し込む前に返送料などの条件を公式サイトでご確認ください。" } },
+      { "@type": "Question", name: "出張買取で強引に買い取られた場合はどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面または電磁的記録（電子メール等）で通知することで、無条件で契約を解除できます。" } },
       { "@type": "Question", name: "事前査定額と実際の買取額が違った場合は？", acceptedAnswer: { "@type": "Answer", text: "事前査定はあくまで概算です。ただし、大幅に減額する業者には注意が必要です。事前に「この写真の状態で○万円か」を確認し、減額の条件を明確にしておいてください。" } },
       { "@type": "Question", name: "楽器買取のトラブルはどこに相談すればよいですか？", acceptedAnswer: { "@type": "Answer", text: "消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出してください。" } },
       { "@type": "Question", name: "信頼できる買取業者の見分け方は？", acceptedAnswer: { "@type": "Answer", text: "古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点をご確認ください。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-11-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-11-08", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点\", \"item\": \"https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/\"}]}" }} /></>);
 }
@@ -60,8 +60,28 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器買取で詐欺やトラブルに遭わないための注意点を解説します。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月8日</p>
         </header>
+
+        <section id="answer" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">ピアノの出張買取で困ったときの答え（特定商取引法の「訪問購入」）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">業者が自宅に来てピアノなどを買い取る取引は、特定商取引法の「訪問購入」にあたります。消費者庁「特定商取引法ガイド」の訪問購入のページ（2026年11月8日確認）に書かれているルールは次のとおりです。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">困っていること</th><th className="px-3 py-2 text-left font-medium">法律上のルール（消費者庁の説明）</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">売った後で取り消したい</td><td className="px-3 py-2">法律で決められた書面を受け取った日から数えて8日以内なら、書面または電磁的記録（電子メール等）で申込みの撤回・契約の解除（クーリング・オフ）ができます。損害賠償や違約金を払う必要はありません。</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">すぐに運び出すと言われた</td><td className="px-3 py-2">クーリング・オフの期間内は、業者に品物の引渡しを拒むことができます。業者は、期間内に品物を受け取るときは、引渡しを拒めることを告げなければなりません。</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">査定だけ頼んだのに売るよう迫られた</td><td className="px-3 py-2">頼んでいない勧誘は禁止されています（不招請勧誘の禁止）。査定の依頼を受けただけなのに、査定を超えて勧誘することは法に抵触します。断った後に勧誘を続けることも禁止されています。</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">ピアノも対象になるか</td><td className="px-3 py-2">対象外になる物品は政令で決められています。消費者庁の具体例（自動車、持ち運びが容易でない家電、家具、書籍、有価証券、CD・DVD等）に楽器は挙がっていません。</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">相談先</td><td className="px-3 py-2">消費者ホットライン「188」（最寄りの消費生活センター等を案内）。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed mb-2">出典：<a href="https://www.no-trouble.caa.go.jp/what/doortodoorpurchases/" target="_blank" rel="noopener noreferrer" className="underline">消費者庁 特定商取引法ガイド「訪問購入」</a>・<a href="https://www.no-trouble.caa.go.jp/pdf/20230421la02_10.pdf" target="_blank" rel="noopener noreferrer" className="underline">特定商取引に関する法律施行令第34条で規定する物品の具体例</a>（いずれも2026年11月8日確認）。国民生活センターの発表（2023年9月27日）では、訪問購入の相談は2022年度に7,722件でした（<a href="https://www.kokusen.go.jp/news/data/n-20230927_1.html" target="_blank" rel="noopener noreferrer" className="underline">国民生活センター</a>）。このルールは、業者が自宅など店舗以外の場所で買い取る場合のものです（店頭への持ち込みは対象外）。</p>
+          <h3 className="font-bold text-base mt-4 mb-2">「楽器の買取屋さん」の偽サイトが心配な場合</h3>
+          <p className="text-sm text-warm-gray leading-relaxed">2026年11月8日時点で、楽器の買取屋さんの公式サイトの新着情報に、偽サイトについての注意喚起は見当たりませんでした。公式サイトのアドレスは gakkikaitori.co.jp です（gakkikaitori.jp も同じ公式サイトへ転送されます）。申し込む前に、ページ下部の古物営業許可番号（神奈川県公安委員会 第451310006356号）と運営会社名（UNI SOUND株式会社）が表示されていることを確認してください。<Link href="/articles/gakki-no-kaitoriyasan/" className="text-accent underline hover:text-accent-dark">楽器の買取屋さんの基本情報</Link>もあわせてご覧ください。</p>
+        </section>
 
         <div className="article-body">
 
@@ -159,7 +179,7 @@ export default function Page() {
 
           <h2 id="trouble">トラブルに遭った場合の対処法</h2>
           <h3>クーリングオフの行使</h3>
-          <p>訪問買取（出張買取）で売却した場合、<strong>特定商取引法に基づき8日間のクーリングオフ</strong>が適用されます。契約書面を受け取った日から8日以内であれば、書面で通知することで無条件で契約を解除できます。</p>
+          <p>訪問買取（出張買取）で売却した場合、<strong>特定商取引法に基づき8日間のクーリングオフ</strong>が適用されます。契約書面を受け取った日から8日以内であれば、書面または電磁的記録（電子メール等）で通知することで、無条件で契約を解除できます。</p>
           <h3>消費生活センターへの相談</h3>
           <p>トラブルに遭った場合は、<strong>消費者ホットライン（188）</strong>に電話すれば、最寄りの消費生活センターにつながります。専門の相談員が対応してくれます。</p>
           <h3>警察への相談</h3>
@@ -167,8 +187,8 @@ export default function Page() {
 
           <h2 id="faq">よくある質問</h2>
           <div className="space-y-4 mt-6">
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器買取で詐欺に遭わないためにはどうすればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社はすべて安心して利用できます。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">出張買取で強引に買い取られた場合はどうすればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面で通知することで無条件で契約を解除できます。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器買取で詐欺に遭わないためにはどうすればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">複数業者に査定を依頼する、古物商許可番号を確認する、口コミを確認する、手数料が明確な業者を選ぶ、の4つが基本的な対策です。本記事で紹介している3社も、申し込む前に返送料などの条件を公式サイトでご確認ください。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">出張買取で強引に買い取られた場合はどうすればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">訪問買取には特定商取引法に基づくクーリングオフが適用されます。契約書面を受け取った日から8日以内であれば、書面または電磁的記録（電子メール等）で通知することで、無条件で契約を解除できます。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">事前査定額と実際の買取額が違った場合は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">事前査定はあくまで概算です。ただし、大幅に減額する業者には注意が必要です。事前に「この写真の状態で○万円か」を確認し、減額の条件を明確にしておいてください。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">楽器買取のトラブルはどこに相談すればよいですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出してください。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">信頼できる買取業者の見分け方は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点をご確認ください。</div></details>
@@ -177,7 +197,7 @@ export default function Page() {
           <h2>まとめ</h2>
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（宅配は一時停止中）</li>
+            <li><strong>手軽に売りたい</strong> → ティファナで宅配/店頭買取（店舗は東京都・埼玉県のみ・宅配は一時停止中）</li>
             <li><strong>自宅で完結したい</strong> → ウリエルで出張買取</li>
           </ul>
           <CtaBox />

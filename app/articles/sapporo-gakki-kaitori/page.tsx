@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/sapporo-gakki-kaitori/' },
   title: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
   description:
-    "札幌で楽器を売るならどこがいい？札幌対応の楽器買取おすすめ3社を比較します。札幌駅直結の島村楽器、豊平区のミツノ楽器など専門店情報、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説します。",
+    "札幌で楽器を持ち込むなら？島村楽器3店とハードオフ2店の行き方・営業時間・支払い方法を公式で確認した早見表、ピアノの出張買取、おすすめ3社の比較と高く売るコツを解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
-    description: "札幌で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
+    description: "札幌で楽器を持ち込むなら？島村楽器3店とハードオフ2店の行き方・営業時間・支払い方法を公式で確認した早見表、ピアノの出張買取、おすすめ3社の比較と高く売るコツを解説します。",
   },
 };
 
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 札幌おすすめ3選｜札幌駅・大通エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-08",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,8 +109,27 @@ export default function SapporoGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             札幌で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、札幌エリア対応の楽器買取おすすめ3社を比較します。札幌駅周辺・大通エリアの専門店情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、北海道ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月8日</p>
         </header>
+
+        <section id="hayami" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">札幌で楽器を持ち込める店の早見表</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">札幌市内で楽器の店頭買取を公式で確認できた店です（2026年11月8日確認）。その場で現金を受け取れるのはハードオフ、島村楽器は口座振込のみです。楽器の買取屋さん・イシバシ楽器・クロサワ楽器は、公式の店舗一覧に札幌の店舗がありません。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店名・所在地</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">行き方</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店頭の受付</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">楽器の買取</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">予約・支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/sapporo/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 札幌パルコ店</a><br />札幌市中央区南一条西3-3 札幌パルコ6・7階</td><td className="px-3 py-2">地下鉄 大通駅直結・徒歩1分</td><td className="px-3 py-2">10:00〜20:00</td><td className="px-3 py-2">買取受付あり</td><td className="px-3 py-2">予約の記載なし・口座振込のみ（現金なし）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/sapporo-sp/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 札幌ステラプレイス店</a><br />札幌市中央区北五条西2-5 JRタワー札幌ステラプレイス4F</td><td className="px-3 py-2">JR札幌駅直結</td><td className="px-3 py-2">10:00〜20:00</td><td className="px-3 py-2">買取受付あり</td><td className="px-3 py-2">予約の記載なし・口座振込のみ（現金なし）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/sapporo-classic/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 札幌クラシック店</a><br />札幌市中央区北3条西4-1 日本生命札幌ビル4F</td><td className="px-3 py-2">JR札幌駅 南口から徒歩4分</td><td className="px-3 py-2">月〜金 11:00〜21:00・土日 10:00〜20:00</td><td className="px-3 py-2">買取受付あり（管楽器リペア技術者が常駐）</td><td className="px-3 py-2">予約の記載なし・口座振込のみ（現金なし）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.hardoff.co.jp/shop/detail/?p=201324" target="_blank" rel="nofollow noopener" className="underline">ハードオフ 札幌南郷20丁目店</a><br />札幌市白石区南郷通20丁目南3-10</td><td className="px-3 py-2">地下鉄東西線 南郷18丁目駅から徒歩4分</td><td className="px-3 py-2">10:00〜20:00</td><td className="px-3 py-2">楽器とオーディオに注力（アコギ・ベースなど）</td><td className="px-3 py-2">予約不要・その場で現金（<a href="https://www.hardoff.co.jp/sell/tentou/" target="_blank" rel="nofollow noopener" className="underline">ハードオフの店頭買取</a>）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.hardoff.co.jp/shop/detail/?p=101035" target="_blank" rel="nofollow noopener" className="underline">ハードオフ 札幌伏古店</a><br />札幌市東区伏古二条3-3-15</td><td className="px-3 py-2">地下鉄 環状通東駅から（徒歩分の記載なし）</td><td className="px-3 py-2">10:00〜20:00（年中無休）</td><td className="px-3 py-2">ギター・ベース・エフェクターの買取を強化中</td><td className="px-3 py-2">予約不要・その場で現金（<a href="https://www.hardoff.co.jp/sell/tentou/" target="_blank" rel="nofollow noopener" className="underline">ハードオフの店頭買取</a>）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月8日に確認。島村楽器の買取対象外（PSEのないデジタル機器・和楽器・オルガン等）は<a href="https://www.shimamura.co.jp/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器の買取案内</a>のとおり。買取の可否と金額は楽器の状態で変わるので、来店前に各店へ確認してください。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2">ピアノは持ち込めないので出張です。<a href="https://www.shimamura.co.jp/used/gakki/acoustic-piano/" target="_blank" rel="nofollow noopener" className="underline">島村楽器のピアノ出張買取</a>はアップライト・グランドとも全国で実施（一部地域と離島は別料金）。</p>
+        </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
