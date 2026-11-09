@@ -344,7 +344,7 @@ export default function YamahaKaitoriPage() {
 
           <h3>ティファナ ── エントリーモデルも気軽に査定</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月8日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月9日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナは幅広いジャンルに対応しており、YAMAHAのエントリーモデル（FGシリーズ、Pacificaなど）も<strong>気軽に査定依頼できます</strong>。店頭に持ち込めば、その場で査定・現金化も可能です。</p>
 
           <h3>ウリエル ── ピアノやドラムの出張買取に最適</h3>
