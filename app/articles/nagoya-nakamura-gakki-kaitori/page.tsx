@@ -55,7 +55,7 @@ export default function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月9日に確認。ハードオフは公式の店舗検索で中村区・西区・中川区・中区に店舗が見当たりません。セカンドストリートは公式サイトを開けず確認できていません。ピアノなど運べない楽器は出張買取を利用してください。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月9日に確認。セカンドストリートは公式サイトを開けず確認できていません。ピアノなど運べない楽器は出張買取を利用してください。</p>
         </section>
 
         <div className="article-body">
