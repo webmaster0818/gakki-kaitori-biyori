@@ -592,7 +592,7 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 
 ### 2026-11-09 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/9 に更新／ミーナ天神は修理受付停止継続（src c20ab0f9 / deploy 0e22dd7bf）
 - ティファナ 11/9: /shipping/ の表示（コメント除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止」。online.tifana.net は 503（GET のみ）。表示部分の online.tifana.net は JS の svg 取得のみ（他はメールアドレス tifana-online@tifana.net）。再開時期の記載なし。トップの表示に一時停止・再開の文言なし。→ 注記の日付を 11/8 → 11/9（332 ファイル・1,097 か所。うち JSON-LD の \u 表記 232 か所）。置換は 11/8 と同じ4型のみ。fix-tifana-shipping-pause-202610.py の CHECKED も 11/9
-- ⚠️ 04:00 の weekly-yahoo-update はビルドで失敗（Google Fonts の取得エラー・/tmp/gakki-weekly.err.log）。data/（yahoo-medians・price-history 62本・souba-*）・public/sitemap.xml・widget.js が未コミットのまま残っている。朝ルーチンではこれに触らず、git worktree（/tmp/gakki-wt・node_modules は cp -c）で c20ab0f9 だけをビルドしてデプロイ＝本番の相場は 11/2 のまま。週次の再実行が必要
+- ⚠️→✅ 04:00 の weekly-yahoo-update はビルドで失敗（next/font の Noto Sans JP が module-not-found＝フォント本体を取れず）。未コミット67本（data/yahoo-medians・price-history 62本・souba-ranking/index・public/sitemap.xml・widget.js）は mtime 04:00〜04:04・差分は fetched_at/date 11-02→11-09 と 11/9 の追記のみ＝週次の出力と確認。ヤフオクは再取得せず、そのデータで再ビルド→precheck OK→deploy c060ded49・src f5011186（09:35 push・本番 09:54 反映。/souba-ranking/ 最終更新 2026-11-09・widget.js 2026-11-09更新）。原因：layout.tsx/next.config/package に 11/2 以降変更なし、10/12〜11/2 の週次は 04:05 に成功、09:2x と 09:3x の再ビルドはキャッシュなしでフォント取得成功＝設定ではなく 04:04 時点のネットワーク一時障害と判断（ログはビルドの tail -5 しか残らず、エラーコードは取れていない）
 - クロサワ ミーナ天神店 11/9（/sh_fuk/）: 「修理受付一時停止のお知らせ」継続＝fukuoka の3か所は不変。セカンドストリート（www.2ndstreet.jp）は 11/9 も 403
 - 点検 C3 /author/: 11/8 と同じ否定文・運営説明（「掲載していないもの：執筆者・監修者の個人名、肩書、経歴」）。Person 0。誤検知（未変更）
 - felmat fmcl 2910・fmimp 3340・fmimg 88 前後一致。precheck 全項目OK。本番 09:33 反映（5ページ new>0・旧日付 0）。Indexing 未送信（日付のみ）
