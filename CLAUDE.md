@@ -607,3 +607,9 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - title は3本とも不変・description 変更。本文が変わったのは3本のみ（全 HTML 可視テキスト＋JSON-LD 比較）。felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338（574 html）前後一致・3本ページ別も一致。precheck 全項目OK。sitemap lastmod は kawai・ibanez のみ変化（nagoya は朝の注記で既に当日）。本番 12:23 反映（新表記あり・旧表記0）。WebSearch は米国経由で日本の SERP 順位は取れず。Indexing 未送信
 
 - 11/9 12:3x（親）nagoya-nakamura 早見表の注記から「ハードオフは中村区・西区・中川区・中区に店舗が見当たりません」を削除（調査サブエージェントの未検証の一文。公式ドメインの検索結果で中区錦2丁目に名古屋栄伏見店あり＝誤り）。src 13bc28fd／deploy 238ff1df0。本番で0件を確認
+
+### 2026-11-10 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/10 に更新／週次スクリプトのログ全文化＋ビルド再試行（src 970cf54d・16889752・e584555e / deploy 3bac376b0）
+- ティファナ 11/10: /shipping/ の表示（コメント除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503（GET のみ）。表示部分の online.tifana.net は JS の svg 取得のみ（他はメールアドレス）。再開時期の記載なし。トップの表示に一時停止・再開の文言なし。→ 注記の日付を 11/9 → 11/10（332 ファイル・1,097 か所。うち JSON-LD の \u 表記 232 か所）。置換は 11/8 と同じ4型のみ（日付以外の差分 0 を確認）。11/9 の他の確認日（kawai・ibanez・nagoya-nakamura の掲示・更新日）は不変。fix-tifana-shipping-pause-202610.py の CHECKED も 11/10。sitemap lastmod 231 URL 更新（A/B 判断待ちのため従来どおり）
+- weekly-yahoo-update.sh: 各工程の出力を全文 `~/Library/Logs/gakki-weekly/<日時>.log`（ビルドは `<日時>-build-<回>.log`）に残す（SRC 内は git add -A でコミットされるので外に置く・90日で削除）。ビルド失敗時は 180 秒（BUILD_RETRY_WAIT）待って1回だけ再試行、2回目も失敗なら従来どおり ERR trap で通知して終了。完了通知に再試行の有無と全文ログのパス。注意：safe_rm_rf のループ変数 attempt は local でないため、呼び出し側で同名変数を使わない（run_build は try_no）。バックアップ ~/projects/weekly-yahoo-update.sh.bak-20261110-gakki。検証は bash -n と npx をスタブにした再試行の3通り（成功／1回失敗→成功／2回失敗→trap exit 1）のみ。ヤフオクは叩いていない
+- 点検 C3 /author/: 11/8・11/9 と同じ否定文・運営説明（「個人の執筆者や経歴ではなく、当サイトが実際に行っている運営方針と…手順を公開」「掲載していないもの：執筆者・監修者の個人名、肩書、経歴、顔写真」）。Person 0。誤検知（未変更）
+- felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338（574 html）前後一致。precheck 全項目OK。本番 09:2x 反映（/・akashi・nagoya・kawai・tokyo・fukuoka で新日付あり・旧4型 0）。Indexing 未送信（日付のみ）
