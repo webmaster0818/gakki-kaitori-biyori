@@ -5,7 +5,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ihin-gakki-kaitori/' },
   title: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法",
-  description: "故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説します。",
+  description: "遺品の楽器を売る前に確認すること（相続人が複数なら共有・相続放棄を考えるなら処分しない・出張買取は8日以内ならクーリング・オフ）を民法と消費者庁の案内で整理。遺品整理業者と楽器買取業者の比較、売り方の流れも解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法",
     description: "遺品整理での楽器買取。適正価格で売る方法とおすすめ業者を解説します。",
@@ -41,7 +41,7 @@ function FaqSchema() {
       { "@type": "Question", name: "故人の楽器を出張買取してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルの出張買取なら故人の自宅に査定士が訪問し、ピアノなど大型楽器も含めて一括で査定・買取が可能です。" } },
       { "@type": "Question", name: "遺品の楽器を売る際に必要な書類はありますか？", acceptedAnswer: { "@type": "Answer", text: "売却者の本人確認書類（免許証等）が必要です。故人名義の楽器でも問題なく売却できますが、心配な場合は事前に業者にご相談ください。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法", datePublished: "2026-04-26", dateModified: "2026-11-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法", datePublished: "2026-04-26", dateModified: "2026-11-10", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法\", \"item\": \"https://gakkikaitori-biyori.com/articles/ihin-gakki-kaitori/\"}]}" }} /></>);
 }
@@ -59,12 +59,27 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法</h1>
           <p className="text-warm-gray text-sm leading-relaxed">故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月10日</p>
         </header>
 
         <div className="article-body">
 
           <h2 id="overview">遺品の楽器をどうすべきか</h2>
+          <div id="checklist" className="bg-white border border-warm-border rounded-xl p-5 my-6 not-prose">
+            <p className="font-bold text-base mb-2">遺品の楽器を売る前に確認すること</p>
+            <div className="table-wrapper mb-2">
+              <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+                <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">確認すること</th><th className="px-3 py-2 text-left font-medium">理由と対応</th></tr></thead>
+                <tbody className="divide-y divide-warm-border">
+                  <tr className="bg-white"><td className="px-3 py-2 font-medium">相続人はほかにもいるか</td><td className="px-3 py-2">相続人が複数いるときは、遺産は相続人全員の共有になります（<a href="https://laws.e-gov.go.jp/law/129AC0000000089" target="_blank" rel="nofollow noopener" className="underline">民法</a>898条）。楽器を売る前に、ほかの相続人と誰が受け取るか・売るかを話し合っておきます。</td></tr>
+                  <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">相続放棄を考えていないか</td><td className="px-3 py-2">相続人が相続財産を処分すると、相続を単純承認したものとみなされます（民法921条1号）。借金があるなどで相続放棄・限定承認の可能性があるときは、その判断（原則として相続の開始を知った時から3か月以内・民法915条）が済むまで売らず、司法書士・弁護士などの専門家に相談してください。</td></tr>
+                  <tr className="bg-white"><td className="px-3 py-2 font-medium">楽器の価値を確かめたか</td><td className="px-3 py-2">捨てる前に、メーカー名・型番がわかるラベルと全体を撮影し、査定を受けます。価値がわからないまま粗大ごみに出さないことが大切です。</td></tr>
+                  <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">出張買取のルールを知っているか</td><td className="px-3 py-2">自宅で売る買取は「訪問購入」にあたり、契約の書面を受け取った日から8日以内ならクーリング・オフでき、その間は楽器の引渡しを拒めます（<a href="https://www.no-trouble.caa.go.jp/what/doortodoorpurchases/" target="_blank" rel="nofollow noopener" className="underline">消費者庁 特定商取引法ガイド「訪問購入」</a>）。</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-warm-gray">※法令は e-Gov 法令検索、訪問購入は消費者庁の案内で2026年11月10日に確認。相続の手続きや税金の扱いは個別の事情で変わるため、専門家にご確認ください。</p>
+          </div>
           <p>大切な方が亡くなった後、遺品の中に楽器が含まれているケースは少なくありません。ピアノ、ギター、バイオリン、サックスなど、故人が大切にしていた楽器をどのように処分すべきか、悩む方は少なくありません。</p>
           <p><strong>遺品の楽器は「捨てる」のではなく「買い取ってもらう」のが最善</strong>です。古い楽器でも、ブランド品やヴィンテージ品には高い価値がある場合があります。適正な査定を受けることで、故人の楽器を大切に次の持ち主に引き継ぐことができます。</p>
 

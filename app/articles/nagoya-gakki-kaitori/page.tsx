@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/nagoya-gakki-kaitori/' },
   title: "名古屋の楽器買取はどこがいい？おすすめ業者とギター買取の相場・選び方【2026年11月】",
   description:
-    "名古屋で楽器を売るならどこがいい？大須・栄・名駅エリアの特徴、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説します。無料査定のみの利用も可能です。ギター・ピアノ・管楽器に対応。",
+    "名古屋で楽器を売るならどこがいい？栄・伏見・鶴舞・名駅の持ち込み先6店の受付時間と支払い方法（その場で現金か振込のみか）を公式で確認した早見表、出張・宅配との使い分け、おすすめ3社の比較を掲載。",
   openGraph: { images: ["/og-image.png"], 
     title: "名古屋の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年11月】",
     description: "名古屋で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説します。",
@@ -70,7 +70,7 @@ function FaqSchema() {
       { "@type": "Question", name: "名古屋で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "名古屋で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)大須・栄エリアの楽器専門店（イシバシ楽器、クロサワ楽器、コメ兵など）も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。名古屋は中部地方最大の楽器市場のため、競争原理を活かして最高値を引き出してください。" } },
       { "@type": "Question", name: "名古屋で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月10日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながらギター・ピアノ・管楽器などの査定から買取まで完結します。" } },
       { "@type": "Question", name: "名古屋の大須エリアには楽器店が多いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、大須は名古屋最大の楽器街です。コメ兵のギターフロア（名古屋本店 本館5F）をはじめ、複数の楽器店が集中しています。店頭買取の選択肢が豊富で、専門知識を持ったスタッフによる適正な査定が期待できます。" } },
-      { "@type": "Question", name: "名古屋の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。大須・栄エリアの楽器店やリサイクルショップでは、店頭に持ち込めばその場で査定・即日現金化ができます。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。" } },
+      { "@type": "Question", name: "名古屋の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店によります。イシバシ楽器 名古屋栄店は店頭買取の代金をその場で現金で受け取れます（鑑定合計50万円以上は振込）。一方、島村楽器の各店は銀行振込のみで現金払いはなく、10万円以上は振込まで1週間ほどかかります（各社公式・2026年11月10日確認）。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。" } },
       { "@type": "Question", name: "ピアノやドラムなど大型楽器は名古屋でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。愛知県が出張の対応エリアで（一部対応できない市町村があります）、大きな品物も申込時におおよその大きさを伝えれば買取の対象になります。出張料・査定料は無料です。搬出の方法と費用は申込時にご確認ください。" } },
     ],
   };
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-10",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,8 +109,27 @@ export default function NagoyaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             名古屋で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、名古屋エリア対応の楽器買取おすすめ3社を比較します。大須・栄・名駅の各エリア特徴から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、名古屋ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月10日</p>
         </header>
+
+        <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">名古屋で楽器を持ち込める店（早見表）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">名古屋で楽器を持ち込むなら、栄・矢場町・伏見に楽器店の買取窓口が集まっています。その場で現金を受け取りたいならイシバシ楽器 名古屋栄店、ギター・ベースなら専門店のクロサワ楽器・ロッキン、名古屋駅側からなら島村楽器 名古屋則武新町店が候補です。島村楽器は銀行振込のみです（各社の公式ページで2026年11月10日に確認）。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">所在地・駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">受付時間</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">得意な品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.ishibashi.co.jp/kaitori/tentou/nagoya-sakae.html" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 名古屋栄店</a></td><td className="px-3 py-2">中区栄3-4-5 スカイル9F／地下鉄栄駅 徒歩約5分</td><td className="px-3 py-2">11:00〜20:00（予約なしでも可）</td><td className="px-3 py-2">楽器全般（アコースティックピアノ・エレクトーン・オルガンは不可）</td><td className="px-3 py-2">その場で現金または振込（鑑定合計50万円以上は振込）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.kurosawagakki.com/sh_nagoya/index.html" target="_blank" rel="nofollow noopener" className="underline">クロサワ楽器 名古屋店</a></td><td className="px-3 py-2">中区栄2-3-1 名古屋広小路ビルヂング B1F／地下鉄伏見駅 徒歩約4分</td><td className="px-3 py-2">月〜土 11:00〜20:00／日・祝 11:00〜19:00</td><td className="px-3 py-2">ギター・ベース・管楽器（持ち込みのほか宅配・出張も）</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.rockin.co.jp/shopinfo/nagoya/" target="_blank" rel="nofollow noopener" className="underline">ロッキン 名古屋栄店</a></td><td className="px-3 py-2">中区栄3-32-6 BECOME SAKAE 10F／地下鉄矢場町駅 徒歩2分</td><td className="px-3 py-2">11:00〜20:00（水曜定休）</td><td className="px-3 py-2">ギター・ベース専門（店頭・宅配・出張）</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/nagoya/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 名古屋パルコ店</a></td><td className="px-3 py-2">中区栄3-29-1 名古屋パルコ南館6F／地下鉄矢場町駅 直結</td><td className="px-3 py-2">10:00〜20:00（査定がスムーズなのは13:00〜19:00）</td><td className="px-3 py-2">ギター・ベース・ドラム・管楽器など。生ドラムのセット一式も店頭で受付</td><td className="px-3 py-2">銀行振込のみ（10万円以上は1週間ほど）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/nagoya-repair-guitar/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 名古屋ギター&amp;リペア店</a></td><td className="px-3 py-2">中区千代田5-4-26 S&amp;Tビル／JR・地下鉄鶴舞駅 徒歩7分</td><td className="px-3 py-2">11:00〜19:30（木曜定休・査定がスムーズなのは12:00〜17:00）</td><td className="px-3 py-2">島村楽器の買取品目（ギター・ベースほか）</td><td className="px-3 py-2">銀行振込のみ（10万円以上は1週間ほど）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/nagoya-noritake/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 名古屋則武新町店</a></td><td className="px-3 py-2">西区則武新町3-1-17 イオンモール Nagoya Noritake Garden 3F</td><td className="px-3 py-2">10:00〜21:00（査定がスムーズなのは13:00〜17:00）</td><td className="px-3 py-2">島村楽器の買取品目（生ドラムのセット一式は店頭不可）</td><td className="px-3 py-2">銀行振込のみ（10万円以上は1週間ほど）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月10日に確認。大須のコメ兵ギターフロアは下の「<a href="#area" className="underline">エリア別の楽器買取事情</a>」で紹介しています。ピアノなど運べない楽器は、出張買取（ウリエル等）か一括査定をご利用ください。</p>
+        </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
@@ -195,7 +214,7 @@ export default function NagoyaGakkiKaitoriPage() {
           <p>1947年創業、名古屋発祥の日本最大級リユースデパートです。名古屋本店 本館5Fにギターフロアがあります（営業時間10:30〜19:00）。ギターフロアの買取方法は店頭・宅配・出張の3種類です。公式の店舗検索では、愛知県内で買取を受け付ける店舗が買取センターを含めて45店あります（2026年10月20日時点。楽器を扱うかは店舗ごとに確認が必要です）。ギターフロアは「平成レトロ」を掲げ、1980〜2000年代のエレキギター・ベースを中心に揃えています。リペアを社内で行えるため、修理にかかるコストを買取価格に還元するとしています。</p>
 
           <h3>イシバシ楽器 名古屋栄店 ── 全国チェーンの安心感</h3>
-          <p>80年以上の歴史を持つ楽器専門店で、栄のスカイル9Fにあります。ヴィンテージ品から現行モデルまで幅広い買取実績があり、査定スタッフの知識が豊富です。買取専用のフリーダイヤルで事前に無料相談ができ（受付10:00〜18:30）、買取価格の目安は公式サイトで公開されています。店頭買取は即日現金払いです。</p>
+          <p>80年以上の歴史を持つ楽器専門店で、栄のスカイル9Fにあります。ヴィンテージ品から現行モデルまで幅広い買取実績があり、査定スタッフの知識が豊富です。買取専用のフリーダイヤルで事前に無料相談ができ（受付10:00〜18:30）、買取価格の目安は公式サイトで公開されています。店頭買取は予約なしでも受け付けており、支払いはその場で現金または銀行振込です（鑑定合計50万円以上は振込）。</p>
 
           <h3>クロサワ楽器 名古屋店 ── 専門知識に定評あり</h3>
           <p>1957年創業の老舗楽器店で、ギターと管楽器の専門店です。店内には各楽器専属のリペアマンが常駐しています。店頭買取は即現金払いです（高額品は後日振込の場合があります）。</p>
@@ -321,7 +340,7 @@ export default function NagoyaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、可能です。大須・栄エリアの楽器店やリサイクルショップでは、店頭に持ち込めばその場で査定・即日現金化ができます。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。
+                店によります。イシバシ楽器 名古屋栄店は店頭買取の代金をその場で現金で受け取れます（鑑定合計50万円以上は振込）。一方、島村楽器の各店は銀行振込のみで現金払いはなく、10万円以上は振込まで1週間ほどかかります（各社公式・2026年11月10日確認）。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">

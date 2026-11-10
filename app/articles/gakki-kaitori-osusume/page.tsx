@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/gakki-kaitori-osusume/' },
   title: "楽器買取はどこがいい？おすすめ業者3社を比較【2026年11月最新】",
   description:
-    "楽器買取はどこがいい？一括査定のヒカカク！・出張買取のウリエル・店頭買取のティファナの3社を買取方式・手数料・得意分野で比較します。ギター・管楽器・ピアノ・ドラムなど楽器別の売り方と、査定額を上げる準備のコツも解説します。",
+    "楽器買取業者の選び方を、申し込む前に確認する5項目（専門の査定・相見積もり・売り方・手数料・出張買取のクーリング・オフ8日）の表で整理。ヒカカク！・ウリエル・ティファナの3社比較と楽器別の売り方も解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "楽器買取はどこがいい？おすすめ業者3社を比較【2026年11月最新】",
     description: "楽器買取のおすすめ3社を買取方式・手数料・得意分野で比較します。楽器別の売り方ガイドも掲載しています。",
@@ -51,7 +51,7 @@ function FaqSchema() {
     { "@type": "Question", name: "出張買取と店頭買取はどちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "買取方式そのものよりも「楽器の専門性がある業者かどうか」が査定額を左右します。どの方式でも、楽器専門の査定士がいる業者を選び、可能であれば複数社を比較することが高価買取につながります。" } },
     { "@type": "Question", name: "楽器の買取相場はどこで確認できますか？", acceptedAnswer: { "@type": "Answer", text: "当サイトではギター・管楽器・ピアノ・ドラムなど楽器種別ごと、Fender・Gibson・YAMAHAなどブランドごとに買取のポイントと相場の目安を解説しています。ただし実際の買取額は型番・年式・状態で大きく変動するため、正確な金額は無料査定での確認をおすすめします。" } },
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年11月最新】楽器買取おすすめ業者3社を比較｜失敗しない選び方", datePublished: "2026-06-11", dateModified: "2026-11-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年11月最新】楽器買取おすすめ業者3社を比較｜失敗しない選び方", datePublished: "2026-06-11", dateModified: "2026-11-10", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -97,7 +97,7 @@ export default function GakkiKaitoriOsusumePage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年11月最新】楽器買取おすすめ業者3社を比較｜失敗しない選び方</h1>
           <p className="text-warm-gray text-sm leading-relaxed">「楽器を売りたいものの、どこに頼めばよいかわからない」という方へ。本記事では、楽器買取で実績のある3つのサービス（ヒカカク！・ウリエル・ティファナ）を買取方式・手数料・得意分野で比較し、ご自身の状況に合った業者の選び方を解説します。あわせて、ギター・管楽器・ピアノなど楽器種別ごとの売り方ガイド、査定額を上げる準備のコツもまとめました。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月10日</p>
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">
@@ -108,6 +108,23 @@ export default function GakkiKaitoriOsusumePage() {
             <li><strong>今日すぐ現金化したい</strong> → 持ち込みでその場で売れる<strong>店頭買取（ティファナ）</strong></li>
           </ul>
           <p>どの業者も<strong>査定料・手数料は無料</strong>のため、判断に迷う場合は、まず一括査定で相場感をつかみ、都合に合う方式で売却する方法をおすすめします。</p>
+
+          <div id="checklist" className="bg-white border border-warm-border rounded-xl p-5 my-6">
+            <p className="font-bold text-base mb-2">楽器買取業者の選び方：申し込む前に確認する5項目</p>
+            <div className="table-wrapper mb-2">
+              <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+                <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">確認すること</th><th className="px-3 py-2 text-left font-medium">見るポイント</th></tr></thead>
+                <tbody className="divide-y divide-warm-border">
+                  <tr className="bg-white"><td className="px-3 py-2 font-medium">1. 楽器を専門に査定するか</td><td className="px-3 py-2">総合リサイクル店では、ヴィンテージや高級管楽器の価値が査定に反映されにくいことがあります。楽器専門の査定士がいる業者か、ブランド・型番別の買取実績を公開しているかを見ます。</td></tr>
+                  <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">2. 2社以上で見積もったか</td><td className="px-3 py-2">同じ楽器でも、在庫や得意ジャンルで査定額は変わります。一括査定なら一度の申し込みで複数社を比べられます。</td></tr>
+                  <tr className="bg-white"><td className="px-3 py-2 font-medium">3. 楽器の大きさに合う売り方か</td><td className="px-3 py-2">ピアノ・ドラムセットなど運べない楽器は出張買取、持ち運べる楽器は店頭・宅配も選べます。店頭の支払い方法は店で違い、たとえばイシバシ楽器はその場で現金（鑑定合計50万円以上は振込）、島村楽器は銀行振込のみです（各社公式・2026年11月10日確認）。</td></tr>
+                  <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">4. 手数料の条件を確かめたか</td><td className="px-3 py-2">査定料・出張料・キャンセル料・宅配の返送料が無料かを、申し込む前に各社の公式ページで確認します。</td></tr>
+                  <tr className="bg-white"><td className="px-3 py-2 font-medium">5. 出張買取のルールを知っているか</td><td className="px-3 py-2">自宅に来てもらう買取は「訪問購入」にあたり、契約の書面を受け取った日から8日以内なら書面または電磁的記録（メール等）でクーリング・オフでき、その間は楽器の引渡しを拒めます。査定だけを頼んだのに査定を超えて売るよう勧誘するのは法律違反です（<a href="https://www.no-trouble.caa.go.jp/what/doortodoorpurchases/" target="_blank" rel="nofollow noopener" className="underline">消費者庁 特定商取引法ガイド「訪問購入」</a>・2026年11月10日確認）。詳しくは<Link href="/articles/gakki-kaitori-sagi/" className="underline">楽器買取の詐欺・トラブル対策</Link>へ。</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-warm-gray">※それぞれの詳しい説明は下の「<a href="#how-to-choose" className="underline">失敗しない楽器買取業者の選び方5つの基準</a>」にあります。</p>
+          </div>
 
           <CtaBox />
           <p className="text-sm">一括査定サービスそのものの評判や注意点（キャンセル方法・電話連絡・個人情報）は <Link href="/articles/hikakaku-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ヒカカクの楽器買取 口コミ・評判</Link> で公式クチコミの傾向を出典付きで整理しています。出張買取のウリエルについては <Link href="/articles/uriel-gakki-kaitori-kuchikomi/" className="text-accent underline hover:text-accent-dark">ウリエルの楽器買取 口コミ・評判</Link>（対応エリア・手数料・クーリングオフ）をご覧ください。</p>
