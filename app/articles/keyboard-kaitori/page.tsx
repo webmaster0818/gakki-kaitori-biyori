@@ -260,7 +260,7 @@ export default function KeyboardKaitoriPage() {
 
           <h3>ティファナ ── コンパクトな機材の宅配買取に便利</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月10日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月11日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは出張・店頭・宅配の3方式に対応。25鍵〜61鍵のコンパクトなシンセサイザーやMIDIキーボードは、宅配買取で手軽に売却できます。梱包キットも無料で提供されるため、箱がなくても安心です。</p>
 
