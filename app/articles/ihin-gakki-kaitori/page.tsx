@@ -41,7 +41,7 @@ function FaqSchema() {
       { "@type": "Question", name: "故人の楽器を出張買取してもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルの出張買取なら故人の自宅に査定士が訪問し、ピアノなど大型楽器も含めて一括で査定・買取が可能です。" } },
       { "@type": "Question", name: "遺品の楽器を売る際に必要な書類はありますか？", acceptedAnswer: { "@type": "Answer", text: "売却者の本人確認書類（免許証等）が必要です。故人名義の楽器でも問題なく売却できますが、心配な場合は事前に業者にご相談ください。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法", datePublished: "2026-04-26", dateModified: "2026-11-10", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法", datePublished: "2026-04-26", dateModified: "2026-11-11", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法\", \"item\": \"https://gakkikaitori-biyori.com/articles/ihin-gakki-kaitori/\"}]}" }} /></>);
 }
@@ -59,7 +59,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器の遺品整理｜故人の楽器を適正価格で買い取ってもらう方法</h1>
           <p className="text-warm-gray text-sm leading-relaxed">故人が大切にしていた楽器を遺品整理で処分する方法。ピアノ・ギター・管楽器など遺品楽器の買取相場、遺品整理業者vs楽器買取業者の比較、注意点まで解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月10日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月11日</p>
         </header>
 
         <div className="article-body">
@@ -110,7 +110,7 @@ export default function Page() {
 
           <h2 id="comparison">遺品整理業者 vs 楽器買取業者</h2>
           <p>遺品整理を行う際、遺品整理業者に一括で依頼するケースが多いですが、<strong>楽器だけは楽器買取の専門業者に査定を出す</strong>ことを強くおすすめします。</p>
-          <p>遺品整理業者は楽器の専門知識を持っていないことが多く、ヴィンテージギターや高額管楽器の価値を見逃してしまうリスクがあります。数十万円の価値がある楽器が、数千円で引き取られてしまうケースも実際に起きています。</p>
+          <p>遺品整理業者は楽器の専門知識を持っていないことが多く、ヴィンテージギターや高額管楽器の価値を見逃してしまうリスクがあります。楽器としての価値が査定に反映されないまま、一括で引き取られてしまうおそれがあります。</p>
 
           <CtaBox />
 
@@ -130,7 +130,7 @@ export default function Page() {
             </div>
             <div className="flex gap-4 items-start bg-white border border-warm-border rounded-xl p-4">
               <span className="bg-gold text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
-              <div><h4 className="font-bold text-sm mb-1">買取成立・現金受け取り</h4><p className="text-sm text-warm-gray">金額に納得できれば買取成立。その場で現金を受け取れます。</p></div>
+              <div><h4 className="font-bold text-sm mb-1">買取成立・現金受け取り</h4><p className="text-sm text-warm-gray">金額に納得できれば買取成立。支払い方法は業者で異なり、ウリエルの出張買取はその場で現金払い、島村楽器は銀行振込のみです（いずれも公式で2026年11月11日確認）。</p></div>
             </div>
           </div>
 

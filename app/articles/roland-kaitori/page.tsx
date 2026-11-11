@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/roland-kaitori/' },
   title: "【2026年最新】Roland買取おすすめ3社比較｜電子ピアノ・シンセ・電子ドラムの相場",
   description:
-    "Roland（ローランド）の楽器を売るならどこがいい？電子ピアノ・シンセサイザー・電子ドラム・ギターアンプのRoland製品買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
+    "Roland（ローランド）の電子ピアノ・ステージピアノの買取価格を島村楽器・イシバシ楽器の公式掲示で早見表に（FP-90X 最大7万円・RD-2000 最大10.5万円、2026年11月確認）。持ち込み・出張の条件、シンセ・電子ドラムの相場も比較します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】Roland買取おすすめ3社比較｜電子ピアノ・シンセ・電子ドラムの相場",
-    description: "Roland製品の買取相場とおすすめ3社を比較します。高く売るコツまで解説します。",
+    description: "Roland（ローランド）の電子ピアノ・ステージピアノの買取価格を島村楽器・イシバシ楽器の公式掲示で早見表に（FP-90X 最大7万円・RD-2000 最大10.5万円、2026年11月確認）。持ち込み・出張の条件、シンセ・電子ドラムの相場も比較します。",
   },
 };
 
@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】Roland買取おすすめ3社比較｜電子ピアノ・シンセ・電子ドラムの相場",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-11",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,8 +108,28 @@ export default function RolandKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             Roland（ローランド）の電子ピアノ、シンセサイザー、電子ドラム、ギターアンプを売りたい方へ。本記事では、Roland製品の買取に強い3社を比較し、製品カテゴリ別の買取相場、高く売るコツまで詳しく解説します。1972年創業の老舗電子楽器メーカーRolandは、中古市場でも安定した需要があります。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月11日</p>
         </header>
+
+        <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">ローランドの電子ピアノ・ステージピアノの掲示買取価格（早見表）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">楽器店2社が公式サイトの「買取価格検索」に載せているローランドのピアノの買取価格です（2026年11月11日確認・状態ランク別の上限の目安）。家庭用のHP・LX・GP・RPシリーズは、両社の検索で型番別の掲示を確認できませんでした。これらは各社のWeb・LINE査定か出張査定で金額を確認してください。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">モデル</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">種類</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">イシバシ楽器（美品／良品／並品）</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">島村楽器（A／B／Cランク）</th></tr></thead>
+              <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-3 py-2 font-medium">FP-30X</td><td className="px-3 py-2">ポータブル</td><td className="px-3 py-2">¥30,000／¥25,000／¥20,000</td><td className="px-3 py-2">検索に該当なし</td></tr><tr className="bg-cream/50"><td className="px-3 py-2 font-medium">FP-E50</td><td className="px-3 py-2">ポータブル</td><td className="px-3 py-2">¥55,000／¥48,000／¥40,000</td><td className="px-3 py-2">検索に該当なし</td></tr><tr className="bg-white"><td className="px-3 py-2 font-medium">FP-90X</td><td className="px-3 py-2">ポータブル</td><td className="px-3 py-2">¥70,000／¥60,000／¥50,000</td><td className="px-3 py-2">検索に該当なし</td></tr><tr className="bg-cream/50"><td className="px-3 py-2 font-medium">RD-88</td><td className="px-3 py-2">ステージピアノ</td><td className="px-3 py-2">¥55,000／¥46,000／¥38,000</td><td className="px-3 py-2">¥52,000／¥44,000／¥32,000</td></tr><tr className="bg-white"><td className="px-3 py-2 font-medium">RD-88EX</td><td className="px-3 py-2">ステージピアノ</td><td className="px-3 py-2">¥70,000／¥60,000／¥50,000</td><td className="px-3 py-2">¥80,000／¥70,000／¥53,000</td></tr><tr className="bg-cream/50"><td className="px-3 py-2 font-medium">RD-2000</td><td className="px-3 py-2">ステージピアノ</td><td className="px-3 py-2">¥95,000／¥81,000／¥67,000</td><td className="px-3 py-2">¥105,000／¥90,000／¥75,000</td></tr><tr className="bg-white"><td className="px-3 py-2 font-medium">RD-2000EX</td><td className="px-3 py-2">ステージピアノ</td><td className="px-3 py-2">¥115,000／¥98,000／¥82,000</td><td className="px-3 py-2">¥155,000／¥135,000／¥103,000</td></tr></tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed mb-4">出典: <a href="https://reuse.ishibashi.co.jp/ja/search?search_text=Roland%20FP-90X&amp;sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 買取価格検索</a>／<a href="https://www.shimamura.co.jp/used/search.html?cat=&amp;inst=&amp;brand=&amp;model=RD-&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器 買取価格検索</a>（いずれも2026年11月11日確認）。各社とも「商品状態や時期によって金額が増減する目安」としています。</p>
+          <h3 className="font-bold text-base mb-2">持ち込み・出張の条件</h3>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">売り方</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">条件</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-3 py-2 font-medium whitespace-nowrap">イシバシ楽器 店頭</td><td className="px-3 py-2">御茶ノ水・渋谷・新宿・池袋・横浜・名古屋栄・梅田・心斎橋・福岡の各店。アコースティックピアノ・エレクトーン・オルガンは店頭買取の対象外</td><td className="px-3 py-2">手続き後その場で現金（鑑定合計50万円以上は振込）</td></tr><tr className="bg-cream/50"><td className="px-3 py-2 font-medium whitespace-nowrap">イシバシ楽器 出張</td><td className="px-3 py-2">出張料・査定料・キャンセル料無料。対応エリアのみ（エリア外は宅配買取）。品物を預かって店舗で査定</td><td className="px-3 py-2">査定後に振込</td></tr><tr className="bg-white"><td className="px-3 py-2 font-medium whitespace-nowrap">島村楽器 電子ピアノ出張買取</td><td className="px-3 py-2">対象エリアのみ（関東1都3県・愛知・大阪など。一部の道府県は市町村を限定）。製造から8年以上経過したもの・音が出ないものは買取不可。引き上げは指定業者</td><td className="px-3 py-2">現物確認後1週間ほどで口座振込</td></tr></tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">出典: <a href="https://www.ishibashi.co.jp/kaitori/tentou/" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 店頭買取</a>／<a href="https://www.ishibashi.co.jp/kaitori/shuccho/" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 出張買取</a>／<a href="https://www.shimamura.co.jp/used/gakki/digital-piano/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 電子ピアノ出張買取</a>（2026年11月11日確認）。島村楽器は店頭買取も含めて銀行振込のみで、現金での支払いはありません。</p>
+        </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
@@ -163,12 +183,12 @@ export default function RolandKaitoriPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3">FPシリーズ（ポータブル）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜5万円</td><td className="px-4 py-3 text-warm-gray">FP-30X〜FP-90X。軽量で人気</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">FPシリーズ（ポータブル）</td><td className="px-4 py-3 text-gold-dark font-bold">2万〜7万円</td><td className="px-4 py-3 text-warm-gray">FP-30X〜FP-90X。イシバシ楽器の掲示は FP-30X ¥20,000〜¥30,000・FP-90X ¥50,000〜¥70,000（2026年11月11日）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">RPシリーズ（エントリー）</td><td className="px-4 py-3 text-gold-dark font-bold">1万〜3万円</td><td className="px-4 py-3 text-warm-gray">RP701等。初心者向け</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">HPシリーズ（中級）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜8万円</td><td className="px-4 py-3 text-warm-gray">HP704等。家庭用の定番</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">LXシリーズ（上級）</td><td className="px-4 py-3 text-gold-dark font-bold">5万〜12万円</td><td className="px-4 py-3 text-warm-gray">LX706/LX708（いずれも販売完了の旧世代。現行はLX-5/LX-6/LX-9）</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3">GPシリーズ（グランド型）</td><td className="px-4 py-3 text-gold-dark font-bold">10万〜25万円</td><td className="px-4 py-3 text-warm-gray">GP609（販売完了）/GP-6/GP-9。グランドピアノ型</td></tr>
-                <tr className="bg-cream/50"><td className="px-4 py-3">RDシリーズ（ステージピアノ）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜10万円</td><td className="px-4 py-3 text-warm-gray">RD-2000等。ライブ向け</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">RDシリーズ（ステージピアノ）</td><td className="px-4 py-3 text-gold-dark font-bold">3万〜15.5万円</td><td className="px-4 py-3 text-warm-gray">RD-88〜RD-2000EX。島村楽器・イシバシ楽器の掲示は RD-88 ¥32,000〜¥55,000・RD-2000EX ¥82,000〜¥155,000（2026年11月11日）</td></tr>
               </tbody>
             </table>
           </div>
