@@ -635,3 +635,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - ihin: 「数十万円の価値がある楽器が数千円で引き取られてしまうケースも実際に起きています」→おそれの表現、流れ4「その場で現金」→ウリエル出張は現金（/visit/ FAQ 11/11）・島村は振込のみ
 - 🔍 未変更: recorder-kaitori は島村・イシバシの検索にリコーダーの掲示なし（Moeck・Mollenhauer＝ファゴットのみ・YRA 該当なし）＝公式値がなく冒頭の答えは足さず。同ページの「いずれも査定料・送料・キャンセル料が無料」「ティファナ…店頭・宅配に対応」はティファナ注記 A/B 判断待ちと一緒に要訂正。roland FAQ「ウリエルの出張なら大型の電子ピアノも…」はウリエル公式の品目一覧に電子ピアノの記載なし（未訂正）
 - felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338 前後一致（ページ別も一致）。precheck 全項目OK。可視テキスト＋JSON-LD が変わったのは4本のみ。sitemap lastmod は roland・ihin のみ変化。本番 12:1x 反映（新表記あり・旧表記0）。WebSearch は米国経由で日本の SERP は取れず（高く売れるドットコムのキーワード頁のみ）。Indexing 未送信
+
+### 2026-11-12 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/12 に更新／週次スクリプトの全文ログ＋再試行は 11/10 実装済みを再確認（src 05b37a94・474f5586 / deploy 61d0a94df）
+- ティファナ 11/12: https://www.tifana.net/shipping/ の表示（コメント除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503（GET のみ）。表示部分の online.tifana.net は JS の svg 取得のみ。トップの表示に一時停止・再開の文言なし。再開時期の記載なし。→ 注記の日付を 11/11 → 11/12（332 ファイル＋生成器 CHECKED・1,098 か所。うち JSON-LD の \u 表記 232 か所）。置換は 11/8 と同じ4型＋\u 型のみ（diff を逆置換して元と一致＝日付以外の差分 0）。11/11 の他の確認日（roland・瑞穂区・北区・ihin 等 12 か所）は不変。sitemap lastmod 231 URL 更新
+- ⚠️ tifana.com ではなく **tifana.net**（tifana.com/shipping/ は 404）。シェルの heredoc 内 Python で r'\u…' を書くと \u がデコードされて一致 0 件になった（理由未確認）→ \u 型の置換は chr(92) で組み立てたスクリプトファイルで実行
+- weekly-yahoo-update.sh: 全文ログ（~/Library/Logs/gakki-weekly）とビルド再試行は e584555e（11/10）で実装済み。11/12 は bash -n OK、関数とビルド工程だけを抜き出し npx をスタブにした3通り（成功／1回失敗→再試行成功／2回失敗→ERR trap で失敗通知）を再確認＝変更なし。ヤフオク・Discord は叩いていない。LaunchAgent は月曜 4:00（次回 11/16）で、~/Library/Logs/gakki-weekly は初回実行時に作られる（まだ無い）
+- 点検 C3 /author/: 11/8〜11/11 と同じ否定文・運営説明。Person 0。誤検知（未変更）
+- felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338 前後一致。precheck 全項目OK。本番 09:34 反映（/・akashi・nagoya・tokyo・chiba・kawasaki で新日付あり・旧4型 0、sitemap 2026-11-12 231）。Indexing 未送信（日付のみ）
