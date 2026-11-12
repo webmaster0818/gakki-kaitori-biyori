@@ -642,3 +642,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - weekly-yahoo-update.sh: 全文ログ（~/Library/Logs/gakki-weekly）とビルド再試行は e584555e（11/10）で実装済み。11/12 は bash -n OK、関数とビルド工程だけを抜き出し npx をスタブにした3通り（成功／1回失敗→再試行成功／2回失敗→ERR trap で失敗通知）を再確認＝変更なし。ヤフオク・Discord は叩いていない。LaunchAgent は月曜 4:00（次回 11/16）で、~/Library/Logs/gakki-weekly は初回実行時に作られる（まだ無い）
 - 点検 C3 /author/: 11/8〜11/11 と同じ否定文・運営説明。Person 0。誤検知（未変更）
 - felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338 前後一致。precheck 全項目OK。本番 09:34 反映（/・akashi・nagoya・tokyo・chiba・kawasaki で新日付あり・旧4型 0、sitemap 2026-11-12 231）。Indexing 未送信（日付のみ）
+
+### 2026-11-12 12:00 成長ルーチン：fender-precisionbass の冒頭にプレベ9型番の掲示買取価格／相場・FAQ を掲示に合わせ訂正（src f06a5f18・68802c5a / deploy d0e102b1c）
+- fender-precisionbass-kaitori（「プレシジョンベース 買取」8@9.1c1）: git log --since=11/3 で変更なし（11/9 は週次の yahoo データのみ）。roland 11/11・fender 11/6 と同じ型で h1 直下（ModelSpotPriceCard の前）に #kakaku。島村「買取価格検索」`search.html?cat=5&model=Precision%20Bass&num=100`（242件・3ページ curl 可）＝Player 4.9万/4万/2.8万・Player II 5.3万/4.3万/2.9万・TraditionalⅡ 60s Rose 6.7万/5.5万/3.8万・MIJ Traditional 2025 '60s 7.9万/6.4万/4.4万・Am Pro II 14万/11.3万/7.9万・Am Ultra II 18.2万/14.8万/10.2万・Am Vintage II 1960 18.9万/15.3万/10.6万・1954 19.8万/16.1万/11.1万・1978 Precision Bass 15.7万/12.8万/8.8万。イシバシ（ヘッドレス Chrome）＝Player (2018-) 5.2万/4.7万/4.1万・Player II (2024-) 5.8万/5.3万/4.7万・Traditional II 60s (2020-) 5万/4.5万/4万・2025 Collection 7.5万/6.8万/6万・Am Pro II (2020-) 12万/11万/10万。Am Ultra II・Am Vintage II は「読み込み中」のまま描画されず＝「確認できず」と明記
+- 訂正: 相場本文と FAQ（表示＋JSON-LD）「日本/メキシコ 2万〜6万・USA現行 5万〜12万・ヴィンテージ 15万〜100万以上」→ 掲示どおり 2.8万〜7.9万・7.9万〜19.8万、1950〜60年代のオリジナル個体は掲示なし＝個別査定。FAQ「ヴィンテージのプレベは高いですか？」・「費用」・ティファナ行（注記 A/B 判断待ち）は不変。description 変更（157字）・title 不変・dateModified/更新日 11/12
+- 競合: WebSearch は米国経由で日本の SERP は取れず（ウリドキ＝ベース全体の平均・aucfan＝落札価格で、型番別の掲示買取価格は無し）
+- 候補2（/tmp/g1112 の last=-）: fragment 付き（martin・shibuya・kobe・yokohama）は本体が 11/3 以降に変更あり、fukuoka（11/14）・tokyo（11/6）・recorder（掲示なし）は対象外＝追加なし
+- felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338 前後一致（ページ別 16→16）。precheck 全項目OK。可視テキスト＋JSON-LD が変わったのは1本のみ。sitemap lastmod は当該ページのみ。Indexing 未送信
