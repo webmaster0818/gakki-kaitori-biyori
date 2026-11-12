@@ -6,7 +6,7 @@ import ModelSpotPriceCard from "@/components/ModelSpotPriceCard";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-precisionbass-kaitori/' },
   title: "【2026年最新】フェンダー プレシジョンベース買取相場｜製造国・年代別の価値と査定ポイント",
-  description: "Fender Precision Bass（プレベ）の買取相場を製造国・年代別に解説します。エレキベースの元祖の価値要因、ヴィンテージの評価、状態の査定差とおすすめ買取3社を比較します。",
+  description: "プレシジョンベース（Fender Precision Bass）の掲示買取価格は、Player（メキシコ）が島村楽器2.8万〜4.9万円・イシバシ楽器4.1万〜5.2万円、American Professional IIが7.9万〜14万円（2026年11月12日確認）。日本製・USA・ヴィンテージの価格も比較。",
 };
 
 function Breadcrumb() {
@@ -23,13 +23,13 @@ function Breadcrumb() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "プレシジョンベースの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "日本製・メキシコ製で2万〜6万円、USA現行で5万〜12万円、American Vintageや1960〜70年代のヴィンテージは15万〜100万円以上が目安です。" } },
+      { "@type": "Question", name: "プレシジョンベースの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "島村楽器・イシバシ楽器の掲示買取価格（2026年11月12日確認）では、現行の日本製・メキシコ製（Player／Player II／Traditional II／2025 Collection）が2.8万〜7.9万円、USA現行（American Professional II／American Ultra II／American Vintage II）が7.9万〜19.8万円です。1950〜60年代のオリジナル個体は掲示がなく個別査定です。" } },
       { "@type": "Question", name: "ヴィンテージのプレベは高いですか？", acceptedAnswer: { "@type": "Answer", text: "はい。1950〜60年代のオリジナル個体は希少で、状態とオリジナル度で数十万〜百万円超になることもあります。" } },
       { "@type": "Question", name: "ピックアップ交換していても売れますか？", acceptedAnswer: { "@type": "Answer", text: "売却可能です。オリジナルパーツが残っているほど評価は上がるため、外したパーツも一緒に査定へ。" } },
       { "@type": "Question", name: "フレットレス改造は不利ですか？", acceptedAnswer: { "@type": "Answer", text: "改造は基本的に減額要因ですが、需要もあります。オリジナルに戻せる場合は戻すと有利なこともあります。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社は査定・出張・送料・キャンセルすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フェンダー プレシジョンベース買取相場｜製造国・年代別の価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-11-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】フェンダー プレシジョンベース買取相場｜製造国・年代別の価値と査定ポイント", datePublished: "2026-06-05", dateModified: "2026-11-12", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,15 +71,38 @@ export default function FenderPrecisionbassKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】フェンダー プレシジョンベース買取相場｜製造国・年代別の価値と査定ポイント</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Fender Precision Bass（プレシジョンベース／プレベ）を売りたい方へ。1951年登場、エレキベースの元祖にして王道の定番機です。本記事ではUSA・日本製・メキシコ製の製造国別の価値、ヴィンテージ個体の評価、スプリットコイルPUやネックの状態が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月12日</p>
         </header>
+
+        <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">プレシジョンベースの掲示買取価格（2026年11月12日確認）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">買取価格を公開している島村楽器とイシバシ楽器の掲示額です。現行の日本製・メキシコ製は2.8万〜7.9万円、USA現行は7.9万〜19.8万円。同じモデルでも店と状態で差があるので、売る前に比べてください。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">モデル</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">島村楽器（A／B／C）</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">イシバシ楽器（美品／良品／並品）</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Player Precision Bass（メキシコ）</td><td className="px-3 py-2">¥49,000／¥40,000／¥28,000</td><td className="px-3 py-2">¥52,000／¥47,000／¥41,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Player II Precision Bass（メキシコ）</td><td className="px-3 py-2">¥53,000／¥43,000／¥29,000</td><td className="px-3 py-2">¥58,000／¥53,000／¥47,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Made in Japan Traditional II 60s Precision Bass（日本）</td><td className="px-3 py-2">¥67,000／¥55,000／¥38,000</td><td className="px-3 py-2">¥50,000／¥45,000／¥40,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Made in Japan Traditional 2025 Collection '60s Precision Bass（日本）</td><td className="px-3 py-2">¥79,000／¥64,000／¥44,000</td><td className="px-3 py-2">¥75,000／¥68,000／¥60,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">American Professional II Precision Bass（USA）</td><td className="px-3 py-2">¥140,000／¥113,000／¥79,000</td><td className="px-3 py-2">¥120,000／¥110,000／¥100,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">American Ultra II Precision Bass（USA）</td><td className="px-3 py-2">¥182,000／¥148,000／¥102,000</td><td className="px-3 py-2">確認できず ※</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">American Vintage II 1960 Precision Bass（USA）</td><td className="px-3 py-2">¥189,000／¥153,000／¥106,000</td><td className="px-3 py-2">確認できず ※</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">American Vintage II 1954 Precision Bass（USA）</td><td className="px-3 py-2">¥198,000／¥161,000／¥111,000</td><td className="px-3 py-2">確認できず ※</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">1978 Precision Bass（USA・ヴィンテージ）</td><td className="px-3 py-2">¥157,000／¥128,000／¥88,000</td><td className="px-3 py-2">掲示なし</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※2026年11月12日に<a href="https://www.shimamura.co.jp/used/search.html?cat=5&inst=&brand=&model=Precision%20Bass&num=100&pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器の買取価格検索（エレキベース・Precision Bass）</a>と<a href="https://reuse.ishibashi.co.jp/ja/search?search_text=Fender%20Player%20Precision%20Bass&sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器の買取価格検索</a>で確認（他のモデルも同じ検索で型番を入れて確認）。両社とも目安で、買取価格を保証するものではなく、現物確認で決まり、予告なく変わります。島村楽器のA／B／Cは「新品同様／多少の傷や汚れ／使用感があり傷や汚れが目立つ」です。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2">※ 島村楽器の値は、Player は「Player Precision Bass」、Player II は通常カラーの Maple／Rosewood Fingerboard（Sparkle は ¥58,000／¥47,000／¥32,000）、Traditional II 60s は「TraditionalⅡ 60s Precision Bass Rose」、American Professional II は Maple・Rose 共通、American Vintage II は 1960 が「Rose」・1954 が「Maple」の掲示額です。イシバシ楽器の値は、Player が「Maple Fingerboard (2018-)」、Player II が「(2024-)」、Traditional II 60s が「(2020-)」、American Professional II が「(2020-)」の掲示額です。イシバシ楽器の American Ultra II・American Vintage II は、検索結果が読み込み中のまま表示されず確認できませんでした。1950〜60年代のオリジナル個体は両社とも掲示がなく、個別査定です。</p>
+        </section>
 
         <ModelSpotPriceCard slug="fender-precisionbass-kaitori" modelName="Fender Precision Bass" />
 
         <div className="article-body">
 
           <h2 id="souba">買取相場の目安</h2>
-          <p>フェンダー プレシジョンベースの買取相場は、ブランド・モデル・状態によって大きく変わります。あくまで目安として、日本/メキシコ製で2万〜6万円、USA現行で5万〜12万円、ヴィンテージは15万〜100万円以上とされています。正確な査定額は楽器の状態や付属品、時期によって変動するため、無料査定で確認するのが確実です。</p>
+          <p>フェンダー プレシジョンベースの買取相場は、ブランド・モデル・状態によって大きく変わります。島村楽器・イシバシ楽器の掲示買取価格（2026年11月12日確認・<a href="#kakaku">上の表</a>）では、現行の日本製・メキシコ製で2.8万〜7.9万円、USA現行（American Professional II／Ultra II／Vintage II）で7.9万〜19.8万円です。1950〜60年代のオリジナル個体は掲示がなく個別査定になります。正確な査定額は楽器の状態や付属品、時期によって変動するため、無料査定で確認するのが確実です。</p>
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>
@@ -121,7 +144,7 @@ export default function FenderPrecisionbassKaitoriPage() {
                 <span className="pr-4">プレシジョンベースの買取相場は？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">日本製・メキシコ製で2万〜6万円、USA現行で5万〜12万円、American Vintageや1960〜70年代のヴィンテージは15万〜100万円以上が目安です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">島村楽器・イシバシ楽器の掲示買取価格（2026年11月12日確認）では、現行の日本製・メキシコ製（Player／Player II／Traditional II／2025 Collection）が2.8万〜7.9万円、USA現行（American Professional II／American Ultra II／American Vintage II）が7.9万〜19.8万円です。1950〜60年代のオリジナル個体は掲示がなく個別査定です。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
