@@ -649,3 +649,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 競合: WebSearch は米国経由で日本の SERP は取れず（ウリドキ＝ベース全体の平均・aucfan＝落札価格で、型番別の掲示買取価格は無し）
 - 候補2（/tmp/g1112 の last=-）: fragment 付き（martin・shibuya・kobe・yokohama）は本体が 11/3 以降に変更あり、fukuoka（11/14）・tokyo（11/6）・recorder（掲示なし）は対象外＝追加なし
 - felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338 前後一致（ページ別 16→16）。precheck 全項目OK。可視テキスト＋JSON-LD が変わったのは1本のみ。sitemap lastmod は当該ページのみ。Indexing 未送信
+
+### 2026-11-13 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/13 に更新／ミーナ天神は修理受付停止継続（src 2963c66a・667252e2 / deploy f39fceaf2・06b2f2f02）
+- ティファナ 11/13: https://www.tifana.net/shipping/ の表示（コメント除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503（GET のみ）。トップの表示に一時停止・再開の文言なし。再開時期の記載なし。→ 注記の日付を 11/12 → 11/13（332 ファイル＋生成器 CHECKED・1,098 か所。うち JSON-LD の \u 表記 232 か所）。置換は 11/8 と同じ4型＋\u 型のみ（日付を正規化した diff が一致＝日付以外の差分 0）。fender-precisionbass の 11/12 掲示日は不変。sitemap lastmod 231 URL 更新
+- ⚠️ deploy で `git add -u` を使ったため新しい buildId の `_next/static/<id>/`（manifest 3ファイル）が入らず旧 id の3ファイルだけ削除された → 06b2f2f02 で追加。HTML から buildId manifest への参照は 0 件で表示影響なし。.txt（RSC）は従来どおりコミットしない
+- クロサワ ミーナ天神店 11/13（/sh_fuk/）: 「修理受付一時停止のお知らせ」継続（受付再開は決まり次第案内）。リペア工房併設・11:00〜20:00・天神駅徒歩3分も掲載＝fukuoka の3か所は不変
+- 点検 C3 /author/: 11/8〜11/12 と同じ否定文・運営説明（「個人の執筆者や経歴ではなく…」「掲載していないもの：執筆者・監修者の個人名、肩書、経歴、顔写真」）。Person 0。誤検知（未変更）
+- felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338（out）前後一致、ソース t.felmat 1140 前後一致。precheck 全項目OK。Indexing 未送信（日付のみ）
