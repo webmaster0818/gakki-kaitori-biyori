@@ -5,7 +5,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/mixer-kaitori/' },
   title: "【2026年最新】ミキサー買取おすすめ3社比較｜PA・DJミキサーの相場",
-  description: "音響ミキサー買取の相場とおすすめ業者3社を比較します。YAMAHA・Mackie・Allen&Heath・Pioneer DJなどメーカー別、アナログ/デジタル卓の価値、状態の査定差を解説します。",
+  description: "DJミキサーの買取価格は島村楽器の掲示でDJM-V10が最大24.2万円、DJM-A9が20.2万円、DJM-900NXS2が11.9万円（11/13確認）。型番別の掲示表とPA卓の相場、査定のポイント、おすすめ3社を解説。",
 };
 
 function Breadcrumb() {
@@ -29,7 +29,7 @@ function FaqSchema() {
       { "@type": "Question", name: "電源アダプタがないと売れませんか？", acceptedAnswer: { "@type": "Answer", text: "売却可能ですが、付属していると査定が有利です。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社はすべて無料です。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ミキサー買取おすすめ3社比較｜PA・DJミキサーの相場", datePublished: "2026-06-05", dateModified: "2026-11-01", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】ミキサー買取おすすめ3社比較｜PA・DJミキサーの相場", datePublished: "2026-06-05", dateModified: "2026-11-13", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
@@ -71,13 +71,43 @@ export default function MixerKaitoriPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】ミキサー買取おすすめ3社比較｜PA・DJミキサーの相場</h1>
           <p className="text-warm-gray text-sm leading-relaxed">ミキサー（PA卓・DJミキサー）を売りたい方へ。YAMAHA・Mackie・Allen & Heath・Pioneer DJ などメーカー別の価値、アナログ/デジタルの違い、チャンネル数、状態による査定差を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
         </header>
 
         <div className="article-body">
 
+          <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+            <h2 className="font-bold text-lg mb-2">DJミキサーの掲示買取価格（島村楽器・2026年11月13日確認）</h2>
+            <p className="text-sm text-warm-gray leading-relaxed mb-3">DJミキサーは型番と状態で買取価格がほぼ決まります。島村楽器の「買取価格検索」に掲示されている上限の目安は、Pioneer DJ の DJM-V10 で ¥242,000、DJM-A9 で ¥202,000、DJM-900NXS2 で ¥119,000（いずれもAランク）です。同じ型番でもAランクとCランクで、表の型番では ¥7,000（DJM-250MK2）〜¥66,000（DJM-V10-LF）の差があります。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">型番</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Aランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Bランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Cランク</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-V10-LF</td><td className="px-3 py-2">¥248,000</td><td className="px-3 py-2">¥215,000</td><td className="px-3 py-2">¥182,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-V10</td><td className="px-3 py-2">¥242,000</td><td className="px-3 py-2">¥210,000</td><td className="px-3 py-2">¥178,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-A9</td><td className="px-3 py-2">¥202,000</td><td className="px-3 py-2">¥175,000</td><td className="px-3 py-2">¥148,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">AlphaTheta DJM-V5</td><td className="px-3 py-2">¥172,000</td><td className="px-3 py-2">¥151,000</td><td className="px-3 py-2">¥129,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-S11</td><td className="px-3 py-2">¥150,000</td><td className="px-3 py-2">¥130,000</td><td className="px-3 py-2">¥110,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-900NXS2</td><td className="px-3 py-2">¥119,000</td><td className="px-3 py-2">¥99,000</td><td className="px-3 py-2">¥79,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-S7</td><td className="px-3 py-2">¥109,000</td><td className="px-3 py-2">¥95,000</td><td className="px-3 py-2">¥80,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-750MK2</td><td className="px-3 py-2">¥80,000</td><td className="px-3 py-2">¥68,000</td><td className="px-3 py-2">¥57,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-900NXS</td><td className="px-3 py-2">¥73,000</td><td className="px-3 py-2">¥61,000</td><td className="px-3 py-2">¥49,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-S9</td><td className="px-3 py-2">¥71,000</td><td className="px-3 py-2">¥59,000</td><td className="px-3 py-2">¥47,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-450</td><td className="px-3 py-2">¥48,000</td><td className="px-3 py-2">¥40,000</td><td className="px-3 py-2">¥34,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Pioneer DJ DJM-250MK2</td><td className="px-3 py-2">¥25,000</td><td className="px-3 py-2">¥22,000</td><td className="px-3 py-2">¥18,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">ALLEN&amp;HEATH XONE:92A</td><td className="px-3 py-2">¥159,000</td><td className="px-3 py-2">¥136,000</td><td className="px-3 py-2">¥113,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">ALLEN&amp;HEATH XONE:96</td><td className="px-3 py-2">¥148,000</td><td className="px-3 py-2">¥126,000</td><td className="px-3 py-2">¥103,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">ALLEN&amp;HEATH XONE:92 mk2</td><td className="px-3 py-2">¥122,000</td><td className="px-3 py-2">¥105,000</td><td className="px-3 py-2">¥87,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">ALLEN&amp;HEATH XONE:43</td><td className="px-3 py-2">¥55,000</td><td className="px-3 py-2">¥47,000</td><td className="px-3 py-2">¥38,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">ALLEN&amp;HEATH XONE:23C</td><td className="px-3 py-2">¥33,000</td><td className="px-3 py-2">¥27,000</td><td className="px-3 py-2">¥22,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+            <p className="text-xs text-warm-gray leading-relaxed">出典：島村楽器「買取価格検索」（<a href="https://www.shimamura.co.jp/used/search.html?cat=&amp;inst=&amp;brand=&amp;model=DJM&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">DJM で検索</a>・<a href="https://www.shimamura.co.jp/used/search.html?cat=&amp;inst=&amp;brand=&amp;model=Xone&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">Xone で検索</a>・2026年11月13日確認）。Aランク＝新品同様で傷や汚れがなく機能に問題がない、Bランク＝多少の傷や汚れがあるが機能に問題がない、Cランク＝使用感があり傷や汚れが目立つが機能に問題がない（島村楽器の定義）。掲示は島村楽器の査定の目安で、実際の買取額は付属品・動作確認で変わります。島村楽器の店頭買取は銀行振込のみで現金での支払いはなく、10万円以上は支払いまで1週間ほどかかります（店舗の買取案内ページ）。イシバシ楽器の掲示は今回確認していません。</p>
+          </section>
+
           <h2 id="souba">買取相場の目安</h2>
-          <p>ミキサーの買取相場は、ブランド・モデル・状態によって大きく変わります。あくまで目安として、小型アナログで数千〜2万円、中型〜デジタル卓やPioneer DJ DJMは2万〜十数万円以上が目安とされています。正確な査定額は楽器の状態や付属品、時期によって変動するため、無料査定で確認するのが確実です。</p>
+          <p>ミキサーの買取相場は、ブランド・モデル・状態によって大きく変わります。あくまで目安として、小型アナログで数千〜2万円、中型〜デジタル卓は2万円以上が目安とされています。Pioneer DJ の DJM は、島村楽器の掲示で ¥4,000（DJM-250・Cランク）〜¥248,000（DJM-V10-LF・Aランク）です（上の表・2026年11月13日確認）。正確な査定額は楽器の状態や付属品、時期によって変動するため、無料査定で確認するのが確実です。</p>
           <p className="text-xs text-warm-gray">※相場は一般的な中古市場の目安であり、実際の買取額を保証するものではありません。</p>
 
           <h2 id="points">査定額を左右するポイント</h2>

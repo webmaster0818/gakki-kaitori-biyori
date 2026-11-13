@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/yokohama-gakki-kaitori/' },
   title: "横浜の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ業者【2026年11月】",
   description:
-    "横浜で楽器を売るならどこがいい？横浜駅周辺の専門店事情、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説します。無料査定のみの利用も可能です。ギター・ピアノ・管楽器に対応。",
+    "横浜で楽器を持ち込むなら横浜駅西口のイシバシ楽器（その場で現金）・クロサワ楽器・島村楽器（振込のみ）。楽器の買取屋さん横浜店（中区万代町・10〜19時）の公式情報と、出張・宅配の選び方も早見表で比較。",
   openGraph: { images: ["/og-image.png"], 
     title: "横浜の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年11月】",
     description: "横浜で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説します。",
@@ -70,7 +70,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "横浜で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "横浜で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)横浜駅周辺のイシバシ楽器やクロサワ楽器などの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。横浜は東京に次ぐ楽器市場規模があるため、複数社比較で高額査定が期待できます。" } },
       { "@type": "Question", name: "横浜で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ティファナも神奈川県の一部地域で出張買取を行っています。また、楽器の買取屋さん横浜店は最短30分で出張査定に来てくれるスピード対応が特徴です。出張料・査定料はいずれも無料です。" } },
-      { "@type": "Question", name: "横浜の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "はい、可能です。イシバシ楽器横浜店やクロサワ楽器横浜店の店頭買取なら、その場で査定・即日現金化ができます。楽器の買取屋さんの出張買取でも、その場で見積もり・即現金支払いに対応しています。" } },
+      { "@type": "Question", name: "横浜の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店によります。イシバシ楽器 横浜店の店頭買取はその場で現金（鑑定合計50万円以上は振込）です。島村楽器 横浜ビブレ店は銀行振込のみで、10万円以上は支払いまで1週間ほどかかります。クロサワ楽器 横浜店は持ち込むとその場で査定・買取しますが、支払い方法は店舗ページに記載がありません。楽器の買取屋さんは店頭・出張ともその場で現金と公式に案内しています（各社公式 2026年11月13日確認）。" } },
       { "@type": "Question", name: "横浜駅周辺に楽器買取店は多いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、横浜駅周辺には楽器買取店が集中しています。イシバシ楽器横浜店（南幸2丁目・相鉄南幸第7ビル2F/3F）、クロサワ楽器横浜店（横浜岡田屋モアーズ4F）、島村楽器横浜ビブレ店など、徒歩圏内に大手楽器チェーンが揃っています。" } },
       { "@type": "Question", name: "ピアノやドラムなど大型楽器は横浜でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。搬出作業も査定士が行います。出張料・搬出料は無料です。横浜楽器でも大型楽器の出張買取に対応しています。" } },
     ],
@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-13",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -110,14 +110,32 @@ export default function YokohamaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             横浜で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、横浜エリア対応の楽器買取おすすめ3社を比較します。横浜駅周辺のイシバシ楽器・クロサワ楽器・島村楽器など専門店の情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月3日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
         </header>
 
         <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6">「楽器の買取屋さん 横浜店」を探している方へ：運営会社・横浜店の所在地と営業時間・出張／宅配の条件を、公式サイトの公表内容でまとめています。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
 
+        <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">横浜で楽器を持ち込める店（早見表）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">横浜で楽器を持ち込むなら、横浜駅西口の徒歩圏にイシバシ楽器・クロサワ楽器・島村楽器の買取窓口があります。その場で現金を受け取りたいならイシバシ楽器 横浜店、島村楽器は銀行振込のみです。「楽器の買取屋さん 横浜店」は中区万代町にあり、公式は来店前に電話するよう案内しています（各社の公式ページで2026年11月13日に確認）。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">所在地・駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">受付時間</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取の方法・品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.ishibashi.co.jp/kaitori/tentou/yokohama.html" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 横浜店</a></td><td className="px-3 py-2">西区南幸2-17-1 相鉄南幸第7ビル 2F（買取は2F）／横浜駅西口 徒歩5分</td><td className="px-3 py-2">12:00〜20:00（予約なしでも可）</td><td className="px-3 py-2">楽器全般を店頭で（アコースティックピアノ・エレクトーン・オルガンは店頭不可）</td><td className="px-3 py-2">その場で現金（鑑定合計50万円以上は振込）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.kurosawagakki.com/sh_hama/index.html" target="_blank" rel="nofollow noopener" className="underline">クロサワ楽器 横浜店</a></td><td className="px-3 py-2">西区南幸1-3-1 横浜モアーズ4F／横浜駅西口 徒歩1分（相鉄・市営地下鉄はみなみ西口 徒歩3分）</td><td className="px-3 py-2">11:00〜20:00</td><td className="px-3 py-2">ギター・ベース・ウクレレなど。持ち込むとその場で査定・買取（一部は委託販売の相談可）</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/yokohama/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 横浜ビブレ店</a></td><td className="px-3 py-2">西区南幸2-15-13 横浜ビブレ5F／横浜駅みなみ西口 徒歩3分</td><td className="px-3 py-2">月〜金 11:00〜21:00／土日祝 10:00〜21:00（査定がスムーズなのは13:00〜18:00）</td><td className="px-3 py-2">楽器全般。店舗への持ち込みで査定額5%UP</td><td className="px-3 py-2">銀行振込のみ・現金なし（10万円以上は1週間ほど）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="nofollow noopener" className="underline">楽器の買取屋さん 横浜店</a></td><td className="px-3 py-2">中区万代町1丁目2-3 座間ビル3F（駐車場なし）</td><td className="px-3 py-2">10:00〜19:00（まず電話。対応時間の予約も可）</td><td className="px-3 py-2">その場で査定。身分証明書のコピーと住民票の写しの送付が必要</td><td className="px-3 py-2">その場で現金（査定額に納得できなければキャンセル料なし）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月13日に確認。楽器の買取屋さんの店舗紹介ページには「店舗を持たず買取用の倉庫のみ」という定型文もあるため、持ち込む前に電話で受付を確認してください。運営会社・出張／宅配の条件は<a href="#kaitoriyasan-info" className="underline">楽器の買取屋さん（横浜店）の基本情報</a>に、ピアノなど運べない楽器は<a href="#method" className="underline">出張・店頭・宅配の選び方</a>にまとめています。</p>
+        </section>
+
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#mochikomi" className="hover:underline">横浜で楽器を持ち込める店（早見表）</a></li>
             <li><a href="#comparison" className="hover:underline">横浜対応おすすめ3社比較</a></li>
             <li><a href="#kaitoriyasan-info" className="hover:underline">楽器の買取屋さん（横浜店）の基本情報</a></li>
             <li><a href="#area" className="hover:underline">横浜駅周辺の楽器買取事情</a></li>
@@ -321,7 +339,7 @@ export default function YokohamaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、可能です。イシバシ楽器やクロサワ楽器の店頭買取なら即日現金化ができます。楽器の買取屋さんの出張買取でもその場で即現金支払いに対応しています。
+                店によります。イシバシ楽器 横浜店の店頭買取はその場で現金（鑑定合計50万円以上は振込）です。島村楽器 横浜ビブレ店は銀行振込のみで、10万円以上は支払いまで1週間ほどかかります。クロサワ楽器 横浜店は持ち込むとその場で査定・買取しますが、支払い方法は店舗ページに記載がありません。楽器の買取屋さんは店頭・出張ともその場で現金と公式に案内しています（各社公式 2026年11月13日確認）。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -350,7 +368,7 @@ export default function YokohamaGakkiKaitoriPage() {
 
           <ul>
             <li><strong>最高値で売りたい</strong> → ヒカカク！で一括査定</li>
-            <li><strong>すぐに売りたい</strong> → 横浜駅周辺の店舗で店頭買取（イシバシ楽器・クロサワ楽器はその場で現金）</li>
+            <li><strong>すぐに売りたい</strong> → 横浜駅周辺の店舗で店頭買取（その場で現金ならイシバシ楽器。島村楽器は振込のみ）</li>
             <li><strong>大型楽器・まとめ売り</strong> → ウリエルで出張買取</li>
           </ul>
 

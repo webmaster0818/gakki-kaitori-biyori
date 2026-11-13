@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/takaku-uru-kotsu/' },
   title: "楽器を高く売る5つのコツ｜買取額を上げるための準備",
   description:
-    "楽器を少しでも高く売るための5つの実践的なコツを解説します。相見積もり・付属品・クリーニング・売却タイミング・買取方法の選び方まで。ギター・ピアノ・管楽器すべてに使えるノウハウです。",
+    "楽器を高く売る方法は状態を整える・付属品をそろえる・店に持ち込む/下取りにする・相見積もりの4つ。島村楽器のA/B/C掲示額の差や持ち込み5%UP・下取り10%UPなど公式の根拠と5つのコツを解説。",
   openGraph: { images: ["/og-image.png"], 
     title: "楽器を高く売る5つのコツ｜買取額を上げるための準備",
     description: "楽器買取額をアップさせる5つの実践的なコツを解説します。相見積もり・付属品・クリーニング・タイミング・方法選びのポイント。",
@@ -68,7 +68,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "楽器を高く売る5つのコツ｜買取額を上げるための準備",
     datePublished: "2026-04-18",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-13",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -98,12 +98,13 @@ export default function TakakuUruKotsuPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             「もっと高く売れたのに...」と後悔しないために。同じ楽器でも、売り方ひとつで買取額が数万円変わることがあります。この記事では、ギター・ピアノ・管楽器など、すべての楽器に使える「高く売るための5つの実践的なコツ」を詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
         </header>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#answer" className="hover:underline">高く売る方法の要点（公式の根拠）</a></li>
             <li><a href="#tip1" className="hover:underline">コツ1: 複数業者に相見積もりを取る</a></li>
             <li><a href="#tip2" className="hover:underline">コツ2: 付属品をすべて揃える</a></li>
             <li><a href="#tip3" className="hover:underline">コツ3: クリーニングして見た目を整える</a></li>
@@ -114,6 +115,23 @@ export default function TakakuUruKotsuPage() {
             <li><a href="#faq" className="hover:underline">よくある質問</a></li>
           </ol>
         </nav>
+
+        <section id="answer" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">楽器を高く売る方法：買取店の公式の掲示・案内で確かめられること</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">楽器を高く売るには、①傷・汚れを減らし動作を確認して状態ランクを上げる、②付属品をそろえる、③店に持ち込む・買い替えなら下取りにする、④複数の店で見積もりを取り支払い方法も比べる、の4つです。楽器店の公式の掲示・案内で確かめられる根拠は次のとおりです（2026年11月13日確認）。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">方法</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">公式の掲示・案内</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium whitespace-nowrap">状態を整える</td><td className="px-3 py-2">島村楽器の掲示買取価格は状態でA・B・Cの3段階。例：Pioneer DJ DJM-900NXS2 は A ¥119,000／C ¥79,000、Sonor SQ1 スネア（SQ1-1405SDW）は A ¥50,000／C ¥21,000（<a href="https://www.shimamura.co.jp/used/search.html?cat=&amp;inst=&amp;brand=&amp;model=DJM&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">買取価格検索</a>）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium whitespace-nowrap">付属品をそろえる</td><td className="px-3 py-2">クロサワ楽器のQ&amp;A：「付属品が欠品している場合はその分査定が減額」（<a href="https://www.kurosawagakki.com/kaikuro/" target="_blank" rel="nofollow noopener" className="underline">楽器買取ページ</a>）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium whitespace-nowrap">店に持ち込む・下取りにする</td><td className="px-3 py-2">島村楽器：店舗への持ち込みで査定額5%UP、島村楽器で買った商品は5%UP、下取りは10%UP（アップライト・グランドピアノは対象外）（<a href="https://www.shimamura.co.jp/shop/yokohama/used/" target="_blank" rel="nofollow noopener" className="underline">店舗の買取案内</a>）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium whitespace-nowrap">支払い方法を確かめる</td><td className="px-3 py-2">イシバシ楽器の店頭買取はその場で現金（鑑定合計50万円以上は振込）（<a href="https://www.ishibashi.co.jp/kaitori/tentou/" target="_blank" rel="nofollow noopener" className="underline">店頭買取ページ</a>）。島村楽器は銀行振込のみで、10万円以上は1週間ほど</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※島村楽器のランク：A＝新品同様で傷や汚れがなく機能に問題がない、B＝多少の傷や汚れがあるが機能に問題がない、C＝使用感があり傷や汚れが目立つが機能に問題がない。査定額アップの条件・支払い方法は店ごとに違うため、申し込む前に各店の公式ページで確認してください。</p>
+        </section>
 
         <div className="article-body">
           <p>楽器の買取価格は、楽器そのものの価値だけでなく、<strong>「どう売るか」によっても大きく変わります</strong>。以下の5つのコツを実践するだけで、同じ楽器でも買取額が10〜30%アップすることも珍しくありません。</p>

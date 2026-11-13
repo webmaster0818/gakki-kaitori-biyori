@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/' },
   title: "神戸の楽器買取はどこがいい？三宮の専門店・近くの店・出張の選び方とおすすめ業者【2026年11月】",
   description:
-    "神戸で楽器を売るならどこがいい？神戸対応の楽器買取おすすめ3社を比較します。三宮・元町・ハーバーランドなどエリア別の買取事情、出張買取・店頭買取・宅配買取の違い、高く売るコツまで解説します。",
+    "神戸で楽器を持ち込むなら三宮のQsic神戸本店・島村楽器三宮オーパ店（振込のみ）。楽器の買取屋さんは兵庫県に店舗がなく神戸は出張対象。各店の住所・受付時間・支払い方法を公式で確認した早見表と3社比較。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     description: "神戸で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-13",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -110,14 +110,32 @@ export default function KobeGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             神戸で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月3日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
         </header>
 
         <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6">「楽器の買取屋さん」を探している方へ：兵庫県内に店舗はなく、神戸市は出張買取の対象です。運営会社・近畿の店舗・出張／宅配の条件を、公式サイトの公表内容でまとめています。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
 
+        <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">神戸で楽器を持ち込める店（早見表）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">神戸で楽器を持ち込むなら、三宮駅の徒歩圏に中古楽器専門店のQsic 神戸本店と島村楽器 三宮オーパ店があります。島村楽器は銀行振込のみです。「楽器の買取屋さん」は兵庫県内に店舗がなく、神戸市は出張買取の対象です（各社の公式ページで2026年11月13日に確認）。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">所在地・駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">受付時間</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取の方法・品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.qsic.jp/?mode=f9" target="_blank" rel="nofollow noopener" className="underline">Qsic（キュージック）神戸本店</a></td><td className="px-3 py-2">中央区三宮町1丁目8-1 さんプラザ3階（三宮センター街を東側から入り70mほど右手）</td><td className="px-3 py-2">平日 12:00〜19:00／土日祝 11:00〜19:30（水曜定休・祝日の場合は翌日）</td><td className="px-3 py-2">中古楽器の買取・販売の専門店（ギター・ベースなど）</td><td className="px-3 py-2">店舗情報ページに記載なし</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/koube/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 三宮オーパ店</a></td><td className="px-3 py-2">中央区三宮町1-5-26 三宮オーパ5F・7F／JR三ノ宮駅西口・阪神三宮駅西口・阪急三宮駅南改札 徒歩3分</td><td className="px-3 py-2">11:00〜21:00（査定がスムーズなのは13:00〜20:00）</td><td className="px-3 py-2">楽器全般。店舗への持ち込みで査定額5%UP</td><td className="px-3 py-2">銀行振込のみ・現金なし（10万円以上は1週間ほど）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/kobe-k/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 イオンモール神戸北店</a></td><td className="px-3 py-2">北区上津台8-1-1 イオンモール神戸北3F</td><td className="px-3 py-2">10:00〜21:00</td><td className="px-3 py-2">楽器全般。店舗への持ち込みで査定額5%UP</td><td className="px-3 py-2">銀行振込のみ・現金なし（10万円以上は1週間ほど）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.hardoff.co.jp/shop/detail/?p=201165" target="_blank" rel="nofollow noopener" className="underline">ハードオフ 神戸玉津店</a></td><td className="px-3 py-2">西区玉津町高津橋132-1</td><td className="px-3 py-2">10:00〜19:30（年中無休・年末年始を除く）</td><td className="px-3 py-2">楽器・オーディオ・パソコンなど。電子ピアノは製造からおおよそ15年以内、音が出ないものは不可</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月13日に確認。楽器の買取屋さんの近畿の店舗は大阪門真店・大阪心斎橋店で、兵庫県全域が出張買取の対象です（<a href="#kaitoriyasan-info" className="underline">楽器の買取屋さんの基本情報</a>）。ほかの店舗は<a href="#local-shops" className="underline">神戸の主要楽器買取店ガイド</a>に、ピアノなど運べない楽器は出張買取（ウリエル等）か一括査定をご利用ください。</p>
+        </section>
+
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#mochikomi" className="hover:underline">神戸で楽器を持ち込める店（早見表）</a></li>
             <li><a href="#kobe-overview" className="hover:underline">神戸の楽器買取事情</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#kaitoriyasan-info" className="hover:underline">楽器の買取屋さん（神戸への出張・近畿の店舗）の基本情報</a></li>

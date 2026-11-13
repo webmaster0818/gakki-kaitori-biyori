@@ -5,7 +5,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/sonor-kaitori/' },
   title: "【2026年11月最新】Sonor買取相場ガイド｜全モデル査定額・高く売るコツ",
-  description: "Sonor（ソナー）のプロフェッショナルドラムセット、スネア買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説します。",
+  description: "Sonorスネアの買取価格は島村楽器の掲示でSQ2が最大8.9万円、SQ1が5万〜5.8万円、D515が5.3万円、AQ2が0.9万〜1.2万円（11/13確認）。型番別の掲示表、ドラムセットの相場目安、高く売るコツを解説。",
   openGraph: { images: ["/og-image.png"], title: "【2026年11月最新】Sonor買取相場ガイド｜全モデル査定額・高く売るコツ", description: "Sonor（ソナー）のプロフェッショナルドラムセット、スネア買取相場、人気モデル別の査定額目安、高く売る5つのコツ、おすすめ買取業者3社を解説します。" },
 };
 
@@ -13,7 +13,7 @@ function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Sonor\u306e\u53e4\u3044\u30e2\u30c7\u30eb\u3067\u3082\u8cb7\u53d6\u3057\u3066\u3082\u3089\u3048\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u306f\u3044\u3001Sonor\uff08\u30bd\u30ca\u30fc\uff09\u306f\u4e2d\u53e4\u5e02\u5834\u3067\u9700\u8981\u304c\u3042\u308b\u30d6\u30e9\u30f3\u30c9\u3067\u3059\u3002\u88fd\u9020\u5f8c10\u5e74\u301c\u6570\u5341\u5e74\u7d4c\u904e\u3057\u305f\u30e2\u30c7\u30eb\u3067\u3082\u3001\u72b6\u614b\u6b21\u7b2c\u3067\u8cb7\u53d6\u53ef\u80fd\u3067\u3059\u3002\u7279\u306b\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u4fa1\u5024\u304c\u3042\u308b\u30e2\u30c7\u30eb\u306f\u65b0\u54c1\u3088\u308a\u9ad8\u5024\u306b\u306a\u308b\u3053\u3068\u3082\u3042\u308a\u307e\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"Sonor\u306e\u4ed8\u5c5e\u54c1\u304c\u306a\u3044\u3068\u8cb7\u53d6\u3067\u304d\u307e\u305b\u3093\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u672c\u4f53\u306e\u307f\u3067\u3082\u8cb7\u53d6\u53ef\u80fd\u3067\u3059\u304c\u3001\u7d14\u6b63\u30b1\u30fc\u30b9\u30fb\u53d6\u6271\u8aac\u660e\u66f8\u30fb\u4fdd\u8a3c\u66f8\u306a\u3069\u304c\u63c3\u3046\u3068\u67fb\u5b9a\u984d\u304c10\u301c30%\u30a2\u30c3\u30d7\u3057\u307e\u3059\u3002\u53ef\u80fd\u306a\u9650\u308a\u4ed8\u5c5e\u54c1\u3092\u63c3\u3048\u3066\u304f\u3060\u3055\u3044\u3002\"}}, {\"@type\": \"Question\", \"name\": \"Sonor\u3092\u9ad8\u304f\u58f2\u308b\u30bf\u30a4\u30df\u30f3\u30b0\u306f\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u65b0\u751f\u6d3b\u524d\uff081\u301c3\u6708\uff09\u3001\u6587\u5316\u796d\u30b7\u30fc\u30ba\u30f3\uff089\u301c10\u6708\uff09\u304c\u4e2d\u53e4\u9700\u8981\u306e\u30d4\u30fc\u30af\u3002\u307e\u305f\u3001\u65b0\u6a5f\u7a2e\u767a\u8868\u524d\u306f\u65e7\u30e2\u30c7\u30eb\u4fa1\u683c\u304c\u4e0b\u304c\u308b\u524d\u306b\u58f2\u5374\u3059\u308b\u306e\u304c\u304a\u3059\u3059\u3081\u3067\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u6545\u969c\u3057\u3066\u3044\u308bSonor\u3067\u3082\u8cb7\u53d6\u3057\u3066\u3082\u3089\u3048\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u72b6\u614b\u306b\u3088\u308a\u307e\u3059\u3002\u52d5\u4f5c\u3059\u308b\u72b6\u614b\u306a\u3089\u8cb7\u53d6\u53ef\u80fd\u3001\u660e\u3089\u304b\u306a\u6545\u969c\u3067\u3082\u4fee\u7406\u5de5\u623f\u3092\u6301\u3064\u8cb7\u53d6\u696d\u8005\u306a\u3089\u90e8\u54c1\u53d6\u308a\u76ee\u7684\u3067\u8cb7\u53d6\u3057\u3066\u304f\u308c\u308b\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Sonor\u8cb7\u53d6\u76f8\u5834\u3068\u9ad8\u304f\u58f2\u308b\u30ac\u30a4\u30c9\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-05-17\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Sonor\u8cb7\u53d6\u76f8\u5834\u3068\u9ad8\u304f\u58f2\u308b\u30ac\u30a4\u30c9\", \"datePublished\": \"2026-05-17\", \"dateModified\": \"2026-11-13\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"Sonor買取相場と高く売るガイド\", \"item\": \"https://gakkikaitori-biyori.com/articles/sonor-kaitori/\"}]}" }} />
     </>
   );
@@ -37,10 +37,39 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">Sonor買取相場と高く売るガイド</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Sonor（ソナー）はドラムカテゴリで世界的に高い評価を持つメーカーです。プロフェッショナルドラムセット、スネアなど、ラインナップが幅広く、中古市場でも安定した需要があります。本記事ではSonor（ソナー）の買取相場・モデル別査定額・高く売るコツを解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026-05-17</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
         </header>
 
         <div className="article-body">
+          <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+            <h2 className="font-bold text-lg mb-2">Sonor スネアの掲示買取価格（島村楽器・2026年11月13日確認）</h2>
+            <p className="text-sm text-warm-gray leading-relaxed mb-3">島村楽器の「買取価格検索」に掲示されている Sonor（ソナー）はスネアドラムで、上限の目安は SQ2 スネア（SQ2-1406SD EHI PA）が ¥89,000、SQ1 スネアが ¥50,000〜58,000、D515 が ¥53,000、AQ2 スネアが ¥9,000〜12,000（いずれもAランク）です。ドラムセット（SQ2・AQ2・Force などのシェルセット）の掲示は同じ検索で見つかりませんでした。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">型番</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Aランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Bランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Cランク</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">SQ2-1406SD EHI PA</td><td className="px-3 py-2">¥89,000</td><td className="px-3 py-2">¥67,000</td><td className="px-3 py-2">¥37,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">SQ1406SD MHI</td><td className="px-3 py-2">¥58,000</td><td className="px-3 py-2">¥43,000</td><td className="px-3 py-2">¥24,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">SQ1405SD EHI</td><td className="px-3 py-2">¥56,000</td><td className="px-3 py-2">¥42,000</td><td className="px-3 py-2">¥23,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">SQ1-1465SDW</td><td className="px-3 py-2">¥51,000</td><td className="px-3 py-2">¥38,000</td><td className="px-3 py-2">¥21,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">SQ1-1405SDW</td><td className="px-3 py-2">¥50,000</td><td className="px-3 py-2">¥38,000</td><td className="px-3 py-2">¥21,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">SN-SQ11465</td><td className="px-3 py-2">¥30,000</td><td className="px-3 py-2">¥22,000</td><td className="px-3 py-2">¥12,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">D515</td><td className="px-3 py-2">¥53,000</td><td className="px-3 py-2">¥39,000</td><td className="px-3 py-2">¥22,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">D515PA</td><td className="px-3 py-2">¥38,000</td><td className="px-3 py-2">¥28,000</td><td className="px-3 py-2">¥16,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">HLD588</td><td className="px-3 py-2">¥52,000</td><td className="px-3 py-2">¥39,000</td><td className="px-3 py-2">¥21,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">AQ2-1306SDW</td><td className="px-3 py-2">¥12,000</td><td className="px-3 py-2">¥9,000</td><td className="px-3 py-2">¥5,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">AQ2-1406SDW</td><td className="px-3 py-2">¥12,000</td><td className="px-3 py-2">¥9,000</td><td className="px-3 py-2">¥5,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">AQ2-1455SDS</td><td className="px-3 py-2">¥10,000</td><td className="px-3 py-2">¥7,000</td><td className="px-3 py-2">¥4,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">AQ2-1205SDS</td><td className="px-3 py-2">¥9,000</td><td className="px-3 py-2">¥6,000</td><td className="px-3 py-2">¥3,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">SEF11-1455SDW</td><td className="px-3 py-2">¥13,000</td><td className="px-3 py-2">¥10,000</td><td className="px-3 py-2">¥5,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">SEF11-1455SDS</td><td className="px-3 py-2">¥8,000</td><td className="px-3 py-2">¥6,000</td><td className="px-3 py-2">¥3,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+            <p className="text-xs text-warm-gray leading-relaxed">出典：島村楽器「買取価格検索」（<a href="https://www.shimamura.co.jp/used/search.html?cat=&amp;inst=&amp;brand=&amp;model=SQ1&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">型番で検索</a>。SQ1・SQ2・AQ2・D515・HLD・SEF・Force などで検索・2026年11月13日確認）。Aランク＝新品同様で傷や汚れがなく機能に問題がない、Bランク＝多少の傷や汚れがあるが機能に問題がない、Cランク＝使用感があり傷や汚れが目立つが機能に問題がない（島村楽器の定義）。掲示は島村楽器の査定の目安で、実際の買取額は付属品・動作確認で変わります。島村楽器の店頭買取は銀行振込のみで現金での支払いはなく、10万円以上は支払いまで1週間ほどかかります（店舗の買取案内ページ）。下の「人気モデル別買取相場」はセットを含む当サイトの目安で、この掲示とは別のものです。</p>
+          </section>
+
+
         <h2>1. Sonorのブランド概要</h2>
         <p>Sonor（ソナー）は、ドラムカテゴリで長年にわたり愛されてきたメーカーです。プロフェッショナルドラムセット、スネアを製造し、プロからアマチュアまで幅広い層に支持されています。</p>
         <p>中古市場でのSonorは、入門モデルから最上位プロモデルまで価格帯が広く、ヴィンテージ価値のあるモデルは新品以上の値段がつくことも珍しくありません。</p>

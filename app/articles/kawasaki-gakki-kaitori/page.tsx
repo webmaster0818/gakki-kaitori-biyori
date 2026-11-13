@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawasaki-gakki-kaitori/' },
   title: "川崎の楽器買取はどこがいい？川崎駅・武蔵小杉の店頭と出張・宅配の選び方【2026年11月】",
   description:
-    "川崎で楽器を売るならどこがいい？川崎対応の楽器買取おすすめ3社を比較します。川崎・武蔵小杉・溝の口エリアの買取事情、出張・店頭・宅配買取の違い、高く売るコツまで解説します。",
+    "川崎で楽器を持ち込むなら川崎駅近くの島村楽器川崎ルフロン店（振込のみ）・ウリエル川崎店（その場で現金・要予約）。楽器の買取屋さんは市内に店舗がなく最寄りは横浜店。住所・受付時間・支払い方法を公式で確認した早見表。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 川崎おすすめ3選｜出張・店頭・宅配を比較",
     description: "川崎で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 川崎おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-13",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -110,14 +110,32 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             川崎で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、川崎エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、川崎・武蔵小杉・溝の口など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月3日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
         </header>
 
         <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6">「楽器の買取屋さん」を探している方へ：川崎市内に店舗はなく、川崎は出張買取の対象です。運営会社・最寄りの横浜店・出張／宅配の条件を、公式サイトの公表内容でまとめています。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
 
+        <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">川崎で楽器を持ち込める店（早見表）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">川崎で楽器を持ち込むなら、JR川崎駅の近くに島村楽器 川崎ルフロン店（銀行振込のみ）とウリエル 川崎 ラ チッタデッラ店（その場で現金・要予約）があります。「楽器の買取屋さん」は川崎市内に店舗がなく、最寄りは横浜店、川崎市は出張買取の対象です（各社の公式ページで2026年11月13日に確認）。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">所在地・駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">受付時間</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取の方法・品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/kawasaki/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 川崎ルフロン店</a></td><td className="px-3 py-2">川崎区日進町1-11 川崎ルフロン7F／JR川崎駅東口 徒歩2分・京急川崎駅 徒歩5分</td><td className="px-3 py-2">10:00〜21:00（管楽器の査定がスムーズなのは10:00〜18:00）</td><td className="px-3 py-2">楽器全般。店舗への持ち込みで査定額5%UP</td><td className="px-3 py-2">銀行振込のみ・現金なし（10万円以上は1週間ほど）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.uriel-cuore.co.jp/shops/kawasaki/" target="_blank" rel="nofollow noopener" className="underline">ウリエル 川崎 ラ チッタデッラ店</a></td><td className="px-3 py-2">川崎区小川町4-1 ラ チッタデッラ内 マッジョーレ2階／JR川崎駅 徒歩約5分・京急川崎駅 徒歩約7分</td><td className="px-3 py-2">11:00〜21:00（最終受付20:00）。店頭・持込は事前の電話予約が必要</td><td className="px-3 py-2">楽器を含む総合買取（買取品目に楽器の記載あり）</td><td className="px-3 py-2">その場で現金</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.hardoff.co.jp/shop/detail/?p=101072" target="_blank" rel="nofollow noopener" className="underline">ハードオフ コーナン川崎小田栄モール店</a></td><td className="px-3 py-2">川崎区小田栄2-3-1 コーナン川崎小田栄店2F／JR南武線 小田栄駅 徒歩2分</td><td className="px-3 py-2">10:00〜20:00（年中無休）</td><td className="px-3 py-2">楽器・オーディオなど（ギター・ベースの買取強化中と店長コメント）</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="nofollow noopener" className="underline">楽器の買取屋さん 横浜店（最寄り）</a></td><td className="px-3 py-2">横浜市中区万代町1丁目2-3 座間ビル3F（川崎市内に店舗なし）</td><td className="px-3 py-2">10:00〜19:00（まず電話。対応時間の予約も可）</td><td className="px-3 py-2">その場で査定。川崎市は出張買取の対象（神奈川県全域）</td><td className="px-3 py-2">その場で現金</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月13日に確認。ウリエルの店舗一覧ページは「店頭・持込買取は事前にお電話にてご予約ください」「事前のご予約が必須」と案内しています。ハードオフの店舗ページは出張買取を「実施なし」と「行っております」の両方で記載しているため、出張は電話で確認してください。セカンドストリート各店は<a href="#local-shops" className="underline">川崎の主要楽器買取店ガイド</a>にまとめています。</p>
+        </section>
+
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#mochikomi" className="hover:underline">川崎で楽器を持ち込める店（早見表）</a></li>
             <li><a href="#overview" className="hover:underline">川崎の楽器買取事情</a></li>
             <li><a href="#comparison" className="hover:underline">おすすめ3社比較表</a></li>
             <li><a href="#kaitoriyasan-info" className="hover:underline">楽器の買取屋さん（横浜店・川崎への出張）の基本情報</a></li>
@@ -181,7 +199,7 @@ export default function Page() {
           <h3>ウリエル ── 川崎駅近くに店舗・神奈川県へ出張</h3>
           <ServiceCapture id="uriel" />
 
-          <p>ウリエルは出張買取と店頭買取に対応しています。2026年9月17日に初の実店舗「川崎 ラ チッタデッラ店」を開店しました（川崎区小川町4-1 ラ チッタデッラ内 マッジョーレ2階・JR川崎駅から徒歩約5分・11時〜21時（最終受付20時）・予約不要）。出張買取は神奈川県が対応エリアで（一部対応できない市町村あり）、最短翌日以降に訪問します。店頭・出張とも、買取成立後はその場で現金を受け取れます。</p>
+          <p>ウリエルは出張買取と店頭買取に対応しています。2026年9月17日に初の実店舗「川崎 ラ チッタデッラ店」を開店しました（川崎区小川町4-1 ラ チッタデッラ内 マッジョーレ2階・JR川崎駅から徒歩約5分・11時〜21時（最終受付20時）・店頭・持込は事前の電話予約が必要＝公式 2026年11月13日確認）。出張買取は神奈川県が対応エリアで（一部対応できない市町村あり）、最短翌日以降に訪問します。店頭・出張とも、買取成立後はその場で現金を受け取れます。</p>
 
           <CtaBox />
 
@@ -246,7 +264,7 @@ export default function Page() {
           <h3>島村楽器 ラゾーナ川崎店 ── 2026年9月23日に閉店</h3>
           <p>公式の閉店のお知らせによると、2026年9月23日に閉店しました。近隣店舗として川崎ルフロン店が案内されています（2026年10月17日確認・<a href="https://www.shimamura.co.jp/shop/l-kawasaki/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>ハードオフ コーナン川崎小田栄モール店 ── 川崎区小田栄</h3>
-          <p>買取方式：店頭/宅配(出張は非対応)。ギター・ベース買取強化。店頭10:00〜20:00（<a href="https://www.hardoff.co.jp/shop/detail/?p=101072" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p>買取方式：店頭/宅配。出張は店舗ページに「実施なし」と「出張買取を行っております」の両方の記載があるため電話で確認（2026年11月13日確認）。ギター・ベース買取強化。店頭10:00〜20:00（<a href="https://www.hardoff.co.jp/shop/detail/?p=101072" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>セカンドストリート 川崎ダイス店 ── 川崎駅前・DICEビル</h3>
           <p>買取方式：店頭/宅配。駅前で気軽。81kg超の大型ピアノ等は買取不可（<a href="https://www.2ndstreet.jp/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>セカンドストリート 武蔵小杉買取専門店 ── 中原区・武蔵小杉</h3>
