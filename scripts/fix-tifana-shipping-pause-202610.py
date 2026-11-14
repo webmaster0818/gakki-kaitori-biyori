@@ -26,7 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES = ROOT / "app" / "articles"
-CHECKED = "2026年11月13日"  # 最終確認日（本番の注記と揃える）
+CHECKED = "2026年11月14日"  # 最終確認日（本番の注記と揃える）
 
 NOTE_TEXT = (f"<strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています"
              f"（{CHECKED}確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。")
