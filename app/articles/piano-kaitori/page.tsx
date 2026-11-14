@@ -419,7 +419,7 @@ export default function PianoKaitoriPage() {
 
         <RelatedArticles
           currentSlug="piano-kaitori"
-          relatedSlugs={["roland-denshi-piano-kaitori", "kawai-piano-kaitori", "grand-piano-kaitori", "denshi-piano-kaitori", "keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["yamaha-piano-seizou-bangou", "roland-denshi-piano-kaitori", "kawai-piano-kaitori", "grand-piano-kaitori", "denshi-piano-kaitori", "keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

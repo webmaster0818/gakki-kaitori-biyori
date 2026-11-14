@@ -4462,5 +4462,45 @@
     "badge": "ヤマハ YTR-8335",
     "category": "model",
     "description": "ヤマハ YTR-8335の買取相場をヤフオク落札の実勢中央値（毎週更新）で解説します。Xenoシリーズのプロ向けトランペット。管楽器買取で安定需要があります。 価格を"
+  },
+  {
+    "slug": "electone-shobun",
+    "title": "エレクトーンの処分方法と費用",
+    "shortTitle": "エレクトーンの処分方法と費用",
+    "badge": "処分ガイド",
+    "description": "電子オルガンの粗大ごみ手数料を4市の公式ページで比較。買取・譲渡との違い。",
+    "category": "howto"
+  },
+  {
+    "slug": "yamano-gakki-kaitori",
+    "title": "山野楽器の買取は何が売れる？",
+    "shortTitle": "山野楽器の買取",
+    "badge": "業者を知る",
+    "description": "店頭のみ・対象はギター系。管楽器・鍵盤楽器は対象外。実施9店舗と支払い方法を公式情報で整理。",
+    "category": "howto"
+  },
+  {
+    "slug": "yamaha-piano-seizou-bangou",
+    "title": "ヤマハピアノの製造番号で何年製か調べる方法",
+    "shortTitle": "ヤマハピアノの製造番号",
+    "badge": "ピアノ",
+    "description": "製造番号の場所と、日本製ピアノの製造年ごとの製造番号表（公式表）。",
+    "category": "howto"
+  },
+  {
+    "slug": "kangakki-kaitori",
+    "title": "管楽器の買取はどこがいい？",
+    "shortTitle": "管楽器買取",
+    "badge": "管楽器買取",
+    "description": "管楽器の型番別の落札中央値（週次集計）と、楽器店の掲示買取価格を比較。",
+    "category": "instrument"
+  },
+  {
+    "slug": "ikebe-gakki-kaitori",
+    "title": "イケベ楽器の買取（イケベリユース）とは？",
+    "shortTitle": "イケベ楽器の買取",
+    "badge": "業者を知る",
+    "description": "店頭・宅配・出張・委託販売の違い、手数料、掲示買取価格の例を公式情報で整理。",
+    "category": "howto"
   }
 ]

@@ -24,8 +24,8 @@
   "area:九州・沖縄": {
    "label": "九州・沖縄地方のほかの地域の楽器買取",
    "members": [
-    "imari-gakki-kaitori",
     "saga-gakki-kaitori",
+    "imari-gakki-kaitori",
     "karatsu-gakki-kaitori",
     "kumamoto-gakki-kaitori",
     "oita-gakki-kaitori",
@@ -119,6 +119,14 @@
     "tuba-kaitori",
     "trombone-kaitori",
     "bach-42-trombone-kaitori"
+   ]
+  },
+  "family:鍵盤楽器": {
+   "label": "鍵盤楽器の買取ガイド",
+   "members": [
+    "electone-kaitori",
+    "electone-shobun",
+    "keyboard-kaitori"
    ]
   },
   "inst:acoustic-guitar-kaitori": {
@@ -281,7 +289,8 @@
     "prs-se-kaitori",
     "rickenbacker-330-kaitori",
     "gakki-kaitori-osusume",
-    "gakki-no-kaitoriyasan-hyoban"
+    "gakki-no-kaitoriyasan-hyoban",
+    "yamano-gakki-kaitori"
    ]
   },
   "inst:ihin-gakki-kaitori": {
@@ -290,6 +299,13 @@
     "ihin-gakki-kaitori",
     "hikakaku-gakki-kaitori-kuchikomi",
     "uriel-gakki-kaitori-kuchikomi"
+   ]
+  },
+  "inst:kangakki-kaitori": {
+   "label": "「管楽器買取」と関連する買取ガイド",
+   "members": [
+    "kangakki-kaitori",
+    "ikebe-gakki-kaitori"
    ]
   },
   "inst:koto-kaitori": {
@@ -313,7 +329,6 @@
    "members": [
     "piano-kaitori",
     "accordion-kaitori",
-    "electone-kaitori",
     "bosendorfer-kaitori",
     "kawai-kaitori",
     "kawai-piano-kaitori",
@@ -347,7 +362,8 @@
     "shumi-yameta-gakki",
     "souba-ichiran",
     "souko-seiri-gakki",
-    "takaku-uru-kotsu"
+    "takaku-uru-kotsu",
+    "yamaha-piano-seizou-bangou"
    ]
   },
   "inst:saxophone-kaitori": {
@@ -464,8 +480,8 @@
   "pref:埼玉県": {
    "label": "埼玉県のほかの地域の楽器買取",
    "members": [
-    "omiya-gakki-kaitori",
     "kawaguchi-gakki-kaitori",
+    "omiya-gakki-kaitori",
     "toda-saitama-gakki-kaitori",
     "tokorozawa-gakki-kaitori",
     "kasukabe-gakki-kaitori",
@@ -572,6 +588,7 @@
     "kokubunji-gakki-kaitori",
     "kunitachi-gakki-kaitori",
     "sumida-gakki-kaitori",
+    "tama-tokyo-gakki-kaitori",
     "ota-tokyo-gakki-kaitori",
     "kodaira-gakki-kaitori",
     "fuchu-tokyo-gakki-kaitori",
@@ -687,8 +704,8 @@
   "fukui-gakki-kaitori": "福井の楽器買取",
   "matsumoto-gakki-kaitori": "松本の楽器買取",
   "nagano-gakki-kaitori": "長野の楽器買取",
-  "imari-gakki-kaitori": "楽器買取 伊万里市おすすめ3選",
   "saga-gakki-kaitori": "佐賀の楽器買取",
+  "imari-gakki-kaitori": "楽器買取 伊万里市おすすめ3選",
   "karatsu-gakki-kaitori": "楽器買取 唐津市おすすめ3選",
   "kumamoto-gakki-kaitori": "楽器買取 熊本おすすめ3選",
   "oita-gakki-kaitori": "大分の楽器買取",
@@ -742,6 +759,9 @@
   "tuba-kaitori": "チューバ買取ガイド",
   "trombone-kaitori": "トロンボーン買取相場ガイド",
   "bach-42-trombone-kaitori": "バック 42 トロンボーン買取相場",
+  "electone-kaitori": "エレクトーン買取ガイド",
+  "electone-shobun": "エレクトーンの処分方法と費用",
+  "keyboard-kaitori": "キーボード買取相場ガイド",
   "acoustic-guitar-kaitori": "アコギ買取ガイド",
   "takamine-kaitori": "タカミネ買取ガイド",
   "taylor-kaitori": "テイラー買取ガイド",
@@ -850,9 +870,12 @@
   "rickenbacker-330-kaitori": "リッケンバッカー 330買取ガイド",
   "gakki-kaitori-osusume": "楽器買取おすすめ業者比較",
   "gakki-no-kaitoriyasan-hyoban": "楽器の買取屋さんの評判",
+  "yamano-gakki-kaitori": "山野楽器の買取",
   "ihin-gakki-kaitori": "遺品の楽器買取ガイド",
   "hikakaku-gakki-kaitori-kuchikomi": "ヒカカク 口コミ・評判",
   "uriel-gakki-kaitori-kuchikomi": "ウリエル 口コミ・評判",
+  "kangakki-kaitori": "管楽器買取",
+  "ikebe-gakki-kaitori": "イケベ楽器の買取",
   "koto-kaitori": "琴(箏)買取相場ガイド",
   "shakuhachi-kaitori": "尺八買取相場ガイド",
   "wadaiko-kaitori": "和太鼓買取相場ガイド",
@@ -861,7 +884,6 @@
   "shure-kaitori": "Shure(シュア)買取相場",
   "piano-kaitori": "ピアノ買取おすすめ3社比較",
   "accordion-kaitori": "アコーディオン買取ガイド",
-  "electone-kaitori": "エレクトーン買取ガイド",
   "bosendorfer-kaitori": "ベーゼンドルファー買取ガイド",
   "kawai-kaitori": "KAWAI(カワイ)買取相場ガイド",
   "kawai-piano-kaitori": "カワイピアノ買取",
@@ -896,6 +918,7 @@
   "souba-ichiran": "楽器買取相場一覧まとめ",
   "souko-seiri-gakki": "倉庫・物置の楽器整理",
   "takaku-uru-kotsu": "楽器を高く売る5つのコツ",
+  "yamaha-piano-seizou-bangou": "ヤマハピアノの製造番号",
   "saxophone-kaitori": "サックス買取おすすめ3社比較",
   "harmonica-kaitori": "ハーモニカ買取ガイド",
   "conn-kaitori": "コーン買取ガイド",
@@ -967,8 +990,8 @@
   "matsudo-gakki-kaitori": "楽器買取 松戸おすすめ3選",
   "kashiwa-gakki-kaitori": "楽器買取 柏おすすめ3選",
   "kamagaya-gakki-kaitori": "楽器買取 鎌ケ谷市おすすめ3選",
-  "omiya-gakki-kaitori": "楽器買取 大宮おすすめ3選",
   "kawaguchi-gakki-kaitori": "楽器買取 川口おすすめ3選",
+  "omiya-gakki-kaitori": "楽器買取 大宮おすすめ3選",
   "toda-saitama-gakki-kaitori": "楽器買取 戸田市おすすめ3選",
   "tokorozawa-gakki-kaitori": "所沢の楽器買取",
   "kasukabe-gakki-kaitori": "楽器買取 春日部市おすすめ3選",
@@ -1045,6 +1068,7 @@
   "kokubunji-gakki-kaitori": "楽器買取 国分寺市おすすめ3選",
   "kunitachi-gakki-kaitori": "楽器買取 国立市おすすめ3選",
   "sumida-gakki-kaitori": "楽器買取 墨田区おすすめ3選",
+  "tama-tokyo-gakki-kaitori": "楽器買取 多摩市おすすめ3選",
   "ota-tokyo-gakki-kaitori": "楽器買取 大田区おすすめ3選",
   "kodaira-gakki-kaitori": "楽器買取 小平市おすすめ3選",
   "fuchu-tokyo-gakki-kaitori": "楽器買取 府中市おすすめ3選",

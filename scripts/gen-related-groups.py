@@ -58,6 +58,7 @@ PREF_FIX = {
     "nagoya-gakki-kaitori": "愛知県", "ochanomizu-gakki-kaitori": "東京都",
     "omiya-gakki-kaitori": "埼玉県", "shibuya-gakki-kaitori": "東京都",
     "shinjuku-gakki-kaitori": "東京都", "tokyo-gakki-kaitori": "東京都",
+    "kawaguchi-gakki-kaitori": "埼玉県",  # 2026-11-06 に description から県名が消えたため（川口市＝埼玉県）
     "yokohama-gakki-kaitori": "神奈川県",
     "guitar-kaitori-nagoya": "愛知県", "guitar-kaitori-fukuoka": "福岡県",
     "guitar-kaitori-kobe": "兵庫県", "guitar-kaitori-kyoto": "京都府",

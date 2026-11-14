@@ -533,7 +533,7 @@ export default function SaxophoneKaitoriPage() {
 
         <RelatedArticles
           currentSlug="saxophone-kaitori"
-          relatedSlugs={["trumpet-kaitori", "clarinet-kaitori", "flute-kaitori", "yamaha-kaitori", "selmer-kaitori", "yanagisawa-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["kangakki-kaitori", "trumpet-kaitori", "clarinet-kaitori", "flute-kaitori", "yamaha-kaitori", "selmer-kaitori", "yanagisawa-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

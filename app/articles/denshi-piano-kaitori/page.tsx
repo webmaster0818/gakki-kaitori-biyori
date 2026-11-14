@@ -402,7 +402,7 @@ export default function DenshiPianoKaitoriPage() {
 
         <RelatedArticles
           currentSlug="denshi-piano-kaitori"
-          relatedSlugs={["roland-denshi-piano-kaitori", "kawai-piano-kaitori", "piano-kaitori", "keyboard-kaitori", "midi-keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "casio-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["electone-shobun", "roland-denshi-piano-kaitori", "kawai-piano-kaitori", "piano-kaitori", "keyboard-kaitori", "midi-keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "casio-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

@@ -514,7 +514,7 @@ export default function GuitarKaitoriPage() {
         {/* Related Articles */}
         <RelatedArticles
           currentSlug="guitar-kaitori"
-          relatedSlugs={["bass-kaitori", "guitar-amp-kaitori", "effector-kaitori", "yamaha-kaitori", "fender-kaitori", "gibson-kaitori", "martin-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["ikebe-gakki-kaitori", "yamano-gakki-kaitori", "bass-kaitori", "guitar-amp-kaitori", "effector-kaitori", "yamaha-kaitori", "fender-kaitori", "gibson-kaitori", "martin-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

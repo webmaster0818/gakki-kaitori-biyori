@@ -152,7 +152,7 @@ export default function ElectoneKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="electone-kaitori" relatedSlugs={["piano-kaitori", "denshi-piano-kaitori", "yamaha-kaitori", "souba-ichiran", "takaku-uru-kotsu"]} />
+        <RelatedArticles currentSlug="electone-kaitori" relatedSlugs={["piano-kaitori", "electone-shobun", "denshi-piano-kaitori", "yamaha-kaitori", "souba-ichiran", "takaku-uru-kotsu"]} />
       </article>
     </>
   );

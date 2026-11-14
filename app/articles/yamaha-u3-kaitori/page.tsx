@@ -232,7 +232,7 @@ export default function Page() {
           <DealerComparisonTable heading="YAMAHA U3 の買取で見積もりを取るべき主要7社" intro="中古アップライトピアノ（YAMAHA U3）は人気が高く、業者により査定額に差が出やすいモデルです。複数社の公式公開情報を比較しました。" />
 
 
-        <RelatedArticles currentSlug="yamaha-u3-kaitori" relatedSlugs={["piano-kaitori", "yamaha-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
+        <RelatedArticles currentSlug="yamaha-u3-kaitori" relatedSlugs={["yamaha-piano-seizou-bangou", "piano-kaitori", "yamaha-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
       </article>
     </>
   );

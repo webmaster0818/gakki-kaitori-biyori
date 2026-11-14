@@ -229,7 +229,7 @@ export default function Page() {
         </div>
         </div>
 
-        <RelatedArticles currentSlug="yamaha-u1-kaitori" relatedSlugs={["piano-kaitori", "yamaha-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
+        <RelatedArticles currentSlug="yamaha-u1-kaitori" relatedSlugs={["yamaha-piano-seizou-bangou", "piano-kaitori", "yamaha-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "gakki-kaitori-sagi"]} />
       </article>
     </>
   );
