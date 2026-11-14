@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fukuoka-gakki-kaitori/' },
   title: "福岡・博多の楽器買取はどこがいい？天神の持ち込み店と出張・宅配の選び方【2026年11月】",
   description:
-    "福岡で楽器を売るならどこがいい？天神・博多エリアの特徴、出張・店頭・宅配の違いと買取相場の目安、おすすめ3社の比較、高く売るコツまで解説します。無料査定のみの利用も可能です。ギター・ピアノ・管楽器に対応。",
+    "福岡で楽器を売るならどこがいい？博多駅直結の島村楽器・天神のイシバシ楽器など持ち込める5店の住所・受付時間・支払い方法（現金／振込）を早見表に（2026年11月14日 公式確認）。出張・宅配の選び方とおすすめ3社も比較します。",
   openGraph: { images: ["/og-image.png"], 
     title: "福岡の楽器買取はどこがいい？相場とおすすめ3社を比較【2026年11月】",
     description: "福岡で楽器を売るなら。買取相場の目安とおすすめ3社の比較、高く売るコツを解説します。",
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月最新】楽器買取 福岡おすすめ3選｜天神・博多エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-14",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,12 +109,31 @@ export default function FukuokaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             福岡で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、福岡エリア対応の楽器買取おすすめ3社を比較します。天神・博多エリア別の特徴から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、福岡ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月1日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月14日</p>
         </header>
+
+        <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
+          <h2 className="font-bold text-lg mb-2">福岡（博多・天神）で楽器を持ち込める店（早見表）</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">博多駅の近くで持ち込むなら、JR博多駅直結の島村楽器 アミュプラザ博多店があります（支払いは銀行振込のみ）。その場で現金を受け取りたいなら、天神駅直結のイシバシ楽器 福岡店（店頭買取は即日現金）です。ギター・ベースはクロサワ楽器 福岡ミーナ天神店も買取を受け付けています。博多区美野島の中古楽器堂 福岡博多店は出張買取専門で、店頭は完全予約制です（各社の公式ページで2026年11月14日に確認）。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">所在地・駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">受付時間</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取の方法・品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/hakata/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 アミュプラザ博多店</a></td><td className="px-3 py-2">博多区博多駅中央街1-1 JR博多シティ アミュプラザ7F／JR博多駅 中央改札口から徒歩2分</td><td className="px-3 py-2">10:00〜20:00</td><td className="px-3 py-2">店頭でその場で査定。持ち込みで査定額5%UP。電子ピアノ・ピアノ・防音室は出張買取、ドラムセット一式はイオンモール筑紫野店など指定店のみ</td><td className="px-3 py-2">銀行振込のみ・現金なし（10万円以上は1週間ほど）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.ishibashi.co.jp/kaitori/tentou/fukuoka.html" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 福岡店</a></td><td className="px-3 py-2">中央区天神2丁目11-1 福岡パルコ8F／地下鉄天神駅・西鉄福岡（天神）駅 直結</td><td className="px-3 py-2">10:00〜20:30（予約なしでも可）</td><td className="px-3 py-2">店頭買取・下取。宅配買取・出張買取も実施</td><td className="px-3 py-2">店頭は即日その場で現金（高額買取などは最短2営業日で振込または現金書留）</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.kurosawagakki.com/sh_fuk/index.html" target="_blank" rel="nofollow noopener" className="underline">クロサワ楽器 福岡ミーナ天神店</a></td><td className="px-3 py-2">中央区天神4丁目3-8 ミーナ天神8F／地下鉄天神駅 徒歩3分</td><td className="px-3 py-2">11:00〜20:00</td><td className="px-3 py-2">ギター・ベース専門店。買取・委託販売</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://gakkidou.co.jp/shop/fukuoka/hakata/" target="_blank" rel="nofollow noopener" className="underline">中古楽器堂 福岡博多店</a></td><td className="px-3 py-2">博多区美野島2丁目27-13／西鉄平尾駅 徒歩約7分（駐車場なし）</td><td className="px-3 py-2">出張買取 毎日9:00〜20:30／店頭は完全予約制</td><td className="px-3 py-2">出張買取専門。電話（0120-979-576）での査定あり</td><td className="px-3 py-2">店頭は振込</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.takakuureru.com/region/frc/" target="_blank" rel="nofollow noopener" className="underline">高く売れるドットコム 福岡リユースセンター</a></td><td className="px-3 py-2">南区清水2-2-18／西鉄高宮駅 徒歩14分・バス「パナソニック前」徒歩1分</td><td className="px-3 py-2">店頭受付 10:30〜18:30・年中無休（年末年始を除く）</td><td className="px-3 py-2">総合買取（楽器も買取品目）。店頭・出張・宅配</td><td className="px-3 py-2">店頭は現金または銀行振込</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月14日に確認。営業時間や受付条件は変わることがあるため、来店前に各店へご確認ください。ピアノなど運べない楽器は<a href="#method" className="underline">出張・店頭・宅配の選び方</a>に、各店の特徴は<a href="#local-shops" className="underline">福岡の主要楽器買取店ガイド</a>にまとめています。</p>
+        </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
           <p className="font-bold text-sm mb-3">この記事の目次</p>
           <ol className="space-y-1.5 text-sm text-accent list-decimal list-inside">
+            <li><a href="#mochikomi" className="hover:underline">福岡（博多・天神）で楽器を持ち込める店（早見表）</a></li>
             <li><a href="#comparison" className="hover:underline">福岡対応おすすめ3社比較</a></li>
             <li><a href="#area" className="hover:underline">天神・博多 エリア別の楽器買取事情</a></li>
             <li><a href="#local-shops" className="hover:underline">福岡の主要楽器買取店ガイド</a></li>
@@ -174,7 +193,7 @@ export default function FukuokaGakkiKaitoriPage() {
           <h3>天神エリア ── 大手楽器チェーンが集結する九州の楽器街</h3>
           <p>天神は福岡最大の繁華街であり、大手楽器チェーンが集結しています。</p>
           <p><strong>イシバシ楽器 福岡店（福岡パルコ8F）</strong>は天神2丁目11-1の福岡パルコ8Fにあり、天神駅に直結しているためアクセス抜群です。営業時間は10:00〜20:30で、80年以上の歴史を持つ老舗楽器店ならではの経験豊富な査定が受けられます。買取専用フリーダイヤル（0120-51-1484）も用意されています。</p>
-          <p><strong>クロサワ楽器 福岡ミーナ天神店</strong>は九州初上陸のクロサワ楽器として注目を集めています。公式では「ギター・ベース専門店」と案内しており、天神駅から徒歩3分のミーナ天神8F、営業時間は11:00〜20:00です。店内にはリペア工房を併設していますが、2026年10月27日時点で修理の新規受付を一時停止しています（公式のお知らせ）。買取・下取りにも対応しています。</p>
+          <p><strong>クロサワ楽器 福岡ミーナ天神店</strong>は九州初上陸のクロサワ楽器として注目を集めています。公式では「ギター・ベース専門店」と案内しており、天神駅から徒歩3分のミーナ天神8F、営業時間は11:00〜20:00です。店内にはリペア工房を併設しています。一時停止していた修理の新規受付は、11月16日（月）から再開すると公式が案内しています（2026年11月14日確認）。買取・下取りにも対応しています。</p>
 
           <h3>博多エリア ── JR博多駅直結でアクセス便利</h3>
           <p><strong>島村楽器 アミュプラザ博多店</strong>はJR博多駅直結のアミュプラザ博多内にあり、出張や旅行のついでに立ち寄れる便利な立地です。査定は無料です。買取代金は銀行振込のみで現金払いはなく、10万円以上の振込は1週間ほどかかります（公式の下取／買取ページ）。営業時間は10:00〜20:00です。</p>
@@ -194,7 +213,7 @@ export default function FukuokaGakkiKaitoriPage() {
           <p>福岡パルコ8Fに位置し、天神駅から直結でアクセス抜群です。80年以上の歴史を持ち、商品によっては価格保証がついています。ギター・ベース・管楽器・電子楽器まで幅広く買取に対応しており、ヴィンテージ品の査定にも定評があります。営業時間は10:00〜20:30と長めで、仕事帰りにも立ち寄りやすい店舗です。</p>
 
           <h3>クロサワ楽器 福岡ミーナ天神店 ── 九州初上陸の専門店</h3>
-          <p>九州初のクロサワ楽器店舗で、公式では「ギター・ベース専門店」と案内しています（管楽器の売り場はありません）。店内にはリペア工房を併設していますが、修理の新規受付は一時停止中です（2026年10月27日 公式のお知らせ）。買取だけでなく下取にも対応しており、新しい楽器への買い替えを検討している方にもおすすめです。</p>
+          <p>九州初のクロサワ楽器店舗で、公式では「ギター・ベース専門店」と案内しています（管楽器の売り場はありません）。店内にはリペア工房を併設しており、一時停止していた修理の新規受付は11月16日（月）から再開と公式が案内しています（2026年11月14日確認）。買取だけでなく下取にも対応しており、新しい楽器への買い替えを検討している方にもおすすめです。</p>
 
           <h3>島村楽器 アミュプラザ博多店 ── 博多駅直結の総合楽器店</h3>
           <p>JR博多駅ビル直結で、出張や旅行の際にも立ち寄りやすい好立地です。中古楽器の販売・買取・下取を扱っており、査定は無料。買取代金は銀行振込のみで、現金払いはありません。電子ピアノやドラムなど大型楽器の買取も受け付けています。</p>
@@ -245,7 +264,7 @@ export default function FukuokaGakkiKaitoriPage() {
           <p>純正ケース、保証書、付属品を揃え、楽器をきれいにしてから査定に出してください。<strong>見た目の第一印象は査定額に大きく影響</strong>します。ギターなら弦を張り替え、ボディを丁寧に拭くだけでも印象が変わります。</p>
 
           <h3>コツ3: リペア力のある店舗を選ぶ</h3>
-          <p>福岡には、自社でリペアを行う中古楽器堂や、リペア工房を併設するクロサワ楽器（2026年11月4日時点で修理の新規受付は一時停止中・公式のお知らせ）など、修復に強い店舗があります。<strong>自社修復ができる店舗は、傷や不具合がある楽器でも高い査定額を提示</strong>してくれる傾向があります。状態が良くない楽器ほど、店舗選びが重要です。</p>
+          <p>福岡には、自社でリペアを行う中古楽器堂や、リペア工房を併設するクロサワ楽器（修理の新規受付は11月16日（月）から再開と公式が案内・2026年11月14日確認）など、修復に強い店舗があります。<strong>自社修復ができる店舗は、傷や不具合がある楽器でも高い査定額を提示</strong>してくれる傾向があります。状態が良くない楽器ほど、店舗選びが重要です。</p>
 
           <h3>コツ4: 売却タイミングを見極める</h3>
           <ul>
