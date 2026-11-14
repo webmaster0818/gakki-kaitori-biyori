@@ -683,3 +683,14 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 載せていない: 楽器王（福岡楽器買取センター）＝公式ページが見つからない（10/27 と同じ）。楽器の買取屋さんは店舗数表記・ティファナ注記 A/B 判断待ちのため触らず
 - WebSearch（米国経由）: 「楽器 買取 博多」は島村アミュプラザ博多の公式ページと買取大吉のブログ（2023年）が上位。持ち込み店の住所・時間・支払いを1表にしたものは見当たらず
 - felmat fmcl 2910・fmimp 3340・t.felmat 6338（out html）前後一致、ソース t.felmat 1131 前後一致。precheck 全項目OK。deploy は rsync で *.txt 除外、`git add -u`＋新 buildId の _next/static を明示 add。本番 12:22 反映（#mochikomi 1・「11月16日（月）」あり・旧「一時停止中」0・fmcl 18＝deploy と一致）。Indexing 未送信
+
+### 2026-11-14 20:00 kwexp（競合ベンチマーク型の作成・初日）：新規5本（src 55c9359b / deploy 02c7af019）
+- queue（11/14 13:09 棚卸し）の上から5本。「高く売れるドットコム 評判」は hold（MediaXAI 回答待ち）で作らない。重複は own-pages・GSC 90日・app/ で確認（「管楽器 買取」は saxophone に1imp のみ・専用ハブなし→作成）
+- `/articles/electone-shobun/`（エレクトーン 処分・1040）: 電子オルガンの粗大ごみ手数料を4市の公式で比較（名古屋 2,500円〈9/30更新・ピアノは排出禁止物〉／相模原 2,400円〈重量制限あり〉／京都 2,000円〈R7.4.1告示〉／広島 1,250円）。山野楽器は鍵盤楽器不可・イケベは古い電子楽器/PSE なしは不可の場合あり。買取相場の金額は書いていない
+- `/articles/yamano-gakki-kaitori/`（山野楽器 買取・384）: 公式「中古買い取り」＝店頭のみ9店舗・ギター系のみ（管楽器・弦楽器・デジタル・鍵盤は不可と明記）・振込1週〜10日（1万円未満は現金）・古物 第301069602133号
+- `/articles/yamaha-piano-seizou-bangou/`（ヤマハピアノ 製造番号・208）: 位置＝ヤマハ取扱説明書 PDF（アップライト屋根内／グランド譜面台の下、製造時期は特約楽器店へ）。年表＝米国ヤマハ「Finding the Age of Your Yamaha Piano」の浜松製 1950〜2021 を転記。⚠️国内の掛川年表 PDF（jp.yamaha.com/files/…/kakegawa_serial_history2025.pdf）は curl 404・WebFetch 403 で取れず＝数字は載せていない（jp.yamaha.com の files/ は全般に取得不可）
+- `/articles/kangakki-kaitori/`（管楽器 買取・208・instrument）: yahoo-medians の管楽器8型番（週次で自動更新・insufficient は非表示）＋イケベリユース掲示の通常買取価格4型番を並べた表（「N型番のうちM型番で下回る」は動的計算）＋買う店/買わない店（ウリエル・イケベ＝可／山野＝不可）。以前の 404 だった kangakki-kaitori の URL を実ページ化
+- `/articles/ikebe-gakki-kaitori/`（イケベ楽器 買取・208）: 公式「買取方法」＝店頭/宅配/出張（方式で査定額差なし）・預かり代行販売 手数料20%・最長3か月・出張エリア・リユース4店・掲示価格6例（掲示日つき）
+- 口コミ・★・人物なし。ASP 計測リンクは本文に足していない（RelatedArticles 内の RecommendedServices のみ＝新規5本×fmcl4/fmimp4、既存ページの felmat はページ別に前後一致）
+- 導線: relatedSlugs に追加（electone-kaitori・denshi-piano → 処分／u1・u3・c3・piano → 製造番号／sax・trumpet・flute・clarinet・trombone → 管楽器／guitar・effector・trumpet → 山野・イケベ）。gen-related-groups.py 再実行（⚠️川口が 11/6 に description から県名が消えてピアノ群に入っていた→PREF_FIX に埼玉県を追加。多摩は noindex 解除分が東京都群に入った。electone-kaitori は新設の「鍵盤楽器」群へ）。kangakki 群は2本（警告のみ）
+- sitemap 454→459（変更 lastmod は新規5＋relatedSlugs を足した9本）。precheck 全項目OK（575ページ）・trust-audit check_page で新規5本の指摘0。Indexing は親がまとめて送る
