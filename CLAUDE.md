@@ -668,3 +668,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 🔍 未変更: sonor の「人気モデル別買取相場」Vintage（HLD590等）15万〜50万は HLD588 スネアの掲示 A¥52,000 と大きく食い違う（HLD590 の掲示なし＝未訂正）・SQ2/SQ1 30万〜80万等のセット相場は未照合。takaku の各コツ見出し「効果: 5〜20%アップ」等は出典なし。mixer FAQ「掲載3社はすべて無料」はティファナ注記 A/B 判断待ちと一緒。kobe 本文のハードオフ「灘店は2025/12新規」は未照合
 - WebSearch（米国経由）: uridoki「横浜でおすすめの楽器買取店」は★評価つきの列挙、hikakaku は楽器の買取屋さんの住所欄が別拠点。公式の住所・営業時間・支払い方法を出典つきで1表にしたものは見当たらず
 - felmat fmcl 2910・fmimp 3340・fmimg 88・t.felmat 6338 前後一致（ページ別も一致）。precheck 全項目OK。可視テキスト＋JSON-LD が変わったのは6本のみ。sitemap lastmod は mixer・sonor のみ変化（他4本は朝の注記で当日）。deploy は .txt を rsync 対象外にし、新 buildId の _next/static も含めて明示 add。本番 12:13 反映（新表記あり・旧表記0）。Indexing 未送信
+
+### 2026-11-14 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/14 に更新（src 41b645af・63c012a2 / deploy 290388404）
+- ティファナ 11/14: https://www.tifana.net/shipping/ の表示（コメント・script 除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503（GET のみ）。トップの表示に一時停止・再開の文言なし。再開時期の記載なし。→ 注記の日付を 11/13 → 11/14（332 ファイル＋生成器 CHECKED・1,098 か所。うち JSON-LD の \u 表記を含む）。置換は 11/8 と同じ4型＋\u 型＋chiba FAQ の「時点で公式サイトのお知らせにより一時停止中」型のみ（日付を正規化した diff が一致＝日付以外の差分 0）。11/13 の他の確認日（yokohama・kobe・kawasaki・mixer・sonor・takaku の掲示日・更新日）は不変。sitemap lastmod 231 URL 更新
+- deploy は rsync で `*.txt` を除外し `git add -A -- . ':(exclude)*.txt'`（新 buildId の manifest も含めて1コミット。手元の未追跡 RSC .txt 4,550 本は触らず）
+- 点検 C6 kabi-gakki-kaitori「楽器別・カビの影響範囲」★★★★★（極大）等＝根拠なし★表3ページ（hikkoshi・kabi・gakki-shobun-houhou）の既定案どおり 11/15 に A 文言へ置換予定（今日は未変更）
+- 点検 C3 /author/: 11/8〜11/13 と同じ否定文・運営説明。Person 0。誤検知（未変更）
+- felmat fmcl 2910・fmimp 3340（out）前後一致。precheck 全項目OK。Indexing 未送信（日付のみ）
