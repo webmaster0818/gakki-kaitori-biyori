@@ -102,7 +102,8 @@ export default function Page() {
         <ul><li><strong>運搬料金</strong>: 単品で3,000〜10,000円、まとめて処分するとパック料金で割安</li><li><strong>金銭面</strong>: マイナス（処分費用がかかる）</li><li><strong>所要時間</strong>: 即日対応可能な業者が多い</li></ul>
 
         <h2 id="hikaku-table">5つの方法を一覧比較</h2>
-        <div className="table-wrapper"><table><thead><tr><th>方法</th><th>費用</th><th>手元に残るお金</th><th>手間</th><th>所要時間</th></tr></thead><tbody><tr><td>買取業者</td><td>0円</td><td>プラス（数千〜数十万円）</td><td>★★</td><td>最短即日</td></tr><tr><td>粗大ゴミ</td><td>500〜2,000円</td><td>マイナス</td><td>★</td><td>1〜2週間</td></tr><tr><td>知人に譲る</td><td>送料折半</td><td>0円</td><td>★★★</td><td>数日〜1ヶ月</td></tr><tr><td>寄付</td><td>送料程度</td><td>0円</td><td>★★★</td><td>2〜4週間</td></tr><tr><td>不用品回収</td><td>3,000〜10,000円</td><td>マイナス</td><td>★</td><td>即日</td></tr></tbody></table></div>
+        <div className="table-wrapper"><table><thead><tr><th>方法</th><th>費用</th><th>手元に残るお金</th><th>自分で行う主な作業</th><th>所要時間</th></tr></thead><tbody><tr><td>買取業者</td><td>0円</td><td>プラス（数千〜数十万円）</td><td>申込み→査定（店頭・出張・宅配から選ぶ）→成約</td><td>最短即日</td></tr><tr><td>粗大ゴミ</td><td>500〜2,000円</td><td>マイナス</td><td>受付センター等へ申込み→処理券を購入して貼付→収集日に指定場所へ出す</td><td>1〜2週間</td></tr><tr><td>知人に譲る</td><td>送料折半</td><td>0円</td><td>譲る相手を探す→手渡し（または梱包・発送）</td><td>数日〜1ヶ月</td></tr><tr><td>寄付</td><td>送料程度</td><td>0円</td><td>受け入れ可否を確認→引き取り日の調整（または梱包・発送）</td><td>2〜4週間</td></tr><tr><td>不用品回収</td><td>3,000〜10,000円</td><td>マイナス</td><td>業者へ申込み→見積もりを確認（市区町村の一般廃棄物処理業の許可・委託の有無も確認）</td><td>即日</td></tr></tbody></table></div>
+        <p className="text-xs text-warm-gray">※「自分で行う主な作業」の出典：粗大ごみ＝中央区「粗大ごみの出し方」、不用品回収・廃品回収車＝環境省の廃家電の回収に関するQ&A（家庭の廃棄物の回収には市区町村の一般廃棄物処理業の許可または委託が必要）、フリマアプリ＝メルカリガイド「商品が売れたら」（いずれも2026年11月15日確認）。手順は自治体・サービスにより異なります。</p>
         <p><strong>要点</strong>: 楽器に中古市場価値がある場合は、買取が適しています。価値がない場合のみ、粗大ゴミか不用品回収を選んでください。</p>
 
         <h2 id="timing">引っ越し前 vs 引っ越し後、どちらで処分すべき？</h2>

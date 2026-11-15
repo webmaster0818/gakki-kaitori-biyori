@@ -83,7 +83,7 @@ export default function Page() {
         <ul><li><strong>軽度のカビ（表面のみ）</strong>: 査定額への影響 10〜20%減</li><li><strong>中度のカビ（一部に深く付着）</strong>: 30〜50%減</li><li><strong>重度のカビ（広範囲・木材への侵食）</strong>: 70%減〜買取不可</li></ul>
 
         <h2 id="influence">楽器別・カビの影響範囲</h2>
-        <div className="table-wrapper"><table><thead><tr><th>楽器</th><th>カビの影響</th><th>備考</th></tr></thead><tbody><tr><td>バイオリン・チェロ等弦楽器</td><td>★★★★★（極大）</td><td>木材への侵食が音色に深刻な影響</td></tr><tr><td>ピアノ</td><td>★★★★（大）</td><td>鍵盤・内部木材まで侵食すると修復困難</td></tr><tr><td>ギター・ベース</td><td>★★★（中）</td><td>ボディ表面なら磨いて対処可能</td></tr><tr><td>管楽器（金属製）</td><td>★★（小）</td><td>金属部分は磨けば回復するが、内部のフェルト・コルクは注意が必要</td></tr><tr><td>電子楽器</td><td>★（少）</td><td>外装の拭き取りでほぼ対応可能</td></tr></tbody></table></div>
+        <div className="table-wrapper"><table><thead><tr><th>楽器</th><th>カビへの注意点</th></tr></thead><tbody><tr><td>バイオリン・チェロ等弦楽器</td><td>木材への侵食が音色に深刻な影響</td></tr><tr><td>ピアノ</td><td>鍵盤・内部木材まで侵食すると修復困難</td></tr><tr><td>ギター・ベース</td><td>ボディ表面なら磨いて対処可能</td></tr><tr><td>管楽器（金属製）</td><td>金属部分は磨けば回復するが、内部のフェルト・コルクは注意が必要</td></tr><tr><td>電子楽器</td><td>外装の拭き取りでほぼ対応可能</td></tr></tbody></table></div>
 
         <h2 id="self-care">自分でできるカビ対処法5ステップ</h2>
         <ol><li><strong>マスク・手袋を着用</strong>: 胞子の吸引・接触を防ぐ</li><li><strong>乾いた布で軽く拭く</strong>: ゴシゴシ擦らない（ニス・塗装を傷める）</li><li><strong>アルコール除菌スプレー（薄め）を布に含ませる</strong>: 直接スプレーしない</li><li><strong>陰干しで完全乾燥</strong>: 直射日光は避ける</li><li><strong>シリカゲル等の除湿剤と一緒に保管</strong>: 再発防止</li></ol>
