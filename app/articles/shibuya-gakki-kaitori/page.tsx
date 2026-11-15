@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 渋谷おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-15",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,12 +109,12 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             渋谷で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、渋谷エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、渋谷・原宿・恵比寿など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月15日</p>
         </header>
 
         <section id="hayami" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
           <h2 className="font-bold text-lg mb-2">渋谷で持ち込みできる楽器買取店の早見表</h2>
-          <p className="text-sm text-warm-gray leading-relaxed mb-3">渋谷駅から歩ける主な実店舗は次の4店です（2026年11月5日に各店の公式で確認）。イシバシ楽器は予約なしでも受付と明記、中古楽器堂は完全予約制です。</p>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">渋谷駅から歩ける主な実店舗は次の4店です（2026年11月15日に各店の公式で確認）。イシバシ楽器は予約なしでも受付と明記、中古楽器堂は完全予約制です。</p>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店名・所在地</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店頭の受付</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">予約・支払い</th></tr></thead>
@@ -126,7 +126,8 @@ export default function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月5日に確認。買取品目は各社公式の案内から抜粋し、対応は来店前に各店へ確認してください。支払い方法の出典：イシバシは<a href="https://www.ishibashi.co.jp/ec/sp/kaitori-flow/" target="_blank" rel="nofollow noopener" className="underline">買取の流れ</a>。セカンドストリート渋谷神南店は楽器買取の可否を確認できなかったため表に入れていません。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月15日に確認。買取品目は各社公式の案内から抜粋し、対応は来店前に各店へ確認してください。支払い方法の出典：イシバシは<a href="https://www.ishibashi.co.jp/ec/sp/kaitori-flow/" target="_blank" rel="nofollow noopener" className="underline">買取の流れ</a>。セカンドストリート渋谷神南店は楽器買取の可否を確認できなかったため表に入れていません。</p>
+          <p className="text-sm text-warm-gray leading-relaxed mt-3"><strong>「楽器の買取屋さん」</strong>は渋谷区内に店舗がありません。公式の<a href="https://gakkikaitori.co.jp/area/tokyo/" target="_blank" rel="nofollow noopener" className="underline">東京都の出張買取ページ</a>では東京都全域（渋谷区を含む）が出張買取の対象で、申し込みは電話（24時間受付）・フォーム・LINE、出張買取はその場で現金手渡しと案内しています。店頭に持ち込む場合は<a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="nofollow noopener" className="underline">店舗一覧</a>の都内店（上野・池袋・板橋、10:00〜19:00）です（2026年11月15日確認）。</p>
         </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
