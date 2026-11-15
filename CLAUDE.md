@@ -694,3 +694,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 口コミ・★・人物なし。ASP 計測リンクは本文に足していない（RelatedArticles 内の RecommendedServices のみ＝新規5本×fmcl4/fmimp4、既存ページの felmat はページ別に前後一致）
 - 導線: relatedSlugs に追加（electone-kaitori・denshi-piano → 処分／u1・u3・c3・piano → 製造番号／sax・trumpet・flute・clarinet・trombone → 管楽器／guitar・effector・trumpet → 山野・イケベ）。gen-related-groups.py 再実行（⚠️川口が 11/6 に description から県名が消えてピアノ群に入っていた→PREF_FIX に埼玉県を追加。多摩は noindex 解除分が東京都群に入った。electone-kaitori は新設の「鍵盤楽器」群へ）。kangakki 群は2本（警告のみ）
 - sitemap 454→459（変更 lastmod は新規5＋relatedSlugs を足した9本）。precheck 全項目OK（575ページ）・trust-audit check_page で新規5本の指摘0。Indexing は親がまとめて送る
+
+### 2026-11-15 朝ルーチン：★表3ページ20行を事実の記述に置換（既定案A）／ティファナ宅配は停止継続で確認日を 11/15 に更新（src 7280d39a・ac760020・97b6c549 / deploy 28320b169）
+- ★表（既定案A・MediaXAI 回答なし）: hikkoshi-gakki-shobun（5行）・gakki-shobun-houhou（10行）の「手間」★ → 列名「自分で行う主な作業」＋手順の記述（粗大ごみ＝中央区「粗大ごみの出し方」の申込み→処理券→収集日に排出、不用品回収・廃品回収車＝環境省Q&A の一般廃棄物処理業の許可・委託／無許可業者の高額請求事例、フリマ＝メルカリガイド「商品が売れたら」の梱包・発送・評価。いずれも 11/15 確認）。表の直下に出典注記。kabi-gakki-kaitori（5行）は ★の評価列（極大〜少）を外し、既存の説明列を「カビへの注意点」に統合（新しい事実は足していない）。generate-phase1-situations.py・generate-phase3-faq.py も同値。★ 45個→0（ページ）・生成器 ★ 0。粗大ゴミの★がページ間で ★/★★ と食い違っていた＝基準なしの裏づけ
+- 🔍 未変更: kabi の備考「木材への侵食が音色に深刻な影響」等・hikkoshi/shobun の費用・所要時間（「3,000〜10,000円」「1〜2週間」等）は出典なし。サイト全体の ★ は 0
+- ティファナ 11/15: https://www.tifana.net/shipping/ の表示（コメント・script 除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503。トップの表示に一時停止・再開の文言なし。再開時期の記載なし。→ 注記の日付 11/14 → 11/15（333 ファイル＝生成器 CHECKED 含む・1,098 か所。日付を正規化した diff が一致＝日付以外の差分 0）。fukuoka の 11/14 確認日（ミーナ天神・早見表）と kwexp 新規の 11/14 確認日は不変
+- felmat fmcl 2930・fmimp 3360・fmimg 88・t.felmat 6378（out html＝deploy 前と一致）、ソース t.felmat 1140 前後一致。precheck 全項目OK。deploy は rsync で *.txt 除外・`git add -A -- . ':(exclude)*.txt'`
+- 点検 C3 /author/: 11/8〜11/14 と同じ否定文・運営説明。Person 0。誤検知（未変更）
