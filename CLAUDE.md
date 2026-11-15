@@ -701,3 +701,12 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - ティファナ 11/15: https://www.tifana.net/shipping/ の表示（コメント・script 除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503。トップの表示に一時停止・再開の文言なし。再開時期の記載なし。→ 注記の日付 11/14 → 11/15（333 ファイル＝生成器 CHECKED 含む・1,098 か所。日付を正規化した diff が一致＝日付以外の差分 0）。fukuoka の 11/14 確認日（ミーナ天神・早見表）と kwexp 新規の 11/14 確認日は不変
 - felmat fmcl 2930・fmimp 3360・fmimg 88・t.felmat 6378（out html＝deploy 前と一致）、ソース t.felmat 1140 前後一致。precheck 全項目OK。deploy は rsync で *.txt 除外・`git add -A -- . ':(exclude)*.txt'`
 - 点検 C3 /author/: 11/8〜11/14 と同じ否定文・運営説明。Person 0。誤検知（未変更）
+
+### 2026-11-15 12:00 成長ルーチン：martin に表記ゆれ＋D-28 中古相場（ヤフオク落札）／渋谷に楽器の買取屋さんの出張エリア・受付方法（src 5b6c5271 / deploy 6b21430c2）
+- git log --since=11/6: 3本とも 11/5（31cfae67）以降はティファナ注記の日付一括と 11/7 ウリエル訂正のみ。title は 11/8 以降変更なし
+- martin: 島村（brand=112 の search.html）・イシバシ（reuse.ishibashi.co.jp、ヘッドレス Chrome --dump-dom・`timeout` コマンドは無いので sleep→kill）で D-28/HD-28/000-28/D-45 Standard を 11/15 再照合＝11/5 と全て同値→確認日を 11/15（表・FAQ 表示＋JSON-LD）。title/description に「マーティン/マーチン」。#kakaku に h3 #chuko-souba「D-28 の中古相場（ヤフオクの落札価格）」= fetch-yahoo-medians-gakki.py の median_for_query をその場で呼んだ値（データファイルには書いていない）: 「Martin D-28 Standard」中央値 254,101（約25.4万・19件・205,700〜320,000）、「Martin D-28 アコースティックギター」221,107（約22.1万・87件・125,400〜318,000）。martin は TITLE_RULES 対象外＝タイトル除外なしと注記。FAQ に「D-28 の中古相場」1問
+- 🔍 島村の D-28 Standard A ¥264,000 は落札中央値（約25.4万）を上回る＝ModelSpotPriceCard の「買取は中古相場の50〜70%」注記と食い違う（カードは martin ハブには入れていない・注記は未変更）
+- shibuya: 早見表4店（イシバシ・クロサワ G-CLUB・イケシブリユース・中古楽器堂）を公式 11/15 で照合＝差なし→確認日 11/15。表の下に「楽器の買取屋さん」1段落（公式 /area/tokyo/ = 東京都全域が出張対象・電話24時間/フォーム/LINE・出張はその場で現金手渡し、/kaitori/shop/ の都内店 上野・池袋・板橋 10〜19時）。店舗数は書いていない（判断待ち）
+- shinjuku: 早見表5店を公式 11/15 で照合＝差なし（ハードオフ新宿マルイメンは引き続き「出張買取 実施なし」と「行っております」の併記）→未変更
+- WebSearch（米国経由だが日本語の結果あり）: 「martin 買取」上位は otakaraya（D-28 は「ASK」で金額なし）・hikakaku（金額なし）。「楽器買取 持ち込み 新宿」は島村公式・hikakaku・aucfan。「ギター 買取 渋谷」は aucfan・oikura・my-best・uridoki の比較記事で、楽器の買取屋さんの渋谷の店舗有無を答えたものなし
+- felmat fmcl 2930・fmimp 3360・fmimg 88・t.felmat 6378（out html）、ソース t.felmat 1140 前後一致。precheck 全項目OK（575ページ）。可視テキスト＋JSON-LD が変わったのは2本のみ。sitemap lastmod は martin のみ変化。deploy は rsync で *.txt 除外・`git add -u`＋新 buildId の _next/static を明示 add。Indexing 未送信
