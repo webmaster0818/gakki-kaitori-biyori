@@ -4502,5 +4502,45 @@
     "badge": "業者を知る",
     "description": "店頭・宅配・出張・委託販売の違い、手数料、掲示買取価格の例を公式情報で整理。",
     "category": "howto"
+  },
+  {
+    "slug": "yamaha-clavinova-kaitori",
+    "title": "クラビノーバの買取相場は型番の世代で決まる",
+    "shortTitle": "クラビノーバの買取",
+    "badge": "電子ピアノ",
+    "description": "ヤフオク落札126件を型番の世代別に集計。島村楽器の出張買取の年式条件も整理。",
+    "category": "instrument"
+  },
+  {
+    "slug": "wagakki-kaitori",
+    "title": "和楽器の買取はどこができる？",
+    "shortTitle": "和楽器の買取",
+    "badge": "和楽器",
+    "description": "三味線・琴・尺八を買い取る業者と買い取らない楽器店、公開されている買取事例7件。",
+    "category": "instrument"
+  },
+  {
+    "slug": "piano-no-kaitoriyasan",
+    "title": "ピアノの買取屋さんの運営会社・出張エリア・費用",
+    "shortTitle": "ピアノの買取屋さん",
+    "badge": "業者を知る",
+    "description": "運営会社・古物商許可・出張対応エリア33都府県・搬出費用の条件を公式情報で整理。",
+    "category": "howto"
+  },
+  {
+    "slug": "organ-kaitori",
+    "title": "オルガンの買取はどこができる？",
+    "shortTitle": "オルガンの買取",
+    "badge": "鍵盤楽器",
+    "description": "オルガンを買い取る業者・買い取らない楽器店、買取事例8件、粗大ごみ手数料。",
+    "category": "instrument"
+  },
+  {
+    "slug": "qsic-kaitori",
+    "title": "Qsic（キュージック）の買取方法と条件",
+    "shortTitle": "Qsicの買取",
+    "badge": "業者を知る",
+    "description": "宅配の送料無料の範囲、出張エリア、4店舗、下取りの条件、運営会社を公式情報で整理。",
+    "category": "howto"
   }
 ]

@@ -92,6 +92,7 @@
     "gakki-shucchou-kaitori",
     "gakki-sokujitsu-kaitori",
     "gakki-takuhai-kaitori",
+    "qsic-kaitori",
     "vintage-gakki-kaitori"
    ]
   },
@@ -308,14 +309,6 @@
     "ikebe-gakki-kaitori"
    ]
   },
-  "inst:koto-kaitori": {
-   "label": "「琴(箏)買取相場ガイド」と関連する買取ガイド",
-   "members": [
-    "koto-kaitori",
-    "shakuhachi-kaitori",
-    "wadaiko-kaitori"
-   ]
-  },
   "inst:microphone-kaitori": {
    "label": "「マイク買取相場ガイド」と関連する買取ガイド",
    "members": [
@@ -329,6 +322,7 @@
    "members": [
     "piano-kaitori",
     "accordion-kaitori",
+    "organ-kaitori",
     "bosendorfer-kaitori",
     "kawai-kaitori",
     "kawai-piano-kaitori",
@@ -356,6 +350,7 @@
     "mibunsho-hitsuyou",
     "miseinen-baikyaku",
     "oya-gakki-seiri",
+    "piano-no-kaitoriyasan",
     "renshu-shinai-gakki",
     "satei-yomikata",
     "senmonten-vs-recycle",
@@ -416,6 +411,15 @@
     "harp-kaitori",
     "viola-kaitori",
     "suzuki-violin-kaitori"
+   ]
+  },
+  "inst:wagakki-kaitori": {
+   "label": "「和楽器の買取」と関連する買取ガイド",
+   "members": [
+    "wagakki-kaitori",
+    "koto-kaitori",
+    "shakuhachi-kaitori",
+    "wadaiko-kaitori"
    ]
   },
   "pref:京都府": {
@@ -747,6 +751,7 @@
   "gakki-shucchou-kaitori": "出張買取ガイド",
   "gakki-sokujitsu-kaitori": "即日買取ガイド",
   "gakki-takuhai-kaitori": "宅配買取ガイド",
+  "qsic-kaitori": "Qsicの買取",
   "vintage-gakki-kaitori": "ヴィンテージ楽器買取ガイド",
   "audio-interface-kaitori": "オーディオインターフェース買取ガイド",
   "midi-keyboard-kaitori": "MIDIキーボード買取ガイド",
@@ -876,14 +881,12 @@
   "uriel-gakki-kaitori-kuchikomi": "ウリエル 口コミ・評判",
   "kangakki-kaitori": "管楽器買取",
   "ikebe-gakki-kaitori": "イケベ楽器の買取",
-  "koto-kaitori": "琴(箏)買取相場ガイド",
-  "shakuhachi-kaitori": "尺八買取相場ガイド",
-  "wadaiko-kaitori": "和太鼓買取相場ガイド",
   "microphone-kaitori": "マイク買取相場ガイド",
   "sennheiser-kaitori": "ゼンハイザー買取相場",
   "shure-kaitori": "Shure(シュア)買取相場",
   "piano-kaitori": "ピアノ買取おすすめ3社比較",
   "accordion-kaitori": "アコーディオン買取ガイド",
+  "organ-kaitori": "オルガンの買取",
   "bosendorfer-kaitori": "ベーゼンドルファー買取ガイド",
   "kawai-kaitori": "KAWAI(カワイ)買取相場ガイド",
   "kawai-piano-kaitori": "カワイピアノ買取",
@@ -911,6 +914,7 @@
   "mibunsho-hitsuyou": "買取時の身分証ガイド",
   "miseinen-baikyaku": "未成年の楽器売却ガイド",
   "oya-gakki-seiri": "実家の楽器整理ガイド",
+  "piano-no-kaitoriyasan": "ピアノの買取屋さん",
   "renshu-shinai-gakki": "練習しない楽器の処分",
   "satei-yomikata": "査定書の読み方ガイド",
   "senmonten-vs-recycle": "専門店 vs リサイクル比較",
@@ -951,6 +955,10 @@
   "harp-kaitori": "ハープ買取相場ガイド",
   "viola-kaitori": "ビオラ買取ガイド",
   "suzuki-violin-kaitori": "スズキバイオリン買取ガイド",
+  "wagakki-kaitori": "和楽器の買取",
+  "koto-kaitori": "琴(箏)買取相場ガイド",
+  "shakuhachi-kaitori": "尺八買取相場ガイド",
+  "wadaiko-kaitori": "和太鼓買取相場ガイド",
   "guitar-kaitori-kyoto": "ギター買取 京都",
   "kyoto-gakki-kaitori": "楽器買取 京都おすすめ3選",
   "kameoka-gakki-kaitori": "楽器買取 亀岡市おすすめ3選",

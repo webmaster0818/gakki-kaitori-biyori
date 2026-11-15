@@ -263,7 +263,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="gakki-no-kaitoriyasan"
-          relatedSlugs={["gakki-kaitori-osusume", "gakki-kaitori-sagi", "yokohama-gakki-kaitori", "gakki-kaitori-souba"]}
+          relatedSlugs={["piano-no-kaitoriyasan", "gakki-kaitori-osusume", "gakki-kaitori-sagi", "yokohama-gakki-kaitori", "gakki-kaitori-souba"]}
         />
       </article>
     </>

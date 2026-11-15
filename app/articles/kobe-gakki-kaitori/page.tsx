@@ -469,7 +469,7 @@ export default function KobeGakkiKaitoriPage() {
 
         <RelatedArticles
           currentSlug="kobe-gakki-kaitori"
-          relatedSlugs={["guitar-kaitori-kobe", "kobe-sannomiya-gakki-kaitori", "osaka-gakki-kaitori", "umeda-gakki-kaitori", "kyoto-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["qsic-kaitori", "guitar-kaitori-kobe", "kobe-sannomiya-gakki-kaitori", "osaka-gakki-kaitori", "umeda-gakki-kaitori", "kyoto-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

@@ -473,7 +473,7 @@ export default function YamahaKaitoriPage() {
 
         <RelatedArticles
           currentSlug="yamaha-kaitori"
-          relatedSlugs={["piano-kaitori", "guitar-kaitori", "saxophone-kaitori", "trumpet-kaitori", "denshi-piano-kaitori", "kawai-kaitori", "steinway-kaitori", "casio-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["piano-kaitori", "yamaha-clavinova-kaitori", "guitar-kaitori", "saxophone-kaitori", "trumpet-kaitori", "denshi-piano-kaitori", "kawai-kaitori", "steinway-kaitori", "casio-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
         />
       </article>
     </>

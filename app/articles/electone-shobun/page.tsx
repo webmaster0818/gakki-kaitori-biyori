@@ -300,7 +300,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="electone-shobun"
-          relatedSlugs={["electone-kaitori", "denshi-piano-kaitori", "piano-kaitori", "yamaha-kaitori", "gakki-kaitori-sagi"]}
+          relatedSlugs={["electone-kaitori", "organ-kaitori", "denshi-piano-kaitori", "piano-kaitori", "yamaha-kaitori", "gakki-kaitori-sagi"]}
         />
       </article>
     </>
