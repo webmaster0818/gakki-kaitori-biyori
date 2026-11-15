@@ -79,7 +79,7 @@ function Breadcrumb() {
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://gakkikaitori-biyori.com/articles/piano-no-kaitoriyasan/" },
-  title: "ピアノの買取屋さんの評判を調べる前に｜運営会社・出張エリア・費用の条件を公式情報で確認【2026年11月】",
+  title: "ピアノの買取屋さんとは？運営会社・出張エリア・費用の条件を公式情報で確認【2026年11月】",
   description:
     "ピアノの買取屋さんの運営会社（UNISOUND株式会社）、古物商許可番号、出張対応エリア33都府県、搬出費用と特殊作業料金、支払い方法を公式サイトの記載で整理しました。口コミの転載は行っていません。",
   openGraph: {
@@ -95,7 +95,7 @@ export default function Page() {
     "@graph": [
       {
         "@type": "Article",
-        headline: "ピアノの買取屋さんの評判を調べる前に｜運営会社・出張エリア・費用の条件を公式情報で確認",
+        headline: "ピアノの買取屋さんとは？運営会社・出張エリア・費用の条件を公式情報で確認",
         datePublished: "2026-11-15",
         dateModified: "2026-11-15",
         author: { "@type": "Organization", name: "楽器買取びより編集部" },
@@ -127,7 +127,7 @@ export default function Page() {
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <h1 className="text-2xl md:text-3xl font-bold leading-relaxed mb-4">
-          ピアノの買取屋さんの評判を調べる前に｜運営会社・出張エリア・費用の条件を公式情報で確認
+          ピアノの買取屋さんとは？運営会社・出張エリア・費用の条件を公式情報で確認
         </h1>
         <p className="text-xs text-warm-gray mb-8">
           {ASOF}に
