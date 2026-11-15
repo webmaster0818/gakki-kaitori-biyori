@@ -141,13 +141,20 @@
       "sample_n": 86,
       "raw_n": 90,
       "dedup": true
+    },
+    {
+      "date": "2026-11-16",
+      "median_jpy": 155100,
+      "sample_n": 83,
+      "raw_n": 87,
+      "dedup": true
     }
   ],
   "latest": {
-    "date": "2026-11-09",
-    "median_jpy": 155138,
-    "sample_n": 86,
-    "raw_n": 90,
+    "date": "2026-11-16",
+    "median_jpy": 155100,
+    "sample_n": 83,
+    "raw_n": 87,
     "dedup": true,
     "insufficient": false
   },
