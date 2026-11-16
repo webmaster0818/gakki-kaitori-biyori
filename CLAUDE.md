@@ -720,3 +720,9 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - `/articles/qsic-kaitori/`（88）: Qsic の買取サイトは qsic.jp ではなく **gakkikaitori.com（株式会社LUXTIS・古物 兵庫県公安委員会 第631160700008号）＝楽器の買取屋さん（gakkikaitori.co.jp）とは別会社**。宅配（着払い・送料無料枠は最終査定額で決まる表）・店頭4店・出張（2026年11月に関東4都県追加・関東はその場払い/関西は振込）・下取り最大10%（qsic.jp ?mode=f6）
 - 導線: relatedSlugs に追加（denshi-piano・yamaha → クラビノーバ／三味線・琴・尺八・和太鼓 → 和楽器／piano・grand-piano・gakki-no-kaitoriyasan → ピアノの買取屋さん／electone・electone-shobun → オルガン／kobe・ikebe → Qsic）。⚠️ 先頭に入れると gen-related-groups.py の親（最初の楽器カテゴリ記事）が変わる＝yamaha-kaitori がクラビノーバ群へ、electone-shobun がオルガン群へ移り keyboard-kaitori がどの群からも外れた → yamaha・denshi-piano・electone・electone-shobun は2番目に入れ、organ の relatedSlugs 先頭を piano-kaitori にして既存群を維持（変化は koto 群→wagakki 群・howto/piano 群への追加のみ）
 - sitemap 459→464。precheck 全項目OK（580ページ）・trust-audit check_page 新規5本の指摘0。t.felmat は既存ページのページ別件数が前後一致（新規5本は RecommendedServices の分のみ）。Indexing は親がまとめて送る
+
+### 2026-11-16 朝ルーチン：週次ヤフオク（全文ログ＋再試行の初回）は1回目のビルドで成功／ティファナ宅配は停止継続で確認日を 11/16 に更新（src 8fcb7bf4・eda94b1f / deploy 345270d66）
+- 週次 04:00: ~/Library/Logs/gakki-weekly/20261116-040004.log（704行）＋ -build-1.log のみ（build-2 なし＝再試行は発動せず）。48/62 モデル信頼値・souba-ranking/index/widget 11-16・sitemap 464・scaled-content-lint 違反 0/571・deploy 7e0f4c351・src 6e3caae1・04:05:08 完了（304s）。ログに error/failed なし。本番 /souba-ranking/ に 2026-11-16 ×4・widget.js「2026-11-16更新」
+- ティファナ 11/16: https://www.tifana.net/shipping/ の表示（コメント・script 除外）に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503。トップの表示に一時停止・再開の文言なし。再開時期の記載なし。→ 注記の日付 11/15 → 11/16（333 ファイル＝生成器 CHECKED・components/RecommendedServices.tsx 含む・1,098 か所。日付を正規化した −/＋ 行が一致＝日付以外の差分 0）。piano-no-kaitoriyasan の「2026年11月15日時点の公式サイトには…」（kwexp の確認日）は不変
+- felmat fmcl 2950・fmimp 3380・fmimg 88・t.felmat 6418（out html＝deploy 前と一致）、ソース t.felmat 1140 前後一致。precheck 全項目OK（580ページ）。本番 osusume/fukuoka/chiba/akita/トップで 11/16 注記あり・11/15 注記 0
+- 点検 C3 /author/: 11/8〜11/15 と同じ否定文・運営説明。Person 0。誤検知（未変更）
