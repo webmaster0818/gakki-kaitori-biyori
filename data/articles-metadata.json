@@ -4542,5 +4542,45 @@
     "badge": "業者を知る",
     "description": "宅配の送料無料の範囲、出張エリア、4店舗、下取りの条件、運営会社を公式情報で整理。",
     "category": "howto"
+  },
+  {
+    "slug": "hardoff-gakki-kaitori",
+    "title": "ハードオフの楽器買取とは？",
+    "shortTitle": "ハードオフの楽器買取",
+    "badge": "業者を知る",
+    "description": "店頭・出張・宅配・オファー買取の違い、出張を受ける店舗の数、宅配で送れない楽器を公式情報で整理。",
+    "category": "howto"
+  },
+  {
+    "slug": "taishogoto-kaitori",
+    "title": "大正琴の買取相場は機種で10倍以上違う",
+    "shortTitle": "大正琴の買取",
+    "badge": "和楽器",
+    "description": "ヤフオク落札140件を機種別に集計。大正琴を買い取る業者・買い取らない楽器店も整理。",
+    "category": "instrument"
+  },
+  {
+    "slug": "saitama-ken-gakki-kaitori",
+    "title": "埼玉県の楽器買取はどこがいい？",
+    "shortTitle": "埼玉県の楽器買取",
+    "badge": "埼玉県",
+    "description": "埼玉県のハードオフ48店・島村楽器12店の市町村別一覧と、出張に対応する業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "gunma-gakki-kaitori",
+    "title": "群馬県の楽器買取はどこがいい？",
+    "shortTitle": "群馬県の楽器買取",
+    "badge": "群馬県",
+    "description": "群馬県のハードオフ9店・島村楽器3店と、県全域に出張する業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "shimamura-gakki-kaitori",
+    "title": "島村楽器の買取とは？",
+    "shortTitle": "島村楽器の買取",
+    "badge": "業者を知る",
+    "description": "店舗・出張・宅配・委託の条件、振込のみの支払い、買い取らない楽器を公式情報で整理。",
+    "category": "howto"
   }
 ]

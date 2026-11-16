@@ -92,7 +92,9 @@
     "gakki-shucchou-kaitori",
     "gakki-sokujitsu-kaitori",
     "gakki-takuhai-kaitori",
+    "hardoff-gakki-kaitori",
     "qsic-kaitori",
+    "shimamura-gakki-kaitori",
     "vintage-gakki-kaitori"
    ]
   },
@@ -419,6 +421,7 @@
     "wagakki-kaitori",
     "koto-kaitori",
     "shakuhachi-kaitori",
+    "taishogoto-kaitori",
     "wadaiko-kaitori"
    ]
   },
@@ -486,6 +489,7 @@
    "members": [
     "kawaguchi-gakki-kaitori",
     "omiya-gakki-kaitori",
+    "saitama-ken-gakki-kaitori",
     "toda-saitama-gakki-kaitori",
     "tokorozawa-gakki-kaitori",
     "kasukabe-gakki-kaitori",
@@ -667,6 +671,7 @@
   "pref:群馬県": {
    "label": "群馬県のほかの地域の楽器買取",
    "members": [
+    "gunma-gakki-kaitori",
     "isesaki-gakki-kaitori",
     "ota-gunma-gakki-kaitori",
     "kiryu-gakki-kaitori",
@@ -751,7 +756,9 @@
   "gakki-shucchou-kaitori": "出張買取ガイド",
   "gakki-sokujitsu-kaitori": "即日買取ガイド",
   "gakki-takuhai-kaitori": "宅配買取ガイド",
+  "hardoff-gakki-kaitori": "ハードオフの楽器買取",
   "qsic-kaitori": "Qsicの買取",
+  "shimamura-gakki-kaitori": "島村楽器の買取",
   "vintage-gakki-kaitori": "ヴィンテージ楽器買取ガイド",
   "audio-interface-kaitori": "オーディオインターフェース買取ガイド",
   "midi-keyboard-kaitori": "MIDIキーボード買取ガイド",
@@ -958,6 +965,7 @@
   "wagakki-kaitori": "和楽器の買取",
   "koto-kaitori": "琴(箏)買取相場ガイド",
   "shakuhachi-kaitori": "尺八買取相場ガイド",
+  "taishogoto-kaitori": "大正琴の買取",
   "wadaiko-kaitori": "和太鼓買取相場ガイド",
   "guitar-kaitori-kyoto": "ギター買取 京都",
   "kyoto-gakki-kaitori": "楽器買取 京都おすすめ3選",
@@ -1000,6 +1008,7 @@
   "kamagaya-gakki-kaitori": "楽器買取 鎌ケ谷市おすすめ3選",
   "kawaguchi-gakki-kaitori": "楽器買取 川口おすすめ3選",
   "omiya-gakki-kaitori": "楽器買取 大宮おすすめ3選",
+  "saitama-ken-gakki-kaitori": "埼玉県の楽器買取",
   "toda-saitama-gakki-kaitori": "楽器買取 戸田市おすすめ3選",
   "tokorozawa-gakki-kaitori": "所沢の楽器買取",
   "kasukabe-gakki-kaitori": "楽器買取 春日部市おすすめ3選",
@@ -1131,6 +1140,7 @@
   "onojo-gakki-kaitori": "楽器買取 大野城市おすすめ3選",
   "munakata-gakki-kaitori": "楽器買取 宗像市おすすめ3選",
   "fukuoka-hakata-gakki-kaitori": "楽器買取 福岡市博多区おすすめ3選",
+  "gunma-gakki-kaitori": "群馬県の楽器買取",
   "isesaki-gakki-kaitori": "楽器買取 伊勢崎市おすすめ3選",
   "ota-gunma-gakki-kaitori": "楽器買取 太田市おすすめ3選",
   "kiryu-gakki-kaitori": "楽器買取 桐生市おすすめ3選",
