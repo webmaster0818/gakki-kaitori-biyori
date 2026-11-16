@@ -4,8 +4,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawai-rx2-kaitori/' },
-  title: "カワイ RX-2（グランドピアノ）の買取価格｜掲示50万〜65万円と査定の条件【2026年11月】",
-  description: "カワイのグランドピアノ RX-2（奥行き178cm）の買取価格は、ピアノワンの掲示で50万〜65万円、未来ピアノガーデンの実績で2006年製67万円（2026年11月6日確認）。古い個体の注意点と搬出、査定先の選び方も解説します。",
+  title: "KAWAI（カワイ）RX-2の買取価格｜掲示50万〜65万円・年式別の買取実績【2026年11月】",
+  description: "KAWAI（カワイ）のグランドピアノ RX-2の買取価格は、ピアノワンの掲示で50万〜65万円。公開実績は1996年製53万円・1999年製55万円・2006年製67万円（2026年11月16日確認）。製造番号の場所と査定の注意点も解説。",
 };
 
 function Breadcrumb() {
@@ -22,17 +22,17 @@ function Breadcrumb() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "カワイRX-2の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "ピアノ買取店の掲示では50万〜65万円（ピアノワンの参考表）、買取実績では2006年製で67万円（未来ピアノガーデン）です（2026年11月6日確認）。いずれも店の掲示で、年式・状態・搬出条件で変わります。カワイ公式は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。" } },
+      { "@type": "Question", name: "カワイRX-2の買取相場は？", acceptedAnswer: { "@type": "Answer", text: "ピアノ買取店の掲示では50万〜65万円（ピアノワンの参考表）、製造年がわかる買取実績では1996年製（RX2MR）53万円・1999年製（RX2AF）55万円（ピアノワン）、2006年製67万円（未来ピアノガーデン）です（2026年11月16日確認）。いずれも店の掲示で、年式・状態・搬出条件で変わります。カワイ公式は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。" } },
       { "@type": "Question", name: "ヤマハC3とどちらが高く売れますか？", acceptedAnswer: { "@type": "Answer", text: "ブランドによる需要の差はありますが、最終的な査定額は年式・状態に大きく左右されます。両方とも安定した需要があります。" } },
       { "@type": "Question", name: "搬出が不安ですが買取できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。掲載業者は専門運送で搬出します。設置階・経路・クレーン要否を伝えるとスムーズです。" } },
-      { "@type": "Question", name: "古いRXでも値段がつきますか？", acceptedAnswer: { "@type": "Answer", text: "はい。状態次第で買取され、海外需要もあります。" } },
+      { "@type": "Question", name: "古いRXでも値段がつきますか？", acceptedAnswer: { "@type": "Answer", text: "状態次第です。公開されている買取実績には1996年製（RX2MR）で53万円の例があります（ピアノワン・2026年11月16日確認）。一方でカワイ公式は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。型番と製造番号を控えて査定を依頼してください。" } },
       { "@type": "Question", name: "費用はかかりますか？", acceptedAnswer: { "@type": "Answer", text: "掲載3社の査定料・キャンセル料は無料です。グランドピアノの搬出費用の扱いは申込時に確認してください。" } }
   ] };
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "カワイ RX-2（グランドピアノ）の買取価格｜掲示50万〜65万円と査定の条件【2026年11月】", datePublished: "2026-06-05", dateModified: "2026-11-06", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "KAWAI（カワイ）RX-2の買取価格｜掲示50万〜65万円・年式別の買取実績【2026年11月】", datePublished: "2026-06-05", dateModified: "2026-11-16", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   const crumb = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gakkikaitori-biyori.com/" },
     { "@type": "ListItem", position: 2, name: "記事一覧", item: "https://gakkikaitori-biyori.com/articles/" },
-    { "@type": "ListItem", position: 3, name: "カワイ RX-2（グランドピアノ）の買取価格｜掲示50万〜65万円と査定の条件【2026年11月】", item: "https://gakkikaitori-biyori.com/articles/kawai-rx2-kaitori/" },
+    { "@type": "ListItem", position: 3, name: "KAWAI（カワイ）RX-2の買取価格｜掲示50万〜65万円・年式別の買取実績【2026年11月】", item: "https://gakkikaitori-biyori.com/articles/kawai-rx2-kaitori/" },
   ] };
   return (<>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
@@ -68,26 +68,29 @@ export default function KawaiRx2KaitoriPage() {
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">カワイ RX-2買取</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">カワイ RX-2（グランドピアノ）の買取価格｜掲示50万〜65万円と査定の条件【2026年11月】</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">KAWAI（カワイ）RX-2の買取価格｜掲示50万〜65万円・年式別の買取実績【2026年11月】</h1>
           <p className="text-warm-gray text-sm leading-relaxed">KAWAI RX-2（カワイRX-2）を売りたい方へ。奥行き178cm前後のグランドピアノで、ヤマハC3と並ぶ家庭・教室向けの定番です。本記事では製造番号による年式判定、年代別の価値、外装・内部の状態や搬出環境が査定に与える影響を解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月6日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月16日</p>
         </header>
 
         <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
-          <h2 className="font-bold text-lg mb-2">カワイ RX-2（グランドピアノ）の掲示買取価格</h2>
-          <p className="text-sm text-warm-gray leading-relaxed mb-3">RX-2はカワイのグランドピアノの型番で、奥行きは178cmです（<a href="http://www2.kawai.co.jp/press/20071122.asp" target="_blank" rel="nofollow noopener" className="underline">カワイの発表資料</a>）。ピアノ買取店が公開している価格は次のとおりです（2026年11月6日確認）。</p>
+          <h2 className="font-bold text-lg mb-2">KAWAI（カワイ）RX-2 の掲示買取価格と年式別の買取実績</h2>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">RX-2はカワイのグランドピアノの型番で、奥行きは178cmです（<a href="http://www2.kawai.co.jp/press/20071122.asp" target="_blank" rel="nofollow noopener" className="underline">カワイの発表資料</a>）。ピアノ買取店が公開している価格と、製造年がわかる買取実績は次のとおりです（2026年11月16日確認）。</p>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">モデル</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">掲示額</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">条件</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://piano1.jp/brand/kawai/" target="_blank" rel="nofollow noopener" className="underline">ピアノワン</a>（買取価格参考表）</td><td className="px-3 py-2">RX-2</td><td className="px-3 py-2"><strong>¥500,000〜¥650,000</strong></td><td className="px-3 py-2">参考表は2026年7月7日更新。状態・搬出状況で上下</td></tr>
                 <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://miraipiano.co.jp/pianokaitori_brand/kawai/" target="_blank" rel="nofollow noopener" className="underline">未来ピアノガーデン</a>（買取実績）</td><td className="px-3 py-2">RX2・2006年製</td><td className="px-3 py-2"><strong>¥670,000</strong></td><td className="px-3 py-2">香川県東かがわ市の実績1件。同じ額で買い取るという意味ではありません</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://piano1.jp/saitama/buying1996rx2mr/" target="_blank" rel="nofollow noopener" className="underline">ピアノワン</a>（買取実績）</td><td className="px-3 py-2">RX2MR・1996年製</td><td className="px-3 py-2"><strong>¥530,000</strong></td><td className="px-3 py-2">埼玉県川口市・買取日 2025年9月20日の実績1件</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://piano1.jp/item/grandpiano/" target="_blank" rel="nofollow noopener" className="underline">ピアノワン</a>（グランドピアノ買取実績の一覧）</td><td className="px-3 py-2">RX2AF・1999年製</td><td className="px-3 py-2"><strong>¥550,000</strong></td><td className="px-3 py-2">実績1件。同じ額で買い取るという意味ではありません</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※各店の公開ページで2026年11月6日に確認。掲示額は買取を保証するものではありません。古い個体や不具合のある個体はこの額を下回ることがあり、<a href="https://www.kawai.jp/support_faq/%E3%83%94%E3%82%A2%E3%83%8E%E3%82%92%E8%B2%B7%E3%81%84%E5%8F%96%E3%81%A3%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84/" target="_blank" rel="nofollow noopener" className="underline">カワイ公式</a>は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。カワイの直営店では製造後の年数に応じた査定基準価格で買取を提案しています。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公開ページで2026年11月16日に確認。公開実績には RX2MR・RX2AF のように型番の末尾に英字が付くものもあります。査定ではフレームに表記された型番どおりに伝えてください。掲示額は買取を保証するものではありません。古い個体や不具合のある個体はこの額を下回ることがあり、<a href="https://www.kawai.jp/support_faq/%E3%83%94%E3%82%A2%E3%83%8E%E3%82%92%E8%B2%B7%E3%81%84%E5%8F%96%E3%81%A3%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84/" target="_blank" rel="nofollow noopener" className="underline">カワイ公式</a>は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。カワイの直営店では製造後の年数に応じた査定基準価格で買取を提案しています。</p>
           <p className="text-xs text-warm-gray leading-relaxed mt-2"><a href="https://www.shimamura.co.jp/used/gakki/acoustic-piano/" target="_blank" rel="nofollow noopener" className="underline">島村楽器</a>はグランドピアノの出張買取を全国で実施していますが（一部地域と離島は別料金）、買取価格検索にピアノの項目はなく、掲示額は確認できませんでした。</p>
-          <p className="text-xs text-warm-gray leading-relaxed mt-2">同じ「RX-2」でも、エレキギターの SCHECTER RX-2-24-CTM は別の楽器です（<a href="https://www.shimamura.co.jp/used/search.html?cat=4&inst=&brand=&model=RX-2&num=20&pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器の掲示</a>はA ¥229,000／B ¥177,000／C ¥106,000、2026年11月6日確認）。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2">同じ「RX-2」でも、エレキギターの SCHECTER RX-2-24-CTM は別の楽器です（<a href="https://www.shimamura.co.jp/used/search.html?cat=4&inst=&brand=&model=RX-2&num=20&pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器の掲示</a>はA ¥229,000／B ¥177,000／C ¥106,000、2026年11月16日確認）。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2"><strong>製造番号（製番）の場所：</strong><a href="https://www.kawai.jp/support_faq/%E8%A3%BD%E7%95%AA%E3%81%8B%E3%82%89%E5%B9%B4%E5%BC%8F%E3%81%8C%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84/" target="_blank" rel="nofollow noopener" className="underline">カワイ公式のよくあるご質問</a>によると、グランドピアノは大屋根を開けて譜面台を取り外すと見える金色のフレームに、型番と製番が表記されています。製番から年式を知りたい場合は、カワイ直営店か問い合わせ窓口に相談するよう案内しています（2026年11月16日確認）。</p>
         </section>
 
         <div className="article-body">
@@ -135,7 +138,7 @@ export default function KawaiRx2KaitoriPage() {
                 <span className="pr-4">カワイRX-2の買取相場は？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ピアノ買取店の掲示では50万〜65万円（ピアノワンの参考表）、買取実績では2006年製で67万円（未来ピアノガーデン）です（2026年11月6日確認）。いずれも店の掲示で、年式・状態・搬出条件で変わります。カワイ公式は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">ピアノ買取店の掲示では50万〜65万円（ピアノワンの参考表）、製造年がわかる買取実績では1996年製（RX2MR）53万円・1999年製（RX2AF）55万円（ピアノワン）、2006年製67万円（未来ピアノガーデン）です（2026年11月16日確認）。いずれも店の掲示で、年式・状態・搬出条件で変わります。カワイ公式は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
@@ -156,7 +159,7 @@ export default function KawaiRx2KaitoriPage() {
                 <span className="pr-4">古いRXでも値段がつきますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい。状態次第で買取され、海外需要もあります。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">状態次第です。公開されている買取実績には1996年製（RX2MR）で53万円の例があります（ピアノワン・2026年11月16日確認）。一方でカワイ公式は、製造年数が古いピアノや壊れているピアノは査定額がつかず有料の廃棄になる可能性があると案内しています。型番と製造番号を控えて査定を依頼してください。</div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
               <summary className="flex items-center justify-between px-5 py-4 text-sm font-bold">
