@@ -4582,5 +4582,45 @@
     "badge": "業者を知る",
     "description": "店舗・出張・宅配・委託の条件、振込のみの支払い、買い取らない楽器を公式情報で整理。",
     "category": "howto"
+  },
+  {
+    "slug": "kurosawa-gakki-kaitori",
+    "title": "クロサワ楽器の買取とは？",
+    "shortTitle": "クロサワ楽器の買取",
+    "badge": "業者を知る",
+    "description": "店頭・宅配・出張の条件と支払い、19店舗それぞれの買取対象楽器、買い取らない楽器を公式情報で整理。",
+    "category": "howto"
+  },
+  {
+    "slug": "chuko-gakkido-kaitori",
+    "title": "中古楽器堂の買取とは？",
+    "shortTitle": "中古楽器堂の買取",
+    "badge": "業者を知る",
+    "description": "出張・店舗・宅配の流れと支払い、41店舗の店頭買取時間（要予約の店舗）を公式情報で整理。",
+    "category": "howto"
+  },
+  {
+    "slug": "miki-gakki-kaitori",
+    "title": "三木楽器の買取とは？",
+    "shortTitle": "三木楽器の買取",
+    "badge": "業者を知る",
+    "description": "楽器・ピアノ・防音室の窓口の違い、受付店舗10店、ピアノの対象地域と標準買取価格を公式情報で整理。",
+    "category": "howto"
+  },
+  {
+    "slug": "marimba-kaitori",
+    "title": "マリンバの買取相場と売り先",
+    "shortTitle": "マリンバの買取",
+    "badge": "打楽器",
+    "description": "ヤフオク落札61件をメーカー別に集計。マリンバを買い取る業者・買い取らない楽器店も整理。",
+    "category": "instrument"
+  },
+  {
+    "slug": "gakki-case-kaitori",
+    "title": "楽器ケースだけでも買取してもらえる？",
+    "shortTitle": "楽器ケースの買取",
+    "badge": "売り方",
+    "description": "ケース単体の落札106件を種類別に集計。ケースの買取価格を公開している店と各社の扱い。",
+    "category": "howto"
   }
 ]

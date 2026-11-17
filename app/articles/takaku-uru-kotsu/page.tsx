@@ -404,7 +404,7 @@ export default function TakakuUruKotsuPage() {
 
         <RelatedArticles
           currentSlug="takaku-uru-kotsu"
-          relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori"]}
+          relatedSlugs={["hikakaku-gakki-kaitori-kuchikomi", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "souba-ichiran", "kaitori-houhou-hikaku", "satei-yomikata", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "gakki-case-kaitori"]}
         />
       </article>
     </>

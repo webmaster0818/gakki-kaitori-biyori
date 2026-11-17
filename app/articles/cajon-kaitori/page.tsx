@@ -152,7 +152,7 @@ export default function CajonKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="cajon-kaitori" relatedSlugs={["drum-kaitori", "souba-ichiran", "takaku-uru-kotsu", "kaitori-houhou-hikaku", "matome-uri-kaitori"]} />
+        <RelatedArticles currentSlug="cajon-kaitori" relatedSlugs={["drum-kaitori", "souba-ichiran", "takaku-uru-kotsu", "kaitori-houhou-hikaku", "matome-uri-kaitori", "marimba-kaitori"]} />
       </article>
     </>
   );
