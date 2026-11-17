@@ -744,3 +744,9 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - `/articles/shimamura-gakki-kaitori/`（40）: /used/ と flow 4ページ。支払いは振込のみ・店舗5%UP/下取10%/自社購入5%・出張条件（複数各2万/単品3万以上・指定業者が引取）・宅配（単品5千円以上）・委託（26店・10万円以上・手数料20%/15%・3か月）・対象外楽器・出張エリア・古物 第307779503948号。店舗一覧184店中「買取受付」166（当サイト集計・総数表示186）。⚠️ title/h1 に「評判」を入れない（C5）
 - 導線: relatedSlugs の末尾に追加（ikebe・yamano → ハードオフ/島村、sonor・mixer → 島村、wagakki・koto → 大正琴、omiya・kawaguchi → 埼玉）。gen-related-groups.py 再実行：⚠️ 島村の relatedSlugs に taishogoto/wagakki（instrument）を入れたら島村が inst:taishogoto 群に入った → 外して cat:howto に。最終の変化は新規5本の追加のみ（埼玉・群馬は pref 群、大正琴は inst:wagakki 群）
 - sitemap 464→469。precheck 全項目OK（585ページ）・trust-audit check_page 新規5本の指摘0。t.felmat 既存ページのページ別件数は前後一致（新規5本×8＝RecommendedServices 分のみ）。本番 20:18 に5本とも200・h1 確認。Indexing は親がまとめて送る
+
+### 2026-11-17 朝ルーチン（15時台のやり直し）：ヒカカク口コミを公式で再照合＝掲載数・ピアノ最低実績を更新／ティファナ宅配は停止継続で確認日を 11/17 に更新（src 569953fa・d8732774・15068352 / deploy 8f58ac3dd）
+- 07:00 点検「データが10日より古い」= /articles/hikakaku-gakki-kaitori-kuchikomi/（数値は 10/8 確認のまま＝正しい指摘）。公式 11/17 の生HTML（コメント・script 除外）：クチコミ 総合3.4・星5 425/4 200/3 106/2 86/1 266・比率32.5%＝不変。楽器 39,236点・1,117社 → **39,480点・1,125社**（実績 最低1円〜最高1,700,000円は不変）。ピアノ 854点・616社 → **858点・616社**、実績 最低100円 → **最低1,000円**（最高1,000,000円は不変）。lp（最大20社・最短1日・月間300万人以上・最大3つ）・FAQ・利用規約（最終改定2024年10月1日・第6条 原則無料）・運営者情報・古物表記（平尾 丈・虎ノ門3-4-8）は不変。確認日・UPDATED を 11/17、title は不変（C5 判断待ち）。運営者氏名は /pages/company/ ではなく /pages/kobutsu_hyoki/ に記載
+- ティファナ 11/17: https://www.tifana.net/shipping/ の表示に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」。online.tifana.net は 503。トップに一時停止・再開の文言なし。→ 注記の日付 11/16 → 11/17（333 ファイル・1,098 か所。日付を正規化した −/＋ 行が一致＝日付以外の差分 0）
+- felmat fmcl 2970・fmimp 3400・fmimg 88・t.felmat 6458（out html＝deploy 前と一致・ページ別も一致）、ソース t.felmat 1140 前後一致。precheck 全項目OK（585ページ）。sitemap lastmod 232 URL。CF 反映は push 15:10 → 15:39（約30分）
+- 点検 C3 /author/: 11/8〜11/16 と同じ否定文・運営説明。Person 0。誤検知（未変更）
