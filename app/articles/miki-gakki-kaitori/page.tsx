@@ -262,7 +262,7 @@ export default function Page() {
           </table>
         </div>
         <p className="text-sm leading-relaxed mb-10">
-          受付店舗は大阪8店・東京2店で、いずれも楽器の種類ごとの専門店です。売りたい楽器を扱う店舗に送る・持ち込む形になります。
+          受付店舗は大阪7店・東京2店と DZONE（DJ・デジタル専門店。受付フォームに所在地の記載なし）で、いずれも楽器の種類ごとの専門店です。売りたい楽器を扱う店舗に送る・持ち込む形になります。
           大阪で他の買取店も比べたい場合は<Link href="/articles/osaka-gakki-kaitori/" className="text-accent underline">大阪の楽器買取</Link>、
           梅田周辺は<Link href="/articles/umeda-gakki-kaitori/" className="text-accent underline">梅田の楽器買取</Link>で整理しています。
         </p>
