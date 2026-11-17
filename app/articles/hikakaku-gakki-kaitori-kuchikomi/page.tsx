@@ -3,12 +3,12 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 const PUBLISHED = "2026-10-08";
-const UPDATED = "2026-10-09";
-const UPDATED_JA = "2026年10月9日";
+const UPDATED = "2026-11-17";
+const UPDATED_JA = "2026年11月17日";
 const URL = "https://gakkikaitori-biyori.com/articles/hikakaku-gakki-kaitori-kuchikomi/";
 const TITLE = "ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点【2026年11月最新】";
 const DESC =
-  "ヒカカク！で楽器を売る前に知りたい口コミ・評判を、公式クチコミの評価分布（総合3.4・1,083件）と傾向から出典付きで整理。無料・最大20社の一括査定の仕組み、楽器カテゴリ（1,117社掲載）の使い方、ギター・ピアノを出す流れ、キャンセル・電話連絡の注意点、向いている人まで解説します。";
+  "ヒカカク！で楽器を売る前に知りたい口コミ・評判を、公式クチコミの評価分布（総合3.4・1,083件）と傾向から出典付きで整理。無料・最大20社の一括査定の仕組み、楽器カテゴリ（1,125社掲載）の使い方、ギター・ピアノを出す流れ、キャンセル・電話連絡の注意点、向いている人まで解説します。";
 
 const faqs = [
   {
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "ピアノやドラムなど大型の楽器も一括査定できますか？",
-    a: "できます。ピアノは「ピアノ」の専用カテゴリ（2026年10月8日時点で616社掲載）、ドラム・ギター・管楽器などは「楽器」カテゴリ（同1,117社掲載）です。大型楽器は申込時の買取方法で「出張」を選んでおくと、自宅まで引き取りに来る業者が見つかりやすくなります。",
+    a: "できます。ピアノは「ピアノ」の専用カテゴリ（2026年11月17日時点で616社掲載）、ドラム・ギター・管楽器などは「楽器」カテゴリ（同1,125社掲載）です。大型楽器は申込時の買取方法で「出張」を選んでおくと、自宅まで引き取りに来る業者が見つかりやすくなります。",
   },
   {
     q: "査定後にキャンセルしたいときは？",
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "ヒカカク！の口コミは悪いものが多いのですか？",
-    a: "公式クチコミページ（2026年10月8日時点）では総合評価3.4、星5が425件、星1が266件で、公式自身が「悪い・ひどい・買取が安いというクチコミの比率は32.5%」と表示しています。気になる内容は電話の多さと見積もり業者数の少なさに集中しています。詳しくは本文の評判の章をご覧ください。",
+    a: "公式クチコミページ（2026年11月17日時点）では総合評価3.4、星5が425件、星1が266件で、公式自身が「悪い・ひどい・買取が安いというクチコミの比率は32.5%」と表示しています。気になる内容は電話の多さと見積もり業者数の少なさに集中しています。詳しくは本文の評判の章をご覧ください。",
   },
 ];
 
@@ -120,16 +120,16 @@ export default function HikakakuGakkiKuchikomiPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            「楽器を一括査定に出したいけれど、ヒカカク！の評判は実際どうなのか」を知りたい方向けに、公式サイトと公式クチコミページを2026年10月8日に確認して整理しました（評価分布は{UPDATED_JA}に再確認・変化なし）。本文の口コミは転載せず、評価分布と内容の傾向だけを出典付きで示します。本記事は広告（PR）リンクを含みます。
+            「楽器を一括査定に出したいけれど、ヒカカク！の評判は実際どうなのか」を知りたい方向けに、公式サイトと公式クチコミページを2026年10月8日に確認して整理しました。{UPDATED_JA}にクチコミの評価分布・カテゴリの掲載数と買取実績・よくあるご質問・利用規約・運営者情報を再確認しています（変わっていたのはカテゴリの掲載数とピアノの最低買取実績のみ）。本文の口コミは転載せず、評価分布と内容の傾向だけを出典付きで示します。本記事は広告（PR）リンクを含みます。
           </p>
-          <p className="text-xs text-warm-gray mt-2">公開日: 2026年10月8日／更新日: {UPDATED_JA}（他の売り方との使い分けの章を追加）</p>
+          <p className="text-xs text-warm-gray mt-2">公開日: 2026年10月8日／更新日: {UPDATED_JA}（公式の掲載数・買取実績・評価分布を再確認して更新）</p>
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">
           <h2 id="conclusion">ヒカカクの楽器買取が適している方</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>ヒカカク！は<strong>買取店を紹介する比較サイト</strong>で、自社では査定も買取もしない。利用は<strong>無料</strong>、最大20社から査定結果がメールで届く。</li>
-            <li>楽器カテゴリは<strong>1,117社・39,236点</strong>、ピアノは別カテゴリで<strong>616社・854点</strong>の掲載（2026年10月8日時点の公式カテゴリページ表記）。</li>
+            <li>楽器カテゴリは<strong>1,125社・39,480点</strong>、ピアノは別カテゴリで<strong>616社・858点</strong>の掲載（2026年11月17日時点の公式カテゴリページ表記）。</li>
             <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない」。</li>
             <li>向いているのは<strong>型番が分かる楽器で複数社の相見積もりを取りたい人</strong>。電話連絡を避けたい人や、今日中に現金化したい人には向かない。</li>
           </ul>
@@ -150,13 +150,13 @@ export default function HikakakuGakkiKuchikomiPage() {
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">料金</th><td className="px-4 py-3">無料（利用規約第6条「当社がユーザーに対して請求する費用は原則無料」）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">査定社数</th><td className="px-4 py-3">最大20社から査定結果（買取不可の場合は返信がないこともある）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">買取方法</th><td className="px-4 py-3">宅配・出張・店頭から最大3つを希望として選択</td></tr>
-                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">楽器カテゴリ</th><td className="px-4 py-3">掲載 39,236点・1,117社。直近1年の買取実績は「最低1円〜最高1,700,000円」と表示。絞り込みにギター・ベース・アンプ・エフェクター・管楽器・弦楽器・ドラム・電子ピアノ・DTM機材・PA機器など</td></tr>
-                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">ピアノカテゴリ</th><td className="px-4 py-3">掲載 854点・616社。直近1年の買取実績は「最低100円〜最高1,000,000円」と表示。ヤマハ・カワイのアップライト／グランドで絞り込み可</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">楽器カテゴリ</th><td className="px-4 py-3">掲載 39,480点・1,125社。直近1年の買取実績は「最低1円〜最高1,700,000円」と表示。絞り込みにギター・ベース・アンプ・エフェクター・管楽器・弦楽器・ドラム・電子ピアノ・DTM機材・PA機器など</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">ピアノカテゴリ</th><td className="px-4 py-3">掲載 858点・616社。直近1年の買取実績は「最低1,000円〜最高1,000,000円」と表示。ヤマハ・カワイのアップライト／グランドで絞り込み可</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">利用規模</th><td className="px-4 py-3">「月間300万人以上が利用する買取比較サイト」（使い方ガイドの記載）</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※ 数値はいずれも2026年10月8日に公式サイトの各ページを確認したもの。掲載点数・社数は日々変動します。</p>
+          <p className="text-xs text-warm-gray">※ 数値はいずれも2026年11月17日に公式サイトの各ページを確認したもの（初回の確認は2026年10月8日）。掲載点数・社数は日々変動します。</p>
           <p>
             押さえておきたいのは、<strong>ヒカカク！自身は査定も買取もしない</strong>点です。公式FAQに「買取業者のご紹介のみ行っており、査定や買取に関しましては直接買取業者よりご連絡」とあり、利用規約第5条でも「一切の買取業務は行わず、金銭の授受には関与しない」「取引の成立・内容について保証しない」と定められています。
             査定額の妥当性や対応の良し悪しは<strong>紹介先の買取店ごとに違う</strong>ため、届いた査定を比べて選ぶ作業が利用者側に残ります。当サイトの<Link href="/articles/gakki-kaitori-osusume/" className="text-accent underline hover:text-accent-dark">楽器買取おすすめ業者3社の比較</Link>では、この一括査定と出張専門・店頭型の業者を方式別に整理しています。
@@ -209,11 +209,11 @@ export default function HikakakuGakkiKuchikomiPage() {
 
           <h2 id="reviews">良い評判・気になる評判（出典付き）</h2>
           <p>
-            口コミは、ヒカカク！が自社サイトで公開している「ヒカカク！のクチコミ・評判」ページ（2026年10月8日確認）を出典にしています。本文の転載はせず、評価分布と内容の傾向だけを整理しました。
+            口コミは、ヒカカク！が自社サイトで公開している「ヒカカク！のクチコミ・評判」ページ（2026年10月8日確認・評価分布は2026年11月17日に再確認）を出典にしています。本文の転載はせず、評価分布と内容の傾向だけを整理しました。
           </p>
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
-              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">公式クチコミページの表示（2026年10月8日時点）</th></tr></thead>
+              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">公式クチコミページの表示（2026年11月17日時点）</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3">総合評価</td><td className="px-4 py-3">3.4（5点満点）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">件数の内訳</td><td className="px-4 py-3">星5：425件／星4：200件／星3：106件／星2：86件／星1：266件（合計1,083件）</td></tr>
@@ -301,7 +301,7 @@ export default function HikakakuGakkiKuchikomiPage() {
             <li><a href="https://hikakaku.com/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">ヒカカク！ サイト利用規約（第4〜6条・最終改定2024年10月1日）</a></li>
             <li><a href="https://hikakaku.com/pages/company/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">運営者情報</a>／<a href="https://hikakaku.com/pages/kobutsu_hyoki/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">古物営業法に基づく表記</a></li>
           </ul>
-          <p className="text-xs text-warm-gray">※ いずれも2026年10月8日に公式サイトの生ページを確認して記載しています（クチコミの評価分布は{UPDATED_JA}に再確認）。サービス内容・件数は変更されることがあるため、最新情報は公式サイトでご確認ください。本記事はPRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray">※ いずれも2026年10月8日に公式サイトの生ページを確認して記載しています（クチコミの評価分布・カテゴリの掲載数と買取実績・よくあるご質問・利用規約・運営者情報は{UPDATED_JA}に再確認）。サービス内容・件数は変更されることがあるため、最新情報は公式サイトでご確認ください。本記事はPRリンクを含みます。</p>
         </section>
 
         <RelatedArticles currentSlug="hikakaku-gakki-kaitori-kuchikomi" relatedSlugs={["gakki-kaitori-osusume", "uriel-gakki-kaitori-kuchikomi", "kaitori-houhou-hikaku", "takaku-uru-kotsu", "mercari-vs-gyosha", "gakki-kaitori-sagi", "ihin-gakki-kaitori"]} />
