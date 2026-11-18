@@ -68,9 +68,9 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "名古屋で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "名古屋で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)大須・栄エリアの楽器専門店（イシバシ楽器、クロサワ楽器、コメ兵など）も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。名古屋は中部地方最大の楽器市場のため、競争原理を活かして最高値を引き出してください。" } },
-      { "@type": "Question", name: "名古屋で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月17日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながらギター・ピアノ・管楽器などの査定から買取まで完結します。" } },
+      { "@type": "Question", name: "名古屋で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月18日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながらギター・ピアノ・管楽器などの査定から買取まで完結します。" } },
       { "@type": "Question", name: "名古屋の大須エリアには楽器店が多いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、大須は名古屋最大の楽器街です。コメ兵のギターフロア（名古屋本店 本館5F）をはじめ、複数の楽器店が集中しています。店頭買取の選択肢が豊富で、専門知識を持ったスタッフによる適正な査定が期待できます。" } },
-      { "@type": "Question", name: "名古屋の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店によります。イシバシ楽器 名古屋栄店は店頭買取の代金をその場で現金で受け取れます（鑑定合計50万円以上は振込）。一方、島村楽器の各店は銀行振込のみで現金払いはなく、10万円以上は振込まで1週間ほどかかります（各社公式・2026年11月10日確認）。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。" } },
+      { "@type": "Question", name: "名古屋の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店によります。イシバシ楽器 名古屋栄店は店頭買取の代金をその場で現金で受け取れます（鑑定合計50万円以上は振込）。一方、島村楽器の各店は銀行振込のみで現金払いはなく、10万円以上は振込まで1週間ほどかかります（各社公式・2026年11月18日確認）。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。" } },
       { "@type": "Question", name: "ピアノやドラムなど大型楽器は名古屋でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。愛知県が出張の対応エリアで（一部対応できない市町村があります）、大きな品物も申込時におおよその大きさを伝えれば買取の対象になります。出張料・査定料は無料です。搬出の方法と費用は申込時にご確認ください。" } },
     ],
   };
@@ -114,7 +114,7 @@ export default function NagoyaGakkiKaitoriPage() {
 
         <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
           <h2 className="font-bold text-lg mb-2">名古屋で楽器を持ち込める店（早見表）</h2>
-          <p className="text-sm text-warm-gray leading-relaxed mb-3">名古屋で楽器を持ち込むなら、栄・矢場町・伏見に楽器店の買取窓口が集まっています。その場で現金を受け取りたいならイシバシ楽器 名古屋栄店、ギター・ベースなら専門店のクロサワ楽器・ロッキン、名古屋駅側からなら島村楽器 名古屋則武新町店が候補です。島村楽器は銀行振込のみです（各社の公式ページで2026年11月10日に確認）。</p>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">名古屋で楽器を持ち込むなら、栄・矢場町・伏見に楽器店の買取窓口が集まっています。その場で現金を受け取りたいならイシバシ楽器 名古屋栄店、ギター・ベースなら専門店のクロサワ楽器・ロッキン、名古屋駅側からなら島村楽器 名古屋則武新町店が候補です。島村楽器は銀行振込のみです（各社の公式ページで2026年11月18日に確認）。</p>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">所在地・駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">受付時間</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">得意な品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
@@ -128,7 +128,7 @@ export default function NagoyaGakkiKaitoriPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月10日に確認。大須のコメ兵ギターフロアは下の「<a href="#area" className="underline">エリア別の楽器買取事情</a>」で紹介しています。ピアノなど運べない楽器は、出張買取（ウリエル等）か一括査定をご利用ください。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月18日に確認。大須のコメ兵ギターフロアは下の「<a href="#area" className="underline">エリア別の楽器買取事情</a>」で紹介しています。ピアノなど運べない楽器は、出張買取（ウリエル等）か一括査定をご利用ください。</p>
         </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -177,7 +177,7 @@ export default function NagoyaGakkiKaitoriPage() {
 
           <h3>ティファナ ── 名古屋からは宅配買取で利用</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月17日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月18日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、名古屋からは<strong>宅配買取</strong>での利用になります（送料・宅配キットは無料）。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しシーズンのまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 愛知県へ出張買取</h3>
@@ -211,7 +211,7 @@ export default function NagoyaGakkiKaitoriPage() {
           <p>名古屋には全国チェーンの大手楽器店から地元密着の専門店まで、多くの楽器買取店があります。主要な買取店の特徴をまとめました。</p>
 
           <h3>コメ兵（KOMEHYO）── 名古屋発祥の老舗リユース</h3>
-          <p>1947年創業、名古屋発祥の日本最大級リユースデパートです。名古屋本店 本館5Fにギターフロアがあります（営業時間10:30〜19:00）。ギターフロアの買取方法は店頭・宅配・出張の3種類です。公式の店舗検索では、愛知県内で買取を受け付ける店舗が買取センターを含めて45店あります（2026年10月20日時点。楽器を扱うかは店舗ごとに確認が必要です）。ギターフロアは「平成レトロ」を掲げ、1980〜2000年代のエレキギター・ベースを中心に揃えています。リペアを社内で行えるため、修理にかかるコストを買取価格に還元するとしています。</p>
+          <p>1947年創業、名古屋発祥の日本最大級リユースデパートです。名古屋本店 本館5Fにギターフロアがあります（営業時間10:30〜19:00）。ギターフロアの買取方法は店頭・宅配・出張の3種類です。公式の店舗検索では、愛知県内で買取を受け付ける店舗が買取センターを含めて45店あります（2026年11月18日時点。楽器を扱うかは店舗ごとに確認が必要です）。ギターフロアは「平成レトロ」を掲げ、1980〜2000年代のエレキギター・ベースを中心に揃えています。リペアを社内で行えるため、修理にかかるコストを買取価格に還元するとしています。</p>
 
           <h3>イシバシ楽器 名古屋栄店 ── 全国チェーンの安心感</h3>
           <p>80年以上の歴史を持つ楽器専門店で、栄のスカイル9Fにあります。ヴィンテージ品から現行モデルまで幅広い買取実績があり、査定スタッフの知識が豊富です。買取専用のフリーダイヤルで事前に無料相談ができ（受付10:00〜18:30）、買取価格の目安は公式サイトで公開されています。店頭買取は予約なしでも受け付けており、支払いはその場で現金または銀行振込です（鑑定合計50万円以上は振込）。</p>
@@ -322,7 +322,7 @@ export default function NagoyaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月17日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。
+                ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月18日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
@@ -340,7 +340,7 @@ export default function NagoyaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                店によります。イシバシ楽器 名古屋栄店は店頭買取の代金をその場で現金で受け取れます（鑑定合計50万円以上は振込）。一方、島村楽器の各店は銀行振込のみで現金払いはなく、10万円以上は振込まで1週間ほどかかります（各社公式・2026年11月10日確認）。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。
+                店によります。イシバシ楽器 名古屋栄店は店頭買取の代金をその場で現金で受け取れます（鑑定合計50万円以上は振込）。一方、島村楽器の各店は銀行振込のみで現金払いはなく、10万円以上は振込まで1週間ほどかかります（各社公式・2026年11月18日確認）。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
