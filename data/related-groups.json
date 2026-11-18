@@ -17,6 +17,7 @@
     "toyama-gakki-kaitori",
     "kanazawa-gakki-kaitori",
     "fukui-gakki-kaitori",
+    "yamanashi-gakki-kaitori",
     "matsumoto-gakki-kaitori",
     "nagano-gakki-kaitori"
    ]
@@ -56,6 +57,7 @@
    "members": [
     "hirosaki-gakki-kaitori",
     "aomori-gakki-kaitori",
+    "iwate-gakki-kaitori",
     "morioka-gakki-kaitori",
     "guitar-kaitori-sendai",
     "sendai-gakki-kaitori",
@@ -98,6 +100,7 @@
     "kurosawa-gakki-kaitori",
     "miki-gakki-kaitori",
     "qsic-kaitori",
+    "rockin-kaitori",
     "shimamura-gakki-kaitori",
     "vintage-gakki-kaitori"
    ]
@@ -133,7 +136,8 @@
    "members": [
     "electone-kaitori",
     "electone-shobun",
-    "keyboard-kaitori"
+    "keyboard-kaitori",
+    "denshi-gakki-kaitori"
    ]
   },
   "inst:acoustic-guitar-kaitori": {
@@ -630,6 +634,7 @@
   "pref:滋賀県": {
    "label": "滋賀県のほかの地域の楽器買取",
    "members": [
+    "shiga-gakki-kaitori",
     "otsu-gakki-kaitori",
     "hikone-gakki-kaitori",
     "kusatsu-shiga-gakki-kaitori",
@@ -716,6 +721,7 @@
   "toyama-gakki-kaitori": "楽器買取 富山おすすめ3選",
   "kanazawa-gakki-kaitori": "楽器買取 金沢おすすめ3選",
   "fukui-gakki-kaitori": "福井の楽器買取",
+  "yamanashi-gakki-kaitori": "山梨県の楽器買取",
   "matsumoto-gakki-kaitori": "松本の楽器買取",
   "nagano-gakki-kaitori": "長野の楽器買取",
   "saga-gakki-kaitori": "佐賀の楽器買取",
@@ -740,6 +746,7 @@
   "kochi-gakki-kaitori": "楽器買取 高知おすすめ3選",
   "hirosaki-gakki-kaitori": "弘前の楽器買取",
   "aomori-gakki-kaitori": "青森の楽器買取",
+  "iwate-gakki-kaitori": "岩手県の楽器買取",
   "morioka-gakki-kaitori": "楽器買取 盛岡おすすめ3選",
   "guitar-kaitori-sendai": "ギター買取 仙台",
   "sendai-gakki-kaitori": "楽器買取 仙台おすすめ3選",
@@ -767,6 +774,7 @@
   "kurosawa-gakki-kaitori": "クロサワ楽器の買取",
   "miki-gakki-kaitori": "三木楽器の買取",
   "qsic-kaitori": "Qsicの買取",
+  "rockin-kaitori": "ロッキンの買取",
   "shimamura-gakki-kaitori": "島村楽器の買取",
   "vintage-gakki-kaitori": "ヴィンテージ楽器買取ガイド",
   "audio-interface-kaitori": "オーディオインターフェース買取ガイド",
@@ -783,6 +791,7 @@
   "electone-kaitori": "エレクトーン買取ガイド",
   "electone-shobun": "エレクトーンの処分方法と費用",
   "keyboard-kaitori": "キーボード買取相場ガイド",
+  "denshi-gakki-kaitori": "電子楽器の買取",
   "acoustic-guitar-kaitori": "アコギ買取ガイド",
   "takamine-kaitori": "タカミネ買取ガイド",
   "taylor-kaitori": "テイラー買取ガイド",
@@ -1119,6 +1128,7 @@
   "toshima-gakki-kaitori": "楽器買取 豊島区おすすめ3選",
   "adachi-gakki-kaitori": "楽器買取 足立区おすすめ3選",
   "ome-gakki-kaitori": "楽器買取 青梅市おすすめ3選",
+  "shiga-gakki-kaitori": "滋賀県の楽器買取",
   "otsu-gakki-kaitori": "大津の楽器買取",
   "hikone-gakki-kaitori": "楽器買取 彦根市おすすめ3選",
   "kusatsu-shiga-gakki-kaitori": "楽器買取 草津市おすすめ3選",

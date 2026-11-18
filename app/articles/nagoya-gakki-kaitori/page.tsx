@@ -402,7 +402,7 @@ export default function NagoyaGakkiKaitoriPage() {
 
         <RelatedArticles
           currentSlug="nagoya-gakki-kaitori"
-          relatedSlugs={["guitar-kaitori-aichi", "guitar-kaitori-nagoya", "gifu-gakki-kaitori", "hamamatsu-gakki-kaitori", "shizuoka-gakki-kaitori", "osaka-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["guitar-kaitori-aichi", "guitar-kaitori-nagoya", "gifu-gakki-kaitori", "hamamatsu-gakki-kaitori", "shizuoka-gakki-kaitori", "osaka-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "rockin-kaitori"]}
         />
       </article>
     </>

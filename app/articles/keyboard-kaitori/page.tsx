@@ -477,7 +477,7 @@ export default function KeyboardKaitoriPage() {
 
         <RelatedArticles
           currentSlug="keyboard-kaitori"
-          relatedSlugs={["midi-keyboard-kaitori", "synthesizer-kaitori", "denshi-piano-kaitori", "casio-kaitori", "korg-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["midi-keyboard-kaitori", "synthesizer-kaitori", "denshi-piano-kaitori", "casio-kaitori", "korg-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "denshi-gakki-kaitori"]}
         />
       </article>
     </>

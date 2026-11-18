@@ -777,3 +777,14 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - fujieda: ハードオフ藤枝・島村静岡パルコ一致。ハードオフの支払い「店舗ページに記載なし」→ /sell/tentou/ の「予約不要・その場で現金」に（岡崎と同じ書き方）。すみやグッディ・おりづるは今日も公式未確認
 - WebSearch（米国経由）: 日本の結果は返るが順位は取れない。偽サイト＝minhyo・hikakaku の口コミページのみ、ピアノ詐欺＝国民生活センター・引越し侍（出典なし）、fender／アコベ＝高く売れるドットコムの実績ページ、岡崎＝ウリドキ一覧（エコリング・KOMEHYO）、藤枝＝大吉 静岡店のブログ
 - 計測リンク fmcl 2990・fmimp 3420・fmimg 88・t.felmat 6498（out＝deploy・ページ別も一致）、ソース t.felmat 1132 前後一致。precheck 全項目OK（590ページ）・trust-audit check_page 5本 指摘0。可視テキストが変わったのは5本のみ。deploy は rsync --exclude="*.txt"・`git add -u`＋新 buildId の _next/static を明示 add。Indexing 未送信（親）
+
+### 2026-11-18 20:00 kwexp（競合ベンチマーク型の作成・5日目）：新規5本
+- queue の status 空欄の上から。「高く売れるドットコム 評判」は hold のまま。重複は own-pages・GSC 90日・app/ で確認（岩手・山梨・滋賀は市ページ〈盛岡／甲府／大津・草津・彦根・長浜〉のみで県ハブなし＝埼玉・群馬と同じ扱い。ロッキンは名古屋系ページの店舗行のみ。電子楽器は電子ピアノ・キーボード等の個別ページのみで「電子楽器全般の買取条件」は未カバー）
+- skip: 「テクニトーン 買取」＝ヤフオク落札（テクニトーン・Technics SX 等4検索）で本体は SX-GN5 の1件（1円）のみ、メーカー（パナソニック）公式に修理・買取の記載が見当たらず、買取業者の公式にも明記なし（競合ページのみ）→ 一次情報不足
+- `/articles/iwate-gakki-kaitori/`（32・region）: ハードオフ a=03 3店（全店 出張○）・島村 盛岡南（/shops/ の services で買取受付・中古あり、所在地は店舗ページ）・中古楽器堂 岩手盛岡店（店頭 11:00〜18:30・出張 9:00〜20:30）・楽器の買取屋さん /area/iwate/ 県全域・事例12件（7件が店舗のない市）。島村出張は東北=宮城のみ、クロサワ16都府県・イケベ関東/関西に岩手なし
+- `/articles/yamanashi-gakki-kaitori/`（32・region）: ハードオフ a=19 6店（○4）・島村 甲府昭和（昭和町）・中古楽器堂 山梨甲府店（10:00〜16:30・来店前電話）・楽器の買取屋さん 県全域・事例12件（2025/1〜2026/9・8件が店舗のない市）。クロサワ出張エリアに山梨県あり（syuchou.html）
+- `/articles/rockin-kaitori/`（32・howto）: /buy/・/buy/purchase/・/buy/nagoya_guitar/・shopinfo 6ページ。店頭=現金（金額により振込）・出張=東海4県・預かりで**その場の支払いなし**・宅配=5万以上送料負担/10万以上梱包材無料・住民票原本・翌営業日振込・委託20%＋調整代6,600円〜。和楽器・民族楽器は買取なし。古物 愛知県公安委員会 第543819800700号。title/h1 に「評判」なし
+- `/articles/denshi-gakki-kaitori/`（24・instrument→family:鍵盤楽器）: 7社（島村・イケベ・ハードオフ宅配・イシバシ・クロサワ・楽器の買取屋さん・ロッキン）の PSE表示／音楽制作ソフト／その他条件を同じ項目で比較（PSE言及3社・ソフト対象外5社）。METI の PSE ページは 403 のため引用せず
+- `/articles/shiga-gakki-kaitori/`（24・region）: ハードオフ a=25 3店（全店○）・島村 草津・中古楽器堂 /shop/shiga/ は「近隣に店舗が見つかりません」・楽器の買取屋さん 県全域・事例12件（7件が店舗のない市）。島村出張=大阪/兵庫、イケベ=大阪北東部・尼崎・伊丹で滋賀なし
+- 導線: relatedSlugs 末尾に追加（morioka→岩手、nagoya・kurosawa→ロッキン、keyboard・denshi-piano→電子楽器）。山梨・滋賀は SameGroupArticles の pref 群（gen-related-groups.py の変化は新規5本の追加のみ）
+- sitemap 474→479。precheck 全項目OK（595ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。t.felmat 6498→6538（新規5本×8）。Indexing は親がまとめて送る

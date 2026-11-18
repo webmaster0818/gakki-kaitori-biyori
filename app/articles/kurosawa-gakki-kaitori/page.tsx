@@ -330,7 +330,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="kurosawa-gakki-kaitori"
-          relatedSlugs={["shimamura-gakki-kaitori", "ikebe-gakki-kaitori", "yamano-gakki-kaitori", "hardoff-gakki-kaitori", "ochanomizu-gakki-kaitori", "gakki-kaitori-osusume"]}
+          relatedSlugs={["shimamura-gakki-kaitori", "ikebe-gakki-kaitori", "yamano-gakki-kaitori", "hardoff-gakki-kaitori", "ochanomizu-gakki-kaitori", "gakki-kaitori-osusume", "rockin-kaitori"]}
         />
       </article>
     </>

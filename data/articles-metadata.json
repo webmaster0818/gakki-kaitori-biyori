@@ -4622,5 +4622,45 @@
     "badge": "売り方",
     "description": "ケース単体の落札106件を種類別に集計。ケースの買取価格を公開している店と各社の扱い。",
     "category": "howto"
+  },
+  {
+    "slug": "iwate-gakki-kaitori",
+    "title": "岩手県の楽器買取はどこがいい？",
+    "shortTitle": "岩手県の楽器買取",
+    "badge": "岩手県",
+    "description": "岩手県のハードオフ3店・島村楽器・中古楽器堂の店舗と、県全域に出張する業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "yamanashi-gakki-kaitori",
+    "title": "山梨県の楽器買取はどこがいい？",
+    "shortTitle": "山梨県の楽器買取",
+    "badge": "山梨県",
+    "description": "山梨県のハードオフ6店・島村楽器・中古楽器堂の店舗と、出張に対応する業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "shiga-gakki-kaitori",
+    "title": "滋賀県の楽器買取はどこがいい？",
+    "shortTitle": "滋賀県の楽器買取",
+    "badge": "滋賀県",
+    "description": "滋賀県のハードオフ3店・島村楽器イオンモール草津店と、県全域に出張する業者を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "rockin-kaitori",
+    "title": "ロッキン（平野楽器）の買取とは？",
+    "shortTitle": "ロッキンの買取",
+    "badge": "業者を知る",
+    "description": "店頭・出張・宅配・委託の条件と支払い、宅配の送料が無料になる金額、東海5店舗の取扱いを公式情報で整理。",
+    "category": "howto"
+  },
+  {
+    "slug": "denshi-gakki-kaitori",
+    "title": "電子楽器の買取で断られる条件",
+    "shortTitle": "電子楽器の買取",
+    "badge": "電子楽器",
+    "description": "PSE表示・DTMソフト・付属品の扱いを楽器店7社の公式情報で比較。",
+    "category": "instrument"
   }
 ]
