@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/fender-kaitori/' },
   title: "【2026年11月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
   description:
-    "Fender American Vintage II 1957 Stratocasterの掲示買取価格は島村楽器で10.6万〜18.9万円、イシバシ楽器で12万〜14万円（2026年11月6日確認）。USA・メキシコ・日本製の型番別の価格と、おすすめ3社の比較、高く売るコツを解説します。",
+    "Fender American Vintage II 1957 Stratocasterの掲示買取価格は島村楽器で10.6万〜18.9万円、イシバシ楽器で12万〜14万円（2026年11月18日確認）。USA・メキシコ・日本製の型番別の価格と、おすすめ3社の比較、高く売るコツを解説します。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年11月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
-    description: "Fender American Vintage II 1957 Stratocasterの掲示買取価格は島村楽器で10.6万〜18.9万円、イシバシ楽器で12万〜14万円（2026年11月6日確認）。USA・メキシコ・日本製の型番別の価格と、おすすめ3社の比較、高く売るコツを解説します。",
+    description: "Fender American Vintage II 1957 Stratocasterの掲示買取価格は島村楽器で10.6万〜18.9万円、イシバシ楽器で12万〜14万円（2026年11月18日確認）。USA・メキシコ・日本製の型番別の価格と、おすすめ3社の比較、高く売るコツを解説します。",
   },
 };
 
@@ -81,7 +81,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月 週次相場更新】Fender(フェンダー)買取相場・おすすめ業者3選｜高く売るコツ",
     datePublished: "2026-04-18",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-18",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -111,11 +111,11 @@ export default function FenderKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             Fender(フェンダー)のギター・ベースを売りたい方へ。本記事では、Stratocaster・Telecaster・Jazz Bassなどモデル別の買取相場をUSA製・メキシコ製・日本製に分けて解説。Custom Shop製品の査定ポイントや、高く売るためのコツまで網羅しています。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月6日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月18日</p>
         </header>
 
         <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
-          <h2 className="font-bold text-lg mb-2">Fender主要モデルの掲示買取価格（2026年11月6日確認）</h2>
+          <h2 className="font-bold text-lg mb-2">Fender主要モデルの掲示買取価格（2026年11月18日確認）</h2>
           <p className="text-sm text-warm-gray leading-relaxed mb-3">買取価格を公開している島村楽器とイシバシ楽器の掲示額です。同じモデルでも店と状態で差があるので、売る前に比べてください。</p>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -126,11 +126,15 @@ export default function FenderKaitoriPage() {
                 <tr className="bg-white"><td className="px-3 py-2 font-medium">Made in Japan Traditional 50s Stratocaster</td><td className="px-3 py-2">¥36,000／¥29,000／¥20,000</td><td className="px-3 py-2">¥45,000／¥40,000／¥36,000</td></tr>
                 <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Player Telecaster（メキシコ）</td><td className="px-3 py-2">¥49,000／¥40,000／¥28,000</td><td className="px-3 py-2">¥48,000／¥43,000／¥38,000</td></tr>
                 <tr className="bg-white"><td className="px-3 py-2 font-medium">Player Jazz Bass（メキシコ）</td><td className="px-3 py-2">¥49,000／¥40,000／¥28,000</td><td className="px-3 py-2">¥48,000／¥43,000／¥38,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Player II Stratocaster（メキシコ・2024年〜）</td><td className="px-3 py-2">¥53,000／¥43,000／¥29,000 ※</td><td className="px-3 py-2">¥58,000／¥53,000／¥47,000</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">Player II Telecaster（メキシコ・2024年〜）</td><td className="px-3 py-2">¥53,000／¥43,000／¥29,000 ※</td><td className="px-3 py-2">¥58,000／¥53,000／¥47,000</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">Player II Jazz Bass（メキシコ・2024年〜）</td><td className="px-3 py-2">¥53,000／¥43,000／¥29,000 ※</td><td className="px-3 py-2">¥58,000／¥53,000／¥47,000</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※2026年11月6日に<a href="https://www.shimamura.co.jp/used/search.html?cat=4&inst=&brand=&model=American%20Professional%20II%20Strat&num=100&pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器の買取価格検索</a>と<a href="https://reuse.ishibashi.co.jp/ja/search?search_text=Fender%20American%20Professional%20II%20Stratocaster&sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器の買取価格検索</a>で確認（他のモデルも同じ検索で型番を入れて確認）。両社とも目安で、買取価格を保証するものではなく、現物確認で決まり、予告なく変わります。島村楽器のA／B／Cは「新品同様／多少の傷や汚れ／使用感があり傷や汚れが目立つ」です。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※2026年11月18日に<a href="https://www.shimamura.co.jp/used/search.html?cat=4&inst=&brand=&model=American%20Professional%20II%20Strat&num=100&pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器の買取価格検索</a>と<a href="https://reuse.ishibashi.co.jp/ja/search?search_text=Fender%20American%20Professional%20II%20Stratocaster&sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器の買取価格検索</a>で確認（他のモデルも同じ検索で型番を入れて確認）。両社とも目安で、買取価格を保証するものではなく、現物確認で決まり、予告なく変わります。島村楽器のA／B／Cは「新品同様／多少の傷や汚れ／使用感があり傷や汚れが目立つ」です。</p>
           <p className="text-xs text-warm-gray leading-relaxed mt-2">※ American Professional II Stratocaster の島村楽器の値は、検索に通常品の行がなかったため「Maple Fingerboard Anniversary(2CS)」の掲示額です。Jazz Bass の島村楽器の値は「Maple」、イシバシ楽器の値は「Maple Fingerboard (2018-)」、Player Telecaster のイシバシ楽器の値は「Maple Fingerboard (2018-)」です。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mt-2">※ Player II（現行シリーズ）の島村楽器の値は、Maple Fingerboard の Black・Polar White などの行の掲示額です。島村楽器ではカラーで値が分かれ、Transparent Mocha Burst・Aged Cherry Burst などは ¥61,000／¥49,000／¥34,000（Telecaster・Stratocaster）です。イシバシ楽器の値は Maple Fingerboard (2024-) の行です。旧 Player シリーズ（2018年〜）と現行の Player II では掲示額が違うので、ヘッド裏やネックプレートのモデル名を確認してください。</p>
         </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">

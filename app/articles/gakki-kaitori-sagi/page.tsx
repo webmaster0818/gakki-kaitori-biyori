@@ -42,7 +42,7 @@ function FaqSchema() {
       { "@type": "Question", name: "楽器買取のトラブルはどこに相談すればよいですか？", acceptedAnswer: { "@type": "Answer", text: "消費者ホットライン（188）に電話すれば、最寄りの消費生活センターにつながります。明らかな詐欺の場合は警察に被害届を出してください。" } },
       { "@type": "Question", name: "信頼できる買取業者の見分け方は？", acceptedAnswer: { "@type": "Answer", text: "古物商許可番号の明記、会社所在地・連絡先の明示、手数料の明確さ、口コミの良さ、の4点をご確認ください。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-11-08", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点", datePublished: "2026-04-26", dateModified: "2026-11-18", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点\", \"item\": \"https://gakkikaitori-biyori.com/articles/gakki-kaitori-sagi/\"}]}" }} /></>);
 }
@@ -60,7 +60,7 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年最新】楽器買取の詐欺・トラブル事例と回避策｜安心して売るための注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">楽器買取で詐欺やトラブルに遭わないための注意点を解説します。よくある詐欺パターン、悪質業者の見分け方、安心して売るためのチェックリスト、被害に遭った場合の対処法まで。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月8日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月18日</p>
         </header>
 
         <section id="answer" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
@@ -78,9 +78,9 @@ export default function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed mb-2">出典：<a href="https://www.no-trouble.caa.go.jp/what/doortodoorpurchases/" target="_blank" rel="noopener noreferrer" className="underline">消費者庁 特定商取引法ガイド「訪問購入」</a>・<a href="https://www.no-trouble.caa.go.jp/pdf/20230421la02_10.pdf" target="_blank" rel="noopener noreferrer" className="underline">特定商取引に関する法律施行令第34条で規定する物品の具体例</a>（いずれも2026年11月8日確認）。国民生活センターの発表（2023年9月27日）では、訪問購入の相談は2022年度に7,722件でした（<a href="https://www.kokusen.go.jp/news/data/n-20230927_1.html" target="_blank" rel="noopener noreferrer" className="underline">国民生活センター</a>）。このルールは、業者が自宅など店舗以外の場所で買い取る場合のものです（店頭への持ち込みは対象外）。</p>
+          <p className="text-xs text-warm-gray leading-relaxed mb-2">出典：<a href="https://www.no-trouble.caa.go.jp/what/doortodoorpurchases/" target="_blank" rel="noopener noreferrer" className="underline">消費者庁 特定商取引法ガイド「訪問購入」</a>・<a href="https://www.no-trouble.caa.go.jp/pdf/20230421la02_10.pdf" target="_blank" rel="noopener noreferrer" className="underline">特定商取引に関する法律施行令第34条で規定する物品の具体例</a>（いずれも2026年11月8日確認）。国民生活センターの「訪問購入」のページ（2026年7月31日更新・11月18日確認）では、PIO-NETに登録された訪問購入の相談は2023年度8,623件・2024年度7,909件・2025年度7,523件です（2026年5月31日現在・消費生活センター等からの経由相談を除く）。同ページは「不用品や和服の買い取りのはずが貴金属を買い取られた」といった相談が寄せられていると説明しています（<a href="https://www.kokusen.go.jp/soudan_topics/data/doorstep_purchase.html" target="_blank" rel="noopener noreferrer" className="underline">国民生活センター「訪問購入」</a>）。このルールは、業者が自宅など店舗以外の場所で買い取る場合のものです（店頭への持ち込みは対象外）。</p>
           <h3 className="font-bold text-base mt-4 mb-2">「楽器の買取屋さん」の偽サイトが心配な場合</h3>
-          <p className="text-sm text-warm-gray leading-relaxed">2026年11月8日時点で、楽器の買取屋さんの公式サイトの新着情報に、偽サイトについての注意喚起は見当たりませんでした。公式サイトのアドレスは gakkikaitori.co.jp です（gakkikaitori.jp も同じ公式サイトへ転送されます）。申し込む前に、ページ下部の古物営業許可番号（神奈川県公安委員会 第451310006356号）と運営会社名（UNI SOUND株式会社）が表示されていることを確認してください。<Link href="/articles/gakki-no-kaitoriyasan/" className="text-accent underline hover:text-accent-dark">楽器の買取屋さんの基本情報</Link>もあわせてご覧ください。</p>
+          <p className="text-sm text-warm-gray leading-relaxed">2026年11月18日時点で、楽器の買取屋さんの公式サイトのトップと新着情報（最新は2026年7月16日のメディア掲載のお知らせ）に、偽サイトについての注意喚起は見当たりませんでした。公式サイトのアドレスは gakkikaitori.co.jp です（gakkikaitori.jp も同じ公式サイトへ転送されます）。申し込む前に、ページ下部の古物営業許可番号（神奈川県公安委員会 第451310006356号）と運営会社名（UNI SOUND株式会社）が表示されていることを確認してください。<Link href="/articles/gakki-no-kaitoriyasan/" className="text-accent underline hover:text-accent-dark">楽器の買取屋さんの基本情報</Link>もあわせてご覧ください。</p>
         </section>
 
         <div className="article-body">
@@ -141,7 +141,7 @@ export default function Page() {
           <div className="bg-white border border-warm-200 p-5">
             <p className="text-sm font-medium mb-2">③ 訪問が「ピアノ以外」に広がる</p>
             <p className="text-sm text-warm-gray leading-relaxed">
-              ピアノの査定で家に上がったあと、貴金属や時計の話に移る形です。
+              ピアノの査定で家に上がったあと、貴金属や時計の話に移る形です。国民生活センターにも「不用品や和服の買い取りのはずが貴金属を買い取られた」といった相談が寄せられています（上の出典）。
               <strong>頼んでいない品物の話が始まったら、その場で断って構いません。</strong>
               買取の訪問には特定商取引法のクーリング・オフが適用される場合があります。
               不安があれば、消費者ホットライン（188）に相談できます。
