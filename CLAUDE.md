@@ -767,3 +767,13 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 🔍 未変更・候補: ロッキン /buy/nagoya_guitar に「名古屋栄店へギターをお持ちいただければその場で現金買取」→ 早見表の支払い「店舗ページに記載なし」は現金に書ける。島村パルコ /used/ の店舗情報欄に「営業時間 11:00-20:00」が残る（同ページの受付時間・店舗トップは 10:00〜20:00＝表は 10:00 のまま）
 - ティファナ 11/18: /shipping/ に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」・online.tifana.net 503・トップに再開の文言なし → 注記 11/17 → 11/18（333 ファイル・1,098 か所。日付を正規化した −/＋ 行が一致）。hikakaku・kwexp 新規の 11/17 確認日は不変
 - felmat fmcl 2990・fmimp 3420・t.felmat 6498（out＝deploy 前と一致・ページ別も一致）、ソース t.felmat 1140 前後一致。precheck 全項目OK（590ページ）。sitemap lastmod 231 URL。deploy は rsync --exclude="*.txt"・`git add -A -- . ':(exclude)*.txt'`。CF 反映 push 09:35 → 09:58。点検 C3 /author/ は 11/8〜 と同じ否定文・Person 0＝誤検知（未変更）
+
+### 2026-11-18 12:00 成長ルーチン：sagi に国民生活センターの訪問購入の最新件数／fender に Player II 3型番／bass AEGB24E のイシバシ掲示／岡崎に KOMEHYO東岡崎／藤枝のハードオフ支払い（src ad67787e・af5ed017 / deploy 761790f8f）
+- git log --since=11/9: 5本ともティファナ注記の日付一括のみ（sagi は 11/8 be6b34e4 が最後）。crawl-2026-11-18.md のクロール待ちに5本とも無し。fender（c9）・bass（c4）・岡崎・藤枝の title は不変
+- sagi: 国民生活センター「訪問購入」/soudan_topics/data/doorstep_purchase.html（2026/7/31 更新・11/18 確認）＝PIO-NET 2023年度 8,623・2024年度 7,909・2025年度 7,523（2026/5/31 現在・経由相談除く）で 2022年度 7,722 の文を置換、「不用品や和服の買い取りのはずが貴金属を買い取られた」相談をピアノ③にも出典つきで。楽器の買取屋さん公式（トップ・/news/）に偽サイトの注意喚起なし（最新 2026/7/16 メディア掲載）＝確認日を 11/18 に。sitemap lastmod は sagi のみ変化
+- fender: 島村（curl）・イシバシ（Chrome --headless --dump-dom）で冒頭5行を 11/18 再照合＝全一致。現行 Player II（2024-）Strat/Tele/Jazz Bass を追加＝島村 Maple の Black/Polar White 等 ¥53,000/43,000/29,000（Mocha・Aged Cherry Burst 等は ¥61,000/49,000/34,000）、イシバシ Maple (2024-) ¥58,000/53,000/47,000
+- bass: 5行再照合＝一致。イシバシ AEGB24E が今回は読めた＝¥20,000/18,000/16,000 を記入（11/7 は「確認できず」）。イシバシ AEB10E は「AEB10E」単独だと結果が出ず「Ibanez AEB10E」で出る
+- okazaki: ハードオフ2店・島村の公式一致。KOMEHYO買取センター東岡崎（komehyo.jp/kaitori/shop/kc-higashiokazaki・明大寺本町1-34 岡崎センタービル1F・10:00〜19:00・「その他取扱いアイテム」にギター／ギター以外の楽器・現金か振込・査定/キャンセル無料・20歳未満不可）を早見表に追加。エコリング東岡崎（比較サイトでピアノ・楽器・PA）は eco-ring.com が 403 で公式未確認＝入れていない
+- fujieda: ハードオフ藤枝・島村静岡パルコ一致。ハードオフの支払い「店舗ページに記載なし」→ /sell/tentou/ の「予約不要・その場で現金」に（岡崎と同じ書き方）。すみやグッディ・おりづるは今日も公式未確認
+- WebSearch（米国経由）: 日本の結果は返るが順位は取れない。偽サイト＝minhyo・hikakaku の口コミページのみ、ピアノ詐欺＝国民生活センター・引越し侍（出典なし）、fender／アコベ＝高く売れるドットコムの実績ページ、岡崎＝ウリドキ一覧（エコリング・KOMEHYO）、藤枝＝大吉 静岡店のブログ
+- 計測リンク fmcl 2990・fmimp 3420・fmimg 88・t.felmat 6498（out＝deploy・ページ別も一致）、ソース t.felmat 1132 前後一致。precheck 全項目OK（590ページ）・trust-audit check_page 5本 指摘0。可視テキストが変わったのは5本のみ。deploy は rsync --exclude="*.txt"・`git add -u`＋新 buildId の _next/static を明示 add。Indexing 未送信（親）
