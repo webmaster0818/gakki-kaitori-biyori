@@ -2,19 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ServiceCapture from "@/components/ServiceCapture";
 import RelatedArticles from "@/components/RelatedArticles";
+import KaitoriyasanInfo from "@/components/KaitoriyasanInfo";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kawaguchi-gakki-kaitori/' },
   title: "川口の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】",
-  description: "川口で楽器を持ち込むなら？島村楽器かわぐちキャスティ店・ティファナ川口店など4店の駅徒歩・受付時間・支払い方法を公式で確認した早見表と、ピアノの出張買取、おすすめ3社の比較を解説します。",
-  openGraph: { images: ["/og-image.png"], title: "川口の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】", description: "川口で楽器を持ち込むなら？島村楽器かわぐちキャスティ店・ティファナ川口店など4店の駅徒歩・受付時間・支払い方法を公式で確認した早見表と、ピアノの出張買取、おすすめ3社の比較を解説します。" },
+  description: "川口で楽器を持ち込むなら？島村楽器かわぐちキャスティ店・ティファナ川口店など4店の早見表、ピアノの出張買取、楽器の買取屋さん（市内に店舗なし・川口は出張対象・最寄りは大宮店）の条件を公式で確認してまとめました。",
+  openGraph: { images: ["/og-image.png"], title: "川口の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社【2026年11月】", description: "川口で楽器を持ち込むなら？島村楽器かわぐちキャスティ店・ティファナ川口店など4店の早見表、ピアノの出張買取、楽器の買取屋さん（市内に店舗なし・川口は出張対象・最寄りは大宮店）の条件を公式で確認してまとめました。" },
 };
 
 function Schema() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"\u5ddd\u53e3\u3067\u51fa\u5f35\u8cb7\u53d6\u306f\u5bfe\u5fdc\u3057\u3066\u3044\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5ddd\u53e3\uff08\u57fc\u7389\u770c\u5ddd\u53e3\u5e02\uff09\u306e\u51fa\u5f35\u5bfe\u5fdc\u306f\u696d\u8005\u306b\u3088\u3063\u3066\u7570\u306a\u308a\u307e\u3059\u3002\u30a6\u30ea\u30a8\u30eb\u306f\u57fc\u7389\u770c\u3092\u51fa\u5f35\u30a8\u30ea\u30a2\u3068\u3057\u3066\u3044\u307e\u3059\u304c\u3001\u4e00\u90e8\u5bfe\u5fdc\u3067\u304d\u306a\u3044\u5e02\u753a\u6751\u304c\u3042\u308a\u307e\u3059\uff08\u5ddd\u53e3\u304c\u5bfe\u8c61\u304b\u306f\u7533\u8fbc\u6642\u306b\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\uff09\u3002\u30c6\u30a3\u30d5\u30a1\u30ca\u306f\u5ddd\u53e3\u5e02\u3092\u51fa\u5f35\u30a8\u30ea\u30a2\u3068\u3057\u3066\u3044\u307e\u3059\u3002\u30d2\u30ab\u30ab\u30af\uff01\u306f\u4e00\u62ec\u67fb\u5b9a\u30b5\u30fc\u30d3\u30b9\u306e\u305f\u3081\u3001\u51fa\u5f35\u306e\u53ef\u5426\u306f\u67fb\u5b9a\u3092\u51fa\u3059\u696d\u8005\u306b\u3088\u308a\u307e\u3059\u3002\u51fa\u5f35\u6599\u30fb\u67fb\u5b9a\u6599\u306f\u7121\u6599\u306e\u696d\u8005\u304c\u307b\u3068\u3093\u3069\u3067\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5ddd\u53e3\u3067\u5730\u57df\u5bc6\u7740\u306e\u697d\u5668\u8cb7\u53d6\u5e97\u306f\u3042\u308a\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5ddd\u53e3\u306b\u306f\u5730\u5143\u306e\u697d\u5668\u5e97\u3082\u6570\u5e97\u3042\u308a\u307e\u3059\u304c\u3001\u8cb7\u53d6\u76f8\u5834\u30fb\u5bfe\u5fdc\u30b9\u30d4\u30fc\u30c9\u30fb\u53d6\u308a\u6271\u3044\u30b8\u30e3\u30f3\u30eb\u306e\u5e45\u3067\u306f\u3001\u5168\u56fd\u30c1\u30a7\u30fc\u30f3\u3084\u4e00\u62ec\u67fb\u5b9a\u30b5\u30fc\u30d3\u30b9\u306e\u65b9\u304c\u6709\u5229\u306b\u306a\u308b\u50be\u5411\u304c\u3042\u308a\u307e\u3059\u3002\u8907\u6570\u696d\u8005\u3092\u6bd4\u8f03\u3059\u308b\u3053\u3068\u3092\u304a\u3059\u3059\u3081\u3057\u307e\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5ddd\u53e3\u304b\u3089\u5927\u578b\u697d\u5668\uff08\u30d4\u30a2\u30ce\u30fb\u30c9\u30e9\u30e0\uff09\u306e\u51fa\u5f35\u8cb7\u53d6\u306f\u53ef\u80fd\u3067\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5bfe\u5fdc\u53ef\u80fd\u3067\u3059\u3002\u30d4\u30a2\u30ce\u30fb\u30c9\u30e9\u30e0\u30bb\u30c3\u30c8\u306a\u3069\u5927\u578b\u697d\u5668\u306b\u306f\u51fa\u5f35\u8cb7\u53d6\u304c\u9069\u3057\u3066\u3044\u307e\u3059\u3002\u5ddd\u53e3\u30a8\u30ea\u30a2\u306f\u4e3b\u8981\u696d\u8005\u306e\u5bfe\u5fdc\u570f\u5185\u306e\u305f\u3081\u3001\u8907\u6570\u696d\u8005\u3067\u76f8\u898b\u7a4d\u3082\u308a\u3092\u53d6\u3063\u3066\u6700\u3082\u6761\u4ef6\u306e\u3088\u3044\u696d\u8005\u3092\u9078\u3076\u3053\u3068\u3092\u304a\u3059\u3059\u3081\u3057\u307e\u3059\u3002\"}}, {\"@type\": \"Question\", \"name\": \"\u5ddd\u53e3\u3067\u5f53\u65e5\u4e2d\u306b\u73fe\u91d1\u5316\u3067\u304d\u307e\u3059\u304b\uff1f\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"\u5e97\u982d\u8cb7\u53d6\u3067\u3042\u308c\u3070\u5f53\u65e5\u4e2d\u306e\u73fe\u91d1\u5316\u304c\u53ef\u80fd\u3067\u3001\u51fa\u5f35\u8cb7\u53d6\u306b\u3082\u6700\u77ed\u5373\u65e5\u3067\u5bfe\u5fdc\u3059\u308b\u696d\u8005\u304c\u3042\u308a\u307e\u3059\u3002\u6025\u304e\u306e\u5834\u5408\u306f\u4e8b\u524d\u306b\u300c\u5373\u65e5\u5bfe\u5fdc\u53ef\u80fd\u304b\u300d\u3092\u78ba\u8a8d\u3057\u3066\u304b\u3089\u7533\u3057\u8fbc\u3080\u306e\u304c\u304a\u3059\u3059\u3081\u3067\u3059\u3002\"}}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u5ddd\u53e3\u306e\u697d\u5668\u8cb7\u53d6\u304a\u3059\u3059\u30813\u793e\uff5c\u5730\u57df\u5bc6\u7740 vs \u5168\u56fd\u5bfe\u5fdc\", \"datePublished\": \"2026-06-25\", \"dateModified\": \"2026-11-06\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"\u5ddd\u53e3\u306e\u697d\u5668\u8cb7\u53d6\u304a\u3059\u3059\u30813\u793e\uff5c\u5730\u57df\u5bc6\u7740 vs \u5168\u56fd\u5bfe\u5fdc\", \"datePublished\": \"2026-06-25\", \"dateModified\": \"2026-11-19\", \"author\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"areaServed\": {\"@type\": \"City\", \"name\": \"\u5ddd\u53e3\"}, \"serviceType\": \"\u697d\u5668\u8cb7\u53d6\", \"provider\": {\"@type\": \"Organization\", \"name\": \"\u697d\u5668\u8cb7\u53d6\u3073\u3088\u308a\"}}" }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"川口の楽器買取おすすめ3社｜地域密着 vs 全国対応\", \"item\": \"https://gakkikaitori-biyori.com/articles/kawaguchi-gakki-kaitori/\"}]}" }} />
     </>
@@ -39,7 +40,8 @@ export default function Page() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">川口の楽器買取はどこがいい？近くの店・持ち込み・出張の選び方とおすすめ3社</h1>
           <p className="text-warm-gray text-sm leading-relaxed">川口（埼玉県川口市）で楽器の買取を検討している方へ。本記事では、近くの楽器買取店への持ち込み（店頭買取）・出張買取・宅配買取の選び方、おすすめ業者3社、買取相場の地域差、近隣エリア（蕨・戸田・赤羽）の状況まで解説します。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月6日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月19日</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mt-4">「楽器の買取屋さん」を探している方へ：川口市内に店舗はなく、川口市は出張買取の対象（埼玉県全域）です。埼玉県内の店舗は大宮店のみ。運営はUNI SOUND株式会社で、本記事のおすすめに出てくるウリエル（株式会社クオーレ）とは別の会社です（各社の公式サイトで2026年11月19日に確認）。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
         </header>
 
         <section id="hayami" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
@@ -102,7 +104,7 @@ export default function Page() {
         <ServiceCapture id="tifana" />
         <ul>
           <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
-          <li><strong>強み</strong>: 店頭は査定金額をその場で現金払い。宅配買取は一時停止中（公式のお知らせ・2026年10月22日確認）</li>
+          <li><strong>強み</strong>: 店頭は査定金額をその場で現金払い。宅配買取は一時停止中（公式のお知らせ・2026年11月19日確認）</li>
           <li><strong>対応エリア</strong>: 川口市内に店舗あり（川口店。イオンモール川口前川店は店頭買取なし）。出張は川口市が出張エリア</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>
@@ -128,6 +130,8 @@ export default function Page() {
           <li><strong>宅配買取</strong>：急がない・近くに店がない場合向き。梱包して送るだけで完結します。</li>
         </ul>
         <p><strong>持ち込む前に「一括査定」で底値を知っておくのがコツ</strong>です。近くの1店だけで決めてしまうと、相場より安く手放してしまうこともあります。<a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="text-accent-dark underline">ヒカカク！の一括査定</a>で川口対応の複数業者の見積もりを比較し、その金額を基準に近くの店と交渉すれば、納得して売りやすくなります。蕨・戸田・赤羽など近隣エリアの店舗も候補に入れると選択肢が広がります。</p>
+
+        <KaitoriyasanInfo area="kawaguchi" />
 
         <h2>5. 川口近隣エリアの状況</h2>
         <p>川口の周辺（蕨・戸田・赤羽）でも、ほぼ同じ買取サービスが利用できます。複数の都市にまたがって楽器がある場合（例: ご実家と現在の住居が別エリア）も、各業者で対応しています。出張買取なら、エリアをまたいで査定してもらえます。</p>

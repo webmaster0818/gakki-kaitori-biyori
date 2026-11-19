@@ -19,11 +19,20 @@ const COMPANY = "https://gakkikaitori.co.jp/company/";
 const TRIP = "https://gakkikaitori.co.jp/kaitori/trip/";
 const DELIV = "https://gakkikaitori.co.jp/kaitori/deliv/";
 
-type Area = "yokohama" | "kawasaki" | "kobe";
+type Area = "yokohama" | "kawasaki" | "kobe" | "kawaguchi";
 
 const AREA: Record<
   Area,
-  { heading: string; shopRow: { k: string; v: string }; tripArea: string; tripUrl: string }
+  {
+    heading: string;
+    shopRow: { k: string; v: string };
+    tripArea: string;
+    tripUrl: string;
+    /** 地域ごとに確認日が違う場合だけ指定（無ければ ASOF） */
+    asof?: string;
+    /** 公式の地域ページにある追加の事実（買取事例など） */
+    extraRow?: { k: string; v: string };
+  }
 > = {
   yokohama: {
     heading: "楽器の買取屋さん（横浜店）の基本情報",
@@ -52,10 +61,25 @@ const AREA: Record<
     tripArea: "兵庫県全域（神戸市を含む）が出張買取の対象",
     tripUrl: "https://gakkikaitori.co.jp/area/hyogo/kobe/",
   },
+  kawaguchi: {
+    heading: "楽器の買取屋さん（川口への出張・最寄りの大宮店）の基本情報",
+    shopRow: {
+      k: "最寄りの店舗",
+      v: "川口市内の店舗は会社概要に掲載なし。埼玉県内は大宮店（さいたま市大宮区桜木町2-2-22 鈴木ビル4F・営業時間 10:00〜19:00・駐車場なし）のみ。都内は上野店・池袋店・板橋店",
+    },
+    tripArea: "埼玉県全域（川口市を含む）が出張買取の対象",
+    tripUrl: "https://gakkikaitori.co.jp/area/saitama/kawaguchi/",
+    asof: "2026年11月19日",
+    extraRow: {
+      k: "川口市の買取事例（公式掲載）",
+      v: "Martin アコースティックギター 160,000円（2026/5/28）、G&L エレキベース 23,000円（2026/7/7）、JUPITER シンセサイザー 70,000円（2025/10/2）、ZEMAITIS エレキギター 73,000円（2024/5/15）など8件。いずれも過去の事例で、同じ金額を保証するものではありません",
+    },
+  },
 };
 
 export default function KaitoriyasanInfo({ area }: { area: Area }) {
   const a = AREA[area];
+  const asof = a.asof ?? ASOF;
   const rows: { k: string; v: ReactNode }[] = [
     {
       k: "運営会社",
@@ -66,6 +90,7 @@ export default function KaitoriyasanInfo({ area }: { area: Area }) {
       v: "横浜市中区新山下3-4-17 カリカチュアビル1F（公式に「こちらの方では買取は行っていません」と記載）",
     },
     { k: a.shopRow.k, v: a.shopRow.v },
+    ...(a.extraRow ? [a.extraRow] : []),
     {
       k: "出張買取",
       v: (
@@ -124,7 +149,7 @@ export default function KaitoriyasanInfo({ area }: { area: Area }) {
         <a href={COMPANY} target="_blank" rel="noopener" className="underline">
           会社概要
         </a>
-        ・買取方法のページに書かれている内容だけをまとめたものです（{ASOF}確認）。
+        ・買取方法のページに書かれている内容だけをまとめたものです（{asof}確認）。
       </p>
       <div className="table-wrapper mb-4">
         <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
@@ -141,7 +166,7 @@ export default function KaitoriyasanInfo({ area }: { area: Area }) {
         </table>
       </div>
       <p className="text-xs text-warm-gray">
-        出典：楽器の買取屋さん 公式サイト（会社概要・出張買取・宅配買取・店頭買取・地域ページ・店舗紹介ページ、{ASOF}確認）。口コミの件数・評点は当サイトで確認できていないため載せていません。営業時間や受付状況は変わることがあるため、申し込む前に公式サイトで確認してください。
+        出典：楽器の買取屋さん 公式サイト（会社概要・出張買取・宅配買取・店頭買取・地域ページ・店舗紹介ページ、{asof}確認）。口コミの件数・評点は当サイトで確認できていないため載せていません。営業時間や受付状況は変わることがあるため、申し込む前に公式サイトで確認してください。
       </p>
       <p className="text-sm">
         全店舗の一覧と、ほかの業者との比べ方は
