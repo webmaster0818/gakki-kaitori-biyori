@@ -68,7 +68,7 @@ function FaqSchema() {
     "@type": "FAQPage",
     mainEntity: [
       { "@type": "Question", name: "名古屋で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "名古屋で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)大須・栄エリアの楽器専門店（イシバシ楽器、クロサワ楽器、コメ兵など）も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。名古屋は中部地方最大の楽器市場のため、競争原理を活かして最高値を引き出してください。" } },
-      { "@type": "Question", name: "名古屋で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月18日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながらギター・ピアノ・管楽器などの査定から買取まで完結します。" } },
+      { "@type": "Question", name: "名古屋で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月19日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながらギター・ピアノ・管楽器などの査定から買取まで完結します。" } },
       { "@type": "Question", name: "名古屋の大須エリアには楽器店が多いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、大須は名古屋最大の楽器街です。コメ兵のギターフロア（名古屋本店 本館5F）をはじめ、複数の楽器店が集中しています。店頭買取の選択肢が豊富で、専門知識を持ったスタッフによる適正な査定が期待できます。" } },
       { "@type": "Question", name: "名古屋の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店によります。イシバシ楽器 名古屋栄店は店頭買取の代金をその場で現金で受け取れます（鑑定合計50万円以上は振込）。一方、島村楽器の各店は銀行振込のみで現金払いはなく、10万円以上は振込まで1週間ほどかかります（各社公式・2026年11月18日確認）。ウリエルの出張買取でも、買取成立後にその場で現金支払いが可能です。" } },
       { "@type": "Question", name: "ピアノやドラムなど大型楽器は名古屋でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。愛知県が出張の対応エリアで（一部対応できない市町村があります）、大きな品物も申込時におおよその大きさを伝えれば買取の対象になります。出張料・査定料は無料です。搬出の方法と費用は申込時にご確認ください。" } },
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月最新】楽器買取 名古屋おすすめ3選｜大須・栄・名駅エリア別に比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-19",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,7 +109,7 @@ export default function NagoyaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             名古屋で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、名古屋エリア対応の楽器買取おすすめ3社を比較します。大須・栄・名駅の各エリア特徴から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、名古屋ならではの高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月10日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月19日</p>
         </header>
 
         <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
@@ -121,7 +121,7 @@ export default function NagoyaGakkiKaitoriPage() {
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.ishibashi.co.jp/kaitori/tentou/nagoya-sakae.html" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 名古屋栄店</a></td><td className="px-3 py-2">中区栄3-4-5 スカイル9F／地下鉄栄駅 徒歩約5分</td><td className="px-3 py-2">11:00〜20:00（予約なしでも可）</td><td className="px-3 py-2">楽器全般（アコースティックピアノ・エレクトーン・オルガンは不可）</td><td className="px-3 py-2">その場で現金または振込（鑑定合計50万円以上は振込）</td></tr>
                 <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.kurosawagakki.com/sh_nagoya/index.html" target="_blank" rel="nofollow noopener" className="underline">クロサワ楽器 名古屋店</a></td><td className="px-3 py-2">中区栄2-3-1 名古屋広小路ビルヂング B1F／地下鉄伏見駅 徒歩約4分</td><td className="px-3 py-2">月〜土 11:00〜20:00／日・祝 11:00〜19:00</td><td className="px-3 py-2">ギター・ベース・管楽器（持ち込みのほか宅配・出張も）</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
-                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.rockin.co.jp/shopinfo/nagoya/" target="_blank" rel="nofollow noopener" className="underline">ロッキン 名古屋栄店</a></td><td className="px-3 py-2">中区栄3-32-6 BECOME SAKAE 10F／地下鉄矢場町駅 徒歩2分</td><td className="px-3 py-2">11:00〜20:00（水曜定休）</td><td className="px-3 py-2">ギター・ベース専門（店頭・宅配・出張）</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
+                <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.rockin.co.jp/shopinfo/nagoya/" target="_blank" rel="nofollow noopener" className="underline">ロッキン 名古屋栄店</a></td><td className="px-3 py-2">中区栄3-32-6 BECOME SAKAE 10F／地下鉄矢場町駅 徒歩2分</td><td className="px-3 py-2">11:00〜20:00（水曜定休）</td><td className="px-3 py-2">ギター・ベース専門（店頭・宅配・出張）</td><td className="px-3 py-2">その場で現金（買取金額によっては振込。<a href="https://www.rockin.co.jp/buy/nagoya_guitar/" target="_blank" rel="nofollow noopener" className="underline">名古屋栄店の買取ページ</a>・2026年11月19日確認）</td></tr>
                 <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/nagoya/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 名古屋パルコ店</a></td><td className="px-3 py-2">中区栄3-29-1 名古屋パルコ南館6F／地下鉄矢場町駅 直結</td><td className="px-3 py-2">10:00〜20:00（査定がスムーズなのは13:00〜19:00）</td><td className="px-3 py-2">ギター・ベース・ドラム・管楽器など。生ドラムのセット一式も店頭で受付</td><td className="px-3 py-2">銀行振込のみ（10万円以上は1週間ほど）</td></tr>
                 <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/nagoya-repair-guitar/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 名古屋ギター&amp;リペア店</a></td><td className="px-3 py-2">中区千代田5-4-26 S&amp;Tビル／JR・地下鉄鶴舞駅 徒歩7分</td><td className="px-3 py-2">11:00〜19:30（木曜定休・査定がスムーズなのは12:00〜17:00）</td><td className="px-3 py-2">島村楽器の買取品目（ギター・ベースほか）</td><td className="px-3 py-2">銀行振込のみ（10万円以上は1週間ほど）</td></tr>
                 <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/nagoya-noritake/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 名古屋則武新町店</a></td><td className="px-3 py-2">西区則武新町3-1-17 イオンモール Nagoya Noritake Garden 3F</td><td className="px-3 py-2">10:00〜21:00（査定がスムーズなのは13:00〜17:00）</td><td className="px-3 py-2">島村楽器の買取品目（生ドラムのセット一式は店頭不可）</td><td className="px-3 py-2">銀行振込のみ（10万円以上は1週間ほど）</td></tr>
@@ -177,7 +177,7 @@ export default function NagoyaGakkiKaitoriPage() {
 
           <h3>ティファナ ── 名古屋からは宅配買取で利用</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月18日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月19日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみのため、名古屋からは<strong>宅配買取</strong>での利用になります（送料・宅配キットは無料）。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しシーズンのまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 愛知県へ出張買取</h3>
@@ -322,7 +322,7 @@ export default function NagoyaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月18日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。
+                ウリエルは愛知県を出張買取の対応エリアにしています（一部対応できない市町村があります）。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部が対象のため、名古屋からは宅配買取での利用になります。なお、ティファナの宅配買取は2026年11月19日時点で一時停止中です（公式のお知らせ）。ウリエルの出張料・査定料は無料で、自宅にいながら査定から買取まで完結します。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">
