@@ -788,3 +788,9 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - `/articles/shiga-gakki-kaitori/`（24・region）: ハードオフ a=25 3店（全店○）・島村 草津・中古楽器堂 /shop/shiga/ は「近隣に店舗が見つかりません」・楽器の買取屋さん 県全域・事例12件（7件が店舗のない市）。島村出張=大阪/兵庫、イケベ=大阪北東部・尼崎・伊丹で滋賀なし
 - 導線: relatedSlugs 末尾に追加（morioka→岩手、nagoya・kurosawa→ロッキン、keyboard・denshi-piano→電子楽器）。山梨・滋賀は SameGroupArticles の pref 群（gen-related-groups.py の変化は新規5本の追加のみ）
 - sitemap 474→479。precheck 全項目OK（595ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。t.felmat 6498→6538（新規5本×8）。Indexing は親がまとめて送る
+
+### 2026-11-19 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/19 に／ロッキン名古屋栄店の支払い「店舗ページに記載なし」→「その場で現金（買取金額によっては振込）」（src 12275823・dcbc15be / deploy 2a832b104＋空 03b9d29fc）
+- ティファナ 11/19: /shipping/ に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」・online.tifana.net 503・トップに停止/再開の文言なし → 注記 11/18 → 11/19（333 ファイル・1,098 か所＝11/18 の 332 ファイル＋nagoya（11/18 は ceeb3afe で別更新）。日付を正規化した −/＋ 行が一致）。置換対象の文型: 「（D確認・再開時期の記載なし）」「宅配買取はD時点で一時停止中」「ただしD時点は一時停止中」「（D時点は一時停止中）」「宅配キット無料）は、D時点で公式サイトのお知らせにより一時停止」「宅配買取（送料無料）はD時点で一時停止中」＋各 \u エスケープ形＋生成器 CHECKED。ほかの 11/18 確認日（nagoya 早見表・fender・bass・hikakaku 等）は不変
+- ロッキン: /buy/nagoya_guitar/ に「ロッキン名古屋栄店へギターをお持ちいただければその場で現金買取」「（買取金額によってはお振込にてお支払いさせていただく場合もございます）」（/buy/ も同文・11/19 確認）。nagoya・nagoya-mizuho・nagoya-nakamura の早見表の支払い欄を公式リンク付きで置換、mizuho の要約文「その場で現金を受け取れるのはイシバシ楽器」→「イシバシ楽器とロッキン」。3ページの dateModified/更新日を 11/19 に。nagoya-kita の同型の要約文は表にロッキン行が無いため未変更。nagoya FAQ「その場で現金を受け取りたいならイシバシ楽器」は推奨文のため未変更
+- 点検 C3 /author/ は 11/8〜 と同じ否定文（「個人の執筆者や経歴ではなく」）・Person 0＝誤検知（未変更）
+- 計測リンク fmcl 3010・fmimp 3440・fmimg 88・t.felmat 6538（out＝deploy 前・ページ別も一致）、ソース t.felmat 1140 前後一致。precheck 全項目OK（595ページ）。sitemap lastmod 231 URL。deploy は rsync --exclude="*.txt"・`git add -A -- . ':(exclude)*.txt'`。push 09:37 → CF 反映が 30 分超来ず 10:08 空コミット
