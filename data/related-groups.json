@@ -4,6 +4,7 @@
   "area:中国": {
    "label": "中国地方のほかの地域の楽器買取",
    "members": [
+    "shimane-gakki-kaitori",
     "izumo-gakki-kaitori",
     "matsue-gakki-kaitori",
     "kurashiki-gakki-kaitori",
@@ -44,9 +45,6 @@
    "label": "四国地方のほかの地域の楽器買取",
    "members": [
     "tokushima-gakki-kaitori",
-    "marugame-gakki-kaitori",
-    "kannonji-gakki-kaitori",
-    "takamatsu-gakki-kaitori",
     "matsuyama-gakki-kaitori",
     "saijo-ehime-gakki-kaitori",
     "kochi-gakki-kaitori"
@@ -145,6 +143,7 @@
    "label": "「アコギ買取ガイド」と関連する買取ガイド",
    "members": [
     "acoustic-guitar-kaitori",
+    "morris-guitar-kaitori",
     "takamine-kaitori",
     "taylor-kaitori",
     "gibson-j45-kaitori",
@@ -278,6 +277,7 @@
     "gretsch-kaitori",
     "ibanez-kaitori",
     "jackson-kaitori",
+    "kamaka-ukulele-kaitori",
     "martin-kaitori",
     "prs-kaitori",
     "rickenbacker-kaitori",
@@ -433,6 +433,7 @@
    "members": [
     "wagakki-kaitori",
     "koto-kaitori",
+    "minzoku-gakki-kaitori",
     "niko-kaitori",
     "shakuhachi-kaitori",
     "taishogoto-kaitori",
@@ -715,9 +716,19 @@
     "fujieda-gakki-kaitori",
     "shizuoka-gakki-kaitori"
    ]
+  },
+  "pref:香川県": {
+   "label": "香川県のほかの地域の楽器買取",
+   "members": [
+    "kagawa-gakki-kaitori",
+    "marugame-gakki-kaitori",
+    "kannonji-gakki-kaitori",
+    "takamatsu-gakki-kaitori"
+   ]
   }
  },
  "labels": {
+  "shimane-gakki-kaitori": "島根県の楽器買取",
   "izumo-gakki-kaitori": "楽器買取 出雲市おすすめ3選",
   "matsue-gakki-kaitori": "松江の楽器買取",
   "kurashiki-gakki-kaitori": "倉敷の楽器買取",
@@ -743,9 +754,6 @@
   "okinawa-city-gakki-kaitori": "楽器買取 沖縄市おすすめ3選",
   "naha-gakki-kaitori": "楽器買取 那覇おすすめ3選",
   "tokushima-gakki-kaitori": "徳島の楽器買取",
-  "marugame-gakki-kaitori": "楽器買取 丸亀市おすすめ3選",
-  "kannonji-gakki-kaitori": "楽器買取 観音寺市おすすめ3選",
-  "takamatsu-gakki-kaitori": "楽器買取 高松おすすめ3選",
   "matsuyama-gakki-kaitori": "楽器買取 松山おすすめ3選",
   "saijo-ehime-gakki-kaitori": "楽器買取 西条市おすすめ3選",
   "kochi-gakki-kaitori": "楽器買取 高知おすすめ3選",
@@ -799,6 +807,7 @@
   "keyboard-kaitori": "キーボード買取相場ガイド",
   "denshi-gakki-kaitori": "電子楽器の買取",
   "acoustic-guitar-kaitori": "アコギ買取ガイド",
+  "morris-guitar-kaitori": "モーリスギターの買取",
   "takamine-kaitori": "タカミネ買取ガイド",
   "taylor-kaitori": "テイラー買取ガイド",
   "gibson-j45-kaitori": "ギブソン J-45買取ガイド",
@@ -882,6 +891,7 @@
   "gretsch-kaitori": "グレッチ買取ガイド",
   "ibanez-kaitori": "Ibanez(アイバニーズ)買取ガイド",
   "jackson-kaitori": "Jackson買取ガイド",
+  "kamaka-ukulele-kaitori": "カマカのウクレレの買取",
   "martin-kaitori": "Martin(マーチン)買取相場",
   "prs-kaitori": "PRS買取ガイド",
   "rickenbacker-kaitori": "リッケンバッカー買取ガイド",
@@ -992,6 +1002,7 @@
   "suzuki-violin-kaitori": "スズキバイオリン買取ガイド",
   "wagakki-kaitori": "和楽器の買取",
   "koto-kaitori": "琴(箏)買取相場ガイド",
+  "minzoku-gakki-kaitori": "民族楽器の買取",
   "niko-kaitori": "二胡の買取",
   "shakuhachi-kaitori": "尺八買取相場ガイド",
   "taishogoto-kaitori": "大正琴の買取",
@@ -1187,6 +1198,10 @@
   "kosai-gakki-kaitori": "楽器買取 湖西市おすすめ3選",
   "yaizu-gakki-kaitori": "楽器買取 焼津市おすすめ3選",
   "fujieda-gakki-kaitori": "楽器買取 藤枝市おすすめ3選",
-  "shizuoka-gakki-kaitori": "楽器買取 静岡おすすめ3選"
+  "shizuoka-gakki-kaitori": "楽器買取 静岡おすすめ3選",
+  "kagawa-gakki-kaitori": "香川県の楽器買取",
+  "marugame-gakki-kaitori": "楽器買取 丸亀市おすすめ3選",
+  "kannonji-gakki-kaitori": "楽器買取 観音寺市おすすめ3選",
+  "takamatsu-gakki-kaitori": "楽器買取 高松おすすめ3選"
  }
 }

@@ -4702,5 +4702,45 @@
     "badge": "業者を知る",
     "description": "楽器を買い取る店舗は全779店中137店。業態・都道府県別の内訳と、ピアノ・バイオリンなど買取対象外の楽器を公式情報で整理。",
     "category": "howto"
+  },
+  {
+    "slug": "shimane-gakki-kaitori",
+    "title": "島根県の楽器買取はどこがいい？",
+    "shortTitle": "島根県の楽器買取",
+    "badge": "島根県",
+    "description": "島根県のハードオフ2店と、買取を受け付けていない島村楽器出雲店の扱い、県全域に出張する業者、ピアノの買取地域を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "kagawa-gakki-kaitori",
+    "title": "香川県の楽器買取はどこがいい？",
+    "shortTitle": "香川県の楽器買取",
+    "badge": "香川県",
+    "description": "香川県のハードオフ5店・高松の楽器店2店・島村楽器綾川店と、県全域に出張する業者、買取事例12件を比較。",
+    "category": "region"
+  },
+  {
+    "slug": "morris-guitar-kaitori",
+    "title": "モーリス（Morris）ギターの買取相場",
+    "shortTitle": "モーリスギターの買取",
+    "badge": "アコースティックギター",
+    "description": "島村楽器の掲示509型番とヤフオク落札201件をシリーズ別に集計。Sシリーズと W・MD など旧型番の差、状態ランクの下がり幅。",
+    "category": "brand"
+  },
+  {
+    "slug": "kamaka-ukulele-kaitori",
+    "title": "カマカ（KAMAKA）ウクレレの買取相場",
+    "shortTitle": "カマカのウクレレの買取",
+    "badge": "ウクレレ",
+    "description": "島村楽器の掲示227型番とヤフオク落札155件を型番・ラベル別に集計。他のウクレレブランドとの掲示価格の比較。",
+    "category": "brand"
+  },
+  {
+    "slug": "minzoku-gakki-kaitori",
+    "title": "民族楽器の買取相場と売り先",
+    "shortTitle": "民族楽器の買取",
+    "badge": "民族楽器",
+    "description": "シタール・チャランゴ・バグパイプなど7種類の落札中央値と、民族楽器を取り扱う業者・区分のない楽器店を整理。",
+    "category": "instrument"
   }
 ]

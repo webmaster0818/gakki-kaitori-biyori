@@ -154,7 +154,7 @@ export default function AcousticGuitarKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="acoustic-guitar-kaitori" relatedSlugs={["guitar-kaitori", "martin-kaitori", "gibson-kaitori", "takaku-uru-kotsu", "souba-ichiran"]} />
+        <RelatedArticles currentSlug="acoustic-guitar-kaitori" relatedSlugs={["guitar-kaitori", "martin-kaitori", "gibson-kaitori", "takaku-uru-kotsu", "souba-ichiran", "morris-guitar-kaitori"]} />
       </article>
     </>
   );

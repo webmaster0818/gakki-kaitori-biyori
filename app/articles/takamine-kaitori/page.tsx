@@ -152,7 +152,7 @@ export default function TakamineKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="takamine-kaitori" relatedSlugs={["acoustic-guitar-kaitori", "guitar-kaitori", "yamaha-kaitori", "souba-ichiran", "takaku-uru-kotsu"]} />
+        <RelatedArticles currentSlug="takamine-kaitori" relatedSlugs={["acoustic-guitar-kaitori", "guitar-kaitori", "yamaha-kaitori", "souba-ichiran", "takaku-uru-kotsu", "morris-guitar-kaitori"]} />
       </article>
     </>
   );
