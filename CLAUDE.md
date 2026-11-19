@@ -794,3 +794,11 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - ロッキン: /buy/nagoya_guitar/ に「ロッキン名古屋栄店へギターをお持ちいただければその場で現金買取」「（買取金額によってはお振込にてお支払いさせていただく場合もございます）」（/buy/ も同文・11/19 確認）。nagoya・nagoya-mizuho・nagoya-nakamura の早見表の支払い欄を公式リンク付きで置換、mizuho の要約文「その場で現金を受け取れるのはイシバシ楽器」→「イシバシ楽器とロッキン」。3ページの dateModified/更新日を 11/19 に。nagoya-kita の同型の要約文は表にロッキン行が無いため未変更。nagoya FAQ「その場で現金を受け取りたいならイシバシ楽器」は推奨文のため未変更
 - 点検 C3 /author/ は 11/8〜 と同じ否定文（「個人の執筆者や経歴ではなく」）・Person 0＝誤検知（未変更）
 - 計測リンク fmcl 3010・fmimp 3440・fmimg 88・t.felmat 6538（out＝deploy 前・ページ別も一致）、ソース t.felmat 1140 前後一致。precheck 全項目OK（595ページ）。sitemap lastmod 231 URL。deploy は rsync --exclude="*.txt"・`git add -A -- . ':(exclude)*.txt'`。push 09:37 → CF 反映が 30 分超来ず 10:08 空コミット
+
+### 2026-11-19 12:00 成長ルーチン：kawaguchi に「楽器の買取屋さん」の答え（src 581304fa / deploy ae3afe8ce）
+- 対象「ピアノ買取 川口市」17@7.7・「楽器の買取屋さん」12@8.8（GSC 10/20〜11/16）。git log --since=11/10 は 11/16 kwexp の relatedSlugs のみ＝内容変更なし。crawl-2026-11-18 のクロール待ちに無し。title 不変
+- 「楽器の買取屋さん」＝UNI SOUND株式会社（gakkikaitori.co.jp・古物 神奈川 第451310006356号）。ウリエル（uriel-cuore.co.jp＝株式会社クオーレ）とは別会社・提携なし（11/19 両社公式で確認）
+- 公式 11/19: /area/saitama/kawaguchi/「埼玉県全域が出張買取の対象」（川口市あり）・川口市の買取事例8件（Martin 160,000円 2026/5/28 ほか）・近隣店舗＝大宮店（さいたま市大宮区桜木町2-2-22 鈴木ビル4F・10:00-19:00・駐車場なし）。会社概要の店舗欄 23店で埼玉は大宮店のみ。出張/宅配/店頭/年齢の各行は 11/13 の記載と一致
+- 実装: KaitoriyasanInfo に area=kawaguchi（asof＝地域別確認日・extraRow＝買取事例）。既存3地域（yokohama/kawasaki/kobe）の出力は不変（可視テキスト比較で変化は kawaguchi 1本のみ）。冒頭に案内1行、ティファナ宅配停止の確認日 10/22→11/19（/shipping/ 11/19 表示）、description に楽器の買取屋さん、dateModified 11-19
+- WebSearch（米国経由）: 日本の結果は返るが順位は取れない。ウリドキは運営を「株式会社GRACE」と記載（公式は UNI SOUND）、hikakaku の口コミページ、島村楽器の川口2店。川口市内の楽器の買取屋さん店舗を示す結果なし
+- 計測リンク t.felmat 6538→6538（out＝deploy 前）。precheck 全項目OK（595ページ）。sitemap lastmod は kawaguchi のみ 11/19。Indexing 未送信（親）
