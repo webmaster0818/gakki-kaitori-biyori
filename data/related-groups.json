@@ -108,6 +108,7 @@
    "label": "DTM・DJ機材の買取ガイド",
    "members": [
     "audio-interface-kaitori",
+    "dtm-kizai-kaitori",
     "midi-keyboard-kaitori",
     "turntable-kaitori",
     "technics-kaitori"
@@ -169,6 +170,7 @@
    "label": "「クラリネット買取相場ガイド」と関連する買取ガイド",
    "members": [
     "clarinet-kaitori",
+    "fagott-kaitori",
     "oboe-kaitori",
     "buffet-kaitori",
     "buffet-r13-kaitori"
@@ -232,6 +234,7 @@
    "label": "「フルート買取相場ガイド」と関連する買取ガイド",
    "members": [
     "flute-kaitori",
+    "piccolo-kaitori",
     "recorder-kaitori",
     "muramatsu-flute-kaitori"
    ]
@@ -269,6 +272,7 @@
     "banjo-kaitori",
     "classic-guitar-kaitori",
     "mandolin-kaitori",
+    "silent-guitar-kaitori",
     "ukulele-kaitori",
     "epiphone-kaitori",
     "esp-kaitori",
@@ -338,6 +342,7 @@
     "accordion-kaitori",
     "hammond-organ-kaitori",
     "organ-kaitori",
+    "reed-organ-kaitori",
     "bosendorfer-kaitori",
     "kawai-kaitori",
     "kawai-piano-kaitori",
@@ -792,6 +797,7 @@
   "shimamura-gakki-kaitori": "島村楽器の買取",
   "vintage-gakki-kaitori": "ヴィンテージ楽器買取ガイド",
   "audio-interface-kaitori": "オーディオインターフェース買取ガイド",
+  "dtm-kizai-kaitori": "DTM機材の買取",
   "midi-keyboard-kaitori": "MIDIキーボード買取ガイド",
   "turntable-kaitori": "ターンテーブル買取ガイド",
   "technics-kaitori": "テクニクス買取ガイド",
@@ -823,6 +829,7 @@
   "rickenbacker-4003-kaitori": "リッケンバッカー 4003買取相場",
   "warwick-thumb-kaitori": "ワーウィック サム買取相場",
   "clarinet-kaitori": "クラリネット買取相場ガイド",
+  "fagott-kaitori": "ファゴットの買取",
   "oboe-kaitori": "オーボエ買取相場ガイド",
   "buffet-kaitori": "Buffet Crampon 買取相場",
   "buffet-r13-kaitori": "クランポン R13買取相場",
@@ -861,6 +868,7 @@
   "ibanez-ts9-kaitori": "Ibanez TS9買取",
   "klon-centaur-kaitori": "クロン ケンタウルス買取ガイド",
   "flute-kaitori": "フルート買取相場ガイド",
+  "piccolo-kaitori": "ピッコロの買取",
   "recorder-kaitori": "リコーダー買取ガイド",
   "muramatsu-flute-kaitori": "ムラマツ フルート買取相場",
   "grand-piano-kaitori": "グランドピアノ買取相場ガイド",
@@ -883,6 +891,7 @@
   "banjo-kaitori": "バンジョー買取ガイド",
   "classic-guitar-kaitori": "クラシックギター買取ガイド",
   "mandolin-kaitori": "マンドリン買取ガイド",
+  "silent-guitar-kaitori": "サイレントギターの買取",
   "ukulele-kaitori": "ウクレレ買取ガイド",
   "epiphone-kaitori": "エピフォン買取ガイド",
   "esp-kaitori": "ESP買取ガイド",
@@ -932,6 +941,7 @@
   "accordion-kaitori": "アコーディオン買取ガイド",
   "hammond-organ-kaitori": "ハモンドオルガンの買取",
   "organ-kaitori": "オルガンの買取",
+  "reed-organ-kaitori": "リードオルガンの買取",
   "bosendorfer-kaitori": "ベーゼンドルファー買取ガイド",
   "kawai-kaitori": "KAWAI(カワイ)買取相場ガイド",
   "kawai-piano-kaitori": "カワイピアノ買取",

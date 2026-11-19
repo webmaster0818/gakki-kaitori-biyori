@@ -4742,5 +4742,45 @@
     "badge": "民族楽器",
     "description": "シタール・チャランゴ・バグパイプなど7種類の落札中央値と、民族楽器を取り扱う業者・区分のない楽器店を整理。",
     "category": "instrument"
+  },
+  {
+    "slug": "reed-organ-kaitori",
+    "title": "リードオルガン（足踏みオルガン）の買取相場",
+    "shortTitle": "リードオルガンの買取",
+    "badge": "オルガン",
+    "description": "足踏みオルガンの落札22件をヤマハ・ベビーオルガン別に集計。オルガンを扱わない楽器店と、引取限定が多い理由。",
+    "category": "instrument"
+  },
+  {
+    "slug": "silent-guitar-kaitori",
+    "title": "サイレントギターの買取相場",
+    "shortTitle": "サイレントギターの買取",
+    "badge": "ギター",
+    "description": "ヤマハ SLG の15型番の島村楽器の掲示と落札139件を型番別に整理。SLG200 と SLG100 の差、付属品の扱い。",
+    "category": "instrument"
+  },
+  {
+    "slug": "dtm-kizai-kaitori",
+    "title": "DTM機材の買取相場",
+    "shortTitle": "DTM機材の買取",
+    "badge": "DTM機材",
+    "description": "島村楽器の音楽制作・配信機器509行を、オーディオインターフェース・MIDIキーボードのブランド別に集計。ソフトとライセンスの扱い。",
+    "category": "instrument"
+  },
+  {
+    "slug": "fagott-kaitori",
+    "title": "ファゴット（バスーン）の買取相場",
+    "shortTitle": "ファゴットの買取",
+    "badge": "木管楽器",
+    "description": "島村楽器の掲示30行とヤフオクの本体の落札30件をブランド別に集計。ボーカル単体の相場と買取事例5件。",
+    "category": "instrument"
+  },
+  {
+    "slug": "piccolo-kaitori",
+    "title": "ピッコロの買取相場",
+    "shortTitle": "ピッコロの買取",
+    "badge": "木管楽器",
+    "description": "ヤマハ YPC の型番別の掲示買取価格と落札97件、パウエル・ハンミッヒなどブランド別の掲示69行。",
+    "category": "instrument"
   }
 ]

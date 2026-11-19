@@ -137,7 +137,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="audio-interface-kaitori"
-          relatedSlugs={["microphone-kaitori", "midi-keyboard-kaitori", "synthesizer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori", "saxophone-kaitori"]}
+          relatedSlugs={["microphone-kaitori", "midi-keyboard-kaitori", "synthesizer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori", "saxophone-kaitori", "dtm-kizai-kaitori"]}
         />
         </div>
       </article>
