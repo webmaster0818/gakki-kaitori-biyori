@@ -802,3 +802,14 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 実装: KaitoriyasanInfo に area=kawaguchi（asof＝地域別確認日・extraRow＝買取事例）。既存3地域（yokohama/kawasaki/kobe）の出力は不変（可視テキスト比較で変化は kawaguchi 1本のみ）。冒頭に案内1行、ティファナ宅配停止の確認日 10/22→11/19（/shipping/ 11/19 表示）、description に楽器の買取屋さん、dateModified 11-19
 - WebSearch（米国経由）: 日本の結果は返るが順位は取れない。ウリドキは運営を「株式会社GRACE」と記載（公式は UNI SOUND）、hikakaku の口コミページ、島村楽器の川口2店。川口市内の楽器の買取屋さん店舗を示す結果なし
 - 計測リンク t.felmat 6538→6538（out＝deploy 前）。precheck 全項目OK（595ページ）。sitemap lastmod は kawaguchi のみ 11/19。Indexing 未送信（親）
+
+### 2026-11-19 20:00 kwexp（競合ベンチマーク型の作成・6日目）：新規5本（src 817fc048・a6c4c03a / deploy 09d78cd2d）
+- queue の status 空欄の上から。「高く売れるドットコム 評判」は hold のまま。重複は own-pages・GSC 90日・app/ で確認（スネアは drum-kaitori の FAQ・表と ludwig-supraphonic〈型番〉のみ、ハモンドは organ-kaitori の事例5件の記載のみ、二胡・打楽器・ブックオフは専用ページなし）
+- skip: 「セカンドストリート 楽器 買取」＝www.2ndstreet.jp は今日も全URL 403（Akamai・10/17 から）。公式で事実が取れないため（第三者サイトで代用しない）
+- `/articles/snare-drum-kaitori/`（24・instrument→inst:drum）: **島村 買取価格検索 cat=12（ドラム）全8,073行を取得**（シンバル3,781・スネア2,914・ハードウェア1,256・電子ドラム122）→ スネア2,914型番の A 中央値22,000・価格帯・ブランド別（DW 59,000・SONOR 41,000・Ludwig 35,000 ほか）。ヤフオク「スネアドラム」200件→本体125件（中央値25,501・ブランドはタイトル先頭のブランド名で分類）。**LM400 の島村 A 17,000 に対し 1970年代 LM400/402 の落札は 69,300〜150,000**。楽器の買取屋さん スネア事例86件のメーカー別、イシバシ /ec/sp/52snare/ の減点方式の確認項目
+- `/articles/hammond-organ-kaitori/`（24・instrument→inst:piano）: ヤフオク3検索253件をタイトルで1件ずつ分類＝本体・レスリー31件を系統別（SK1/SK PRO 13.2万〜22万・XB/XE/XM 中央値25,000・家庭用旧型 中央値11,792・B-3＋レスリー 52万台）。**島村は「オルガン」を対象外に挙げつつ買取価格検索にハモンド7型番（SKX PRO 150,000・XK-5 143,000・SK PRO-73 122,000 ほか）を掲示**。鈴木楽器＝ホームオルガン・B-3 生産完了、XK-7/7D 2026/3/7 発売
+- `/articles/niko-kaitori/`（24・instrument→inst:wagakki）: ヤフオク「二胡」200件→本体76件（中央値約4,295・半数以上が5,000円未満）を材別（老紅木4 約4.5万・紫檀7 24,988・紅木10 約1万・記載なし49 3,000）。売り先＝ウリエル /instrument/ に「二胡（古月琴坊）」、楽器の買取屋さん 民族楽器カテゴリに二胡（事例はバラライカ1件のみ）、島村・イシバシは記載なし（島村 価格検索「二胡」0件）、ブックオフは民芸品・手工芸品が対象外
+- `/articles/dagakki-kaitori/`（24・instrument→inst:drum）: 島村 cat=12 の内訳＝ハンド/コンサート打楽器の掲示0。ヤフオク6種（ティンパニ29 中央値65,010・ビブラフォン18 62,700・コンガ23 18,000・ジャンベ26 14,960・グロッケン31 11,244・ボンゴ7）を打楽器メーカー名ありに限定して集計＋直接引取の記載件数（ティンパニ17/29・ビブラフォン13/18）。楽器の買取屋さん パーカッション事例68件の内訳
+- `/articles/bookoff-gakki-kaitori/`（16・howto）: **公式店舗検索の API（ページが読む as.blue.asp.appirits.com/bookoff2/search.json・楽器4区分 tag 2/3＝公式の楽器買取ページのリンクと同条件）で全779店中137店**。業態（SUPER BAZAAR 52・BOOKOFF 44・Rehello 22・PLUS 17）・都道府県（27都道府県・東京30のうち Rehello 21）・区分別（管楽器106店）。買取対象外（ピアノ・エレクトーン・5年以上の電子ピアノ・民芸品＝バイオリン/三味線/琴/ハープ）を島村・イシバシと比較（島村 cat=11 にバイオリン388行）。title/h1 に「評判」なし
+- 導線: relatedSlugs 末尾に追加（drum・ludwig-supraphonic・pearl → スネア、drum・marimba・cajon → 打楽器、organ・electone → ハモンド、wagakki・taishogoto → 二胡、hardoff・senmonten-vs-recycle → ブックオフ）。gen-related-groups.py の変化は新規5本の追加のみ
+- sitemap 479→484。precheck 全項目OK（600ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。t.felmat 6538→6578（新規5本×8）。⚠️ fetch-yahoo-medians-gakki.py を import すると scripts/__pycache__ の .pyc（追跡対象）が変わる → git checkout で戻した。Indexing は親がまとめて送る
