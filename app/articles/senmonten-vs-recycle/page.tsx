@@ -65,7 +65,7 @@ export default function Page() {
 
           <RelatedArticles
             currentSlug="senmonten-vs-recycle"
-            relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "kaitori-houhou-hikaku", "mercari-vs-gyosha", "gakki-kaitori-sagi", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
+            relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "kaitori-houhou-hikaku", "mercari-vs-gyosha", "gakki-kaitori-sagi", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu", "bookoff-gakki-kaitori"]}
           />
         </div>
       </article>

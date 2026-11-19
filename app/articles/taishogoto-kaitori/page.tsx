@@ -294,7 +294,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="taishogoto-kaitori"
-          relatedSlugs={["wagakki-kaitori", "koto-kaitori", "shamisen-kaitori", "shimamura-gakki-kaitori", "hardoff-gakki-kaitori", "gakki-kaitori-osusume"]}
+          relatedSlugs={["wagakki-kaitori", "koto-kaitori", "shamisen-kaitori", "shimamura-gakki-kaitori", "hardoff-gakki-kaitori", "gakki-kaitori-osusume", "niko-kaitori"]}
         />
       </article>
     </>

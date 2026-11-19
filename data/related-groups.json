@@ -89,6 +89,7 @@
   "cat:howto": {
    "label": "売り方・高く売るためのガイド",
    "members": [
+    "bookoff-gakki-kaitori",
     "chuko-gakkido-kaitori",
     "gakki-case-kaitori",
     "gakki-kaitori-jiki",
@@ -197,8 +198,10 @@
    "members": [
     "drum-kaitori",
     "cajon-kaitori",
+    "dagakki-kaitori",
     "kalimba-kaitori",
     "marimba-kaitori",
+    "snare-drum-kaitori",
     "dw-kaitori",
     "ludwig-kaitori",
     "mapex-kaitori",
@@ -333,6 +336,7 @@
    "members": [
     "piano-kaitori",
     "accordion-kaitori",
+    "hammond-organ-kaitori",
     "organ-kaitori",
     "bosendorfer-kaitori",
     "kawai-kaitori",
@@ -429,6 +433,7 @@
    "members": [
     "wagakki-kaitori",
     "koto-kaitori",
+    "niko-kaitori",
     "shakuhachi-kaitori",
     "taishogoto-kaitori",
     "wadaiko-kaitori"
@@ -763,6 +768,7 @@
   "utsunomiya-gakki-kaitori": "宇都宮の楽器買取",
   "oyama-gakki-kaitori": "楽器買取 小山市おすすめ3選",
   "ashikaga-gakki-kaitori": "楽器買取 足利市おすすめ3選",
+  "bookoff-gakki-kaitori": "ブックオフの楽器買取",
   "chuko-gakkido-kaitori": "中古楽器堂の買取",
   "gakki-case-kaitori": "楽器ケースの買取",
   "gakki-kaitori-jiki": "売る時期の見極めガイド",
@@ -821,8 +827,10 @@
   "pioneer-dj-kaitori": "Pioneer DJ買取ガイド",
   "drum-kaitori": "ドラム買取おすすめ3社比較",
   "cajon-kaitori": "カホン買取ガイド",
+  "dagakki-kaitori": "打楽器の買取",
   "kalimba-kaitori": "カリンバ買取ガイド",
   "marimba-kaitori": "マリンバの買取",
+  "snare-drum-kaitori": "スネアドラムの買取",
   "dw-kaitori": "DW買取ガイド",
   "ludwig-kaitori": "Ludwig(ラディック)買取相場",
   "mapex-kaitori": "Mapex買取ガイド",
@@ -912,6 +920,7 @@
   "shure-kaitori": "Shure(シュア)買取相場",
   "piano-kaitori": "ピアノ買取おすすめ3社比較",
   "accordion-kaitori": "アコーディオン買取ガイド",
+  "hammond-organ-kaitori": "ハモンドオルガンの買取",
   "organ-kaitori": "オルガンの買取",
   "bosendorfer-kaitori": "ベーゼンドルファー買取ガイド",
   "kawai-kaitori": "KAWAI(カワイ)買取相場ガイド",
@@ -983,6 +992,7 @@
   "suzuki-violin-kaitori": "スズキバイオリン買取ガイド",
   "wagakki-kaitori": "和楽器の買取",
   "koto-kaitori": "琴(箏)買取相場ガイド",
+  "niko-kaitori": "二胡の買取",
   "shakuhachi-kaitori": "尺八買取相場ガイド",
   "taishogoto-kaitori": "大正琴の買取",
   "wadaiko-kaitori": "和太鼓買取相場ガイド",

@@ -4662,5 +4662,45 @@
     "badge": "電子楽器",
     "description": "PSE表示・DTMソフト・付属品の扱いを楽器店7社の公式情報で比較。",
     "category": "instrument"
+  },
+  {
+    "slug": "snare-drum-kaitori",
+    "title": "スネアドラムの買取価格",
+    "shortTitle": "スネアドラムの買取",
+    "badge": "打楽器",
+    "description": "島村楽器の掲示2,914型番とヤフオク落札125件をブランド別に集計。ヴィンテージの扱いと査定の確認項目。",
+    "category": "instrument"
+  },
+  {
+    "slug": "hammond-organ-kaitori",
+    "title": "ハモンドオルガンの買取相場",
+    "shortTitle": "ハモンドオルガンの買取",
+    "badge": "鍵盤楽器",
+    "description": "B-3・SK・XK・XB・家庭用・レスリーの落札価格と、島村楽器の掲示7型番。オルガンを扱わない楽器店の条件も整理。",
+    "category": "instrument"
+  },
+  {
+    "slug": "niko-kaitori",
+    "title": "二胡の買取相場と売り先",
+    "shortTitle": "二胡の買取",
+    "badge": "民族楽器",
+    "description": "ヤフオク落札76件を材（老紅木・紫檀・紅木）別に集計。二胡を取り扱う業者・記載のない楽器店を整理。",
+    "category": "instrument"
+  },
+  {
+    "slug": "dagakki-kaitori",
+    "title": "打楽器の買取",
+    "shortTitle": "打楽器の買取",
+    "badge": "打楽器",
+    "description": "ティンパニ・ビブラフォン・コンガなど6種類の落札相場と直接引取の割合、楽器店ごとの打楽器の扱い。",
+    "category": "instrument"
+  },
+  {
+    "slug": "bookoff-gakki-kaitori",
+    "title": "ブックオフの楽器買取とは？",
+    "shortTitle": "ブックオフの楽器買取",
+    "badge": "業者を知る",
+    "description": "楽器を買い取る店舗は全779店中137店。業態・都道府県別の内訳と、ピアノ・バイオリンなど買取対象外の楽器を公式情報で整理。",
+    "category": "howto"
   }
 ]

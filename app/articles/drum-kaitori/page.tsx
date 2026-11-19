@@ -463,7 +463,7 @@ export default function DrumKaitoriPage() {
 
         <RelatedArticles
           currentSlug="drum-kaitori"
-          relatedSlugs={["guitar-kaitori", "bass-kaitori", "roland-kaitori", "pearl-kaitori", "ludwig-kaitori", "sonor-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "marimba-kaitori"]}
+          relatedSlugs={["guitar-kaitori", "bass-kaitori", "roland-kaitori", "pearl-kaitori", "ludwig-kaitori", "sonor-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "marimba-kaitori", "snare-drum-kaitori", "dagakki-kaitori"]}
         />
       </article>
     </>
