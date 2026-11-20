@@ -836,3 +836,10 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - `/articles/piccolo-kaitori/`（16・instrument→inst:flute）: 島村 型番「ピッコロ」80行−金管11行＝69行（A中央値241,000・ヤマハは YPC-62 以上7型番のみ＝YPC-32 掲示なし）＋ヤフオク349件→YPC 型番つき本体97件（YPC-32 39件 29,376・62 22件 101,270・81 11件 149,000）。「ピッコロ」はドラゴンボール・メダカ・スネアが大半＝除外必須。楽器の買取屋さん19件、ヤマハ希望小売価格
 - 導線: relatedSlugs 末尾に追加（organ・hammond→リードオルガン、classic-guitar・acoustic-guitar→サイレントギター、audio-interface・midi-keyboard→DTM機材、oboe・kangakki→ファゴット、flute→ピッコロ）。新規の先頭は既存の親（piano・guitar・audio-interface・clarinet・flute）にして既存グループを崩さない（oboe を先頭にすると oboe が親になり clarinet 群から抜ける）。gen-related-groups.py の変化は新規5本の追加のみ
 - sitemap 489→494。precheck 全項目OK（610ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。fetch-yahoo-medians-gakki.py は PYTHONDONTWRITEBYTECODE=1 で import（.pyc 変化なし）。Indexing は親がまとめて送る
+
+### 2026-11-20 朝ルーチン：07:00 点検「データが10日より古い」gakki-no-kaitoriyasan（10/22）＝公式で基本情報を再照合し ASOF 9/16→11/20（店舗一覧 26店・SHOPS_ASOF 10/22 は判断待ちで不変）／ティファナ宅配は停止継続で確認日を 11/20 に（src 8df4ea4d / deploy 2e188ef78）
+- 点検の拾った日付は SHOPS_ASOF「2026年10月22日時点」（ASOF 9/16 の方が古いが max を見る）。公式 11/20：トップ（0120-1717-67・24時間・年中無休・土日祝OK・最短30分・無料出張見積対応エリア46都道府県＝沖縄なし・古物 神奈川 第451310006356号・「出張費・査定料・搬出費用はすべて無料。…キャンセル料もかかりません」）、会社概要（UNI SOUND株式会社・新山下3-4-17 カリカチュアビル1F「こちらの方では買取は行っていません」）＝FACTS 一致 → ASOF 11/20・dateModified 11-20。費用欄と FAQ「出張料や査定料は…」を公式の「搬出費用も無料・キャンセル料なし」に（FAQ の「売らない場合の扱いは申し込み時に確認」→公式記載に置換）
+- 🔍 店舗：会社概要・/kaitori/shop/ とも 23店（甲府千塚・金沢・奈良神殿なし）。当ページ SHOPS 26店・SHOPS_ASOF 10/22 は判断待ちのため未変更（11/3 から継続）
+- ティファナ 11/20: /shipping/ に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」・online.tifana.net 503・トップに停止/再開の文言なし → 注記 11/19 → 11/20（334 ファイル・1,099 か所＝11/19 の 333＋kawaguchi の「宅配買取は一時停止中（公式のお知らせ・D確認）」1か所。日付を正規化した −/＋ 行が一致）。🔍 東京・埼玉54本の同型「（公式のお知らせ・2026年10月22日確認）」は 10/22 のまま（未変更・置換対象に入れるかは要確認）
+- 点検 C3 /author/ は 11/8〜 と同じ否定文（「個人の執筆者や経歴ではなく」）・Person 0＝誤検知（未変更）
+- 計測リンク t.felmat 6658・fmcl 3070・fmimp 3500（deploy 前＝out 後で一致）、ソース t.felmat 1140 不変。precheck 全項目OK（610ページ）。sitemap lastmod 231 URL。1回目のビルドは next/font（Google）取得失敗で rc=1 → 再実行で成功。deploy は rsync --exclude="*.txt"・`git add -A -- . ':(exclude)*.txt'`
