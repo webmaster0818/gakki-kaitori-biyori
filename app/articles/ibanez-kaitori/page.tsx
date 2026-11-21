@@ -5,10 +5,10 @@ import BrandSpotPrices from "@/components/BrandSpotPrices";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/ibanez-kaitori/' },
-  title: "【2026年11月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
-  description: "アイバニーズ（Ibanez）の買取価格を型番別に掲載。島村楽器の掲示ではRG421が1万〜1.7万円、AZ2204が5.9万〜10.5万円、JEM7Vが5.9万〜10.4万円、J.Customは52万円の型番も。シリーズ別の相場とおすすめ3社も比較します。",
+  title: "【2026年11月 週次相場更新】Ibanez（アイバニーズ）買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
+  description: "アイバニーズ（Ibanez）の買取価格を型番別に掲載。島村楽器の掲示ではRG421が1万〜1.7万円、AZ2204が5.9万〜10.5万円、JEM7Vが5.9万〜10.4万円、J.Customは52万円の型番も。11月30日までの島村の買取10%アップ、他店の買取実績、おすすめ3社も比較します。",
   openGraph: { images: ["/og-image.png"], 
-    title: "【2026年11月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
+    title: "【2026年11月 週次相場更新】Ibanez（アイバニーズ）買取おすすめ3社比較｜RG・JEM・Prestigeの相場",
     description: "アイバニーズの型番別の掲示買取価格（島村楽器）とシリーズ別の相場、おすすめ3社を比較します。",
   },
 };
@@ -36,15 +36,15 @@ function CtaBox() {
 
 function FaqSchema() {
   const faqData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
-      { "@type": "Question", name: "Ibanez Prestigeの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "日本製Prestigeの買取相場は4万〜18万円程度です（島村楽器の掲示：RG5320C A ¥146,000、AZ2204 A ¥105,000・C ¥59,000、2026年11月9日確認）。RG・S・AZなどのシリーズ、年式、状態によって変動します。J.Customは型番により4万〜52万円です。" } },
-      { "@type": "Question", name: "Ibanez JEMの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "JEMシリーズは5万〜20万円が目安です。島村楽器の掲示では、JEM7V が A ¥104,000・C ¥59,000、JEM777 が A ¥170,000 です（2026年11月9日確認）。" } },
+      { "@type": "Question", name: "Ibanez Prestigeの買取相場はいくらですか？", acceptedAnswer: { "@type": "Answer", text: "日本製Prestigeの買取相場は4万〜18万円程度です（島村楽器の掲示：RG5320C A ¥146,000、AZ2204 A ¥105,000・C ¥59,000、2026年11月21日確認）。RG・S・AZなどのシリーズ、年式、状態によって変動します。J.Customは型番により4万〜52万円です。" } },
+      { "@type": "Question", name: "Ibanez JEMの買取相場は？", acceptedAnswer: { "@type": "Answer", text: "JEMシリーズは5万〜20万円が目安です。島村楽器の掲示では、JEM7V が A ¥104,000・C ¥59,000、JEM777 が A ¥170,000 です（2026年11月21日確認）。" } },
       { "@type": "Question", name: "インドネシア製のIbanezでも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、インドネシア製でも買取可能です。ただし、日本製と比べると買取価格は低めです。RG Standardで1万〜5万円、GIOシリーズで3,000〜1万円が目安です。" } },
       { "@type": "Question", name: "Ibanezを高く売るコツは？", acceptedAnswer: { "@type": "Answer", text: "日本製かどうかを確認する、トレモロの状態を確認する、複数業者に査定を依頼する、付属品を揃える、の4つが重要です。" } },
       { "@type": "Question", name: "Ibanezのベースも買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、IbanezのSR・BTBなどのベースシリーズも買取対象です。Prestige（日本製）は3万〜12万円程度が目安です（島村楽器の掲示 SR4500 A ¥122,000）。" } }
   ]};
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年11月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場", datePublished: "2026-04-26", dateModified: "2026-11-09", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: "【2026年11月 週次相場更新】Ibanez（アイバニーズ）買取おすすめ3社比較｜RG・JEM・Prestigeの相場", datePublished: "2026-04-26", dateModified: "2026-11-21", author: { "@type": "Organization", name: "楽器買取びより" }, publisher: { "@type": "Organization", name: "楽器買取びより" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年11月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/ibanez-kaitori/\"}]}" }} /></>);
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"https://gakkikaitori-biyori.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"記事一覧\", \"item\": \"https://gakkikaitori-biyori.com/articles/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"【2026年11月 週次相場更新】Ibanez（アイバニーズ）買取おすすめ3社比較｜RG・JEM・Prestigeの相場\", \"item\": \"https://gakkikaitori-biyori.com/articles/ibanez-kaitori/\"}]}" }} /></>);
 }
 
 export default function Page() {
@@ -58,14 +58,14 @@ export default function Page() {
             <span className="bg-gold/10 text-gold-dark text-xs font-bold px-3 py-1 rounded-full">Ibanez買取</span>
             <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full">2026年最新</span>
           </div>
-          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年11月 週次相場更新】Ibanez買取おすすめ3社比較｜RG・JEM・Prestigeの相場</h1>
+          <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">【2026年11月 週次相場更新】Ibanez（アイバニーズ）買取おすすめ3社比較｜RG・JEM・Prestigeの相場</h1>
           <p className="text-warm-gray text-sm leading-relaxed">Ibanez（アイバニーズ）のギターを売りたい方へ。本記事では、Ibanez製ギターの買取に強い3社を比較し、RG・JEM・S・AZ・Prestigeなどシリーズ別の買取相場と高く売るコツを詳しく解説します。Ibanezは星野楽器が展開する日本発のグローバルギターブランドで、テクニカル系ギタリストから絶大な支持を受けています。</p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月9日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月21日</p>
         </header>
 
         <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
           <h2 className="font-bold text-lg mb-2">アイバニーズ（Ibanez）の掲示買取価格（型番別）</h2>
-          <p className="text-sm text-warm-gray leading-relaxed mb-3">島村楽器の「買取価格検索」に掲示されているアイバニーズの買取価格です（2026年11月9日確認）。インドネシア製のスタンダードなRGは1万〜3万円台、日本製の Prestige は4万〜18万円台、J.Custom は型番により50万円を超えます。</p>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">島村楽器の「買取価格検索」に掲示されているアイバニーズの買取価格です（2026年11月21日に全17型番を再確認・11月9日から変更なし）。インドネシア製のスタンダードなRGは1万〜3万円台、日本製の Prestige は4万〜18万円台、J.Custom は型番により50万円を超えます。</p>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">型番</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Aランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Bランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Cランク</th></tr></thead>
@@ -90,7 +90,37 @@ export default function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">出典：<a href="https://www.shimamura.co.jp/used/search.html?cat=4&amp;inst=&amp;brand=&amp;model=JCRG&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器「買取価格検索」</a>（型番で検索・2026年11月9日確認）。島村楽器の定義は、Aランク＝新品同様で傷や汚れがない、Bランク＝多少の傷や汚れがあるが機能に問題がない、Cランク＝使用感があり傷や汚れが目立つが機能に問題がない。付属品の欠品は別途減額、修理・調整が必要な場合はその費用が差し引かれます。掲示額は目安で、買取を保証するものではありません。同じ型番でもカラーや仕様の違う行は金額が異なります（例：RG8570M は A ¥88,000）。GIOシリーズ（GRG など）の掲示は見つかりませんでした。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">出典：<a href="https://www.shimamura.co.jp/used/search.html?cat=4&amp;inst=&amp;brand=&amp;model=JCRG&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器「買取価格検索」</a>（型番で検索・2026年11月21日確認）。島村楽器の定義は、Aランク＝新品同様で傷や汚れがない、Bランク＝多少の傷や汚れがあるが機能に問題がない、Cランク＝使用感があり傷や汚れが目立つが機能に問題がない。付属品の欠品は別途減額、修理・調整が必要な場合はその費用が差し引かれます。掲示額は目安で、買取を保証するものではありません。同じ型番でもカラーや仕様の違う行は金額が異なります（例：RG8570M は A ¥88,000）。GIOシリーズ（GRG など）の掲示は見つかりませんでした。</p>
+          <h3 className="font-bold text-base mt-4 mb-2">島村楽器は11月30日まで Ibanez の買取10%アップ</h3>
+          <p className="text-sm text-warm-gray leading-relaxed mb-2">島村楽器は「一本からのギター整理応援！買取10%UPキャンペーン」として、2026年11月1日〜11月30日に Ibanez・ESP・MUSICMAN のエレキギターの買取価格を通常より10%上げています。申込みの際にキャンペーンコード（CP-043A）をスタッフに伝える（ネット買取センターは申込フォームに入力する）必要があり、契約後の適用はできません。店舗買取特典（5%）・下取特典（10%）・当社購入品特典（5%）と併用すると最大30%アップです。上の表の掲示額はキャンペーンを含まない通常の買取価格です。</p>
+          <div className="table-wrapper mb-2">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">キャンペーン適用時の例</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Aランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Bランク</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">Cランク</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2 font-medium">AZ224F</td><td className="px-3 py-2"><strong>¥80,300</strong>（＋¥7,300）</td><td className="px-3 py-2">¥64,900（＋¥5,900）</td><td className="px-3 py-2">¥45,100（＋¥4,100）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium">RG2570MZ</td><td className="px-3 py-2"><strong>¥72,600</strong>（＋¥6,600）</td><td className="px-3 py-2">¥58,300（＋¥5,300）</td><td className="px-3 py-2">¥40,700（＋¥3,700）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed mb-3">出典：<a href="https://www.shimamura.co.jp/p/campaign/used/eg-ibanez_esp_musicman-sell.html" target="_blank" rel="nofollow noopener" className="underline">島村楽器「一本からのギター整理応援！買取10%UPキャンペーン」</a>（11月1日時点の買取価格・税込。カッコ内は特典なしの価格との差額。2026年11月21日確認）。予告なく変更・終了する場合があります。</p>
+          <h3 className="font-bold text-base mt-4 mb-2">ほかの買取店の公表実績（高く売れるドットコム）</h3>
+          <p className="text-sm text-warm-gray leading-relaxed mb-2">高く売れるドットコムは Ibanez のページで、直近の買取実績（買取日・都道府県・状態つき）と「Ibanez製品の買取相場は5,000円〜50,000円前後」という目安を公表しています。掲載されている実績の一部です。</p>
+          <div className="table-wrapper mb-2">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium">商品（掲載名の要約）</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">状態</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取日</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取価格</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-3 py-2">j.custom RG8527Z（7弦）</td><td className="px-3 py-2">美品</td><td className="px-3 py-2">2026/10/31</td><td className="px-3 py-2"><strong>¥206,000</strong></td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2">Paul Gilbert model PGM400</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2">2026/10/4</td><td className="px-3 py-2"><strong>¥60,000</strong></td></tr>
+                <tr className="bg-white"><td className="px-3 py-2">Iron Label RGRTBB21</td><td className="px-3 py-2">程度良好</td><td className="px-3 py-2">2026/11/1</td><td className="px-3 py-2"><strong>¥48,000</strong></td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2">SDGR SR-1100E（ベース）</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2">2026/10/13</td><td className="px-3 py-2"><strong>¥40,000</strong></td></tr>
+                <tr className="bg-white"><td className="px-3 py-2">AG75G（フルアコ）</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2">2026/10/10</td><td className="px-3 py-2"><strong>¥30,000</strong></td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2">RG1550 Prestige</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2">2026/10/13</td><td className="px-3 py-2"><strong>¥15,000</strong></td></tr>
+                <tr className="bg-white"><td className="px-3 py-2">RG470</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2">2026/10/12</td><td className="px-3 py-2"><strong>¥15,000</strong></td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2">AZES40</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2">2026/10/2</td><td className="px-3 py-2"><strong>¥8,000</strong></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed mb-3">出典：<a href="https://www.takakuureru.com/gakki/guitar/ibanez/" target="_blank" rel="nofollow noopener" className="underline">高く売れるドットコム「IBANEZ（アイバニーズ）ギター 買取」</a>の買取実績（2026年11月21日確認）。個別の実績で、同じ型番でも状態・付属品・時期で金額は変わります。Prestige でも RG1550 は ¥15,000 の実績で、日本製なら必ず高いとは限りません。</p>
           <h3 className="font-bold text-base mt-4 mb-2">持ち込みか出張か</h3>
           <p className="text-sm text-warm-gray leading-relaxed">ギター・ベースは店頭に持ち込めます。島村楽器の店頭買取は代金が銀行振込のみ（現金払いなし・10万円以上は1週間ほど）で、<a href="https://www.ishibashi.co.jp/kaitori/tentou/" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器の店頭買取</a>はその場で現金または振込（鑑定合計50万円以上は振込）です（2026年11月9日確認）。複数本をまとめて売る場合や近くに店がない場合は、出張買取や一括査定で比べてください。</p>
         </section>
@@ -157,8 +187,8 @@ export default function Page() {
 
           <h2 id="faq">Ibanez買取に関するよくある質問</h2>
           <div className="space-y-4 mt-6">
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Ibanez Prestigeの買取相場はいくらですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">日本製Prestigeの買取相場は4万〜18万円程度です（島村楽器の掲示：RG5320C A ¥146,000、AZ2204 A ¥105,000・C ¥59,000、2026年11月9日確認）。RG・S・AZなどのシリーズ、年式、状態によって変動します。J.Customは型番により4万〜52万円です。</div></details>
-            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Ibanez JEMの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">JEMシリーズは5万〜20万円が目安です。島村楽器の掲示では、JEM7V が A ¥104,000・C ¥59,000、JEM777 が A ¥170,000 です（2026年11月9日確認）。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Ibanez Prestigeの買取相場はいくらですか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">日本製Prestigeの買取相場は4万〜18万円程度です（島村楽器の掲示：RG5320C A ¥146,000、AZ2204 A ¥105,000・C ¥59,000、2026年11月21日確認）。RG・S・AZなどのシリーズ、年式、状態によって変動します。J.Customは型番により4万〜52万円です。</div></details>
+            <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Ibanez JEMの買取相場は？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">JEMシリーズは5万〜20万円が目安です。島村楽器の掲示では、JEM7V が A ¥104,000・C ¥59,000、JEM777 が A ¥170,000 です（2026年11月21日確認）。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">インドネシア製のIbanezでも買い取ってもらえますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、インドネシア製でも買取可能です。ただし、日本製と比べると買取価格は低めです。RG Standardで1万〜5万円、GIOシリーズで3,000〜1万円が目安です。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Ibanezを高く売るコツは？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">日本製かどうかを確認する、トレモロの状態を確認する、複数業者に査定を依頼する、付属品を揃える、の4つが重要です。</div></details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden"><summary className="flex items-center justify-between px-5 py-4 text-sm font-bold"><span className="pr-4">Ibanezのベースも買い取ってもらえますか？</span><svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、IbanezのSR・BTBなどのベースシリーズも買取対象です。Prestige（日本製）は3万〜12万円程度が目安です（島村楽器の掲示 SR4500 A ¥122,000）。</div></details>
