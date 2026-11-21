@@ -858,3 +858,13 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 🔍 未照合（今日は触っていない）: 一番町ギター・BIGBOSS 仙台・高く売れるドットコム 仙台リユースセンター・中古楽器堂 仙台店・仙台買取サービス・ニーゴ・リユース 仙台店・出張買取チェンジ仙台・楽器の買取屋さんの仙台出張。サービス一覧の li01（class）＝off（ロフト店は管楽器メンテ・防音室展示・クラシック特化が off）
 - 点検 C3 /author/ は 11/8〜 と同じ否定文（「個人の執筆者や経歴ではなく」）・本番 Person 0＝誤検知（未変更）
 - 計測リンク t.felmat 6658・fmcl 3070・fmimp 3500（deploy 前＝out 後で一致）、ソース t.felmat 1140 不変。precheck 全項目OK（610ページ）。sitemap lastmod 232 URL。deploy は rsync --delete --exclude="*.txt"・`git add -A -- . ':(exclude)*.txt'`
+
+### 2026-11-21 12:00 成長ルーチン：ibanez の title/h1 に「Ibanez（アイバニーズ）」・冒頭に島村 Ibanez 買取10%UP と高く売れるドットコムの買取実績（src 4b376a23・507cc0a7 / deploy dee922f38）
+- 対象 /articles/ibanez-kaitori/（「ibanez 買取」18@17.1・「アイバニーズ 買取」8@10.9・クリック0）。11/9 変更以降の個別変更なし（ファイル単位 git log --since=11-12 は空）・11/14 以降の title 変更なし・crawl 11/20 でクロール済み
+- title/h1/OG/Article headline/BreadcrumbList: 「Ibanez買取おすすめ3社比較」→「Ibanez（アイバニーズ）買取おすすめ3社比較」（月次の【2026年11月 週次相場更新】は不変）。description に 10%UP・他店実績（148字）
+- 島村「買取価格検索」掲示17型番（`scripts` なし・cat=4/5 で curl）を 11/21 再照合＝全一致。BTB・JCRG・AZ 系のレンジも一致 → 確認日 11/9→11/21（表・FAQ 表示＋JSON-LD）。更新日/dateModified 11-21
+- 追加（#kakaku 内）: 島村 /p/campaign/used/eg-ibanez_esp_musicman-sell.html「一本からのギター整理応援！買取10%UPキャンペーン」11/1〜11/30・コード CP-043A・店舗5%/下取10%/購入品5% 併用で最大30%・適用例 AZ224F A ¥80,300（+7,300）・RG2570MZ A ¥72,600（+6,600）（11/1 時点）。⚠️公式ページの「買取対象商品」見出し下に「下記ブランドの電子ドラム」と誤記あり（タイトルはエレキギター）→ 当ページはエレキギターと記載。**11/30 で終了 → 12/1 以降に節の削除か終了表記が必要**
+- 追加: 高く売れるドットコム /gakki/guitar/ibanez/ の買取実績8件（RG8527Z 美品 ¥206,000 10/31 〜 AZES40 ¥8,000 10/2）と相場目安「5,000円〜50,000円前後」
+- 競合（WebSearch・US 経由）: 「ibanez 買取」は島村の検索結果・キャンペーンページ、高く売れるドットコムのキーワード頁が上位。「アイバニーズ 買取」は高く売れるドットコム・ウリドキ（エレアコ最高 5,000円）。日本の SERP 順位そのものは取れず
+- 未照合: 島村「10万円以上は1週間ほど」（/used/flow/shop/ には記載なし＝11/9 確認のまま）。イシバシ店頭の現金/振込・50万以上振込は 11/21 一致（文中の確認日は 11/9 のまま）
+- 計測リンク out html 6658→6658・当該ページ 20→20、ソース 1132 不変。precheck 全項目OK（610ページ）。可視テキストが変わったのは ibanez 1本のみ（buildId 正規化で比較）。sitemap lastmod は ibanez のみ 11-21。deploy は rsync --delete --exclude=.git --exclude="*.txt"・`git add -u`＋新 buildId の _next/static を明示 add。push 12:12 → 本番 12:16 反映（新表記あり・旧 title／旧確認日 0）。Indexing 未送信（親）
