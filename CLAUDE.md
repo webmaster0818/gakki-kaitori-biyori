@@ -877,3 +877,11 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 点検 C3 /author/ は 11/8〜 と同じ否定文（「個人の執筆者や経歴ではなく」）＝誤検知（未変更）
 - 計測リンク t.felmat 6658・fmcl 3070・fmimp 3500（deploy 前＝out 後で一致）、ソース t.felmat 1140 不変。precheck 全項目OK。sitemap lastmod 233 URL。deploy は rsync --delete --exclude=.git --exclude="*.txt"・`git add -A -- . ':(exclude)*.txt'`（__next 混入 0）
 - push 09:23 → 本番 09:50 反映（CF ビルド約27分）。本番 tokyo：新表記「最短翌日以降」2・旧「10月25日」「最短即日」「多摩地域全域」「搬出料」0、TOP・akita・kawaguchi の 11/21 注記 0。計測リンク tokyo 32＝out 32。Indexing 未送信（親）
+
+### 2026-11-22 12:00 成長ルーチン：Flying V の title/h1 に表記と買取実績・冒頭に公開買取実績13件／roland に年式つきの電子ピアノ買取実績（src c8bb1b42 / deploy b44266195）
+- /articles/gibson-flying-v-kaitori/（「フライングv 買取」17@5.9c0）: 変更記録なし・11/15 以降の title 変更なし。title/h1/Article headline/BreadcrumbList を「Gibson Flying V（ギブソン フライングV）の買取価格｜買取実績3万〜11万円・Custom Shop 15万〜20.5万円【2026年】」に、desc も実績レンジに（153字）。冒頭に #kakaku: 高く売れるドットコム /keyword/ギブソン/ 1〜70頁を 11/22 に確認して Gibson 製 Flying V の行を転記（Custom Shop 以外10件 2024/02〜2026/04 30,000〜110,000円／Custom Shop 3件 150,000〜205,000円。ジャンク2件・Epiphone・2023年の程度不良は除外）。出典のない目安「現行USA 8万〜18万円・Custom Shop 15万〜40万円・ヴィンテージ数十万〜数百万円」を本文・FAQ（表示＋JSON-LD）とも実績の記述に置換。
+  - 判断待ち（報告のみ）: /articles/gibson-flyingv-kaitori/（ヤフオク中央値型）が同じ「フライングV 買取」を受けるカニバリ。統合・301 は親判断。
+- /articles/roland-kaitori/（「ローランド 電子ピアノ 買取」12@13.8）: 11/11 変更以降の個別変更なし。冒頭の掲示表は家庭用 HP/LX/RP の掲示が無かった → 高く売れるドットコム /gakki/denshi-piano/roland/ の電子ピアノ実績6件（HP603 2017年製 5,000・RP501R 2016年製 8,000・DP90S 2015年製 7,000・FP-60X 2022年製 20,000・RD-88 2023年製 40,000・RD-700NX 訳有 17,000円、10/22〜10/29）を h3 で追加。title 不変。更新日/dateModified 11-22。
+- nagoya-gakki-kaitori は 11/18（ceeb3afe）・11/19（12275823 ロッキン栄の支払い）の個別変更があるため触らず。
+- 競合（WebSearch・US 経由）: 日本の SERP 順位は取れず。おたからや（Flying V 1978 は ASK）・高く売れるドットコムの実績一覧が出た。
+- 計測リンク out html t.felmat 6658・fmcl 3070・fmimp 3500（変更前と一致）、ページ別 Flying V 16→16・roland 28→28。precheck 全項目OK。可視テキスト差分は2本＋sitemap。deploy は rsync --delete --exclude=.git --exclude="*.txt"・`git add -u`＋新 buildId を明示 add。push 12:54 → 本番 12:55 反映（新 title 8・旧「8万〜18万」0）。Indexing 未送信（親）
