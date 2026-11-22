@@ -78,7 +78,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】Roland買取おすすめ3社比較｜電子ピアノ・シンセ・電子ドラムの相場",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-22",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -108,7 +108,7 @@ export default function RolandKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             Roland（ローランド）の電子ピアノ、シンセサイザー、電子ドラム、ギターアンプを売りたい方へ。本記事では、Roland製品の買取に強い3社を比較し、製品カテゴリ別の買取相場、高く売るコツまで詳しく解説します。1972年創業の老舗電子楽器メーカーRolandは、中古市場でも安定した需要があります。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月11日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月22日</p>
         </header>
 
         <section id="kakaku" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
@@ -121,6 +121,15 @@ export default function RolandKaitoriPage() {
             </table>
           </div>
           <p className="text-xs text-warm-gray leading-relaxed mb-4">出典: <a href="https://reuse.ishibashi.co.jp/ja/search?search_text=Roland%20FP-90X&amp;sort=desc" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 買取価格検索</a>／<a href="https://www.shimamura.co.jp/used/search.html?cat=&amp;inst=&amp;brand=&amp;model=RD-&amp;num=100&amp;pg=1" target="_blank" rel="nofollow noopener" className="underline">島村楽器 買取価格検索</a>（いずれも2026年11月11日確認）。各社とも「商品状態や時期によって金額が増減する目安」としています。</p>
+          <h3 className="font-bold text-base mb-2">家庭用（HP・RP・DP）を含む年式つきの買取実績</h3>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3"><strong>家庭用の電子ピアノは、2015〜2017年製の一般中古で 5,000〜8,000円</strong> の買取実績です。2022〜2023年製の FP-60X・RD-88 は 20,000〜40,000円で、年式が新しくポータブル・ステージ系ほど高い傾向が実績からも読み取れます。</p>
+          <div className="table-wrapper mb-3">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium">モデル（年式）</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">種類</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">状態</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取日</th><th className="px-3 py-2 text-right font-medium whitespace-nowrap">買取価格</th></tr></thead>
+              <tbody className="divide-y divide-warm-border"><tr className="bg-white"><td className="px-3 py-2 font-medium">HP603-AWH（2017年製・椅子付き）</td><td className="px-3 py-2">家庭用</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2 whitespace-nowrap">2026/10/27</td><td className="px-3 py-2 text-right font-bold whitespace-nowrap">¥5,000</td></tr><tr className="bg-cream/50"><td className="px-3 py-2 font-medium">RP501R-CR（2016年製）</td><td className="px-3 py-2">家庭用</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2 whitespace-nowrap">2026/10/28</td><td className="px-3 py-2 text-right font-bold whitespace-nowrap">¥8,000</td></tr><tr className="bg-white"><td className="px-3 py-2 font-medium">DP90S（2015年製）</td><td className="px-3 py-2">家庭用</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2 whitespace-nowrap">2026/10/27</td><td className="px-3 py-2 text-right font-bold whitespace-nowrap">¥7,000</td></tr><tr className="bg-cream/50"><td className="px-3 py-2 font-medium">FP-60X-BK（2022年製）</td><td className="px-3 py-2">ポータブル</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2 whitespace-nowrap">2026/10/22</td><td className="px-3 py-2 text-right font-bold whitespace-nowrap">¥20,000</td></tr><tr className="bg-white"><td className="px-3 py-2 font-medium">RD-88（2023年製）</td><td className="px-3 py-2">ステージピアノ</td><td className="px-3 py-2">一般中古</td><td className="px-3 py-2 whitespace-nowrap">2026/10/25</td><td className="px-3 py-2 text-right font-bold whitespace-nowrap">¥40,000</td></tr><tr className="bg-cream/50"><td className="px-3 py-2 font-medium">RD-700NX（年式記載なし）</td><td className="px-3 py-2">ステージピアノ</td><td className="px-3 py-2">一般中古・訳有</td><td className="px-3 py-2 whitespace-nowrap">2026/10/29</td><td className="px-3 py-2 text-right font-bold whitespace-nowrap">¥17,000</td></tr></tbody>
+            </table>
+          </div>
+          <p className="text-xs text-warm-gray leading-relaxed mb-4">出典: <a href="https://www.takakuureru.com/gakki/denshi-piano/roland/" target="_blank" rel="nofollow noopener" className="underline">高く売れるドットコム ローランドの電子ピアノの買取実績</a>（2026年11月22日確認・掲載の電子ピアノの行をすべて転記）。買取実績はその店がその日に買い取った金額で、同じ型番の買取額を保証するものではありません。</p>
           <h3 className="font-bold text-base mb-2">持ち込み・出張の条件</h3>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
