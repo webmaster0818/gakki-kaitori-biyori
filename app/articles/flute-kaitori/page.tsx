@@ -148,7 +148,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="flute-kaitori"
-          relatedSlugs={["kangakki-kaitori", "clarinet-kaitori", "oboe-kaitori", "saxophone-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "piccolo-kaitori"]}
+          relatedSlugs={["kangakki-kaitori", "clarinet-kaitori", "oboe-kaitori", "saxophone-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "piccolo-kaitori", "yamaha-flute-kaitori"]}
         />
         </div>
       </article>

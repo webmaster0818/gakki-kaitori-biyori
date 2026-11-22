@@ -4782,5 +4782,45 @@
     "badge": "木管楽器",
     "description": "ヤマハ YPC の型番別の掲示買取価格と落札97件、パウエル・ハンミッヒなどブランド別の掲示69行。",
     "category": "instrument"
+  },
+  {
+    "slug": "yamaha-trumpet-kaitori",
+    "title": "ヤマハのトランペットの買取相場",
+    "shortTitle": "ヤマハのトランペットの買取",
+    "badge": "トランペット",
+    "description": "島村楽器の掲示64行をシリーズ別に、入門機種（YTR-135・1335・2335 など）はヤフオクの落札を型番別に集計。",
+    "category": "brand"
+  },
+  {
+    "slug": "yamaha-flute-kaitori",
+    "title": "ヤマハのフルートの買取相場",
+    "shortTitle": "ヤマハのフルートの買取",
+    "badge": "フルート",
+    "description": "YFL の200〜800番台の材質・島村楽器の掲示92行・落札中央値。H足部管の有無による掲示の差。",
+    "category": "brand"
+  },
+  {
+    "slug": "yanagisawa-wo2-kaitori",
+    "title": "ヤナギサワ WO2の買取相場",
+    "shortTitle": "ヤナギサワ WO2の買取",
+    "badge": "ヤナギサワ WO2",
+    "description": "A-WO2・S-WO2・T-WO2 の標準価格・島村楽器の掲示・落札価格。銀メッキ SP と WO20 との差。",
+    "category": "model"
+  },
+  {
+    "slug": "lacquer-silver-plate-kaitori",
+    "title": "ラッカーと銀メッキの買取価格の違い",
+    "shortTitle": "ラッカーと銀メッキの違い",
+    "badge": "高く売るコツ",
+    "description": "島村楽器の掲示から同じ型番・同じ製造期間の36組を比較。ヤマハとヤナギサワで傾向が異なる点。",
+    "category": "howto"
+  },
+  {
+    "slug": "mouthpiece-kaitori",
+    "title": "マウスピースの買取相場",
+    "shortTitle": "マウスピースの買取",
+    "badge": "売り方",
+    "description": "マウスピース単体の落札345件をブランド別に集計。マウスピースの買取を明記している楽器店。",
+    "category": "howto"
   }
 ]

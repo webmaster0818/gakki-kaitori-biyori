@@ -151,7 +151,7 @@ export default function YanagisawaAwo10KaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="yanagisawa-awo10-kaitori" relatedSlugs={["yamaha-yas875-kaitori", "saxophone-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]} />
+        <RelatedArticles currentSlug="yanagisawa-awo10-kaitori" relatedSlugs={["yamaha-yas875-kaitori", "saxophone-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "yanagisawa-wo2-kaitori", "lacquer-silver-plate-kaitori"]} />
       </article>
     </>
   );

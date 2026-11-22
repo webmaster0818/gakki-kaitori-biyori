@@ -76,7 +76,7 @@ export default function Page() {
           <p className="text-foreground/90 leading-relaxed mt-4">まずは<a href="https://hikakaku.com" target="_blank" rel="noopener noreferrer nofollow" className="text-accent-dark underline">ヒカカク！の一括査定</a>で複数業者の見積もりを比較し、その金額を基準に専門店の個別査定と組み合わせるのがおすすめです。</p>
         </section>
 
-        <RelatedArticles currentSlug="muramatsu-flute-kaitori" relatedSlugs={["flute-kaitori", "souba-ranking", "takaku-uru-kotsu", "kaitori-houhou-hikaku"]} />
+        <RelatedArticles currentSlug="muramatsu-flute-kaitori" relatedSlugs={["flute-kaitori", "souba-ranking", "takaku-uru-kotsu", "kaitori-houhou-hikaku", "yamaha-flute-kaitori"]} />
       </article>
     </>
   );

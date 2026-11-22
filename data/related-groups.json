@@ -236,6 +236,7 @@
     "flute-kaitori",
     "piccolo-kaitori",
     "recorder-kaitori",
+    "yamaha-flute-kaitori",
     "muramatsu-flute-kaitori"
    ]
   },
@@ -324,7 +325,9 @@
    "label": "「管楽器買取」と関連する買取ガイド",
    "members": [
     "kangakki-kaitori",
-    "ikebe-gakki-kaitori"
+    "ikebe-gakki-kaitori",
+    "lacquer-silver-plate-kaitori",
+    "mouthpiece-kaitori"
    ]
   },
   "inst:microphone-kaitori": {
@@ -394,7 +397,8 @@
     "yamaha-yas62-kaitori",
     "yamaha-yas875-kaitori",
     "yamaha-ytr8335-kaitori",
-    "yanagisawa-awo10-kaitori"
+    "yanagisawa-awo10-kaitori",
+    "yanagisawa-wo2-kaitori"
    ]
   },
   "inst:synthesizer-kaitori": {
@@ -420,6 +424,7 @@
     "horn-kaitori",
     "bach-kaitori",
     "jupiter-kaitori",
+    "yamaha-trumpet-kaitori",
     "bach-stradivarius-kaitori"
    ]
   },
@@ -870,6 +875,7 @@
   "flute-kaitori": "フルート買取相場ガイド",
   "piccolo-kaitori": "ピッコロの買取",
   "recorder-kaitori": "リコーダー買取ガイド",
+  "yamaha-flute-kaitori": "ヤマハのフルートの買取",
   "muramatsu-flute-kaitori": "ムラマツ フルート買取相場",
   "grand-piano-kaitori": "グランドピアノ買取相場ガイド",
   "kawai-rx2-kaitori": "カワイ RX-2買取ガイド",
@@ -934,6 +940,8 @@
   "uriel-gakki-kaitori-kuchikomi": "ウリエル 口コミ・評判",
   "kangakki-kaitori": "管楽器買取",
   "ikebe-gakki-kaitori": "イケベ楽器の買取",
+  "lacquer-silver-plate-kaitori": "ラッカーと銀メッキの違い",
+  "mouthpiece-kaitori": "マウスピースの買取",
   "microphone-kaitori": "マイク買取相場ガイド",
   "sennheiser-kaitori": "ゼンハイザー買取相場",
   "shure-kaitori": "Shure(シュア)買取相場",
@@ -989,6 +997,7 @@
   "yamaha-yas875-kaitori": "ヤマハ YAS-875買取ガイド",
   "yamaha-ytr8335-kaitori": "ヤマハ YTR-8335買取相場",
   "yanagisawa-awo10-kaitori": "ヤナギサワ AWO10買取ガイド",
+  "yanagisawa-wo2-kaitori": "ヤナギサワ WO2の買取",
   "synthesizer-kaitori": "シンセサイザー買取相場ガイド",
   "korg-kaitori": "KORG買取相場ガイド",
   "moog-kaitori": "Moog買取ガイド",
@@ -1004,6 +1013,7 @@
   "horn-kaitori": "ホルン買取ガイド",
   "bach-kaitori": "Bach(バック)買取相場",
   "jupiter-kaitori": "Jupiter買取ガイド",
+  "yamaha-trumpet-kaitori": "ヤマハのトランペットの買取",
   "bach-stradivarius-kaitori": "バック ストラディバリ買取",
   "violin-kaitori": "バイオリン買取相場ガイド",
   "contrabass-kaitori": "コントラバス買取ガイド",
