@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://gakkikaitori-biyori.com/articles/kobe-gakki-kaitori/' },
   title: "神戸の楽器買取はどこがいい？三宮の専門店・近くの店・出張の選び方とおすすめ業者【2026年11月】",
   description:
-    "神戸で楽器を持ち込むなら三宮のQsic神戸本店・島村楽器三宮オーパ店（振込のみ）。楽器の買取屋さんは兵庫県に店舗がなく神戸は出張対象。各店の住所・受付時間・支払い方法を公式で確認した早見表と3社比較。",
+    "神戸で楽器を持ち込むなら三宮のQsic神戸本店・島村楽器三宮オーパ店（振込のみ）。楽器の買取屋さんは兵庫県に店舗がなく、神戸市を含む兵庫県全域が出張対象。各店の住所・受付時間・支払い方法を公式で確認した早見表と3社比較。",
   openGraph: { images: ["/og-image.png"], 
     title: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     description: "神戸で楽器を売るなら。おすすめ買取3社の比較と高く売るコツを解説します。",
@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-13",
+    dateModified: "2026-11-23",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -110,10 +110,10 @@ export default function KobeGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             神戸で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月23日</p>
         </header>
 
-        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6">「楽器の買取屋さん」を探している方へ：兵庫県内に店舗はなく、神戸市は出張買取の対象です。運営会社・近畿の店舗・出張／宅配の条件を、公式サイトの公表内容でまとめています。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6"><strong>「楽器の買取屋さん（神戸・兵庫県）」の答え：</strong>兵庫県内に店舗はありません。神戸市を含む兵庫県全域が出張買取の対象で、出張費・査定料は無料、査定額に納得できない場合のキャンセル料もかかりません。近畿の店舗は大阪門真店（門真市）と大阪心斎橋店（大阪市中央区）で、どちらも営業時間は10:00〜19:00です。公式の地域ページには神戸市の買取事例が12件載っています（楽器の買取屋さん公式で2026年11月23日に確認）。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">運営会社・宅配の条件・買取事例を見る</a></p>
 
         <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
           <h2 className="font-bold text-lg mb-2">神戸で楽器を持ち込める店（早見表）</h2>

@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-13",
+    dateModified: "2026-11-23",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -110,10 +110,10 @@ export default function YokohamaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             横浜で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、横浜エリア対応の楽器買取おすすめ3社を比較します。横浜駅周辺のイシバシ楽器・クロサワ楽器・島村楽器など専門店の情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月13日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月23日</p>
         </header>
 
-        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6">「楽器の買取屋さん 横浜店」を探している方へ：運営会社・横浜店の所在地と営業時間・出張／宅配の条件を、公式サイトの公表内容でまとめています。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">楽器の買取屋さんの基本情報へ</a></p>
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6"><strong>「楽器の買取屋さん 横浜店」の答え：</strong>所在地は横浜市中区万代町1丁目2-3 座間ビル3F（駐車場なし）、営業時間は10:00〜19:00で、来店前に電話するよう公式が案内しています。横浜市を含む神奈川県全域が出張買取の対象で、出張費・査定料は無料、査定額に納得できない場合のキャンセル料もかかりません。公式の地域ページには横浜市の買取事例が12件載っています（楽器の買取屋さん公式で2026年11月23日に確認）。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">運営会社・宅配の条件・買取事例を見る</a></p>
 
         <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
           <h2 className="font-bold text-lg mb-2">横浜で楽器を持ち込める店（早見表）</h2>
@@ -129,7 +129,7 @@ export default function YokohamaGakkiKaitoriPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月13日に確認。楽器の買取屋さんの店舗紹介ページには「店舗を持たず買取用の倉庫のみ」という定型文もあるため、持ち込む前に電話で受付を確認してください。運営会社・出張／宅配の条件は<a href="#kaitoriyasan-info" className="underline">楽器の買取屋さん（横浜店）の基本情報</a>に、ピアノなど運べない楽器は<a href="#method" className="underline">出張・店頭・宅配の選び方</a>にまとめています。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月13日に確認（楽器の買取屋さん 横浜店は2026年11月23日に再確認）。楽器の買取屋さんは来店前の電話を案内しているため、持ち込む前に電話で受付を確認してください。運営会社・出張／宅配の条件は<a href="#kaitoriyasan-info" className="underline">楽器の買取屋さん（横浜店）の基本情報</a>に、ピアノなど運べない楽器は<a href="#method" className="underline">出張・店頭・宅配の選び方</a>にまとめています。</p>
         </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
