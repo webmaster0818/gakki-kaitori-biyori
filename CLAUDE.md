@@ -898,3 +898,9 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 導線: relatedSlugs 末尾に追加（trumpet・ytr8335→ヤマハTP、flute・muramatsu→ヤマハFL、yanagisawa・awo10・saxophone→WO2、sax・yas62・kangakki・ytr8335・awo10→ラッカー、trumpet・sax・kangakki・fuzokuhin→マウスピース）。新規の先頭は既存の親（trumpet・flute・saxophone・kangakki）。gen-related-groups.py の変化は新規5本の追加のみ（kangakki 群が2→4本）
 - sitemap 494→499（lastmod 2026-11-23 は新規5＋TOP・記事一覧・導線9本。gakki-fuzokuhin は sitemap 外）。precheck 全項目OK（615ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。t.felmat 6658→6698（新規5本×8）。Indexing は親がまとめて送る
 - push 02:22 → 本番 02:23 反映。5本とも 200・h1 一致、本番 sitemap 499 URL、trumpet-kaitori から新規への導線あり
+
+### 2026-11-23 朝ルーチン：ティファナ宅配は停止継続で確認日を 11/23 に／千葉ギター（guitar-kaitori-chiba）を公式で再照合（src 3d3942cb・850d3e55 / deploy 9f1b60719）
+- ティファナ 11/23: tifana.net/shipping/ に「宅配買取のサービス・ECサイトをシステムリニューアルのため一時停止しております。」・online.tifana.net 503・トップに停止/再開の文言なし → 注記 11/22 → 11/23（334 ファイル＋生成器 CHECKED・1,099 か所。日付を正規化した −/＋ 行が一致）。「宅配買取は…時点で一時停止中です（公式のお知らせ）」型3か所（kawai-rx2・conn・RecommendedServices）も含む
+- guitar-kaitori-chiba 公式 11/23: ティファナ /visit/ 千葉県＝相談地域6市（市川・船橋・松戸・柏・流山・浦安）・千葉市なし、/access/ 店舗は東京都12・埼玉県3＝本文と一致。ウリエル /visit/「関東エリア…千葉県」「※一部対応できない市町村がございます」「出張料・査定料無料」＝一致 → 確認日 10/25→11/23・更新日・dateModified（07-04→11-23）・sitemap
+- 🔍 報告のみ: 同ページの比較表 ティファナ「出張/店頭/宅配」と「宅配買取 ── 全国どこからでも」節にティファナ宅配停止の注記なし（指示外で未変更）。次の地域は shinjuku（11/5）
+- 計測リンク t.felmat 6698（deploy 前＝out）。precheck 全項目OK。push 09:39 → 本番 09:51 反映確認
