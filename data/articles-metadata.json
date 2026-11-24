@@ -4840,6 +4840,14 @@
     "category": "instrument"
   },
   {
+    "slug": "biwa-kaitori",
+    "title": "琵琶の買取相場",
+    "shortTitle": "琵琶の買取",
+    "badge": "和楽器",
+    "description": "琵琶本体の落札114件を薩摩・筑前・弦の数の表記別に集計。琵琶を買取対象に挙げている業者の掲載状況。",
+    "category": "instrument"
+  },
+  {
     "slug": "behringer-kaitori",
     "title": "ベリンガー（BEHRINGER）の買取価格",
     "shortTitle": "ベリンガーの買取",

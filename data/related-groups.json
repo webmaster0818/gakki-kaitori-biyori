@@ -446,6 +446,7 @@
    "label": "「和楽器の買取」と関連する買取ガイド",
    "members": [
     "wagakki-kaitori",
+    "biwa-kaitori",
     "koto-kaitori",
     "minzoku-gakki-kaitori",
     "niko-kaitori",
@@ -1030,6 +1031,7 @@
   "viola-kaitori": "ビオラ買取ガイド",
   "suzuki-violin-kaitori": "スズキバイオリン買取ガイド",
   "wagakki-kaitori": "和楽器の買取",
+  "biwa-kaitori": "琵琶の買取",
   "koto-kaitori": "琴(箏)買取相場ガイド",
   "minzoku-gakki-kaitori": "民族楽器の買取",
   "niko-kaitori": "二胡の買取",
