@@ -162,7 +162,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="grand-piano-kaitori"
-          relatedSlugs={["piano-no-kaitoriyasan", "kawai-piano-kaitori", "kawai-rx2-kaitori", "yamaha-c3-kaitori", "steinway-b211-kaitori", "piano-kaitori", "denshi-piano-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "guitar-kaitori"]}
+          relatedSlugs={["piano-no-kaitoriyasan", "kawai-piano-kaitori", "kawai-rx2-kaitori", "yamaha-c3-kaitori", "steinway-b211-kaitori", "piano-kaitori", "denshi-piano-kaitori", "kawai-kaitori", "steinway-kaitori", "bosendorfer-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "guitar-kaitori", "bouonshitsu-kaitori"]}
         />
         </div>
       </article>

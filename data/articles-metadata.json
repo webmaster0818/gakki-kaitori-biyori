@@ -4822,5 +4822,45 @@
     "badge": "売り方",
     "description": "マウスピース単体の落札345件をブランド別に集計。マウスピースの買取を明記している楽器店。",
     "category": "howto"
+  },
+  {
+    "slug": "bouonshitsu-kaitori",
+    "title": "防音室の買取",
+    "shortTitle": "防音室の買取",
+    "badge": "防音室",
+    "description": "島村楽器・三木楽器の対象モデルと買取できない条件、解体費用と支払い。ユニット型・簡易防音室の落札65件。",
+    "category": "instrument"
+  },
+  {
+    "slug": "sanshin-kaitori",
+    "title": "三線の買取相場",
+    "shortTitle": "三線の買取",
+    "badge": "和楽器",
+    "description": "三線本体の落札49件を本皮・人工皮・棹材の表記別に集計。三線を取扱いに挙げている楽器店。",
+    "category": "instrument"
+  },
+  {
+    "slug": "behringer-kaitori",
+    "title": "ベリンガー（BEHRINGER）の買取価格",
+    "shortTitle": "ベリンガーの買取",
+    "badge": "ベリンガー",
+    "description": "島村楽器のシンセサイザー21型番・PA機器16型番の掲示と、落札189件の区分別の中央値。",
+    "category": "brand"
+  },
+  {
+    "slug": "studio-kizai-kaitori",
+    "title": "スタジオ機材の買取相場",
+    "shortTitle": "スタジオ機材の買取",
+    "badge": "音響機材",
+    "description": "島村楽器の掲示866行をマイク・スピーカー・アウトボード・ミキサー・ヘッドホン別、ブランド別に集計。",
+    "category": "instrument"
+  },
+  {
+    "slug": "guitar-pickup-kaitori",
+    "title": "ギターピックアップの買取相場",
+    "shortTitle": "ギターピックアップの買取",
+    "badge": "ギターパーツ",
+    "description": "ピックアップ単体の落札254件をブランド別に集計。年代もののギブソンとセットの価格。",
+    "category": "instrument"
   }
 ]

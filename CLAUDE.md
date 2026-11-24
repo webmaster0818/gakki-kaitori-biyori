@@ -919,3 +919,14 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 🔍 報告のみ: ハードオフ新宿マルイメンは引き続き「出張買取 実施なし」と「出張買取を行っております」の併記（11/15 と同じ）。島村「地域最大級の品揃え」は出典なし（未変更）
 - 計測リンク out html t.felmat 6698・fmcl 3090・fmimp 3520（deploy 前＝out 後で一致）。precheck 全項目OK。sitemap lastmod 231 URL を 11-24（ティファナ注記の変わったページのうち sitemap にあるもの）。deploy は rsync --delete --exclude=.git --exclude="*.txt"（削除は旧 buildId のみ）・`git add -u`＋新 buildId。push 10:08 → 本番 10:09 反映（shinjuku「2026年11月24日に各店の公式で確認」・TOP/zama 11/24・旧 11/23 0）
 - 点検 C3 /author/ は 11/8〜 と同じ否定文（「個人の執筆者や経歴ではなく」）＝誤検知（未変更・11/24 本番で原文確認）。次の地域は確認日の古い順に（東京・埼玉テンプレは既定案と一緒に）
+
+### 2026-11-25 深夜02時の回 kwexp（競合 gakki-takakuureru.com の初回）：新規5本
+- queue（11/24 棚卸し）の status 空欄7語を上から。「高く売れるドットコム 評判」は hold のまま。重複は own-pages・GSC 90日・app/ で確認（三線・琵琶・ベリンガーは本文の言及0、防音室は miki・shimamura 等の窓口説明のみ、スタジオ機材は dtm-kizai〈cat=18〉・mixer・microphone の個別のみ、ピックアップは専用ページなし）
+- skip:「楽器メーカー 一覧」＝メーカーの名簿（日本の楽器メーカー比較）が意図で、メーカー別の中古買取相場の差として書ける語ではない（sites-tomomi-2 のメーカー語ルール）。「琵琶 買取」は5本の上限で未着手（空欄のまま）
+- `/articles/bouonshitsu-kaitori/`（112・instrument→inst:piano）: **島村 /used/gakki/soundproof/**（対象＝ヤマハ セフィーネII/IIev/NS・ウッディミニ/ボックス、カワイ ナサール。簡易防音室は対象外。製造11年以上は不可の場合あり・喫煙/ペット/カビ/解体済は不可・解体搬出運搬は差し引き・2週間後振込・下取10%UP）と **三木 design.miki.co.jp/purchase/**（アビテックス歴代＋販売期間・近畿圏原則・1週間以内振込・ナサール/だんぼっち不可）を比較。11年基準＝おおむね2015年以前製造。ヤフオク「防音室」「アビテックス」113件→ユニット型15件 中央値82,000（14件が解体済/引取限定）・簡易50件 34,900。楽器の買取屋さん事例2件（2018）
+- `/articles/sanshin-kaitori/`（40・instrument→inst:wagakki）: ヤフオク「三線」200件→本体49件 中央値16,500。本皮表記13件 25,280・人工皮18件 10,890・棹材表記（黒木/黒檀）9件 45,000。「三線」は尺八（銀三線）・鉄道模型（三線式）が混ざる＝除外必須。島村 型番「三線」0件、楽器の買取屋さん 和楽器の取扱いカテゴリに三線（事例0）、ウリエル「三線袋・駒・撥など付属品がそろっていると査定に有利」
+- `/articles/behringer-kaitori/`（32・brand→inst:synthesizer）: **島村 brand=1060 全37行**（cat=13 シンセ21 A中央値22,000・SYSTEM 55 148,000、cat=16 PA 16 同11,000）。ほかのカテゴリーのブランド選択肢にベリンガーなし。ヤフオク273件→単品189件 中央値4,200（シンセ/リズムマシン10件 27,235・XENYX 18件 3,450）
+- `/articles/studio-kizai-kaitori/`（16・instrument→inst:microphone）: **島村 cat=16 全866行**（区分別：アウトボード175 37,000・ミキサー112 26,000・スピーカー264 24,000・マイク269 21,000・ヘッドホン46 16,500／ブランド別 NEUMANN 177,500・SSL 123,000・GENELEC 54,000）。B/A 84%・C/A 59%。島村 PA ページ「ピュアオーディオ・ホームシアターは買取不可」、楽器の買取屋さん レコーディング・PA・DAW 43件
+- `/articles/guitar-pickup-kaitori/`（16・instrument→inst:guitar）: ヤフオク6検索570件→単体267件・主要5ブランド254件 中央値10,500（Gibson 21,500・EMG 14,900・DiMarzio 10,000・Duncan 9,500・Fender 9,000、Gibson の年代表記7件 45,000、セット57件 17,500）。「〜搭載」「交換」のギター本体が大量に混ざる＝除外必須。イシバシ買取に「ギター・ベース用ピックアップ」、島村は掲示なし
+- 導線: relatedSlugs 末尾に追加（piano・grand-piano→防音室、wagakki・shamisen・minzoku→三線、synthesizer・mixer→ベリンガー、dtm-kizai・microphone→スタジオ機材、gakki-fuzokuhin・effector→ピックアップ）。⚠️ miki-gakki に防音室を足すと防音室が miki の「親」になり miki が既存グループから抜ける → 足さない。スタジオ機材の先頭を dtm-kizai／audio-interface にすると family:DTM・DJ機材 が割れる → microphone を先頭に。gen-related-groups.py の変化は新規5本の追加のみ
+- sitemap 499→504。precheck 全項目OK（620ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。t.felmat 6698→6738（新規5本×8）。Indexing は親がまとめて送る

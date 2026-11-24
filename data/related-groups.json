@@ -272,6 +272,7 @@
     "guitar-kaitori",
     "banjo-kaitori",
     "classic-guitar-kaitori",
+    "guitar-pickup-kaitori",
     "mandolin-kaitori",
     "silent-guitar-kaitori",
     "ukulele-kaitori",
@@ -334,6 +335,7 @@
    "label": "「マイク買取相場ガイド」と関連する買取ガイド",
    "members": [
     "microphone-kaitori",
+    "studio-kizai-kaitori",
     "sennheiser-kaitori",
     "shure-kaitori"
    ]
@@ -343,6 +345,7 @@
    "members": [
     "piano-kaitori",
     "accordion-kaitori",
+    "bouonshitsu-kaitori",
     "hammond-organ-kaitori",
     "organ-kaitori",
     "reed-organ-kaitori",
@@ -405,6 +408,7 @@
    "label": "「シンセサイザー買取相場ガイド」と関連する買取ガイド",
    "members": [
     "synthesizer-kaitori",
+    "behringer-kaitori",
     "korg-kaitori",
     "moog-kaitori",
     "nord-kaitori",
@@ -445,6 +449,7 @@
     "koto-kaitori",
     "minzoku-gakki-kaitori",
     "niko-kaitori",
+    "sanshin-kaitori",
     "shakuhachi-kaitori",
     "taishogoto-kaitori",
     "wadaiko-kaitori"
@@ -896,6 +901,7 @@
   "guitar-kaitori": "ギター買取おすすめ3社比較",
   "banjo-kaitori": "バンジョー買取ガイド",
   "classic-guitar-kaitori": "クラシックギター買取ガイド",
+  "guitar-pickup-kaitori": "ギターピックアップの買取",
   "mandolin-kaitori": "マンドリン買取ガイド",
   "silent-guitar-kaitori": "サイレントギターの買取",
   "ukulele-kaitori": "ウクレレ買取ガイド",
@@ -943,10 +949,12 @@
   "lacquer-silver-plate-kaitori": "ラッカーと銀メッキの違い",
   "mouthpiece-kaitori": "マウスピースの買取",
   "microphone-kaitori": "マイク買取相場ガイド",
+  "studio-kizai-kaitori": "スタジオ機材の買取",
   "sennheiser-kaitori": "ゼンハイザー買取相場",
   "shure-kaitori": "Shure(シュア)買取相場",
   "piano-kaitori": "ピアノ買取おすすめ3社比較",
   "accordion-kaitori": "アコーディオン買取ガイド",
+  "bouonshitsu-kaitori": "防音室の買取",
   "hammond-organ-kaitori": "ハモンドオルガンの買取",
   "organ-kaitori": "オルガンの買取",
   "reed-organ-kaitori": "リードオルガンの買取",
@@ -999,6 +1007,7 @@
   "yanagisawa-awo10-kaitori": "ヤナギサワ AWO10買取ガイド",
   "yanagisawa-wo2-kaitori": "ヤナギサワ WO2の買取",
   "synthesizer-kaitori": "シンセサイザー買取相場ガイド",
+  "behringer-kaitori": "ベリンガーの買取",
   "korg-kaitori": "KORG買取相場ガイド",
   "moog-kaitori": "Moog買取ガイド",
   "nord-kaitori": "Nord買取ガイド",
@@ -1024,6 +1033,7 @@
   "koto-kaitori": "琴(箏)買取相場ガイド",
   "minzoku-gakki-kaitori": "民族楽器の買取",
   "niko-kaitori": "二胡の買取",
+  "sanshin-kaitori": "三線の買取",
   "shakuhachi-kaitori": "尺八買取相場ガイド",
   "taishogoto-kaitori": "大正琴の買取",
   "wadaiko-kaitori": "和太鼓買取相場ガイド",

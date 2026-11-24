@@ -152,7 +152,7 @@ export default function GakkiFuzokuhinKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="gakki-fuzokuhin-kaitori" relatedSlugs={["takaku-uru-kotsu", "hitsuyou-shorui", "kaitori-nagare", "souba-ichiran", "kaitori-houhou-hikaku", "gakki-case-kaitori", "mouthpiece-kaitori"]} />
+        <RelatedArticles currentSlug="gakki-fuzokuhin-kaitori" relatedSlugs={["takaku-uru-kotsu", "hitsuyou-shorui", "kaitori-nagare", "souba-ichiran", "kaitori-houhou-hikaku", "gakki-case-kaitori", "mouthpiece-kaitori", "guitar-pickup-kaitori"]} />
       </article>
     </>
   );

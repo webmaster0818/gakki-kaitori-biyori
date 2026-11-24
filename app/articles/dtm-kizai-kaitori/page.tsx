@@ -330,7 +330,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="dtm-kizai-kaitori"
-          relatedSlugs={["audio-interface-kaitori", "midi-keyboard-kaitori", "synthesizer-kaitori", "denshi-gakki-kaitori", "mixer-kaitori", "takaku-uru-kotsu"]}
+          relatedSlugs={["audio-interface-kaitori", "midi-keyboard-kaitori", "synthesizer-kaitori", "denshi-gakki-kaitori", "mixer-kaitori", "takaku-uru-kotsu", "studio-kizai-kaitori"]}
         />
       </article>
     </>

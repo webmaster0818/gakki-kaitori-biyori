@@ -182,7 +182,7 @@ export default function MixerKaitoriPage() {
           </div>
         </div>
 
-        <RelatedArticles currentSlug="mixer-kaitori" relatedSlugs={["dj-kizai-kaitori", "audio-interface-kaitori", "microphone-kaitori", "souba-ichiran", "takaku-uru-kotsu", "shimamura-gakki-kaitori"]} />
+        <RelatedArticles currentSlug="mixer-kaitori" relatedSlugs={["dj-kizai-kaitori", "audio-interface-kaitori", "microphone-kaitori", "souba-ichiran", "takaku-uru-kotsu", "shimamura-gakki-kaitori", "behringer-kaitori"]} />
       </article>
     </>
   );
