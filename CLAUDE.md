@@ -930,3 +930,11 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - `/articles/guitar-pickup-kaitori/`（16・instrument→inst:guitar）: ヤフオク6検索570件→単体267件・主要5ブランド254件 中央値10,500（Gibson 21,500・EMG 14,900・DiMarzio 10,000・Duncan 9,500・Fender 9,000、Gibson の年代表記7件 45,000、セット57件 17,500）。「〜搭載」「交換」のギター本体が大量に混ざる＝除外必須。イシバシ買取に「ギター・ベース用ピックアップ」、島村は掲示なし
 - 導線: relatedSlugs 末尾に追加（piano・grand-piano→防音室、wagakki・shamisen・minzoku→三線、synthesizer・mixer→ベリンガー、dtm-kizai・microphone→スタジオ機材、gakki-fuzokuhin・effector→ピックアップ）。⚠️ miki-gakki に防音室を足すと防音室が miki の「親」になり miki が既存グループから抜ける → 足さない。スタジオ機材の先頭を dtm-kizai／audio-interface にすると family:DTM・DJ機材 が割れる → microphone を先頭に。gen-related-groups.py の変化は新規5本の追加のみ
 - sitemap 499→504。precheck 全項目OK（620ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。t.felmat 6698→6738（新規5本×8）。Indexing は親がまとめて送る
+
+### 2026-11-25 深夜04時の回 kwexp（競合 gakki-takakuureru.com・2回目）：新規1本（src 746807e8・842b3d8b / deploy cecf37fd4）
+- queue の status 空欄は「琵琶 買取」1語のみ（02時の回で上限のため未着手だった語）。重複は own-pages・GSC 90日・app/ で確認（琵琶の言及0）
+- `/articles/biwa-kaitori/`（琵琶 買取・16・instrument→inst:wagakki）: **ヤフオク カテゴリー 和楽器＞琵琶（auccat=2084305875）終了180日間 198件を全件取得**→本体114件 中央値27,740。薩摩のみ表記20件 50,750・筑前のみ43件 20,000・表記なし/両方51件 20,500。筑前の五弦23件 40,000／四弦23件 16,000。桑13件 45,000。撥の単品32件 13,500。中国琵琶（ピパ）量産品9件はすべて2万円以下。除外＝撥・台・弦・ケース・教本の単品53・中国琵琶12・ジャンク14・正倉院レプリカ2・月琴2・セット1
+- 買取の扱い（公式 11/25）: おたからや 参考買取価格「琵琶 和楽器」（2019/5/26 時点・**金額は ASK 表示**。HTML コメント内に 181,000 があるが表示されていないので使わない）／ウリエル 和楽器の評価ポイント（琵琶の名前なし）／楽器の買取屋さん 和楽器の取扱いカテゴリ＝三味線・尺八・三線・和太鼓・笙（琵琶なし）／島村 型番「琵琶」0件
+- ⚠️ ヤフオク closedsearch の SSR は1ページ20件しか返さない（n=100 でも20件）→ b=1,21,…,181 の10ページを3秒間隔で取得。行の抽出は `_cl_link:ib` だけだと3件しか取れない（ページ内の他リンク種別 tc/ic 等で cid・catid・p= を拾う）。TC楽器（tcgakki.com）の琵琶商品ページは 429（local_rate_limited）→回避せず不使用
+- 導線: relatedSlugs 末尾に追加（wagakki・shamisen・sanshin→琵琶）。新規の先頭は wagakki-kaitori。gen-related-groups.py の変化は新規1本の追加のみ
+- sitemap 504→505。precheck 全項目OK（621ページ）・trust-audit check_page 指摘0・heading-lint 新規分0。t.felmat 6738→6746。push 04:08 → 本番 04:09 反映（200・h1 一致・本番 sitemap 505・wagakki から導線あり）。Indexing は親がまとめて送る
