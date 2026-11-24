@@ -80,10 +80,10 @@ export default function Page() {
 
         <h3>③ ティファナ（宅配）</h3>
         <ServiceCapture id="tifana" />
-        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月23日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月24日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
         <ul>
           <li><strong>方式</strong>: 足利市からは宅配買取（出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ）</li>
-          <li><strong>強み</strong>: 宅配買取は送料・宅配キット無料。ただし2026年11月23日時点は一時停止中（公式のお知らせ）</li>
+          <li><strong>強み</strong>: 宅配買取は送料・宅配キット無料。ただし2026年11月24日時点は一時停止中（公式のお知らせ）</li>
           <li><strong>対応エリア</strong>: 宅配買取で全国（足利市近隣に店舗なし）</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>
@@ -113,7 +113,7 @@ export default function Page() {
         </ol>
 
         <h2>6. よくある質問</h2>
-        <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">足利市で出張買取は対応していますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">はい、足利市（栃木県足利市）は全国対応の主要買取業者（ヒカカク！・ウリエル等）がすべて対応エリアにしています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、足利市からは宅配買取になります。なお、ティファナの宅配買取は2026年11月23日時点で一時停止中です（公式のお知らせ）。出張料・査定料は無料の業者がほとんどです。</p></details>
+        <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">足利市で出張買取は対応していますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">はい、足利市（栃木県足利市）は全国対応の主要買取業者（ヒカカク！・ウリエル等）がすべて対応エリアにしています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、足利市からは宅配買取になります。なお、ティファナの宅配買取は2026年11月24日時点で一時停止中です（公式のお知らせ）。出張料・査定料は無料の業者がほとんどです。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">足利市で地域密着の楽器買取店はありますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">足利市には地元の楽器店も数店ありますが、買取相場・対応スピード・取り扱いジャンルの幅では、全国チェーンや一括査定サービスの方が有利になる傾向があります。複数業者を比較することをおすすめします。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">足利市から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">対応可能です。ピアノ・ドラムセットなど大型楽器には出張買取が適しています。足利市エリアは主要業者の対応圏内のため、複数業者で相見積もりを取って最も条件のよい業者を選ぶことをおすすめします。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">足利市で当日中に現金化できますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">店頭買取であれば当日中の現金化が可能で、出張買取にも最短即日で対応する業者があります。急ぎの場合は事前に「即日対応可能か」を確認してから申し込むのがおすすめです。</p></details>

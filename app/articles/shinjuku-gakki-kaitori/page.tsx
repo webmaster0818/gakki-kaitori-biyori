@@ -71,7 +71,7 @@ function FaqSchema() {
       { "@type": "Question", name: "新宿で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは新宿エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
       { "@type": "Question", name: "新宿の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
       { "@type": "Question", name: "壊れた楽器でも新宿で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "新宿から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら新宿から全国の買取業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月23日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。" } },
+      { "@type": "Question", name: "新宿から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら新宿から全国の買取業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月24日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。" } },
     ],
   };
   const articleData = {
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 新宿おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-24",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,12 +109,12 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             新宿で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、新宿エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、新宿・高田馬場・中野など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月5日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月24日</p>
         </header>
 
         <section id="hayami" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
           <h2 className="font-bold text-lg mb-2">新宿で持ち込みできる楽器買取店の早見表</h2>
-          <p className="text-sm text-warm-gray leading-relaxed mb-3">新宿駅周辺で持ち込める主な実店舗は次の5店です（2026年11月5日に各店の公式で確認）。島村楽器は銀行振込のみなので、その場で現金にしたい場合はご注意ください。</p>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">新宿駅周辺で持ち込める主な実店舗は次の5店です（2026年11月24日に各店の公式で確認）。島村楽器は銀行振込のみなので、その場で現金にしたい場合はご注意ください。</p>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店名・所在地</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店頭の受付</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">予約・支払い</th></tr></thead>
@@ -127,7 +127,7 @@ export default function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月5日に確認。買取品目は各社公式の案内から抜粋し、対応は来店前に各店へ確認してください。支払い方法の出典：イシバシは<a href="https://www.ishibashi.co.jp/ec/sp/kaitori-flow/" target="_blank" rel="nofollow noopener" className="underline">買取の流れ</a>。セカンドストリート新宿店は公式ページを確認できなかったため表に入れていません。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページで2026年11月24日に確認。買取品目は各社公式の案内から抜粋し、対応は来店前に各店へ確認してください。支払い方法の出典：イシバシは<a href="https://www.ishibashi.co.jp/ec/sp/kaitori-flow/" target="_blank" rel="nofollow noopener" className="underline">買取の流れ</a>。セカンドストリート新宿店は公式ページを確認できなかったため表に入れていません。</p>
         </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -202,7 +202,7 @@ export default function Page() {
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月23日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月24日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、新宿からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
 
@@ -270,9 +270,9 @@ export default function Page() {
           <h3>イシバシ楽器 新宿店 ── 新宿三丁目駅C4出口すぐ（JR新宿駅徒歩5分）</h3>
           <p>買取方式：店頭/出張/宅配。1981年開業の総合楽器店。1階に買取カウンター、PRS/Fender公認。店頭は予約なしも可、12:00〜20:00（<a href="https://www.ishibashi.co.jp/kaitori/tentou/shinjuku.html" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>クロサワ楽器 日本総本店（KAIKURO） ── JR新大久保駅徒歩1分・百人町</h3>
-          <p>買取方式：店頭/宅配/出張。フロア別ジャンル特化で各階にリペアマン常駐。事前査定無料でメール回答。営業時間は平日・土 11:00〜20:00、日・祝 11:00〜19:00（公式の表記は「土曜日を除く」つき。2026年11月4日確認。<a href="https://www.kurosawagakki.com/sh_ohkubo/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>／<a href="https://www.kurosawagakki.com/kaikuro/" target="_blank" rel="nofollow noopener" className="underline">買取案内</a>）</p>
+          <p>買取方式：店頭/宅配/出張。フロア別ジャンル特化で各階にリペアマン常駐。事前査定無料でメール回答。営業時間は平日・土 11:00〜20:00、日・祝 11:00〜19:00（公式の表記は「土曜日を除く」つき。2026年11月24日確認。<a href="https://www.kurosawagakki.com/sh_ohkubo/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>／<a href="https://www.kurosawagakki.com/kaikuro/" target="_blank" rel="nofollow noopener" className="underline">買取案内</a>）</p>
           <h3>島村楽器 新宿PePe店 ── 西武新宿駅直結（PePe 6F）</h3>
-          <p>買取方式：店頭/下取り。地域最大級の品揃え。買取・下取り・中古販売、11:00〜21:30。買取代金は銀行振込のみで現金払いはなく、10万円以上の振込は1週間ほどかかります（2026年11月4日確認。<a href="https://www.shimamura.co.jp/shop/shinjuku/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p>買取方式：店頭/下取り。地域最大級の品揃え。買取・下取り・中古販売、11:00〜21:30。買取代金は銀行振込のみで現金払いはなく、10万円以上の振込は1週間ほどかかります（2026年11月24日確認。<a href="https://www.shimamura.co.jp/shop/shinjuku/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>ハードオフ 新宿マルイ メン店 ── 新宿三丁目駅至近</h3>
           <p>買取方式：店頭/出張。中古楽器全般。首都圏出張買取センターが23区対応（<a href="https://www.hardoff.co.jp/shop/detail/?p=101139" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>セカンドストリート 新宿店 ── 新宿三丁目駅至近</h3>
@@ -325,7 +325,7 @@ export default function Page() {
                 <span className="pr-4">新宿から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら新宿から全国の業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月23日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら新宿から全国の業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月24日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。</div>
             </details>
           </div>
 

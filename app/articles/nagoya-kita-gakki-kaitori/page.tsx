@@ -97,10 +97,10 @@ export default function Page() {
 
         <h3>③ ティファナ（宅配）</h3>
         <ServiceCapture id="tifana" />
-        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月23日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月24日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
         <ul>
           <li><strong>方式</strong>: 名古屋市北区からは宅配買取（出張は東京都・埼玉県・神奈川県・千葉県の一部、店舗は東京都・埼玉県のみ）</li>
-          <li><strong>強み</strong>: 宅配買取は送料・宅配キット無料。ただし2026年11月23日時点は一時停止中（公式のお知らせ）</li>
+          <li><strong>強み</strong>: 宅配買取は送料・宅配キット無料。ただし2026年11月24日時点は一時停止中（公式のお知らせ）</li>
           <li><strong>対応エリア</strong>: 宅配買取で全国（名古屋市北区近隣に店舗なし）</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>
@@ -130,7 +130,7 @@ export default function Page() {
         </ol>
 
         <h2>6. よくある質問</h2>
-        <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市北区で出張買取は対応していますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">はい、名古屋市北区（愛知県名古屋市北区）は全国対応の主要買取業者（ヒカカク！・ウリエル等）がすべて対応エリアにしています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、名古屋市北区からは宅配買取になります。なお、ティファナの宅配買取は2026年11月23日時点で一時停止中です（公式のお知らせ）。出張料・査定料は無料の業者がほとんどです。</p></details>
+        <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市北区で出張買取は対応していますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">はい、名古屋市北区（愛知県名古屋市北区）は全国対応の主要買取業者（ヒカカク！・ウリエル等）がすべて対応エリアにしています。ティファナの出張買取は東京都・埼玉県・神奈川県・千葉県の一部のみのため、名古屋市北区からは宅配買取になります。なお、ティファナの宅配買取は2026年11月24日時点で一時停止中です（公式のお知らせ）。出張料・査定料は無料の業者がほとんどです。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市北区で地域密着の楽器買取店はありますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">楽器店チェーン4社（島村楽器・イシバシ楽器・クロサワ楽器・ロッキン）の公式店舗一覧に、名古屋市北区の店舗はありません（2026年11月10日確認）。区内の個人経営の楽器店やリサイクルショップは確認していません。持ち込むなら西区の島村楽器 mozoワンダーシティ店・名古屋則武新町店や、地下鉄名城線で一本の栄・矢場町にある楽器店（記事冒頭の早見表）が候補です。買取額は店や業者で異なるため、複数の見積もりを比べることをおすすめします。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市北区から大型楽器（ピアノ・ドラム）の出張買取は可能ですか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">対応可能です。ピアノ・ドラムセットなど大型楽器には出張買取が適しています。名古屋市北区エリアは主要業者の対応圏内のため、複数業者で相見積もりを取って最も条件のよい業者を選ぶことをおすすめします。</p></details>
         <details className="border border-warm-border rounded-lg p-4 mb-3"><summary className="font-bold cursor-pointer flex justify-between items-center">名古屋市北区で当日中に現金化できますか？<svg className="faq-arrow w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><p className="mt-3 text-sm">店頭買取でも店によって異なります。イシバシ楽器 名古屋栄店は手続き後その場で現金で支払われます（鑑定合計50万円以上は振込）。島村楽器は買取方法や金額に関わらず銀行振込のみで、現金での支払いはありません（いずれも公式で2026年11月11日確認）。出張買取にも最短即日で対応する業者があります。急ぎの場合は事前に「即日対応可能か」を確認してから申し込むのがおすすめです。</p></details>
