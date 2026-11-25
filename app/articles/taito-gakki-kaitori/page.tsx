@@ -82,7 +82,7 @@ export default function Page() {
         <ServiceCapture id="tifana" />
         <ul>
           <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
-          <li><strong>強み</strong>: 店頭は査定金額をその場で現金払い。宅配買取は一時停止中（公式のお知らせ・2026年10月22日確認）</li>
+          <li><strong>強み</strong>: 店頭は査定金額をその場で現金払い。宅配買取は一時停止中（公式のお知らせ・2026年11月25日確認）</li>
           <li><strong>対応エリア</strong>: 台東区内に店舗なし（店舗は東京都の中野・杉並・練馬・板橋・北・世田谷・品川・江戸川・葛飾区と武蔵野市、埼玉県の川口市・上尾市）。出張は台東区が出張エリア</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>

@@ -71,7 +71,7 @@ function FaqSchema() {
       { "@type": "Question", name: "新宿で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは新宿エリアに出張買取に対応しています。ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
       { "@type": "Question", name: "新宿の楽器買取相場はどのくらいですか？", acceptedAnswer: { "@type": "Answer", text: "楽器の買取相場はブランド・モデル・状態によって異なります。Gibson Les Paul Standardで10万〜30万円、YAMAHA アップライトピアノで3万〜15万円、Fender Stratocaster USAで5万〜20万円が一般的な目安です。正確な金額は複数業者に査定依頼してご確認ください。" } },
       { "@type": "Question", name: "壊れた楽器でも新宿で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！やティファナでは状態を問わず査定を受け付けており、ブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "新宿から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら新宿から全国の買取業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月24日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。" } },
+      { "@type": "Question", name: "新宿から宅配買取で楽器を送れますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら新宿から全国の買取業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月25日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。" } },
     ],
   };
   const articleData = {
@@ -79,7 +79,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 新宿おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-24",
+    dateModified: "2026-11-25",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -109,7 +109,7 @@ export default function Page() {
           <p className="text-warm-gray text-sm leading-relaxed">
             新宿で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、新宿エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、新宿・高田馬場・中野など主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月24日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月25日</p>
         </header>
 
         <section id="hayami" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
@@ -158,7 +158,7 @@ export default function Page() {
 
           <h2 id="mochikomi">新宿で楽器を持ち込み・専門店で売るには？店頭・出張・宅配の選び方</h2>
           <p>「新宿で楽器を<strong>持ち込み</strong>で売りたい」「<strong>専門店</strong>に直接見てもらいたい」という方もいらっしゃいます。新宿は交通の便がよく、駅周辺の大手楽器チェーンや買取店に持ち込み（店頭買取）できる環境が整っています。一方で、複数店を回って比較するのは手間がかかり、店ごとに得意ジャンルや在庫状況で査定額は変わります。</p>
-          <p>「近くの楽器買取店」を新宿で探している方向けの補足です。楽器専門買取大手「楽器の買取屋さん」の都内の実店舗（店舗買取）は上野店（台東区）・池袋店（豊島区）で、新宿区内にはありません（<a href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent-dark underline">楽器の買取屋さんは実際どうなのか（評判の検証）</a>）。新宿からはJRで池袋・上野の店舗へ持ち込むか、<strong>自宅で完結する出張買取・宅配買取</strong>も有力な選択肢です。</p>
+          <p>「近くの楽器買取店」を新宿で探している方向けの補足です。楽器専門買取大手「楽器の買取屋さん」の都内の実店舗（店舗買取）は上野店（台東区）・池袋店（豊島区）・板橋店（板橋区）で、新宿区内にはありません（2026年11月25日に公式の店舗一覧で確認）（<a href="/articles/gakki-no-kaitoriyasan-hyoban/" className="text-accent-dark underline">楽器の買取屋さんは実際どうなのか（評判の検証）</a>）。新宿からはJRで池袋・上野の店舗へ持ち込むか、<strong>自宅で完結する出張買取・宅配買取</strong>も有力な選択肢です。</p>
           <p>現実的なのは、売り方を「持ち込み（店頭）／出張／宅配」から目的に合わせて選ぶことです。</p>
           <ul>
             <li><strong>持ち込み（店頭買取）</strong>：その場で査定・現金化できる店があります（島村楽器は銀行振込のみで現金払いなし）。すぐ売りたい・少量・自分で運べる人向け。新宿駅周辺の店舗に持ち込めますが、1店ずつ回ると比較に手間がかかります。</li>
@@ -202,7 +202,7 @@ export default function Page() {
 
           <h3>ティファナ ── 出張・店頭・宅配の3方式対応</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月24日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月25日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは総合買取サービスです。出張・店頭・宅配の3つの方法に対応し、新宿からも利用可能です。楽器の状態を問わず査定してくれるのが強みで、「売れるかわからない」楽器も気軽に相談できます。</p>
 
@@ -325,7 +325,7 @@ export default function Page() {
                 <span className="pr-4">新宿から宅配買取で楽器を送れますか？</span>
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら新宿から全国の業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月24日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。</div>
+              <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">はい、ティファナの宅配買取なら新宿から全国の業者に楽器を送れます。なお、ティファナの宅配買取は2026年11月25日時点で一時停止中です（公式のお知らせ）。送料・査定料・キャンセル料はすべて無料です。</div>
             </details>
           </div>
 

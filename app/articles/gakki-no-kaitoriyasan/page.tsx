@@ -8,22 +8,22 @@ import RelatedArticles from "@/components/RelatedArticles";
 //
 // ⚠️ 本文の事実はすべて公式サイト（https://gakkikaitori.co.jp/ ・2026-09-16取得）から。
 //    2026-11-20 に公式（トップ・会社概要・/kaitori/shop/）で FACTS・出張エリア46都道府県・無料・受付・古物番号・最短30分を再照合（一致）→ ASOF を更新。
-//    店舗一覧（26店）は公式の会社概要・/kaitori/shop/ が23店（甲府千塚・金沢・奈良神殿なし）で食い違うが、店舗数の扱いは判断待ちのため SHOPS/SHOPS_ASOF は未変更。
+//    店舗一覧は 2026-11-25 に公式の会社概要・/kaitori/shop/ とも23店を確認し、26店→23店に揃えた（甲府千塚・金沢・奈良神殿を外す。/kaitori/shop/kanazawa・nara は 301、kofu は 404）。
 //    口コミ・評価は載せない（第三者の投稿を転載しない当サイトの方針）。
 //    「高く売れる」といった断定もしない。公表されている条件を並べ、判断材料にしてもらう。
 
 const ASOF = "2026年11月20日";
-// 店舗一覧だけは 2026-10-22 に公式 /kaitori/shop/ で再確認（名古屋栄店が一覧から消え、/kaitori/shop/sakae は 410）
-const SHOPS_ASOF = "2026年10月22日";
+// 店舗一覧だけは 2026-11-25 に公式 /kaitori/shop/ で再確認（10/22 名古屋栄店が消え 410、11/25 甲府千塚・金沢・奈良神殿が一覧になし）
+const SHOPS_ASOF = "2026年11月25日";
 const OFFICIAL = "https://gakkikaitori.co.jp/";
 
 // 公式サイトの店舗一覧（/kaitori/shop/）に掲載されている店頭買取の店舗
 const SHOPS: { pref: string; names: string[] }[] = [
   { pref: "北海道・東北", names: ["宮城岩沼店"] },
   { pref: "関東", names: ["上野店", "池袋店", "板橋店", "大宮店", "柏店", "横浜店", "厚木店", "宇都宮店", "群馬桐生店"] },
-  { pref: "甲信越・北陸", names: ["甲府千塚店", "長野松本店", "新潟店", "金沢店", "石川小松店", "福井花堂中店"] },
+  { pref: "甲信越・北陸", names: ["新潟店", "石川小松店", "福井花堂中店", "長野松本店"] },
   { pref: "東海", names: ["名古屋守山店", "豊川店", "富士津田店"] },
-  { pref: "近畿", names: ["大阪心斎橋店", "大阪門真店", "奈良神殿店"] },
+  { pref: "近畿", names: ["大阪心斎橋店", "大阪門真店"] },
   { pref: "中国・四国", names: ["広島店", "高松店"] },
   { pref: "九州", names: ["福岡店", "鹿児島店"] },
 ];
@@ -107,7 +107,7 @@ export default function Page() {
         "@type": "Article",
         headline: "楽器の買取屋さんとは？運営会社・店舗一覧・出張の対応エリアを公式情報で整理",
         datePublished: "2026-09-16",
-        dateModified: "2026-11-20",
+        dateModified: "2026-11-25",
         author: { "@type": "Organization", name: "楽器買取びより編集部" },
         mainEntityOfPage: "https://gakkikaitori-biyori.com/articles/gakki-no-kaitoriyasan/",
       },
