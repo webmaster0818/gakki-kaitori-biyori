@@ -3,12 +3,12 @@ import Link from "next/link";
 import RelatedArticles from "@/components/RelatedArticles";
 
 const PUBLISHED = "2026-10-08";
-const UPDATED = "2026-11-17";
-const UPDATED_JA = "2026年11月17日";
+const UPDATED = "2026-11-27";
+const UPDATED_JA = "2026年11月27日";
 const URL = "https://gakkikaitori-biyori.com/articles/hikakaku-gakki-kaitori-kuchikomi/";
 const TITLE = "ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点【2026年11月最新】";
 const DESC =
-  "ヒカカク！で楽器を売る前に知りたい口コミ・評判を、公式クチコミの評価分布（総合3.4・1,083件）と傾向から出典付きで整理。無料・最大20社の一括査定の仕組み、楽器カテゴリ（1,125社掲載）の使い方、ギター・ピアノを出す流れ、キャンセル・電話連絡の注意点、向いている人まで解説します。";
+  "ヒカカク！で楽器を売る前に知りたい口コミ・評判を、公式クチコミの評価分布（総合3.4・1,083件）と傾向から出典付きで整理。無料・最大20社の一括査定の仕組み、楽器を出した人の投稿17件の集計、楽器カテゴリ（1,128社掲載）の使い方、送料・個人情報・電話連絡の注意点、向いている人まで解説します。";
 
 const faqs = [
   {
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "ピアノやドラムなど大型の楽器も一括査定できますか？",
-    a: "できます。ピアノは「ピアノ」の専用カテゴリ（2026年11月17日時点で616社掲載）、ドラム・ギター・管楽器などは「楽器」カテゴリ（同1,125社掲載）です。大型楽器は申込時の買取方法で「出張」を選んでおくと、自宅まで引き取りに来る業者が見つかりやすくなります。",
+    a: "できます。ピアノは「ピアノ」の専用カテゴリ（2026年11月27日時点で616社掲載）、ドラム・ギター・管楽器などは「楽器」カテゴリ（同1,128社掲載）です。大型楽器は申込時の買取方法で「出張」を選んでおくと、自宅まで引き取りに来る業者が見つかりやすくなります。",
   },
   {
     q: "査定後にキャンセルしたいときは？",
@@ -33,7 +33,23 @@ const faqs = [
   },
   {
     q: "ヒカカク！の口コミは悪いものが多いのですか？",
-    a: "公式クチコミページ（2026年11月17日時点）では総合評価3.4、星5が425件、星1が266件で、公式自身が「悪い・ひどい・買取が安いというクチコミの比率は32.5%」と表示しています。気になる内容は電話の多さと見積もり業者数の少なさに集中しています。詳しくは本文の評判の章をご覧ください。",
+    a: "公式クチコミページ（2026年11月27日時点）では総合評価3.4、星5が425件、星1が266件で、公式自身が「悪い・ひどい・買取が安いというクチコミの比率は32.5%」と表示しています。気になる内容は電話の多さと見積もり業者数の少なさに集中しています。運営がじげんに移った2024年10月以降の52件に限ると、星1〜2は5件（9.6%）です。楽器を出したと読める投稿17件の平均は3.59でした。詳しくは本文の評判の章をご覧ください。",
+  },
+  {
+    q: "ヒカカク！の店舗に楽器を持ち込めますか？",
+    a: "ヒカカク！自体は査定も買取もしないため、持ち込める店舗はありません。申込時に買取方法として「店頭」を選ぶと、店頭買取に対応する業者から査定が届く場合があります。出張・店頭に対応できるかは、査定を返した各業者の対応範囲によります。",
+  },
+  {
+    q: "楽器を宅配で送るときの送料や返送料は誰が負担しますか？",
+    a: "ヒカカク！の利用自体は無料ですが、利用規約第6条で、梱包費用・郵送費用などの費用負担や入金方法・入金時期は、利用者と買取事業者の間で決めると定められています。業者ごとに条件が違うので、発送前に送料・梱包資材・振込手数料と、買取不成立時の返送料をどちらが負担するかを確認してください。",
+  },
+  {
+    q: "査定後に届くメールは止められますか？電話で問い合わせできますか？",
+    a: "公式FAQによると、査定申込後のメールには配信停止の手続きがありません。ヒカカク！への問い合わせは電話には対応しておらず、お問い合わせフォームか公式LINEから行います。業者からの連絡を断る場合は、各業者へ直接連絡します。",
+  },
+  {
+    q: "ヒカカク！の運営会社はどこですか？",
+    a: "運営者情報によると、現在の運営は株式会社じげん（東京都港区虎ノ門3-4-8）です。以前は株式会社ジラフが運営しており、じげんの適時開示（2024年8月26日）では、ジラフの会社分割で新設された株式会社ヒカカクの全株式をじげんが取得し、2024年10月1日を効力発生日として吸収合併するとされています。",
   },
 ];
 
@@ -120,17 +136,19 @@ export default function HikakakuGakkiKuchikomiPage() {
           </div>
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">ヒカカクの楽器買取 口コミ・評判は？一括査定の仕組み・流れ・注意点</h1>
           <p className="text-warm-gray text-sm leading-relaxed">
-            「楽器を一括査定に出したいけれど、ヒカカク！の評判は実際どうなのか」を知りたい方向けに、公式サイトと公式クチコミページを2026年10月8日に確認して整理しました。{UPDATED_JA}にクチコミの評価分布・カテゴリの掲載数と買取実績・よくあるご質問・利用規約・運営者情報を再確認しています（変わっていたのはカテゴリの掲載数とピアノの最低買取実績のみ）。本文の口コミは転載せず、評価分布と内容の傾向だけを出典付きで示します。本記事は広告（PR）リンクを含みます。
+            「楽器を一括査定に出したいけれど、ヒカカク！の評判は実際どうなのか」を知りたい方向けに、公式サイトと公式クチコミページを2026年10月8日に確認して整理しました。{UPDATED_JA}に公式クチコミの一覧（全13ページ・1,083件）を1件ずつ数え直し、カテゴリの掲載数と買取実績・申込フォーム・よくあるご質問・利用規約・プライバシーポリシー・運営者情報も再確認しています。本文の口コミは転載せず、件数・評価の集計と内容の要約だけを出典付きで示します。本記事は広告（PR）リンクを含みます。
           </p>
-          <p className="text-xs text-warm-gray mt-2">公開日: 2026年10月8日／更新日: {UPDATED_JA}（公式の掲載数・買取実績・評価分布を再確認して更新）</p>
+          <p className="text-xs text-warm-gray mt-2">公開日: 2026年10月8日／更新日: {UPDATED_JA}（クチコミの年別・運営移管前後・楽器の投稿の集計、利用規約第6条・プライバシーポリシー第4条の説明を追加）</p>
         </header>
 
         <section className="article-body space-y-4 text-[15px] leading-relaxed">
           <h2 id="conclusion">ヒカカクの楽器買取が適している方</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>ヒカカク！は<strong>買取店を紹介する比較サイト</strong>で、自社では査定も買取もしない。利用は<strong>無料</strong>、最大20社から査定結果がメールで届く。</li>
-            <li>楽器カテゴリは<strong>1,125社・39,480点</strong>、ピアノは別カテゴリで<strong>616社・858点</strong>の掲載（2026年11月17日時点の公式カテゴリページ表記）。</li>
-            <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない」。</li>
+            <li>楽器カテゴリは<strong>1,128社・39,558点</strong>、ピアノは別カテゴリで<strong>616社・861点</strong>の掲載（2026年11月27日時点の公式カテゴリページ表記）。</li>
+            <li>公式クチコミは<strong>総合3.4・1,083件</strong>。良い声は「一度の入力で複数社から返事」「買取不可でも丁寧」、気になる声は「電話が多い」「見積もり業者が少ない」。投稿は2020〜2023年に集中し、最新は2026年3月19日（当サイトが一覧1,083件を年別に集計）。</li>
+            <li>楽器を出したと読める投稿は<strong>17件・平均3.59</strong>。ギター専門店など楽器に詳しい業者に当たった人は高評価、「楽器の専門性のない業者ばかり」「仮査定より大きく下がった」という不満もある。</li>
+            <li>無料なのはサイトの利用まで。<strong>送料・梱包費・入金方法などの取引条件は、利用者と各業者の間で決める</strong>と利用規約第6条に定められている。</li>
             <li>向いているのは<strong>型番が分かる楽器で複数社の相見積もりを取りたい人</strong>。電話連絡を避けたい人や、今日中に現金化したい人には向かない。</li>
           </ul>
 
@@ -146,17 +164,19 @@ export default function HikakakuGakkiKuchikomiPage() {
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream w-36">サービス名</th><td className="px-4 py-3">ヒカカク！（買取価格比較サイト）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">運営会社</th><td className="px-4 py-3">株式会社じげん（ZIGExN Co., Ltd.）東京都港区虎ノ門3-4-8／代表責任者 平尾 丈</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">運営の変遷</th><td className="px-4 py-3">以前は株式会社ジラフが運営。ジラフの会社分割で新設された株式会社ヒカカクの全株式をじげんが取得し、2024年10月1日を効力発生日として吸収合併（じげんの適時開示 2024年8月26日）。「運営はジラフ」と書かれた記事は旧情報です</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">許可・表記</th><td className="px-4 py-3">古物営業法に基づき都道府県公安委員会の許可を取得と表記。アフィリエイトプログラムを利用したサービス紹介を行う旨も明記</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">料金</th><td className="px-4 py-3">無料（利用規約第6条「当社がユーザーに対して請求する費用は原則無料」）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">査定社数</th><td className="px-4 py-3">最大20社から査定結果（買取不可の場合は返信がないこともある）</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">買取方法</th><td className="px-4 py-3">宅配・出張・店頭から最大3つを希望として選択</td></tr>
-                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">楽器カテゴリ</th><td className="px-4 py-3">掲載 39,480点・1,125社。直近1年の買取実績は「最低1円〜最高1,700,000円」と表示。絞り込みにギター・ベース・アンプ・エフェクター・管楽器・弦楽器・ドラム・電子ピアノ・DTM機材・PA機器など</td></tr>
-                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">ピアノカテゴリ</th><td className="px-4 py-3">掲載 858点・616社。直近1年の買取実績は「最低1,000円〜最高1,000,000円」と表示。ヤマハ・カワイのアップライト／グランドで絞り込み可</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">対応エリア</th><td className="px-4 py-3">申込フォームで47都道府県から「お住まいの地域」を選択（必須）。出張・店頭に対応できるかは、査定を返した各業者の対応範囲による。ヒカカク！自体に持ち込める店舗はない</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">楽器カテゴリ</th><td className="px-4 py-3">掲載 39,558点・1,128社。直近1年の買取実績は「最低1円〜最高1,700,000円」と表示。絞り込みにギター・ベース・アンプ・エフェクター・管楽器・弦楽器・ドラム・電子ピアノ・DTM機材・PA機器など</td></tr>
+                <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">ピアノカテゴリ</th><td className="px-4 py-3">掲載 861点・616社。直近1年の買取実績は「最低1,000円〜最高1,000,000円」と表示。ヤマハ・カワイのアップライト／グランドで絞り込み可</td></tr>
                 <tr className="bg-white"><th className="px-4 py-3 text-left font-medium bg-cream">利用規模</th><td className="px-4 py-3">「月間300万人以上が利用する買取比較サイト」（使い方ガイドの記載）</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray">※ 数値はいずれも2026年11月17日に公式サイトの各ページを確認したもの（初回の確認は2026年10月8日）。掲載点数・社数は日々変動します。</p>
+          <p className="text-xs text-warm-gray">※ 数値はいずれも2026年11月27日に公式サイトの各ページを確認したもの（初回の確認は2026年10月8日。11月17日は楽器 39,480点・1,125社、ピアノ 858点・616社）。掲載点数・社数は日々変動します。</p>
           <p>
             押さえておきたいのは、<strong>ヒカカク！自身は査定も買取もしない</strong>点です。公式FAQに「買取業者のご紹介のみ行っており、査定や買取に関しましては直接買取業者よりご連絡」とあり、利用規約第5条でも「一切の買取業務は行わず、金銭の授受には関与しない」「取引の成立・内容について保証しない」と定められています。
             査定額の妥当性や対応の良し悪しは<strong>紹介先の買取店ごとに違う</strong>ため、届いた査定を比べて選ぶ作業が利用者側に残ります。当サイトの<Link href="/articles/gakki-kaitori-osusume/" className="text-accent underline hover:text-accent-dark">楽器買取おすすめ業者3社の比較</Link>では、この一括査定と出張専門・店頭型の業者を方式別に整理しています。
@@ -184,7 +204,7 @@ export default function HikakakuGakkiKuchikomiPage() {
           </ol>
 
           <h2 id="caution">楽器を出す前の注意点</h2>
-          <p>公式FAQ・利用規約の記載から、楽器を出す人が事前に知っておくべき点を抜き出します。</p>
+          <p>公式FAQ・利用規約・プライバシーポリシー・申込フォームの記載から、楽器を出す人が事前に知っておくべき点を抜き出します。</p>
           <h3>1. キャンセルは「各業者へ直接」</h3>
           <p>
             FAQでは「査定のお申込み後は、買取業者とお客様で直接お取引していただいております。キャンセルをご希望の場合、業者へ直接ご連絡」と案内されています。ヒカカク！側で一括して取り消す機能はありません。<strong>査定価格に納得しなければ買取依頼をやめてよい</strong>ことは使い方ガイドに明記されていますが、断る連絡は自分で各業者に行います。
@@ -196,6 +216,10 @@ export default function HikakakuGakkiKuchikomiPage() {
           <h3>3. 電話連絡が来る前提で申し込む</h3>
           <p>
             電話番号は必須項目で、査定・買取の連絡は各業者から直接来ます。利用規約第4条でも、サイト上・電話・メールで各種連絡をすることがあると定められています。後述の口コミでも電話の多さは指摘が多い点のため、<strong>連絡が取りやすい時間帯に申し込む</strong>か、備考にメール希望と書いておくのが現実的な対処です。
+            ただし、2026年11月27日に公式の申込フォームを確認したところ、お客様情報の入力項目は氏名・メールアドレス・電話番号・お住まいの地域・買取方法で、<strong>連絡手段を選ぶ欄はありません</strong>。メール希望と書いても、各業者がそれに従うとは限りません。
+          </p>
+          <p>
+            また公式FAQによると、<strong>査定申込後に届くメールには配信停止の手続きがありません</strong>（会員登録の有無にかかわらず、申込に関する一連のメールが届きます）。ヒカカク！への問い合わせは電話では受け付けておらず、お問い合わせフォームか公式LINEからになります。会員登録をしておくと、業者とのやり取りをチャットでも行えます。
           </p>
           <h3>4. 査定額は「実物を見て変わる」ことがある</h3>
           <p>
@@ -206,14 +230,28 @@ export default function HikakakuGakkiKuchikomiPage() {
           <p>
             紹介先は総合買取店から楽器専門店まで幅があります。ヴィンテージギターや高級管楽器は、楽器の専門知識がある業者の査定額が高くなりやすいため、届いた査定のうち<strong>楽器買取の実績を公開している業者</strong>を優先して比較してください。フリマとの使い分けは<Link href="/articles/mercari-vs-gyosha/" className="text-accent underline hover:text-accent-dark">メルカリと買取業者どっちが得？</Link>で解説しています。
           </p>
+          <h3>6. 無料なのはサイトの利用まで（送料・梱包・返送料は業者ごと）</h3>
+          <p>
+            利用規約第6条は、ヒカカク！が利用者に請求する費用を「原則無料」としたうえで、<strong>取引価格・費用負担（梱包費用、郵送費用等）・入金方法・入金時期・買取形式などの取引条件は、利用者と買取事業者の間で決める</strong>と定めています。第5条では、利用者と業者の取引で生じたトラブルにヒカカク！は関与しないとされています。
+          </p>
+          <p>
+            楽器はギターのハードケースやアンプなど、梱包の大きさで送料が変わりやすい品です。宅配に出す前に、<strong>送料・梱包資材（専用の箱を送ってもらえるか）・振込手数料・買取不成立時の返送料</strong>をどちらが負担するかを業者に確認し、発送時の伝票番号を控えておくと、到着や査定の連絡が来ないときに状況を確かめられます。宅配買取の流れと梱包のポイントは<Link href="/articles/gakki-takuhai-kaitori/" className="text-accent underline hover:text-accent-dark">楽器の宅配買取</Link>にまとめています。
+          </p>
+          <h3>7. 入力した情報は「ヒカカク！が適切と判断した提携業者」に渡る</h3>
+          <p>
+            プライバシーポリシー第4条（最終改定2024年12月16日）では、一括査定を依頼した場合、氏名・住所・連絡先など見積依頼フォームに入力した内容を、「当社が適切と判断した場合」に提携業者へ見積依頼のため提供すると定めています。<strong>一括査定では送り先の業者を申込時に自分で選ぶわけではなく</strong>、どの業者に送られたかは申込後の確認メールで確認する流れです（公式の使い方ガイド）。一括査定で楽器専門店だけに絞ることはできないため、前項のとおり届いた査定の中から専門店を選ぶことになります（同じ第4条には、利用者が業者を指定して依頼する「指定査定」の場合は指定した提携業者に提供する、という定めもあります）。
+          </p>
+          <p>
+            FAQでは送信後の情報の変更・削除はできないとされていますが、プライバシーポリシー第5条には、開示・訂正・利用停止の請求先として「株式会社じげん 個人情報相談窓口」（書面・電子メールで請求）が定められています。なお、扱える業者を紹介できなかった場合は、別のおすすめ業者を案内する運用であるとFAQに記載されています。
+          </p>
 
           <h2 id="reviews">良い評判・気になる評判（出典付き）</h2>
           <p>
-            口コミは、ヒカカク！が自社サイトで公開している「ヒカカク！のクチコミ・評判」ページ（2026年10月8日確認・評価分布は2026年11月17日に再確認）を出典にしています。本文の転載はせず、評価分布と内容の傾向だけを整理しました。
+            口コミは、ヒカカク！が自社サイトで公開している「ヒカカク！のクチコミ・評判」ページ（2026年10月8日確認・2026年11月27日に全13ページを再確認）を出典にしています。本文の転載はせず、評価分布と内容の傾向だけを整理しました。このページは運営会社が自社サイトに掲載しているもので、掲載・非掲載の基準は公開されていません。利用者全体の評価ではなく、公開されている投稿の範囲での傾向としてお読みください。
           </p>
           <div className="table-wrapper mb-6">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
-              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">公式クチコミページの表示（2026年11月17日時点）</th></tr></thead>
+              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">項目</th><th className="px-4 py-3 text-left font-medium">公式クチコミページの表示（2026年11月27日時点・10月8日から変化なし）</th></tr></thead>
               <tbody className="divide-y divide-warm-border">
                 <tr className="bg-white"><td className="px-4 py-3">総合評価</td><td className="px-4 py-3">3.4（5点満点）</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3">件数の内訳</td><td className="px-4 py-3">星5：425件／星4：200件／星3：106件／星2：86件／星1：266件（合計1,083件）</td></tr>
@@ -238,7 +276,68 @@ export default function HikakakuGakkiKuchikomiPage() {
           <p>
             公式の楽器カテゴリ・ピアノカテゴリのページには、紹介先の買取店に対する利用者のクチコミが掲載されています。2026年10月上旬の投稿では、「ネットの仮査定と実際の買取額に差がなかった」「終活で電子ピアノを整理した」「遺品のピアノを型番が分からない状態から査定してもらえた」といった高評価が目立ちます。<strong>評価はヒカカク！そのものより、紹介先の業者ごとに分かれる</strong>というのがカテゴリ欄から読み取れる傾向です。
           </p>
-          <p className="text-xs text-warm-gray">※ 口コミの件数・評価は公式サイトの表示を転記したもので、当サイトが集計したものではありません。投稿本文の引用はしていません。</p>
+          <p className="text-xs text-warm-gray">※ この章の総合評価・星別の件数は公式サイトの表示を転記したものです。投稿本文の引用はしていません。</p>
+
+          <h3>投稿の時期と評価の推移（当サイトが年別に集計）</h3>
+          <p>
+            公式クチコミの一覧（全13ページ）に載っている投稿を、2026年11月27日に1件ずつ投稿日と星の数で数えました。各ページ先頭に固定表示される1件（2020年6月）を含めて<strong>1,083件</strong>で、ページ上部の内訳（星5：425件〜星1：266件）と一致します。
+          </p>
+          <div className="table-wrapper mb-6">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">投稿年</th><th className="px-4 py-3 text-left font-medium">件数</th><th className="px-4 py-3 text-left font-medium">平均の星</th><th className="px-4 py-3 text-left font-medium">星1〜2の割合</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-4 py-3">2020年（6月〜）</td><td className="px-4 py-3">200件</td><td className="px-4 py-3">3.57</td><td className="px-4 py-3">26.5%</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2021年</td><td className="px-4 py-3">268件</td><td className="px-4 py-3">3.62</td><td className="px-4 py-3">27.2%</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">2022年</td><td className="px-4 py-3">261件</td><td className="px-4 py-3">3.28</td><td className="px-4 py-3">36.0%</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2023年</td><td className="px-4 py-3">214件</td><td className="px-4 py-3">3.04</td><td className="px-4 py-3">42.5%</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">2024年</td><td className="px-4 py-3">104件</td><td className="px-4 py-3">3.33</td><td className="px-4 py-3">34.6%</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2025年</td><td className="px-4 py-3">33件</td><td className="px-4 py-3">4.06</td><td className="px-4 py-3">12.1%</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">2026年（〜3月19日）</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">3.33</td><td className="px-4 py-3">（件数が少なく参考外）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            <strong>投稿の8割以上（943件）は2020〜2023年のもの</strong>で、2025年以降は36件しかありません。公式ページの見出しは「2026年11月最新」ですが、最新の投稿は2026年3月19日で、11月27日時点でもそれ以降の投稿はありません。
+          </p>
+
+          <h3>運営がじげんに移った2024年10月の前後で比べると</h3>
+          <div className="table-wrapper mb-6">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">投稿時期</th><th className="px-4 py-3 text-left font-medium">件数</th><th className="px-4 py-3 text-left font-medium">平均の星</th><th className="px-4 py-3 text-left font-medium">星1〜2の割合</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-4 py-3">2024年9月30日以前（ジラフ運営期）</td><td className="px-4 py-3">1,031件</td><td className="px-4 py-3">3.37</td><td className="px-4 py-3">33.7%</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2024年10月1日以降（じげん運営後）</td><td className="px-4 py-3">52件</td><td className="px-4 py-3">4.04</td><td className="px-4 py-3">9.6%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            2024年10月以降の52件は平均4.04で、それ以前より評価は高めです。ただし件数が少なく、掲載基準も公開されていないため、運営会社の変更が評価の改善につながったと判断できる材料ではありません。52件のうち星1〜2の<strong>5件の内容は、仮査定から現物確認後に大きく下がった（2件）、価格を出したのが1社だけ・見積もり業者が少ない（2件）、申込直後からの電話の多さ（1件）</strong>でした。星3の11件では、出品の取り下げや通知の個別停止ができない（2件）、業者ごとに連絡の時刻がばらばら（2件）といった仕組みへの要望が目立ちます。52件のうち楽器の投稿は、ギブソンのアコースティックギターをギター専門店に売却できたという星5の1件でした。
+          </p>
+
+          <h2 id="gakki-reviews">楽器を出した人のクチコミ17件（当サイト集計）</h2>
+          <p>
+            1,083件のうち、本文から<strong>楽器（ギター・電子ピアノ・エレクトーン・トランペット・バイオリンなど）を査定に出したと読める投稿は17件</strong>でした（楽器名・メーカー名を含む投稿を全件読んで判定。オーディオ機器・カメラは除外し、投稿者名だけが楽器名で本文に品目がない2件も除外）。星の内訳は<strong>星5が8件・星4が2件・星3が1件・星2が4件・星1が2件、平均3.59</strong>で、全体の3.4をやや上回ります。投稿年は2020年4件・2021年6件・2022年2件・2023年3件・2024年2件で、最新は2024年11月です。
+          </p>
+          <div className="table-wrapper mb-6">
+            <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
+              <thead className="bg-accent-dark text-white"><tr><th className="px-4 py-3 text-left font-medium">投稿日</th><th className="px-4 py-3 text-left font-medium">星</th><th className="px-4 py-3 text-left font-medium">内容の要約</th></tr></thead>
+              <tbody className="divide-y divide-warm-border">
+                <tr className="bg-white"><td className="px-4 py-3">2024年11月</td><td className="px-4 py-3">5</td><td className="px-4 py-3">ギブソンのアコースティックギター。地元の買取先は楽器への理解が足りないと感じたが、紹介された専門店で妥当な価格が出た</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2023年9月</td><td className="px-4 py-3">5</td><td className="px-4 py-3">ギブソンのエレキギターをギターショップが22万円で買取</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">2023年7月</td><td className="px-4 py-3">1</td><td className="px-4 py-3">楽器の専門性のない業者がほとんどだった</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2023年4月</td><td className="px-4 py-3">2</td><td className="px-4 py-3">依頼してくるのはリサイクル系の何でも買う店で、ネットオークションの相場が基準。弦楽器・管楽器・和楽器などカテゴリを分けてほしい</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">2022年8月</td><td className="px-4 py-3">2</td><td className="px-4 py-3">1970年代のヴィンテージのエレキギターで利用したが、あまり参考にならなかった</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2021年5月</td><td className="px-4 py-3">4</td><td className="px-4 py-3">エレクトーンはどの店も買取不可。処分のため、費用の安い業者に引き取りを依頼した（対応は良かった）</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">2021年1月</td><td className="px-4 py-3">2</td><td className="px-4 py-3">ギターを宅配で送ったら、上限15万円の提示が実査定では8万円。送り返す手間を考えて売ってしまった</td></tr>
+                <tr className="bg-cream/50"><td className="px-4 py-3">2020年11月</td><td className="px-4 py-3">3</td><td className="px-4 py-3">子どものバイオリン・ピアノ。最初の業者にはジュエリーやブランド品はないかと聞かれたが、次の音楽専門の業者は丁寧だった</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3">2020年8月</td><td className="px-4 py-3">4</td><td className="px-4 py-3">電子ピアノ。2社から電話があり金額が違ったので、条件の良い方に出張で引き取ってもらった</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            楽器を売る人が読み取れるのは3点です。1つ目は、<strong>評価が「楽器に詳しい業者に当たったかどうか」で分かれる</strong>こと。高評価の多くはギター専門店や音楽専門の業者に売れた例で、低評価には「専門性のない業者ばかり」「オークション相場が基準」という声が並びます。届いた査定は、楽器の買取実績を公開している業者から先に見てください（<Link href="/articles/vintage-gakki-kaitori/" className="text-accent underline hover:text-accent-dark">ヴィンテージ楽器の買取</Link>も参照）。2つ目は、<strong>仮査定の上限額と実査定の差</strong>です。ネックや電装の状態は写真では伝わりにくいので、備考に不具合まで書き、宅配なら返送料の負担を先に確認しておくと、減額されたときに断りやすくなります。3つ目は、<strong>エレクトーンや古い電子ピアノは買取にならず、引き取り（処分）になることがある</strong>点です。値段が付くかの目安は<Link href="/articles/electone-shobun/" className="text-accent underline hover:text-accent-dark">エレクトーンの処分方法</Link>や<Link href="/articles/denshi-piano-kaitori/" className="text-accent underline hover:text-accent-dark">電子ピアノの買取</Link>で先に確認できます。
+          </p>
+          <p className="text-xs text-warm-gray">※ 年別の件数・平均・割合、運営移管前後の比較、楽器に関する投稿の抽出・要約は、公式の一覧（2026年11月27日時点・1,083件）を当サイトが数えたものです。投稿本文の引用はしていません。表は17件のうち内容に具体性がある9件を抜き出したものです。</p>
 
           <h2 id="fit">向いている人・向かない人</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4 not-prose">
@@ -299,9 +398,12 @@ export default function HikakakuGakkiKuchikomiPage() {
             <li><a href="https://hikakaku.com/category/all-category/piano/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">ピアノの買取価格を比較（掲載点数・社数・買取実績）</a></li>
             <li><a href="https://hikakaku.com/%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b%e3%81%94%e8%b3%aa%e5%95%8f/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">ヒカカク！ よくあるご質問（紹介のみ・キャンセル・情報変更・削除・配信停止）</a></li>
             <li><a href="https://hikakaku.com/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">ヒカカク！ サイト利用規約（第4〜6条・最終改定2024年10月1日）</a></li>
+            <li><a href="https://hikakaku.com/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">ヒカカク！ プライバシーポリシー（第4条 第三者への提供・第5条 開示等の請求先・最終改定2024年12月16日）</a></li>
+            <li><a href="https://hikakaku.com/estimate_form/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">ヒカカク！ 査定フォーム（お客様情報の入力項目・お住まいの地域・買取方法）</a></li>
             <li><a href="https://hikakaku.com/pages/company/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">運営者情報</a>／<a href="https://hikakaku.com/pages/kobutsu_hyoki/" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">古物営業法に基づく表記</a></li>
+            <li><a href="https://www2.jpx.co.jp/disc/36790/140120240826576688.pdf" target="_blank" rel="noopener noreferrer nofollow" className="text-accent underline">株式会社じげん「株式会社ヒカカクの株式取得（連結子会社化）及び吸収合併（簡易合併）に関するお知らせ」（2024年8月26日・適時開示）</a></li>
           </ul>
-          <p className="text-xs text-warm-gray">※ いずれも2026年10月8日に公式サイトの生ページを確認して記載しています（クチコミの評価分布・カテゴリの掲載数と買取実績・よくあるご質問・利用規約・運営者情報は{UPDATED_JA}に再確認）。サービス内容・件数は変更されることがあるため、最新情報は公式サイトでご確認ください。本記事はPRリンクを含みます。</p>
+          <p className="text-xs text-warm-gray">※ いずれも2026年10月8日に公式サイトの生ページを確認して記載しています（クチコミ一覧の全件・カテゴリの掲載数と買取実績・申込フォーム・よくあるご質問・利用規約・プライバシーポリシー・運営者情報・適時開示は{UPDATED_JA}に再確認）。サービス内容・件数は変更されることがあるため、最新情報は公式サイトでご確認ください。本記事はPRリンクを含みます。</p>
         </section>
 
         <RelatedArticles currentSlug="hikakaku-gakki-kaitori-kuchikomi" relatedSlugs={["gakki-kaitori-osusume", "uriel-gakki-kaitori-kuchikomi", "kaitori-houhou-hikaku", "takaku-uru-kotsu", "mercari-vs-gyosha", "gakki-kaitori-sagi", "ihin-gakki-kaitori"]} />
