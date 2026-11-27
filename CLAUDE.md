@@ -951,3 +951,8 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 楽器の買取屋さん 公式 11/26: /area/tokyo/ の近隣店舗＝池袋・板橋・上野、/kaitori/shop/ の東京都の住所は 台東区上野7丁目・豊島区西池袋1丁目・板橋区前野町1丁目の3つだけ → 渋谷・新宿とも「上野・池袋・板橋」で一致（未変更）
 - バイセル（buysell）は app/components/data に言及0＝掲載業者ではない
 - 計測リンク out html t.felmat 6746・fmcl 3114・fmimp 3544（deploy 前＝out＝deploy 後）・ソース 1140 不変。precheck 全項目OK。sitemap lastmod 272 URL を 11-26。rsync は set -e のスクリプトで dry→deleting は旧 buildId のみ
+
+### 2026-11-27 朝ルーチン：横浜 持ち込み早見表4店を公式で再照合／ティファナ宅配は停止継続で注記 11/27（src d2d62d24 / deploy 5e2993bac）
+- 機械点検「10日より古い」（yokohama 10/18）: 公式 11/27 でイシバシ横浜（/kaitori/tentou/yokohama.html・/kaitori/tentou/ の現金/50万以上振込・ピアノ等不可・1938年創業）、クロサワ横浜（/sh_hama/・モアーズ4F・11〜20時・支払い記載なし）、島村ビブレ（/shop/yokohama/used/・振込のみ・10万以上1週間・スムーズ13〜18時・UP条件）、楽器の買取屋さん横浜店（/kaitori/shop/yokohama/・/area/kanagawa/yokohama/ 事例12件・神奈川全域）＝一致 → 確認日 11/13・11/23 → 11/27
+- 訂正2件: ①島村「2026年10月18日時点ではローランド電子ドラムの買取10%UP」→ 公式の実施中4件（11/1〜11/30・Gibson/K.Yairi/Headway アコギ、Ibanez/ESP/MUSICMAN エレキ、FREEDOM/dragonfly ベース、Fulltone/Pro Co/Universal Audio/One Control エフェクター。⚠️11/30 で終わるので 12/1 以降に要再確認）②早見表 楽器の買取屋さん（店頭）「身分証明書のコピーと住民票の写しの送付が必要」は宅配の条件 → 店舗ページ「本人確認書類いずれか一点をお見せください」に。KaitoriyasanInfo（ASOF 11/23・共通部品）は未変更
+- ティファナ 11/27: /shipping/「…システムリニューアルのため一時停止しております。」・online 503 → update-tifana-pause-date.py 1,152か所・387ファイル＋CHECKED。ビルドは他サイトと並行で 16 分（1回目は 10 分枠で中断→再実行）。計測リンク out t.felmat 6746・fmcl 3114・fmimp 3544・ソース 1140 不変。precheck 全項目OK。本番 10:20 反映。点検 C3 /author/ は同じ否定文・Person 0＝誤検知（未変更）
