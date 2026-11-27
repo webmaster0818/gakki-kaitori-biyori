@@ -70,7 +70,7 @@ function FaqSchema() {
     mainEntity: [
       { "@type": "Question", name: "横浜で楽器を高く売るにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "横浜で楽器を高く売るには、(1)ヒカカク！で複数業者に一括査定を依頼する、(2)横浜駅周辺のイシバシ楽器やクロサワ楽器などの専門店も含めて比較する、(3)付属品を揃えてクリーニングしてから査定に出す、の3つが重要です。横浜は東京に次ぐ楽器市場規模があるため、複数社比較で高額査定が期待できます。" } },
       { "@type": "Question", name: "横浜で出張買取に対応している楽器買取業者は？", acceptedAnswer: { "@type": "Answer", text: "ウリエルは公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。ティファナも神奈川県の一部地域で出張買取を行っています。また、楽器の買取屋さん横浜店は最短30分で出張査定に来てくれるスピード対応が特徴です。出張料・査定料はいずれも無料です。" } },
-      { "@type": "Question", name: "横浜の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店によります。イシバシ楽器 横浜店の店頭買取はその場で現金（鑑定合計50万円以上は振込）です。島村楽器 横浜ビブレ店は銀行振込のみで、10万円以上は支払いまで1週間ほどかかります。クロサワ楽器 横浜店は持ち込むとその場で査定・買取しますが、支払い方法は店舗ページに記載がありません。楽器の買取屋さんは店頭・出張ともその場で現金と公式に案内しています（各社公式 2026年11月13日確認）。" } },
+      { "@type": "Question", name: "横浜の楽器買取で即日現金化は可能ですか？", acceptedAnswer: { "@type": "Answer", text: "店によります。イシバシ楽器 横浜店の店頭買取はその場で現金（鑑定合計50万円以上は振込）です。島村楽器 横浜ビブレ店は銀行振込のみで、10万円以上は支払いまで1週間ほどかかります。クロサワ楽器 横浜店は持ち込むとその場で査定・買取しますが、支払い方法は店舗ページに記載がありません。楽器の買取屋さんは店頭・出張ともその場で現金と公式に案内しています（各社公式 2026年11月27日確認）。" } },
       { "@type": "Question", name: "横浜駅周辺に楽器買取店は多いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、横浜駅周辺には楽器買取店が集中しています。イシバシ楽器横浜店（南幸2丁目・相鉄南幸第7ビル2F/3F）、クロサワ楽器横浜店（横浜岡田屋モアーズ4F）、島村楽器横浜ビブレ店など、徒歩圏内に大手楽器チェーンが揃っています。" } },
       { "@type": "Question", name: "ピアノやドラムなど大型楽器は横浜でどのように売ればよいですか？", acceptedAnswer: { "@type": "Answer", text: "大型楽器はウリエルの出張買取がおすすめです。公式の買取対応エリアに神奈川県を挙げています（一部対応できない市町村あり。2026年11月7日確認）。搬出作業も査定士が行います。出張料・搬出料は無料です。横浜楽器でも大型楽器の出張買取に対応しています。" } },
     ],
@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年11月最新】楽器買取 横浜おすすめ3選｜横浜駅周辺の専門店も比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-23",
+    dateModified: "2026-11-27",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -110,14 +110,14 @@ export default function YokohamaGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             横浜で楽器を売りたいものの、どの業者を選べばよいかわからない方へ。本記事では、横浜エリア対応の楽器買取おすすめ3社を比較します。横浜駅周辺のイシバシ楽器・クロサワ楽器・島村楽器など専門店の情報から、出張買取・店頭買取・宅配買取それぞれのメリット・デメリット、高く売るためのコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月23日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月27日</p>
         </header>
 
-        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6"><strong>「楽器の買取屋さん 横浜店」の答え：</strong>所在地は横浜市中区万代町1丁目2-3 座間ビル3F（駐車場なし）、営業時間は10:00〜19:00で、来店前に電話するよう公式が案内しています。横浜市を含む神奈川県全域が出張買取の対象で、出張費・査定料は無料、査定額に納得できない場合のキャンセル料もかかりません。公式の地域ページには横浜市の買取事例が12件載っています（楽器の買取屋さん公式で2026年11月23日に確認）。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">運営会社・宅配の条件・買取事例を見る</a></p>
+        <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6"><strong>「楽器の買取屋さん 横浜店」の答え：</strong>所在地は横浜市中区万代町1丁目2-3 座間ビル3F（駐車場なし）、営業時間は10:00〜19:00で、来店前に電話するよう公式が案内しています。横浜市を含む神奈川県全域が出張買取の対象で、出張費・査定料は無料、査定額に納得できない場合のキャンセル料もかかりません。公式の地域ページには横浜市の買取事例が12件載っています（楽器の買取屋さん公式で2026年11月27日に確認）。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">運営会社・宅配の条件・買取事例を見る</a></p>
 
         <section id="mochikomi" className="bg-white border border-warm-border rounded-xl p-5 mb-8">
           <h2 className="font-bold text-lg mb-2">横浜で楽器を持ち込める店（早見表）</h2>
-          <p className="text-sm text-warm-gray leading-relaxed mb-3">横浜で楽器を持ち込むなら、横浜駅西口の徒歩圏にイシバシ楽器・クロサワ楽器・島村楽器の買取窓口があります。その場で現金を受け取りたいならイシバシ楽器 横浜店、島村楽器は銀行振込のみです。「楽器の買取屋さん 横浜店」は中区万代町にあり、公式は来店前に電話するよう案内しています（各社の公式ページで2026年11月13日に確認）。</p>
+          <p className="text-sm text-warm-gray leading-relaxed mb-3">横浜で楽器を持ち込むなら、横浜駅西口の徒歩圏にイシバシ楽器・クロサワ楽器・島村楽器の買取窓口があります。その場で現金を受け取りたいならイシバシ楽器 横浜店、島村楽器は銀行振込のみです。「楽器の買取屋さん 横浜店」は中区万代町にあり、公式は来店前に電話するよう案内しています（各社の公式ページで2026年11月27日に確認）。</p>
           <div className="table-wrapper mb-3">
             <table className="w-full text-sm border border-warm-border rounded-lg overflow-hidden">
               <thead className="bg-accent-dark text-white"><tr><th className="px-3 py-2 text-left font-medium whitespace-nowrap">店</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">所在地・駅から</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">受付時間</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">買取の方法・品目</th><th className="px-3 py-2 text-left font-medium whitespace-nowrap">支払い</th></tr></thead>
@@ -125,11 +125,11 @@ export default function YokohamaGakkiKaitoriPage() {
                 <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.ishibashi.co.jp/kaitori/tentou/yokohama.html" target="_blank" rel="nofollow noopener" className="underline">イシバシ楽器 横浜店</a></td><td className="px-3 py-2">西区南幸2-17-1 相鉄南幸第7ビル 2F（買取は2F）／横浜駅西口 徒歩5分</td><td className="px-3 py-2">12:00〜20:00（予約なしでも可）</td><td className="px-3 py-2">楽器全般を店頭で（アコースティックピアノ・エレクトーン・オルガンは店頭不可）</td><td className="px-3 py-2">その場で現金（鑑定合計50万円以上は振込）</td></tr>
                 <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://www.kurosawagakki.com/sh_hama/index.html" target="_blank" rel="nofollow noopener" className="underline">クロサワ楽器 横浜店</a></td><td className="px-3 py-2">西区南幸1-3-1 横浜モアーズ4F／横浜駅西口 徒歩1分（相鉄・市営地下鉄はみなみ西口 徒歩3分）</td><td className="px-3 py-2">11:00〜20:00</td><td className="px-3 py-2">ギター・ベース・ウクレレなど。持ち込むとその場で査定・買取（一部は委託販売の相談可）</td><td className="px-3 py-2">店舗ページに記載なし</td></tr>
                 <tr className="bg-white"><td className="px-3 py-2 font-medium"><a href="https://www.shimamura.co.jp/shop/yokohama/used/" target="_blank" rel="nofollow noopener" className="underline">島村楽器 横浜ビブレ店</a></td><td className="px-3 py-2">西区南幸2-15-13 横浜ビブレ5F／横浜駅みなみ西口 徒歩3分</td><td className="px-3 py-2">月〜金 11:00〜21:00／土日祝 10:00〜21:00（査定がスムーズなのは13:00〜18:00）</td><td className="px-3 py-2">楽器全般。店舗への持ち込みで査定額5%UP</td><td className="px-3 py-2">銀行振込のみ・現金なし（10万円以上は1週間ほど）</td></tr>
-                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="nofollow noopener" className="underline">楽器の買取屋さん 横浜店</a></td><td className="px-3 py-2">中区万代町1丁目2-3 座間ビル3F（駐車場なし）</td><td className="px-3 py-2">10:00〜19:00（まず電話。対応時間の予約も可）</td><td className="px-3 py-2">その場で査定。身分証明書のコピーと住民票の写しの送付が必要</td><td className="px-3 py-2">その場で現金（査定額に納得できなければキャンセル料なし）</td></tr>
+                <tr className="bg-cream/50"><td className="px-3 py-2 font-medium"><a href="https://gakkikaitori.co.jp/kaitori/shop/" target="_blank" rel="nofollow noopener" className="underline">楽器の買取屋さん 横浜店</a></td><td className="px-3 py-2">中区万代町1丁目2-3 座間ビル3F（駐車場なし）</td><td className="px-3 py-2">10:00〜19:00（まず電話。対応時間の予約も可）</td><td className="px-3 py-2">その場で査定。運転免許証などの本人確認書類1点の提示が必要</td><td className="px-3 py-2">その場で現金（査定額に納得できなければキャンセル料なし）</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月13日に確認（楽器の買取屋さん 横浜店は2026年11月23日に再確認）。楽器の買取屋さんは来店前の電話を案内しているため、持ち込む前に電話で受付を確認してください。運営会社・出張／宅配の条件は<a href="#kaitoriyasan-info" className="underline">楽器の買取屋さん（横浜店）の基本情報</a>に、ピアノなど運べない楽器は<a href="#method" className="underline">出張・店頭・宅配の選び方</a>にまとめています。</p>
+          <p className="text-xs text-warm-gray leading-relaxed">※各店の公式ページ（店名のリンク先）で2026年11月27日に確認。楽器の買取屋さんは来店前の電話を案内しているため、持ち込む前に電話で受付を確認してください。運営会社・出張／宅配の条件は<a href="#kaitoriyasan-info" className="underline">楽器の買取屋さん（横浜店）の基本情報</a>に、ピアノなど運べない楽器は<a href="#method" className="underline">出張・店頭・宅配の選び方</a>にまとめています。</p>
         </section>
 
         <nav className="bg-cream border border-warm-border rounded-xl p-5 mb-8">
@@ -180,7 +180,7 @@ export default function YokohamaGakkiKaitoriPage() {
 
           <h3>ティファナ ── 横浜エリアで出張買取・宅配買取に対応</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月26日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月27日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
           <p>ティファナの出張買取は東京・埼玉・神奈川・千葉の一部地域が対象で（公式の出張可能エリア）、<strong>宅配買取は全国から送料無料</strong>で利用できます。店舗は東京・埼玉にあり、神奈川県内にはありません。楽器以外のアイテムもまとめて売れるのがメリットで、引っ越しの際のまとめ売りにも便利です。</p>
 
           <h3>ウリエル ── 神奈川県が対応エリアの出張買取</h3>
@@ -201,7 +201,7 @@ export default function YokohamaGakkiKaitoriPage() {
           <p>また、<strong>クロサワバイオリン横浜店</strong>も横浜駅から徒歩約3分の場所にあり、入門用からヨーロッパで買付けたオールド・モダン楽器まで幅広く扱っています。バイオリン・チェロなど弦楽器の買取に特化した専門性が魅力です。</p>
 
           <h3>横浜駅西口（横浜ビブレ）</h3>
-          <p><strong>島村楽器 横浜ビブレ店</strong>は横浜市西区南幸2-15-13の横浜ビブレ5F（横浜駅みなみ西口から徒歩3分）にあり、中古楽器の販売・買取・下取を取り扱っています。営業時間は11:00〜21:00（土日祝は10:00〜21:00）、査定は無料です。店舗への持ち込みで査定額5%UP・島村楽器での購入品は5%UP・下取は10%UP（最大20%UP・ピアノは対象外）で、2026年10月18日時点ではローランド電子ドラムの買取10%UPキャンペーンを実施しています。買取代金は銀行振込のみで、現金での支払いはありません。総合楽器店のため、ギター以外にも電子ピアノ・ドラム・管楽器など幅広いジャンルに対応しています。</p>
+          <p><strong>島村楽器 横浜ビブレ店</strong>は横浜市西区南幸2-15-13の横浜ビブレ5F（横浜駅みなみ西口から徒歩3分）にあり、中古楽器の販売・買取・下取を取り扱っています。営業時間は11:00〜21:00（土日祝は10:00〜21:00）、査定は無料です。店舗への持ち込みで査定額5%UP・島村楽器での購入品は5%UP・下取は10%UP（最大20%UP・ピアノは対象外）です。2026年11月27日時点では、11月30日までの期間で、対象ブランド（アコースティックギターはGibson・K.Yairi・Headway、エレキギターはIbanez・ESP・MUSICMAN、ベースはFREEDOM CUSTOM GUITAR RESEARCH・dragonfly、エフェクターはFulltone・Pro Co・Universal Audio・One Control）の買取価格を10%UPするキャンペーンを実施しています。買取代金は銀行振込のみで、現金での支払いはありません。総合楽器店のため、ギター以外にも電子ピアノ・ドラム・管楽器など幅広いジャンルに対応しています。</p>
 
           <h3>横浜市内その他のエリア</h3>
           <p>横浜市内は18区に分かれており、横浜駅から離れたエリアでは出張買取の利用が便利です。<strong>楽器の買取屋さん横浜店</strong>は神奈川県内の楽器買取を強化しており、最短30分で出張査定に来てくれるスピード対応が特徴です。汚れている楽器や壊れている楽器も買取対象で、その場で即現金支払いが可能です。</p>
@@ -339,7 +339,7 @@ export default function YokohamaGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                店によります。イシバシ楽器 横浜店の店頭買取はその場で現金（鑑定合計50万円以上は振込）です。島村楽器 横浜ビブレ店は銀行振込のみで、10万円以上は支払いまで1週間ほどかかります。クロサワ楽器 横浜店は持ち込むとその場で査定・買取しますが、支払い方法は店舗ページに記載がありません。楽器の買取屋さんは店頭・出張ともその場で現金と公式に案内しています（各社公式 2026年11月13日確認）。
+                店によります。イシバシ楽器 横浜店の店頭買取はその場で現金（鑑定合計50万円以上は振込）です。島村楽器 横浜ビブレ店は銀行振込のみで、10万円以上は支払いまで1週間ほどかかります。クロサワ楽器 横浜店は持ち込むとその場で査定・買取しますが、支払い方法は店舗ページに記載がありません。楽器の買取屋さんは店頭・出張ともその場で現金と公式に案内しています（各社公式 2026年11月27日確認）。
               </div>
             </details>
             <details className="bg-white rounded-xl border border-warm-border overflow-hidden">

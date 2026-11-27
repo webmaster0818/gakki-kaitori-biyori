@@ -82,7 +82,7 @@ export default function Page() {
         <ServiceCapture id="tifana" />
         <ul>
           <li><strong>方式</strong>: 店頭・宅配のハイブリッド</li>
-          <li><strong>強み</strong>: 店頭は査定金額をその場で現金払い。宅配買取は一時停止中（公式のお知らせ・2026年11月26日確認）</li>
+          <li><strong>強み</strong>: 店頭は査定金額をその場で現金払い。宅配買取は一時停止中（公式のお知らせ・2026年11月27日確認）</li>
           <li><strong>対応エリア</strong>: 江戸川区内に店舗あり（瑞江店）。出張は江戸川区が出張エリア</li>
           <li><strong>料金</strong>: 査定無料</li>
         </ul>
