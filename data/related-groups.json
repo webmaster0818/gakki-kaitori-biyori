@@ -182,7 +182,10 @@
     "denshi-piano-kaitori",
     "casio-kaitori",
     "roland-denshi-piano-kaitori",
-    "roland-kaitori"
+    "roland-kaitori",
+    "denshi-piano-jumyou",
+    "denshi-piano-sodaigomi",
+    "furui-denshi-piano-kaitori"
    ]
   },
   "inst:dj-kizai-kaitori": {
@@ -531,6 +534,7 @@
   "pref:大阪府": {
    "label": "大阪府のほかの地域の楽器買取",
    "members": [
+    "denshi-piano-kaitori-osaka",
     "guitar-kaitori-osaka",
     "osaka-gakki-kaitori",
     "suita-gakki-kaitori",
@@ -692,6 +696,7 @@
   "pref:福岡県": {
    "label": "福岡県のほかの地域の楽器買取",
    "members": [
+    "denshi-piano-kaitori-fukuoka",
     "fukuoka-gakki-kaitori",
     "guitar-kaitori-fukuoka",
     "kitakyushu-gakki-kaitori",
@@ -848,6 +853,9 @@
   "casio-kaitori": "CASIO電子楽器買取ガイド",
   "roland-denshi-piano-kaitori": "ローランド電子ピアノ買取",
   "roland-kaitori": "Roland買取相場ガイド",
+  "denshi-piano-jumyou": "電子ピアノの寿命",
+  "denshi-piano-sodaigomi": "電子ピアノの粗大ごみ",
+  "furui-denshi-piano-kaitori": "古い電子ピアノの買取",
   "dj-kizai-kaitori": "DJ機材買取相場ガイド",
   "mixer-kaitori": "ミキサー買取ガイド",
   "native-instruments-kaitori": "Native Instruments買取ガイド",
@@ -1086,6 +1094,7 @@
   "kasukabe-gakki-kaitori": "楽器買取 春日部市おすすめ3選",
   "soka-gakki-kaitori": "楽器買取 草加市おすすめ3選",
   "koshigaya-gakki-kaitori": "越谷の楽器買取",
+  "denshi-piano-kaitori-osaka": "大阪の電子ピアノ買取",
   "guitar-kaitori-osaka": "ギター買取 大阪",
   "osaka-gakki-kaitori": "楽器買取 大阪おすすめ3選",
   "suita-gakki-kaitori": "吹田の楽器買取",
@@ -1207,6 +1216,7 @@
   "yokosuka-gakki-kaitori": "横須賀の楽器買取",
   "sagamihara-gakki-kaitori": "相模原の楽器買取",
   "hadano-gakki-kaitori": "楽器買取 秦野市おすすめ3選",
+  "denshi-piano-kaitori-fukuoka": "福岡の電子ピアノ買取",
   "fukuoka-gakki-kaitori": "楽器買取 福岡おすすめ3選",
   "guitar-kaitori-fukuoka": "ギター買取 福岡",
   "kitakyushu-gakki-kaitori": "楽器買取 北九州おすすめ3選",

@@ -238,7 +238,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="roland-denshi-piano-kaitori"
-          relatedSlugs={["denshi-piano-kaitori", "roland-kaitori", "piano-kaitori", "kawai-piano-kaitori", "grand-piano-kaitori", "yamaha-kaitori", "casio-kaitori", "keyboard-kaitori", "takaku-uru-kotsu", "gakki-kaitori-osusume"]}
+          relatedSlugs={["denshi-piano-kaitori", "roland-kaitori", "piano-kaitori", "kawai-piano-kaitori", "grand-piano-kaitori", "yamaha-kaitori", "casio-kaitori", "keyboard-kaitori", "takaku-uru-kotsu", "gakki-kaitori-osusume", "denshi-piano-jumyou"]}
         />
       </article>
     </>

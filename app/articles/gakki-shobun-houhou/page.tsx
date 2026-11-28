@@ -75,7 +75,7 @@ export default function Page() {
 
           <RelatedArticles
             currentSlug="gakki-shobun-houhou"
-            relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "gakki-danshari", "hikkoshi-gakki-shobun", "souko-seiri-gakki", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu"]}
+            relatedSlugs={["piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "denshi-piano-kaitori", "gakki-danshari", "hikkoshi-gakki-shobun", "souko-seiri-gakki", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "takaku-uru-kotsu", "denshi-piano-sodaigomi"]}
           />
         </div>
       </article>

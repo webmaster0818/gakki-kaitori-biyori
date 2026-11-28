@@ -144,6 +144,46 @@
     "category": "instrument"
   },
   {
+    "slug": "denshi-piano-jumyou",
+    "title": "電子ピアノの寿命は何年？",
+    "shortTitle": "電子ピアノの寿命",
+    "badge": "電子ピアノ",
+    "description": "メーカー4社の部品保有期間（5〜10年）と、ローランド307型番の修理受付状況を製造完了年別に集計。",
+    "category": "howto"
+  },
+  {
+    "slug": "denshi-piano-sodaigomi",
+    "title": "電子ピアノは粗大ごみに出せる？",
+    "shortTitle": "電子ピアノの粗大ごみ",
+    "badge": "処分ガイド",
+    "description": "電子ピアノの粗大ごみ手数料を5市区の公式ページで比較（1,000〜2,000円）。出張買取・有料引取との違い。",
+    "category": "howto"
+  },
+  {
+    "slug": "furui-denshi-piano-kaitori",
+    "title": "古い電子ピアノは買取できる？",
+    "shortTitle": "古い電子ピアノの買取",
+    "badge": "電子ピアノ",
+    "description": "島村楽器8年・ブックオフ5年の年式の基準と、製造8〜19年の電子ピアノの買取実績11件。",
+    "category": "howto"
+  },
+  {
+    "slug": "denshi-piano-kaitori-osaka",
+    "title": "大阪で電子ピアノを売るには？",
+    "shortTitle": "大阪の電子ピアノ買取",
+    "badge": "大阪府",
+    "description": "大阪府に出張する電子ピアノ買取3社の対象地域・年式の基準・搬出費と、大阪市の粗大ごみ手数料。",
+    "category": "region"
+  },
+  {
+    "slug": "denshi-piano-kaitori-fukuoka",
+    "title": "福岡で電子ピアノを売るには？",
+    "shortTitle": "福岡の電子ピアノ買取",
+    "badge": "福岡県",
+    "description": "福岡県に出張する電子ピアノ買取3社の対象地域・年式の基準と、福岡市の粗大ごみ手数料・持ち出しサービス。",
+    "category": "region"
+  },
+  {
     "slug": "dj-kizai-kaitori",
     "title": "DJ機材買取相場ガイド",
     "shortTitle": "DJ機材買取相場ガイド",

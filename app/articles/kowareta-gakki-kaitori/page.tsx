@@ -392,7 +392,7 @@ export default function KowaretaGakkiKaitoriPage() {
 
         <RelatedArticles
           currentSlug="kowareta-gakki-kaitori"
-          relatedSlugs={["kabi-gakki-kaitori", "ihin-gakki-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori", "saxophone-kaitori", "drum-kaitori"]}
+          relatedSlugs={["kabi-gakki-kaitori", "ihin-gakki-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "piano-kaitori", "guitar-kaitori", "saxophone-kaitori", "drum-kaitori", "furui-denshi-piano-kaitori"]}
         />
       </article>
     </>
