@@ -974,3 +974,12 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - sitemap 505→510（lastmod 11-28 は新規5＋導線7本）。precheck 全項目OK（626ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。ビルドは peatbid の長時間ビルド（20:17〜・21:50〜 各1時間超）でロック待ち、21:48 に1分で完了。push 22:35 → 本番 22:36 反映（5本 200・h1 一致・本番 sitemap 510）。Indexing は親がまとめて送る
 - 🔍 未反映（次の回で）: furui-denshi-piano-kaitori の「8年以上と8年未満で中央値に大きな差は出ていません」は実際 15,000円 vs 12,000円＝「8年以上のほうが高い（機種構成の違い）」に直したいが、再ビルドのロックが 23:30 までに取れず見送り
 - 22:5x 親（tomomi-2）が上の 🔍 を反映：furui-denshi-piano-kaitori の文を「中央値は8年以上 11件 15,000円・8年未満 9件 12,000円で古い年式のほうが高い（機種構成の違い）」に訂正（src 7d441aa5 / deploy a11f17b1c・precheck 全項目OK・本番 22:56 確認）
+
+### 2026-11-29 深夜02時の回 kwexp（競合 epco-inc.co.jp・2回目）：新規5本（src e38c5ff5・7d70adfe / deploy f73f231d19）
+- queue の status 空欄17語を上から5語（東京・運ぶ・神奈川・広島・千葉）。decisions-20261128.json の check どおり。重複は own-pages・GSC 90日・app/ で確認（いずれも専用ページなし。hikkoshi-gakki-shobun は楽器全般の処分で意図が別）
+- 都道府県4本の業者2社以上の条件＝島村 /used/gakki/digital-piano/（対象地域に4都県。⚠️広島県は「庄原市、神石郡（神石高原町）を除く」）・楽器の買取屋さん（gakkikaitori.co.jp/area/<pref>/ 「◯◯全域が出張買取の対象」・FAQ「作業代、搬出費用なども一切掛かりません」・出張もその場で現金）・高く売れるドットコム（/flow/visit/ 出張エリア関東・中国、リユースセンター）の3社。⚠️ www.gakkikaitori.co.jp は 301→gakkikaitori.co.jp
+- 実績＝高く売れるドットコム /gakki/denshi-piano/・/clavinova/・/roland/ の「◯◯県で買取」から抽出：東京6件（6,000〜30,000・中央値16,000・CA15R 2013年製 12,000）／神奈川2件（CLP-685B 50,000・CLP-545WA 2015年製 23,000）／千葉3件（CLP-735WA 2021 45,000・545WA 2016 15,000・280PE 2007 5,000）／広島は該当なし→楽器の買取屋さん /area/hiroshima/ の事例 KORG 電子ピアノ 23,000（2026/07/24 広島市）
+- 自治体：中央区 1,800円（70kgまで）／横浜市は手数料を外部の「インターネット品目一覧」（検索フォームで金額取得できず＝金額は書かない）／千葉市 一覧（更新 2026/1/15）に電子ピアノの行なし・電子オルガン 1,560円／広島市 大型ごみ品目別一覧表（更新 2025/2/19）に電子ピアノの行なし・電子オルガン 1,250円
+- `/articles/denshi-piano-hakobu/`（運ぶ・56）: 質量7機種＝ヤマハ P-145BT 11.1kg（取説）・CLP-835 57/845 60/875 71/885 87kg（つや出し +3kg。CLP-885/875/845/835 取説 data.yamaha.com …/CLP-885_owners_manual_Ja_B0.pdf。⚠️ jp.yamaha.com・usa の URL は 404/301、data.yamaha.com で取得）・カワイ CA401 58.0kg（梱包 80.0kg）・ローランド HP704 59.5kg（PE 61.0）。取説の「楽器の移動と設置」（2人以上・水平・底面を持つ・アジャスターを床から離す・ケーブルを外す・設置後ネジ確認・引っ越しは組み立て/解体どちらでも可）。中央区「70kgまで」を CLP-875/885 が超える。カシオ公式は 403（回避せず不使用）
+- 導線: relatedSlugs 末尾に追加（tokyo→東京、yokohama・kawasaki→神奈川、chiba→千葉、hiroshima→広島、denshi-piano-kaitori→5本、denshi-piano-sodaigomi・hikkoshi-gakki-shobun→運ぶ）。gen-related-groups.py の変化は新規5本の追加のみ
+- sitemap 510→515。precheck 全項目OK（631ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。t.felmat out 6826（新規10本×8 で 11/25 の 6746 から＋80）。本番 5本 200・h1 一致・本番 sitemap 515・tokyo から導線あり。Indexing は親がまとめて送る
