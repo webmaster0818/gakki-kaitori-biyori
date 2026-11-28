@@ -973,3 +973,4 @@ GSC 28日（8/17〜9/13）: click 68 / imp 5,695 / pos 14.2（前期 48 / 4,252 
 - 導線: relatedSlugs 末尾に追加（denshi-piano-kaitori→新規5本、osaka/fukuoka-gakki-kaitori→各県、electone-shobun・gakki-shobun-houhou→粗大ごみ、roland-denshi-piano→寿命、kowareta→古い）。gen-related-groups.py の変化は新規5本の追加のみ
 - sitemap 505→510（lastmod 11-28 は新規5＋導線7本）。precheck 全項目OK（626ページ）・trust-audit check_page 新規5本の指摘0・heading-lint 新規分0。ビルドは peatbid の長時間ビルド（20:17〜・21:50〜 各1時間超）でロック待ち、21:48 に1分で完了。push 22:35 → 本番 22:36 反映（5本 200・h1 一致・本番 sitemap 510）。Indexing は親がまとめて送る
 - 🔍 未反映（次の回で）: furui-denshi-piano-kaitori の「8年以上と8年未満で中央値に大きな差は出ていません」は実際 15,000円 vs 12,000円＝「8年以上のほうが高い（機種構成の違い）」に直したいが、再ビルドのロックが 23:30 までに取れず見送り
+- 22:5x 親（tomomi-2）が上の 🔍 を反映：furui-denshi-piano-kaitori の文を「中央値は8年以上 11件 15,000円・8年未満 9件 12,000円で古い年式のほうが高い（機種構成の違い）」に訂正（src 7d441aa5 / deploy a11f17b1c・precheck 全項目OK・本番 22:56 確認）
