@@ -184,6 +184,46 @@
     "category": "region"
   },
   {
+    "slug": "denshi-piano-hakobu",
+    "title": "電子ピアノは自分で運べる？",
+    "shortTitle": "電子ピアノの運び方と重さ",
+    "badge": "電子ピアノ",
+    "description": "メーカー公式の仕様で7機種の重さ（11.1〜90kg）を確認。ヤマハの取扱説明書の運び方と、出張買取の搬出費。",
+    "category": "howto"
+  },
+  {
+    "slug": "denshi-piano-kaitori-tokyo",
+    "title": "東京で電子ピアノを売るには？",
+    "shortTitle": "東京の電子ピアノ買取",
+    "badge": "東京都",
+    "description": "東京都に出張する電子ピアノ買取3社の条件と、都内の買取実績6件・中央区の粗大ごみ手数料。",
+    "category": "region"
+  },
+  {
+    "slug": "denshi-piano-kaitori-kanagawa",
+    "title": "神奈川で電子ピアノを売るには？",
+    "shortTitle": "神奈川の電子ピアノ買取",
+    "badge": "神奈川県",
+    "description": "神奈川県に出張する電子ピアノ買取3社の対象地域・年式の基準と、県内のクラビノーバ買取実績。",
+    "category": "region"
+  },
+  {
+    "slug": "denshi-piano-kaitori-chiba",
+    "title": "千葉で電子ピアノを売るには？",
+    "shortTitle": "千葉の電子ピアノ買取",
+    "badge": "千葉県",
+    "description": "千葉県に出張する電子ピアノ買取3社と、県内のクラビノーバ買取実績3件・千葉市の粗大ごみの扱い。",
+    "category": "region"
+  },
+  {
+    "slug": "denshi-piano-kaitori-hiroshima",
+    "title": "広島で電子ピアノを売るには？",
+    "shortTitle": "広島の電子ピアノ買取",
+    "badge": "広島県",
+    "description": "広島県に出張する電子ピアノ買取3社の対象地域（庄原市・神石郡の扱い）と、広島市の大型ごみの扱い。",
+    "category": "region"
+  },
+  {
     "slug": "dj-kizai-kaitori",
     "title": "DJ機材買取相場ガイド",
     "shortTitle": "DJ機材買取相場ガイド",

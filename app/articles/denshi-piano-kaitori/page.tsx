@@ -402,7 +402,7 @@ export default function DenshiPianoKaitoriPage() {
 
         <RelatedArticles
           currentSlug="denshi-piano-kaitori"
-          relatedSlugs={["electone-shobun", "yamaha-clavinova-kaitori", "roland-denshi-piano-kaitori", "kawai-piano-kaitori", "piano-kaitori", "keyboard-kaitori", "midi-keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "casio-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "denshi-gakki-kaitori", "denshi-piano-jumyou", "furui-denshi-piano-kaitori", "denshi-piano-sodaigomi", "denshi-piano-kaitori-osaka", "denshi-piano-kaitori-fukuoka"]}
+          relatedSlugs={["electone-shobun", "yamaha-clavinova-kaitori", "roland-denshi-piano-kaitori", "kawai-piano-kaitori", "piano-kaitori", "keyboard-kaitori", "midi-keyboard-kaitori", "yamaha-kaitori", "kawai-kaitori", "casio-kaitori", "roland-kaitori", "tokyo-gakki-kaitori", "ochanomizu-gakki-kaitori", "osaka-gakki-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "denshi-gakki-kaitori", "denshi-piano-jumyou", "furui-denshi-piano-kaitori", "denshi-piano-sodaigomi", "denshi-piano-kaitori-osaka", "denshi-piano-kaitori-fukuoka", "denshi-piano-hakobu", "denshi-piano-kaitori-tokyo", "denshi-piano-kaitori-kanagawa", "denshi-piano-kaitori-chiba", "denshi-piano-kaitori-hiroshima"]}
         />
       </article>
     </>

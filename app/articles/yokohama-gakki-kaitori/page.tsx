@@ -399,7 +399,7 @@ export default function YokohamaGakkiKaitoriPage() {
 
         <RelatedArticles
           currentSlug="yokohama-gakki-kaitori"
-          relatedSlugs={["guitar-kaitori-yokohama", "kawasaki-gakki-kaitori", "machida-gakki-kaitori", "tokyo-gakki-kaitori", "chiba-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["guitar-kaitori-yokohama", "kawasaki-gakki-kaitori", "machida-gakki-kaitori", "tokyo-gakki-kaitori", "chiba-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "denshi-piano-kaitori-kanagawa"]}
         />
       </article>
     </>

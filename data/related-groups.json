@@ -183,6 +183,7 @@
     "casio-kaitori",
     "roland-denshi-piano-kaitori",
     "roland-kaitori",
+    "denshi-piano-hakobu",
     "denshi-piano-jumyou",
     "denshi-piano-sodaigomi",
     "furui-denshi-piano-kaitori"
@@ -508,6 +509,7 @@
    "label": "千葉県のほかの地域の楽器買取",
    "members": [
     "chiba-gakki-kaitori",
+    "denshi-piano-kaitori-chiba",
     "guitar-kaitori-chiba",
     "ichihara-gakki-kaitori",
     "ichikawa-gakki-kaitori",
@@ -572,6 +574,7 @@
   "pref:広島県": {
    "label": "広島県のほかの地域の楽器買取",
    "members": [
+    "denshi-piano-kaitori-hiroshima",
     "guitar-kaitori-hiroshima",
     "hiroshima-gakki-kaitori",
     "kure-gakki-kaitori",
@@ -614,6 +617,7 @@
   "pref:東京都": {
    "label": "東京都のほかの地域の楽器買取",
    "members": [
+    "denshi-piano-kaitori-tokyo",
     "guitar-kaitori-tokyo",
     "ikebukuro-gakki-kaitori",
     "ochanomizu-gakki-kaitori",
@@ -670,6 +674,7 @@
   "pref:神奈川県": {
    "label": "神奈川県のほかの地域の楽器買取",
    "members": [
+    "denshi-piano-kaitori-kanagawa",
     "guitar-kaitori-yokohama",
     "kawasaki-gakki-kaitori",
     "yokohama-gakki-kaitori",
@@ -853,6 +858,7 @@
   "casio-kaitori": "CASIO電子楽器買取ガイド",
   "roland-denshi-piano-kaitori": "ローランド電子ピアノ買取",
   "roland-kaitori": "Roland買取相場ガイド",
+  "denshi-piano-hakobu": "電子ピアノの運び方と重さ",
   "denshi-piano-jumyou": "電子ピアノの寿命",
   "denshi-piano-sodaigomi": "電子ピアノの粗大ごみ",
   "furui-denshi-piano-kaitori": "古い電子ピアノの買取",
@@ -1078,6 +1084,7 @@
   "sapporo-nishi-gakki-kaitori": "楽器買取 札幌市西区おすすめ3選",
   "kushiro-gakki-kaitori": "釧路の楽器買取",
   "chiba-gakki-kaitori": "楽器買取 千葉おすすめ3選",
+  "denshi-piano-kaitori-chiba": "千葉の電子ピアノ買取",
   "guitar-kaitori-chiba": "ギター買取 千葉",
   "ichihara-gakki-kaitori": "楽器買取 市原市おすすめ3選",
   "ichikawa-gakki-kaitori": "市川の楽器買取",
@@ -1117,6 +1124,7 @@
   "tajimi-gakki-kaitori": "楽器買取 多治見市おすすめ3選",
   "ogaki-gakki-kaitori": "楽器買取 大垣市おすすめ3選",
   "gifu-gakki-kaitori": "楽器買取 岐阜おすすめ3選",
+  "denshi-piano-kaitori-hiroshima": "広島の電子ピアノ買取",
   "guitar-kaitori-hiroshima": "ギター買取 広島",
   "hiroshima-gakki-kaitori": "楽器買取 広島おすすめ3選",
   "kure-gakki-kaitori": "楽器買取 呉市おすすめ3選",
@@ -1149,6 +1157,7 @@
   "nishio-gakki-kaitori": "楽器買取 西尾市おすすめ3選",
   "toyokawa-aichi-gakki-kaitori": "楽器買取 豊川市おすすめ3選",
   "toyota-gakki-kaitori": "楽器買取 豊田市おすすめ3選",
+  "denshi-piano-kaitori-tokyo": "東京の電子ピアノ買取",
   "guitar-kaitori-tokyo": "ギター買取 東京",
   "ikebukuro-gakki-kaitori": "楽器買取 池袋おすすめ3選",
   "ochanomizu-gakki-kaitori": "楽器買取 御茶ノ水おすすめ3選",
@@ -1195,6 +1204,7 @@
   "hikone-gakki-kaitori": "楽器買取 彦根市おすすめ3選",
   "kusatsu-shiga-gakki-kaitori": "楽器買取 草津市おすすめ3選",
   "nagahama-gakki-kaitori": "楽器買取 長浜市おすすめ3選",
+  "denshi-piano-kaitori-kanagawa": "神奈川の電子ピアノ買取",
   "guitar-kaitori-yokohama": "ギター買取 横浜",
   "kawasaki-gakki-kaitori": "楽器買取 川崎おすすめ3選",
   "yokohama-gakki-kaitori": "楽器買取 横浜おすすめ3選",

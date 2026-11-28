@@ -334,7 +334,7 @@ export default function TokyoGakkiKaitoriPage() {
 
         <RelatedArticles
           currentSlug="tokyo-gakki-kaitori"
-          relatedSlugs={["guitar-kaitori-tokyo", "ochanomizu-gakki-kaitori", "shibuya-gakki-kaitori", "shinjuku-gakki-kaitori", "ikebukuro-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["guitar-kaitori-tokyo", "ochanomizu-gakki-kaitori", "shibuya-gakki-kaitori", "shinjuku-gakki-kaitori", "ikebukuro-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "denshi-piano-kaitori-tokyo"]}
         />
       </article>
     </>

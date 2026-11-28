@@ -327,7 +327,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="denshi-piano-sodaigomi"
-          relatedSlugs={["denshi-piano-kaitori", "furui-denshi-piano-kaitori", "denshi-piano-jumyou", "electone-shobun", "gakki-shobun-houhou", "kodomo-piano-yameta", "hikkoshi-gakki-shobun", "gakki-kaitori-sagi"]}
+          relatedSlugs={["denshi-piano-kaitori", "furui-denshi-piano-kaitori", "denshi-piano-jumyou", "electone-shobun", "gakki-shobun-houhou", "kodomo-piano-yameta", "hikkoshi-gakki-shobun", "gakki-kaitori-sagi", "denshi-piano-hakobu"]}
         />
       </article>
     </>

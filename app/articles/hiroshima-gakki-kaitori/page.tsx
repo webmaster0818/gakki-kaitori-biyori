@@ -293,7 +293,7 @@ export default function Page() {
 
         <RelatedArticles
           currentSlug="hiroshima-gakki-kaitori"
-          relatedSlugs={["guitar-kaitori-hiroshima", "takamatsu-gakki-kaitori", "matsuyama-gakki-kaitori", "kitakyushu-gakki-kaitori", "fukuoka-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku"]}
+          relatedSlugs={["guitar-kaitori-hiroshima", "takamatsu-gakki-kaitori", "matsuyama-gakki-kaitori", "kitakyushu-gakki-kaitori", "fukuoka-gakki-kaitori", "piano-kaitori", "guitar-kaitori", "drum-kaitori", "saxophone-kaitori", "violin-kaitori", "takaku-uru-kotsu", "souba-ichiran", "kaitori-houhou-hikaku", "denshi-piano-kaitori-hiroshima"]}
         />
       </article>
     </>
