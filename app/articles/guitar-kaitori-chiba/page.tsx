@@ -102,7 +102,7 @@ export default function Page() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-warm-border">
-                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配</td><td className="px-4 py-3">出張買取中心</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium">買取方式</td><td className="px-4 py-3">一括査定（複数業者）</td><td className="px-4 py-3">出張/店頭/宅配（宅配は2026年11月28日時点で一時停止中）</td><td className="px-4 py-3">出張買取中心</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">千葉対応</td><td className="px-4 py-3">全域（オンライン）</td><td className="px-4 py-3">出張は6市が相談地域（千葉市は対象外）</td><td className="px-4 py-3">対応エリア</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium">対応ギター</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td><td className="px-4 py-3">エレキ・アコギ・ベース</td></tr>
                 <tr className="bg-cream/50"><td className="px-4 py-3 font-medium">アンプ・エフェクター</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td><td className="px-4 py-3">対応</td></tr>
@@ -146,6 +146,7 @@ export default function Page() {
 
           <h3>宅配買取 ── 全国どこからでも（千葉も同条件）</h3>
           <p>宅配買取は全国共通のサービスで、千葉からでも送料無料の梱包キットを使って売却できます。買取価格の条件も全国一律のため、近くに楽器店がないエリアでも不利になりません。ネックが動かないよう緩衝材を詰めて梱包するのがポイントです。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月28日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <div className="bg-cream border border-warm-border rounded-xl p-5 my-6">
             <p className="text-sm text-warm-gray mb-1">ピアノ・管楽器・ドラムなど、ギター以外の楽器も売りたい方へ</p>

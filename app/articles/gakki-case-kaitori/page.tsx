@@ -14,8 +14,9 @@ import RelatedArticles from "@/components/RelatedArticles";
 // 口コミ・★・人物は載せない。
 
 const ASOF = "2026年11月17日";
+const ISHI_RECHECK = "2026年11月28日"; // 抜粋7件の掲示価格を公式で再確認（変化なし）・各社の記載も同日確認
 const ISHI = "https://www.ishibashi.co.jp/kaitori/";
-const ISHI_SEARCH = "https://www.ishibashi.co.jp/kaitori/kaitori_search.php";
+const ISHI_SEARCH = "https://reuse.ishibashi.co.jp/ja/search"; // 旧 kaitori_search.php は 2026-11-28 時点でここへ転送
 const KURO = "https://www.kurosawagakki.com/kaikuro/takuhai.html";
 const SHIMA = "https://www.shimamura.co.jp/used/";
 
@@ -103,7 +104,7 @@ export default function Page() {
         "@type": "Article",
         headline: "楽器ケースだけでも買取してもらえる？ケース単体の落札相場106件と、買取価格を公開している店",
         datePublished: "2026-11-17",
-        dateModified: "2026-11-17",
+        dateModified: "2026-11-28",
         author: { "@type": "Organization", name: "楽器買取びより編集部" },
         mainEntityOfPage: "https://gakkikaitori-biyori.com/articles/gakki-case-kaitori/",
       },
@@ -187,7 +188,7 @@ export default function Page() {
 
         <h2 id="ishibashi" className="text-xl font-bold mt-12 mb-4">買取価格を公開している例（イシバシ楽器）</h2>
         <p className="text-sm leading-relaxed mb-4">
-          イシバシ楽器の買取価格検索で「ケース」と入力すると117件がヒットしました。表示された先頭20件は、ギグバッグ（RITTER）とエフェクターボード・ペダルケース（BOSS・PEDALTRAIN・PULSE など）でした。その一部です。
+          イシバシ楽器の買取価格検索で「ケース」と入力すると117件がヒットしました（{ASOF}）。表示された先頭20件は、ギグバッグ（RITTER）とエフェクターボード・ペダルケース（BOSS・PEDALTRAIN・PULSE など）でした。その一部です。
         </p>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border border-warm-200">
@@ -220,7 +221,7 @@ export default function Page() {
         <p className="text-xs text-warm-gray mb-10">
           出典：
           <a href={ISHI_SEARCH} target="_blank" rel="noopener noreferrer" className="underline hover:text-accent">イシバシ楽器 買取価格検索</a>
-          （キーワード「ケース」、{ASOF}表示）。公式サイトは「商品状態や時期によって金額の増減がございます。あくまで目安程度にお考えください」としています。
+          （キーワード「ケース」、{ASOF}表示。上の7件の価格は{ISHI_RECHECK}時点でも同じ）。公式サイトは「商品状態や時期によって金額の増減がございます」とし、あくまで目安として最新の査定額は問い合わせで確認するよう案内しています。
         </p>
 
         <h2 id="shops" className="text-xl font-bold mt-12 mb-4">ケースの扱いについての各社の記載</h2>

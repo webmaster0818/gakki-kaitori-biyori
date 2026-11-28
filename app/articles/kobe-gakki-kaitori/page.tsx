@@ -72,7 +72,7 @@ function FaqSchema() {
       { "@type": "Question", name: "神戸で出張買取に来てくれる業者はありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ウリエルは兵庫県を出張買取の対応エリアに含めています（一部対応できない市町村あり・公式）。中央区・灘区・東灘区・兵庫区・長田区など、ご自宅まで査定士が訪問し、その場で査定・買取が可能です。大型楽器やピアノの売却に便利です。" } },
       { "@type": "Question", name: "神戸の楽器買取で人気の楽器は何ですか？", acceptedAnswer: { "@type": "Answer", text: "神戸ではギター（エレキ・アコギ）やピアノの買取依頼が多い傾向にあります。神戸はジャズの街としても知られ、サックスやトランペットなどの管楽器の需要も高めです。ブランド楽器は全般的に高額査定が期待できます。" } },
       { "@type": "Question", name: "壊れた楽器でも神戸で買い取ってもらえますか？", acceptedAnswer: { "@type": "Answer", text: "はい、壊れた楽器やジャンク品でも査定可能です。ヒカカク！では状態を添えて複数業者に査定を依頼できます。ティファナは状態が悪い・古い楽器も相談できるとしていますが、音が出ない楽器は「買取できないもの」に挙げています（公式）。ヴィンテージ品やブランド品は壊れていても値段がつくことがあります。" } },
-      { "@type": "Question", name: "神戸から宅配買取で楽器を送ることはできますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら神戸からも利用できます。なお、ティファナの宅配買取は2026年11月27日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定額に納得できず返却を希望する場合の返送料も無料です（取扱対象外の品は送料自己負担）。送れる段ボールは1箱・最大140サイズまでのため、ギターケースなど大きなものは事前にご確認ください。" } },
+      { "@type": "Question", name: "神戸から宅配買取で楽器を送ることはできますか？", acceptedAnswer: { "@type": "Answer", text: "はい、ティファナの宅配買取なら神戸からも利用できます。なお、ティファナの宅配買取は2026年11月28日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定額に納得できず返却を希望する場合の返送料も無料です（取扱対象外の品は送料自己負担）。送れる段ボールは1箱・最大140サイズまでのため、ギターケースなど大きなものは事前にご確認ください。" } },
     ],
   };
   const articleData = {
@@ -80,7 +80,7 @@ function FaqSchema() {
     "@type": "Article",
     headline: "【2026年最新】楽器買取 神戸おすすめ3選｜出張・店頭・宅配を比較",
     datePublished: "2026-04-26",
-    dateModified: "2026-11-23",
+    dateModified: "2026-11-28",
     author: { "@type": "Organization", name: "楽器買取びより" },
     publisher: { "@type": "Organization", name: "楽器買取びより" },
   };
@@ -110,7 +110,7 @@ export default function KobeGakkiKaitoriPage() {
           <p className="text-warm-gray text-sm leading-relaxed">
             神戸で楽器を売りたいものの、どの買取業者を選べばよいかわからない方へ。本記事では、神戸エリア対応の楽器買取おすすめ3社（ヒカカク！・ティファナ・ウリエル）を比較し、三宮・元町・ハーバーランドなど主要エリアの買取事情から、高く売るコツまで詳しく解説します。
           </p>
-          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月23日</p>
+          <p className="text-xs text-warm-gray mt-2">更新日: 2026年11月28日</p>
         </header>
 
         <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3 mb-6"><strong>「楽器の買取屋さん（神戸・兵庫県）」の答え：</strong>兵庫県内に店舗はありません。神戸市を含む兵庫県全域が出張買取の対象で、出張費・査定料は無料、査定額に納得できない場合のキャンセル料もかかりません。近畿の店舗は大阪門真店（門真市）と大阪心斎橋店（大阪市中央区）で、どちらも営業時間は10:00〜19:00です。公式の地域ページには神戸市の買取事例が12件載っています（楽器の買取屋さん公式で2026年11月23日に確認）。 <a href="#kaitoriyasan-info" className="text-accent underline hover:opacity-80">運営会社・宅配の条件・買取事例を見る</a></p>
@@ -206,7 +206,7 @@ export default function KobeGakkiKaitoriPage() {
 
           <h3>ティファナ ── 神戸からは宅配買取で利用</h3>
           <ServiceCapture id="tifana" />
-          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月27日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
+          <p className="text-sm bg-cream border border-warm-border rounded-lg px-4 py-3"><strong>注意：</strong>ティファナの宅配買取は、公式サイトのお知らせによると「リニューアルのため一時停止」しています（2026年11月28日確認・再開時期の記載なし）。宅配で売る場合は、申し込む前に公式サイトで受付状況を確認してください。</p>
 
           <p>ティファナは出張買取・店頭買取・宅配買取の3つの方法を持つ総合リサイクルショップです。ただし店舗は東京・埼玉、出張は東京・埼玉・神奈川・千葉の一部地域のため、<strong>神戸からは宅配買取（全国送料無料・宅配キット無料）</strong>での利用になります。梱包して送るだけなので手軽に利用できます。</p>
 
@@ -350,7 +350,7 @@ export default function KobeGakkiKaitoriPage() {
           <h3>Qsic（キュージック）神戸本店 ── 三宮町さんプラザ3F（三宮・元町から徒歩圏）</h3>
           <p>買取方式：店頭/出張/宅配（宅配は当店着払いで送料無料）。神戸の中古楽器専門店。弦楽器中心(Gibson/Fender/Martin、ヴィンテージも)。営業時間は平日12:00〜19:00・土日祝11:00〜19:30、水曜定休（祝日の場合は翌日）。試奏動画配信（<a href="https://www.qsic.jp/?mode=f9" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 三宮オーパ店 ── 三宮オーパ5F・7F（三宮駅）</h3>
-          <p>買取方式：店頭/出張(ピアノ・電子ピアノ・防音室)/Web査定。1点から受付。営業時間11:00〜21:00。持込で査定5%UP・島村楽器での購入品5%UP・下取10%UP（最大20%UP・ピアノは対象外）。2026年10月18日時点ではローランド電子ドラムの買取10%UPキャンペーンを実施中。買取代金は銀行振込のみ（現金払いなし）。※周辺小物・和楽器は対象外（<a href="https://www.shimamura.co.jp/shop/koube/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
+          <p>買取方式：店頭/出張(ピアノ・電子ピアノ・防音室)/Web査定。1点から受付。営業時間11:00〜21:00。持込で査定5%UP・島村楽器での購入品5%UP・下取10%UP（最大20%UP・ピアノは対象外）。2026年11月28日時点では「弾き継ぐアコギ！」「一本からのギター整理応援！」「ベース機材の見直し応援！」「次のサウンドへペダルをつなぐ！」の4つの買取10%UPキャンペーンを実施中（対象と期間は公式で確認してください）。買取代金は銀行振込のみ（現金払いなし）。※周辺小物・和楽器は対象外（<a href="https://www.shimamura.co.jp/shop/koube/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>島村楽器 イオンモール神戸北店 ── 北区・イオンモール神戸北</h3>
           <p>買取方式：店頭(下取/買取/中古販売)。郊外モール内店舗（<a href="https://www.shimamura.co.jp/shop/kobe-k/used/" target="_blank" rel="nofollow noopener" className="underline">公式店舗情報</a>）</p>
           <h3>ハードオフ（市内複数：玉津店=西区/鈴蘭台店=北区/星陵台店=垂水区/灘店=灘区） ── 西区・北区・垂水区・灘区ほか</h3>
@@ -414,7 +414,7 @@ export default function KobeGakkiKaitoriPage() {
                 <svg className="w-5 h-5 text-warm-gray shrink-0 faq-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-5 pb-4 text-sm text-warm-gray leading-relaxed">
-                はい、ティファナの宅配買取なら神戸からも利用できます。なお、ティファナの宅配買取は2026年11月27日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定額に納得できず返却を希望する場合の返送料も無料です（取扱対象外の品は送料自己負担）。送れる段ボールは1箱・最大140サイズまでのため、ギターケースなど大きなものは事前にご確認ください。
+                はい、ティファナの宅配買取なら神戸からも利用できます。なお、ティファナの宅配買取は2026年11月28日時点で一時停止中です（公式のお知らせ）。送料・宅配キットは無料で、査定額に納得できず返却を希望する場合の返送料も無料です（取扱対象外の品は送料自己負担）。送れる段ボールは1箱・最大140サイズまでのため、ギターケースなど大きなものは事前にご確認ください。
               </div>
             </details>
           </div>
