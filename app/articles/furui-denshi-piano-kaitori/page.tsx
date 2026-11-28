@@ -283,7 +283,7 @@ export default function Page() {
         </div>
         <p className="text-xs text-warm-gray mb-4">集計：当サイト（上の{RECORDS.length}件から計算）。</p>
         <p className="text-sm leading-relaxed mb-4">
-          8年以上の{OLD.length}件と8年未満の{NEW.length}件で、中央値に大きな差は出ていません。これは年式が古いほど高いという意味ではなく、
+          中央値は8年以上の{OLD.length}件が{yen(median(OLD.map((r) => r.price)))}、8年未満の{NEW.length}件が{yen(median(NEW.map((r) => r.price)))}で、古い年式のほうが高く出ています。これは年式が古いほど高く売れるという意味ではなく、
           <strong>古い年式で実績に載っているのが主にクラビノーバ（CLPシリーズ）の上位寄りの機種</strong>で、新しい年式にはカシオのポータブル型など価格帯の低い機種が多く含まれているためです。
           件数は少なく、機種の構成もそろっていないため、相場の目安ではなく「製造から8年以上でも買取の実績がある機種がある」ことを示す資料としてご覧ください。
         </p>
